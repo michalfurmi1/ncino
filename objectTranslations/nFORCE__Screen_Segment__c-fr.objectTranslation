@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Ordre</label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <label>Section de l&apos;écran</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>Les segments d&apos;écran</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Écran</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>Les segments d&apos;écran</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Bulk Update</masterLabel>
+            <translation>Mise à jour en vrac</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk Update Field Grid</masterLabel>
+            <translation>Mise à jour en vrac Champ Grille</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Valor de mercado actual</label>
+        <name>nRetail__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Inmobiliaria Código del Estado</label>
+        <name>nRetail__DTI__c</name>
+    </fields>
+    <fields>
+        <label>El código de estado de los bienes inmueb</label>
+        <name>nRetail__Fees__c</name>
+    </fields>
+    <fields>
+        <label>Calle Real Estate</label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel>Opciones de Precios</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo de inmueble</label>
+        <name>nRetail__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de interés</label>
+        <name>nRetail__Rate__c</name>
+    </fields>
+    <fields>
+        <label>CP Inmobiliaria</label>
+        <name>nRetail__Term__c</name>
+    </fields>
+    <fields>
+        <label>El código postal de 5 dígitos para el se</label>
+        <name>nRetail__Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label>Identificación rama</label>
+        <name>nRetail__Total_Interest__c</name>
+    </fields>
+    <fields>
+        <label>Ciudad</label>
+        <name>nRetail__Total_Principal__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

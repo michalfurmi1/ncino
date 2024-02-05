@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Sélectionnez la base pour les frais de pourcentage, comme le montant du prêt, le total des intérêts, ou un autre champ de prêt.</help>
+        <label>Source de base</label>
+        <name>LLC_BI__Basis_Source__c</name>
+        <picklistValues>
+            <masterLabel>Loan Amount</masterLabel>
+            <translation>Montant du prêt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Catégorie</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Fees Management</masterLabel>
+            <translation>Gestion des frais</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Inclus dans avril</label>
+        <name>LLC_BI__Checkbox_1__c</name>
+    </fields>
+    <fields>
+        <label>est multiple</label>
+        <name>LLC_BI__Checkbox_2__c</name>
+    </fields>
+    <fields>
+        <label>Ajouter au ministère des Finances Charge</label>
+        <name>LLC_BI__Checkbox_3__c</name>
+    </fields>
+    <fields>
+        <label>4 cases à cocher</label>
+        <name>LLC_BI__Checkbox_4__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__CounterCount__c</name>
+    </fields>
+    <fields>
+        <label>frais Montant</label>
+        <name>LLC_BI__Currency_Field_1__c</name>
+    </fields>
+    <fields>
+        <label>Date de fin</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>C&apos;est actif</label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le pourcentage que vous voulez que le système à utiliser pour calculer les frais en fonction de la valeur de base.</help>
+        <label>Pourcentage</label>
+        <name>LLC_BI__Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Type de frais</label>
+        <name>LLC_BI__Picklist_1__c</name>
+        <picklistValues>
+            <masterLabel>Application Fee</masterLabel>
+            <translation>Frais d&apos;inscription</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>Évaluation agréée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Avocat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Appraisal</masterLabel>
+            <translation>évaluation des consommateurs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Attorney Closing</masterLabel>
+            <translation>Fermeture du procureur à la consommation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Credit Report</masterLabel>
+            <translation>Rapport de crédit à la consommation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer DMV</masterLabel>
+            <translation>consommateurs DMV</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Flood</masterLabel>
+            <translation>Flood consommateurs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Non-RE Origination</masterLabel>
+            <translation>Biens de consommation non-RE Origination</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer RE Origination</masterLabel>
+            <translation>Consommateurs RE Origination</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Title Search</masterLabel>
+            <translation>Titre du consommateur Recherche</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Report</masterLabel>
+            <translation>Rapport de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMV</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood Determination Fee</masterLabel>
+            <translation>Frais de détermination des inondations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood Monitoring Fee</masterLabel>
+            <translation>Frais de surveillance des inondations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Recording</masterLabel>
+            <translation>Enregistrement du gouvernement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeowner&apos;s Insurance</masterLabel>
+            <translation>L&apos;assurance habitation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homeowner&apos;s Insurance Premium</masterLabel>
+            <translation>Prime d&apos;assurance de propriétaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Origination</masterLabel>
+            <translation>prêt Origination</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage Insurance</masterLabel>
+            <translation>assurance hypothécaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage Insurance Premium</masterLabel>
+            <translation>Prime d&apos;assurance hypothécaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pest Inspection Fee</masterLabel>
+            <translation>Frais d&apos;inspection Pest</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaid Interest</masterLabel>
+            <translation>intérêts payés d&apos;avance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Taxes</masterLabel>
+            <translation>Impôts fonciers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recording Fees and Other Taxes</masterLabel>
+            <translation>Honoraires et autres taxes d&apos;enregistrement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA Fee</masterLabel>
+            <translation>Frais SBA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement/Close</masterLabel>
+            <translation>Règlement / Fermer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Tax Stamps</masterLabel>
+            <translation>Timbres fiscaux de l&apos;État</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation>Sondage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey Fee</masterLabel>
+            <translation>Frais d&apos;enquête</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Monitoring Fee</masterLabel>
+            <translation>Taxe Frais de surveillance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Status Research Fee</masterLabel>
+            <translation>Statut fiscal des frais de recherche</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title - Insurance Binder</masterLabel>
+            <translation>Titre - Binder assurance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title - Lender&apos;s Title Policy</masterLabel>
+            <translation>Titre - Titre de la politique du prêteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title - Owner&apos;s Title Policy (Optional)</masterLabel>
+            <translation>Titre - Titre de la politique du propriétaire (en option)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title - Settlement Agent Fee</masterLabel>
+            <translation>Titre - Frais d&apos;agent de règlement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title - Title Search</masterLabel>
+            <translation>Titre - Titre Recherche</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Insurance</masterLabel>
+            <translation>Titre assurance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Search</masterLabel>
+            <translation>Recherche de titre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer Taxes</masterLabel>
+            <translation>Taxes de transfert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting Fee</masterLabel>
+            <translation>Frais de prise ferme</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Payé par</label>
+        <name>LLC_BI__Picklist_2__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation>Emprunteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>Prêteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation>Vendeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>code de frais</label>
+        <name>LLC_BI__Picklist_3__c</name>
+        <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation>1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>002</masterLabel>
+            <translation>2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>003</masterLabel>
+            <translation>3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>004</masterLabel>
+            <translation>4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>005</masterLabel>
+            <translation>5</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de calcul</label>
+        <name>LLC_BI__Picklist_4__c</name>
+        <picklistValues>
+            <masterLabel>Flat Amount</masterLabel>
+            <translation>Montant plat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation>Pourcentage</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Sélectionnez le type d&apos;enregistrement de la redevance, le coût ou l&apos;ajustement.</help>
+        <label>Type d&apos;enregistrement</label>
+        <name>LLC_BI__Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjustments</masterLabel>
+            <translation>ajustements</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costs</masterLabel>
+            <translation>Frais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees</masterLabel>
+            <translation>Honoraires</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Peupler ce champ facultatif avec le nom de la section de l&apos;écran pour déterminer les champs affichés à un utilisateur pour l&apos;achèvement lors de l&apos;ajout de frais à un prêt.</help>
+        <label>Section de l&apos;écran</label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel>Les enregistrements de gabarit</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date de début</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Champ de texte 1</label>
+        <name>LLC_BI__Text_Field_1__c</name>
+    </fields>
+    <fields>
+        <label>Étape</label>
+        <name>LLC_BI__Text_Field_2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Il est utilisé pour déterminer le type de coût du prêt pour TRID. Cela associe les frais appropriés pour les catégories estimation de prêt et la divulgation de clôture.</help>
+        <label>Coût du prêt</label>
+        <name>Loan_Cost_Category__c</name>
+        <picklistValues>
+            <masterLabel>Loan Cost</masterLabel>
+            <translation>Coût du prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Cost</masterLabel>
+            <translation>autres coûts</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ceci détermine un autre niveau de calculs TRID</help>
+        <label>Coût du prêt Sous-catégorie</label>
+        <name>Loan_Cost_Subcategory__c</name>
+        <picklistValues>
+            <masterLabel>Initial Escrow Payment at Closing</masterLabel>
+            <translation>Tiers de confiance Paiement initial à la clôture</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Origination Charges</masterLabel>
+            <translation>Frais Origination</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaids</masterLabel>
+            <translation>prepaids</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services You Can Shop For</masterLabel>
+            <translation>Services Vous pouvez acheter des</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services You Cannot Shop For</masterLabel>
+            <translation>Services Vous ne pouvez pas magasiner pour</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxes and Other Government Fees</masterLabel>
+            <translation>Taxes et autres frais gouvernementaux</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description>Modèle pour la gestion des frais</description>
+        <label>Frais de gestion Type d&apos;enregistrement</label>
+        <name>LLC_BI__Fee_Management_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type de démarrage d&apos;enregistrement pour Sélectionner un modèle vrai</description>
+        <label>À partir Type d&apos;enregistrement</label>
+        <name>LLC_BI__Starting_Record_Type</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Les valeurs sont saisies pour assurer Base Source et pourcentage de sorte que le système peut calculer le type de calcul de pourcentage.</errorMessage>
+        <name>LLC_BI__Percentage_Fee_Required_Fields</name>
+    </validationRules>
+</CustomObjectTranslation>

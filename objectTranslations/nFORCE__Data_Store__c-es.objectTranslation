@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Media es una media aritmética de los valores. Utilice este campo si los informes analíticos subyacentes en promedio.</help>
+        <label>El éxito de la última acción Fecha</label>
+        <name>nFORCE__Average__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo si los informes de datos analíticos subyacentes sobre el recuento. Count es un recuento de los campos de datos</help>
+        <label>Versión</label>
+        <name>nFORCE__Count__c</name>
+    </fields>
+    <fields>
+        <label>Traducciones de características</label>
+        <name>nFORCE__Currency_10__c</name>
+    </fields>
+    <fields>
+        <label>Característica</label>
+        <name>nFORCE__Currency_1__c</name>
+    </fields>
+    <fields>
+        <label>El campo Nombre de la API</label>
+        <name>nFORCE__Currency_2__c</name>
+    </fields>
+    <fields>
+        <label>API SObject Nombre</label>
+        <name>nFORCE__Currency_3__c</name>
+    </fields>
+    <fields>
+        <label>Etiqueta alternativa</label>
+        <name>nFORCE__Currency_4__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es opcional y debe rellenarse</label>
+        <name>nFORCE__Currency_5__c</name>
+    </fields>
+    <fields>
+        <label>Valor por defecto</label>
+        <name>nFORCE__Currency_6__c</name>
+    </fields>
+    <fields>
+        <label>Permite la configuración de un valor pre</label>
+        <name>nFORCE__Currency_7__c</name>
+    </fields>
+    <fields>
+        <label>Sugerencia campo</label>
+        <name>nFORCE__Currency_8__c</name>
+    </fields>
+    <fields>
+        <label>El texto que se mostrará como un marcado</label>
+        <name>nFORCE__Currency_9__c</name>
+    </fields>
+    <fields>
+        <help>la propiedad de datos de origen ID</help>
+        <label>Nombre del campo</label>
+        <name>nFORCE__Data_Source_Id__c</name>
+    </fields>
+    <fields>
+        <help>Una cadena que tiene una estructura de datos asociada se utiliza para describir una conexión a una fuente de datos.</help>
+        <label>Utilice este campo para definir los crit</label>
+        <name>nFORCE__Data_Source_Name__c</name>
+    </fields>
+    <fields>
+        <help>Fuente de datos será &quot;Salesforce Org&quot; para el análisis de todos los datos que viene de orgs niño. El objeto del almacén de datos, sin embargo, es lo suficientemente genérico para almacenar los datos de fuentes adicionales tales como la FDIC.</help>
+        <label>Regla Formato Descripción</label>
+        <name>nFORCE__Data_Source__c</name>
+        <picklistValues>
+            <masterLabel>Salesforce Org</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>formato Expresión</label>
+        <name>nFORCE__DateTime_10__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>Formato de validación activadas</label>
+        <name>nFORCE__DateTime_1__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>formato de los mensajes</label>
+        <name>nFORCE__DateTime_2__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>es editable</label>
+        <name>nFORCE__DateTime_3__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>Seleccione esta casilla para hacer que e</label>
+        <name>nFORCE__DateTime_4__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>Está oculto</label>
+        <name>nFORCE__DateTime_5__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>Es importante</label>
+        <name>nFORCE__DateTime_6__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>Es requerido</label>
+        <name>nFORCE__DateTime_7__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>Expresión de salida</label>
+        <name>nFORCE__DateTime_8__c</name>
+    </fields>
+    <fields>
+        <help>Un campo DateTime utiliza para agrupar.</help>
+        <label>Ruta</label>
+        <name>nFORCE__DateTime_9__c</name>
+    </fields>
+    <fields>
+        <label>Sección de pantalla</label>
+        <name>nFORCE__Decimal_10__c</name>
+    </fields>
+    <fields>
+        <label>Ruta configuración del campo</label>
+        <name>nFORCE__Decimal_1__c</name>
+    </fields>
+    <fields>
+        <label>Configuraciones de campo</label>
+        <name>nFORCE__Decimal_2__c</name>
+    </fields>
+    <fields>
+        <label>SLDS Tamaño de cuadrícula de columna</label>
+        <name>nFORCE__Decimal_3__c</name>
+    </fields>
+    <fields>
+        <label>Especificar el tamaño de la columna de l</label>
+        <name>nFORCE__Decimal_4__c</name>
+    </fields>
+    <fields>
+        <label>Nombre sObject</label>
+        <name>nFORCE__Decimal_5__c</name>
+    </fields>
+    <fields>
+        <label>Contenido tooltip</label>
+        <name>nFORCE__Decimal_6__c</name>
+    </fields>
+    <fields>
+        <label>Información sobre la herramienta Habilit</label>
+        <name>nFORCE__Decimal_7__c</name>
+    </fields>
+    <fields>
+        <label>Seleccione este campo para permitir una</label>
+        <name>nFORCE__Decimal_8__c</name>
+    </fields>
+    <fields>
+        <label>Información sobre la herramienta de text</label>
+        <name>nFORCE__Decimal_9__c</name>
+    </fields>
+    <fields>
+        <help>Fin del plazo para los datos capturados. Si los datos agregados es capturado al día, las fechas de inicio y final será el mismo día. Si los datos agregados es de una semana, la fecha de inicio y final sería una semana de diferencia.</help>
+        <label>De lista de selección botones activados</label>
+        <name>nFORCE__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>Los campos que se pueden agrupar en las medidas y dimensiones.</help>
+        <label>Usuario</label>
+        <name>nFORCE__Grouping_1__c</name>
+    </fields>
+    <fields>
+        <help>Los campos que se pueden agrupar en las medidas y dimensiones.</help>
+        <label>Activo</label>
+        <name>nFORCE__Grouping_2__c</name>
+    </fields>
+    <fields>
+        <help>Los campos que se pueden agrupar en las medidas y dimensiones.</help>
+        <label>lookupKey</label>
+        <name>nFORCE__Grouping_3__c</name>
+    </fields>
+    <fields>
+        <help>Los campos que se pueden agrupar en las medidas y dimensiones.</help>
+        <label>Nombre del objeto</label>
+        <name>nFORCE__Grouping_4__c</name>
+    </fields>
+    <fields>
+        <help>Los campos que se pueden agrupar en las medidas y dimensiones.</help>
+        <label>Está activo</label>
+        <name>nFORCE__Grouping_5__c</name>
+    </fields>
+    <fields>
+        <help>Fórmula para determinar si está sucio</help>
+        <label>última activación</label>
+        <name>nFORCE__Is_Dirty__c</name>
+    </fields>
+    <fields>
+        <help>Max es el mayor valor. Utilice este campo si los informes de datos analíticos subyacentes en máx.</help>
+        <label>Versión secundaria</label>
+        <name>nFORCE__Max__c</name>
+    </fields>
+    <fields>
+        <help>Min es el valor más pequeño. Utilice este campo si los informes de datos analíticos subyacentes en min.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Min__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_10__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_11__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_12__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_13__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_14__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_15__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_16__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_17__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_18__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_19__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_1__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_20__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_21__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_22__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_23__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_24__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_25__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_2__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_3__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_4__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_5__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_6__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_7__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_8__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de número utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Number_9__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Percent_10__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Percent_1__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Percent_2__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Percent_3__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Percent_4__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Percent_5__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Percent_6__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Percent_7__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Percent_8__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Percent_9__c</name>
+    </fields>
+    <fields>
+        <help>Enviar fecha y hora</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Send_Date_Time__c</name>
+    </fields>
+    <fields>
+        <help>El comienzo del marco de tiempo para los datos capturados.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo si los informes de datos analíticos subyacentes en suma. Suma es una función aditiva.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Sum__c</name>
+    </fields>
+    <fields>
+        <help>Una lista predefinida para ayudar en el filtrado de informes.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Tags__c</name>
+        <picklistValues>
+            <masterLabel>Login Count</masterLabel>
+            <translation>Iniciar sesión Conde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Analytics</masterLabel>
+            <translation>Analítica de usuarios</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_10__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_11__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_12__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_13__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_14__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_15__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_16__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_17__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_18__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_19__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_1__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_20__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_21__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_22__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Establecer campo Nombre de la API</label>
+        <name>nFORCE__Text_23__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Está activo</label>
+        <name>nFORCE__Text_24__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>última activación</label>
+        <name>nFORCE__Text_25__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_2__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>última Desactivación</label>
+        <name>nFORCE__Text_3__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>API de mensajería</label>
+        <name>nFORCE__Text_4__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_5__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_6__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_7__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_8__c</name>
+    </fields>
+    <fields>
+        <help>Un campo de texto utilizado para la agrupación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Text_9__c</name>
+    </fields>
+    <fields>
+        <help>Marca de tiempo es el tiempo de la instantánea analítica corrió en el organigrama niño.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Timestamp__c</name>
+    </fields>
+    <fields>
+        <help>nombre único para el almacén de datos que es un nombre de la instantánea que capturó la analítica de datos original. Los ejemplos pueden ser algo así como &quot;cuenta diaria de inicio de sesión&quot;, &quot;Recuento total del préstamo&quot;, etc ... Se utilizará este n</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Unique_Name__c</name>
+    </fields>
+    <fields>
+        <help>Valor de almacenamiento de datos es un valor genérico. Esto no es probable que se utiliza en la analítica de usuario, pero podría ser utilizado si la captura de datos de la FDIC u otra fuente.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Value__c</name>
+    </fields>
+    <fields>
+        <help>Clave para la consulta de unirse a la tabla base y la tabla de consulta.</help>
+        <label>última Desactivación</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>empuje de datos</label>
+        <name>nFORCE__Push_Data</name>
+    </webLinks>
+</CustomObjectTranslation>

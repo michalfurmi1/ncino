@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nSBA__Application__c</name>
+        <relationshipLabel>Changement de ownerships</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Valeur d&apos;évaluation de l&apos;activité exclusive de la valeur estimative des biens immobiliers et de l&apos;équipement. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Appr valeur WO Immobilier et équipement</label>
+        <name>nSBA__Appr_Value_WO_Real_Estate_And_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>évaluateur Fee</help>
+        <label>évaluateur Fee</label>
+        <name>nSBA__Appraiser_Fee__c</name>
+    </fields>
+    <fields>
+        <help>Nom de l&apos;entreprise Évaluateur (personne)</help>
+        <label>Nom de l&apos;évaluateur</label>
+        <name>nSBA__Appraiser_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;évaluateur accrédité en évaluation d&apos;entreprise (ABV)</help>
+        <label>Évaluateur Qualification ABV</label>
+        <name>nSBA__Appraiser_Qualification_ABV__c</name>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;évaluateur est un principal évaluateur agréé (ASA)</help>
+        <label>Évaluateur Qualification ASA</label>
+        <name>nSBA__Appraiser_Qualification_ASA__c</name>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;évaluateur est un analyste d&apos;évaluation accrédité (AVA)</help>
+        <label>Évaluateur Qualification AVA</label>
+        <name>nSBA__Appraiser_Qualification_AVA__c</name>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;évaluateur est certifié d&apos;entreprise Évaluateur (ABC)</help>
+        <label>Évaluateur de qualification ABC</label>
+        <name>nSBA__Appraiser_Qualification_CBA__c</name>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;évaluateur est expert-comptable certifié (CPA)</help>
+        <label>Évaluateur Qualification CPA</label>
+        <name>nSBA__Appraiser_Qualification_CPA__c</name>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;évaluateur est un analyste d&apos;évaluation certifié (CVA)</help>
+        <label>Évaluateur CVA Qualification</label>
+        <name>nSBA__Appraiser_Qualification_CVA__c</name>
+    </fields>
+    <fields>
+        <help>Contribution d&apos;actions de l&apos;acheteur - Emprunté</help>
+        <label>Emprunteur actions Montant</label>
+        <name>nSBA__Borrower_Equity_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Adresse du courtier.</help>
+        <label>Adresse Broker</label>
+        <name>nSBA__Broker_Address__c</name>
+    </fields>
+    <fields>
+        <help>Commission Courtier Montant.</help>
+        <label>Commission courtier</label>
+        <name>nSBA__Broker_Commission__c</name>
+    </fields>
+    <fields>
+        <help>Nom du courtier d&apos;affaires (personne) si le courtier a reçu une commission de la vente de l&apos;entreprise.</help>
+        <label>Nom du courtier</label>
+        <name>nSBA__Broker_Name__c</name>
+    </fields>
+    <fields>
+        <help>Nom du représentant courtier d&apos;affaires si le courtier a reçu une commission de la vente de l&apos;entreprise.</help>
+        <label>Représentant courtier</label>
+        <name>nSBA__Broker_Representative__c</name>
+    </fields>
+    <fields>
+        <help>Description de la contribution de capital en numéraire de l&apos;acheteur.</help>
+        <label>Acheteur actions de trésorerie Descripti</label>
+        <name>nSBA__Buyer_Equity_Cash_Description__c</name>
+    </fields>
+    <fields>
+        <help>La contribution des actions de l&apos;acheteur en espèces.</help>
+        <label>Acheteur Equity trésorerie</label>
+        <name>nSBA__Buyer_Equity_Cash__c</name>
+    </fields>
+    <fields>
+        <help>Immobilisations incorporelles - Valeur liste client / client.</help>
+        <label>Valeur Liste des clients</label>
+        <name>nSBA__Client_List_Value__c</name>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;évaluation externe de l&apos;entreprise n&apos;est pas nécessaire pour cet achat d&apos;entreprise financé par prêt SBA</help>
+        <label>Ext. Entreprise d&apos;évaluation non requis</label>
+        <name>nSBA__External_Evaluation_Not_Required__c</name>
+    </fields>
+    <fields>
+        <help>Immobilisations incorporelles - droits de franchise, les brevets, les marques, etc. valeur.</help>
+        <label>franchise Valeur</label>
+        <name>nSBA__Franchise_Value__c</name>
+    </fields>
+    <fields>
+        <help>Immobilisations incorporelles - valeur des écarts d&apos;acquisition.</help>
+        <label>Valeur des écarts d&apos;acquisition</label>
+        <name>nSBA__Goodwill_Value__c</name>
+    </fields>
+    <fields>
+        <help>Indique si Broker prend une commission ou non.</help>
+        <label>Est-Broker Commission</label>
+        <name>nSBA__Is_Broker_Commission__c</name>
+    </fields>
+    <fields>
+        <help>Immobilisations incorporelles - Licence de valeur (alcool, FCC, etc.).</help>
+        <label>Licence Valeur</label>
+        <name>nSBA__License_Value__c</name>
+    </fields>
+    <fields>
+        <help>Indique si les actifs achetés - machines et matériel est expertisé ou valeur comptable</help>
+        <label>Machinery Equipment Type d&apos;évaluation</label>
+        <name>nSBA__Machinery_Equipment_Evaluation_Type__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation>Valeur estimée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation>Réservations Valeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Actifs incorporels - Pacte de ne pas valeur concurrence.</help>
+        <label>Non Valeur complète</label>
+        <name>nSBA__Non_Complete_Value__c</name>
+    </fields>
+    <fields>
+        <help>Montant de la contribution de fonds autre acheteur.</help>
+        <label>Autres actions Montant</label>
+        <name>nSBA__Other_Equity_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Description de la contribution de fonds autre acheteur.</help>
+        <label>Autres actions Description de</label>
+        <name>nSBA__Other_Equity_Description__c</name>
+    </fields>
+    <fields>
+        <help>Description des autres actifs incorporels</help>
+        <label>Autres immobilisations incorporelles Des</label>
+        <name>nSBA__Other_Intangibles_Description__c</name>
+    </fields>
+    <fields>
+        <help>Autres actifs incorporels Valeur.</help>
+        <label>Autres immobilisations incorporelles Val</label>
+        <name>nSBA__Other_Intangibles_Value__c</name>
+    </fields>
+    <fields>
+        <help>Nom de l&apos;entreprise qui est acheté avec ce prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Nom de l&apos;entreprise achetée</label>
+        <name>nSBA__Purchased_Business_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indique si les actifs achetés - Montant de l&apos;immobilier est expertisé ou valeur comptable</help>
+        <label>Type d&apos;évaluation immobilière</label>
+        <name>nSBA__Real_Estate_Evaluation_Type__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation>Valeur estimée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation>Réservations Valeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique la somme de tous les financements du vendeur en attente plein pendant au moins 2 ans.</help>
+        <label>Vendeur Finance Plein veille</label>
+        <name>nSBA__Seller_Finance_Full_Standby__c</name>
+    </fields>
+    <fields>
+        <help>Indique la somme de tous les financements du vendeur pas en veille complète.</help>
+        <label>Vendeur Finance Non Plein veille</label>
+        <name>nSBA__Seller_Finance_Not_Full_Standby__c</name>
+    </fields>
+    <fields>
+        <help>Actifs achetés - Comptes à recevoir Montant</help>
+        <label>Total des débiteurs</label>
+        <name>nSBA__Total_Accounts_Receivable__c</name>
+    </fields>
+    <fields>
+        <help>Conclusion ou Résumé de la valeur de l&apos;évaluateur</help>
+        <label>Valeur totale estimative</label>
+        <name>nSBA__Total_Appraised_Value__c</name>
+    </fields>
+    <fields>
+        <help>Mobilier et agencements Montant</help>
+        <label>Équipement total de meubles</label>
+        <name>nSBA__Total_Furniture_Fixtures__c</name>
+    </fields>
+    <fields>
+        <help>Le montant en dollars des actifs incorporels.</help>
+        <label>Total des actifs incorporels</label>
+        <name>nSBA__Total_Intangible_Assets__c</name>
+    </fields>
+    <fields>
+        <help>Actifs achetés - Inventaire Montant</help>
+        <label>total des stocks</label>
+        <name>nSBA__Total_Inventory__c</name>
+    </fields>
+    <fields>
+        <help>Machines et matériel Montant</help>
+        <label>Équipement total machines</label>
+        <name>nSBA__Total_Machinery_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Description des autres actifs achetés.</help>
+        <label>Total des autres actifs Description de</label>
+        <name>nSBA__Total_Other_Assets_Description__c</name>
+    </fields>
+    <fields>
+        <help>Autres actifs (montant)</help>
+        <label>Total des autres actifs</label>
+        <name>nSBA__Total_Other_Assets__c</name>
+    </fields>
+    <fields>
+        <help>Actifs achetés - Montant de l&apos;immobilier</help>
+        <label>Domaine total réel</label>
+        <name>nSBA__Total_Real_Estate__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>pactos de fijación de precios</label>
+        <name>LLC_BI__ClonedFromLoanName__c</name>
+    </fields>
+    <fields>
+        <label>Reglas</label>
+        <name>LLC_BI__DeletedLoanName__c</name>
+    </fields>
+    <fields>
+        <label>Máxima puntuación de crédito</label>
+        <name>LLC_BI__HasActiveRenewalLoan__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es opcional número. El usuari</label>
+        <name>LLC_BI__Is_No_Action_Placeholder__c</name>
+    </fields>
+    <fields>
+        <label>Mínimo de puntuación de crédito</label>
+        <name>LLC_BI__NextRevisionNumber__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Original_Parent__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Original_Product_Package__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Este campo es opcional número. El usuari</label>
+        <name>LLC_BI__ParentLoanId__c</name>
+        <relationshipLabel>LoanRenewals (Padres Préstamo Id)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Este campo poblada sistema muestra el po</label>
+        <name>LLC_BI__PreviousRevisionNumber__c</name>
+    </fields>
+    <fields>
+        <label>Índice</label>
+        <name>LLC_BI__PreviousVersionStage__c</name>
+    </fields>
+    <fields>
+        <label>Este campo poblada sistema muestra el ín</label>
+        <name>LLC_BI__PreviousVersionStatus__c</name>
+    </fields>
+    <fields>
+        <label>Tasa de Interés por ciento de margen</label>
+        <name>LLC_BI__RenewalLoanId__c</name>
+        <relationshipLabel>LoanRenewals (Id Préstamo Renovación)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tasa de interés</label>
+        <name>LLC_BI__RevisionNumber__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es opcional ciento. El usuari</label>
+        <name>LLC_BI__RevisionStatus__c</name>
+    </fields>
+    <fields>
+        <label>Valor máximo del préstamo</label>
+        <name>LLC_BI__RootLoanId__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

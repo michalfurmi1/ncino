@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Punto y coma lista de roles que tienen permiso para aprobar el documento delimitada. Si se deja en blanco todos los papeles pueden aprobar el documento.</help>
+        <label>Refinanciar</label>
+        <name>LLC_BI__Approval_Roles__c</name>
+    </fields>
+    <fields>
+        <label>Lendable Valor - Total Monto del comprom</label>
+        <name>LLC_BI__Attorney__c</name>
+    </fields>
+    <fields>
+        <label>Propiedad residencial</label>
+        <name>LLC_BI__Auto_Esign__c</name>
+    </fields>
+    <fields>
+        <label>Asegurado por el interés en bienes inmue</label>
+        <name>LLC_BI__Criteria__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Document_Id_Mapping__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__E_Vault__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>LLC_BI__ExpansionLh__c</name>
+    </fields>
+    <fields>
+        <label>seleccionar manualmente el estado compro</label>
+        <name>LLC_BI__ExpansionRe__c</name>
+    </fields>
+    <fields>
+        <label>Tercera empresa</label>
+        <name>LLC_BI__Placeholder_Viewer_Groups__c</name>
+    </fields>
+    <fields>
+        <label>Estado de Terceros</label>
+        <name>LLC_BI__Placeholder_Viewer_Profiles__c</name>
+    </fields>
+    <fields>
+        <label>Third Street Party Dirección</label>
+        <name>LLC_BI__Portal_Doc_Description__c</name>
+    </fields>
+    <fields>
+        <label>Terceros Código Postal</label>
+        <name>LLC_BI__Portal_Doc_Name__c</name>
+    </fields>
+    <fields>
+        <label>Total acumulativo de Colateral Valor len</label>
+        <name>LLC_BI__Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Valor total acumulativo de Colateral</label>
+        <name>LLC_BI__RefinanceLh__c</name>
+    </fields>
+    <fields>
+        <label>Monto total Lien Excluidos</label>
+        <name>LLC_BI__RefinanceRe__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es un resumen de resumen de t</label>
+        <name>LLC_BI__Requirement__c</name>
+        <relationshipLabel>Listas de control de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Monto total de Lien</label>
+        <name>LLC_BI__Start_upLh__c</name>
+    </fields>
+    <fields>
+        <label>La suma de todos los gravámenes a cabo t</label>
+        <name>LLC_BI__Start_upRe__c</name>
+    </fields>
+    <fields>
+        <help>Punto y coma lista de funciones que se les permite ver el documento delimitada. Si está en blanco todos los papeles pueden ver el documento.</help>
+        <label>Monto total del compromiso</label>
+        <name>LLC_BI__Viewer_Roles__c</name>
+    </fields>
+    <fields>
+        <label>compra de dinero</label>
+        <name>LLC_BI__acquisitionLh__c</name>
+    </fields>
+    <fields>
+        <label>Propósito</label>
+        <name>LLC_BI__acquisitionRe__c</name>
+    </fields>
+    <fields>
+        <label>Valor residual</label>
+        <name>LLC_BI__clientView__c</name>
+    </fields>
+    <fields>
+        <label>En segundo lugar, Lien Posición Valor</label>
+        <name>LLC_BI__comments__c</name>
+    </fields>
+    <fields>
+        <label>Asegura avances futuros</label>
+        <name>LLC_BI__docClass__c</name>
+        <relationshipLabel>Listas de control de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Monto Costo suave</label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel>Listas de control de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>El porcentaje del valor de un activo cla</label>
+        <name>LLC_BI__docTab__c</name>
+        <relationshipLabel>Listas de control de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Estado de registro</label>
+        <name>LLC_BI__docType__c</name>
+        <relationshipLabel>Listas de control de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>El estado que este pedazo de colateral s</label>
+        <name>LLC_BI__dueDaysPrior__c</name>
+    </fields>
+    <fields>
+        <label>Dirección</label>
+        <name>LLC_BI__firstReview__c</name>
+    </fields>
+    <fields>
+        <label>La dirección a la que esta pieza de cola</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Subdivisión</label>
+        <name>LLC_BI__naOk__c</name>
+    </fields>
+    <fields>
+        <label>En tercer lugar, Lien Posición Valor</label>
+        <name>LLC_BI__onesToWatch__c</name>
+    </fields>
+    <fields>
+        <label>Propietario</label>
+        <name>LLC_BI__owner__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Abogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation>Más cerca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Construcción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Operaciones de préstamo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>mantenimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>Activos especiales</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Este campo es un resumen de resumen de t</label>
+        <name>LLC_BI__sortOrder__c</name>
+    </fields>
+    <fields>
+        <help>Punto y coma lista de roles que tienen permiso para aprobar el documento delimitada. Si se deja en blanco todos los papeles pueden aprobar el documento.</help>
+        <label>UCC vencimiento (Estado)</label>
+        <name>NDOC__Placeholder_Approval_Roles__c</name>
+    </fields>
+    <fields>
+        <label>UCC Estado presentación #</label>
+        <name>NDOC__Placeholder_Viewer_Roles__c</name>
+    </fields>
+    <fields>
+        <label>UCC Condado de presentación #</label>
+        <name>NDOC__description__c</name>
+    </fields>
+    <fields>
+        <label>UCC vencimiento (Condado)</label>
+        <name>NDOC__neededByStage__c</name>
+        <picklistValues>
+            <masterLabel>Approval / Loan Committee</masterLabel>
+            <translation>Comité de aprobación/de créditos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation>Registrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>Cierre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Completar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation>doc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Procesamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation>Propuesta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification / Application</masterLabel>
+            <translation>Calificación/Solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>Suscripción</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Frecuencia de valoración</label>
+        <name>NDOC__priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Crítico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Alto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Bajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Medio</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Utilisateur</label>
+        <name>User__c</name>
+        <relationshipLabel>Configurations de terrain</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Étiquette autre</label>
+        <name>nFORCE__Alternate_Label__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est facultatif et doit être manuellement peuplé. Il stocke la syntaxe Forms qui permet de dicter si un jeu de champ conditionnel doit être affiché.</help>
+        <label></label>
+        <name>nFORCE__Conditional_Display_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Permet de configurer une valeur par défaut qu&apos;un champ est rempli avec le chargement initial d&apos;un formulaire.</help>
+        <label>Valeur par défaut</label>
+        <name>nFORCE__Default_Value__c</name>
+    </fields>
+    <fields>
+        <help>Le texte qui affiche comme un espace réservé dans la zone d&apos;entrée, pour guider l&apos;utilisateur sur le formatage et la validation.</help>
+        <label>Conseil champ</label>
+        <name>nFORCE__Field_Hint__c</name>
+    </fields>
+    <fields>
+        <label>Nom de domaine</label>
+        <name>nFORCE__Field_Name__c</name>
+    </fields>
+    <fields>
+        <help>Utilisez ce champ pour définir des critères de filtre de recherche que le système utilise pour générer des résultats de recherche.</help>
+        <label>Critères de filtre</label>
+        <name>nFORCE__Filter_Criteria__c</name>
+    </fields>
+    <fields>
+        <label>Nom du filtre d&apos;affichage</label>
+        <name>nFORCE__Filter_Display_Name__c</name>
+    </fields>
+    <fields>
+        <help>Décrire l&apos;expression de format utilisé pour indiquer quels types d&apos;entrées sont acceptables.</help>
+        <label>Format Description de la règle</label>
+        <name>nFORCE__Format_Description__c</name>
+    </fields>
+    <fields>
+        <help>Si décoché, la règle définie pour l&apos;expression Format ne sera pas appliquée.</help>
+        <label>Format de validation Activé</label>
+        <name>nFORCE__Format_Enabled__c</name>
+    </fields>
+    <fields>
+        <help>Entrez une expression régulière en option pour appliquer un format particulier pour le contenu du champ.</help>
+        <label>Format expression</label>
+        <name>nFORCE__Format_Expression__c</name>
+    </fields>
+    <fields>
+        <help>Entrez un message pour afficher à l&apos;utilisateur lorsque leur entrée ne correspond pas au format spécifié dans l&apos;expression Format.</help>
+        <label>Format du message</label>
+        <name>nFORCE__Format_Message__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Is_Conditional_Lookup__c</name>
+    </fields>
+    <fields>
+        <label>est éditable</label>
+        <name>nFORCE__Is_Editable__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour rendre cette configuration de champ disponible pour une utilisation avec conditionnelle Lookups.</help>
+        <label>Est filtre actif</label>
+        <name>nFORCE__Is_Filter_Active__c</name>
+    </fields>
+    <fields>
+        <label>est-tête</label>
+        <name>nFORCE__Is_Header__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez ce paramètre pour cacher ce domaine sur les formes prises en charge.</help>
+        <label>Est caché</label>
+        <name>nFORCE__Is_Hidden__c</name>
+    </fields>
+    <fields>
+        <label>Est important</label>
+        <name>nFORCE__Is_Important__c</name>
+    </fields>
+    <fields>
+        <label>Est en lecture seule</label>
+        <name>nFORCE__Is_Read_Only__c</name>
+    </fields>
+    <fields>
+        <label>Est requis</label>
+        <name>nFORCE__Is_Required__c</name>
+    </fields>
+    <fields>
+        <help>Entrez une expression de formatage pour afficher la valeur de ce champ sous forme de texte.</help>
+        <label>Expression de sortie</label>
+        <name>nFORCE__Output_Expression__c</name>
+    </fields>
+    <fields>
+        <help>Spécifiez la route que cette configuration le terrain s&apos;appliquera, sinon il sera appliqué partout.</help>
+        <label></label>
+        <name>nFORCE__Route__c</name>
+        <relationshipLabel>Champ Route Configuration</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indiquez la taille de la colonne de la grille SLDS ce champ doit couvrir. Ce nombre sera divisé en 1 pour obtenir le pourcentage de la ligne du champ SPAN. Par exemple, une valeur de 3 correspondra à 33,333% de la ligne.</help>
+        <label>Grille SLDS colonne Taille</label>
+        <name>nFORCE__SLDS_Column_Size__c</name>
+    </fields>
+    <fields>
+        <label>Section de l&apos;écran</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>Configurations de terrain</relationshipLabel>
+    </fields>
+    <fields>
+        <label>infobulle Sommaire</label>
+        <name>nFORCE__Tooltip_Contents__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour activer une info-bulle pour ce champ.</help>
+        <label>Activé infobulle</label>
+        <name>nFORCE__Tooltip_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>texte infobulle</label>
+        <name>nFORCE__Tooltip_Text__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Nom sObject</label>
+        <name>nFORCE__sObject_Name__c</name>
+    </fields>
+    <fields>
+        <help>Si ce champ étant configuré est une liste de sélection, sélectionnez cette option pour rendre la liste de sélection comme un ensemble de boutons sélectionnables.</help>
+        <label>Boutons PickList Activé</label>
+        <name>nPortal__Picklist_Buttons_Enabled__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Un champ ne peut être à la fois éditable et en lecture seule.</errorMessage>
+        <name>nFORCE__Editable_or_Read_Only</name>
+    </validationRules>
+</CustomObjectTranslation>

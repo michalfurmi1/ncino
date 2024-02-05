@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Durée de maintenance acceptable</label>
+        <name>Acceptable_Maintenance_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Appliquer à Checking Existant compte</label>
+        <name>Apply_to_Existing_Checking_Account__c</name>
+    </fields>
+    <fields>
+        <label>Appliquer à tous les comptes</label>
+        <name>Apply_to_all_accounts__c</name>
+    </fields>
+    <fields>
+        <label>Paiement de facture</label>
+        <name>Bill_Pay__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de carte</label>
+        <name>Card_Number__c</name>
+    </fields>
+    <fields>
+        <label>Activer les notifications par e-mail</label>
+        <name>Enable_Email_Notifications__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Lockbox Fréquence des rapports</label>
+        <name>Enable_Lockbox_Reporting__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Tous les ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Weekly</masterLabel>
+            <translation>Aux deux semaines</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Semestriellement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Hebdomadaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>est-Maintenance</label>
+        <name>Is_Maintenance__c</name>
+    </fields>
+    <fields>
+        <label>identifiant de compte</label>
+        <name>LLC_BI__Account_ID__c</name>
+    </fields>
+    <fields>
+        <help>Utilisez ce champ de recherche pour associer un dossier de demande à ce dossier de service de la trésorerie.</help>
+        <label>Demande</label>
+        <name>LLC_BI__Application__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Service de chambre de compensation autom</label>
+        <name>LLC_BI__Automated_Clearing_House_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Branche</label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Numéro de carte</label>
+        <name>LLC_BI__Card_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Cash_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>agent commercial</label>
+        <name>LLC_BI__Commercial_Officer__c</name>
+        <relationshipLabel>Service de trésorerie (agent commercial)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ contient l&apos;identifiant de l&apos;objet à partir duquel le service du Trésor a été converti</help>
+        <label>Objet de conversion</label>
+        <name>LLC_BI__Conversion_Object__c</name>
+    </fields>
+    <fields>
+        <label>Mémo de crédit</label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ détermine la page par défaut de l&apos;interface utilisateur nCino pour cet enregistrement.</help>
+        <label>Demande</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Service de dépôt</label>
+        <name>LLC_BI__Depository_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Service Décaissement</label>
+        <name>LLC_BI__Disbursement_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <help>date la plus rapprochée pour la configuration des produits.</help>
+        <label>Date effective</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>Le premier mois que le client doit être facturé pour leurs services de gestion de trésorerie.</help>
+        <label>Premier mois de facturation</label>
+        <name>LLC_BI__First_Billing_Month__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation>avril</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation>août</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation>décembre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation>février</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation>janvier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation>juillet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation>juin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation>Mars</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation>Peut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation>novembre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation>octobre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation>septembre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Instructions de mise en œuvre</label>
+        <name>LLC_BI__Implementation_Instructions__c</name>
+    </fields>
+    <fields>
+        <label>Est-carte ATM</label>
+        <name>LLC_BI__Is_ATM_Card__c</name>
+    </fields>
+    <fields>
+        <label>Est actif</label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>Service de case postale</label>
+        <name>LLC_BI__Lockbox_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Maintenance_App__c</name>
+    </fields>
+    <fields>
+        <label>Divers service</label>
+        <name>LLC_BI__Miscellaneous_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Services bancaires en ligne</label>
+        <name>LLC_BI__Online_Banking_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Le consentement découvert</label>
+        <name>LLC_BI__Overdraft_Consent__c</name>
+        <picklistValues>
+            <masterLabel>Refuse overdraft service</masterLabel>
+            <translation>Refusez service de découvert bancaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request overdraft service</masterLabel>
+            <translation>Demande de service de découvert bancaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Détail de l’offre</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Services de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produit</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Motif de suspension / Annuler</label>
+        <name>LLC_BI__Reason_for_Suspend_Cancel__c</name>
+        <picklistValues>
+            <masterLabel>Client Resource Availability</masterLabel>
+            <translation>Disponibilité des ressources client</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Technical Requirements</masterLabel>
+            <translation>Exigences techniques des clients</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Provider Delay</masterLabel>
+            <translation>Retard fournisseur actuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service No Longer Needed</masterLabel>
+            <translation>Service ne sont plus nécessaires</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Delay</masterLabel>
+            <translation>Délai Vendor</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Service de réconciliation</label>
+        <name>LLC_BI__Reconciliation_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Relation</label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Capture Service de dépôt à distance</label>
+        <name>LLC_BI__Remote_Deposit_Capture_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>service de rapport</label>
+        <name>LLC_BI__Reporting_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Scénario</label>
+        <name>LLC_BI__Scenario__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Étape</label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation>la mise en oeuvre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Entry</masterLabel>
+            <translation>Saisie des ordres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup Complete</masterLabel>
+            <translation>installation terminée</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Actif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Annulé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expiré</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>En attente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Service de balayage</label>
+        <name>LLC_BI__Sweep_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>TM Officer</label>
+        <name>LLC_BI__TM_Officer__c</name>
+        <relationshipLabel>Service de trésorerie (agent TM)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Agence de presse</label>
+        <name>LLC_BI__Wire_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Zéro Solde du compte de service</label>
+        <name>LLC_BI__Zero_Balance_Account_Service__c</name>
+        <relationshipLabel>Service de trésorerie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Service de trésorerie Numéro</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Lockbox Compte Titre</label>
+        <name>Lockbox_Account_Title__c</name>
+    </fields>
+    <fields>
+        <label>Nombre lockbox</label>
+        <name>Lockbox_Number__c</name>
+    </fields>
+    <fields>
+        <label>Durée de maintenance</label>
+        <name>Maintenance_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Entretien Heure de fin</label>
+        <name>Maintenance_End_Time__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Maintenance_Start_Time__c</name>
+    </fields>
+    <fields>
+        <label>Statut d&apos;entretien (texte)</label>
+        <name>Maintenance_Status_Text__c</name>
+    </fields>
+    <fields>
+        <label>Statut d&apos;entretien</label>
+        <name>Maintenance_Status__c</name>
+    </fields>
+    <fields>
+        <label>Changements de la Maintenance Tâche Pour</label>
+        <name>Maintenance_Task_Changes_To_Make__c</name>
+    </fields>
+    <fields>
+        <label>Nom à inscrire sur les chèques</label>
+        <name>Name_to_Appear_on_Checks__c</name>
+    </fields>
+    <fields>
+        <label>Remarques</label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label>Découvert opt-in</label>
+        <name>Overdraft_Opt_in__c</name>
+    </fields>
+    <fields>
+        <label>ÉPINGLE</label>
+        <name>PIN__c</name>
+    </fields>
+    <fields>
+        <label>Adresse de contact primaire</label>
+        <name>Primary_Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label>Contact principal Ville</label>
+        <name>Primary_Contact_City__c</name>
+    </fields>
+    <fields>
+        <label>État de contact principal</label>
+        <name>Primary_Contact_State__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arizona</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation>Floride</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation>Louisiane</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation>Nouveau Mexique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation>Dakota du nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wyoming</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Contact principal postal</label>
+        <name>Primary_Contact_ZIP__c</name>
+    </fields>
+    <fields>
+        <label>Premier contact</label>
+        <name>Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <label>A partir Check #</label>
+        <name>Starting_Check__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;entretien</label>
+        <name>Type_of_Maintenance__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>Ajouter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>Changement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation>Effacer</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nom d&apos;utilisateur</label>
+        <name>User_Name__c</name>
+    </fields>
+    <fields>
+        <label>vérifier PIN</label>
+        <name>Verify_PIN__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Commencez la mise en œuvre</label>
+        <name>Begin_Implementation</name>
+    </webLinks>
+    <webLinks>
+        <label>Créer des tâches de maintenance</label>
+        <name>Create_Maintenance_Task</name>
+    </webLinks>
+    <webLinks>
+        <label>Formulaire de génération</label>
+        <name>Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label>Mémo de crédit</label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label>Formulaire de génération</label>
+        <name>LLC_BI__Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>LLC_BI__Mass_Actions</name>
+    </webLinks>
+    <webLinks>
+        <label>Saisie des ordres</label>
+        <name>LLC_BI__Order_Entry</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Peupler ce champ pour apparaître dans le changement de convention Conditions pour CSi DocPrep</help>
+        <label>modification description de</label>
+        <name>CSiDP__Modification_Description__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ identifie les types de documents que l&apos;emprunteur doit fournir au prêteur une modification de prêt.</help>
+        <label>Modification Type de document</label>
+        <name>CSiDP__Modification_Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Returns only the Change in Terms Agreement in lieu of the Commercial Promissory Note; does not return the collateral documents.</masterLabel>
+            <translation>Retours seulement le changement de convention Conditions en lieu et place du Promissory commerciale Remarque; ne retourne pas les documents de garantie.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returns only the modified Commercial Promissory Note; does not return the collateral documents.</masterLabel>
+            <translation>Retours seulement le Promissory commercial modifié note; ne retourne pas les documents de garantie.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returns the Change in Terms Agreement in lieu of the Commercial Promissory Note, and the accompanying collateral documents.</masterLabel>
+            <translation>Renvoie la modification de convention Conditions en lieu et place du Promissory commercial Note, ainsi que les documents de garantie accompagnant.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returns the modified Commercial Promissory Note, and the accompanying collateral documents.</masterLabel>
+            <translation>Renvoie la note Promissory commerciaux modifiés, ainsi que les documents de garantie accompagnant.</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Modification du montant du prêt</label>
+        <name>LLC_BI__Amount_Change__c</name>
+    </fields>
+    <fields>
+        <label>Accord requis</label>
+        <name>LLC_BI__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label>Statut de l’accord</label>
+        <name>LLC_BI__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>Revue en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Approved</masterLabel>
+            <translation>Pas approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeté</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Modification de la garantie</label>
+        <name>LLC_BI__Collateral_Change__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est utilisé pour déterminer la page de destination par défaut pour ce prêt dans l’interface utilisateur nCino.</help>
+        <label>Application par défaut</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Modification de l’injection de capital</label>
+        <name>LLC_BI__Equity_Injection_Change__c</name>
+    </fields>
+    <fields>
+        <label>Garant ajouté</label>
+        <name>LLC_BI__Guarantor_Added__c</name>
+    </fields>
+    <fields>
+        <label>Garant retiré</label>
+        <name>LLC_BI__Guarantor_Removed__c</name>
+    </fields>
+    <fields>
+        <label>Modification de l’assurance-vie</label>
+        <name>LLC_BI__Life_Insurance_Change__c</name>
+    </fields>
+    <fields>
+        <help>Modification du taux d’intérêt, de la durée, etc.</help>
+        <label>Modification de la durée du prêt</label>
+        <name>LLC_BI__Loan_Term_Change__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Notes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Type de note</label>
+        <name>LLC_BI__Memo_Type__c</name>
+        <picklistValues>
+            <masterLabel>Change Memo</masterLabel>
+            <translation>Note de changement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contingent Approval</masterLabel>
+            <translation>Accord de la responsabilité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Counter Offer</masterLabel>
+            <translation>Contre-offre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nouveau taux requis</label>
+        <name>LLC_BI__New_Rate_Requested__c</name>
+    </fields>
+    <fields>
+        <label>Notifier l’avocat</label>
+        <name>LLC_BI__Notify_Attorney__c</name>
+    </fields>
+    <fields>
+        <label>Autre</label>
+        <name>LLC_BI__Other__c</name>
+    </fields>
+    <fields>
+        <label>Éléments postérieurs à la clôture</label>
+        <name>LLC_BI__Post_Close_Items__c</name>
+    </fields>
+    <fields>
+        <label>Nouvel accord après expiration</label>
+        <name>LLC_BI__Re_approval_After_Expiration__c</name>
+    </fields>
+    <fields>
+        <help>Cocher cette case lorsque la modification du prêt peut être envoyée pour accord.</help>
+        <label>Prêt pour accord</label>
+        <name>LLC_BI__Ready_for_Approval__c</name>
+    </fields>
+    <fields>
+        <label>Modification de la note du vendeur</label>
+        <name>LLC_BI__Seller_Note_Change__c</name>
+    </fields>
+    <fields>
+        <label>Modification de l’utilisation du produit</label>
+        <name>LLC_BI__Use_of_Proceeds_Change__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__User_Initiated__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Soumettre</label>
+        <name>LLC_BI__Submit</name>
+    </webLinks>
+</CustomObjectTranslation>

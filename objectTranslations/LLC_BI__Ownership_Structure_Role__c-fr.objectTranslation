@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Peupler ce domaine avec le code de rôle correspondant.</help>
+        <label>code de nCino</label>
+        <name>CSIDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <label>C&apos;est actif</label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_Authorized_Business__c</name>
+    </fields>
+    <fields>
+        <label>Est autorisé Signataire</label>
+        <name>LLC_BI__Is_Authorized_Signer__c</name>
+    </fields>
+    <fields>
+        <label>Est requis</label>
+        <name>LLC_BI__Is_Required__c</name>
+    </fields>
+    <fields>
+        <label>Structure de propriété type</label>
+        <name>LLC_BI__Ownership_Structure_Type__c</name>
+        <relationshipLabel>Rôles Structure de propriété</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Relation</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <label>Description du rôle</label>
+        <name>LLC_BI__Role_Description__c</name>
+    </fields>
+    <fields>
+        <help>Une description des autres droits à option de mort.</help>
+        <label>La description</label>
+        <name>WKDDP__Description__c</name>
+    </fields>
+    <fields>
+        <help>Indiquez si le pouvoir des avocats pour le titulaire peut exercer ses pouvoirs indépendamment ou conjointement.</help>
+        <label>Type d&apos;exercice</label>
+        <name>WKDDP__Exercise_Type__c</name>
+        <picklistValues>
+            <masterLabel>Independently</masterLabel>
+            <translation>Indépendamment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jointly</masterLabel>
+            <translation>Conjointement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Cochez la case pour indiquer un document vrai pouvoir distinct (POA) est souhaitée. Sinon, laissez la case décochée.</help>
+        <label>Formulaire Procuration Indicateur</label>
+        <name>WKDDP__Form_Power_Of_Attorney_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Cochez la case pour indiquer que tout agent personnel affecté sur le compte est durable.</help>
+        <label>Agent personnel Indicateur durable</label>
+        <name>WKDDP__Personal_Agent_Durable_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Entrez la description de la relation entre le fiduciaire (POA) et le compte.</help>
+        <label>description de la relation</label>
+        <name>WKDDP__Relationship_Description__c</name>
+    </fields>
+    <fields>
+        <help>Peupler ce domaine avec le code de rôle correspondant.</help>
+        <label>code de nCino</label>
+        <name>WKDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <help>Peupler ce domaine avec le code de rôle correspondant.</help>
+        <label>code de nCino</label>
+        <name>nCino_Code__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

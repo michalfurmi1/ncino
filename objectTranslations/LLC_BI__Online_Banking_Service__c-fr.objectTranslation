@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Logiciel de planification automatisée</label>
+        <name>LLC_BI__Automated_Scheduling_Software__c</name>
+    </fields>
+    <fields>
+        <label>Configuration de la communication</label>
+        <name>LLC_BI__Communication_Setup__c</name>
+        <picklistValues>
+            <masterLabel>FRP (File Transfer Protocol) with PGP Encrytion</masterLabel>
+            <translation>FRP (File Transfer Protocol) avec PGP cryptologie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFTP (Preferred)</masterLabel>
+            <translation>SFTP (préféré)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Limite de crédit</label>
+        <name>LLC_BI__Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label>ACH globale du client Limite</label>
+        <name>LLC_BI__Customer_Overall_ACH_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Date d&apos;activation</label>
+        <name>LLC_BI__Date_of_Activation__c</name>
+    </fields>
+    <fields>
+        <label>Limite de débit</label>
+        <name>LLC_BI__Debit_Limit__c</name>
+    </fields>
+    <fields>
+        <label>dual Control</label>
+        <name>LLC_BI__Dual_Control__c</name>
+    </fields>
+    <fields>
+        <label>Date d&apos;expiration / date de révision sui</label>
+        <name>LLC_BI__Expiration_Date_Date_of_Next_Review__c</name>
+    </fields>
+    <fields>
+        <label>Une fois le code d&apos;accès</label>
+        <name>LLC_BI__One_Time_Passcode__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Online_Banking_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Online_Banking_ID__c</name>
+    </fields>
+    <fields>
+        <label>Logiciel de planification Description de</label>
+        <name>LLC_BI__Scheduling_Software_Description__c</name>
+    </fields>
+    <fields>
+        <label>À partir numéro de chèque</label>
+        <name>LLC_BI__Starting_Check_Number__c</name>
+    </fields>
+    <fields>
+        <label>Service de la trésorerie de référence</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Services bancaires en ligne</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<apex:component layout="none" controller="csaLookupkeyGeneratorInstallerRemote" extensions="nFORCE.RemoteActionController">
+    <nFORCE:ncDataProvidersIncludes />
+    <nFORCE:ncUIIncludes />
+
+    <apex:includeScript value="{!URLFOR($Resource.csaLookupkeyGeneratorInstaller, 'application/App.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.csaLookupkeyGeneratorInstaller, 'application/Bootstrap.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.csaLookupkeyGeneratorInstaller, 'controllers/LookupkeyGeneratorInstallerController.controller.js')}"/>
+
+    <script type="text/javascript">
+        (function () {
+            'use strict';
+            angular.module('csaLookupkeyGeneratorInstaller').config(function (configProvider, labelProvider) {
+                configProvider.set({
+                    actions: {
+                        invoke: '{!$RemoteAction.RemoteActionController.invoke}',
+                        check: 'csaLookupkeyGeneratorInstallerRemote.CheckInstall',
+                        install: 'csaLookupkeyGeneratorInstallerRemote.Install',
+                        uninstall: 'csaLookupkeyGeneratorInstallerRemote.Uninstall'
+                    }
+                });
+                labelProvider.setLabels({
+                  success: {
+                      install: '{!$Label.LG_Install_Success}',
+                      uninstall: '{!$Label.LG_Uninstall_Success}'
+                  }
+                });
+            });
+        })();
+    </script>
+</apex:component>

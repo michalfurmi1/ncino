@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>contexte Id</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>Date d’entrée en vigueur</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Date de fin</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Est-Stream paiement</label>
+        <name>LLC_BI__Is_Payment_Stream__c</name>
+    </fields>
+    <fields>
+        <label>Est Notez</label>
+        <name>LLC_BI__Is_Rate_Stream__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Séquence</label>
+        <name>LLC_BI__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>Durée</label>
+        <name>LLC_BI__Term_Length__c</name>
+    </fields>
+    <fields>
+        <label>Unité de durée</label>
+        <name>LLC_BI__Term_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Unit_Months</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Years</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

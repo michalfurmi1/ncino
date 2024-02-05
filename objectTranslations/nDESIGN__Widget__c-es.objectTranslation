@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>contexto Id</label>
+        <name>Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Instantánea</label>
+        <name>nDESIGN__Data__c</name>
+    </fields>
+    <fields>
+        <label>Los elementos de datos de instantáneas</label>
+        <name>nDESIGN__Icon__c</name>
+    </fields>
+    <fields>
+        <label>Identificación del trabajo</label>
+        <name>nDESIGN__Is_Knockout__c</name>
+    </fields>
+    <fields>
+        <label>Promedio</label>
+        <name>nDESIGN__Is_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Contar</label>
+        <name>nDESIGN__Parameters__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Utilice este campo si los informes de da</label>
+        <name>nDESIGN__Script_Resource_Eight__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>moneda 10</label>
+        <name>nDESIGN__Script_Resource_Five__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>moneda 3</label>
+        <name>nDESIGN__Script_Resource_Four__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>moneda de 5</label>
+        <name>nDESIGN__Script_Resource_Nine__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>moneda 7</label>
+        <name>nDESIGN__Script_Resource_One__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>la moneda 9</label>
+        <name>nDESIGN__Script_Resource_Seven__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>la propiedad de datos de origen ID</label>
+        <name>nDESIGN__Script_Resource_Six__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Una cadena que tiene una estructura de d</label>
+        <name>nDESIGN__Script_Resource_Ten__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Fuente de datos será &quot;Salesforce Org&quot; pa</label>
+        <name>nDESIGN__Script_Resource_Three__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Script_Resource_Two__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_Eight__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_Five__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_Four__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_Nine__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_One__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_Seven__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_Six__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_Ten__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Un campo DateTime utiliza para agrupar.</label>
+        <name>nDESIGN__Stylesheet_Resource_Three__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>10 decimal</label>
+        <name>nDESIGN__Stylesheet_Resource_Two__c</name>
+    </fields>
+    <fields>
+        <label>3 decimales</label>
+        <name>nDESIGN__Type__c</name>
+        <picklistValues>
+            <masterLabel>Knockout</masterLabel>
+            <translation>Knockear</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narrative</masterLabel>
+            <translation>Narrativa</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>4 decimales</label>
+        <name>nDESIGN__View__c</name>
+    </fields>
+    <fields>
+        <label>Media es una media aritmética de los val</label>
+        <name>nDESIGN__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

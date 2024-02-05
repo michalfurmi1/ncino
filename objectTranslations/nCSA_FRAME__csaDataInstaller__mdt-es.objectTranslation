@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCSA_FRAME__Active__c</name>
+    </fields>
+    <fields>
+        <help>Ruta al icono seleccionado</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCSA_FRAME__Icon_Path__c</name>
+    </fields>
+    <fields>
+        <help>Por favor, seleccione un número de 12- teniendo en cuenta otros acceleratos, pida una ventaja para los detalles</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCSA_FRAME__Order__c</name>
+    </fields>
+    <fields>
+        <help>API nombre de la página</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCSA_FRAME__Page_Name__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de la aplicación de la ruta, csa-data-instalador se prefija</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCSA_FRAME__Route_App_Name__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de la ruta que se va a crear</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCSA_FRAME__Route_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

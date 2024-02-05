@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Pago de facturas</label>
+        <name>LLC_BI__Annual_Income__c</name>
+    </fields>
+    <fields>
+        <label>Número de tarjeta</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Habilitar notificaciones de correo elect</label>
+        <name>LLC_BI__Lease_End__c</name>
+    </fields>
+    <fields>
+        <label>Caja de seguridad Frecuencia de Informes</label>
+        <name>LLC_BI__Lease_Origination__c</name>
+    </fields>
+    <fields>
+        <label>es Mantenimiento</label>
+        <name>LLC_BI__Lease_Type__c</name>
+    </fields>
+    <fields>
+        <label>Solicitud</label>
+        <name>LLC_BI__Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <label>Use este campo de búsqueda para asociar</label>
+        <name>LLC_BI__Monthly_Rent__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__Occupied_Units__c</name>
+    </fields>
+    <fields>
+        <label>Servicio cámara de compensación automati</label>
+        <name>LLC_BI__Parent_Tenant_Information__c</name>
+        <relationshipLabel>Información inquilino</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Rama</label>
+        <name>LLC_BI__Price_Per_Sq_Ft_Per_Year__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__Scenario__c</name>
+    </fields>
+    <fields>
+        <label>Número de tarjeta</label>
+        <name>LLC_BI__Searchable_Tenant__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de efectivo</label>
+        <name>LLC_BI__Spread_Statement_Period__c</name>
+        <relationshipLabel>Información inquilino</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Oficial comercial</label>
+        <name>LLC_BI__Spread_Statement_Template__c</name>
+        <relationshipLabel>Información inquilino</relationshipLabel>
+    </fields>
+    <fields>
+        <label>objeto de conversión</label>
+        <name>LLC_BI__Sq_Feet__c</name>
+    </fields>
+    <fields>
+        <label>Este campo contiene el ID del objeto des</label>
+        <name>LLC_BI__Tenant_Name__c</name>
+    </fields>
+    <fields>
+        <label>Nota de crédito</label>
+        <name>LLC_BI__Tenant_Type__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation>Residencial</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__Total_Units__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Anchor</masterLabel>
+            <translation>Ancla</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shadow</masterLabel>
+            <translation>Sombra</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Este campo determina la página por defec</label>
+        <name>LLC_BI__Unit_Type__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de Depósito</label>
+        <name>LLC_BI__Unit__c</name>
+    </fields>
+    <fields>
+        <label>ID de la cuenta</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

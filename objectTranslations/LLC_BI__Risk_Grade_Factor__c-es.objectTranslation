@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Seleccione un tipo de servicio.</label>
+        <name>LLC_BI__Column_Number__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta</label>
+        <name>LLC_BI__Highest__c</name>
+    </fields>
+    <fields>
+        <label>Visitar el sitio memos</label>
+        <name>LLC_BI__Is_Qualitative__c</name>
+    </fields>
+    <fields>
+        <label>Elementos de acción</label>
+        <name>LLC_BI__Is_Quantitative__c</name>
+    </fields>
+    <fields>
+        <label>Actividad de cliente</label>
+        <name>LLC_BI__Lowest__c</name>
+    </fields>
+    <fields>
+        <label>¿Has visto a los clientes en la oficina?</label>
+        <name>LLC_BI__Risk_Grade_Group__c</name>
+        <relationshipLabel>Los factores de riesgo de Grado</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Marque esta casilla cuando esté listo pa</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>Los factores de riesgo de Grado</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Qualitative</masterLabel>
+            <translation>Cualitativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantitative</masterLabel>
+            <translation>Cuantitativo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Las unidades del factor de calificación de riesgo. El símbolo se introduzca aquí se mostrará entre paréntesis en la columna.</help>
+        <label>Condición Oficina</label>
+        <name>LLC_BI__Units__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de visita</label>
+        <name>LLC_BI__Weight__c</name>
+    </fields>
+    <fields>
+        <label>¿Cuáles son los puntos de acción para el</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Factor_Weight__c</name>
+    </fields>
+    <fields>
+        <label>La fecha en la que en realidad se visitó</label>
+        <name>LLC_BI__Annual_Review__c</name>
+        <relationshipLabel>Arriesgar valores del factor de Grado</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__QualVal__c</name>
+    </fields>
+    <fields>
+        <label>Lo que sucedió durante la visita?</label>
+        <name>LLC_BI__Qualitative_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__QuantVal__c</name>
+    </fields>
+    <fields>
+        <label>visita Objetivo</label>
+        <name>LLC_BI__Quantitative_Value__c</name>
+    </fields>
+    <fields>
+        <label>Historia lista</label>
+        <name>LLC_BI__Risk_Grade_Factor_Name__c</name>
+    </fields>
+    <fields>
+        <label>¿Cómo llegamos aquí? ¿Cuál es la histori</label>
+        <name>LLC_BI__Risk_Grade_Factor__c</name>
+        <relationshipLabel>Arriesgar valores del factor de Grado</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Los diferenciales</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>Arriesgar valores del factor de Grado</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Relationship_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Risk_Grade_Factor_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Risk_Grade_Raw_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Risk_Grade_Template_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Risk_Rating_Review_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Weighted_Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

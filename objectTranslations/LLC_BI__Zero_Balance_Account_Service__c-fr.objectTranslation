@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Maître Compte #</label>
+        <name>LLC_BI__Master_Account__c</name>
+        <relationshipLabel>Solde Services compte zéro</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Sous compte # 1</label>
+        <name>LLC_BI__Sub_Account_1__c</name>
+        <relationshipLabel>Zéro Balance des services de compte (sous-compte n ° 1)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Service de la trésorerie de référence</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Solde Services compte zéro</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

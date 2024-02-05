@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Quel catalogue produit est l&apos;interface utilisateur modèle de ce modèle Route associée à?</help>
+        <label>Catalogue produits UI Modèle</label>
+        <name>LLC_BI__Product_Catalog_UI_Template__c</name>
+        <relationshipLabel>Modèles Catalogue produits Route</relationshipLabel>
+    </fields>
+    <fields>
+        <help>À quelle page sera affiché dans le corps de cet itinéraire? Peut être laissé en blanc.</help>
+        <label>Route du corps</label>
+        <name>LLC_BI__Route_Body__c</name>
+    </fields>
+    <fields>
+        <help>Quel ensemble icône sera utilisé?</help>
+        <label>Route Icône Classe</label>
+        <name>LLC_BI__Route_Icon_Class__c</name>
+    </fields>
+    <fields>
+        <help>Quel élément de navigation sera utilisé?</help>
+        <label>Route de navigation</label>
+        <name>LLC_BI__Route_Navigation__c</name>
+    </fields>
+    <fields>
+        <help>Quel numéro d&apos;ordre de tri sera affecté à cette voie? Cela décidera de son placement parmi d&apos;autres voies dans le même groupe.</help>
+        <label>route Commander</label>
+        <name>LLC_BI__Route_Order__c</name>
+    </fields>
+    <fields>
+        <help>Quel élément Unternavigation sera utilisé?</help>
+        <label>Route Unternavigation</label>
+        <name>LLC_BI__Route_Sub_Navigation__c</name>
+    </fields>
+    <fields>
+        <help>Quel élément topbar sera utilisé?</help>
+        <label></label>
+        <name>LLC_BI__Route_Topbar__c</name>
+    </fields>
+    <fields>
+        <help>L&apos;écran est associé à cette modifiable route?</help>
+        <label>L&apos;écran est éditable</label>
+        <name>LLC_BI__Screen_Is_Editable__c</name>
+    </fields>
+    <fields>
+        <help>Quelle ressource la section de l&apos;écran doit être utilisé pour cette route?</help>
+        <label>Section écran ressources</label>
+        <name>LLC_BI__Screen_Section_Resource__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

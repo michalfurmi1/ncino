@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Especificar el tamaño de la columna de l</label>
+        <name>nFUSE__Activator__c</name>
+    </fields>
+    <fields>
+        <label>Nombre sObject</label>
+        <name>nFUSE__Bean_Name__c</name>
+    </fields>
+    <fields>
+        <label>Contenido tooltip</label>
+        <name>nFUSE__Filter__c</name>
+    </fields>
+    <fields>
+        <label>Información sobre la herramienta Habilit</label>
+        <name>nFUSE__Major_Version__c</name>
+    </fields>
+    <fields>
+        <label>Seleccione este campo para permitir una</label>
+        <name>nFUSE__Middleware_Certificate__c</name>
+    </fields>
+    <fields>
+        <label>Información sobre la herramienta de text</label>
+        <name>nFUSE__Middleware_Endpoint__c</name>
+    </fields>
+    <fields>
+        <label>Participación de la entidad</label>
+        <name>nFUSE__Middleware_Password__c</name>
+    </fields>
+    <fields>
+        <label>Portal de Entidades Usuarias</label>
+        <name>nFUSE__Middleware_Username__c</name>
+    </fields>
+    <fields>
+        <label>Usuario</label>
+        <name>nFUSE__Minor_Version__c</name>
+    </fields>
+    <fields>
+        <label>Y - Desaprobado Portal Entidades Usuaria</label>
+        <name>nFUSE__Provider_Name__c</name>
+    </fields>
+    <fields>
+        <label>Convenido</label>
+        <name>nFUSE__Timeout__c</name>
+    </fields>
+    <fields>
+        <label>Seleccione este campo si se han aceptado</label>
+        <name>nFUSE__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

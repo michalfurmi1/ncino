@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Adresse</label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label>Type de garantie</label>
+        <name>Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <label>Relation</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Garantie détenue</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La manière dont l’entité est associée à la garantie.</help>
+        <label>Association de la garantie</label>
+        <name>LLC_BI__Collateral_Association__c</name>
+        <picklistValues>
+            <masterLabel>Assignee</masterLabel>
+            <translation>Cessionnaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation>Acheteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landlord</masterLabel>
+            <translation>Propriétaire foncier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee</masterLabel>
+            <translation>Tenancier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lienholder</masterLabel>
+            <translation>Détenteur de la sûreté réelle légale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation>Propriétaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation>Vendeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tenant</masterLabel>
+            <translation>Locataire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Garantie</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Relations</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La date de fin de la propriété de la garantie.</help>
+        <label>Date de fin</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>Le pourcentage de la garantie que le compte détient.</help>
+        <label>Pourcentage de propriété</label>
+        <name>LLC_BI__Ownership_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le compte est habilité à mettre en gage cette garantie.</help>
+        <label>Habilitation à la mise en gage</label>
+        <name>LLC_BI__Pledging_Authority__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ désigne s’il s’agit du propriétaire principal de la garantie.</help>
+        <label>Propriétaire principal</label>
+        <name>LLC_BI__Primary_Owner__c</name>
+    </fields>
+    <fields>
+        <label>Type de relation</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <help>La date de début de la propriété de la garantie.</help>
+        <label>Date de début</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Valeur</label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <help>Utilisez ce champ si vous utilisez Loan_Collateral__c pour générer SBA de prêt Formulaire d&apos;autorisation. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>La garantie de prêt</label>
+        <name>nSBA__Loan_Collateral__c</name>
+        <relationshipLabel>La propriété des garanties</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

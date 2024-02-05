@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Account_Owner_Related_to_Beneficiary__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cela permet d&apos;identifier si le bénéficiaire est un particulier ou une entité.</help>
+        <label>Type de compte</label>
+        <name>LLC_BI__Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Entity</masterLabel>
+            <translation>Entité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Personne</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Une description du texte alternatif pour imprimer en une ligne de signature pour le bénéficiaire. Ce système serait utilisé si autre chose que le nom du bénéficiaire doit imprimer sous leur ligne de signature.</help>
+        <label>Description Signature Autre</label>
+        <name>LLC_BI__Alternate_Signature_Description__c</name>
+    </fields>
+    <fields>
+        <label>Date de naissance</label>
+        <name>LLC_BI__Birthdate__c</name>
+    </fields>
+    <fields>
+        <help>La ville de l&apos;adresse postale du bénéficiaire.</help>
+        <label>Ville</label>
+        <name>LLC_BI__City__c</name>
+    </fields>
+    <fields>
+        <label>Dépôt</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>Les bénéficiaires</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Si cela est vrai bénéficiaire individuel est considéré comme un « bénéficiaire désigné » à des fins électorales.</help>
+        <label>Indicateur du bénéficiaire désigné</label>
+        <name>LLC_BI__Designated_Beneficiary_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type d&apos;entité du bénéficiaire IRA.</help>
+        <label>Type d&apos;entité</label>
+        <name>LLC_BI__Entity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative</masterLabel>
+            <translation>Coopérative</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation>Société</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic Government Unit</masterLabel>
+            <translation>Unité du gouvernement national</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation>Biens</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Institution</masterLabel>
+            <translation>Institution financière</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Government Unit</masterLabel>
+            <translation>Unité de gouvernement étranger</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Partnership</masterLabel>
+            <translation>Partenariat global</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Company</masterLabel>
+            <translation>Société à responsabilité limitée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Partnership</masterLabel>
+            <translation>Société à responsabilité limitée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Partnership</masterLabel>
+            <translation>Partenariat limite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation>Confiance</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Prénom</label>
+        <name>LLC_BI__First_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Nom</label>
+        <name>LLC_BI__Last_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label>Pourcentage de propriété</label>
+        <name>LLC_BI__Ownership_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le bénéficiaire du régime IRA est une personne ou d&apos;une entité.</help>
+        <label>type de partie</label>
+        <name>LLC_BI__Party_Type__c</name>
+        <picklistValues>
+            <masterLabel>Entity</masterLabel>
+            <translation>Entité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Personne</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le code postal de l&apos;adresse postale du bénéficiaire.</help>
+        <label>code postal</label>
+        <name>LLC_BI__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <help>Une description de la relation des bénéficiaires au propriétaire IRA / HSA.</help>
+        <label>Lien avec le propriétaire</label>
+        <name>LLC_BI__Relationship_To_Owner__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type d&apos;entité du bénéficiaire.</help>
+        <label>Type de la relation</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative</masterLabel>
+            <translation>Coopérative</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation>Société</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic Government Unit</masterLabel>
+            <translation>Unité du gouvernement national</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation>Biens</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Institution</masterLabel>
+            <translation>Institution financière</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Government Unit</masterLabel>
+            <translation>Unité de gouvernement étranger</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Partnership</masterLabel>
+            <translation>Partenariat global</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Company</masterLabel>
+            <translation>Société à responsabilité limitée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Partnership</masterLabel>
+            <translation>Société à responsabilité limitée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Partnership</masterLabel>
+            <translation>Partenariat limite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation>Confiance</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si cela est vrai le bénéficiaire est le conjoint du propriétaire de l&apos;IRA.</help>
+        <label>Indicateur du conjoint</label>
+        <name>LLC_BI__Spouse_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Le nom du conjoint du bénéficiaire.</help>
+        <label>Nom du conjoint</label>
+        <name>LLC_BI__Spouse_Name__c</name>
+    </fields>
+    <fields>
+        <help>L&apos;état de l&apos;adresse postale du bénéficiaire.</help>
+        <label>Etat</label>
+        <name>LLC_BI__State__c</name>
+        <picklistValues>
+            <masterLabel>AB</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation>Alabama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>AVEC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BC</masterLabel>
+            <translation>avant JC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>SALUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>DANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>MARYLAND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>MOI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>MME</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NB</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>Dakota du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation>New Hampshire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>New Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NU</masterLabel>
+            <translation>PAS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>New York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>D&apos;accord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ON</masterLabel>
+            <translation>SUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>OU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation>Wyoming</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La deuxième ligne de l&apos;adresse postale rue du bénéficiaire.</help>
+        <label>Adresse Autre</label>
+        <name>LLC_BI__Street_Address_Other__c</name>
+    </fields>
+    <fields>
+        <help>La première ligne de l&apos;adresse postale rue du bénéficiaire.</help>
+        <label>Adresse de rue</label>
+        <name>LLC_BI__Street_Address__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Suffix__c</name>
+    </fields>
+    <fields>
+        <label>Numéro d&apos;identification fiscale</label>
+        <name>LLC_BI__Tax_Identification_Number_PE__c</name>
+    </fields>
+    <fields>
+        <label>Numéro d&apos;identification fiscale</label>
+        <name>LLC_BI__Tax_Identification_Number__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type de bénéficiaire.</help>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Contingent Beneficiary</masterLabel>
+            <translation>bénéficiaire contingent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contingent Successor Beneficiary</masterLabel>
+            <translation>Bénéficiaire successeur Contingent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Beneficiary</masterLabel>
+            <translation>principal bénéficiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Successor Beneficiary</masterLabel>
+            <translation>Bénéficiaire successeur primaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case si la distribution par ligne directe de bandes applique au bénéficiaire.</help>
+        <label>Indicateur Lineal Stripes Par</label>
+        <name>WKDDP__Lineal_Per_Stripes_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Indiquez si le bénéficiaire du régime IRA est une personne physique ou morale.</help>
+        <label></label>
+        <name>WKDDP__Type__c</name>
+        <picklistValues>
+            <masterLabel>Entity</masterLabel>
+            <translation>Entité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Individuel</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

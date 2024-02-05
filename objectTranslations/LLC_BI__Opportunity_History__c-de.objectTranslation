@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Änderung Betrag</label>
+        <name>LLC_BI__Amount_Change__c</name>
+    </fields>
+    <fields>
+        <label>Betrag</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Startzeit</label>
+        <name>LLC_BI__Change_Time__c</name>
+    </fields>
+    <fields>
+        <label>Einlage</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>Gelegenheitshistorie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Endzeit</label>
+        <name>LLC_BI__End_Time__c</name>
+    </fields>
+    <fields>
+        <help>Wird im Code festgelegt; markiert den letzten Eintrag einer einzelnen Stufe eines bestimmten Kredits.</help>
+        <label>Letzte Änderung Stufe</label>
+        <name>LLC_BI__Final_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label>ist gebucht</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>ist abgeschlossen</label>
+        <name>LLC_BI__Is_Closed__c</name>
+    </fields>
+    <fields>
+        <label>ist aus Stufenzeitraum ausgeschlossen</label>
+        <name>LLC_BI__Is_Excluded_From_Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Kredit</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Gelegenheitshistorie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Gelegenheits-ID</label>
+        <name>LLC_BI__OpportunityId__c</name>
+    </fields>
+    <fields>
+        <label>Ausschlusszeit vorherige Stufe (Minuten)</label>
+        <name>LLC_BI__Previous_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Wird im Code festgelegt; enthält die Dauer der vorherigen Stufe in Minuten für die jeweilige Stufe eines bestimmten Kredits.</help>
+        <label>Zeit vorherige Stufe (Minuten)</label>
+        <name>LLC_BI__Previous_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Wird im Code festgelegt; enthält die Dauer der letzten Stufe in Minuten für die jeweilige Stufe eines bestimmten Kredits (nur Zeit außerhalb der Geschäftszeiten).</help>
+        <label>Nicht-Geschäftszeit vorherige Stufe (Min</label>
+        <name>LLC_BI__Previous_Stage_Duration_Non_Business_Min__c</name>
+    </fields>
+    <fields>
+        <label>Produktbündel</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Gelegenheitshistorie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Datensatz-Ausschlusszeit (Minuten)</label>
+        <name>LLC_BI__Record_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Stufenname</label>
+        <name>LLC_BI__StageName__c</name>
+    </fields>
+    <fields>
+        <label>Stufe und Status</label>
+        <name>LLC_BI__Stage_And_Status__c</name>
+    </fields>
+    <fields>
+        <label>Stufenänderung</label>
+        <name>LLC_BI__Stage_Change__c</name>
+    </fields>
+    <fields>
+        <help>Wird im Code festgelegt; enthält die Stundenzahl der Stufendauer für jeden Stufeneintrag eines bestimmten Kredits.</help>
+        <label>Datensatzdauer (Stunden)</label>
+        <name>LLC_BI__Stage_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Wird im Code festgelegt; enthält die Minutenzahl der vorherigen Stufe in Minuten für jeden Stufeneintrag eines bestimmten Kredits.</help>
+        <label>Datensatzdauer (Minuten)</label>
+        <name>LLC_BI__Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Datensatzdauer Nicht-Geschäftszeit (Minu</label>
+        <name>LLC_BI__Stage_Duration_Non_Business_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Datensatzdauer (Tage)</label>
+        <name>LLC_BI__Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Statusname</label>
+        <name>LLC_BI__StatusName__c</name>
+    </fields>
+    <fields>
+        <label>Statusänderung</label>
+        <name>LLC_BI__Status_Change__c</name>
+    </fields>
+    <fields>
+        <help>Wird im Code festgelegt; enthält die Summe der Tage der Stufendauer für die letzte Änderung der Stufe eines bestimmten Kredits.</help>
+        <label>Summe Stufendauer (Tage)</label>
+        <name>LLC_BI__Sum_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label>Summe Stufendauer-Ausschlusszeit (Tage)</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Days__c</name>
+    </fields>
+    <fields>
+        <label>Summe Stufendauer-Ausschlusszeit (Stunde</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Hours__c</name>
+    </fields>
+    <fields>
+        <label>Summe Stufendauer-Ausschlusszeit (Minute</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Wird im Code festgelegt; enthält die Summe der Stunden der Stufendauer für die letzte Änderung der Stufe eines bestimmten Kredits.</help>
+        <label>Summe Stufendauer (Stunden)</label>
+        <name>LLC_BI__Sum_Stage_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Wird im Code festgelegt; enthält die Summe der Minuten der Stufendauer für die letzte Änderung der Stufe eines bestimmten Kredits.</help>
+        <label>Summe Stufendauer (Minuten)</label>
+        <name>LLC_BI__Sum_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Summe Stufendauer Nicht-Geschäftszeit (T</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Days__c</name>
+    </fields>
+    <fields>
+        <label>Summe Stufendauer Nicht-Geschäftszeit (S</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Hours__c</name>
+    </fields>
+    <fields>
+        <label>Summe Stufendauer Nicht-Geschäftszeit (M</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Gesamte Stufendauer-Ausschlusszeit (Minu</label>
+        <name>LLC_BI__Total_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Gesamte Stufendauer (Minuten)</label>
+        <name>LLC_BI__Total_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Gesamte Stufendauer Nicht-Geschäftszeit</label>
+        <name>LLC_BI__Total_Stage_Duration_Non_Business_Min__c</name>
+    </fields>
+    <fields>
+        <label>Treasury-Leistung</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Benutzer</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

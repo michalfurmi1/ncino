@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Auth Numéro d&apos;erreur</label>
+        <name>nSBA__Auth_Error_Number__c</name>
+    </fields>
+    <fields>
+        <label>Auth Erreur Texte</label>
+        <name>nSBA__Auth_Error_Text__c</name>
+    </fields>
+    <fields>
+        <label>les erreurs</label>
+        <name>nSBA__Errors__c</name>
+    </fields>
+    <fields>
+        <label>Score liquide de crédit</label>
+        <name>nSBA__Liquid_Credit_Score__c</name>
+    </fields>
+    <fields>
+        <label>Loan App Date d&apos;approbation</label>
+        <name>nSBA__Loan_App_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label>prêteur Contact E-Mail Adresse</label>
+        <name>nSBA__Loan_App_Etran_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label>financé date de</label>
+        <name>nSBA__Loan_App_Fund_Date__c</name>
+    </fields>
+    <fields>
+        <label>Demande de prêteur Numéro</label>
+        <name>nSBA__Loan_App_Lenders_Application_Number__c</name>
+    </fields>
+    <fields>
+        <label>Prêt prêteur Numéro</label>
+        <name>nSBA__Loan_App_Lenders_Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label>Nom App prêt</label>
+        <name>nSBA__Loan_App_Name__c</name>
+    </fields>
+    <fields>
+        <label>Prêt App Nombre</label>
+        <name>nSBA__Loan_App_Number__c</name>
+    </fields>
+    <fields>
+        <label>Prêt App Date de réception</label>
+        <name>nSBA__Loan_App_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label>Quantité exigée</label>
+        <name>nSBA__Loan_App_Request_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Montant approuvé</label>
+        <name>nSBA__Loan_App_SBA_Approved_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Loan App Code du statut</label>
+        <name>nSBA__Loan_App_Status_code__c</name>
+    </fields>
+    <fields>
+        <label>Garantie frais Montant</label>
+        <name>nSBA__Loan_Guaranty_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Garantie Frais Explication</label>
+        <name>nSBA__Loan_Guaranty_Fee_Explanation__c</name>
+    </fields>
+    <fields>
+        <label>Numéro du prêt</label>
+        <name>nSBA__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>nSBA__Loan__c</name>
+        <relationshipLabel>Réponses E-TRAN</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Activité principale DUNS</label>
+        <name>nSBA__Primary_Business_DUNS_Number__c</name>
+    </fields>
+    <fields>
+        <label>message de demande</label>
+        <name>nSBA__Request_Message__c</name>
+    </fields>
+    <fields>
+        <label>Message de réponse</label>
+        <name>nSBA__Response_Message__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Synopsis__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

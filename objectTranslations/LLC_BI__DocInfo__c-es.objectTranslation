@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Otra raza asiática (s)</label>
+        <name>LLC_BI__DocClass__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Otra raza Islas del Pacífico (s)</label>
+        <name>LLC_BI__DocType__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Si se selecciona indio americano o nativ</label>
+        <name>LLC_BI__attachmentId__c</name>
+    </fields>
+    <fields>
+        <label>Raza - Puede seleccionar un máximo de ci</label>
+        <name>LLC_BI__fileSize__c</name>
+    </fields>
+    <fields>
+        <label>Carrera de Entidad de Participación (has</label>
+        <name>LLC_BI__isFolder__c</name>
+    </fields>
+    <fields>
+        <label>Colección sexo Método</label>
+        <name>LLC_BI__ownerObjectId__c</name>
+    </fields>
+    <fields>
+        <label>Sexo del Prestatario o Co-Prestatario</label>
+        <name>LLC_BI__parentId__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta</label>
+        <name>LLC_BI__version__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Administrador de Documentos</label>
+        <name>LLC_BI__docManager</name>
+    </webLinks>
+</CustomObjectTranslation>

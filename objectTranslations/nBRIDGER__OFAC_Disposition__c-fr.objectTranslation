@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>commentaires</label>
+        <name>nBRIDGER__Comments__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nBRIDGER__OFAC_Match__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Remplacer Approuvé</label>
+        <name>nBRIDGER__Override_Approved__c</name>
+    </fields>
+    <fields>
+        <help>Demander une dérogation à cette disposition.</help>
+        <label>demande Override</label>
+        <name>nBRIDGER__Request_Override__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>nBRIDGER__Status__c</name>
+        <picklistValues>
+            <masterLabel>False Positive</masterLabel>
+            <translation>Faux positif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Match</masterLabel>
+            <translation>Rencontre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More Information Needed</masterLabel>
+            <translation>Plus d&apos;informations nécessaires</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

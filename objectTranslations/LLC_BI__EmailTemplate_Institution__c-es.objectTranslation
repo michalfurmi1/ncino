@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Llenar este campo de texto con el identificador de Salesforce de la plantilla de correo electrónico que se enviará a los usuarios de la institución.</help>
+        <label>Req. Comp. Fuente</label>
+        <name>LLC_BI__EmailTemplate__c</name>
+    </fields>
+    <fields>
+        <label>Alquiler EPC</label>
+        <name>LLC_BI__Email_Template_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Account Document Assigned - Bulk</masterLabel>
+            <translation>Documento de cuenta asignado - a granel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Document Rejected</masterLabel>
+            <translation>Documento cuenta Rechazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrower Added (Existing)</masterLabel>
+            <translation>Prestatario Agregado (existente)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrower Added (New)</masterLabel>
+            <translation>Prestatario Agregado (Nuevo)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Owner Added (Existing)</masterLabel>
+            <translation>Copropietario Agregado (existente)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Owner Added (New)</masterLabel>
+            <translation>Copropietario Agregado (Nuevo)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Document Rejected</masterLabel>
+            <translation>Depósito de documentos rechazados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Documents Assigned</masterLabel>
+            <translation>Depósito de documentos asignados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor Added (Existing)</masterLabel>
+            <translation>Garante Agregado (existente)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor Added (New)</masterLabel>
+            <translation>Garante Agregado (Nuevo)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Document Assigned Email - Bulk</masterLabel>
+            <translation>Préstamo de documento asignado por correo electrónico - a granel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Document Rejected Email</masterLabel>
+            <translation>Documento de Préstamo Rechazado por correo electrónico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save and Continue</masterLabel>
+            <translation>Guardar y continuar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ingresos</label>
+        <name>LLC_BI__Institution__c</name>
+        <relationshipLabel>instituciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Crítico</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

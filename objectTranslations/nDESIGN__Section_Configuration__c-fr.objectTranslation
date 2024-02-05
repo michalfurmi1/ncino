@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Ordre d&apos;affichage</label>
+        <name>nDESIGN__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label>Set terrain</label>
+        <name>nDESIGN__Field_Set_Key__c</name>
+    </fields>
+    <fields>
+        <label>Disposition</label>
+        <name>nDESIGN__Layout__c</name>
+        <relationshipLabel>section Configurations</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Configuration des parents</label>
+        <name>nDESIGN__Parent_Configuration__c</name>
+        <relationshipLabel>Configurations d&apos;enfants</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nom de parent Relation</label>
+        <name>nDESIGN__Parent_Relationship_Name__c</name>
+    </fields>
+    <fields>
+        <label>Section de l&apos;écran</label>
+        <name>nDESIGN__Screen_Section__c</name>
+        <relationshipLabel>section Configurations</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Un en-tête pour afficher en haut de cette section.</help>
+        <label>En-tête section</label>
+        <name>nDESIGN__Section_Header__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nDESIGN__Section_Resource_Class__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nDESIGN__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>sObject type</label>
+        <name>nDESIGN__sObject_Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>configurations d&apos;enfants doivent suivre leurs parents dans l&apos;ordre d&apos;affichage.</errorMessage>
+        <name>nDESIGN__Child_Display_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Configuration parent et parent Nom relation doit à la fois être réglé.</errorMessage>
+        <name>nDESIGN__Parent_Integrity</name>
+    </validationRules>
+</CustomObjectTranslation>

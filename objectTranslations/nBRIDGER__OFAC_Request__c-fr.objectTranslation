@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compte</label>
+        <name>nBRIDGER__Account__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date de naissance</label>
+        <name>nBRIDGER__Birthdate__c</name>
+    </fields>
+    <fields>
+        <label>Ville</label>
+        <name>nBRIDGER__City__c</name>
+    </fields>
+    <fields>
+        <label>Pays</label>
+        <name>nBRIDGER__Country__c</name>
+    </fields>
+    <fields>
+        <label>Moteur</label>
+        <name>nBRIDGER__Engine__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;entité</label>
+        <name>nBRIDGER__Entity_Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nBRIDGER__Is_Individual__c</name>
+    </fields>
+    <fields>
+        <label>prénom</label>
+        <name>nBRIDGER__Name__c</name>
+    </fields>
+    <fields>
+        <label>Id Object</label>
+        <name>nBRIDGER__Object_Id__c</name>
+    </fields>
+    <fields>
+        <label>Code postal</label>
+        <name>nBRIDGER__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>Raison</label>
+        <name>nBRIDGER__Reason2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nBRIDGER__Reason__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nBRIDGER__SSN__c</name>
+    </fields>
+    <fields>
+        <label>Envoyer la date</label>
+        <name>nBRIDGER__Send_Date__c</name>
+    </fields>
+    <fields>
+        <label>Etat</label>
+        <name>nBRIDGER__State__c</name>
+    </fields>
+    <fields>
+        <label>rue</label>
+        <name>nBRIDGER__Street__c</name>
+    </fields>
+    <fields>
+        <help>compte TIN</help>
+        <label>INFORMATION</label>
+        <name>nBRIDGER__TIN__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

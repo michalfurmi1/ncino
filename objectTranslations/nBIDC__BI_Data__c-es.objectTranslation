@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Widget</label>
+        <name>nBIDC__Average__c</name>
+    </fields>
+    <fields>
+        <label>Secciones de pantalla</label>
+        <name>nBIDC__Count__c</name>
+    </fields>
+    <fields>
+        <label>Orden de visualización</label>
+        <name>nBIDC__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Establecer campo</label>
+        <name>nBIDC__Grouping_1__c</name>
+    </fields>
+    <fields>
+        <label>Diseño</label>
+        <name>nBIDC__Grouping_2__c</name>
+    </fields>
+    <fields>
+        <label>Configuraciones de sección</label>
+        <name>nBIDC__Grouping_3__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>nBIDC__Grouping_4__c</name>
+    </fields>
+    <fields>
+        <label>Configuración de los padres</label>
+        <name>nBIDC__Grouping_5__c</name>
+    </fields>
+    <fields>
+        <label>Configuraciones niño</label>
+        <name>nBIDC__Is_Dirty__c</name>
+    </fields>
+    <fields>
+        <label>Relación matriz Nombre</label>
+        <name>nBIDC__Max__c</name>
+    </fields>
+    <fields>
+        <label>Sección de pantalla</label>
+        <name>nBIDC__Min__c</name>
+    </fields>
+    <fields>
+        <label>Configuraciones de sección</label>
+        <name>nBIDC__Send_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>sección de cabecera</label>
+        <name>nBIDC__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Un encabezado para que aparezca en la pa</label>
+        <name>nBIDC__Sum__c</name>
+    </fields>
+    <fields>
+        <label>Tipo sObject</label>
+        <name>nBIDC__Timestamp__c</name>
+    </fields>
+    <fields>
+        <label>es la plantilla</label>
+        <name>nBIDC__Unique_Name__c</name>
+    </fields>
+    <fields>
+        <label>Editar</label>
+        <name>nBIDC__Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>empuje de datos</label>
+        <name>nBIDC__Push_Data</name>
+    </webLinks>
+</CustomObjectTranslation>

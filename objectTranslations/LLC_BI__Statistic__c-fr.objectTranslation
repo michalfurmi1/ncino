@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Compte associé aux dossiers de détail</help>
+        <label>Compte</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Statistiques</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Catégorie de la valeur statistique</help>
+        <label>Catégorie</label>
+        <name>LLC_BI__Category__c</name>
+    </fields>
+    <fields>
+        <help>Nom du champ statistique</help>
+        <label>Nom de domaine</label>
+        <name>LLC_BI__Field_Name__c</name>
+    </fields>
+    <fields>
+        <help>Prêt que cette statistique appartient à</help>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Statistiques</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Mois</label>
+        <name>LLC_BI__Month__c</name>
+    </fields>
+    <fields>
+        <help>Devise Valeur pour le champ statistique</help>
+        <label>valeur Monnaie</label>
+        <name>LLC_BI__Value_Currency__c</name>
+    </fields>
+    <fields>
+        <help>Date de valeur pour le champ statistique</help>
+        <label>Date de valeur</label>
+        <name>LLC_BI__Value_Date__c</name>
+    </fields>
+    <fields>
+        <help>Nombre Valeur pour le champ statistique</help>
+        <label>Numéro de valeur</label>
+        <name>LLC_BI__Value_Number__c</name>
+    </fields>
+    <fields>
+        <help>Pourcentage Valeur du champ statistique</help>
+        <label>valeur Pourcentage</label>
+        <name>LLC_BI__Value_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Texte Valeur pour le champ statistique</help>
+        <label>valeur texte</label>
+        <name>LLC_BI__Value_Text__c</name>
+    </fields>
+    <fields>
+        <label>Année</label>
+        <name>LLC_BI__Year__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

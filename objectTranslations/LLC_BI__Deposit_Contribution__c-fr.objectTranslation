@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Le montant de la contribution IRA / HSA.</help>
+        <label>Montant de la contribution</label>
+        <name>LLC_BI__Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Le montant de la contribution, plus les gains.</help>
+        <label>Contribution montant des gains plus</label>
+        <name>LLC_BI__Contribution_Plus_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>L&apos;année fiscale de la contribution IRA / HSA.</help>
+        <label>Contribution Année fiscale</label>
+        <name>LLC_BI__Contribution_Tax_Year__c</name>
+    </fields>
+    <fields>
+        <help>Le type de contribution IRA</help>
+        <label>Type de contribution</label>
+        <name>LLC_BI__Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>Régulière (y compris Catch-Up)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return of Mistaken Distribution</masterLabel>
+            <translation>Retour de la distribution Mistaken</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from an Archer Medical Savings Account</masterLabel>
+            <translation>Roulement à partir d&apos;un compte d&apos;épargne médicale Archer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from an HSA</masterLabel>
+            <translation>Capotage d&apos;un HSA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an Archer Medical Savings Account</masterLabel>
+            <translation>Transfert d&apos;un compte d&apos;épargne médicale Archer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an HSA</masterLabel>
+            <translation>Transfert d&apos;un HSA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La base de dépôt montant de la contribution (CESA). Le montant de base est égal au montant de la contribution de roulement ou de transfert.</help>
+        <label>Montant de dépôt de base</label>
+        <name>LLC_BI__Deposit_Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Le bénéfice de dépôt montant de la contribution (CESA).</help>
+        <label>Dépôt Gains Montant</label>
+        <name>LLC_BI__Deposit_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Demande de dépôt</label>
+        <name>LLC_BI__Deposit_Request__c</name>
+        <relationshipLabel>Contributions de dépôt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dépôt</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>Contributions de dépôt</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La date de la contribution de l&apos;IRA.</help>
+        <label>IRA Contribution date</label>
+        <name>LLC_BI__IRA_Contribution_Date__c</name>
+    </fields>
+    <fields>
+        <help>Le montant de l&apos;investissement de dépôt.</help>
+        <label>Coût d&apos;investissement</label>
+        <name>LLC_BI__Investment_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Indique la façon dont doit être envoyé l&apos;investissement demandé.</help>
+        <label>Type de livraison d&apos;investissement</label>
+        <name>LLC_BI__Investment_Delivery_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cash Proceeds</masterLabel>
+            <translation>Produit en espèces</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Kind</masterLabel>
+            <translation>en nature</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Décrit le type d&apos;investissement.</help>
+        <label>Description du placement</label>
+        <name>LLC_BI__Investment_Description__c</name>
+    </fields>
+    <fields>
+        <help>Si cela est vrai un investissement non-dépôt.</help>
+        <label>L&apos;investissement est non-dépôt</label>
+        <name>LLC_BI__Investment_Is_Non_Deposit__c</name>
+    </fields>
+    <fields>
+        <help>La date à laquelle l&apos;investissement spécifié est demandé à envoyer et / ou liquéfiée.</help>
+        <label>Date de la demande d&apos;investissement</label>
+        <name>LLC_BI__Investment_Request_Date__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre d&apos;actions de l&apos;investissement non-dépôt.</help>
+        <label>Actions de placement non-dépôt</label>
+        <name>LLC_BI__Non_Deposit_Investment_Shares__c</name>
+    </fields>
+    <fields>
+        <help>Pour une contribution qui est un retour d&apos;une distribution erronée (s) c&apos;est une description de la date (s) de la distribution originale (s).</help>
+        <label>Description originale Distrubtion</label>
+        <name>LLC_BI__Original_Distrubtion_Description__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type de contribution pour un bénéficiaire Roth IRA.</help>
+        <label>Roth Bénéficiaire Type de contribution</label>
+        <name>LLC_BI__Roth_Beneficiary_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from a Designated Roth Account</masterLabel>
+            <translation>Capotage / Direct capotage d&apos;un compte Roth désigné</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>Roulement / roulement direct d&apos;un régime de retraite admissible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from a Roth IRA</masterLabel>
+            <translation>Transfert d&apos;un Roth IRA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le code de raison du type de contribution. Le type de contribution Roth IRA est qualifié Réservistes / Distribution en cas de catastrophe désigné Remboursement ou en cas de catastrophe / Zone de Combat Contribution Reporté.</help>
+        <label>Raison Roth Contribution</label>
+        <name>LLC_BI__Roth_Contribution_Reason__c</name>
+    </fields>
+    <fields>
+        <help>Le type de contribution IRA</help>
+        <label>Roth IRA Type de contribution</label>
+        <name>LLC_BI__Roth_IRA_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster/Combat Zone Postponed Contribution</masterLabel>
+            <translation>Disaster / Combat Zone Reporté Contribution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Reservist/Designated Disaster Distribution Repayment</masterLabel>
+            <translation>Réserviste qualifié / catastrophe désigné Remboursement de distribution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>requalification</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>Régulière (y compris Catch-Up)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover</masterLabel>
+            <translation>Rouler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from a Designated Roth Account</masterLabel>
+            <translation>Capotage / Direct capotage d&apos;un compte Roth désigné</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>Roulement / roulement direct d&apos;un régime de retraite admissible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>Transfert</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique la source des fonds pour un roulement direct à un Roth IRA.</help>
+        <label>Roth Rollover Type de source</label>
+        <name>LLC_BI__Roth_Rollover_Source_Type__c</name>
+        <picklistValues>
+            <masterLabel>Designated Roth Account</masterLabel>
+            <translation>Compte Roth désigné</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eligible Retirement Plan (other than a Designated Roth Account)</masterLabel>
+            <translation>Régime de retraite admissible (autre qu&apos;un Roth désigné compte)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique le type de contribution pour un simple IRA.</help>
+        <label>Type de simple IRA contibution</label>
+        <name>LLC_BI__Simple_IRA_Contibution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Employer Contribution</masterLabel>
+            <translation>Contribution de l&apos;employeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>requalification</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from a SIMPLE IRA</masterLabel>
+            <translation>Capotage d&apos;un SIMPLE IRA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from a SIMPLE IRA</masterLabel>
+            <translation>Transfert d&apos;un SIMPLE IRA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique le type de contribution pour un bénéficiaire traditionnel IRA.</help>
+        <label>Trad Benficiary IRA Type de contribution</label>
+        <name>LLC_BI__Traditional_Benficiary_IRA_Contribution__c</name>
+        <picklistValues>
+            <masterLabel>Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>Rollover directe d&apos;un régime de retraite admissible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>requalification</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an IRA</masterLabel>
+            <translation>Transfert d&apos;un IRA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Spécifie la source pour le roulement à un traditionnel IRA.</help>
+        <label>Contribution traditionnelle IRA Source</label>
+        <name>LLC_BI__Traditional_IRA_Contribution_Source__c</name>
+        <picklistValues>
+            <masterLabel>457(b)</masterLabel>
+            <translation>457 (b)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Plan</masterLabel>
+            <translation>qualifié plan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax-Sheltered Annuity (TSA)</masterLabel>
+            <translation>Rente exonéré d&apos;impôt (TSA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional IRA</masterLabel>
+            <translation>traditionnel IRA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le type de contribution IRA</help>
+        <label>Contribution traditionnelle IRA type</label>
+        <name>LLC_BI__Traditional_IRA_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disaster/Combat Zone Postponed Contribution</masterLabel>
+            <translation>Disaster / Combat Zone Reporté Contribution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Reservist/Designated Disaster Distribution Repayment</masterLabel>
+            <translation>Réserviste qualifié / catastrophe désigné Remboursement de distribution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>requalification</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>Régulière (y compris Catch-Up)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover</masterLabel>
+            <translation>Rouler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>Roulement / roulement direct d&apos;un régime de retraite admissible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simplified Employee Pension (SEP) Plan</masterLabel>
+            <translation>Simplifié de retraite des employés (SEP) Régime</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>Transfert</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

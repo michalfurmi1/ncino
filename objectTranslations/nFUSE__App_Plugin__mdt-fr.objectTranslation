@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Activator classe</label>
+        <name>nFUSE__Activator__c</name>
+    </fields>
+    <fields>
+        <label>Nom unique Bean</label>
+        <name>nFUSE__Bean_Name__c</name>
+    </fields>
+    <fields>
+        <label>Filtre</label>
+        <name>nFUSE__Filter__c</name>
+    </fields>
+    <fields>
+        <label>version majeure</label>
+        <name>nFUSE__Major_Version__c</name>
+    </fields>
+    <fields>
+        <label>Certificat middleware</label>
+        <name>nFUSE__Middleware_Certificate__c</name>
+    </fields>
+    <fields>
+        <label>middleware Endpoint</label>
+        <name>nFUSE__Middleware_Endpoint__c</name>
+    </fields>
+    <fields>
+        <label>middleware Mot de passe</label>
+        <name>nFUSE__Middleware_Password__c</name>
+    </fields>
+    <fields>
+        <label>Nom d&apos;utilisateur middleware</label>
+        <name>nFUSE__Middleware_Username__c</name>
+    </fields>
+    <fields>
+        <label>version mineure</label>
+        <name>nFUSE__Minor_Version__c</name>
+    </fields>
+    <fields>
+        <label>Nom du fournisseur</label>
+        <name>nFUSE__Provider_Name__c</name>
+    </fields>
+    <fields>
+        <label>Temps libre</label>
+        <name>nFUSE__Timeout__c</name>
+    </fields>
+    <fields>
+        <label>Nom Type</label>
+        <name>nFUSE__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

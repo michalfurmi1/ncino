@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>AVR</label>
+        <name>LLC_BI__APR__c</name>
+    </fields>
+    <fields>
+        <label>réglage fréquence</label>
+        <name>LLC_BI__Adjustment_Frequency__c</name>
+    </fields>
+    <fields>
+        <label>Remarques amortissement</label>
+        <name>LLC_BI__Amortization_Notes__c</name>
+    </fields>
+    <fields>
+        <label>Amortissement</label>
+        <name>LLC_BI__Amortization__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Amount_Financed__c</name>
+    </fields>
+    <fields>
+        <label>Montant</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Frais annuels</label>
+        <name>LLC_BI__Annual_Fees__c</name>
+    </fields>
+    <fields>
+        <label>date de la demande</label>
+        <name>LLC_BI__Applied_Date__c</name>
+    </fields>
+    <fields>
+        <label>actif moyen</label>
+        <name>LLC_BI__Average_Assets__c</name>
+    </fields>
+    <fields>
+        <label>Fonds propres moyens</label>
+        <name>LLC_BI__Average_Equity__c</name>
+    </fields>
+    <fields>
+        <label>Rendement moyen</label>
+        <name>LLC_BI__Average_Yield__c</name>
+    </fields>
+    <fields>
+        <label>À compter LTV</label>
+        <name>LLC_BI__CalculatedEffectiveLoanToValue__c</name>
+    </fields>
+    <fields>
+        <label>Casquettes et planchers Résumé</label>
+        <name>LLC_BI__Caps_Floors_Summary__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche la trésorerie totale prédéterminée pour fermer la valeur.</help>
+        <label>Trésorerie pour fermer</label>
+        <name>LLC_BI__Cash_to_Close__c</name>
+    </fields>
+    <fields>
+        <label>Les modifications approuvées</label>
+        <name>LLC_BI__Changes_Approved__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche la valeur des coûts de fermeture totale.</help>
+        <label>Frais de clôture</label>
+        <name>LLC_BI__Closing_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Nom des concurrents</label>
+        <name>LLC_BI__Competitor_Name__c</name>
+    </fields>
+    <fields>
+        <label>Le ratio dette sur le revenu</label>
+        <name>LLC_BI__DTI__c</name>
+    </fields>
+    <fields>
+        <label>Durée de vie prévue</label>
+        <name>LLC_BI__Expected_Life__c</name>
+    </fields>
+    <fields>
+        <label>Honoraires</label>
+        <name>LLC_BI__Fees__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Final_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Finance_Charge__c</name>
+    </fields>
+    <fields>
+        <label>Période fixe</label>
+        <name>LLC_BI__Fixed_Period__c</name>
+    </fields>
+    <fields>
+        <label>Taux fixe Résumé de verrouillage</label>
+        <name>LLC_BI__Fixed_Rate_Lock_Summary__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_APOR_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_APOR_Spread__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_APOR_Test__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_APOR__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_Maximum_Points_And_Fees__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_Points_And_Fees_Test__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HPML_APOR_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HPML_APOR_Spread__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HPML_APOR__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage actuel de la valeur de l&apos;indice.</help>
+        <label>indice de valeur</label>
+        <name>LLC_BI__Index_Value__c</name>
+    </fields>
+    <fields>
+        <label>Indice</label>
+        <name>LLC_BI__Index__c</name>
+    </fields>
+    <fields>
+        <label>Frais initiaux ($)</label>
+        <name>LLC_BI__Initial_Fees_Currency__c</name>
+    </fields>
+    <fields>
+        <label>frais initiaux</label>
+        <name>LLC_BI__Initial_Fees_Text__c</name>
+    </fields>
+    <fields>
+        <label>Frais initiaux (%)</label>
+        <name>LLC_BI__Initial_Fees__c</name>
+    </fields>
+    <fields>
+        <label>Taux initial</label>
+        <name>LLC_BI__Initial_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche mensuel coût d&apos;assurance de l&apos;emprunteur.</help>
+        <label>Assurance</label>
+        <name>LLC_BI__Insurance__c</name>
+    </fields>
+    <fields>
+        <label>Intérêts débiteurs</label>
+        <name>LLC_BI__Interest_Expense__c</name>
+    </fields>
+    <fields>
+        <label>Le revenu d&apos;intérêts</label>
+        <name>LLC_BI__Interest_Income__c</name>
+    </fields>
+    <fields>
+        <label>Options d&apos;intérêt</label>
+        <name>LLC_BI__Interest_Options__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage que le système ajoute à l&apos;indice pour déterminer le taux applicable pour le compte.</help>
+        <label>Taux d&apos;intérêt Pourcentage de marge</label>
+        <name>LLC_BI__Interest_Rate_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_HCM__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_HPML__c</name>
+    </fields>
+    <fields>
+        <label>Pipeline est le scénario</label>
+        <name>LLC_BI__Is_Pipeline_Scenario__c</name>
+    </fields>
+    <fields>
+        <label>Le renouvellement de prêt</label>
+        <name>LLC_BI__Is_Renewal_Loan__c</name>
+    </fields>
+    <fields>
+        <label>Montant du prêt</label>
+        <name>LLC_BI__Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Solde moyen de prêt</label>
+        <name>LLC_BI__Loan_Average_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Engagement de prêt</label>
+        <name>LLC_BI__Loan_Commitment__c</name>
+    </fields>
+    <fields>
+        <label>Financement brut prêt</label>
+        <name>LLC_BI__Loan_Gross_Funding__c</name>
+    </fields>
+    <fields>
+        <label>Réserves pour pertes sur prêts</label>
+        <name>LLC_BI__Loan_Loss_Reserves__c</name>
+    </fields>
+    <fields>
+        <label>Prêt Engagement net</label>
+        <name>LLC_BI__Loan_Net_Commitment__c</name>
+    </fields>
+    <fields>
+        <label>Prêt net financement</label>
+        <name>LLC_BI__Loan_Net_Funding__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Prix ​​Options</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le système renseigne automatiquement ce champ facultatif avec un TAP militaire Sherman calcule lorsque le drapeau d&apos;état MLA est défini sur true.</help>
+        <label>Noffri</label>
+        <name>LLC_BI__MAPR__c</name>
+    </fields>
+    <fields>
+        <help>Les utilisateurs choisissent ou l&apos;intégration de cette option Remplit champ booléen pour indiquer si un consommateur est admissible à la Loi sur les prêts militaires lors de l&apos;utilisation de l&apos;option de prix.</help>
+        <label>Statut laiteuse</label>
+        <name>LLC_BI__MLA_Status__c</name>
+    </fields>
+    <fields>
+        <label>Maturité</label>
+        <name>LLC_BI__Maturity__c</name>
+    </fields>
+    <fields>
+        <label>Note</label>
+        <name>LLC_BI__Memo__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Paiement mensuel</label>
+        <name>LLC_BI__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche le taux mensuel d&apos;assurance prêt hypothécaire de l&apos;emprunteur.</help>
+        <label>assurance hypothécaire</label>
+        <name>LLC_BI__Mortgage_Insurance__c</name>
+    </fields>
+    <fields>
+        <label>Revenu net</label>
+        <name>LLC_BI__Net_Income__c</name>
+    </fields>
+    <fields>
+        <label>Revenu net d&apos;intérêts</label>
+        <name>LLC_BI__Net_Interest_Income__c</name>
+    </fields>
+    <fields>
+        <label>Marge nette d&apos;intérêts</label>
+        <name>LLC_BI__Net_Interest_Margin__c</name>
+    </fields>
+    <fields>
+        <label>Les frais autres que d&apos;intérêt</label>
+        <name>LLC_BI__Non_Interest_Expense__c</name>
+    </fields>
+    <fields>
+        <label>Opportunité</label>
+        <name>LLC_BI__Opportunity__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Autre revenu</label>
+        <name>LLC_BI__Other_Income__c</name>
+    </fields>
+    <fields>
+        <label>Mode de versement</label>
+        <name>LLC_BI__Payment_Type__c</name>
+    </fields>
+    <fields>
+        <label>Résultat avant impôts</label>
+        <name>LLC_BI__Pre_Tax_Income__c</name>
+    </fields>
+    <fields>
+        <label>Option de remboursement anticipé</label>
+        <name>LLC_BI__Prepayment_Option__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche la valeur principale et l&apos;assurance mensuelle.</help>
+        <label></label>
+        <name>LLC_BI__Principal_and_Interest__c</name>
+    </fields>
+    <fields>
+        <label>Nom du produit</label>
+        <name>LLC_BI__Product_Name__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche le nom de l&apos;API pour l&apos;enregistrement de produit référencé.</help>
+        <label>Produit</label>
+        <name>LLC_BI__Product__c</name>
+        <relationshipLabel>Prix ​​Options</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__ROA__c</name>
+    </fields>
+    <fields>
+        <label>CHEVREUIL</label>
+        <name>LLC_BI__ROE__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage maximum du taux d&apos;intérêt d&apos;un prêt pour une période de temps définie.</help>
+        <label>taux plafond</label>
+        <name>LLC_BI__Rate_Ceiling__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage minimum possible du taux d&apos;intérêt d&apos;un prêt pour une période de temps définie.</help>
+        <label>taux étage</label>
+        <name>LLC_BI__Rate_Floor__c</name>
+    </fields>
+    <fields>
+        <label>Type de taux</label>
+        <name>LLC_BI__Rate_Type__c</name>
+    </fields>
+    <fields>
+        <label>Taux</label>
+        <name>LLC_BI__Rate__c</name>
+    </fields>
+    <fields>
+        <label>Durée repricing</label>
+        <name>LLC_BI__Repricing_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Évaluation des risques</label>
+        <name>LLC_BI__Risk_Rating__c</name>
+    </fields>
+    <fields>
+        <label>Description du scénario</label>
+        <name>LLC_BI__Scenario_Description__c</name>
+    </fields>
+    <fields>
+        <label>Nom du scénario</label>
+        <name>LLC_BI__Scenario_Name__c</name>
+    </fields>
+    <fields>
+        <label>Type de scénario</label>
+        <name>LLC_BI__Scenario_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alternative</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitive</masterLabel>
+            <translation>Compétitif</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Poids du scénario</label>
+        <name>LLC_BI__Scenario_Weight__c</name>
+    </fields>
+    <fields>
+        <label>Petit code</label>
+        <name>LLC_BI__Short_Code__c</name>
+    </fields>
+    <fields>
+        <label>Marge</label>
+        <name>LLC_BI__Spread__c</name>
+    </fields>
+    <fields>
+        <label>Revenu net cible</label>
+        <name>LLC_BI__Target_Net_Income__c</name>
+    </fields>
+    <fields>
+        <label>ROA cible</label>
+        <name>LLC_BI__Target_ROA__c</name>
+    </fields>
+    <fields>
+        <label>ROE cible</label>
+        <name>LLC_BI__Target_ROE__c</name>
+    </fields>
+    <fields>
+        <label>Statut d&apos;exonération fiscale</label>
+        <name>LLC_BI__Tax_Exempt_Status__c</name>
+    </fields>
+    <fields>
+        <label>impôts</label>
+        <name>LLC_BI__Taxes__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le taux d&apos;intérêt appliqué initialement au prêt.</help>
+        <label>Taux Teaser</label>
+        <name>LLC_BI__Teaser_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le nombre de paiements, le taux teaser est en vigueur.</help>
+        <label>Terme Teaser</label>
+        <name>LLC_BI__Teaser_Term__c</name>
+    </fields>
+    <fields>
+        <label>Terme du prêt</label>
+        <name>LLC_BI__Term__c</name>
+    </fields>
+    <fields>
+        <label>Coût total</label>
+        <name>LLC_BI__Total_Cost__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>total des intérêts</label>
+        <name>LLC_BI__Total_Interest__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Total_Points_And_Fees__c</name>
+    </fields>
+    <fields>
+        <label>total des principales</label>
+        <name>LLC_BI__Total_Principal__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loss_Given_Default__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Probability_of_Default__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

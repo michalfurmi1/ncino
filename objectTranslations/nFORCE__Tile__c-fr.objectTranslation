@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Corps</label>
+        <name>nFORCE__Body__c</name>
+    </fields>
+    <fields>
+        <label>Entête</label>
+        <name>nFORCE__Header__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le chemin vers une icône SLDS (Personnalisé, Standard ou utilitaire) après démarrage « ... icônes / ». Par exemple, le chemin de l&apos;icône de compte standard serait «standard sprite / svg / symbols.svg # compte.</help>
+        <label>Chemin de l&apos;icône</label>
+        <name>nFORCE__Icon_Path__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

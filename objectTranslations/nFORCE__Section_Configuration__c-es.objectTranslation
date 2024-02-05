@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Industria Índice de Pago</label>
+        <name>nFORCE__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label>cantidad en dólares de los juicios satis</label>
+        <name>nFORCE__Field_Set_Key__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional y está poblada por la herramienta Sección constructor. El campo indica si un nivel debe devolver sólo registros que cumplen los criterios especificados. El valor debe utilizar la sintaxis apropiada para la cláusula WHERE de una</help>
+        <label>cantidad en dólares de resoluciones judi</label>
+        <name>nFORCE__Filter_Criteria__c</name>
+    </fields>
+    <fields>
+        <label>Acciones legales</label>
+        <name>nFORCE__Layout__c</name>
+        <relationshipLabel>Configuraciones de sección</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo es opcional y está poblado por un administrador. Cuando se utiliza con los recursos de sección apropiados, el valor numérico se utiliza para limitar los registros devueltos. El valor por defecto es 0 para devolver todos los registros.</help>
+        <label>cantidad en dólares de gravámenes</label>
+        <name>nFORCE__Limit__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional y está poblado por un administrador. El valor predeterminado es falso, lo que indica que el valor de límite es un límite establecido duro. Cuando se actualiza a true, el campo permite que regresan con registros de recursos secc</help>
+        <label>MostSevereStatus24Months</label>
+        <name>nFORCE__Offset_By_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Número de quiebras</label>
+        <name>nFORCE__Parent_Configuration__c</name>
+        <relationshipLabel>Configuraciones niño</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Número de resoluciones judiciales Satisf</label>
+        <name>nFORCE__Parent_Relationship_Name__c</name>
+    </fields>
+    <fields>
+        <label>Número de resoluciones judiciales</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>Configuraciones de sección</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Un encabezado para que aparezca en la parte superior de esta sección.</help>
+        <label>Número de gravámenes</label>
+        <name>nFORCE__Section_Header__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional y está poblada por la herramienta Sección constructor. El campo indica si un nivel debe devolver registros ordenados en un orden especificado. El valor debe utilizar la sintaxis apropiada para la cláusula ORDER BY de una consul</help>
+        <label>Juicios fecha de presentación</label>
+        <name>nFORCE__Sort_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional y está poblada por la herramienta Sección constructor. Este campo indica si un nivel debería devolver sólo registros únicos. Cuando el valor se establece en true, el código HTML generado respetará la configuración.</help>
+        <label>informe Categoría</label>
+        <name>nFORCE__Unique__c</name>
+    </fields>
+    <fields>
+        <label>balance de la mediana</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Quiebra la fecha de presentación</label>
+        <name>nFORCE__sObject_Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>configuraciones niño debe seguir a sus padres en el orden de visualización.</errorMessage>
+        <name>nFORCE__Child_Display_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Configuración de los padres y de los padres Relación Nombre debe ajustarse tanto.</errorMessage>
+        <name>nFORCE__Parent_Integrity</name>
+    </validationRules>
+</CustomObjectTranslation>

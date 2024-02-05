@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>montant budgété</label>
+        <name>LLC_BI__Amount_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Budget__c</name>
+        <relationshipLabel>Ligne budgétaire article</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Catégorie</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Financing cost</masterLabel>
+            <translation>Coût de financement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard cost</masterLabel>
+            <translation>coût dur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest reserve</masterLabel>
+            <translation>Réserve d&apos;intérêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land cost</masterLabel>
+            <translation>coût du terrain</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soft cost</masterLabel>
+            <translation>coût doux</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>La description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Remarques</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label>Ordre</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <label>Montant en attente</label>
+        <name>LLC_BI__Pending_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Percent_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label>pour cent décaissée</label>
+        <name>LLC_BI__Percent_Disbursed__c</name>
+    </fields>
+    <fields>
+        <label>Pour cent restant Décaissement</label>
+        <name>LLC_BI__Percent_Remaining_Disbursement__c</name>
+    </fields>
+    <fields>
+        <label>Pour cent du budget</label>
+        <name>LLC_BI__Percent_of_Budget__c</name>
+    </fields>
+    <fields>
+        <label>décaissement restant</label>
+        <name>LLC_BI__Remaining_Disbursement__c</name>
+    </fields>
+    <fields>
+        <label>Modèle pour cent du budget</label>
+        <name>LLC_BI__Template_Percent_of_Budget__c</name>
+    </fields>
+    <fields>
+        <label>Montant total décaissé</label>
+        <name>LLC_BI__Total_Disbursed_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>S&apos;il vous plaît entrer un montant budgété ou un modèle Pourcentage du budget. Les deux ne peuvent être saisis à la fois, vous devez choisir d&apos;entrer dans l&apos;un ou l&apos;autre.</errorMessage>
+        <name>LLC_BI__Tpl_LineItem_Config_Defaults_Clash</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La valeur du champ « Modèle pour cent du budget » ne peut pas dépasser 100%.</errorMessage>
+        <name>LLC_BI__Tpl_Percent_of_Budget_Cannot_Exceed_100</name>
+    </validationRules>
+</CustomObjectTranslation>

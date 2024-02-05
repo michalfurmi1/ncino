@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Adresse</label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label>Sicherheitentyp</label>
+        <name>Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <label>Beziehung</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Sicherheit im Besitz</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Beschreibt, wie die Rechtseinheit mit der Sicherheit verknüpft ist.</help>
+        <label>Verbindung mit Sicherheit</label>
+        <name>LLC_BI__Collateral_Association__c</name>
+        <picklistValues>
+            <masterLabel>Assignee</masterLabel>
+            <translation>Bearbeiter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation>Käufer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Bau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landlord</masterLabel>
+            <translation>Vemieter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee</masterLabel>
+            <translation>Mieter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lienholder</masterLabel>
+            <translation>Pfandgläubiger (Zurückbehaltungsrecht)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation>Inhaber</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation>Verkäufer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tenant</masterLabel>
+            <translation>Mieter</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Sicherheit</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Beziehungen</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Das Datum, an dem die Eigentümerschaft an der Sicherheit ausläuft.</help>
+        <label>Enddatum</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>Der Anteil der Sicherheit, den das Konto besitzt.</help>
+        <label>Prozentsatz Eigentum</label>
+        <name>LLC_BI__Ownership_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Ist das Konto berechtigt, diese Sicherheit zu verpfänden?</help>
+        <label>Verpfändungsberechtigung</label>
+        <name>LLC_BI__Pledging_Authority__c</name>
+    </fields>
+    <fields>
+        <help>Dieses Feld gibt an, wer der primäre Eigentümer einer Sicherheit ist.</help>
+        <label>Primärer Eigentümer</label>
+        <name>LLC_BI__Primary_Owner__c</name>
+    </fields>
+    <fields>
+        <label>Beziehungstyp</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <help>Das Datum, an dem die Eigentümerschaft an der Sicherheit beginnt.</help>
+        <label>Startdatum</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Loan_Collateral__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>[{0} MessageCode = &quot;{1}&quot;, MessageDescrip</label>
+        <name>nXBI__Business_Credit_Report__c</name>
+        <relationshipLabel>Negocio puntuaciones de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>La llave &quot;{0}&quot; ya está en uso, por favor</label>
+        <name>nXBI__Score_Code__c</name>
+    </fields>
+    <fields>
+        <label>No hubo correspondiente par de valores e</label>
+        <name>nXBI__Score_Description__c</name>
+    </fields>
+    <fields>
+        <label>Registro de transacciones no existe para</label>
+        <name>nXBI__Score__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

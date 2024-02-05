@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Importo incassato</label>
+        <name>Amount_Collected__c</name>
+    </fields>
+    <fields>
+        <label>Importo residuo</label>
+        <name>Amount_Remaining__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Calculated_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Date_Collected__c</name>
+    </fields>
+    <fields>
+        <label>Commissione pagata da</label>
+        <name>Fee_Paid_By__c</name>
+        <picklistValues>
+            <masterLabel>Bank Paid</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrower Paid</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financed from Proceeds</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Outside Closing</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid by Seller</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation>Oggetto di rinuncia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Fees_Payable_To__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Is_Percent__c</name>
+    </fields>
+    <fields>
+        <label>Aggiungi agli oneri finanziari</label>
+        <name>LLC_BI__Add_To_Finance_Charge__c</name>
+    </fields>
+    <fields>
+        <help>Seleziona questo campo quando una commissione è inclusa nel calcolo MAPR.</help>
+        <label>Aggiungi a MAPR</label>
+        <name>LLC_BI__Add_To_MAPR__c</name>
+    </fields>
+    <fields>
+        <label>Aggiungi al capitale</label>
+        <name>LLC_BI__Add_To_Principal__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Add_To_Principle__c</name>
+    </fields>
+    <fields>
+        <label>Importo incassato</label>
+        <name>LLC_BI__Amount_Collected__c</name>
+    </fields>
+    <fields>
+        <help>L’importo pagato sulla commissione.</help>
+        <label>Importo pagato</label>
+        <name>LLC_BI__Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <label>Importo residuo</label>
+        <name>LLC_BI__Amount_Remaining__c</name>
+    </fields>
+    <fields>
+        <label>Importo</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help>Inserisci l’importo di base. Il sistema utilizza questo campo per i calcoli delle commissioni percentuali.</help>
+        <label>Importo di base</label>
+        <name>LLC_BI__Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Selezionare la base per le commissioni percentuali, come importo del prestito, interessi totali o altro campo relativo al prestito.</help>
+        <label>Fonte di base</label>
+        <name>LLC_BI__Basis_Source__c</name>
+        <picklistValues>
+            <masterLabel>Loan Amount</masterLabel>
+            <translation>Importo prestito</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipologia di calcolo</label>
+        <name>LLC_BI__Calculation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Flat Amount</masterLabel>
+            <translation>Importo forfettario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation>Percentuale</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Metodo di incasso</label>
+        <name>LLC_BI__Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>Aggiungi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>Liquidità</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financed</masterLabel>
+            <translation>Finanziato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtract</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Data di incasso</label>
+        <name>LLC_BI__Date_Collected__c</name>
+    </fields>
+    <fields>
+        <label>Codice commissione</label>
+        <name>LLC_BI__Fee_Code__c</name>
+        <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>L’oggetto che estrae i dati dalla commissione e li visualizza sul prestito</help>
+        <label>Aggregato commissioni sul prestito</label>
+        <name>LLC_BI__Fee_Loan_Aggregate__c</name>
+        <relationshipLabel>Commissioni</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Città commissione dovuta</label>
+        <name>LLC_BI__Fee_Payable_To_City__c</name>
+    </fields>
+    <fields>
+        <label>Stato commissione dovuta</label>
+        <name>LLC_BI__Fee_Payable_To_State__c</name>
+    </fields>
+    <fields>
+        <label>Via commissione dovuta</label>
+        <name>LLC_BI__Fee_Payable_To_Street__c</name>
+    </fields>
+    <fields>
+        <label>CAP commissione dovuta</label>
+        <name>LLC_BI__Fee_Payable_To_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label>Commissioni dovute a</label>
+        <name>LLC_BI__Fee_Payable_To__c</name>
+        <relationshipLabel>Commissioni</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Quando la tipologia di commissione è Altro, questo campo può essere utilizzato per descriverla.</help>
+        <label>Descrizione tipologia commissione</label>
+        <name>LLC_BI__Fee_Type_Description__c</name>
+    </fields>
+    <fields>
+        <label>Tipologia commissione</label>
+        <name>LLC_BI__Fee_Type__c</name>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>Valutazione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Rappresentante legale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer RE Origination</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Report</masterLabel>
+            <translation>Report credito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMV</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Recording</masterLabel>
+            <translation>Registrazione governativa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Origination</masterLabel>
+            <translation>Originazione prestito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement/Close</masterLabel>
+            <translation>Regolamento/chiusura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Tax Stamps</masterLabel>
+            <translation>Valori bollati statali</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation>Indagine</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Insurance</masterLabel>
+            <translation>Assicurazione sul titolo di proprietà</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Search</masterLabel>
+            <translation>Cerca titolo di proprietà</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>è pagato dal mutuatario</label>
+        <name>LLC_BI__Is_Paid_By_Borrower__c</name>
+    </fields>
+    <fields>
+        <label>è pagato dal prestatore</label>
+        <name>LLC_BI__Is_Paid_By_Lender__c</name>
+    </fields>
+    <fields>
+        <label>è pagato dal venditore</label>
+        <name>LLC_BI__Is_Paid_By_Seller__c</name>
+    </fields>
+    <fields>
+        <label>è pagato alla chiusura</label>
+        <name>LLC_BI__Is_Paid_at_Closing__c</name>
+    </fields>
+    <fields>
+        <help>Determina se la commissione è parte del gruppo di commissioni standard per questo prodotto.</help>
+        <label>è standard</label>
+        <name>LLC_BI__Is_Standard__c</name>
+    </fields>
+    <fields>
+        <label>Prestito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Commissioni</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pagato da</label>
+        <name>LLC_BI__Paid_By__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation>Mutuatario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>Prestatore</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation>Venditore</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Pagato alla chiusura</label>
+        <name>LLC_BI__Paid_at_Closing__c</name>
+        <picklistValues>
+            <masterLabel>At Closing</masterLabel>
+            <translation>Alla chiusura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside of Closing</masterLabel>
+            <translation>Al di fuori della chiusura</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Inserisci la percentuale che vuoi che il sistema utilizzi per calcolare la commissione con riferimento al valore base.</help>
+        <label>Percentuale</label>
+        <name>LLC_BI__Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Questo campo indica l’opzione prezzo a cui dovrebbero essere attribuite commissioni.</help>
+        <label>Opzione prezzo</label>
+        <name>LLC_BI__Pricing_Option__c</name>
+        <relationshipLabel>Commissioni</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleziona la tipologia di record della commissione, del costo o dell’adeguamento.</help>
+        <label>Tipologia record</label>
+        <name>LLC_BI__Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjustments</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costs</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleziona Servizio non acquistabile se il cliente non può acquistare questo servizio. Seleziona Servizio acquistabile se il cliente può acquistare questo servizio.</help>
+        <label>Categoria acquistabile</label>
+        <name>LLC_BI__Shoppable_Category__c</name>
+        <picklistValues>
+            <masterLabel>Service You Can Shop For</masterLabel>
+            <translation>Servizio acquistabile</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service You Cannot Shop For</masterLabel>
+            <translation>Servizio non acquistabile</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Questo campo, popolato dal sistema, mostra quando il cliente acquista un servizio pagando commissioni, costi e adeguamenti.</help>
+        <label>Acquistato</label>
+        <name>LLC_BI__Shopped_For__c</name>
+    </fields>
+    <fields>
+        <help>Il record modello da cui è stata creata la commissione.</help>
+        <label>Record modello</label>
+        <name>LLC_BI__Template_Record__c</name>
+        <relationshipLabel>Commissioni</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Questo campo, popolato dal sistema, contiene il servizio di terze parti cui si riferisce la commissione.</help>
+        <label>Dettaglio servizio terze parti</label>
+        <name>LLC_BI__Third_Party_Service_Detail__c</name>
+        <relationshipLabel>Commissioni</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Origination_Percentage__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Prepaid__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Recurring__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Standard_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Use_Standard_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Agent_Type_Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Agent_Type__c</name>
+        <picklistValues>
+            <masterLabel>Accountant Preparing Financial Statements</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent Loan Packager</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Agent/Broker</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Lender</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__CDC_Referral_Fee_Amount__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Adjustments</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Costs</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Fees</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Assicurati che siano inseriti i valori della Fonte di base e della Percentuale di base, in modo tale che il sistema possa calcolare la tipologia di calcolo della percentuale.</errorMessage>
+        <name>LLC_BI__Percentage_Fee_Required_Fields</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>LLC_BI__Manage_Fees</name>
+    </webLinks>
+</CustomObjectTranslation>

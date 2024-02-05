@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>La categoría de esta extensión Declaración sobre antecedentes o Declaración grupo extendido total se refiere al.</help>
+        <label>vivienda principal</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Cash Flow</masterLabel>
+            <translation>Flujo de fondos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOI Statement</masterLabel>
+            <translation>Declaración de EE.UU.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA Benchmarking</masterLabel>
+            <translation>La evaluación comparativa de RMA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>tipo de propiedad</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

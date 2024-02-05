@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>La parte de la transferencia (CESA) que se considera la cantidad de resultados.</help>
+        <label>Mapeo de datos</label>
+        <name>LLC_BI__CESA_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>La parte de la transferencia (CESA) que se considera la cantidad base.</help>
+        <label>Plantillas DocuSign</label>
+        <name>LLC_BI__CESA_Transfer_Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Plantillas DocuSign</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>depósito Solicitud</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Si es verdad el propietario del IRA opta por que el 10% de impuestos federales retenidos de su distribución IRA.</help>
+        <label>Plantillas DocuSign</label>
+        <name>LLC_BI__IRA_10_Withholdings_Election__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de dólares adicionales (además de la retención del impuesto federal sobre la renta del 10%) que el propietario del IRA se habrá retenido de cada distribución.</help>
+        <label>Plantillas DocuSign</label>
+        <name>LLC_BI__IRA_Addtl_Federal_Withholdings_Amt__c</name>
+    </fields>
+    <fields>
+        <help>El porcentaje adicional (además de la retención del impuesto federal sobre la renta del 10%) que el propietario del IRA se habrá retenido de cada distribución.</help>
+        <label>Filtrar</label>
+        <name>LLC_BI__IRA_Addtl_Federal_Withholdings_Pct__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de dólares los que el propietario del IRA opte porque retenido de su distribución IRA para propósitos de impuestos estatales.</help>
+        <label>Relación</label>
+        <name>LLC_BI__IRA_State_Withholdings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>El porcentaje que el propietario del IRA opte porque retenido de su distribución IRA para propósitos de impuestos estatales.</help>
+        <label>Plantilla de correo electrónico Propósit</label>
+        <name>LLC_BI__IRA_State_Withholdings_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Especifica la fuente de fondos para una transferencia a una cuenta IRA tradicional o simple.</help>
+        <label>Llenar este campo de texto con el identi</label>
+        <name>LLC_BI__IRA_Transfer_Source__c</name>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation>SENCILLO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional</masterLabel>
+            <translation>Tradicional</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si es verdad la distribución mínima requerida (RMD) ha sido satisfecho por el año de distribución.</help>
+        <label>Y - Desaprobado Habilitar Excluye</label>
+        <name>LLC_BI__RMD_Has_Been_Satisfied__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de solicitud.</help>
+        <label>instituciones</label>
+        <name>LLC_BI__Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation>Conversión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Rollover</masterLabel>
+            <translation>transferencia directa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Distribution</masterLabel>
+            <translation>Distribución financiación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>recalificación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>Transferir</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica la fuente de fondos para una transferencia o conversión a un Roth IRA.</help>
+        <label>Y - Desaprobado Habilitar Excluye</label>
+        <name>LLC_BI__Roth_IRA_Transfer_Source__c</name>
+        <picklistValues>
+            <masterLabel>Roth</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation>SENCILLO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional</masterLabel>
+            <translation>Tradicional</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El ID asignado a la cuenta o plan en la institución financiera la transferencia. Para recalificaciones, este es el número de identificación del plan donde se hizo la contribución original.</help>
+        <label>Edad del prestatario o Co-Prestatario</label>
+        <name>LLC_BI__Transfer_Account_ID__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

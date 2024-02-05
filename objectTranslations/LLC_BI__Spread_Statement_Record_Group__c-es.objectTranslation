@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Accumulate__c</name>
+    </fields>
+    <fields>
+        <label>base Fuente</label>
+        <name>LLC_BI__Is_Linked__c</name>
+    </fields>
+    <fields>
+        <label>Categoría</label>
+        <name>LLC_BI__Name_Override__c</name>
+    </fields>
+    <fields>
+        <label>Incluido en la librería APR</label>
+        <name>LLC_BI__Period_Out_Of_Range__c</name>
+    </fields>
+    <fields>
+        <label>es múltiple</label>
+        <name>LLC_BI__Quarter__c</name>
+    </fields>
+    <fields>
+        <label>Añadir a cargos por financiamiento</label>
+        <name>LLC_BI__Spread_Statement_Record__c</name>
+        <relationshipLabel>Y - desuso Declaración de propagación Grupos de registro</relationshipLabel>
+    </fields>
+    <fields>
+        <label>CounterCount</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label>Importe de la cuota</label>
+        <name>LLC_BI__Year_Out_Range__c</name>
+    </fields>
+    <fields>
+        <label>Fecha final</label>
+        <name>LLC_BI__Year__c</name>
+    </fields>
+    <fields>
+        <label>Seleccione la base de las tasas porcentu</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

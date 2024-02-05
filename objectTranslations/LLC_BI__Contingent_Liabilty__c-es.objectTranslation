@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>Pantallas nota de crédito</label>
+        <name>CSIDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de la plantilla</label>
+        <name>LLC_BI__Account_Entity_Type__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla de verificación para indicar que el firmante autorizado solamente está actuando como un testigo que acredite más que el firmante autoriza.</help>
+        <label>Contacto</label>
+        <name>LLC_BI__Attesting_Witness__c</name>
+    </fields>
+    <fields>
+        <label>FICO</label>
+        <name>LLC_BI__Authority__c</name>
+        <picklistValues>
+            <masterLabel>Authorized</masterLabel>
+            <translation>Autorizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Authorized</masterLabel>
+            <translation>No autorizado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Authorized_Account__c</name>
+        <relationshipLabel>Signatarios autorizados</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Authorized_Signer__c</name>
+        <relationshipLabel>Signatarios autorizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contacto</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>Signatarios autorizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Contingency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Assign Specific</masterLabel>
+            <translation>asignar específica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint &amp; Several</masterLabel>
+            <translation>Conjunto y solidario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Rata</masterLabel>
+            <translation>tasa Pro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Porcentaje de propiedad</label>
+        <name>LLC_BI__Contingent_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>LLC_BI__Entity__c</name>
+        <relationshipLabel>Signatarios autorizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fuente de datos</label>
+        <name>LLC_BI__LookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Los productos de origen de datos</label>
+        <name>LLC_BI__Ownership_Structure_Role__c</name>
+        <relationshipLabel>Signatarios autorizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Capacidad</label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Individuo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation>Miembro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>Oficial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Compañero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustee</masterLabel>
+            <translation>Fideicomisario</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Haga clic en esta casilla de verificación si el firmante está calificado para firmar las certificaciones de estaño o de otros documentos relacionados con los impuestos para el titular de la cuenta de negocio o entidad.</help>
+        <label>Orden de clasificación</label>
+        <name>LLC_BI__TIN_Certifier__c</name>
+    </fields>
+    <fields>
+        <label>Padres Sección de origen de datos</label>
+        <name>Signer__c</name>
+    </fields>
+    <fields>
+        <label>Padres Sección de origen de datos</label>
+        <name>Signing_on_Behalf_of__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el poder del nombre y la descripción del abogado para mostrar debajo de la línea de la firma para el poder de representación.</help>
+        <label>Fuente de datos</label>
+        <name>WKDDP__Alternate_Signature_Description__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca una descripción de la relación entre el firmante y la cuenta.</help>
+        <label>El sistema rellena este campo de texto o</label>
+        <name>WKDDP__Relationship_Description__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla de verificación si el sistema no debe imprimir en el bloque de firma de la tarjeta de firma.</help>
+        <label>deudas</label>
+        <name>WKDDP__Suppress_Signature__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla de verificación para generar una forma de protección del usuario de telefonía Cuenta Ley de Consentimiento para el firmante.</help>
+        <label>Contacto</label>
+        <name>WKDDP__TCPA_Consent_Account_Form__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>Número de cuenta</label>
+        <name>WKDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <help>Se utiliza para especificar que el contacto es un firmante de autorización. Un firmante autorización puede o no puede también ser autorizado a firmar.</help>
+        <label>Contar 30 días atrasado</label>
+        <name>WKEDP__Authorization_Signer__c</name>
+    </fields>
+    <fields>
+        <help>Se utiliza para especificar el papel que el firmante autorizado tiene en una empresa.</help>
+        <label>Contar 60 días atrasado</label>
+        <name>WKEDP__Business_Role__c</name>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OfficeHolder</masterLabel>
+            <translation>Titular de la Oficina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secretary</masterLabel>
+            <translation>Secretario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shareholder</masterLabel>
+            <translation>Accionista</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se utiliza para especificar el papel que el firmante autorizado tiene en una empresa.</help>
+        <label></label>
+        <name>WKEDP__Role__c</name>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OfficeHolder</masterLabel>
+            <translation>Titular de la Oficina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secretary</masterLabel>
+            <translation>Secretario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shareholder</masterLabel>
+            <translation>Accionista</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se utiliza para especificar que autorizó firmante va a firmar un préstamo específico.</help>
+        <label>El sistema rellena este campo de texto o</label>
+        <name>WKEDP__Selected_Signer__c</name>
+    </fields>
+    <fields>
+        <label>El sistema rellena este campo de texto o</label>
+        <name>WKEDP__Shares_Count__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>Nombre externo</label>
+        <name>nCino_Code__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Las opciones de capacidad válidas para la cuenta de este tipo de entidad (asociación) son &quot;Oficial&quot; y &quot;agente&quot;</errorMessage>
+        <name>LLC_BI__Capacity_Association</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Las opciones de capacidad válidos para el tipo de cuenta de esta entidad (corporación) son &quot;Oficial&quot; y &quot;agente&quot;</errorMessage>
+        <name>LLC_BI__Capacity_Corporation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Las opciones de capacidad válidos para el tipo de cuenta de esta entidad (Gobierno) son &quot;oficiales&quot; y &quot;agente&quot;</errorMessage>
+        <name>LLC_BI__Capacity_Government</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Las opciones de capacidad válidos para el tipo de cuenta de esta entidad (compañía de responsabilidad limitada) son &quot;miembro&quot; y &quot;agente&quot;</errorMessage>
+        <name>LLC_BI__Capacity_Limited_Liability_Company</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Las opciones de capacidad válidos para el tipo de cuenta de esta entidad (asociación) son &quot;socio&quot; y &quot;agente&quot;</errorMessage>
+        <name>LLC_BI__Capacity_Partnership</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La única opción válida capacidad para el tipo de cuenta de esta entidad (por cuenta propia) son &quot;propiedad única&quot;</errorMessage>
+        <name>LLC_BI__Capacity_Soleprietorship</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Las opciones de capacidad válidos para el tipo de cuenta de esta entidad (Confianza) son &quot;Fiduciario&quot;, &quot;Beneficiario&quot; y &quot;agente&quot;</errorMessage>
+        <name>LLC_BI__Capacity_Trust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>--DEPRECATED-- Un porcentaje sólo se puede especificar si el tipo de contingencia es &apos;Asignar específica&apos; o &apos;Pro Rata&apos;</errorMessage>
+        <name>LLC_BI__percentage_only_if_assign_specific</name>
+    </validationRules>
+</CustomObjectTranslation>

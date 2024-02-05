@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Este campo es necesario con el fin de utilizar la integración CSi DocPrep. Se utiliza para almacenar el código de correspondencia relacionada tipos de propiedad en nCino a CSi.</help>
+        <label>Este campo del sistema o usuario poblado</label>
+        <name>CSIDDP__CSI_Mapping_Code__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es necesario con el fin de utilizar la integración CSi DocPrep. Se utiliza para almacenar el código de correspondencia relacionada tipos de propiedad en nCino a CSi.</help>
+        <label>Este campo del sistema o usuario poblado</label>
+        <name>CSI_Mapping_Code__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Applicable_States__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de cuenta de este tipo se refiere a la propiedad</help>
+        <label>corriente de precios</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation>Asociación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charity</masterLabel>
+            <translation>Caridad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation>Corporación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation>Inmuebles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>Gobierno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household</masterLabel>
+            <translation>Casa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Individuo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Company</masterLabel>
+            <translation>Compañía de responsabilidad limitada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Partnership</masterLabel>
+            <translation>Sociedad de responsabilidad limitada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership</masterLabel>
+            <translation>Asociación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation>Propietario único</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation>Confianza</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo es necesario con el fin de utilizar la integración CSi DocPrep. Se utiliza para almacenar el código de correspondencia relacionada tipos de propiedad en nCino a CSi.</help>
+        <label>Pago Base En</label>
+        <name>WKDDP__CSI_Mapping_Code__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca una descripción de los otros derechos, a opción de la muerte.</help>
+        <label>velocidad del tren</label>
+        <name>WKDDP__Description__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

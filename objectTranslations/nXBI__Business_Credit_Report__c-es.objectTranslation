@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Hubo un fallo crítico para conectarse al</label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label>inicializado</label>
+        <name>nXBI__Account__c</name>
+        <relationshipLabel>Informes de crédito del negocio</relationshipLabel>
+    </fields>
+    <fields>
+        <label>OBJECTID no debe ser nulo durante la ini</label>
+        <name>nXBI__Credit_Bureau_ID__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de la agencia de crédito</label>
+        <name>nXBI__Credit_Bureau_Name__c</name>
+    </fields>
+    <fields>
+        <label>Nivel de registro</label>
+        <name>nXBI__Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label>Debe inicializar el proveedor de registr</label>
+        <name>nXBI__File_Creation_Date__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

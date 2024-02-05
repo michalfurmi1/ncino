@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Marque la casilla si la persona jurídica</label>
+        <name>LLC_BI__Addback_Comments__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de relación</label>
+        <name>LLC_BI__Amort_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>Financiera Intermedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de identificación fiscal o SSN -D</label>
+        <name>LLC_BI__Amortization__c</name>
+    </fields>
+    <fields>
+        <label>Introduzca identificación fiscal. No tie</label>
+        <name>LLC_BI__Annual_Cost_of_Living__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__Annual_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Rellenar este campo con el código de fun</label>
+        <name>LLC_BI__COGS_Rev__c</name>
+    </fields>
+    <fields>
+        <label>Reducción de equilibrar Limitación Canti</label>
+        <name>LLC_BI__COGS__c</name>
+    </fields>
+    <fields>
+        <label>Involvements entidad</label>
+        <name>LLC_BI__Cash_Balance_Date__c</name>
+    </fields>
+    <fields>
+        <label>Código nCino</label>
+        <name>LLC_BI__Cash_Balance__c</name>
+    </fields>
+    <fields>
+        <help>Comentarios incluidos en el correo electrónico enviados automáticamente</help>
+        <label>Cantidad de Equilibrio Reducción de limi</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>La garantía se limita a la cantidad pres</label>
+        <name>LLC_BI__Comp__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>Financiera Intermedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Comunidad cónyuge Propiedad Límite inter</label>
+        <name>LLC_BI__Current_AP__c</name>
+    </fields>
+    <fields>
+        <label>Porcentaje limitación. Utilice este camp</label>
+        <name>LLC_BI__DSC_Ratio_Post_OC__c</name>
+    </fields>
+    <fields>
+        <label>Reducción del principal limitación Canti</label>
+        <name>LLC_BI__DSC_Ratio_Pre_OC__c</name>
+    </fields>
+    <fields>
+        <help>valores predeterminados del sistema para el pago mensual actual. Sólo usar si desea sustituir en el caso de una modificación de préstamo, etc.</help>
+        <label>Indica si es que existe interés cónyuge</label>
+        <name>LLC_BI__Debt_Service_Override__c</name>
+    </fields>
+    <fields>
+        <label>Tipo garante</label>
+        <name>LLC_BI__Debt_Service_Value__c</name>
+    </fields>
+    <fields>
+        <label>Limitación de Responsabilidad máxima Mon</label>
+        <name>LLC_BI__Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Máxima cantidad de limitación de respons</label>
+        <name>LLC_BI__Depr_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>Financiera Intermedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>porcentaje Limitación</label>
+        <name>LLC_BI__Depreciation__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad de reducción del capital limita</label>
+        <name>LLC_BI__EPC_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>Financiera Intermedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Limitación de tiempo Años</label>
+        <name>LLC_BI__Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Limitación de tiempo en años. Utilice es</label>
+        <name>LLC_BI__Financial_Report_Version__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de relación (Push)</label>
+        <name>LLC_BI__Financials_Period__c</name>
+    </fields>
+    <fields>
+        <label>Beneficiario Relación Tipo Otra descripc</label>
+        <name>LLC_BI__Global_Annual_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Entrar en el &apos;otro&apos; tipo descripción de</label>
+        <name>LLC_BI__Global_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <label>Tipo beneficiario Relación</label>
+        <name>LLC_BI__Global_Cashflow_Reviewed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Sí</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Código nCino</label>
+        <name>LLC_BI__Global_DSCR__c</name>
+    </fields>
+    <fields>
+        <label>Seleccione la relación de la persona res</label>
+        <name>LLC_BI__Global_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Rellenar este campo con el código de fun</label>
+        <name>LLC_BI__Global_Other_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>relación Descripción</label>
+        <name>LLC_BI__Include_in_DSCR_Calc__c</name>
+    </fields>
+    <fields>
+        <label>Introduzca una descripción de la relació</label>
+        <name>LLC_BI__Interest_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>Financiera Intermedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>suprimir la Firma</label>
+        <name>LLC_BI__Interest__c</name>
+    </fields>
+    <fields>
+        <label>Seleccione esta casilla de verificación</label>
+        <name>LLC_BI__Monthly_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Teléfono Formulario de Protección al Con</label>
+        <name>LLC_BI__Net_Income__c</name>
+    </fields>
+    <fields>
+        <label>Seleccione esta casilla de verificación</label>
+        <name>LLC_BI__Net_Operating_Income__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>LLC_BI__Net_Operating_Margin__c</name>
+    </fields>
+    <fields>
+        <label>Si el gravamen está activo se va a utili</label>
+        <name>LLC_BI__Non_Cash_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>Financiera Intermedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cantidad</label>
+        <name>LLC_BI__Officer_Comp__c</name>
+    </fields>
+    <fields>
+        <label>La cantidad embargo en contra de una pie</label>
+        <name>LLC_BI__Operating_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Colateral</label>
+        <name>LLC_BI__Other_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Vínculos</label>
+        <name>LLC_BI__Other_Extraordinary_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de caducidad</label>
+        <name>LLC_BI__Other_Income__c</name>
+    </fields>
+    <fields>
+        <label>La fecha en que el gravamen ha sido paga</label>
+        <name>LLC_BI__Other_Non_Cash_Charge__c</name>
+    </fields>
+    <fields>
+        <label>Institución</label>
+        <name>LLC_BI__Practice__c</name>
+        <relationshipLabel>Reportes financieros</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Se crea a partir Colateral</label>
+        <name>LLC_BI__Rent__c</name>
+    </fields>
+    <fields>
+        <label>El gravamen se crea automáticamente a pa</label>
+        <name>LLC_BI__Req_Comp_Source__c</name>
+        <picklistValues>
+            <masterLabel>Credit Report Debt Service * 2</masterLabel>
+            <translation>Crédito de servicio de la deuda Informe * 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Loan Approval Summary</masterLabel>
+            <translation>Resumen inicial aprobación del préstamo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>se excluyen</label>
+        <name>LLC_BI__Required_Officer_Comp__c</name>
+    </fields>
+    <fields>
+        <label>Este campo se rellena a través del ápice</label>
+        <name>LLC_BI__Revenue__c</name>
+    </fields>
+    <fields>
+        <label>is_internal</label>
+        <name>LLC_BI__Reviewed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Sí</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número del préstamo</label>
+        <name>LLC_BI__Reviewer__c</name>
+        <picklistValues>
+            <masterLabel>NCINO</masterLabel>
+            <translation>Nino</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Préstamo</label>
+        <name>LLC_BI__Seller_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>El préstamo que este gravamen está ligad</label>
+        <name>LLC_BI__Spouses_Salary__c</name>
+    </fields>
+    <fields>
+        <label>Vínculos</label>
+        <name>LLC_BI__Staff_Labor_Payroll__c</name>
+    </fields>
+    <fields>
+        <label>Posición</label>
+        <name>LLC_BI__Staff_Rev__c</name>
+    </fields>
+    <fields>
+        <label>El orden en el que será pagado derechos</label>
+        <name>LLC_BI__Statement_Date__c</name>
+    </fields>
+    <fields>
+        <label>Con adquirida préstamo o proyecto proced</label>
+        <name>LLC_BI__Subdebt_Paid__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>N / A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Sí</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Indica si el activo fue adquirido con el</label>
+        <name>LLC_BI__Third_Party_Rent_Rev__c</name>
+    </fields>
+    <fields>
+        <label>Monto adeudado al Vendedor Bajo contrato</label>
+        <name>LLC_BI__Third_Party_Rent__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad adeudada al vendedor bajo contr</label>
+        <name>LLC_BI__Third_Party__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

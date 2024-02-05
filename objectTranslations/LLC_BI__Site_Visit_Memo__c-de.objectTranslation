@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Memos Ortsbesuche</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Action_Items__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Customer_Flow__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Send_When_Saved__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Zuständiger Sachbearbeiter</label>
+        <name>LLC_BI__Servicing_Officer__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Site_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Visit_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Beschreibung Besuch</label>
+        <name>LLC_BI__Visit_Description__c</name>
+    </fields>
+    <fields>
+        <label>Ziel Besuch</label>
+        <name>LLC_BI__Visit_Objective__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Watchlist_History__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loan__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>Form_Generation</name>
+    </webLinks>
+</CustomObjectTranslation>

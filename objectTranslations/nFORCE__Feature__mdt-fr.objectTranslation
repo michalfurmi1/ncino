@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nFORCE__Active__c</name>
+    </fields>
+    <fields>
+        <label>La description</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label>développeur Activé</label>
+        <name>nFORCE__Developer_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>développeur Autorisé</label>
+        <name>nFORCE__Developer_Permitted__c</name>
+    </fields>
+    <fields>
+        <label>C&apos;est actif</label>
+        <name>nFORCE__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>Activé Paramètre Fonction</label>
+        <name>nFORCE__LMO_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Paramètre Fonction autorisée</label>
+        <name>nFORCE__LMO_Permitted__c</name>
+    </fields>
+    <fields>
+        <label>Parent Nom de la fonction</label>
+        <name>nFORCE__Parent_Feature_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

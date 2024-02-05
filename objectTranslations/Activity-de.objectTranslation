@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>Comment_Preview__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Assignment_Group__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Estimated_Time__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Group__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Maintenance_Type__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>Hinzufügen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Parent_Task__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__SubType__c</name>
+        <picklistValues>
+            <masterLabel>Add Authorized User</masterLabel>
+            <translation>Autorisierten Benutzer hinzufügen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address Change</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Account Update</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Address</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Close Out Service</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Limit Change</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Earnings Credit Adjustment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Security Token Request</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order New Equipment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Sonstige</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Credit Limit Increase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__isTemplate__c</name>
+    </fields>
+</CustomObjectTranslation>

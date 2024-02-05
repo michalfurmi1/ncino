@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Rapport de solvabilité d’entreprise</label>
+        <name>Business_Credit_Report__c</name>
+        <relationshipLabel>Les créanciers</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Limite</label>
+        <name>Limit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Account_Activity_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Account_Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de compte</label>
+        <name>nFUSE__Account_Number__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le code de type de compte, ce qui indique le type de prêt consenti par le créancier à l&apos;emprunteur.</help>
+        <label>Code de compte de type</label>
+        <name>nFUSE__Account_Type_Code__c</name>
+    </fields>
+    <fields>
+        <label>Date de l&apos;équilibre</label>
+        <name>nFUSE__Balance_Date__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le nombre de fois le paiement de l&apos;emprunteur était 30-59 jours après l&apos;échéance.</help>
+        <label>Comptez 30 jours Echues</label>
+        <name>nFUSE__Count_30_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le nombre de fois le paiement de l&apos;emprunteur était 60-89 jours après l&apos;échéance.</help>
+        <label>Compter 60 jours Echues</label>
+        <name>nFUSE__Count_60_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le nombre de fois le paiement de l&apos;emprunteur est de 90 jours ou plus en souffrance.</help>
+        <label>Comptez 90 jours</label>
+        <name>nFUSE__Count_90_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <label>Équilibre</label>
+        <name>nFUSE__Creditor_Balance__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le code de l&apos;industrie du créancier.</help>
+        <label>Code de l&apos;industrie des pays créanciers</label>
+        <name>nFUSE__Creditor_Industry_Code__c</name>
+    </fields>
+    <fields>
+        <label>Nom du créancier</label>
+        <name>nFUSE__Creditor_Name__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le code membre de l&apos;abonné de crédit.</help>
+        <label>Nombre créanciers</label>
+        <name>nFUSE__Creditor_Number__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le code d&apos;état actuel, ce qui indique l&apos;état actuel du compte.</help>
+        <label>Code d&apos;état actuel</label>
+        <name>nFUSE__Current_Status_Code__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de date facultative à la date à laquelle l&apos;emprunteur fait leur dernier paiement mensuel.</help>
+        <label>Date du dernier paiement</label>
+        <name>nFUSE__Date_Of_Last_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de date en option avec la date d&apos;ouverture du compte.</help>
+        <label>Date d&apos;ouverture</label>
+        <name>nFUSE__Date_Opened__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ facultatif de devises avec le montant le plus élevé jamais dû sur le compte ou le solde initial.</help>
+        <label>Montant de crédit élevé</label>
+        <name>nFUSE__High_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Responsabilité Type de propriété</label>
+        <name>nFUSE__Liability_Ownership_Type__c</name>
+    </fields>
+    <fields>
+        <label>Type de responsabilité</label>
+        <name>nFUSE__Liability_Type__c</name>
+    </fields>
+    <fields>
+        <label>Montant du paiement mensuel</label>
+        <name>nFUSE__Monthly_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Months_Left_To_Pay__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ facultatif avec le nombre de mois l&apos;historique de paiement de l&apos;emprunteur a été examiné.</help>
+        <label>mois Avis</label>
+        <name>nFUSE__Months_Reviewed__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ facultatif de devises avec le montant que l&apos;emprunteur a passé en raison du compte.</help>
+        <label>Montant dû passé</label>
+        <name>nFUSE__Past_Due_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le modèle de paiement de l&apos;emprunteur.</help>
+        <label>Motif de paiement</label>
+        <name>nFUSE__Payment_Pattern__c</name>
+    </fields>
+    <fields>
+        <label>Rapport de crédit</label>
+        <name>nFUSE__ReportId__c</name>
+        <relationshipLabel>Les créanciers</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le terme durée de l&apos;obligation financière.</help>
+        <label>Conditions Durée</label>
+        <name>nFUSE__Terms_Duration__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

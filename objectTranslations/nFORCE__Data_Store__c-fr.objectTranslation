@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>La moyenne est une moyenne arithmétique des valeurs. Utilisez ce champ si les rapports analytiques sous-jacents en moyenne.</help>
+        <label>Moyenne</label>
+        <name>nFORCE__Average__c</name>
+    </fields>
+    <fields>
+        <help>Utilisez ce champ si les rapports de données analytiques sous-jacents sur le nombre. Count est un nombre de champs de données</help>
+        <label>Compter</label>
+        <name>nFORCE__Count__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 10</label>
+        <name>nFORCE__Currency_10__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 1</label>
+        <name>nFORCE__Currency_1__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 2</label>
+        <name>nFORCE__Currency_2__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 3</label>
+        <name>nFORCE__Currency_3__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 4</label>
+        <name>nFORCE__Currency_4__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 5</label>
+        <name>nFORCE__Currency_5__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 6</label>
+        <name>nFORCE__Currency_6__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 7</label>
+        <name>nFORCE__Currency_7__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 8</label>
+        <name>nFORCE__Currency_8__c</name>
+    </fields>
+    <fields>
+        <label>monnaie 9</label>
+        <name>nFORCE__Currency_9__c</name>
+    </fields>
+    <fields>
+        <help>source de données propriété ID</help>
+        <label>Id Source de données</label>
+        <name>nFORCE__Data_Source_Id__c</name>
+    </fields>
+    <fields>
+        <help>Une chaîne qui a une structure de données associée utilisé pour décrire une connexion à une source de données.</help>
+        <label>Nom de la source de données</label>
+        <name>nFORCE__Data_Source_Name__c</name>
+    </fields>
+    <fields>
+        <help>Source des données sera « Salesforce Org » pour l&apos;analyse que toutes les données proviennent de orgs enfants. Cependant, l&apos;objet Data Store, est suffisamment générique pour contenir des données à partir d&apos;autres sources telles que la FDIC.</help>
+        <label>La source de données</label>
+        <name>nFORCE__Data_Source__c</name>
+        <picklistValues>
+            <masterLabel>Salesforce Org</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_10__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_1__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_2__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_3__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_4__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_5__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_6__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_7__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_8__c</name>
+    </fields>
+    <fields>
+        <help>Un champ DateTime utilisé pour le regroupement.</help>
+        <label></label>
+        <name>nFORCE__DateTime_9__c</name>
+    </fields>
+    <fields>
+        <label>décimal 10</label>
+        <name>nFORCE__Decimal_10__c</name>
+    </fields>
+    <fields>
+        <label>décimal 1</label>
+        <name>nFORCE__Decimal_1__c</name>
+    </fields>
+    <fields>
+        <label>décimal 2</label>
+        <name>nFORCE__Decimal_2__c</name>
+    </fields>
+    <fields>
+        <label>decimal 3</label>
+        <name>nFORCE__Decimal_3__c</name>
+    </fields>
+    <fields>
+        <label>decimal 4</label>
+        <name>nFORCE__Decimal_4__c</name>
+    </fields>
+    <fields>
+        <label>decimal 5</label>
+        <name>nFORCE__Decimal_5__c</name>
+    </fields>
+    <fields>
+        <label>decimal 6</label>
+        <name>nFORCE__Decimal_6__c</name>
+    </fields>
+    <fields>
+        <label>decimal 7</label>
+        <name>nFORCE__Decimal_7__c</name>
+    </fields>
+    <fields>
+        <label>decimal 8</label>
+        <name>nFORCE__Decimal_8__c</name>
+    </fields>
+    <fields>
+        <label>decimal 9</label>
+        <name>nFORCE__Decimal_9__c</name>
+    </fields>
+    <fields>
+        <help>Fin du délai pour les données capturées. Si les données agrégées sont capturées par jour, les dates de début et de fin sera la même date. Si les données globales est pendant une semaine, le début et la date de fin serait une semaine d&apos;intervalle.</help>
+        <label>Date de fin</label>
+        <name>nFORCE__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>Les champs peuvent être regroupés en mesures et dimensions.</help>
+        <label>Groupe 1</label>
+        <name>nFORCE__Grouping_1__c</name>
+    </fields>
+    <fields>
+        <help>Les champs peuvent être regroupés en mesures et dimensions.</help>
+        <label>Regroupement 2</label>
+        <name>nFORCE__Grouping_2__c</name>
+    </fields>
+    <fields>
+        <help>Les champs peuvent être regroupés en mesures et dimensions.</help>
+        <label>Regroupement 3</label>
+        <name>nFORCE__Grouping_3__c</name>
+    </fields>
+    <fields>
+        <help>Les champs peuvent être regroupés en mesures et dimensions.</help>
+        <label>Regroupement 4</label>
+        <name>nFORCE__Grouping_4__c</name>
+    </fields>
+    <fields>
+        <help>Les champs peuvent être regroupés en mesures et dimensions.</help>
+        <label>Regroupement 5</label>
+        <name>nFORCE__Grouping_5__c</name>
+    </fields>
+    <fields>
+        <help>Formule pour déterminer si sale</help>
+        <label>Est sale</label>
+        <name>nFORCE__Is_Dirty__c</name>
+    </fields>
+    <fields>
+        <help>Max est la plus grande valeur. Utilisez ce champ si les rapports de données analytiques sous-jacentes sur max.</help>
+        <label>max</label>
+        <name>nFORCE__Max__c</name>
+    </fields>
+    <fields>
+        <help>Min est la plus petite valeur. Utilisez ce champ si les rapports de données analytiques sous-jacentes sur min.</help>
+        <label>moi</label>
+        <name>nFORCE__Min__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 10</label>
+        <name>nFORCE__Number_10__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 11</label>
+        <name>nFORCE__Number_11__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 12</label>
+        <name>nFORCE__Number_12__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 13</label>
+        <name>nFORCE__Number_13__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 14</label>
+        <name>nFORCE__Number_14__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 15</label>
+        <name>nFORCE__Number_15__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 16</label>
+        <name>nFORCE__Number_16__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 17</label>
+        <name>nFORCE__Number_17__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 18</label>
+        <name>nFORCE__Number_18__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 19</label>
+        <name>nFORCE__Number_19__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>Numéro 1</label>
+        <name>nFORCE__Number_1__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 20</label>
+        <name>nFORCE__Number_20__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 21</label>
+        <name>nFORCE__Number_21__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 22</label>
+        <name>nFORCE__Number_22__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 23</label>
+        <name>nFORCE__Number_23__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 24</label>
+        <name>nFORCE__Number_24__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 25</label>
+        <name>nFORCE__Number_25__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>Numéro 2</label>
+        <name>nFORCE__Number_2__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>Numéro 3</label>
+        <name>nFORCE__Number_3__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>Numéro 4</label>
+        <name>nFORCE__Number_4__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>Numéro 5</label>
+        <name>nFORCE__Number_5__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 6</label>
+        <name>nFORCE__Number_6__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 7</label>
+        <name>nFORCE__Number_7__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 8</label>
+        <name>nFORCE__Number_8__c</name>
+    </fields>
+    <fields>
+        <help>Un champ numérique utilisé pour le regroupement.</help>
+        <label>numéro 9</label>
+        <name>nFORCE__Number_9__c</name>
+    </fields>
+    <fields>
+        <label>10 pour cent</label>
+        <name>nFORCE__Percent_10__c</name>
+    </fields>
+    <fields>
+        <label>1 pour cent</label>
+        <name>nFORCE__Percent_1__c</name>
+    </fields>
+    <fields>
+        <label>2 pour cent</label>
+        <name>nFORCE__Percent_2__c</name>
+    </fields>
+    <fields>
+        <label>3 pour cent</label>
+        <name>nFORCE__Percent_3__c</name>
+    </fields>
+    <fields>
+        <label>4 pour cent</label>
+        <name>nFORCE__Percent_4__c</name>
+    </fields>
+    <fields>
+        <label>5 pour cent</label>
+        <name>nFORCE__Percent_5__c</name>
+    </fields>
+    <fields>
+        <label>6 pour cent</label>
+        <name>nFORCE__Percent_6__c</name>
+    </fields>
+    <fields>
+        <label>7 pour cent</label>
+        <name>nFORCE__Percent_7__c</name>
+    </fields>
+    <fields>
+        <label>8 pour cent</label>
+        <name>nFORCE__Percent_8__c</name>
+    </fields>
+    <fields>
+        <label>9 pour cent</label>
+        <name>nFORCE__Percent_9__c</name>
+    </fields>
+    <fields>
+        <help>Envoyer date et l&apos;heure</help>
+        <label>Envoyer Date Heure</label>
+        <name>nFORCE__Send_Date_Time__c</name>
+    </fields>
+    <fields>
+        <help>Le début de la période pour les données capturées.</help>
+        <label>Date de début</label>
+        <name>nFORCE__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Utilisez ce champ si les rapports de données analytiques sous-jacentes sur la somme. La somme est une fonction additive.</help>
+        <label>Somme</label>
+        <name>nFORCE__Sum__c</name>
+    </fields>
+    <fields>
+        <help>Une liste prédéfinie pour aider à filtrer les rapports.</help>
+        <label>Mots clés</label>
+        <name>nFORCE__Tags__c</name>
+        <picklistValues>
+            <masterLabel>Login Count</masterLabel>
+            <translation>Connexion Count</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Analytics</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 10</label>
+        <name>nFORCE__Text_10__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 11</label>
+        <name>nFORCE__Text_11__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 12</label>
+        <name>nFORCE__Text_12__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 13</label>
+        <name>nFORCE__Text_13__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 14</label>
+        <name>nFORCE__Text_14__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 15</label>
+        <name>nFORCE__Text_15__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 16</label>
+        <name>nFORCE__Text_16__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 17</label>
+        <name>nFORCE__Text_17__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 18</label>
+        <name>nFORCE__Text_18__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 19</label>
+        <name>nFORCE__Text_19__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 1</label>
+        <name>nFORCE__Text_1__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 20</label>
+        <name>nFORCE__Text_20__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 21</label>
+        <name>nFORCE__Text_21__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 22</label>
+        <name>nFORCE__Text_22__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 23</label>
+        <name>nFORCE__Text_23__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 24</label>
+        <name>nFORCE__Text_24__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 25</label>
+        <name>nFORCE__Text_25__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 2</label>
+        <name>nFORCE__Text_2__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 3</label>
+        <name>nFORCE__Text_3__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 4</label>
+        <name>nFORCE__Text_4__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 5</label>
+        <name>nFORCE__Text_5__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 6</label>
+        <name>nFORCE__Text_6__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 7</label>
+        <name>nFORCE__Text_7__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 8</label>
+        <name>nFORCE__Text_8__c</name>
+    </fields>
+    <fields>
+        <help>Un champ de texte utilisé pour le regroupement.</help>
+        <label>texte 9</label>
+        <name>nFORCE__Text_9__c</name>
+    </fields>
+    <fields>
+        <help>Timestamp est le moment où l&apos;instantané analytique a couru sur l&apos;org enfant.</help>
+        <label>timestamp</label>
+        <name>nFORCE__Timestamp__c</name>
+    </fields>
+    <fields>
+        <help>Nom unique pour le magasin de données est un nom de l&apos;instantané analytique qui a capturé les données d&apos;origine. Des exemples peuvent être quelque chose comme « Login Daily Count », « Nombre total de prêt », etc ... Vous utiliserez ce nom unique pour</help>
+        <label>Nom unique</label>
+        <name>nFORCE__Unique_Name__c</name>
+    </fields>
+    <fields>
+        <help>valeur du magasin de données est une valeur générique. Cela ne sera probablement pas utilisé dans l&apos;analyse de l&apos;utilisateur, mais il pourrait être utilisé si la saisie des données de la FDIC ou une autre source.</help>
+        <label>Valeur</label>
+        <name>nFORCE__Value__c</name>
+    </fields>
+    <fields>
+        <help>Clé de requête se joindre à la table de base et la table de consultation.</help>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Appuyez données</label>
+        <name>nFORCE__Push_Data</name>
+    </webLinks>
+</CustomObjectTranslation>

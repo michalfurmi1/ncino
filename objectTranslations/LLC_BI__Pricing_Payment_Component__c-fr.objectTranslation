@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Montant minimum de paiement</label>
+        <name>CSiDP__Minimum_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Montant</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help>Commentaires</help>
+        <label>Commentaires</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Count__c</name>
+    </fields>
+    <fields>
+        <label>Fréquence de paiement</label>
+        <name>LLC_BI__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Frequency_Annually</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Monthly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Includes_Interest__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Includes_Principal__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Interest_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Frequency_Annually</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Monthly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Intérêt Fréquence de paiement</label>
+        <name>LLC_BI__Interest_Payment_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Frequency_Annually</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Monthly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Unité d&apos;intérêt</help>
+        <label></label>
+        <name>LLC_BI__Interest_Unit__c</name>
+    </fields>
+    <fields>
+        <help>intérêt Valeur</help>
+        <label></label>
+        <name>LLC_BI__Interest_Value__c</name>
+    </fields>
+    <fields>
+        <label>C&apos;est réglé</label>
+        <name>LLC_BI__Is_Fixed__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système ou utilisateur affiche le montant du paiement le plus élevé sur un flux de paiement.</help>
+        <label>Le paiement maximum</label>
+        <name>LLC_BI__Maximum_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système ou utilisateur affiche le plus faible montant de paiement possible sur un flux de paiement.</help>
+        <label>Paiement minimum</label>
+        <name>LLC_BI__Minimum_Payment__c</name>
+    </fields>
+    <fields>
+        <label>Pour cent du montant total du prêt</label>
+        <name>LLC_BI__Percent_Of_Total_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Flux de prix</label>
+        <name>LLC_BI__Pricing_Stream__c</name>
+        <relationshipLabel>Composants de paiement de prix</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Paiement de base sur</label>
+        <name>LLC_BI__Principal_As_Percent__c</name>
+    </fields>
+    <fields>
+        <label>Fréquence principale de paiement</label>
+        <name>LLC_BI__Principal_Payment_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Frequency_Annually</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Monthly</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Notez</label>
+        <name>LLC_BI__Rate_Stream__c</name>
+        <relationshipLabel>Ruisseaux</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

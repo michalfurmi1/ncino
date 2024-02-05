@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Exento manualmente</label>
+        <name>LLC_BI__Child_Highest__c</name>
+        <relationshipLabel>niño Mayor</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Es necesario por el contexto</label>
+        <name>LLC_BI__Child_Loan__c</name>
+        <relationshipLabel>Producto Paquete Historia Préstamos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Necesitado por</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>Orden</label>
+        <name>LLC_BI__Parent_Loan__c</name>
+        <relationshipLabel>Producto Paquete Préstamos Historia (Parent Loan)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID de proxy</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Producto Paquete Historia Préstamos</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

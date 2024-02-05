@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Numéro de groupe</label>
+        <name>LLC_BI__Group_Number__c</name>
+    </fields>
+    <fields>
+        <label>Risque année modèle</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>Groupes de grade risque</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Poids</label>
+        <name>LLC_BI__Weight__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

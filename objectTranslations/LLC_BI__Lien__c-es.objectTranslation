@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Si el gravamen está activo, se usará en los cálculos del gravamen actual y previo.</help>
+        <label>Activo</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de gravamen sobre un elemento del colateral.</help>
+        <label>Cantidad</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Colateral</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Gravámenes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La fecha en la que se ha pagado el gravamen.</help>
+        <label>Fecha de vencimiento</label>
+        <name>LLC_BI__Expire_Date__c</name>
+    </fields>
+    <fields>
+        <help>La institución que tiene el gravamen sobre un elemento del colateral.</help>
+        <label>Institución</label>
+        <name>LLC_BI__Institution__c</name>
+    </fields>
+    <fields>
+        <help>En un crédito registrado, ¿se crea el gravamen de forma automática desde el colateral?</help>
+        <label>Se crea del colateral</label>
+        <name>LLC_BI__Is_Created_From_Collateral__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se completa vía Apex para excluir este gravamen de los cálculos.</help>
+        <label>Está excluido</label>
+        <name>LLC_BI__Is_Excluded__c</name>
+    </fields>
+    <fields>
+        <label>Is_Internal</label>
+        <name>LLC_BI__Is_Internal__c</name>
+    </fields>
+    <fields>
+        <label>Número del crédito</label>
+        <name>LLC_BI__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <help>El crédito al que está asociado este gravamen para el crédito mantenido por esta institución financiera</help>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Gravámenes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El orden en que se devolverán los gravámenes cuando la propiedad se transfiera a un nuevo propietario.</help>
+        <label>Posición</label>
+        <name>LLC_BI__Position__c</name>
+        <picklistValues>
+            <masterLabel>1st</masterLabel>
+            <translation>1º</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation>2º</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd</masterLabel>
+            <translation>3º</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indica si el activo fue adquirido con el préstamo o proyecto procede. Este campo se utiliza en SBA única autorización.</help>
+        <label>Longitud Demostramos a</label>
+        <name>nSBA__Acquired_With_Loan_Or_Project_Proceeds__c</name>
+    </fields>
+    <fields>
+        <help>Cantidad adeudada al vendedor bajo contrato. Utilice este campo sólo para los gravámenes sobre el comprador o vendedor interés en contrato de tierra de venta. Este campo se utiliza en SBA única autorización.</help>
+        <label>Tipo de arrendamiento</label>
+        <name>nSBA__Amount_Owed_To_Seller_Under_Contract__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si hay algún gravamen previo (s) que está (n) abierta terminó como a futuros avances deben ser cerradas, por escrito, de acuerdo con las leyes estatales aplicables. Este campo se utiliza en SBA única autorización.</help>
+        <label>Superior Lien Cantidad</label>
+        <name>nSBA__Close_Prior_Open_Ended_Liens__c</name>
+    </fields>
+    <fields>
+        <help>Fecha de arrendamiento. Utilice este campo sólo para los derechos de retención sobre los intereses del arrendatario en un contrato de arrendamiento por cesión. Este campo se utiliza en SBA única autorización.</help>
+        <label>Contador</label>
+        <name>nSBA__Date_Of_Lease__c</name>
+    </fields>
+    <fields>
+        <help>Evidencia de título y derecho de retención preferencial opciones abiertas. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>préstamos</label>
+        <name>nSBA__Evidence_Of_Title_And_Lien_Priority_OO__c</name>
+    </fields>
+    <fields>
+        <help>Evidencia del título y la prioridad de las opciones de Lien. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Bandera acción adversa</label>
+        <name>nSBA__Evidence_Of_Title_And_Priority_Of_Lien__c</name>
+        <picklistValues>
+            <masterLabel>ALTA Loan Policy</masterLabel>
+            <translation>Préstamo para Políticas de ALTA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney’s certificate of title</masterLabel>
+            <translation>certificado de título de abogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLTA Loan Policy</masterLabel>
+            <translation>Préstamo para Políticas de CLTA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Title Policy</masterLabel>
+            <translation>Título de la política limitada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgagee’s Title Policy</masterLabel>
+            <translation>Título de la política de mortgagee</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property, Judgment and Lien Report indicating that lender has obtained the required position</masterLabel>
+            <translation>Propiedad, Juicio y Lien informe que indica que el prestamista ha obtenido la posición deseada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title and/or Lien Search</masterLabel>
+            <translation>Título y / o búsqueda de gravamen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title insurance customarily obtained for similar transactions in this jurisdiction</masterLabel>
+            <translation>El seguro de título obtenido habitualmente para transacciones similares en esta jurisdicción</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Una lista de cualquier evidencia del título Opciones de apertura aquí. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Monto asignado Facility</label>
+        <name>nSBA__Evidence_Of_Title_Open_Option__c</name>
+    </fields>
+    <fields>
+        <help>Indica si se requiere la presentación de solicitud de aviso. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Plazo amortizado (Meses) - D</label>
+        <name>nSBA__Filing_Request_For_Notice_Required__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo si la entidad que garantiza el préstamo es asegurar su garantía con este gravamen. Este campo se utiliza en SBA única autorización.</help>
+        <label>Dinero nuevo</label>
+        <name>nSBA__Guaranteed_By__c</name>
+        <relationshipLabel>Vínculos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica que la asignación de las rentas de la tierra y las mejoras se incluyen en el gravamen. Utilice este campo sólo si se selecciona la opción de arrendamientos de bienes inmuebles Y es Gravamen sobre terrenos y mejoras. Este campo se utiliza en SB</help>
+        <label>Cantidad sobresaliente</label>
+        <name>nSBA__Include_Assignment_Of_Rents__c</name>
+    </fields>
+    <fields>
+        <help>Indica que los derechos de agua están incluidos en el gravamen. Utilice este campo sólo si se selecciona la opción de arrendamientos de bienes inmuebles Y es Gravamen sobre terrenos y mejoras. Este campo se utiliza en SBA única autorización.</help>
+        <label>Incremento de la tarifa anual</label>
+        <name>nSBA__Include_Water_Rights__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione el estado del instrumento específico. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Solicitud</label>
+        <name>nSBA__Instrument__c</name>
+        <picklistValues>
+            <masterLabel>Deed of Trust</masterLabel>
+            <translation>Escritura de fideicomiso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deed to Secure Debt</masterLabel>
+            <translation>Escritura para garantizar deudas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indemnity Deed</masterLabel>
+            <translation>Escritura indemnización</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana Trust Indenture</masterLabel>
+            <translation>Montana de fideicomiso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation>Hipoteca</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si hay algún hipotecas anteriores, en esta garantía, ajuste este campo si cualquier gravamen previo es de boca abierta. Este campo se utiliza en SBA única autorización.</help>
+        <label>Aprobado Por Cantidad</label>
+        <name>nSBA__Is_Any_Prior_Lien_Open_Ended__c</name>
+    </fields>
+    <fields>
+        <help>Indica si embargo se financia con este préstamo?</help>
+        <label>ABR</label>
+        <name>nSBA__Is_Financed_With_This_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Los propietarios es la renuncia requeridos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Fecha de autorización</label>
+        <name>nSBA__Is_Landlords_Waiver_Required__c</name>
+    </fields>
+    <fields>
+        <help>Sin MGL es el Artículo 21 (e) es una opción política o ALTA Préstamo Hipotecario. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Automática de la cuenta de pago</label>
+        <name>nSBA__Is_Without_MGL_Section_21e__c</name>
+    </fields>
+    <fields>
+        <help>Es, sin excepciones estándar (ALTA extendida) es una opción política de préstamo ALTA. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>La disponibilidad de Core</label>
+        <name>nSBA__Is_Without_Standard_Exceptions__c</name>
+    </fields>
+    <fields>
+        <help>Es sin excepción Encuesta estándar es una opción política de préstamo ALTA. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>La cantidad total para el pago global</label>
+        <name>nSBA__Is_Without_Standard_Survey_Exception__c</name>
+    </fields>
+    <fields>
+        <help>fideicomiso de tierras cantidad cesionarios anteriores. Utilice este campo sólo para los gravámenes sobre Asignación de Participación y Poder de Dirección en la confianza de tierra. Este campo se utiliza en SBA única autorización.</help>
+        <label>Globo</label>
+        <name>nSBA__Land_Trust_Prior_Assignees_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Enumerar los cesionarios anteriores de la confianza de tierra. Utilice este campo sólo para los gravámenes sobre Asignación de Participación y Poder de Dirección en la confianza de tierra. Este campo se utiliza en SBA única autorización.</help>
+        <label>Ciudad de facturación</label>
+        <name>nSBA__Land_Trust_Prior_Assignees__c</name>
+    </fields>
+    <fields>
+        <help>fideicomiso de tierras cantidad lienholders anteriores. Utilice este campo sólo para los gravámenes sobre Asignación de Participación y Poder de Dirección en la confianza de tierra. Este campo se utiliza en SBA única autorización.</help>
+        <label>Calle de facturación</label>
+        <name>nSBA__Land_Trust_Prior_Lienholders_Amount__c</name>
+    </fields>
+    <fields>
+        <help>fideicomiso de tierras lienholders anteriores. Utilice este campo sólo para los gravámenes sobre Asignación de Participación y Poder de Dirección en la confianza de tierra. Este campo se utiliza en SBA única autorización.</help>
+        <label>reservado Fecha</label>
+        <name>nSBA__Land_Trust_Prior_Lienholders__c</name>
+    </fields>
+    <fields>
+        <help>Número de días para arrendador a facilitar Prestamista / SBA aviso por escrito de la intención de terminar el contrato por incumplimiento del prestatario y una oportunidad de curar. Utilice este campo sólo para los arrendatarios tipo de interés de gr</help>
+        <label>Reservado Fecha Hora</label>
+        <name>nSBA__Lease_Agreement_Termination_Notice_Days__c</name>
+    </fields>
+    <fields>
+        <help>Introducir el número de años de arrendamiento si necesita extenderse por encima de la vigencia del préstamo. Utilice este campo sólo para los gravámenes sobre arrendamientos relacionados con la construcción en tierras arrendadas. Este campo se utiliz</help>
+        <label>prestatario City</label>
+        <name>nSBA__Leasehold_Term_Of_Loan_Plus_Years__c</name>
+    </fields>
+    <fields>
+        <help>Indica si prestamista debe causar hecho de estar en la plica. Utilice este campo sólo para los gravámenes sobre Comprador interés en contrato de tierra de venta. Este campo se utiliza en SBA única autorización.</help>
+        <label>Equilibrio libro mayor del prestatario.</label>
+        <name>nSBA__Lender_Must_Cause_Deed_To_Be_In_Escrow__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del arrendatario. Utilice este campo sólo para el tipo de interés del arrendatario de gravámenes. Este campo se utiliza en SBA única autorización.</help>
+        <label>Rama</label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessee__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del arrendador. Utilice este campo sólo para el tipo de interés del arrendatario de gravámenes. Este campo se utiliza en SBA única autorización.</help>
+        <label>Tasa de remisión</label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessor__c</name>
+    </fields>
+    <fields>
+        <help>Línea de crédito Monto máximo. Utilice este campo sólo para hipotecas anteriores. Este campo se utiliza en SBA única autorización.</help>
+        <label>préstamos</label>
+        <name>nSBA__Line_Of_Credit_Maximum_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Línea de crédito cantidad presente. Utilice este campo sólo para hipotecas anteriores. Este campo se utiliza en SBA única autorización.</help>
+        <label>cantidad Balloon calcula a través de una</label>
+        <name>nSBA__Line_Of_Credit_Present_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Describir la naturaleza de los intereses y cantidades. Utilice este campo sólo para los gravámenes sobre el comprador o vendedor interés en contrato de tierra de venta. Este campo se utiliza en SBA única autorización.</help>
+        <label>sección censal</label>
+        <name>nSBA__Nature_Of_Interests_And_Amounts__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si hipotecante Política Título debe contener ninguna excepción para las partes en la posesión. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autoriza</help>
+        <label>Fecha de cierre Confirmado</label>
+        <name>nSBA__No_Exceptions_For_Parties_In_Possession__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista debe obtener un acuerdo escrito del titular de prenda anteriores para proporcionar prestamista con este número de días de aviso por escrito antes de comenzar la ejecución de embargo preventivo antes. Utilice este campo sólo para los derec</help>
+        <label>Fecha de cierre</label>
+        <name>nSBA__Notice_Before_Foreclosure_Agreement__c</name>
+    </fields>
+    <fields>
+        <help>Indica si se requiere lienholders verificación por escrito. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Fecha de cierre proyectado</label>
+        <name>nSBA__Prior_Lienholders_Written_Verification__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se establece en true sólo si el interés de la seguridad en la propiedad personal es Puerto Rico hipoteca mobiliaria. Este campo se utiliza en las comunicaciones de la SBA préstamo de autorización y E-Tran partir de la versión 5.</help>
+        <label>Oficial de cumplimiento</label>
+        <name>nSBA__Puerto_Rico_Chattel_Mortgage__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del comprador en cesión en garantía de (o derecho de retención sobre) el interés del comprador en el contrato de tierra de venta. Utilice este campo sólo para los gravámenes sobre el comprador o vendedor interés en contrato de tierra de venta.</help>
+        <label>Consorcio / Tercera Parte reportable</label>
+        <name>nSBA__Purchasers_Interest_Contract_Purchaser__c</name>
+    </fields>
+    <fields>
+        <help>Vendedor nombre de cesión en garantía de (o derecho de retención sobre) el interés del comprador en el contrato de tierra de venta. Utilice este campo sólo para los gravámenes sobre el comprador o vendedor interés en contrato de tierra de venta. Este</help>
+        <label>Acción tomada</label>
+        <name>nSBA__Purchasers_Interest_Contract_Seller__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Reality_And_Leaseholds_Option__c</name>
+        <picklistValues>
+            <masterLabel>Assignment of Beneficial Interest and Power of Direction in Land Trust</masterLabel>
+            <translation>Asignación de Participación y Poder de Dirección en la confianza de tierra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Purchaser’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Asignación de garantía (o derecho de retención sobre) el interés del comprador en el contrato de tierra de Venta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Seller’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Asignación de garantía (o derecho de retención sobre) El interés del vendedor en el contrato de tierra de Venta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative Apartment</masterLabel>
+            <translation>Piso cooperativa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Instrument on Building Constructed on Leased Land</masterLabel>
+            <translation>Instrumento de arrendamiento en la construcción Construida sobre un terreno alquilado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Security Interest in building on leased land</masterLabel>
+            <translation>Se traspasa Seguridad interés en la construcción en terrenos arrendados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold on Tribal Land</masterLabel>
+            <translation>Se traspasa en tierras tribales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Assignment</masterLabel>
+            <translation>El interés del arrendatario en un contrato de arrendamiento por cesión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Lien, Mortgage or Deed of Trust</masterLabel>
+            <translation>El interés del arrendatario en un contrato de arrendamiento por Lien, hipoteca o escritura de fideicomiso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lien On Land And Improvements</masterLabel>
+            <translation>El derecho sobre una tierra y las mejoras</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Inmo y Opciones de arrendamientos. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Código de afiliación</label>
+        <name>nSBA__Realty_And_Leaseholds_Option__c</name>
+        <picklistValues>
+            <masterLabel>Assignment of Beneficial Interest and Power of Direction in Land Trust</masterLabel>
+            <translation>Asignación de Participación y Poder de Dirección en la confianza de tierra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Purchaser’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Asignación de garantía (o derecho de retención sobre) el interés del comprador en el contrato de tierra de Venta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Seller’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Asignación de garantía (o derecho de retención sobre) El interés del vendedor en el contrato de tierra de Venta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative Apartment</masterLabel>
+            <translation>Piso cooperativa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Instrument on Building Constructed on Leased Land</masterLabel>
+            <translation>Instrumento de arrendamiento en la construcción Construida sobre un terreno alquilado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Security Interest in building on leased land</masterLabel>
+            <translation>Se traspasa Seguridad interés en la construcción en terrenos arrendados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold on Tribal Land</masterLabel>
+            <translation>Se traspasa en tierras tribales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Assignment</masterLabel>
+            <translation>El interés del arrendatario en un contrato de arrendamiento por cesión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Lien, Mortgage or Deed of Trust</masterLabel>
+            <translation>El interés del arrendatario en un contrato de arrendamiento por Lien, hipoteca o escritura de fideicomiso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lien On Land And Improvements</masterLabel>
+            <translation>El derecho sobre una tierra y las mejoras</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Los endosos requeridos es una opción política de préstamo ALTA. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Monto del préstamo (importe en miles)</label>
+        <name>nSBA__Required_Endorsements__c</name>
+    </fields>
+    <fields>
+        <help>Indica si el gravamen es compartida con los prestamistas no SBA-Loan. Este campo se utiliza en SBA única autorización.</help>
+        <label>Censal (####. ## Formato)</label>
+        <name>nSBA__Shared_Lien_With_Lenders_Non_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Si el gravamen se comparte con otro prestamista, este campo contiene la cantidad gravamen compartido. Este campo se utiliza en SBA única autorización.</help>
+        <label>Reportable Desarrollo de la Comunidad</label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Si el gravamen se comparte con otro prestamista, este campo contiene el nombre del prestamista que el gravamen se comparte con. Este campo se utiliza en SBA única autorización.</help>
+        <label>Consorcio / Tercera Parte reportable</label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indica si se requiere una declaración de la no-granja. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Fecha acción tomada</label>
+        <name>nSBA__Statement_Of_Non_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indica si se requiere de energía estatutario de venta Idioma. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Tres dígitos del Código del Condado</label>
+        <name>nSBA__Statutory_Power_Of_Sale_Language_Req__c</name>
+    </fields>
+    <fields>
+        <help>Indica si se requiere certificado Encuesta a prestamista. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Código del Condado FIPS</label>
+        <name>nSBA__Survey_Certified_To_Lender_Required__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si hipotecante Título de la política debe reflejar que todos los impuestos y gravámenes municipales han sido llevados corriente o de pago. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces.</help>
+        <label>Código de estado FIPS</label>
+        <name>nSBA__Taxes_And_Municipal_Liens_Curr_Or_Paid__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si hipotecante Título de la política es, sin excepción, a Homestead, encuesta o impuestos. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización</help>
+        <label>Número de MSA / MD</label>
+        <name>nSBA__WO_Exception_To_Homestead_Survey_Taxes__c</name>
+    </fields>
+    <fields>
+        <help>Indica si se requiere renuncia a la granja de negocio. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Número de Identificación del Préstamo</label>
+        <name>nSBA__Waiver_Of_Business_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indica si se requiere la renuncia de los derechos de rescate. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>Cinco dígitos del número de MSA / MD</label>
+        <name>nSBA__Waiver_Of_Redemption_Rights_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indica si se requiere la renuncia por escrito de la granja. Utilice este campo sólo para los derechos de retención sobre los tipos de garantías de bienes raíces. Este campo se utiliza en SBA única autorización.</help>
+        <label>CRA reportable</label>
+        <name>nSBA__Written_Waiver_Of_Homestead_Required__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

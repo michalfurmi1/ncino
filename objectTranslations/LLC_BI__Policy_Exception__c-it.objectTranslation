@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Generato</label>
+        <name>LLC_BI__Automatically_Added__c</name>
+    </fields>
+    <fields>
+        <label>Codice</label>
+        <name>LLC_BI__Code__c</name>
+    </fields>
+    <fields>
+        <label>Gestione collaterali</label>
+        <name>LLC_BI__Collateral_Mgmt__c</name>
+        <relationshipLabel>Eccezioni procedure</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Gestione patti finanziari</label>
+        <name>LLC_BI__Covenant_Mgmt__c</name>
+        <relationshipLabel>Eccezioni procedure</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Prestito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Eccezioni procedure</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Motivo della mitigazione 1</label>
+        <name>LLC_BI__Mitigation_Reason_1__c</name>
+    </fields>
+    <fields>
+        <label>Motivo della mitigazione 2</label>
+        <name>LLC_BI__Mitigation_Reason_2__c</name>
+    </fields>
+    <fields>
+        <label>Motivo della mitigazione 3</label>
+        <name>LLC_BI__Mitigation_Reason_3__c</name>
+    </fields>
+    <fields>
+        <label>Conto</label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel>Eccezioni procedure</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valore gravità</label>
+        <name>LLC_BI__Severity_Value__c</name>
+    </fields>
+    <fields>
+        <label>Gravità</label>
+        <name>LLC_BI__Severity__c</name>
+    </fields>
+    <fields>
+        <label>Status eccezione</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Mitigated</masterLabel>
+            <translation>Mitigato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unmitigated</masterLabel>
+            <translation>Non mitigato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation>Oggetto di rinuncia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipologia</label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>Add_Exception_s</name>
+    </webLinks>
+</CustomObjectTranslation>

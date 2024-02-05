@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>En espera de la deuda Pago Fecha de Inic</label>
+        <name>nRetail__Account__c</name>
+        <relationshipLabel>Bienes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha de espera pago de la deuda se reún</label>
+        <name>nRetail__Asset_Type__c</name>
+        <picklistValues>
+            <masterLabel>Automobile</masterLabel>
+            <translation>Automóvil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>Efectivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homestead</masterLabel>
+            <translation>Granja</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance Cash Value</masterLabel>
+            <translation>Life Insurance valor en efectivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgages and Contracts Held By You</masterLabel>
+            <translation>Hipotecas y contratos en poder de usted</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Assets</masterLabel>
+            <translation>Otros activos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Real Estate</masterLabel>
+            <translation>Otras Inmobiliarias</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Property</masterLabel>
+            <translation>Propiedad personal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profit Sharing &amp; Pensions</masterLabel>
+            <translation>Compartir y pensión de beneficio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement Accounts - Include IRA Acct.</masterLabel>
+            <translation>Las cuentas de jubilación IRA - Incluir Cta.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities</masterLabel>
+            <translation>Valores</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introducir una breve descripción del activo.</help>
+        <label>Compruebe si espera Pagos de la deuda se</label>
+        <name>nRetail__Asset__c</name>
+    </fields>
+    <fields>
+        <label>Indica que no hay pago de principal o in</label>
+        <name>nRetail__Contact__c</name>
+        <relationshipLabel>Bienes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>En espera Tipo de Pago define términos d</label>
+        <name>nRetail__Estimated_Value__c</name>
+    </fields>
+    <fields>
+        <label>Uso de los Recursos</label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel>Bienes</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Attachement</label>
+        <name>nFUSE__Attachment__c</name>
+    </fields>
+    <fields>
+        <label>document de contenu</label>
+        <name>nFUSE__Content_Document__c</name>
+    </fields>
+    <fields>
+        <label>modèle DocMan</label>
+        <name>nFUSE__DocMan_Template__c</name>
+    </fields>
+    <fields>
+        <label>Journal des transactions</label>
+        <name>nFUSE__Transaction_Log__c</name>
+        <relationshipLabel>Documents de transaction</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

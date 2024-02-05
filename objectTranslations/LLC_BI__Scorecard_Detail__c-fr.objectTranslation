@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Points assigné</label>
+        <name>LLC_BI__Assigned_Points__c</name>
+    </fields>
+    <fields>
+        <label>maximum de points</label>
+        <name>LLC_BI__Maximum_Points__c</name>
+    </fields>
+    <fields>
+        <label>Résultat</label>
+        <name>LLC_BI__Result__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation>Échouer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation>Passer</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>fiche d&apos;évaluation</label>
+        <name>LLC_BI__Scorecard__c</name>
+        <relationshipLabel>Détails Scorecard</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valeur</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

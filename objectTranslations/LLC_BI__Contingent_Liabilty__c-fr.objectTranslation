@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Peupler ce domaine avec le code de rôle correspondant.</help>
+        <label>code de nCino</label>
+        <name>CSIDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <label>Compte type d&apos;entité</label>
+        <name>LLC_BI__Account_Entity_Type__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour indiquer que le signataire autorisé n&apos;agit à titre de témoin attestant plutôt que le signataire d&apos;autorisation.</help>
+        <label>Témoin attestons</label>
+        <name>LLC_BI__Attesting_Witness__c</name>
+    </fields>
+    <fields>
+        <label>Autorité</label>
+        <name>LLC_BI__Authority__c</name>
+        <picklistValues>
+            <masterLabel>Authorized</masterLabel>
+            <translation>Autorisé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Authorized</masterLabel>
+            <translation>Pas autorisé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Authorized_Account__c</name>
+        <relationshipLabel>Signataires autorisés</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Authorized_Signer__c</name>
+        <relationshipLabel>Signataires autorisés</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>Signataires autorisés</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Contingency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Assign Specific</masterLabel>
+            <translation>assigner spécifique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint &amp; Several</masterLabel>
+            <translation>Conjoint et individuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Rata</masterLabel>
+            <translation>Pro taux</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Pourcentage de propriété</label>
+        <name>LLC_BI__Contingent_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Entité</label>
+        <name>LLC_BI__Entity__c</name>
+        <relationshipLabel>Signataires autorisés</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__LookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Structure de propriété Rôle</label>
+        <name>LLC_BI__Ownership_Structure_Role__c</name>
+        <relationshipLabel>Signataires autorisés</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Capacité</label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Personne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation>Membre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>Officier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Partenaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustee</masterLabel>
+            <translation>Curateur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Cochez cette case si le signataire est qualifié pour signer des certifications de TIN ou d&apos;autres documents fiscaux pour le titulaire du compte entreprise ou entité.</help>
+        <label></label>
+        <name>LLC_BI__TIN_Certifier__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Signer__c</name>
+    </fields>
+    <fields>
+        <label>La signature au nom de</label>
+        <name>Signing_on_Behalf_of__c</name>
+    </fields>
+    <fields>
+        <help>Entrez la puissance du nom de l&apos;avocat et de la description pour afficher sous la ligne de signature pour la procuration.</help>
+        <label>Description Signature Autre</label>
+        <name>WKDDP__Alternate_Signature_Description__c</name>
+    </fields>
+    <fields>
+        <help>Une description de la relation entre le signataire et le compte.</help>
+        <label>description de la relation</label>
+        <name>WKDDP__Relationship_Description__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case si le système ne doit pas imprimer dans le bloc de signature de la carte de signature.</help>
+        <label>Signature supprimer</label>
+        <name>WKDDP__Suppress_Signature__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour générer une Loi sur la protection des consommateurs Téléphone Formulaire de consentement compte pour le signataire.</help>
+        <label>TCPA Formulaire de consentement compte</label>
+        <name>WKDDP__TCPA_Consent_Account_Form__c</name>
+    </fields>
+    <fields>
+        <help>Peupler ce domaine avec le code de rôle correspondant.</help>
+        <label>code de nCino</label>
+        <name>WKDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <help>Permet de spécifier que le contact est une autorisation Signataire. Un signataire d&apos;autorisation peut ou non être également autorisé à signer.</help>
+        <label>autorisation signataire</label>
+        <name>WKEDP__Authorization_Signer__c</name>
+    </fields>
+    <fields>
+        <help>Permet de préciser le rôle du signataire autorisé a dans une entreprise.</help>
+        <label>Rôle d&apos;affaires</label>
+        <name>WKEDP__Business_Role__c</name>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation>Réalisateur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OfficeHolder</masterLabel>
+            <translation>Titulaire de charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secretary</masterLabel>
+            <translation>secrétaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shareholder</masterLabel>
+            <translation>Actionnaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Permet de préciser le rôle du signataire autorisé a dans une entreprise.</help>
+        <label></label>
+        <name>WKEDP__Role__c</name>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation>Réalisateur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OfficeHolder</masterLabel>
+            <translation>Titulaire de charge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secretary</masterLabel>
+            <translation>secrétaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shareholder</masterLabel>
+            <translation>Actionnaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Utilisé pour spécifier autorisé signataire va signer pour un prêt spécifique.</help>
+        <label>sélectionné signataire</label>
+        <name>WKEDP__Selected_Signer__c</name>
+    </fields>
+    <fields>
+        <label>Nombre d&apos;actions</label>
+        <name>WKEDP__Shares_Count__c</name>
+    </fields>
+    <fields>
+        <help>Peupler ce domaine avec le code de rôle correspondant.</help>
+        <label>code de nCino</label>
+        <name>nCino_Code__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Les options de capacité valides pour le type de compte de cette entité (Association) sont « agent » et « agent »</errorMessage>
+        <name>LLC_BI__Capacity_Association</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Les options de capacité valides pour le type de compte de cette entité (Société) sont « agent » et « agent »</errorMessage>
+        <name>LLC_BI__Capacity_Corporation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Les options de capacité valides pour le type de compte de cette entité (gouvernementale) sont « officiel » et « agent »</errorMessage>
+        <name>LLC_BI__Capacity_Government</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Les options de capacité valides pour le type de compte de cette entité (Société à responsabilité limitée) sont « membres » et « agent »</errorMessage>
+        <name>LLC_BI__Capacity_Limited_Liability_Company</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Les options de capacité valides pour le type de compte de cette entité (partenariat) sont « Partenaire » et « agent »</errorMessage>
+        <name>LLC_BI__Capacity_Partnership</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La seule option de capacité valide pour le type de compte de cette entité (Sole Proprietorship) sont « Sole Proprietorship »</errorMessage>
+        <name>LLC_BI__Capacity_Soleprietorship</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Les options de capacité valides pour le type de compte de cette entité (Trust) sont « fiduciaire », « Bénéficiaire » et « agent »</errorMessage>
+        <name>LLC_BI__Capacity_Trust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>--DEPRECATED-- Un pourcentage ne peut être spécifié si le type d&apos;urgence est « Assigner spécifique » ou « Pro Rata »</errorMessage>
+        <name>LLC_BI__percentage_only_if_assign_specific</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Informe de crédito del negocio</label>
+        <name>Business_Credit_Report__c</name>
+        <relationshipLabel>Los acreedores</relationshipLabel>
+    </fields>
+    <fields>
+        <label>tipo de producto</label>
+        <name>Limit__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Account_Activity_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Account_Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>nFUSE__Account_Number__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con el código de tipo de cuenta, lo que indica el tipo de préstamo otorgado por el acreedor al prestatario.</help>
+        <label>Referido Tipo de Producto</label>
+        <name>nFUSE__Account_Type_Code__c</name>
+    </fields>
+    <fields>
+        <label>referido Producto</label>
+        <name>nFUSE__Balance_Date__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con el número de veces que el pago del prestatario era de 30-59 días de mora.</help>
+        <label>referidos</label>
+        <name>nFUSE__Count_30_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con el número de veces que el pago del prestatario era 60-89 días de mora.</help>
+        <label>Bienes</label>
+        <name>nFUSE__Count_60_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con el número de veces que el pago del prestatario era de 90 o más días de mora.</help>
+        <label>Activo</label>
+        <name>nFUSE__Count_90_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <label>Contacto</label>
+        <name>nFUSE__Creditor_Balance__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con el código de la industria acreedor.</help>
+        <label>Bienes</label>
+        <name>nFUSE__Creditor_Industry_Code__c</name>
+    </fields>
+    <fields>
+        <label>Préstamo</label>
+        <name>nFUSE__Creditor_Name__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con código de miembro del suscriptor de crédito.</help>
+        <label>Bienes</label>
+        <name>nFUSE__Creditor_Number__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con el código de estado actual, que indica el estado actual de la cuenta.</help>
+        <label>deudas</label>
+        <name>nFUSE__Current_Status_Code__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo opcional de fecha con la fecha del prestatario hizo su pago mensual más reciente.</help>
+        <label>Contacto</label>
+        <name>nFUSE__Date_Of_Last_Payment__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de fecha opcional con la fecha de apertura de la cuenta.</help>
+        <label>Tipo de deuda</label>
+        <name>nFUSE__Date_Opened__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo moneda opcional con la cantidad más alta jamás se adeuda en la cuenta o el equilibrio original.</help>
+        <label>Razón excluidos</label>
+        <name>nFUSE__High_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Préstamo</label>
+        <name>nFUSE__Liability_Ownership_Type__c</name>
+    </fields>
+    <fields>
+        <label>deudas</label>
+        <name>nFUSE__Liability_Type__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de vencimiento</label>
+        <name>nFUSE__Monthly_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Months_Left_To_Pay__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo opcional con el número de meses fue revisado el historial de pago del prestatario.</help>
+        <label>Mensualidad</label>
+        <name>nFUSE__Months_Reviewed__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo moneda opcional con la cantidad que el prestatario tiene vencida en la cuenta.</help>
+        <label>nuevo Préstamo</label>
+        <name>nFUSE__Past_Due_Amount__c</name>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con patrón de pago del prestatario.</help>
+        <label>deudas</label>
+        <name>nFUSE__Payment_Pattern__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta</label>
+        <name>nFUSE__ReportId__c</name>
+        <relationshipLabel>Los acreedores</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El sistema rellena este campo de texto opcional con la duración plazo de la obligación financiera.</help>
+        <label>Contacto</label>
+        <name>nFUSE__Terms_Duration__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

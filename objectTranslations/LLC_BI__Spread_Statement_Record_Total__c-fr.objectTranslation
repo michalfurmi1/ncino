@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Débit</label>
+        <name>LLC_BI__Debit__c</name>
+    </fields>
+    <fields>
+        <label>Analyse globale de type</label>
+        <name>LLC_BI__Global_Analysis_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjusted Total Assets</masterLabel>
+            <translation>Total de l&apos;actif ajusté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adjusted Total Equity</masterLabel>
+            <translation>Total des capitaux propres ajusté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adjusted Total Liabilities</masterLabel>
+            <translation>Total du passif ajusté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Flow</masterLabel>
+            <translation>Flux de trésorerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debt Service</masterLabel>
+            <translation>Service de la dette</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Aucun</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Assets</masterLabel>
+            <translation>total de l&apos;actif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Equity</masterLabel>
+            <translation>total des capitaux propres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Liabilities</masterLabel>
+            <translation>Responsabilités totales</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de groupe</label>
+        <name>LLC_BI__Group_Type__c</name>
+        <picklistValues>
+            <masterLabel>Decimal</masterLabel>
+            <translation>Décimal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial</masterLabel>
+            <translation>Financier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation>Pourcentage</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cachez tous les dossiers</label>
+        <name>LLC_BI__Hide_All_Records__c</name>
+    </fields>
+    <fields>
+        <help>Contrôle la visibilité des totaux des colonnes ci-dessous un groupe.</help>
+        <label>Cacher les totaux des colonnes</label>
+        <name>LLC_BI__Hide_Column_Totals__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Hide_Currency_Symbol__c</name>
+    </fields>
+    <fields>
+        <label>Inclure dans le total</label>
+        <name>LLC_BI__Include_In_Total__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Grand_Total__c</name>
+    </fields>
+    <fields>
+        <help>En règle générale, ce type de groupe est utilisé pour afficher les totaux des colonnes pour chaque groupe d&apos;enregistrements dans la déclaration.</help>
+        <label></label>
+        <name>LLC_BI__Is_Summary_Group__c</name>
+    </fields>
+    <fields>
+        <label>Faits saillants type de</label>
+        <name>LLC_BI__KPI_Type__c</name>
+        <picklistValues>
+            <masterLabel>Standard Highlight</masterLabel>
+            <translation>Mettez en surbrillance standard</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Highlight</masterLabel>
+            <translation>Sélectionnez l&apos;utilisateur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Définissez cette valeur pour permettre à d&apos;autres applications d&apos;exécuter lorsqu&apos;un total est initialisé.</help>
+        <label>Publier sur Init Event</label>
+        <name>LLC_BI__Publish_On_Init_Event__c</name>
+    </fields>
+    <fields>
+        <help>Définissez cette valeur pour permettre à d&apos;autres applications d&apos;exécuter lorsqu&apos;un total est mis à jour.</help>
+        <label>Publier sur Mise à jour de l&apos;événement</label>
+        <name>LLC_BI__Publish_On_Update_Event__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de ligne</label>
+        <name>LLC_BI__Row_Number__c</name>
+    </fields>
+    <fields>
+        <label>show Math</label>
+        <name>LLC_BI__Show_Math__c</name>
+    </fields>
+    <fields>
+        <label>Groupe Source</label>
+        <name>LLC_BI__Source_Group__c</name>
+        <relationshipLabel>Clonée Déclaration de propagation Total Groupes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Écart type d&apos;instruction</label>
+        <name>LLC_BI__Spread_Statement_Type__c</name>
+        <relationshipLabel>Étaler Déclaration des groupes au total</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Titre</label>
+        <name>LLC_BI__Title__c</name>
+    </fields>
+    <fields>
+        <label>total type</label>
+        <name>LLC_BI__Total_Type__c</name>
+        <picklistValues>
+            <masterLabel>Knockout</masterLabel>
+            <translation>Assommer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>la norme</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

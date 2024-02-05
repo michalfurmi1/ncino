@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Pacte Nom Type</label>
+        <name>Covenant_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label>Jusqu&apos;à ce jours d&apos;évaluation</label>
+        <name>Days_Until_Evaluation__c</name>
+    </fields>
+    <fields>
+        <label>App par défaut</label>
+        <name>Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Actif</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Commentaires</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Jours avant contrôle de conformité</label>
+        <name>LLC_BI__Compliance_Days_Prior__c</name>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Consultation du type de covenant</help>
+        <label>Type de covenant</label>
+        <name>LLC_BI__Covenant_Type__c</name>
+        <relationshipLabel>Gestion de covenant</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nombre de jours écoulés depuis la date de la prochaine évaluation.</help>
+        <label>Jours écoulés depuis la prochaine évalua</label>
+        <name>LLC_BI__Days_Past_Next_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de jours avant la date de la prochaine évaluation.</help>
+        <label>Jours avant depuis la prochaine évaluati</label>
+        <name>LLC_BI__Days_Until_Next_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help>Utiliser ce champ pour ajouter des détails au convenant.</help>
+        <label>Détails</label>
+        <name>LLC_BI__Detail__c</name>
+    </fields>
+    <fields>
+        <label>Date d’entrée en vigueur</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Valeur d’indicateur financier</label>
+        <name>LLC_BI__Financial_Indicator_Value__c</name>
+    </fields>
+    <fields>
+        <label>Fréquence en mois</label>
+        <name>LLC_BI__Frequency_Months__c</name>
+    </fields>
+    <fields>
+        <label>Fréquence</label>
+        <name>LLC_BI__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Tous les ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Months</masterLabel>
+            <translation>Tous les deux mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Tous les mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Tous les trimestres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Tous les semestres</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Date de la dernière évaluation</label>
+        <name>LLC_BI__Last_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Statut de la dernière évaluation</label>
+        <name>LLC_BI__Last_Evaluation_Status__c</name>
+    </fields>
+    <fields>
+        <help>La déclaration Spread Record (groupe) ce Pacte indicateur financier fait référence à la conformité.</help>
+        <label>Déclaration liée Spread Record</label>
+        <name>LLC_BI__Linked_Spread_Statement_Record_Total__c</name>
+        <relationshipLabel>Gestion de covenant</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La déclaration Spread enregistrement (ligne), ce Pacte indicateur financier fait référence à la conformité.</help>
+        <label>Dossier de déclaration d&apos;analyse financi</label>
+        <name>LLC_BI__Linked_Spread_Statement_Record__c</name>
+        <relationshipLabel>Gestion de covenant</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date de la prochaine évaluation</label>
+        <name>LLC_BI__Next_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Notes</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est utilisé pour associer les covenants des indicateurs financiers aux covenants des exigences pour les états financiers. Lorsqu’un covenant d’exigences pour les états financiers passe à « exception », tous ses covenants d’établissements financi</help>
+        <label>Covenant associé</label>
+        <name>LLC_BI__Related_Covenant__c</name>
+        <relationshipLabel>Gestion de covenant</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ indique si un covenant est ou non requis.</help>
+        <label>Requis</label>
+        <name>LLC_BI__Required__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Service de trésorerie</label>
+        <name>Treasury_Service__c</name>
+        <relationshipLabel>Pactes</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

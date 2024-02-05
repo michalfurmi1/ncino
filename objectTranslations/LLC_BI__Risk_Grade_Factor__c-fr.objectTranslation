@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>ROW_NUMBER</label>
+        <name>LLC_BI__Column_Number__c</name>
+    </fields>
+    <fields>
+        <label>Plus haut</label>
+        <name>LLC_BI__Highest__c</name>
+    </fields>
+    <fields>
+        <label>qualitative</label>
+        <name>LLC_BI__Is_Qualitative__c</name>
+    </fields>
+    <fields>
+        <label>est-quantitative</label>
+        <name>LLC_BI__Is_Quantitative__c</name>
+    </fields>
+    <fields>
+        <label>Le plus bas</label>
+        <name>LLC_BI__Lowest__c</name>
+    </fields>
+    <fields>
+        <label>Groupe de risque de qualité</label>
+        <name>LLC_BI__Risk_Grade_Group__c</name>
+        <relationshipLabel>Facteurs de grade risque</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Risque année modèle</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>Facteurs de grade risque</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Qualitative</masterLabel>
+            <translation>Qualitatif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantitative</masterLabel>
+            <translation>Quantitatif</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Les unités du facteur de qualité du risque. Le symbole est entré ici sera affiché entre parenthèses sur la colonne.</help>
+        <label>unités</label>
+        <name>LLC_BI__Units__c</name>
+    </fields>
+    <fields>
+        <label>Poids</label>
+        <name>LLC_BI__Weight__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

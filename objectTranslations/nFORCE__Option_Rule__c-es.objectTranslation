@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Nombre de la clase</label>
+        <name>nFORCE__Condition__c</name>
+        <picklistValues>
+            <masterLabel>equal to</masterLabel>
+            <translation>igual a</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equal to</masterLabel>
+            <translation>no igual a</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>texto de ayuda</label>
+        <name>nFORCE__Conditional_Question__c</name>
+        <relationshipLabel>Reglas Opción (Conditional_Question)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>es Enlace</label>
+        <name>nFORCE__Option__c</name>
+        <relationshipLabel>Reglas de opción</relationshipLabel>
+    </fields>
+    <fields>
+        <label>nombre de la categoría</label>
+        <name>nFORCE__Question__c</name>
+        <relationshipLabel>Reglas de opción</relationshipLabel>
+    </fields>
+    <fields>
+        <label>se configura</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

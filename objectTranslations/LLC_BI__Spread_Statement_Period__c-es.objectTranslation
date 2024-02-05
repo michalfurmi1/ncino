@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Accumulate__c</name>
+    </fields>
+    <fields>
+        <label>Rol de conexión</label>
+        <name>LLC_BI__Analyst__c</name>
+        <relationshipLabel>Período de estado propagación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Permite que un administrador para especi</label>
+        <name>LLC_BI__Collateral_Column_Title__c</name>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>Evaluación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Stabilization</masterLabel>
+            <translation>en Estabilización</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current</masterLabel>
+            <translation>Corriente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>suscripción</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Column_Number__c</name>
+    </fields>
+    <fields>
+        <label>Permite el cálculo automático de la esta</label>
+        <name>LLC_BI__Fiscal_Year_TTM_Period__c</name>
+        <relationshipLabel>Períodos año fiscal Declaración de propagación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Habilitar la deuda</label>
+        <name>LLC_BI__Initial_Interim_TTM_Period__c</name>
+        <relationshipLabel>Los períodos iniciales Declaración Provisional Spread</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Los administradores seleccionar manualme</label>
+        <name>LLC_BI__Is_Fiscal_Year__c</name>
+    </fields>
+    <fields>
+        <help>Esto especifica qué períodos están disponibles para su selección en el análisis global</help>
+        <label>Habilitar Exclusión</label>
+        <name>LLC_BI__Is_Global_Analysis_Year__c</name>
+    </fields>
+    <fields>
+        <label>Habilitar Cálculo manual</label>
+        <name>LLC_BI__Month__c</name>
+    </fields>
+    <fields>
+        <help>El nombre de anulación de la columna. Si se establece este valor, la aplicación mostrará en lugar del mes y año.</help>
+        <label>Descripción</label>
+        <name>LLC_BI__Name_Override__c</name>
+    </fields>
+    <fields>
+        <label>Nombre usado para identificar la configu</label>
+        <name>LLC_BI__Number_of_Periods__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del campo</label>
+        <name>LLC_BI__Period_Key__c</name>
+    </fields>
+    <fields>
+        <label>Nombre usado para identificar la configu</label>
+        <name>LLC_BI__Period_Out_Of_Range__c</name>
+    </fields>
+    <fields>
+        <label>Establecer campo</label>
+        <name>LLC_BI__Project_from_Period__c</name>
+        <relationshipLabel>Período de estado propagación (Proyecto del Período)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Filtro orden utilizado en la pantalla de</label>
+        <name>LLC_BI__Selected_In_Global__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del filtro</label>
+        <name>LLC_BI__Selected__c</name>
+    </fields>
+    <fields>
+        <label>Clave que se utiliza para buscar el valo</label>
+        <name>LLC_BI__Source__c</name>
+        <picklistValues>
+            <masterLabel>1 Base Projection</masterLabel>
+            <translation>Proyección 1 Base</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Adverse Projection</masterLabel>
+            <translation>2 Proyección adversa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Severely Adverse Projection</masterLabel>
+            <translation>3 Proyección adversa grave</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPA Audit</masterLabel>
+            <translation>Auditoría CPA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPA Compiled</masterLabel>
+            <translation>CPA Compilado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPA Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comp. Prep</masterLabel>
+            <translation>Comp. Deberes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Projected</masterLabel>
+            <translation>proyectado empresa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Return</masterLabel>
+            <translation>Declaración de impuestos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Es el filtro por defecto</label>
+        <name>LLC_BI__Spread_Projections_Template__c</name>
+        <relationshipLabel>Períodos Declaración de propagación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Utilice este campo para especificar si e</label>
+        <name>LLC_BI__Spread_Statement_Type__c</name>
+        <relationshipLabel>Período de estado propagación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Clave que se utiliza para buscar el valo</label>
+        <name>LLC_BI__Statement_Date__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de objeto 2</label>
+        <name>LLC_BI__Trailing_Interim_TTM_Period__c</name>
+        <relationshipLabel>Períodos Declaración de Trailing_Interim_TTM_Spread</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>Estándar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trailing Twelve Month</masterLabel>
+            <translation>Doce meses de los</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nombre del objeto subyacente donde se co</label>
+        <name>LLC_BI__Unmapped_Values__c</name>
+    </fields>
+    <fields>
+        <label>Publicar en objeto de Padres 2</label>
+        <name>LLC_BI__Year_Hidden_In_Global__c</name>
+    </fields>
+    <fields>
+        <label>Determina si el valor debe ser publicado</label>
+        <name>LLC_BI__Year_Out_Range__c</name>
+    </fields>
+    <fields>
+        <label>Publicar en objeto de Padres</label>
+        <name>LLC_BI__Year__c</name>
+    </fields>
+    <fields>
+        <label>Habilitar el cálculo automático</label>
+        <name>LLC_BI__externalLookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Históricos Fecha de tasación que se corresponde con el valor de bienes raíces</help>
+        <label>pacto Compliances</label>
+        <name>LLC_BI__Appraisal_Date__c</name>
+    </fields>
+    <fields>
+        <label>Las pruebas automatizadas Estado</label>
+        <name>LLC_BI__Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <label>Haz</label>
+        <name>LLC_BI__Loan_Collateral__c</name>
+        <relationshipLabel>Historia garantía</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pacto</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Loan_Proceeds__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der mit diesem Objekt verknüpften Kreditnehmergebühren.</help>
+        <label>Anzahl Kreditnehmergebühren</label>
+        <name>LLC_BI__Number_of_Borrower_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der mit diesem Objekt verknüpften Cash-Gebühren.</help>
+        <label>Anzahl Cash-Gebühren</label>
+        <name>LLC_BI__Number_of_Cash_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der mit diesem Objekt verknüpften Gebühren.</help>
+        <label>Anzahl Gebühren</label>
+        <name>LLC_BI__Number_of_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der mit diesem Objekt verknüpften gedeckten Gebühren.</help>
+        <label>Anzahl gedeckte Gebühren</label>
+        <name>LLC_BI__Number_of_Financed_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der mit diesem Objekt verknüpften Kreditgebergebühren.</help>
+        <label>Anzahl Kreditgebergebühren</label>
+        <name>LLC_BI__Number_of_Lender_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der mit diesem Objekt verknüpften Nicht-Standard-Gebühren.</help>
+        <label>Anzahl Nicht-Standard-Gebühren</label>
+        <name>LLC_BI__Number_of_Nonstandard_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der mit diesem Objekt verknüpften Verkäufergebühren.</help>
+        <label>Anzahl Verkäufergebühren</label>
+        <name>LLC_BI__Number_of_Seller_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der mit diesem Objekt verknüpften Standardgebühren.</help>
+        <label>Anzahl Standardgebühren</label>
+        <name>LLC_BI__Number_of_Standard_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der mit diesem Objekt verknüpften Kreditnehmergebühren.</help>
+        <label>Gesamtbetrag Kreditnehmergebühren</label>
+        <name>LLC_BI__Total_Borrower_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der mit diesem Objekt verknüpften Cash-Gebühren.</help>
+        <label>Gesamtbetrag Cash-Gebühr</label>
+        <name>LLC_BI__Total_Cash_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der Gebühren abzüglich des bezahlten Gebührenbetrags.</help>
+        <label>Gesamtbetrag ausstehende Gebühren</label>
+        <name>LLC_BI__Total_Fee_Amount_Outstanding__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der in Verbindung mit diesem Objekt gezahlten Kosten &amp; Gebühren.</help>
+        <label>Gesamtbetrag bezahlte Gebühren</label>
+        <name>LLC_BI__Total_Fee_Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag aller mit diesem Objekt verknüpften Gebühren.</help>
+        <label>Gesamtbetrag Gebühren</label>
+        <name>LLC_BI__Total_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der mit diesem Objekt verknüpften finanzierten Gebühren.</help>
+        <label>Gesamtbetrag gedeckte Gebühren</label>
+        <name>LLC_BI__Total_Financed_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der mit diesem Objekt verknüpften Kreditgebergebühren.</help>
+        <label>Gesamtbetrag Kreditgebergebühren</label>
+        <name>LLC_BI__Total_Lender_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der mit diesem Objekt verknüpften Nicht-Standard-Gebühren.</help>
+        <label>Gesamtbetrag Nicht-Standard-Gebühren</label>
+        <name>LLC_BI__Total_Nonstandard_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der mit diesem Objekt verknüpften Verkäufergebühren.</help>
+        <label>Gesamtbetrag Verkäufergebühren</label>
+        <name>LLC_BI__Total_Seller_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtbetrag der mit diesem Objekt verknüpften Standardgebühren.</help>
+        <label>Gesamtbetrag Standardgebühren</label>
+        <name>LLC_BI__Total_Standard_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Origination_Charges__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Services_You_Can_Shop_For__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Services_You_Cannot_Shop_For__c</name>
+    </fields>
+    <fields>
+        <label>Summe Sonstiges</label>
+        <name>Total_Other__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_services_you_can_shop_for_amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_services_you_canno_shop_for_amount__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

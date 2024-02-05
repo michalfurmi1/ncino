@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Este campo obligatorio contiene una referencia al requisito que controla esta dependencia.</help>
+        <label>objeto de conversión</label>
+        <name>LLC_BI__Controlling_Requirement__c</name>
+        <relationshipLabel>Requisitos dependientes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio define el comportamiento de la dependencia entre los requisitos asociados.</help>
+        <label>tipo de producto</label>
+        <name>LLC_BI__Dependency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Finish to Finish</masterLabel>
+            <translation>Fin a Fin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finish to Start</masterLabel>
+            <translation>Finalizar para iniciar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start to Finish</masterLabel>
+            <translation>Empezar a acabar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start to Start</masterLabel>
+            <translation>Comience a empezar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene una referencia al requisito que es controlado por esta dependencia.</help>
+        <label>Selected_Product</label>
+        <name>LLC_BI__Dependent_Requirement__c</name>
+        <relationshipLabel>El control de Requisitos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el nombre del desarrollador del requisito de dependencia plantilla en la que se basa esta dependencia Requisito.</help>
+        <label>es la plantilla</label>
+        <name>LLC_BI__Template__c</name>
+    </fields>
+    <fields>
+        <label>está contraído</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

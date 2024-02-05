@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>existe; nombre; docType; firstReview; exceptionDate; condición; comentar; propietario</help>
+        <label>Calculado Cantidad Fee</label>
+        <name>LLC_BI__columns__c</name>
+    </fields>
+    <fields>
+        <label>Importe pagado por</label>
+        <name>LLC_BI__defaultOwner__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Abogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation>Más cerca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Construcción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Operaciones de préstamo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>mantenimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>Activos especiales</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Derechos a favor</label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Añadir a cargos por financiamiento</label>
+        <name>LLC_BI__lookupId__c</name>
+    </fields>
+    <fields>
+        <label>Agregar al MAPR</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Seleccione este campo cuando una tarifa</label>
+        <name>LLC_BI__sortOrder__c</name>
+    </fields>
+    <fields>
+        <label>Añadir al director</label>
+        <name>LLC_BI__status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer Updated</masterLabel>
+            <translation>Más cerca Actualizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation>Excepción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Muerto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In File</masterLabel>
+            <translation>En archivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation>En proceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing</masterLabel>
+            <translation>Desaparecido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Abierto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recorded Doc/Policy</masterLabel>
+            <translation>Doc / Política registrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation>Revisados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation>Eximido</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

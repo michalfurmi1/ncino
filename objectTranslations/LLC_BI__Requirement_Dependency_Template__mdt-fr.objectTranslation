@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Ce champ est obligatoire contient une référence au modèle d&apos;exigence qui contrôle cette dépendance.</help>
+        <label>Exigence de contrôle</label>
+        <name>LLC_BI__Controlling_Requirement__c</name>
+        <relationshipLabel>Exigences dépendantes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire définit le comportement de la dépendance entre les exigences associées. Il doit être copié dans le champ Type de dépendance sur les dossiers de dépendance créés à partir de ce Exigence modèle.</help>
+        <label>Type de dépendance</label>
+        <name>LLC_BI__Dependency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Finish to Finish</masterLabel>
+            <translation>Fin à Fin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finish to Start</masterLabel>
+            <translation>Terminer pour démarrer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start to Finish</masterLabel>
+            <translation>Indemnite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start to Start</masterLabel>
+            <translation>Commencer à démarrer</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient une référence au modèle d&apos;exigence qui est contrôlée par cette dépendance.</help>
+        <label>Exigence dépendante</label>
+        <name>LLC_BI__Dependent_Requirement__c</name>
+        <relationshipLabel>maîtrise de la demande</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

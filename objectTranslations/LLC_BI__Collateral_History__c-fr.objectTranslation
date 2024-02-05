@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Date d&apos;évaluation historique qui correspond à la valeur immobilière</help>
+        <label>date de l&apos;évaluation</label>
+        <name>LLC_BI__Appraisal_Date__c</name>
+    </fields>
+    <fields>
+        <label>Évaluation de la garantie</label>
+        <name>LLC_BI__Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <label>La garantie de prêt</label>
+        <name>LLC_BI__Loan_Collateral__c</name>
+        <relationshipLabel>Histoire collatérale</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Remarques</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Actions_Under_Consideration_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Approval_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Borrower_s_Financial_Analysis__c</name>
+    </fields>
+    <fields>
+        <label>Cola</label>
+        <name>CSA_Queue__c</name>
+        <picklistValues>
+            <masterLabel>Default Queue</masterLabel>
+            <translation>cola por omisión</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Collateral_Analysis_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Executive_Summary_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Guarantor_Analysis_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Paquetes de productos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Estado de la aprobación</label>
+        <name>LLC_BI__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation>No presentado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Listo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Exposición afiliada registrada</label>
+        <name>LLC_BI__Booked_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para informar de la exposición directa registrada al paquete de productos.</help>
+        <label>Exposición directa registrada</label>
+        <name>LLC_BI__Booked_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para informar de la exposición indirecta registrada al paquete de productos.</help>
+        <label>Exposición indirecta registrada</label>
+        <name>LLC_BI__Booked_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Exposición afiliada comprometida</label>
+        <name>LLC_BI__Committed_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para informar de la exposición directa comprometida al paquete de productos.</help>
+        <label>Exposición directa comprometida</label>
+        <name>LLC_BI__Committed_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para informar de la exposición indirecta comprometida al paquete de productos.</help>
+        <label>Exposición indirecta comprometida</label>
+        <name>LLC_BI__Committed_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Nota de crédito</label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel>Paquetes de productos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para definir la página de destino predeterminada para este paquete de productos dentro de la interfaz de usuario de nCino.</help>
+        <label>Aplicación predeterminada</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Tiene arrendamientos</label>
+        <name>LLC_BI__Has_Leases__c</name>
+    </fields>
+    <fields>
+        <label>Tiene créditos sindicados</label>
+        <name>LLC_BI__Has_Syndicated_Loans__c</name>
+    </fields>
+    <fields>
+        <label>Fecha del último cálculo de exposición</label>
+        <name>LLC_BI__Last_Exposure_Calc_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de la última revisión</label>
+        <name>LLC_BI__Last_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label>Número de líneas de crédito</label>
+        <name>LLC_BI__Loan_Facilities_Count__c</name>
+    </fields>
+    <fields>
+        <label>Dinero nuevo</label>
+        <name>LLC_BI__New_Money__c</name>
+    </fields>
+    <fields>
+        <label>#NAME?</label>
+        <name>LLC_BI__Next_Annual_Review__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de la próxima revisión</label>
+        <name>LLC_BI__Next_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label>Pendiente</label>
+        <name>LLC_BI__Outstanding__c</name>
+    </fields>
+    <fields>
+        <label>Responsable principal</label>
+        <name>LLC_BI__Primary_Officer__c</name>
+        <relationshipLabel>Paquetes de productos (Responsable principal)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Propagar acción</label>
+        <name>LLC_BI__Propagate_Action__c</name>
+    </fields>
+    <fields>
+        <label>Exposición afiliada propuesta</label>
+        <name>LLC_BI__Proposed_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para informar de la exposición directa propuesta al paquete de productos.</help>
+        <label>Exposición directa propuesta</label>
+        <name>LLC_BI__Proposed_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para informar de la exposición indirecta propuesta al paquete de productos.</help>
+        <label>Exposición indirecta propuesta</label>
+        <name>LLC_BI__Proposed_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Frecuencia de revisión</label>
+        <name>LLC_BI__Review_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Anual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Months</masterLabel>
+            <translation>Cada 2 meses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestral</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Semi anualmente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de líneas de crédito revisables</label>
+        <name>LLC_BI__Reviewable_Loan_Facilities_Count__c</name>
+    </fields>
+    <fields>
+        <label>Calificación de riesgo</label>
+        <name>LLC_BI__Risk_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Responsable secundario</label>
+        <name>LLC_BI__Secondary_Officer__c</name>
+        <relationshipLabel>Paquetes de productos (Responsable secundario)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Etapa</label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation>Implementación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Entry</masterLabel>
+            <translation>Orden de entrada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup</masterLabel>
+            <translation>Preparar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approval Step 1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval Step 2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Completar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>disminuido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation>Paralizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>En revisión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediately Approved</masterLabel>
+            <translation>Aprobado intermedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediately Rejected</masterLabel>
+            <translation>Rechazado intermedia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation>Perdido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Abierto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation>recordó</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation>Retirado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Este campo obligatorio contiene una refe</label>
+        <name>LLC_BI__TBE__c</name>
+    </fields>
+    <fields>
+        <label>requisitos</label>
+        <name>LLC_BI__TCE__c</name>
+    </fields>
+    <fields>
+        <label>contexto Id</label>
+        <name>LLC_BI__TOE__c</name>
+    </fields>
+    <fields>
+        <label>Exposición afiliada total</label>
+        <name>LLC_BI__Total_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad de sindicación asignada total</label>
+        <name>LLC_BI__Total_Allocated_Syndication_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para informar de la exposición directa total al paquete de productos.</help>
+        <label>Exposición directa total</label>
+        <name>LLC_BI__Total_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para informar de la exposición indirecta total al paquete de productos.</help>
+        <label>Exposición indirecta total</label>
+        <name>LLC_BI__Total_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad total de líneas de crédito</label>
+        <name>LLC_BI__Total_Loan_Facilities_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Exposición total de líneas de crédito</label>
+        <name>LLC_BI__Total_Loan_Facilities_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Total de fondos nuevos netos</label>
+        <name>LLC_BI__Total_Net_New_Funds__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad total de línea sindicada</label>
+        <name>LLC_BI__Total_Syndicated_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Sin usar</label>
+        <name>LLC_BI__Unused__c</name>
+    </fields>
+    <fields>
+        <label>Aprobación virtual</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Overview_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Risk_and_Mitigants_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Subject_Request_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Summary_and_Recommendation_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Use_of_Proceeds_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>X1st_Approver__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>X2nd_Approver__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Añadir colateral</label>
+        <name>Add_Collateral</name>
+    </webLinks>
+    <webLinks>
+        <label>Añadir Préstamos</label>
+        <name>Add_Loans</name>
+    </webLinks>
+    <webLinks>
+        <label>Reclamación</label>
+        <name>CSA_Claim</name>
+    </webLinks>
+    <webLinks>
+        <label>Nota de crédito</label>
+        <name>Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label>Nota de crédito</label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label>Acciones en masa</label>
+        <name>LLC_BI__Mass_Actions</name>
+    </webLinks>
+    <webLinks>
+        <label>Nueva línea</label>
+        <name>LLC_BI__New_Facility</name>
+    </webLinks>
+    <webLinks>
+        <label>Acción de crédito</label>
+        <name>LLC_BI__renew_loan</name>
+    </webLinks>
+    <webLinks>
+        <label>Informe de la lista de alerta</label>
+        <name>nBRIDGER__Watchlist_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

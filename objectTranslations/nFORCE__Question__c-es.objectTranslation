@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Descripción de la configuración personal</label>
+        <name>nFORCE__Api_Key__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca la etiqueta de clasificación Niq para ayudar Niq clasificar datos con fines de aprendizaje automático.</help>
+        <label>institución ID</label>
+        <name>nFORCE__Classification_Tag__c</name>
+    </fields>
+    <fields>
+        <label>Está activo</label>
+        <name>nFORCE__Default_Text_Answer__c</name>
+    </fields>
+    <fields>
+        <label>Llave</label>
+        <name>nFORCE__Form_Type__c</name>
+        <picklistValues>
+            <masterLabel>Checkbox</masterLabel>
+            <translation>Caja</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Currency</masterLabel>
+            <translation>Moneda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation>Número</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation>Porcentaje</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picklist</masterLabel>
+            <translation>de lista de selección</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Screen Section</masterLabel>
+            <translation>Sección de pantalla</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation>Texto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textarea</masterLabel>
+            <translation>Área de texto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>nFORCE__Group__c</name>
+        <relationshipLabel>preguntas</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Introduzca el texto de ayuda deseado para el campo asociado en cuestionarios.</help>
+        <label>Valor Tipo de datos</label>
+        <name>nFORCE__Help_Text__c</name>
+    </fields>
+    <fields>
+        <label>Objetos de prueba</label>
+        <name>nFORCE__Is_Archived__c</name>
+    </fields>
+    <fields>
+        <label>Casilla de prueba</label>
+        <name>nFORCE__Is_Required__c</name>
+    </fields>
+    <fields>
+        <label>Se utiliza en las pruebas unitarias.</label>
+        <name>nFORCE__Label__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el valor mínimo para el número, moneda, y los campos de porcentaje en los cuestionarios.</help>
+        <label>Se utiliza en las pruebas unitarias.</label>
+        <name>nFORCE__Maximum__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el valor mínimo para el número, moneda, y los campos de porcentaje en los cuestionarios.</help>
+        <label>Se utiliza en las pruebas unitarias.</label>
+        <name>nFORCE__Minimum__c</name>
+    </fields>
+    <fields>
+        <label>Se utiliza en las pruebas unitarias.</label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con la sección de la pantalla que se debe presentar en el cuestionario.</help>
+        <label>Test_Forms_Translate_Picklist</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>Sección de pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha de la prueba</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

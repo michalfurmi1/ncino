@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Seleccione este campo si se han aceptado los términos descritos en el documento.</help>
+        <label>Nombre de contacto</label>
+        <name>nPortal__Agreed__c</name>
+    </fields>
+    <fields>
+        <label>Solicitud</label>
+        <name>nPortal__Application__c</name>
+        <relationshipLabel>Acuerdos de ruta</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cómo asegurado o el tipo de garantía apr</label>
+        <name>nPortal__Route_Terms__c</name>
+        <relationshipLabel>Acuerdos de ruta</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Usuario</label>
+        <name>nPortal__User__c</name>
+        <relationshipLabel>Acuerdos de ruta</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo Cómo segura de Colateral</label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

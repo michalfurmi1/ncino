@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Un conjunto campo utilizado para la SObjectType.</help>
+        <label>Activo</label>
+        <name>LLC_BI__Field_Set_API_Name__c</name>
+    </fields>
+    <fields>
+        <help>A SObjectField a ser usado en conjunción con que está asociado SObjectType.</help>
+        <label>Pantallas nota de crédito</label>
+        <name>LLC_BI__SObjectField__c</name>
+    </fields>
+    <fields>
+        <help>A SObjectType utilizado para determinar describir el tipo de la SObjectField asociado.</help>
+        <label>LookupKey</label>
+        <name>LLC_BI__SObjectType__c</name>
+    </fields>
+</CustomObjectTranslation>

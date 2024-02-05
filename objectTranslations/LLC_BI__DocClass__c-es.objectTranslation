@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Raza Hispano o Latino (s) de la descripc</label>
+        <name>LLC_BI__DocOwner__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Abogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation>Más cerca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Construcción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Operaciones de préstamo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Si Otro Hispano o Latino se selecciona c</label>
+        <name>LLC_BI__DocType__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>El puntaje de crédito Modelo</label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Etnicidad de Entidad de Participación (h</label>
+        <name>LLC_BI__lookupId__c</name>
+    </fields>
+    <fields>
+        <label>Los ingresos del solicitante</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Introducir, en dólares, el ingreso anual</label>
+        <name>NDOC__Industry__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

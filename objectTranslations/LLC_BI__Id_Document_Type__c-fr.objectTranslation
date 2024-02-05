@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Agence</label>
+        <name>LLC_BI__Agency__c</name>
+        <picklistValues>
+            <masterLabel>DMV</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>Gouvernement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Entrez un numéro pour déterminer l&apos;ordre d&apos;affichage du document d&apos;identité.</help>
+        <label>Ordre d&apos;affichage</label>
+        <name>LLC_BI__Display_Order__c</name>
+    </fields>
+    <fields>
+        <help>Entrez l&apos;ID Nom du document pour afficher à la place du nom de l&apos;ID de type de document.</help>
+        <label>ID externe Nom du document</label>
+        <name>LLC_BI__External_Id_Document_Name__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez la catégorie de documents.</help>
+        <label>ID Catégorie de document</label>
+        <name>LLC_BI__ID_Document_Category__c</name>
+        <picklistValues>
+            <masterLabel>Driver License</masterLabel>
+            <translation>Permis de conduire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Card</masterLabel>
+            <translation>Carte d&apos;identité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation>Passeport</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Sélectionnez le type de document d&apos;identité pour aider le système à déterminer combien de côtés doivent être capturés.</help>
+        <label>ID côtés document</label>
+        <name>LLC_BI__ID_Document_Sides__c</name>
+    </fields>
+    <fields>
+        <help>Entrez l&apos;URL de l&apos;image pour une image hébergée en ligne. Si cela ne fonctionne pas, télécharger une image aux documents, définir la visibilité d&apos;image publique, puis entrez l&apos;URL de l&apos;image.</help>
+        <label>Image ID de document (Retour)</label>
+        <name>LLC_BI__Id_Document_Image_Back__c</name>
+    </fields>
+    <fields>
+        <help>Entrez l&apos;URL de l&apos;image pour une image hébergée en ligne. Si cela ne fonctionne pas, télécharger une image aux documents, définir la visibilité d&apos;image publique, puis entrez l&apos;URL de l&apos;image.</help>
+        <label></label>
+        <name>LLC_BI__Id_Document_Image_Front__c</name>
+    </fields>
+    <fields>
+        <label>Id Exigence de document</label>
+        <name>LLC_BI__Id_Document_Requirement__c</name>
+        <relationshipLabel>Id Types de documents</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cochez la case pour activer le document d&apos;identité.</help>
+        <label>Portal est activé</label>
+        <name>LLC_BI__Is_Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Placeholder_Name__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez cette fonctionnalité pour vous guider dans le processus de téléchargement des documents d&apos;identité.</help>
+        <label>Astuces rapides</label>
+        <name>LLC_BI__Quick_Tips__c</name>
+    </fields>
+    <fields>
+        <label>Section de l&apos;écran</label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel>Id Types de documents</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Entrez la description du type d&apos;identification « autre » la signature supplémentaire fournit.</help>
+        <label>Type d&apos;identification Autre Description</label>
+        <name>WKDDP__Id_Type_Other_Description__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez le type d&apos;identification de la signature supplémentaire fournit.</help>
+        <label>Type de code d&apos;identification</label>
+        <name>WKDDP__Identification_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>Driver&apos;s License</masterLabel>
+            <translation>Permis de conduire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Identification Card</masterLabel>
+            <translation>Carte d&apos;identité militaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NATO ID</masterLabel>
+            <translation>OTAN ID</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Military Status of Forces ID</masterLabel>
+            <translation>Autre statut militaire des Forces ID</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation>Passeport</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Issued Identification Card</masterLabel>
+            <translation>État émis la carte d&apos;identité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Department of Homeland Security ID</masterLabel>
+            <translation>US Department of Homeland Security ID</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Department of State ID</masterLabel>
+            <translation>US Department of State ID</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States Citizenship and Immigration Services (USCIS) Documentation</masterLabel>
+            <translation>États-Unis Services de citoyenneté et d&apos;immigration (USCIS) Documentation</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Une description du type « autre » d&apos;identification fourni par la signature supplémentaire.</help>
+        <label>autre description</label>
+        <name>WKDDP__Other_Description__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

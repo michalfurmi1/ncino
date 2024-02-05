@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>La date de cette modification a été envoyée à Colson pour approbation</help>
+        <label>Date de Colson</label>
+        <name>LLC_BI__Date_to_Colson__c</name>
+    </fields>
+    <fields>
+        <label>Date effective</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>S&apos;il vous plaît identifier pourquoi cette modification de prêt est proposé</help>
+        <label>Explication</label>
+        <name>LLC_BI__Explanation__c</name>
+    </fields>
+    <fields>
+        <label>Numéro du prêt</label>
+        <name>LLC_BI__Loan_Lookup_Key__c</name>
+    </fields>
+    <fields>
+        <help>S&apos;il vous plaît entrer dans les détails spécifiques de la modification de prêt.</help>
+        <label>Mod prêt Détails</label>
+        <name>LLC_BI__Loan_Mod_Detail__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case lorsque la modification de prêt a été envoyé</help>
+        <label>Modification de prêt Sent</label>
+        <name>LLC_BI__Loan_Modification_Sent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Mod prêt Description de</relationshipLabel>
+    </fields>
+    <fields>
+        <label>mod type de</label>
+        <name>LLC_BI__Mod_Type__c</name>
+        <picklistValues>
+            <masterLabel>Approval</masterLabel>
+            <translation>Approbation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de modification</label>
+        <name>LLC_BI__Modification_Type__c</name>
+        <picklistValues>
+            <masterLabel>Correct Existing Note</masterLabel>
+            <translation>Bonne note Existant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extend Amortization</masterLabel>
+            <translation>étendre Amortissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Loan Amount</masterLabel>
+            <translation>Augmentation Montant du prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Only</masterLabel>
+            <translation>Intérêt uniquement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Rate Reduction</masterLabel>
+            <translation>Taux d&apos;intérêt Réduction</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Deferral</masterLabel>
+            <translation>Paiement différé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduce Loan Amount</masterLabel>
+            <translation>Réduire le montant du prêt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le cas échéant, s&apos;il vous plaît entrez le montant nouvellement proposé</help>
+        <label>nouveau montant</label>
+        <name>LLC_BI__New_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Le cas échéant, s&apos;il vous plaît entrer le nouveau taux proposé</help>
+        <label>nouveau taux</label>
+        <name>LLC_BI__New_Rate__c</name>
+    </fields>
+    <fields>
+        <help>S&apos;il vous plaît identifier ce que cette modification espère accomplir</help>
+        <label>Objectif</label>
+        <name>LLC_BI__Objective__c</name>
+    </fields>
+    <fields>
+        <label>Propriétaire</label>
+        <name>LLC_BI__Owner__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>La finance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Opérations de prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>Entretien</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>En revue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeté</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

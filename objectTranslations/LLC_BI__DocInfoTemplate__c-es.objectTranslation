@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>La exposición excluidos</label>
+        <name>LLC_BI__DocClass__c</name>
+        <relationshipLabel>Plantillas DOCINFO</relationshipLabel>
+    </fields>
+    <fields>
+        <label>comentarios</label>
+        <name>LLC_BI__DocType__c</name>
+        <relationshipLabel>Plantillas DOCINFO</relationshipLabel>
+    </fields>
+    <fields>
+        <label>La exposición excluidos</label>
+        <name>LLC_BI__LoanType__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation>Adquisición</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion</masterLabel>
+            <translation>Expansión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>Refinanciar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start-up</masterLabel>
+            <translation>Puesta en marcha</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Excluir Razón</label>
+        <name>LLC_BI__Stage__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

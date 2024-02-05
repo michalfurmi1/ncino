@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Dirección</label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de colateral</label>
+        <name>Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Propiedad del colateral</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cómo se relaciona la entidad con el colateral</help>
+        <label>Asociación del colateral</label>
+        <name>LLC_BI__Collateral_Association__c</name>
+        <picklistValues>
+            <masterLabel>Assignee</masterLabel>
+            <translation>Cesionario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation>Comprador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Construcción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landlord</masterLabel>
+            <translation>Arrendador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee</masterLabel>
+            <translation>Arrendatario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lienholder</masterLabel>
+            <translation>Acreedor prendario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation>Propietario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation>Vendedor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tenant</masterLabel>
+            <translation>Inquilino</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Colateral</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Entidades</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La fecha en la que finaliza la propiedad del colateral</help>
+        <label>Fecha de finalización</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>El porcentaje del colateral que es propiedad de la cuenta</help>
+        <label>Porcentaje de propiedad</label>
+        <name>LLC_BI__Ownership_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>¿Tiene la cuenta la facultad de pignorar este colateral?</help>
+        <label>Facultad de pignoración</label>
+        <name>LLC_BI__Pledging_Authority__c</name>
+    </fields>
+    <fields>
+        <help>Este campo indica si es el propietario principal del elemento del colateral.</help>
+        <label>Propietario principal</label>
+        <name>LLC_BI__Primary_Owner__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de entidad</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <help>La fecha en la que empieza la propiedad del colateral</help>
+        <label>Fecha de comienzo</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Número de solicitud asignado por el pres</label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo si se utiliza para generar Loan_Collateral__c SBA 7a Formulario de Autorización de Préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Aplicación Indicador elegible</label>
+        <name>nSBA__Loan_Collateral__c</name>
+        <relationshipLabel>Propietario de garantía</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

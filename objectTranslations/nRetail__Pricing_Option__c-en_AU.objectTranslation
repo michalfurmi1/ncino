@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Y -Pricing Option</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Y -Pricing Options</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nRetail__Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__DTI__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Fees__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Rate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Term__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Total_Interest__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Total_Principal__c</name>
+    </fields>
+    <nameFieldLabel>Y -Pricing Options Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

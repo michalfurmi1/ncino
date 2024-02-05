@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Ce champ de formule affiche le nom de l&apos;utilisateur ou la file d&apos;attente qui appartient à l&apos;exigence au moment du changement.</help>
+        <label>Cessionnaire</label>
+        <name>LLC_BI__Assignee__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient une référence à l&apos;exigence à laquelle se rapporte cette entrée.</help>
+        <label>Exigence</label>
+        <name>LLC_BI__Requirement__c</name>
+        <relationshipLabel>Historique Exigence</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient l&apos;état de cette exigence au moment du changement.</help>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

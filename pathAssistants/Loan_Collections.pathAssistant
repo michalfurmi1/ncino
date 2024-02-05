@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>LLC_BI__Loan__c</entityName>
+    <fieldName>LLC_BI__Stage__c</fieldName>
+    <masterLabel>Loan Collections</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;45 Days Past Due&lt;/p&gt;&lt;p&gt;Follow up with customer&lt;/p&gt;&lt;p&gt;Arrange offifce/location visit&lt;/p&gt;&lt;p&gt;Generate Credit Memo&lt;/p&gt;&lt;p&gt;Perform Spread Analysis&lt;/p&gt;</info>
+        <picklistValueName>Analytics</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Send loan to 3rd party portal&lt;/p&gt;&lt;p&gt;A task to a collection agency will be generated&lt;/p&gt;</info>
+        <picklistValueName>External Collections</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Internal Collections (30 days past due)&lt;/p&gt;&lt;p&gt;Call the customer to find out what&amp;#39;s going on.&lt;/p&gt;&lt;p&gt;Generate the forbearance form and send out to the customer&lt;/p&gt;</info>
+        <picklistValueName>Internal Collections</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Modification/Refinance&lt;/p&gt;&lt;p&gt;Involve Solicitors&lt;/p&gt;&lt;p&gt;Short sale&lt;/p&gt;</info>
+        <picklistValueName>Workout Solutions</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Loan_Collections</recordTypeName>
+</PathAssistant>

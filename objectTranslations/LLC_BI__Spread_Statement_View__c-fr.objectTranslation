@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>filtre JSON</label>
+        <name>LLC_BI__Filter_JSON__c</name>
+    </fields>
+    <fields>
+        <help>Type d&apos;associés Déclaration de propagation ou d&apos;un modèle. par exemple) Compte de résultat, le bilan, les ratios</help>
+        <label>Écart type d&apos;instruction</label>
+        <name>LLC_BI__Spread_Statement_Type__c</name>
+        <relationshipLabel>Vues Déclaration Étaler</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

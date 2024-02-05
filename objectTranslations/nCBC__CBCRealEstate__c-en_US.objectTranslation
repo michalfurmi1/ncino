@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>nCBC__CBCUrl__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nCBC__EnablePrompt__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nCBC__LoginID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nCBC__Password__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nCBC__Timeout__c</name>
+    </fields>
+</CustomObjectTranslation>

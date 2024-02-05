@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Una descripción de la otra frecuencia de</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>Los informes de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Si un verdadero consentimiento para paga</label>
+        <name>LLC_BI__FICO_Score__c</name>
+    </fields>
+    <fields>
+        <label>Servicios de sobregiro</label>
+        <name>LLC_BI__OFAC__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

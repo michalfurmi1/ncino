@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>relation associée</label>
+        <name>Associated_Relationship__c</name>
+    </fields>
+    <fields>
+        <label>Nom Doctype</label>
+        <name>DocType_Name__c</name>
+    </fields>
+    <fields>
+        <help>Délimité liste des Semicolon rôles qui sont autorisés à approuver le document. Si laissé en blanc tous les rôles peuvent approuver le document.</help>
+        <label>Rôles d&apos;approbation</label>
+        <name>LLC_BI__Approval_Roles__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Auto_Esign__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Content_Management_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Customer_Portal_Doc__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Source des documents</label>
+        <name>LLC_BI__Document_Source__c</name>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Index Document Store</label>
+        <name>LLC_BI__Document_Store_Index__c</name>
+        <relationshipLabel>Documents de prêt</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le champ doit être marqué comme étant « vrai » (true) si un fichier compatible doit être téléchargé au format PDF.</help>
+        <label>Télécharger au format PDF</label>
+        <name>LLC_BI__Download_As_PDF__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__E_Vault__c</name>
+    </fields>
+    <fields>
+        <label>a fichier</label>
+        <name>LLC_BI__Has_File__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Document Names</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Rôle</label>
+        <name>LLC_BI__Owner__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Avocat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation>Plus proche</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Opérations de prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>Entretien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>actifs spéciaux</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Groupes Viewer Placeholder</label>
+        <name>LLC_BI__Placeholder_Viewer_Groups__c</name>
+    </fields>
+    <fields>
+        <label>Profils Viewer Placeholder</label>
+        <name>LLC_BI__Placeholder_Viewer_Profiles__c</name>
+    </fields>
+    <fields>
+        <label>Description du portail</label>
+        <name>LLC_BI__Portal_Doc_Description__c</name>
+    </fields>
+    <fields>
+        <label>Nom du portail</label>
+        <name>LLC_BI__Portal_Doc_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Portal_Doc_Type__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation>UNE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Portail activé</label>
+        <name>LLC_BI__Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Date de rejet Portail</label>
+        <name>LLC_BI__Portal_Rejection_Date__c</name>
+    </fields>
+    <fields>
+        <label>Motif du rejet Portail</label>
+        <name>LLC_BI__Portal_Rejection_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation>Incomplet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing Signature</masterLabel>
+            <translation>Signature manquante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Date</masterLabel>
+            <translation>Obsolète</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unreadable</masterLabel>
+            <translation>Illisible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong File</masterLabel>
+            <translation>Fichier erroné</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Portal Date de dépôt</label>
+        <name>LLC_BI__Portal_Upload_Date__c</name>
+    </fields>
+    <fields>
+        <label>Telechargé par</label>
+        <name>LLC_BI__Portal_Uploaded_By__c</name>
+        <relationshipLabel>Document Names (Uploaded By)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Exigence</label>
+        <name>LLC_BI__Requirement__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Délimité liste des Semicolon rôles qui sont autorisés à afficher le document. Si elle est vide tous les rôles peuvent afficher le document.</help>
+        <label>Rôles Viewer</label>
+        <name>LLC_BI__Viewer_Roles__c</name>
+    </fields>
+    <fields>
+        <label>Date d’accord</label>
+        <name>LLC_BI__approvalDate__c</name>
+    </fields>
+    <fields>
+        <label>Approuvé par</label>
+        <name>LLC_BI__approvedBy__c</name>
+        <relationshipLabel>Document Names (Approved By)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Pièce jointe actuelle Id</label>
+        <name>LLC_BI__attachmentId__c</name>
+    </fields>
+    <fields>
+        <label>Aide-mémoire de clôture</label>
+        <name>LLC_BI__closingChecklist__c</name>
+        <relationshipLabel>Document Names</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Commentaires</label>
+        <name>LLC_BI__comments__c</name>
+    </fields>
+    <fields>
+        <label>Date butoir de remise</label>
+        <name>LLC_BI__date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__docClass__c</name>
+        <relationshipLabel>Document Names</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel>Document Names</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__docTab__c</name>
+        <relationshipLabel>Document Names</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Doctype</label>
+        <name>LLC_BI__docType__c</name>
+        <relationshipLabel>Document Names</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Jours avant échéance</label>
+        <name>LLC_BI__dueDaysPrior__c</name>
+    </fields>
+    <fields>
+        <label>Date d’exception</label>
+        <name>LLC_BI__exceptionDate__c</name>
+    </fields>
+    <fields>
+        <label>Taille du fichier</label>
+        <name>LLC_BI__fileSize__c</name>
+    </fields>
+    <fields>
+        <label>premier commentaire</label>
+        <name>LLC_BI__firstReview__c</name>
+    </fields>
+    <fields>
+        <label>Texte d’aide</label>
+        <name>LLC_BI__helpText__c</name>
+    </fields>
+    <fields>
+        <label>Annuaire</label>
+        <name>LLC_BI__isDirectory__c</name>
+    </fields>
+    <fields>
+        <label>type de Mime</label>
+        <name>LLC_BI__mimeType__c</name>
+    </fields>
+    <fields>
+        <label>Propriétaire</label>
+        <name>LLC_BI__ownerObjectId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__parent__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Priorité</label>
+        <name>LLC_BI__priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Critique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Élevée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Faible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Moyen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Date de revue</label>
+        <name>LLC_BI__reviewDate__c</name>
+    </fields>
+    <fields>
+        <label>Statut de la revue</label>
+        <name>LLC_BI__reviewStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Review</masterLabel>
+            <translation>En attente de revue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation>Exception</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-File</masterLabel>
+            <translation>Dans le fichier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Ouvert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation>Revu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation>Abandonné</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Revu par</label>
+        <name>LLC_BI__reviewedBy__c</name>
+        <relationshipLabel>Document Names (Reviewed By)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Trier</label>
+        <name>LLC_BI__sortOrder__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__version__c</name>
+    </fields>
+    <fields>
+        <label>Lien vers prêt Doc</label>
+        <name>Link_to_Loan_Doc__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>NDOC__Account__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>NDOC__Created_By_Closing_Checklist_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>NDOC__HasBeenWaived__c</name>
+    </fields>
+    <fields>
+        <label>est importé</label>
+        <name>NDOC__Is_Imported__c</name>
+    </fields>
+    <fields>
+        <label>est mis en scène</label>
+        <name>NDOC__Is_Staged__c</name>
+    </fields>
+    <fields>
+        <label>Entité juridique</label>
+        <name>NDOC__Legal_entity__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Délimité liste des Semicolon rôles qui sont autorisés à approuver le document. Si laissé en blanc tous les rôles peuvent approuver le document.</help>
+        <label>Rôles Placeholder d&apos;approbation</label>
+        <name>NDOC__Placeholder_Approval_Roles__c</name>
+    </fields>
+    <fields>
+        <label>Viewer rôles placeholder</label>
+        <name>NDOC__Placeholder_Viewer_Roles__c</name>
+    </fields>
+    <fields>
+        <label>Commentaire de rejet Portail</label>
+        <name>NDOC__Portal_Rejection_Comment__c</name>
+        <picklistValues>
+            <masterLabel>The document you provided is incomplete. Please fill out the document completely and upload again.</masterLabel>
+            <translation>Le document que vous avez fourni est incomplet. S&apos;il vous plaît remplir le document complètement et télécharger à nouveau.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The document you provided is missing a required signature. Please sign this document and upload again.</masterLabel>
+            <translation>Le document que vous avez fourni manque une signature nécessaire. S&apos;il vous plaît signer ce document et télécharger à nouveau.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The document you provided is out of date. Please provide a current version of the document.</masterLabel>
+            <translation>Le document que vous avez fourni est obsolète. S&apos;il vous plaît fournir une version actuelle du document.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The document you uploaded cannot be read. Please upload a legible document.</masterLabel>
+            <translation>Le document que vous avez téléchargé ne peut être lu. S&apos;il vous plaît télécharger un document lisible.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>This document was not the document requested. Please send the correct document.</masterLabel>
+            <translation>Ce document n&apos;a pas été le document demandé. S&apos;il vous plaît envoyer le bon document.</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>date de Trashed</label>
+        <name>NDOC__Trashed_Date__c</name>
+    </fields>
+    <fields>
+        <label>Description</label>
+        <name>NDOC__description__c</name>
+    </fields>
+    <fields>
+        <label>Nom du fichier</label>
+        <name>NDOC__fileName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>NDOC__isTrash__c</name>
+    </fields>
+    <fields>
+        <label>Dernière étape pour la remise</label>
+        <name>NDOC__neededByStage__c</name>
+        <picklistValues>
+            <masterLabel>Approval / Loan Committee</masterLabel>
+            <translation>Comité d’accord / des prêts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation>Confirmé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>Clôture en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Terminé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation>Préparation des documents</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation>Proposition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification / Application</masterLabel>
+            <translation>Qualification / demande</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>Souscription</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Année</label>
+        <name>NDOC__year__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ncinoocr__OCR_Available__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ncinoocr__OCR_Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>1065</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1120</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1120S</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

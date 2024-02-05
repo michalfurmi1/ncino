@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Loan Ops</name>
+    <queueMembers>
+        <users>
+            <user>erik.sinnard@ncino.aremo2</user>
+            <user>lskywalkerncino-x5kplj7unkp9.egz9ffwdo3z9@ncino.aremo2</user>
+            <user>demomastertest.kxogchhzfeed@ncino.aremo2</user>
+            <user>pilar.daniels.gcjrx07jvxjo@ncino.aremo2</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>LLC_BI__Loan__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>LLC_BI__Opportunity_History__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>LLC_BI__Product_Line__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo de texto para almacenar el CSS personalizado asociado a la marca.</help>
+        <label>Un campo de texto utilizado para la agru</label>
+        <name>nFORCE__Brand_Custom_CSS__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo de texto para almacenar los datos JSON que determina el estilo de marca.</help>
+        <label>Un campo de texto utilizado para la agru</label>
+        <name>nFORCE__Brand_JSON__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca una descripción de la marca para que pueda realizar un seguimiento de lo que la marca se utiliza para.</help>
+        <label>Un campo de texto utilizado para la agru</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <help>Cuando se selecciona, se aplica esta marca a toda la solución de compromiso del cliente cuando el ajuste personalizado &quot;Instituciones Múltiples Activado&quot; esté desactivada. Si “múltiples instituciones habilitadas” está habilitada, la marca especificad</help>
+        <label>Marca de tiempo es el tiempo de la insta</label>
+        <name>nFORCE__Is_Applied__c</name>
+    </fields>
+    <fields>
+        <label>nombre único para el almacén de datos qu</label>
+        <name>nFORCE__Look_Up_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__LookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

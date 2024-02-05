@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Booking_Action_Id__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Este campo almacena la Fecha de Determin</label>
+        <name>LLC_BI__Category__c</name>
+    </fields>
+    <fields>
+        <label>NFIP Comunidad Identificador</label>
+        <name>LLC_BI__Product_Context_Id__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

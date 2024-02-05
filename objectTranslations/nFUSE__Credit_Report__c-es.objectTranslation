@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Texto del acuerdo</label>
+        <name>nFUSE__Account_Payment_Index__c</name>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>nFUSE__Account__c</name>
+        <relationshipLabel>Los informes de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>nFUSE__Address_Discrepency__c</name>
+    </fields>
+    <fields>
+        <label>Ruta</label>
+        <name>nFUSE__Alert_Code__c</name>
+    </fields>
+    <fields>
+        <label>Ruta interfaz de usuario que mostrará es</label>
+        <name>nFUSE__Alert_Message__c</name>
+    </fields>
+    <fields>
+        <label>Términos de ruta</label>
+        <name>nFUSE__AlertedMessage__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>nFUSE__App_Plugin__c</name>
+    </fields>
+    <fields>
+        <label>Orden</label>
+        <name>nFUSE__Available_Credit__c</name>
+    </fields>
+    <fields>
+        <label>Ruta</label>
+        <name>nFUSE__Average_Open_Balance__c</name>
+    </fields>
+    <fields>
+        <label>ruta Azulejos</label>
+        <name>nFUSE__Bankruptcy_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Azulejo</label>
+        <name>nFUSE__Bankruptcy_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>ruta Azulejos</label>
+        <name>nFUSE__Business_Delinquency_Financial_Score__c</name>
+    </fields>
+    <fields>
+        <label>Cuerpo</label>
+        <name>nFUSE__Business_Delinquency_Score__c</name>
+    </fields>
+    <fields>
+        <label>Encabezamiento</label>
+        <name>nFUSE__Business_Failure_Score__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Charge_Off__c</name>
+    </fields>
+    <fields>
+        <label>Sendero icono</label>
+        <name>nFUSE__Collection_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>nFUSE__Confidence_Level_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Rama</label>
+        <name>nFUSE__Contact__c</name>
+        <relationshipLabel>Los informes de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>cerrado perdido</label>
+        <name>nFUSE__Credit_Active_Since__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Credit_Report_Freeze__c</name>
+    </fields>
+    <fields>
+        <label>Calificación de crédito</label>
+        <name>nFUSE__Credit_Score__c</name>
+    </fields>
+    <fields>
+        <label>Empresa</label>
+        <name>nFUSE__EFX_ID__c</name>
+    </fields>
+    <fields>
+        <label>Dirección de correo electrónico</label>
+        <name>nFUSE__FICO_Score__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Foreclosure__c</name>
+    </fields>
+    <fields>
+        <label>Relación existente</label>
+        <name>nFUSE__Fraud_Alert__c</name>
+    </fields>
+    <fields>
+        <label>referidos</label>
+        <name>nFUSE__Industry_Payment_Index__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de pila</label>
+        <name>nFUSE__Judgements_Amount_Satisfied__c</name>
+    </fields>
+    <fields>
+        <label>Teléfono de casa</label>
+        <name>nFUSE__Judgements_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Esta recibido</label>
+        <name>nFUSE__Last_Run_Date__c</name>
+    </fields>
+    <fields>
+        <label>isse</label>
+        <name>nFUSE__Legal_Actions_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Apellido</label>
+        <name>nFUSE__Liens_Amount_Satisfied__c</name>
+    </fields>
+    <fields>
+        <label>Teléfono móvil</label>
+        <name>nFUSE__Liens_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__MLA_Status_Covered_Borrower__c</name>
+        <picklistValues>
+            <masterLabel>Insufficient Data for Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de teléfono</label>
+        <name>nFUSE__Match_Quality_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Este es un campo de fórmula que extrae e</label>
+        <name>nFUSE__Median_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Método de Contacto Preferido</label>
+        <name>nFUSE__Most_Severe_Status_24Months__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__No_Hit__c</name>
+    </fields>
+    <fields>
+        <label>Horario de contacto</label>
+        <name>nFUSE__Number_Of_Accounts__c</name>
+    </fields>
+    <fields>
+        <label>Recepción de la línea de negocios</label>
+        <name>nFUSE__Number_Of_Bankruptcies__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad de referencia</label>
+        <name>nFUSE__Number_Of_Charge_Offs__c</name>
+    </fields>
+    <fields>
+        <label>Cerca de referencia Fecha</label>
+        <name>nFUSE__Number_Of_Judgements_Satisfied__c</name>
+    </fields>
+    <fields>
+        <label>Detalles de referencia</label>
+        <name>nFUSE__Number_Of_Judgements__c</name>
+    </fields>
+    <fields>
+        <label>Notas de referencia de calidad</label>
+        <name>nFUSE__Number_Of_Liens_Satisfied__c</name>
+    </fields>
+    <fields>
+        <label>Calidad de referencia</label>
+        <name>nFUSE__Number_Of_Liens__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de recepción de referencia</label>
+        <name>nFUSE__OFAC_Alert_Indicator__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Open_Tradelines__c</name>
+    </fields>
+    <fields>
+        <label>Remisión Fecha de envío</label>
+        <name>nFUSE__Recent_Bankruptcy_Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fuente de referencia Contacto</label>
+        <name>nFUSE__Recent_Judgements_Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fuente de referencia Contactos</label>
+        <name>nFUSE__Recent_Liens_Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fuente de referencia</label>
+        <name>nFUSE__Report_Category__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation>Consumidor</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de informe</label>
+        <name>nFUSE__Report_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreditHardPull</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreditSoftPull</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Repossession__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>nFUSE__Status__c</name>
+    </fields>
+    <fields>
+        <label>Referencias (Referido por)</label>
+        <name>nFUSE__Tax_Lien_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Referido a la línea de productos</label>
+        <name>nFUSE__Total_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Líneas de productos recomendados</label>
+        <name>nFUSE__Total_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Referido a</label>
+        <name>nFUSE__Total_Past_Due__c</name>
+    </fields>
+    <fields>
+        <label>Referidos (mencionado)</label>
+        <name>nFUSE__Transaction_Log__c</name>
+        <relationshipLabel>Los informes de crédito</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

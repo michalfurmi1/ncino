@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Evidencia de título y Lien OO Prioridad</label>
+        <name>ACH_ABA_Routing_Number__c</name>
+    </fields>
+    <fields>
+        <label>Evidencia de título y derecho de retenci</label>
+        <name>ACH_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>Evidencia del título y la prioridad de L</label>
+        <name>ACH_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Evidencia del título y la prioridad de l</label>
+        <name>ACH_Bank_Name__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de arrendamiento. Utilice este cam</label>
+        <name>Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>La evidencia de la opción Título abierto</label>
+        <name>Debit_Card_Number__c</name>
+    </fields>
+    <fields>
+        <label>Una lista de cualquier evidencia del tít</label>
+        <name>Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>Presentación de Solicitud de notificació</label>
+        <name>First_Billing_Month__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation>abril</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation>agosto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation>diciembre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation>febrero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation>enero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation>julio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation>junio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation>marzo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation>Mayo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation>noviembre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation>octubre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation>septiembre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Funding_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Indica si se requiere la presentación de</label>
+        <name>JE_from_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>Garantizado por</label>
+        <name>JE_from_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Utilice este campo si la entidad que gar</label>
+        <name>LLC_BI__Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Checking</masterLabel>
+            <translation>Comprobación de negocios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Savings</masterLabel>
+            <translation>Ahorros del asunto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checking</masterLabel>
+            <translation>Comprobación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA Checking</masterLabel>
+            <translation>Comprobación de MMA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA Savings</masterLabel>
+            <translation>Ahorro de MMA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings</masterLabel>
+            <translation>Ahorros</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Vínculos</label>
+        <name>LLC_BI__Funding_Completion_ID__c</name>
+    </fields>
+    <fields>
+        <label>Incluir la asignación de las rentas</label>
+        <name>LLC_BI__Funding_Failure_Detail__c</name>
+    </fields>
+    <fields>
+        <label>Indica que la asignación de las rentas d</label>
+        <name>LLC_BI__Funding_Method_Type__c</name>
+        <relationshipLabel>Métodos de financiación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Indica que los derechos de agua están in</label>
+        <name>LLC_BI__Funding_Session_ID__c</name>
+    </fields>
+    <fields>
+        <label>Instrumento</label>
+        <name>LLC_BI__Funding_Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Trial Deposits</masterLabel>
+            <translation>En espera de Depósitos de prueba</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Failure</masterLabel>
+            <translation>La falta de financiación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Success</masterLabel>
+            <translation>El éxito de financiación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation>En progreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Failure</masterLabel>
+            <translation>El fracaso depósito de prueba</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Reject</masterLabel>
+            <translation>Rechazar depósito de prueba</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Success</masterLabel>
+            <translation>El éxito depósito de prueba</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Seleccione el estado del instrumento esp</label>
+        <name>LLC_BI__Funding_Target_ID__c</name>
+    </fields>
+    <fields>
+        <label>Se acabó con cualquier Antes Lien abiert</label>
+        <name>LLC_BI__Funding_User_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Si hay algún hipotecas anteriores, en es</label>
+        <name>Name_to_Appear_on_Checks__c</name>
+    </fields>
+    <fields>
+        <label>-D se financia con este préstamo</label>
+        <name>PIN__c</name>
+    </fields>
+    <fields>
+        <label>Indica si embargo se financia con este p</label>
+        <name>Routing_Number__c</name>
+    </fields>
+    <fields>
+        <label>Se requiere que los propietarios de Exen</label>
+        <name>Verify_PIN__c</name>
+    </fields>
+    <fields>
+        <label>Los propietarios es la renuncia requerid</label>
+        <name>Wire_from_Account_ABA__c</name>
+    </fields>
+    <fields>
+        <label>Es, sin MGL Sección 21E</label>
+        <name>Wire_from_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>Sin MGL es el Artículo 21 (e) es una opc</label>
+        <name>Wire_from_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Es, sin excepciones estándar</label>
+        <name>Wire_from_Institution__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

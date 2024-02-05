@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nCBC__Contact__c</name>
+        <relationshipLabel>Rapports de crédit</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Erreur de description</label>
+        <name>nCBC__Error_Description__c</name>
+    </fields>
+    <fields>
+        <label>Score FICO</label>
+        <name>nCBC__FICO_Score__c</name>
+    </fields>
+    <fields>
+        <label>est-ce succès</label>
+        <name>nCBC__Is_Success__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nCBC__LobLegacyKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nCBC__OFAC__c</name>
+    </fields>
+    <fields>
+        <label>Date de prise ferme Score</label>
+        <name>nCBC__Underwriting_Score_Date__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Rapport Experian crédit</label>
+        <name>nCBC__Experian_Credit_Report</name>
+    </webLinks>
+    <webLinks>
+        <label>Rapport HTML</label>
+        <name>nCBC__HTML_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

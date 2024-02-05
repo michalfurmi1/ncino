@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>le plus élevé d&apos;enfants</label>
+        <name>LLC_BI__Child_Highest__c</name>
+        <relationshipLabel>le plus élevé d&apos;enfants</relationshipLabel>
+    </fields>
+    <fields>
+        <label>prêt pour enfants</label>
+        <name>LLC_BI__Child_Loan__c</name>
+        <relationshipLabel>Paquet produit Prêts Histoire</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Enfant est réservée</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>prêt parent</label>
+        <name>LLC_BI__Parent_Loan__c</name>
+        <relationshipLabel>Produit Paquet Histoire prêts (Parent prêt)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Package produit</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Paquet produit Prêts Histoire</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

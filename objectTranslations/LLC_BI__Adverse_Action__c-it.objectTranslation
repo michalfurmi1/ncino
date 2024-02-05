@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AA_Status__c</name>
+        <picklistValues>
+            <masterLabel>Loan Declined</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Approvato da Credito</label>
+        <name>LLC_BI__Approved_by_Credit__c</name>
+    </fields>
+    <fields>
+        <label>Commenti</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Fornitore credito</label>
+        <name>LLC_BI__Credit_Provider__c</name>
+        <picklistValues>
+            <masterLabel>Equifax</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Motivo rifiuto 1</label>
+        <name>LLC_BI__Decline_Reason_1__c</name>
+        <picklistValues>
+            <masterLabel>Bankruptcy</masterLabel>
+            <translation>Fallimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collection action or judgement</masterLabel>
+            <translation>Azione o sentenza per il recupero del credito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delinquent past or present credit obligations with others</masterLabel>
+            <translation>Obbligazioni di credito passate o presenti con altri inadempiute</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excessive obligations in relation to income</masterLabel>
+            <translation>Obbligazioni eccessive rispetto al reddito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreclosure or repossession</masterLabel>
+            <translation>Pignoramento o riappropriazione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garnishment or attachment</masterLabel>
+            <translation>Pignoramento presso terzi o sequestro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income insufficient for amount of credit requested</masterLabel>
+            <translation>Reddito insufficiente per l’importo del credito richiesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient number of credit references provided</masterLabel>
+            <translation>Numero insufficiente di referenze per la posizione creditizia fornite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of established earnings record</masterLabel>
+            <translation>Assenza di record sugli utili accertati</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of employment</masterLabel>
+            <translation>Durata del contratto di lavoro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of residence</masterLabel>
+            <translation>Durata della residenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited credit experience</masterLabel>
+            <translation>Esperienza di credito limitata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No credit file</masterLabel>
+            <translation>Nessuna informazione su crediti</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of recent inquiries on credit bureau report</masterLabel>
+            <translation>Numero di indagini recenti su Credit Bureau Report</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor credit performance with us</masterLabel>
+            <translation>Cattivo andamento del credito presso di noi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow or past due in trade or loan payments</masterLabel>
+            <translation>Pagamenti commerciali o rimborsi di prestiti lenti o dopo la scadenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary or irregular employment</masterLabel>
+            <translation>Impiego temporaneo o irregolare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary residence</masterLabel>
+            <translation>Residenza temporanea</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify credit references</masterLabel>
+            <translation>Non in grado di verificare referenze per la posizione creditizia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify employment</masterLabel>
+            <translation>Non in grado di verificare l’impiego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify income</masterLabel>
+            <translation>Non in grado di verificare il reddito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify residence</masterLabel>
+            <translation>Non in grado di verificare la residenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unacceptable type of credit references provided</masterLabel>
+            <translation>Tipologia inaccettabile di referenze per la posizione creditizia fornite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value or type of collateral not sufficient</masterLabel>
+            <translation>Valore o tipologia del collaterale non sufficiente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Motivo rifiuto 2</label>
+        <name>LLC_BI__Decline_Reason_2__c</name>
+        <picklistValues>
+            <masterLabel>Bankruptcy</masterLabel>
+            <translation>Fallimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collection action or judgement</masterLabel>
+            <translation>Azione o sentenza per il recupero del credito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delinquent past or present credit obligations with others</masterLabel>
+            <translation>Obbligazioni di credito passate o presenti con altri inadempiute</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excessive obligations in relation to income</masterLabel>
+            <translation>Obbligazioni eccessive rispetto al reddito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreclosure or repossession</masterLabel>
+            <translation>Pignoramento o riappropriazione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garnishment or attachment</masterLabel>
+            <translation>Pignoramento presso terzi o sequestro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income insufficient for amount of credit requested</masterLabel>
+            <translation>Reddito insufficiente per l’importo del credito richiesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient number of credit references provided</masterLabel>
+            <translation>Numero insufficiente di referenze per la posizione creditizia fornite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of established earnings record</masterLabel>
+            <translation>Assenza di record sugli utili accertati</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of employment</masterLabel>
+            <translation>Durata del contratto di lavoro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of residence</masterLabel>
+            <translation>Durata della residenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited credit experience</masterLabel>
+            <translation>Esperienza di credito limitata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No credit file</masterLabel>
+            <translation>Nessuna informazione su crediti</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of recent inquiries on credit bureau report</masterLabel>
+            <translation>Numero di indagini recenti su Credit Bureau Report</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor credit performance with us</masterLabel>
+            <translation>Cattivo andamento del credito presso di noi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow or past due in trade or loan payments</masterLabel>
+            <translation>Pagamenti commerciali o rimborsi di prestiti lenti o dopo la scadenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary or irregular employment</masterLabel>
+            <translation>Impiego temporaneo o irregolare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary residence</masterLabel>
+            <translation>Residenza temporanea</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify credit references</masterLabel>
+            <translation>Non in grado di verificare referenze per la posizione creditizia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify employment</masterLabel>
+            <translation>Non in grado di verificare l’impiego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify income</masterLabel>
+            <translation>Non in grado di verificare il reddito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify residence</masterLabel>
+            <translation>Non in grado di verificare la residenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unacceptable type of credit references provided</masterLabel>
+            <translation>Tipologia inaccettabile di referenze per la posizione creditizia fornite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value or type of collateral not sufficient</masterLabel>
+            <translation>Valore o tipologia del collaterale non sufficiente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Motivo rifiuto 3</label>
+        <name>LLC_BI__Decline_Reason_3__c</name>
+        <picklistValues>
+            <masterLabel>Bankruptcy</masterLabel>
+            <translation>Fallimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collection action or judgement</masterLabel>
+            <translation>Azione o sentenza per il recupero del credito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delinquent past or present credit obligations with others</masterLabel>
+            <translation>Obbligazioni di credito passate o presenti con altri inadempiute</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excessive obligations in relation to income</masterLabel>
+            <translation>Obbligazioni eccessive rispetto al reddito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreclosure or repossession</masterLabel>
+            <translation>Pignoramento o riappropriazione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garnishment or attachment</masterLabel>
+            <translation>Pignoramento presso terzi o sequestro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income insufficient for amount of credit requested</masterLabel>
+            <translation>Reddito insufficiente per l’importo del credito richiesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient number of credit references provided</masterLabel>
+            <translation>Numero insufficiente di referenze per la posizione creditizia fornite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of established earnings record</masterLabel>
+            <translation>Assenza di record sugli utili accertati</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of employment</masterLabel>
+            <translation>Durata del contratto di lavoro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of residence</masterLabel>
+            <translation>Durata della residenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited credit experience</masterLabel>
+            <translation>Esperienza di credito limitata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No credit file</masterLabel>
+            <translation>Nessuna informazione su crediti</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of recent inquiries on credit bureau report</masterLabel>
+            <translation>Numero di indagini recenti su Credit Bureau Report</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor credit performance with us</masterLabel>
+            <translation>Cattivo andamento del credito presso di noi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow or past due in trade or loan payments</masterLabel>
+            <translation>Pagamenti commerciali o rimborsi di prestiti lenti o dopo la scadenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary or irregular employment</masterLabel>
+            <translation>Impiego temporaneo o irregolare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary residence</masterLabel>
+            <translation>Residenza temporanea</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify credit references</masterLabel>
+            <translation>Non in grado di verificare referenze per la posizione creditizia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify employment</masterLabel>
+            <translation>Non in grado di verificare l’impiego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify income</masterLabel>
+            <translation>Non in grado di verificare il reddito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify residence</masterLabel>
+            <translation>Non in grado di verificare la residenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unacceptable type of credit references provided</masterLabel>
+            <translation>Tipologia inaccettabile di referenze per la posizione creditizia fornite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value or type of collateral not sufficient</masterLabel>
+            <translation>Valore o tipologia del collaterale non sufficiente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Motivo rifiuto 4</label>
+        <name>LLC_BI__Decline_Reason_4__c</name>
+        <picklistValues>
+            <masterLabel>Bankruptcy</masterLabel>
+            <translation>Fallimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collection action or judgement</masterLabel>
+            <translation>Azione o sentenza per il recupero del credito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delinquent past or present credit obligations with others</masterLabel>
+            <translation>Obbligazioni di credito passate o presenti con altri inadempiute</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excessive obligations in relation to income</masterLabel>
+            <translation>Obbligazioni eccessive rispetto al reddito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreclosure or repossession</masterLabel>
+            <translation>Pignoramento o riappropriazione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garnishment or attachment</masterLabel>
+            <translation>Pignoramento presso terzi o sequestro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income insufficient for amount of credit requested</masterLabel>
+            <translation>Reddito insufficiente per l’importo del credito richiesto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient number of credit references provided</masterLabel>
+            <translation>Numero insufficiente di referenze per la posizione creditizia fornite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of established earnings record</masterLabel>
+            <translation>Assenza di record sugli utili accertati</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of employment</masterLabel>
+            <translation>Durata del contratto di lavoro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of residence</masterLabel>
+            <translation>Durata della residenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited credit experience</masterLabel>
+            <translation>Esperienza di credito limitata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No credit file</masterLabel>
+            <translation>Nessuna informazione su crediti</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of recent inquiries on credit bureau report</masterLabel>
+            <translation>Numero di indagini recenti su Credit Bureau Report</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor credit performance with us</masterLabel>
+            <translation>Cattivo andamento del credito presso di noi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slow or past due in trade or loan payments</masterLabel>
+            <translation>Pagamenti commerciali o rimborsi di prestiti lenti o dopo la scadenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary or irregular employment</masterLabel>
+            <translation>Impiego temporaneo o irregolare</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary residence</masterLabel>
+            <translation>Residenza temporanea</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify credit references</masterLabel>
+            <translation>Non in grado di verificare referenze per la posizione creditizia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify employment</masterLabel>
+            <translation>Non in grado di verificare l’impiego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify income</masterLabel>
+            <translation>Non in grado di verificare il reddito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to verify residence</masterLabel>
+            <translation>Non in grado di verificare la residenza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unacceptable type of credit references provided</masterLabel>
+            <translation>Tipologia inaccettabile di referenze per la posizione creditizia fornite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value or type of collateral not sufficient</masterLabel>
+            <translation>Valore o tipologia del collaterale non sufficiente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Contrassegno prestito</label>
+        <name>LLC_BI__Loan_Flag__c</name>
+    </fields>
+    <fields>
+        <label>Prestito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Rifiuto del prestito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Motivo del ritiro</label>
+        <name>LLC_BI__Withdraw_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Application approved but not accepted</masterLabel>
+            <translation>Richiesta approvata ma non accettata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application withdrawn</masterLabel>
+            <translation>Richiesta ritirata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>File closed for incompletenesss</masterLabel>
+            <translation>Pratica chiusa per incompletezza</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

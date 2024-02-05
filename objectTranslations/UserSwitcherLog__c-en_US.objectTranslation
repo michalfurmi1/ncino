@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Switcher Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Switcher Logs</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LoginDateTime__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LoginStatus__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>OriginalUser__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SourceUser__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>TargetUser__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Nombre de contacto</help>
+        <label>Días en la etapa actual</label>
+        <name>nSBA__Contact_Name__c</name>
+        <relationshipLabel>Contacto acciones y bonos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Costo de acciones y bonos</help>
+        <label>¿Cliente existente?</label>
+        <name>nSBA__Cost__c</name>
+    </fields>
+    <fields>
+        <help>Fecha de la cita / el intercambio</help>
+        <label>Oportunidad convertida</label>
+        <name>nSBA__Date_of_Quotation_Exchange__c</name>
+    </fields>
+    <fields>
+        <help>El valor de mercado de cotización / intercambio</help>
+        <label>Competidores principales)</label>
+        <name>nSBA__Market_Value_Quotation_Exchange__c</name>
+    </fields>
+    <fields>
+        <help>Denominación de los Valores</help>
+        <label>Línea de producto</label>
+        <name>nSBA__Name_Of_Securities__c</name>
+    </fields>
+    <fields>
+        <help>Número de acciones</help>
+        <label>Línea de producto</label>
+        <name>nSBA__Number_Of_Shares__c</name>
+    </fields>
+    <fields>
+        <help>Valor total de las acciones / bonos</help>
+        <label>oportunidades</label>
+        <name>nSBA__Total_Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Si elle est cochée, une zone de recherche est montré pour chaque grille permettant le contenu de lignes à filtrer.</help>
+        <label>Autoriser enregistrement Filtrage</label>
+        <name>LLC_BI__Allow_Record_Filtering__c</name>
+    </fields>
+    <fields>
+        <help>Détermine si oui ou non pour équilibrer les colonnes totales. Si les colonnes sont regroupées puis les colonnes groupées seront équilibrées par ailleurs les colonnes elles-mêmes seront équilibrés. Si le total est égal à zéro, il est considéré comme é</help>
+        <label>solde total</label>
+        <name>LLC_BI__Balance_Total__c</name>
+    </fields>
+    <fields>
+        <label>Type d’emprunteur</label>
+        <name>LLC_BI__Borrower_Type__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation>Emprunteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Borrower</masterLabel>
+            <translation>Co-emprunteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor</masterLabel>
+            <translation>Garant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Guarantor</masterLabel>
+            <translation>Garant limitée</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le Bundle Underwriting auquel cet objet est lié.</help>
+        <label>Paquet</label>
+        <name>LLC_BI__Bundle__c</name>
+        <relationshipLabel>Déclarations Spread</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Calc commun Fiche de dimensionnement</label>
+        <name>LLC_BI__Calc_Common_Sizing_Record__c</name>
+        <relationshipLabel>Modèles Déclaration de propagation</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Calcul commun Dimensionnement Total Grou</label>
+        <name>LLC_BI__Calc_Common_Sizing_Total_Group__c</name>
+        <relationshipLabel>Modèles Déclaration DIFFUSER (Calc commun Dimensionnement Groupe Total)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>La description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Afficher Dimensionnement commun</label>
+        <name>LLC_BI__Display_Common_Sizing__c</name>
+    </fields>
+    <fields>
+        <label>Pilotes de projection d&apos;affichage</label>
+        <name>LLC_BI__Display_Projection_Drivers__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ contrôle la visibilité de la colonne Tendance sur le bilan et le compte de résultat.</help>
+        <label>Tendance d&apos;affichage</label>
+        <name>LLC_BI__Display_Trend__c</name>
+    </fields>
+    <fields>
+        <label>Date de fin trimestre</label>
+        <name>LLC_BI__End_Date_Quarter__c</name>
+    </fields>
+    <fields>
+        <label>Date de fin</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;entité</label>
+        <name>LLC_BI__Entity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Analyst</masterLabel>
+            <translation>Analyste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Partner / Reseller</masterLabel>
+            <translation>Channel Partner / revendeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation>Concurrent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation>Société</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation>Client</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer - Channel</masterLabel>
+            <translation>Client - Canal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer - Direct</masterLabel>
+            <translation>Client - Direct</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPC</masterLabel>
+            <translation>CBE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation>Biens</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Partnership</masterLabel>
+            <translation>Partenariat global</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardianship</masterLabel>
+            <translation>Tutelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Personne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation Partner</masterLabel>
+            <translation>Partenaire d&apos;installation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrator</masterLabel>
+            <translation>Intégrateur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investor</masterLabel>
+            <translation>Investisseur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Company (LLC)</masterLabel>
+            <translation>Société à responsabilité limitée (SARL)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Partnership (LLP)</masterLabel>
+            <translation>Société à responsabilité limitée (LLP de)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Partnership</masterLabel>
+            <translation>Partenariat limite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipality / Other Public Entity</masterLabel>
+            <translation>Municipalité / autre entité publique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nonprofit Corporation</masterLabel>
+            <translation>Corporation à but non lucratif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating Company</masterLabel>
+            <translation>Société d&apos;exploitation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Partenaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Press</masterLabel>
+            <translation>presse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation>Perspective</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation>revendeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology Partner</masterLabel>
+            <translation>Partenaire technologique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation>Confiance</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Détermine si oui ou non doivent être regroupées les colonnes pour le modèle. C&apos;est à dire. Mois en quartiers et quartiers en années.</help>
+        <label>Colonnes de groupe</label>
+        <name>LLC_BI__Group_Columns__c</name>
+    </fields>
+    <fields>
+        <help>La méthode utilisée pour interagir avec la déclaration de diffusion.</help>
+        <label></label>
+        <name>LLC_BI__Interaction__c</name>
+        <picklistValues>
+            <masterLabel>click</masterLabel>
+            <translation>Cliquez sur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dblclick</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>keyboard</masterLabel>
+            <translation>clavier</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Est-bilan</label>
+        <name>LLC_BI__Is_Balance_Sheet__c</name>
+    </fields>
+    <fields>
+        <label>est-budget</label>
+        <name>LLC_BI__Is_Budget__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Cash_Flow_Statement__c</name>
+    </fields>
+    <fields>
+        <label>Analyse globale est</label>
+        <name>LLC_BI__Is_Global_Analysis__c</name>
+    </fields>
+    <fields>
+        <label>Est compte de résultat</label>
+        <name>LLC_BI__Is_Income_Statement__c</name>
+    </fields>
+    <fields>
+        <label>Est État financier personnel</label>
+        <name>LLC_BI__Is_Personal_Financial_Statement__c</name>
+    </fields>
+    <fields>
+        <label>Ratios Is</label>
+        <name>LLC_BI__Is_Ratios__c</name>
+    </fields>
+    <fields>
+        <label>est-modèle</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce traditionnel flux de trésorerie</label>
+        <name>LLC_BI__Is_Traditional_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <label>Est-UCA Flux de trésorerie</label>
+        <name>LLC_BI__Is_UCA_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <label>Gamme de produits</label>
+        <name>LLC_BI__Product_Line__c</name>
+        <relationshipLabel>Modèles Déclaration de propagation</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Type de produit</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <relationshipLabel>Modèles Déclaration de propagation</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produit</label>
+        <name>LLC_BI__Product__c</name>
+        <relationshipLabel>Modèles Déclaration de propagation</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ordre de tri</label>
+        <name>LLC_BI__Sort_Order__c</name>
+    </fields>
+    <fields>
+        <label>Déclaration de la source</label>
+        <name>LLC_BI__Source_Statement__c</name>
+        <relationshipLabel>Modèles clonées Déclaration Spread</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Étaler Déclaration du Groupe Total</label>
+        <name>LLC_BI__Spread_Statement_Total_Group__c</name>
+        <relationshipLabel>Modèles Déclaration de propagation</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date de début trimestre</label>
+        <name>LLC_BI__Start_Date_Quarter__c</name>
+    </fields>
+    <fields>
+        <label>Date de début</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Périodes statiques</label>
+        <name>LLC_BI__Static_Periods__c</name>
+    </fields>
+    <fields>
+        <label>Prise en charge de dimensionnement commu</label>
+        <name>LLC_BI__Supports_Common_Sizing__c</name>
+    </fields>
+    <fields>
+        <help>Est-ce que cette tendance de soutien de type d&apos;instruction.</help>
+        <label></label>
+        <name>LLC_BI__Supports_Trend__c</name>
+    </fields>
+    <fields>
+        <help>Contrôle affichage du symbole monétaire sur le groupe Total enregistrement qui est automatiquement créé pour cet écart modèle de déclaration</help>
+        <label>Symbole monétaire total Cacher</label>
+        <name>LLC_BI__Total_Hide_Currency_Symbol__c</name>
+    </fields>
+    <fields>
+        <label>Nom total de ligne</label>
+        <name>LLC_BI__Total_Row_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation>Bilan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Budget</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Flow Statement</masterLabel>
+            <translation>Tableau des flux de trésorerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income Statement</masterLabel>
+            <translation>État des résultats</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Financial Statement</masterLabel>
+            <translation>États financiers personnels</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconciliation</masterLabel>
+            <translation>État des BNR</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>modèle clone</label>
+        <name>LLC_BI__Clone_Template</name>
+    </webLinks>
+    <webLinks>
+        <label>Imprimer</label>
+        <name>LLC_BI__Print</name>
+    </webLinks>
+</CustomObjectTranslation>

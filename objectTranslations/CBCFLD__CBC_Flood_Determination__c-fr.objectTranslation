@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Base de Flood Elevation pieds Count</label>
+        <name>CBCFLD__Base_Flood_Elevation_Feet_Count__c</name>
+    </fields>
+    <fields>
+        <label>Identifiant de recensement</label>
+        <name>CBCFLD__Census_Tract_IdStr__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CBCFLD__Census_Tract_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CBCFLD__Census_Tract_Identifier__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CBCFLD__Collateral2__c</name>
+        <relationshipLabel>Détermination CBC Flood</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ville collatérale</label>
+        <name>CBCFLD__Collateral_City__c</name>
+    </fields>
+    <fields>
+        <label>Collateral Code postal</label>
+        <name>CBCFLD__Collateral_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>État collatéral</label>
+        <name>CBCFLD__Collateral_State__c</name>
+    </fields>
+    <fields>
+        <label>Rue collatérale Adresse</label>
+        <name>CBCFLD__Collateral_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label>Collatéral</label>
+        <name>CBCFLD__Collateral__c</name>
+        <relationshipLabel>Détermination CBC Flood</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Comté Code FIPS</label>
+        <name>CBCFLD__County_FIPS_Code__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CBCFLD__Flood_Certification_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>Flood produit Date de Certifier</label>
+        <name>CBCFLD__Flood_Product_Certify_Date__c</name>
+    </fields>
+    <fields>
+        <label>Accomplissement Parti de la ville</label>
+        <name>CBCFLD__Fulfillment_Party_City__c</name>
+    </fields>
+    <fields>
+        <label>Accomplissement Party Nom</label>
+        <name>CBCFLD__Fulfillment_Party_Name__c</name>
+    </fields>
+    <fields>
+        <label>Accomplissement Party Téléphone</label>
+        <name>CBCFLD__Fulfillment_Party_Phone__c</name>
+    </fields>
+    <fields>
+        <label>Accomplissement Party Code postal</label>
+        <name>CBCFLD__Fulfillment_Party_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>Accomplissement Party État</label>
+        <name>CBCFLD__Fulfillment_Party_State__c</name>
+    </fields>
+    <fields>
+        <label>Accomplissement Street Party Adresse</label>
+        <name>CBCFLD__Fulfillment_Party_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label>Indicateur de processus manuel</label>
+        <name>CBCFLD__Is_Manual_Process__c</name>
+    </fields>
+    <fields>
+        <label>Est-PNIF État Type d&apos;urgence</label>
+        <name>CBCFLD__Is_NFIP_Status_Type_Emergency__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce PNIF Type de statut régulier</label>
+        <name>CBCFLD__Is_NFIP_Status_Type_Regular__c</name>
+    </fields>
+    <fields>
+        <label>N&apos;est pas zone de danger spécial inondat</label>
+        <name>CBCFLD__Is_Not_Special_Flood_Hazard_Area__c</name>
+    </fields>
+    <fields>
+        <label>Est une zone de danger spécial inondatio</label>
+        <name>CBCFLD__Is_Special_Flood_Hazard_Area__c</name>
+    </fields>
+    <fields>
+        <label>Nombre latitude</label>
+        <name>CBCFLD__Latitude_Number__c</name>
+    </fields>
+    <fields>
+        <label>Prêteur Identificateur de cas</label>
+        <name>CBCFLD__Lender_Case_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>Ville prêteur</label>
+        <name>CBCFLD__Lender_City__c</name>
+    </fields>
+    <fields>
+        <label>Nom du prêteur</label>
+        <name>CBCFLD__Lender_Name__c</name>
+    </fields>
+    <fields>
+        <label>Prêteur Code postal</label>
+        <name>CBCFLD__Lender_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>État prêteur</label>
+        <name>CBCFLD__Lender_State__c</name>
+    </fields>
+    <fields>
+        <label>Rue prêteur Adresse</label>
+        <name>CBCFLD__Lender_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label>La vie de l&apos;indicateur prêt</label>
+        <name>CBCFLD__Life_Of_Loan_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Nombre longitude</label>
+        <name>CBCFLD__Longitude_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CBCFLD__MSA_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>Processus manuel Date d&apos;achèvement</label>
+        <name>CBCFLD__Manual_Process_Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Communauté Identifiant</label>
+        <name>CBCFLD__NFIP_Community_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Nom de la communauté</label>
+        <name>CBCFLD__NFIP_Community_Name__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Participation communautaire Date de</label>
+        <name>CBCFLD__NFIP_Community_Participation_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Participation communautaire Type d&apos;</label>
+        <name>CBCFLD__NFIP_Community_Participation_Status_Type__c</name>
+    </fields>
+    <fields>
+        <label>PNIF County</label>
+        <name>CBCFLD__NFIP_County__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>CBCFLD__NFIP_Flood_Zone_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Zone Flood</label>
+        <name>CBCFLD__NFIP_Flood_Zone__c</name>
+    </fields>
+    <fields>
+        <label>PNIF assurance Indicateur disponible</label>
+        <name>CBCFLD__NFIP_Insurance_Available_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>PNIF assurance Indicateur Non disponible</label>
+        <name>CBCFLD__NFIP_Insurance_Not_Available_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Lettre PNIF Carte date</label>
+        <name>CBCFLD__NFIP_Letter_Of_Map_Date__c</name>
+    </fields>
+    <fields>
+        <label>Carte PNIF Identifiant</label>
+        <name>CBCFLD__NFIP_Map_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Plan Indicateur</label>
+        <name>CBCFLD__NFIP_Map_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Carte Panneau date</label>
+        <name>CBCFLD__NFIP_Map_Panel_Date__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Carte d&apos;identification du panneau</label>
+        <name>CBCFLD__NFIP_Map_Panel_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Carte Panneau Suffixe Identifiant</label>
+        <name>CBCFLD__NFIP_Map_Panel_Suffix_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>PNIF Code de l&apos;État</label>
+        <name>CBCFLD__NFIP_State_Code__c</name>
+    </fields>
+    <fields>
+        <label>Désignation du secteur protégé Date de</label>
+        <name>CBCFLD__Protected_Area_Designation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Zone protégée Indicateur</label>
+        <name>CBCFLD__Protected_Area_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Special_Flood zone de danger Indicateur</label>
+        <name>CBCFLD__Special_Flood_Hazard_Area_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>État Code FIPS</label>
+        <name>CBCFLD__State_FIPS_Code__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>CBCFLD__Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Terminé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing - Priority Requested</masterLabel>
+            <translation>Traitement - Priorité demandée</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

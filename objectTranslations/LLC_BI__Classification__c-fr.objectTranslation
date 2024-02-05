@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>La catégorie de cet écart Record ou sur la liste Étaler Total Groupe se rapporte.</help>
+        <label>Catégorie</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Cash Flow</masterLabel>
+            <translation>Flux de trésorerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOI Statement</masterLabel>
+            <translation>Déclaration des États-Unis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA Benchmarking</masterLabel>
+            <translation>Analyse comparative RMA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

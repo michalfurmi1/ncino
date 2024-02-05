@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Frecuencia</label>
+        <name>LLC_BI__Closing_Checklist__c</name>
+        <relationshipLabel>CCL tipo de garantía</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Última Fecha de Evaluación</label>
+        <name>LLC_BI__Collateral_Type__c</name>
+        <relationshipLabel>CCL tipo de garantía</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

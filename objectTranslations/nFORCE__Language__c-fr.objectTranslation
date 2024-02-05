@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Image drapeau</label>
+        <name>nFORCE__Flag_Image__c</name>
+    </fields>
+    <fields>
+        <label>Portal est activé</label>
+        <name>nFORCE__Is_Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Langue Nom d&apos;affichage</label>
+        <name>nFORCE__Language_Display_Name__c</name>
+    </fields>
+    <fields>
+        <help>Entrez une clé locale en option pour la carte sélection de cette langue à un lieu spécifique.</help>
+        <label>clé locale</label>
+        <name>nFORCE__Locale_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__LookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

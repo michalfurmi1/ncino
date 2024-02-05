@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Rapport de crédit aux entreprises</label>
+        <name>nXBI__Business_Credit_Report__c</name>
+        <relationshipLabel>Informations de crédit aux entreprises faillite</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date de dépôt</label>
+        <name>nXBI__Date_Filed__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de document</label>
+        <name>nXBI__Document_Number__c</name>
+    </fields>
+    <fields>
+        <label>Montant exonéré</label>
+        <name>nXBI__Exempt_Amount__c</name>
+    </fields>
+    <fields>
+        <label>total de l&apos;actif</label>
+        <name>nXBI__Total_Assets__c</name>
+    </fields>
+    <fields>
+        <label>Responsabilités totales</label>
+        <name>nXBI__Total_Liabilities__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

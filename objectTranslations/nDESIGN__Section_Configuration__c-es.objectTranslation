@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Has_Resource</label>
+        <name>nDESIGN__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label>Está activo</label>
+        <name>nDESIGN__Field_Set_Key__c</name>
+    </fields>
+    <fields>
+        <label>contexto Id</label>
+        <name>nDESIGN__Layout__c</name>
+        <relationshipLabel>Configuraciones de sección</relationshipLabel>
+    </fields>
+    <fields>
+        <label>instantánea DateTime</label>
+        <name>nDESIGN__Parent_Configuration__c</name>
+        <relationshipLabel>Configuraciones niño</relationshipLabel>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>nDESIGN__Parent_Relationship_Name__c</name>
+    </fields>
+    <fields>
+        <label>contexto Id</label>
+        <name>nDESIGN__Screen_Section__c</name>
+        <relationshipLabel>Configuraciones de sección</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Un encabezado para que aparezca en la parte superior de esta sección.</help>
+        <label>instantánea Archivo</label>
+        <name>nDESIGN__Section_Header__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nDESIGN__Section_Resource_Class__c</name>
+    </fields>
+    <fields>
+        <label>Las instantáneas de datos</label>
+        <name>nDESIGN__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>El campo Nombre de la API</label>
+        <name>nDESIGN__sObject_Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>configuraciones niño debe seguir a sus padres en el orden de visualización.</errorMessage>
+        <name>nDESIGN__Child_Display_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Configuración de los padres y de los padres Relación Nombre debe ajustarse tanto.</errorMessage>
+        <name>nDESIGN__Parent_Integrity</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CSiDP__CSi_Collateral_Code__c</name>
+        <picklistValues>
+            <masterLabel>201 (Accounts)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>202 (Equipment)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>203 (Inventory)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>204 (All Assets)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>205 (Investment Property)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>206 (Deposit Accounts)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>207 (Titled Vehicles)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>208 (Aircraft)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>209 (Documented Vessel)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>210 (Fixtures)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>211 (Life Insurance)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>212 (General Intangibles)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>213 (Farm Equipment)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>214 (Farm Products)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>215 (Commercial Real Estate)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>217 (Instruments)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>218 (Chattel Paper)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>219 (Standing Timber)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>220 (Watercraft (not Documented))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>221 (Non-titled Personal Property)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>222 (Residential Real Estate)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>223 (Manufactured Housing)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>224 (Real Estate - Construction)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>225 (As-Extracted Collateral)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>226 (Partnership Interest)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>227 (Leases And Rents)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>228 (Cross Collateral)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLCLP__Is_Excluded_From_LaserPro_Extract__c</name>
+    </fields>
+    <fields>
+        <label>Aktiv</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help>Prozentsatz des Werts einer Sicherheit, für den ein Kreditgeber bereit ist, einen Kredit zu verlängern.</help>
+        <label>Beleihungsquote</label>
+        <name>LLC_BI__Advance_Rate__c</name>
+    </fields>
+    <fields>
+        <label>Kategorie</label>
+        <name>LLC_BI__Category__c</name>
+    </fields>
+    <fields>
+        <help>Der Code für eine bestimmte Sicherheit.</help>
+        <label>Code Sicherheit</label>
+        <name>LLC_BI__Collateral_Code__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Collateral_Configuration__c</name>
+    </fields>
+    <fields>
+        <label>Eigentumswohnung/PUD</label>
+        <name>LLC_BI__Condo_PUD__c</name>
+    </fields>
+    <fields>
+        <help>Das Datum, an dem diese Art Sicherheit nicht länger verwendet werden kann.</help>
+        <label>Ablaufdatum</label>
+        <name>LLC_BI__Expire_Date__c</name>
+    </fields>
+    <fields>
+        <help>Legt den Feldsatz fest, der auf der Seite „Sicherheit verwalten“ für diesen Sicherheitentyp verwendet wird.</help>
+        <label>Feldsatz</label>
+        <name>LLC_BI__Field_Set__c</name>
+    </fields>
+    <fields>
+        <label>Höchstrangiger Rang</label>
+        <name>LLC_BI__Highest_Type__c</name>
+        <relationshipLabel>Sicherheitentypen (höchstrangiger Typ)</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Icon_Background_Color__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Icon_Color__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Icon_Type__c</name>
+    </fields>
+    <fields>
+        <label>ist komplex</label>
+        <name>LLC_BI__Is_Complex__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Leasing_Screen__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Manufactured_Home__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Parent_Type__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Regulatorische Beleihungsquote, die in der Regel für Immobilien verwendet wird. Eine höher liegende Beleihungsquote ist mit speziellen Berichtsanforderungen verbunden.</help>
+        <label>Regulatorische Quote</label>
+        <name>LLC_BI__Regulatory_Rate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Screen__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Startdatum</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>Der Untertyp einer bestimmten Sicherheit.</help>
+        <label>Untertyp</label>
+        <name>LLC_BI__Subtype__c</name>
+        <picklistValues>
+            <masterLabel>1-4 Family</masterLabel>
+            <translation>Familie 1–4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounts</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounts Receivable</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accts Rec 31-60</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accts Rec 61-90</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accts Rec Current - 30</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accts Rec Over 90</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft</masterLabel>
+            <translation>Flugzeug</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backhoe</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bobcat</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrowing Base</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bucket Loader</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulldozer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chattel Paper</masterLabel>
+            <translation>Verpfändungserklärung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cherry Picker</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Facility</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condominium</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Bau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Goods</masterLabel>
+            <translation>Verbrauchsgüter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copiers</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crane</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crops</masterLabel>
+            <translation>Nutzpflanzen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Collector</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dredge</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation>Anlagen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excavator</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Equipment</masterLabel>
+            <translation>Landwirtschaftliche Geräte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Land</masterLabel>
+            <translation>Ackerland</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Products</masterLabel>
+            <translation>Landwirtschaftliche Produkte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finished Goods</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixtures</masterLabel>
+            <translation>Ausstattung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gasoil</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Intangibles</masterLabel>
+            <translation>Allgemeine immaterielle Werte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generators</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Contracts</masterLabel>
+            <translation>Staatliche Verträge</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Graple</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation>Inventar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jet</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land</masterLabel>
+            <translation>Grundstücke</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Credit</masterLabel>
+            <translation>Akkreditiv</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance</masterLabel>
+            <translation>Lebensversicherung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Livestock</masterLabel>
+            <translation>Nutztiere</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Log Splitter</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lot</masterLabel>
+            <translation>Flurstück</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minerals, Oil and Gas</masterLabel>
+            <translation>Mineralien, Öl und Gas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Home</masterLabel>
+            <translation>Wohnmobil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modems</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Vehicle</masterLabel>
+            <translation>Kraftfahrzeug</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Family</masterLabel>
+            <translation>Mehrfamilienhaus</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Cables</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Keine</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Note/Instrument</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation>Büro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Possessory</masterLabel>
+            <translation>Sonstiger Besitz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other RE</masterLabel>
+            <translation>Sonstige Immobilie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Titled</masterLabel>
+            <translation>Sonstige titulierte Forderung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phones</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pleasure Boat</masterLabel>
+            <translation>Ausflugsschiff</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power Tools</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Printers</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raw Materials</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipts/Bills</masterLabel>
+            <translation>Belege/Rechnungen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>Retail #Einzelhandel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roller</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routers</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rover</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings/CD&apos;s</masterLabel>
+            <translation>Spareinlagen/Einlagenzertifikate</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scanners</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities</masterLabel>
+            <translation>Wertpapiere</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Side by Side</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Family</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skidsteer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standing Timber</masterLabel>
+            <translation>Stehendes Holz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stump Grinder</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tort Claim</masterLabel>
+            <translation>Deliktischer Anspruch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tractor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trailer</masterLabel>
+            <translation>Wohnwagen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Umbrella</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vessel</masterLabel>
+            <translation>Schiff</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vibrating Roller</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation>Lager</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work In Process</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Der Typ der Sicherheit.</help>
+        <label>Typ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Borrowing Base</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Assets</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commodities</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farming Accessories</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heavy Equipment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Equipment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Sonstige</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Possessory</masterLabel>
+            <translation>Besitzpfand</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation>Immobilien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Equipment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Titled</masterLabel>
+            <translation>Tituliert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UCC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Valuation_Source__c</name>
+        <picklistValues>
+            <masterLabel>Account Balance / Statement</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Officer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Statement</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Agent</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Valuation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Report</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice / Bill of Sale</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Abundance of Caution</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Evaluation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Restricted Appraisal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables Aging</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Source</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valuation Service Vendor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Valuation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Actual Cash Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Complete Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Is Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Stabilized Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Book Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Balance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contents Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Equipment / Transportation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Real Estate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Orderly Liquidation Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orderly Liquidation Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preliminary Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Price</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement Cost Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Stressed_Recovery_Rate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>WKEDP__Expere_Collateral_Code__c</name>
+        <picklistValues>
+            <masterLabel> 107 (Deposit/Share Accounts)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1001 (Aircraft)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1002 (Aircraft Engine/Propeller Only (750+ BHP))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1003 (Documents)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1004 (Boat (Federally Documented/Non-Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1005 (Boat (State Titled/Non-Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1006 (Mobile Home (Personal Property/Non-Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1007 (Motor Vehicle (Non-Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1008 (Outboard Motor)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1009 (Railroad Equipment)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>101 (Accounts &amp; Contract Rights (Generally))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1010 (Sport Craft (Titled/Non-Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1011 (Trailer (Titled/Non-Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1013 (Cooperative)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>102 (Accounts &amp; Contract Rights (Farm))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>103 (Accounts &amp; Contract Rights (Minerals))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>104 (C.D./Share Certificate (Instrument))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>105 (C.D./Share Certificate (Certificated Non-Instrument))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>106 (C.D./Share Certificate (Uncertificated))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>108 (Letter of Credit – Proceeds)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>201 (Boat (Untitled/Non-Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>202 (Consumer Goods)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>203 (Pledged Goods)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>204 (Sport Craft/Trailer (Untitled/Non-Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>205 (All Goods)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>301 (Equipment (Farm))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>302 (Equipment (Generally))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>303 (Specific Equipment (Commercial Only))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>401 (Farm Products)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>403 (Government Payment (Agricultural))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>501 (General Intangibles (Farm))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>502 (General Intangibles (Generally))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>601 (Bond)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>602 (Chattel Paper)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>603 (Life Insurance Policy)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>604 (Mutual Funds)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>607 (Instruments)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>610 (Partnership Interest (Certificated))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>611 (Partnership Interest (Uncertificated))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>612 (Securities – Corporate Stock)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>616 (Securities – Other)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>618 (Government Obligations)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>619 (Security Entitlement)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>620 (Commodity Contracts)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>621 (Commercial Tort Claims)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>701 (Inventory)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>802 (Condominium)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>803 (Boat (Federally Documented/Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>804 (Boat (State Titled/Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>805 (Boat (Untitled/Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>806 (Mobile Home (Personal Property/Residence)))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>807 (Motor Vehicle (Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>808 (Multi-Family Dwelling (5+))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>809 (Non-Residential Real Estate)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>810 (Raw Land – Real Estate)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>811 (1 - 4 Family Dwelling)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>812 (Townhome (PUD))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>813 (Trailer (Titled/Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>814 (Trailer (Untitled/Residence))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>815 (Leasehold)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>901 (Assignment of Contract Rights – RE (Sellers))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>902 (Fixtures)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>903 (Land Trust)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>904 (Leases/Rents – (Real Estate Only))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>905 (Oil &amp; Gas (Severed or to be severed))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>906 (Minerals – Other (Severed or to be severed))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>907 (Timber to be cut)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>99 (All Assets (Commercial Only))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9999 (User Defined (Commercial Only))</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nPortal__OA_Collateral_Image__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__OA_Collateral_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__OA_Collateral_Type_Display_Field_Set__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__OA_Collateral_Type_Screen__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>LLC_BI__Advance_Rate_should_not_be_null</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Configure_Complex_Collateral</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>LLC_BI__CreateCollateralTypeScreen</name>
+    </webLinks>
+</CustomObjectTranslation>

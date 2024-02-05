@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Marque</label>
+        <name>LLC_BI__Brand__c</name>
+        <relationshipLabel>institutions</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Extension communautaire</label>
+        <name>LLC_BI__Community_Extension__c</name>
+    </fields>
+    <fields>
+        <label>Nom communautaire</label>
+        <name>LLC_BI__Community_Name__c</name>
+    </fields>
+    <fields>
+        <label>Communauté ID réseau</label>
+        <name>LLC_BI__Community_Network_ID__c</name>
+    </fields>
+    <fields>
+        <label>clé de recherche</label>
+        <name>LLC_BI__Look_Up_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__LookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le nom de l&apos;API de l&apos;ensemble d&apos;autorisation utilisé pour autoriser l&apos;accès des utilisateurs nCino communautaire à une institution spécifique.</help>
+        <label>Set de permission</label>
+        <name>LLC_BI__Permission_Set__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

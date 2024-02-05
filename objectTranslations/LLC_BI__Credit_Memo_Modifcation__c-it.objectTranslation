@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CSiDP__Modification_Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>CSiDP__Modification_Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Returns only the Change in Terms Agreement in lieu of the Commercial Promissory Note; does not return the collateral documents.</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returns only the modified Commercial Promissory Note; does not return the collateral documents.</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returns the Change in Terms Agreement in lieu of the Commercial Promissory Note, and the accompanying collateral documents.</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returns the modified Commercial Promissory Note, and the accompanying collateral documents.</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Modifica importo prestito</label>
+        <name>LLC_BI__Amount_Change__c</name>
+    </fields>
+    <fields>
+        <label>Approvazione obbligatoria</label>
+        <name>LLC_BI__Approval_Required__c</name>
+    </fields>
+    <fields>
+        <label>Status approvazione</label>
+        <name>LLC_BI__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approvato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>In revisione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Approved</masterLabel>
+            <translation>Non approvato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rifiutato</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Modifica collaterale</label>
+        <name>LLC_BI__Collateral_Change__c</name>
+    </fields>
+    <fields>
+        <help>Questo campo è utilizzato per determinare la landing page predefinita per questo prestito all’interno dell’interfaccia utente nCino.</help>
+        <label>Applicazione di default</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Descrizione</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Modifica iniezione patrimonio netto</label>
+        <name>LLC_BI__Equity_Injection_Change__c</name>
+    </fields>
+    <fields>
+        <label>Garante aggiunto</label>
+        <name>LLC_BI__Guarantor_Added__c</name>
+    </fields>
+    <fields>
+        <label>Garante eliminato</label>
+        <name>LLC_BI__Guarantor_Removed__c</name>
+    </fields>
+    <fields>
+        <label>Modifica assicurazione vita</label>
+        <name>LLC_BI__Life_Insurance_Change__c</name>
+    </fields>
+    <fields>
+        <help>Modifica tasso di interesse, lunghezza, ecc.</help>
+        <label>Modifica durata prestito</label>
+        <name>LLC_BI__Loan_Term_Change__c</name>
+    </fields>
+    <fields>
+        <label>Prestito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Note</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipologia nota</label>
+        <name>LLC_BI__Memo_Type__c</name>
+        <picklistValues>
+            <masterLabel>Change Memo</masterLabel>
+            <translation>Modifica nota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contingent Approval</masterLabel>
+            <translation>Approvazione contingente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Counter Offer</masterLabel>
+            <translation>Contro-offerta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original</masterLabel>
+            <translation>Originale</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nuovo tasso richiesto</label>
+        <name>LLC_BI__New_Rate_Requested__c</name>
+    </fields>
+    <fields>
+        <label>Comunica al rappresentante legale</label>
+        <name>LLC_BI__Notify_Attorney__c</name>
+    </fields>
+    <fields>
+        <label>Altro</label>
+        <name>LLC_BI__Other__c</name>
+    </fields>
+    <fields>
+        <label>Voci post chiusura</label>
+        <name>LLC_BI__Post_Close_Items__c</name>
+    </fields>
+    <fields>
+        <label>Nuova approvazione dopo la scadenza</label>
+        <name>LLC_BI__Re_approval_After_Expiration__c</name>
+    </fields>
+    <fields>
+        <help>Seleziona questa voce quando la tua modifica del prestito è pronta per essere inviata per l’approvazione.</help>
+        <label>Pronto per l’approvazione</label>
+        <name>LLC_BI__Ready_for_Approval__c</name>
+    </fields>
+    <fields>
+        <label>Modifica nota venditore</label>
+        <name>LLC_BI__Seller_Note_Change__c</name>
+    </fields>
+    <fields>
+        <label>Modifica impiego dei proventi</label>
+        <name>LLC_BI__Use_of_Proceeds_Change__c</name>
+    </fields>
+    <fields>
+        <label>Avviato_Da_Utente</label>
+        <name>LLC_BI__User_Initiated__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>LLC_BI__Submit</name>
+    </webLinks>
+</CustomObjectTranslation>

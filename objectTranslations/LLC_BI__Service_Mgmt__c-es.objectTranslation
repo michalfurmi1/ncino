@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Introduzca la búsqueda de objetos de cuenta correcto en este campo.</help>
+        <label>Declaración de anotar los valores de pro</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>servicio de Gestión de</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Introduzca la consulta de Gestión de objeto colateral correcta en este campo.</help>
+        <label>Valor</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>servicio de Gestión de</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Introduzca la búsqueda de contactos objeto correcto en este campo.</help>
+        <label>Excluir</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>servicio de Gestión de</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indica que el elemento está dando servicio.</help>
+        <label>Declaración de propagación de fila Asign</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el objeto lookupKey Servicio de Gestión de relacionados en este campo para determinar la hoja de servicios relacionados con la Gestión de.</help>
+        <label>Declaración de propagación de fila Asign</label>
+        <name>LLC_BI__Highest__c</name>
+        <relationshipLabel>Mgmts de servicios (más alta)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Introduzca la búsqueda objeto de préstamo correcto en este campo.</help>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>servicio de Gestión de</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Introduzca la búsqueda de contactos que proporciona el servicio en este campo.</help>
+        <label>Haz</label>
+        <name>LLC_BI__Service_Provider_Contact__c</name>
+        <relationshipLabel>Gestión de servicio prestado</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Introduzca la búsqueda de cuenta que presta el servicio en este campo.</help>
+        <label>Calc Registro Dimensionamiento Común</label>
+        <name>LLC_BI__Service_Provider__c</name>
+        <relationshipLabel>Gestión de servicio prestado</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione el tipo de servicio correcto.</help>
+        <label>Declaración de plantillas distribuidas (</label>
+        <name>LLC_BI__Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>Accountant</masterLabel>
+            <translation>Contador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraiser</masterLabel>
+            <translation>Evaluador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Abogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brokerage</masterLabel>
+            <translation>Corretaje</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dealer</masterLabel>
+            <translation>Agente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>Seguro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione el estado adecuado del servicio.</help>
+        <label>Mostrar Común Dimensionamiento</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Activo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Inactivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

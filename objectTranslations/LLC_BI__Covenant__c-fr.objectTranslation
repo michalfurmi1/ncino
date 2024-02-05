@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Compte que le Pacte applique.</help>
+        <label>Relation</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Covenants</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le Pacte actif?</help>
+        <label>Actif</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help>Contact auquel ce Pacte est applicable.</help>
+        <label></label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>Pactes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nom du Pacte</label>
+        <name>LLC_BI__Covenant_Name__c</name>
+    </fields>
+    <fields>
+        <label>Pacte Sous-type</label>
+        <name>LLC_BI__Covenant_Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Accounts Payable</masterLabel>
+            <translation>Comptes à payer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Financial Statement</masterLabel>
+            <translation>États financiers d&apos;entreprise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Tax Return</masterLabel>
+            <translation>Retour taxe professionnelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Insurance</masterLabel>
+            <translation>assurance garantie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debt Service Coverage of Borrower</masterLabel>
+            <translation>Service de la dette de l&apos;emprunteur Couverture</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debt Service Coverage with and without Distributions</masterLabel>
+            <translation>Couverture service de la dette avec et sans distributions</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Asset Purchases</masterLabel>
+            <translation>Acquisitions d&apos;immobilisations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood Insurance</masterLabel>
+            <translation>assurance contre les inondations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Debt Service Coverage</masterLabel>
+            <translation>Couverture mondiale service de la dette</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Man Life Insurance</masterLabel>
+            <translation>Assurance clé Man vie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Information</masterLabel>
+            <translation>location information</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limiting Compensation</masterLabel>
+            <translation>Compensation La limitation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintain Accounts</masterLabel>
+            <translation>maintenir des comptes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maximum Debt to Worth</masterLabel>
+            <translation>Dette maximale de Worth</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimum Current Ratio</masterLabel>
+            <translation>Ratio du minimum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimum Liquidity</masterLabel>
+            <translation>La liquidité minimum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimum Times Interest Earned</masterLabel>
+            <translation>Intérêt minimum temps Earned</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimum Working Capital</masterLabel>
+            <translation>Roulement minimum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minimum Working Capital Ratio</masterLabel>
+            <translation>Ratio du capital minimal de travail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Financial Statement</masterLabel>
+            <translation>États financiers personnels</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Tax Return</masterLabel>
+            <translation>Déclaration de revenus</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de Pacte</label>
+        <name>LLC_BI__Covenant_Type_Reference__c</name>
+        <relationshipLabel>Pactes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Type de Pacte</label>
+        <name>LLC_BI__Covenant_Type__c</name>
+        <picklistValues>
+            <masterLabel>Default Covenants</masterLabel>
+            <translation>Covenants par défaut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Indicators</masterLabel>
+            <translation>Indicateurs financiers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Statement Requirements</masterLabel>
+            <translation>Exigences pour les états financiers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Covenants</masterLabel>
+            <translation>Covenants de durée</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Nombre de jours passés la prochaine évaluation date</help>
+        <label>Jours passés prochaine évaluation</label>
+        <name>LLC_BI__Days_Past_Next_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de jours jusqu&apos;à la prochaine évaluation date</help>
+        <label>Jours avant la prochaine évaluation</label>
+        <name>LLC_BI__Days_Until_Next_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help>La valeur qui est en cours confirmée par l&apos;alliance des indicateurs financiers. IE: DSC d&apos;au moins 1,25</help>
+        <label>Indicateur financier Valeur</label>
+        <name>LLC_BI__Financial_Indicator_Value__c</name>
+    </fields>
+    <fields>
+        <label>Mois de fréquence</label>
+        <name>LLC_BI__Frequency_Months__c</name>
+    </fields>
+    <fields>
+        <help>La fréquence</help>
+        <label>Fréquence</label>
+        <name>LLC_BI__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Tous les ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Months</masterLabel>
+            <translation>Tous les deux mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Years</masterLabel>
+            <translation>Tous les 2 ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Tous les mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Tous les trimestres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Tous les semestres</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Date de la dernière évaluation</label>
+        <name>LLC_BI__Last_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Dernière Statut d&apos;évaluation</label>
+        <name>LLC_BI__Last_Evaluation_Status__c</name>
+    </fields>
+    <fields>
+        <help>Prêt que le Pacte est lié à.</help>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Pactes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date de la prochaine évaluation</label>
+        <name>LLC_BI__Next_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Remarques</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label>relation associée</label>
+        <name>Relationship_text2__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Si le type d&apos;alliance est un indicateur financier, vous devez spécifier la valeur des indicateurs financiers.</errorMessage>
+        <name>Financial_Indicator_Enforcement</name>
+    </validationRules>
+    <webLinks>
+        <label>Engagements multiples</label>
+        <name>Multiple_Covenants</name>
+    </webLinks>
+</CustomObjectTranslation>

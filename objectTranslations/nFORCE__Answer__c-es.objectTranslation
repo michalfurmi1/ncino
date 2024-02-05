@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>decimal 6</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>respuestas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contacto</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>respuestas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha final</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>respuestas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Grupo 1</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>respuestas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Min es el valor más pequeño. Utilice est</label>
+        <name>Option_Label__c</name>
+    </fields>
+    <fields>
+        <label>Numero 1</label>
+        <name>Question_Label__c</name>
+    </fields>
+    <fields>
+        <label>Un campo de número utilizado para la agr</label>
+        <name>Questionnaire_Group__c</name>
+    </fields>
+    <fields>
+        <label>La agrupación 2</label>
+        <name>nFORCE__Answer__c</name>
+    </fields>
+    <fields>
+        <label>Los campos que se pueden agrupar en las</label>
+        <name>nFORCE__Archived_Date__c</name>
+    </fields>
+    <fields>
+        <label>La agrupación de 3</label>
+        <name>nFORCE__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>Los campos que se pueden agrupar en las</label>
+        <name>nFORCE__Context_Owner_Id__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el valor de la moneda de este campo cuestionario configurable.</help>
+        <label>La agrupación de 4</label>
+        <name>nFORCE__Currency_Answer__c</name>
+    </fields>
+    <fields>
+        <label>La agrupación de 5</label>
+        <name>nFORCE__Group__c</name>
+        <relationshipLabel>respuestas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Es sucio</label>
+        <name>nFORCE__Is_Archived__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Label__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el valor numérico de este campo cuestionario configurable.</help>
+        <label>Fórmula para determinar si está sucio</label>
+        <name>nFORCE__Number_Answer__c</name>
+    </fields>
+    <fields>
+        <label>Clave para la consulta de unirse a la ta</label>
+        <name>nFORCE__Option__c</name>
+        <relationshipLabel>respuestas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Max es el mayor valor. Utilice este camp</label>
+        <name>nFORCE__Question__c</name>
+        <relationshipLabel>respuestas</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Este campo obligatorio contiene el nombre completo del tipo sObject a la que pertenece esta plantilla Lista de verificación. Se debe copiarse en el campo Tipo de Contexto en los registros de lista de control creados a partir de esta plantilla.</help>
+        <label>opciones</label>
+        <name>LLC_BI__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene la relación de contexto.</help>
+        <label>Ocupado por el propietario</label>
+        <name>LLC_BI__Context__c</name>
+        <relationshipLabel>plantillas de la lista de verificación</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el número de días que se espera completar listas de control basado en este modelo. Cabe copia en el campo duraciones Días esperado de los registros de lista de control creados a partir de esta plantilla.</help>
+        <label>Colateral padres</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene el nombre de cara al usuario de listas de control basado en este modelo. Se debe copiarse en el campo Nombre de registros Lista de control creados a partir de esta plantilla.</help>
+        <label>Número de cuenta de posesión</label>
+        <name>LLC_BI__Title__c</name>
+    </fields>
+</CustomObjectTranslation>

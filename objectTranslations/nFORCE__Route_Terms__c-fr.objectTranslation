@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>texte de l&apos;accord</label>
+        <name>nFORCE__Agreement_Text__c</name>
+    </fields>
+    <fields>
+        <label>Critères d&apos;affichage conditionnel</label>
+        <name>nFORCE__Conditional_Display_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Entrez l&apos;ID Salesforce du document que vous souhaitez afficher un accord sur une route dans le flux de travail de prêt au détail.</help>
+        <label></label>
+        <name>nFORCE__Document__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour forcer l&apos;utilisateur à examiner et accepter le document dans le délai de route avant d&apos;être autorisés à continuer.</help>
+        <label>Lisez et acceptez le document</label>
+        <name>nFORCE__Review_And_Accept_Document__c</name>
+    </fields>
+    <fields>
+        <help>Ceci est la route de l&apos;interface utilisateur qui affiche le document d&apos;information Salesforce.</help>
+        <label></label>
+        <name>nFORCE__Route__c</name>
+        <relationshipLabel>Conditions d&apos;itinéraire</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

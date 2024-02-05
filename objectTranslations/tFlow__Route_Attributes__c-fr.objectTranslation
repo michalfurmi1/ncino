@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Clé</label>
+        <name>tFlow__Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>tFlow__Route__c</name>
+        <relationshipLabel>Route Attributs</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valeur</label>
+        <name>tFlow__Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

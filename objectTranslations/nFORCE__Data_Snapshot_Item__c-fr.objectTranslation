@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>contexte Id</label>
+        <name>nFORCE__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>Instantané</label>
+        <name>nFORCE__Data_Snapshot__c</name>
+        <relationshipLabel>Articles de données Snapshot</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Id emploi</label>
+        <name>nFORCE__Job_Id__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

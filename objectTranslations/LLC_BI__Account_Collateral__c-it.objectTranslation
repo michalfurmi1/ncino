@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Indirizzo</label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label>Tipologia collaterale</label>
+        <name>Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <label>Relazione</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Collaterale posseduto</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La modalità con cui l’entità è associata al collaterale</help>
+        <label>Associazione collaterale</label>
+        <name>LLC_BI__Collateral_Association__c</name>
+        <picklistValues>
+            <masterLabel>Assignee</masterLabel>
+            <translation>Assegnatario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation>Acquirente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Costruzione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landlord</masterLabel>
+            <translation>Proprietario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee</masterLabel>
+            <translation>Locatario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lienholder</masterLabel>
+            <translation>Detentore del pegno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation>Proprietario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation>Venditore</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tenant</masterLabel>
+            <translation>Affittuario</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Collaterale</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Relazioni</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La data finale della proprietà del collaterale</help>
+        <label>Data finale</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>La percentuale del collaterale posseduta dal conto</help>
+        <label>Percentuale proprietà</label>
+        <name>LLC_BI__Ownership_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Il conto ha l’autorità per impegnare questo collaterale?</help>
+        <label>Autorità per impegnare</label>
+        <name>LLC_BI__Pledging_Authority__c</name>
+    </fields>
+    <fields>
+        <help>Questo campo indica se questo è il proprietario primario di un collaterale.</help>
+        <label>Proprietario primario</label>
+        <name>LLC_BI__Primary_Owner__c</name>
+    </fields>
+    <fields>
+        <label>Tipologia relazione</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <help>La data di inizio della proprietà del collaterale</help>
+        <label>Data di inizio</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Loan_Collateral__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

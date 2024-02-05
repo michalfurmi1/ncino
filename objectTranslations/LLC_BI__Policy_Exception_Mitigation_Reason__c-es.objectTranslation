@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Comentario necesario</label>
+        <name>LLC_BI__Comment_Required__c</name>
+    </fields>
+    <fields>
+        <label>Plantilla de excepciones de la política</label>
+        <name>LLC_BI__Policy_Exception_Template__c</name>
+        <relationshipLabel>Razones para la atenuación de excepciones a la política</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Razón</label>
+        <name>LLC_BI__Reason__c</name>
+    </fields>
+    <fields>
+        <label>T / F</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

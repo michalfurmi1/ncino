@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Indica que este índice está en uso.</help>
+        <label>WO excepción a las tasas de la encuesta</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help>Categoría</help>
+        <label>Renuncia por escrito de Homestead Obliga</label>
+        <name>LLC_BI__Category__c</name>
+    </fields>
+    <fields>
+        <help>Descripción</help>
+        <label>nodo de contexto</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>Fuente URL por defecto</help>
+        <label>Contextos Vinculados (nodo de contexto)</label>
+        <name>LLC_BI__External_Source__c</name>
+    </fields>
+    <fields>
+        <help>Frecuencia de actualización</help>
+        <label>campo de relación de unirse a objeto de</label>
+        <name>LLC_BI__Modification_Schedule__c</name>
+    </fields>
+    <fields>
+        <help>El nombre de índice</help>
+        <label>Este campo contiene un objeto de context</label>
+        <name>LLC_BI__Name__c</name>
+    </fields>
+</CustomObjectTranslation>

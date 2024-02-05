@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>est-modèle</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Revue de notation des risques</label>
+        <name>LLC_BI__Risk_Rating_Review__c</name>
+        <relationshipLabel>Risque année modèle</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Si elle est cochée, alors la note finale du risque sera un nombre rond. Si décoché alors le grade de risque final sera un nombre décimal.</help>
+        <label>Round Grade risque final</label>
+        <name>LLC_BI__Round_Final_Risk_Grade__c</name>
+    </fields>
+    <fields>
+        <label>Modèle objet Nom du champ</label>
+        <name>LLC_BI__Template_Object_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>Modèle objet Champ Valeur</label>
+        <name>LLC_BI__Template_Object_Field_Value__c</name>
+    </fields>
+    <fields>
+        <label>Modèle Type d&apos;objet</label>
+        <name>LLC_BI__Template_Object_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>Compte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

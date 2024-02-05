@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Términos Duración</label>
+        <name>nFORCE__Body__c</name>
+    </fields>
+    <fields>
+        <label>El sistema rellena este campo de texto o</label>
+        <name>nFORCE__Header__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca la ruta a un icono SLDS (a medida, estándar, o Utilidad) de partida después de &apos;... iconos /&apos;. Por ejemplo, la ruta de icono de la cuenta estándar sería &apos;estándar-sprites / SVG / symbols.svg # cuenta&apos;.</help>
+        <label>Agregar fecha a marcador de posición</label>
+        <name>nFORCE__Icon_Path__c</name>
+    </fields>
+    <fields>
+        <label>Nombre marcador de posición</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

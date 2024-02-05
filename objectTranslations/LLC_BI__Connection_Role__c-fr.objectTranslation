@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Contacts et dépôts pour les relations que les utilisateurs connectés affichent et les comptes analysés autorisés.</help>
+        <label>Activer affichage Maintenance du Trésor</label>
+        <name>LLC_BI__Enable_Treasury_Maintenance_Display__c</name>
+    </fields>
+    <fields>
+        <label>Est membre du ménage</label>
+        <name>LLC_BI__Is_Household_Member__c</name>
+    </fields>
+    <fields>
+        <label>Rôle réciproque</label>
+        <name>LLC_BI__Reciprocal_Role__c</name>
+        <relationshipLabel>Rôles réciproque</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Type de rôle</label>
+        <name>LLC_BI__Role_Type__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Personne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Individual</masterLabel>
+            <translation>Non individuelle</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Les administrateurs sont contenus dans ce champ facultatif pour relier des ensembles de terrain à des rôles de connexion, le contrôle des champs affichés dans l&apos;interface utilisateur.</help>
+        <label>Section de l&apos;écran</label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel>Sections d&apos;écran</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Vérifiez si le rôle réciproque est le même que le rôle lui-même.</help>
+        <label>auto Reciprocating</label>
+        <name>LLC_BI__Self_Reciprocating__c</name>
+    </fields>
+    <fields>
+        <label>Ordre de tri</label>
+        <name>LLC_BI__Sort_Order__c</name>
+    </fields>
+    <fields>
+        <help>Laisser le rôle de connexion à sélectionner dans la CCN.</help>
+        <label>Utilisation dans la CCN</label>
+        <name>LLC_BI__Use_in_NCC__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Lorsqu&apos;elle est cochée, l&apos;entité sera engagements automatiquement créés et gérés pour les relations dans le rôle réciproque.</help>
+        <label>Gérer réciproques Implications</label>
+        <name>LLC_HI__Manage_Reciprocal_Involvements__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si ce rôle de connexion est valide pour donner un accès utilisateur Portal à un compte d&apos;affaires.</help>
+        <label>Permet l&apos;accès Portail</label>
+        <name>nPortal__Allows_Portal_Access__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Un rôle ne peut pas avoir un rôle réciproque si elle est spécifiée auto alternatif.</errorMessage>
+        <name>LLC_BI__Reciprocal_Role</name>
+    </validationRules>
+</CustomObjectTranslation>

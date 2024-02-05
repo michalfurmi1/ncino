@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Parámetros</label>
+        <name>nCBC__Area__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Close_Date__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Department__c</name>
+        <picklistValues>
+            <masterLabel>BAG</masterLabel>
+            <translation>BOLSO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>Financiar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>ESO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation>administración</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation>operaciones</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Description__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Cerrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Abierto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Finding_Date__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Finding_Number__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__LobLegacyKey__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Management_s_Response__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Alto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Bajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Medio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation</masterLabel>
+            <translation>Recomendación</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Source__c</name>
+        <picklistValues>
+            <masterLabel>ATTUS</masterLabel>
+            <translation>Rattus</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elliott Davis</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experis Finance</masterLabel>
+            <translation>Experis Finanzas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDIC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FED</masterLabel>
+            <translation>ALIMENTADOS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live Oak</masterLabel>
+            <translation>live Oak</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State</masterLabel>
+            <translation>Estado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Status__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

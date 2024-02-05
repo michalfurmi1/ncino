@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Diez de estilos de Recursos</label>
+        <name>nFORCE__Active__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label>Tres de estilos de Recursos</label>
+        <name>nFORCE__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Dos de estilos de Recursos</label>
+        <name>nFORCE__Rule_Engine_Context_Rule__c</name>
+        <relationshipLabel>Reglas motor de reglas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>nFORCE__Rule_Engine_Rule_Name__c</name>
+    </fields>
+    <fields>
+        <label>Ver</label>
+        <name>nFORCE__Rule_Engine_Rule_Reference__c</name>
+    </fields>
+    <fields>
+        <label>contexto Id</label>
+        <name>nFORCE__Rule_Engine__c</name>
+    </fields>
+    <fields>
+        <label>Este campo indica el registro se hace re</label>
+        <name>nFORCE__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

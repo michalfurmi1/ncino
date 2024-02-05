@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>User__c</name>
+        <relationshipLabel>Configuraciones de campo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Alternate_Label__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional y debe rellenarse manualmente. Almacena la sintaxis de las formas que se utiliza para dictar si un conjunto campo condicional se debe mostrar.</help>
+        <label></label>
+        <name>nFORCE__Conditional_Display_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Permite la configuración de un valor predeterminado que un campo se rellena con el de carga inicial de una forma.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Default_Value__c</name>
+    </fields>
+    <fields>
+        <help>El texto que se mostrará como un marcador de posición en el área de entrada, guiando al usuario en el formato y la validación.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Field_Hint__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Field_Name__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo para definir los criterios de filtro de búsqueda que utiliza el sistema para generar resultados de búsqueda.</help>
+        <label>Parámetros</label>
+        <name>nFORCE__Filter_Criteria__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Filter_Display_Name__c</name>
+    </fields>
+    <fields>
+        <help>Describir la expresión de formato utilizado para indicar qué tipos de entradas son aceptables.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Format_Description__c</name>
+    </fields>
+    <fields>
+        <help>Si no se controla, no se aplicará la regla definida para la expresión de formato.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Format_Enabled__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca una expresión regular opcional para la aplicación de un determinado formato para el contenido del campo.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Format_Expression__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca un mensaje que se mostrará al usuario cuando su entrada no coincide con el formato especificado en la expresión de formato.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Format_Message__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Is_Conditional_Lookup__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Is_Editable__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla para hacer que este campo de configuración disponibles para su uso con condicionales búsquedas.</help>
+        <label>Parámetros</label>
+        <name>nFORCE__Is_Filter_Active__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Is_Header__c</name>
+    </fields>
+    <fields>
+        <help>Comprobar esta configuración para ocultar este campo en formas compatibles.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Is_Hidden__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Is_Important__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Is_Read_Only__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Is_Required__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca una expresión de formato para mostrar el valor de este campo como texto.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Output_Expression__c</name>
+    </fields>
+    <fields>
+        <help>Especificar la ruta que esta configuración se aplicará a campo, de lo contrario se aplicará en todas partes.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Route__c</name>
+        <relationshipLabel>Ruta configuración del campo</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especificar el tamaño de la columna de la cuadrícula SLDS este campo debe abarcar. Este número se divide en 1 para dar el porcentaje de la fila del campo tendrá una duración. Por ejemplo, un valor de 3 será igual a 33.333% de la fila.</help>
+        <label>Parámetros</label>
+        <name>nFORCE__SLDS_Column_Size__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>Configuraciones de campo</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Tooltip_Contents__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione este campo para permitir una descripción de este campo.</help>
+        <label>Parámetros</label>
+        <name>nFORCE__Tooltip_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Tooltip_Text__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__sObject_Name__c</name>
+    </fields>
+    <fields>
+        <help>Si este campo se está configurando es una lista de selección, seleccione esta opción para hacer que la lista de selección como un conjunto de botones seleccionables.</help>
+        <label>Una representación serializada JSON de p</label>
+        <name>nPortal__Picklist_Buttons_Enabled__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Un campo no puede ser a la vez editables y de sólo lectura.</errorMessage>
+        <name>nFORCE__Editable_or_Read_Only</name>
+    </validationRules>
+</CustomObjectTranslation>

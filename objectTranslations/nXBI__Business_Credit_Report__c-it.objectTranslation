@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nXBI__Account__c</name>
+        <relationshipLabel>Report crediti aziendali</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nXBI__Credit_Bureau_ID__c</name>
+    </fields>
+    <fields>
+        <label>Nome ufficio di credito</label>
+        <name>nXBI__Credit_Bureau_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nXBI__Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nXBI__File_Creation_Date__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

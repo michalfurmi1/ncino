@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Contactos y depósitos para las relaciones conectados aparecen como usuarios autorizados y cuentas analizadas.</help>
+        <label>La equidad de inyección Cambio</label>
+        <name>LLC_BI__Enable_Treasury_Maintenance_Display__c</name>
+    </fields>
+    <fields>
+        <label>Fuera garante</label>
+        <name>LLC_BI__Is_Household_Member__c</name>
+    </fields>
+    <fields>
+        <label>Cambiar plazo del préstamo</label>
+        <name>LLC_BI__Reciprocal_Role__c</name>
+        <relationshipLabel>Roles correspondidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Préstamo</label>
+        <name>LLC_BI__Role_Type__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Individuo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Individual</masterLabel>
+            <translation>No individual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Los administradores pueblan este campo opcional para conectar conjuntos de campos a los roles de conexión, el control de los campos que se muestran en la interfaz de usuario.</help>
+        <label>memos</label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel>Secciones de pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Compruebe si el papel recíproco es el mismo que el papel en sí.</help>
+        <label>notificar Fiscal</label>
+        <name>LLC_BI__Self_Reciprocating__c</name>
+    </fields>
+    <fields>
+        <label>Cerrar publicar artículos</label>
+        <name>LLC_BI__Sort_Order__c</name>
+    </fields>
+    <fields>
+        <help>Deje que la función de conexión que deben seleccionarse en NCC.</help>
+        <label>Re-Aprobación Después de caducidad</label>
+        <name>LLC_BI__Use_in_NCC__c</name>
+    </fields>
+    <fields>
+        <label>Cambiar la vida de Seguros</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Cuando se activa, implicaciones entidad serán creados y gestionados por las relaciones en el papel recíproco automáticamente.</help>
+        <label>Comprobar esto cuando la modificación de</label>
+        <name>LLC_HI__Manage_Reciprocal_Involvements__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si este rol de conexión es válida para dar un portal de acceso del usuario a una cuenta de negocios.</help>
+        <label>El uso de Cambio Las ganancias</label>
+        <name>nPortal__Allows_Portal_Access__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Un papel no puede tener un papel recíproco se especifica si se trata de auto alternativo.</errorMessage>
+        <name>LLC_BI__Reciprocal_Role</name>
+    </validationRules>
+</CustomObjectTranslation>

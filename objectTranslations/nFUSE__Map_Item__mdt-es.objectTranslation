@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Deuda a ingreso</label>
+        <name>nFUSE__App_Plugin_Type__c</name>
+    </fields>
+    <fields>
+        <label>Matrícula</label>
+        <name>nFUSE__Data_Type__c</name>
+    </fields>
+    <fields>
+        <label>Préstamo</label>
+        <name>nFUSE__From_Field__c</name>
+    </fields>
+    <fields>
+        <label>Mensualidad</label>
+        <name>nFUSE__Is_Required__c</name>
+    </fields>
+    <fields>
+        <label>Tarifa</label>
+        <name>nFUSE__Plugin_Name__c</name>
+    </fields>
+    <fields>
+        <label>Término</label>
+        <name>nFUSE__Process_Context__c</name>
+    </fields>
+    <fields>
+        <label>Coste total</label>
+        <name>nFUSE__To_Field__c</name>
+    </fields>
+    <fields>
+        <label>Opciones de Precios</label>
+        <name>nFUSE__is_Active__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Ce champ contient une référence à un objet de contexte.</help>
+        <label>contexte Noeud</label>
+        <name>LLC_BI__Context_Node__c</name>
+        <relationshipLabel>Contextes liés (Contexte Node)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>champ Relation sur l&apos;adhésion objet de contexte qui fait référence suivant le contexte</help>
+        <label>Relation Contexte</label>
+        <name>LLC_BI__Context_Relationship__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ contient un objet de contexte à joindre à l&apos;objet Context_Node</help>
+        <label>rejoindre Contexte</label>
+        <name>LLC_BI__Joining_Context__c</name>
+        <relationshipLabel>Contextes liés (assemblage Contexte)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>champ Relation sur l&apos;objet contextuel qui fait référence à contexte adhésion</help>
+        <label>relation rejoindre</label>
+        <name>LLC_BI__Joining_Relationship__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ contient un objet Context__mdt qui viendra ensuite après la Context_Node actuelle est traitée.</help>
+        <label>Contexte suivant</label>
+        <name>LLC_BI__Next_Context__c</name>
+        <relationshipLabel>Contextes liés (contexte suivant)</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

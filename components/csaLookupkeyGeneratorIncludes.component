@@ -1,0 +1,36 @@
+<apex:component layout="none" controller="csaLookupkeyGeneratorRemote" extensions="nFORCE.RemoteActionController">
+    <nFORCE:ncDataProvidersIncludes />
+    <nFORCE:ncUIIncludes />
+    <nFORCE:Include_Chosen />
+
+    <apex:includeScript value="{!URLFOR($Resource.csaLookupkeyGenerator, 'application/App.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.csaLookupkeyGenerator, 'application/Bootstrap.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.csaLookupkeyGenerator, 'controllers/LookupkeyGeneratorController.controller.js')}"/>
+
+    <script type="text/javascript">
+        (function () {
+            'use strict';
+            angular.module('csaLookupkeyGenerator').config(function (configProvider, labelProvider) {
+                configProvider.set({
+                    actions: {
+                        invoke: '{!$RemoteAction.RemoteActionController.invoke}',
+                        getRecords: 'csaLookupkeyGeneratorRemote.GetRecords',
+                        buildKeys: 'csaLookupkeyGeneratorRemote.BuildKeys',
+                        checkForDuplicates: 'csaLookupkeyGeneratorRemote.CheckForDuplicates',
+                        getObjectList: 'csaLookupkeyGeneratorRemote.GetObjectList'
+                    }
+                });
+                labelProvider.setLabels({
+                    success: {
+                        update: '{!$Label.LG_Update_Success}',
+                        noDupes: '{!$Label.LG_No_Dupes}',
+                        noRecords: '{!$Label.LG_No_Records_Found}'
+                    },
+                    warnings: {
+                        dupesFound: '{!$Label.LG_Dupes_Found}'
+                    }
+                });
+            });
+        })();
+    </script>
+</apex:component>

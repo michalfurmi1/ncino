@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Collateral_Recovery_Value_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Collateral_Value_Umbrella__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de dossiers de garanties mises en gage</help>
+        <label>Nombre de garanties mises en gage</label>
+        <name>LLC_BI__Collateral_Pledged_Count__c</name>
+    </fields>
+    <fields>
+        <help>Somme de toutes les valeurs prêtables de garantie</help>
+        <label>Valeur prêtable totale actuelle</label>
+        <name>LLC_BI__Current_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help>Le montant total de la garantie mise en gage sur le prêt.</help>
+        <label>Garantie totale mise en gage</label>
+        <name>LLC_BI__Total_Collateral_Pledged__c</name>
+    </fields>
+    <fields>
+        <help>La valeur totale de toutes les garanties en vigueur pour le prêt.</help>
+        <label>Valeur totale de la garantie</label>
+        <name>LLC_BI__Total_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <help>La somme de toutes les sûretés réelles légales associées au prêt.</help>
+        <label>Montant total des sûretés réelles légale</label>
+        <name>LLC_BI__Total_Current_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Montant total de la sûreté réelle légale</label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Collateral_Recovery_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Subscription_Amount_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Subscription_Amount__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

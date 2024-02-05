@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Classification de l&apos;état de propagation du Groupe Total.</help>
+        <label></label>
+        <name>LLC_BI__Classification__c</name>
+        <relationshipLabel>Étaler Record Classifications</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La déclaration de propagation groupe Total qui est classé.</help>
+        <label>Étaler Déclaration du Groupe Total</label>
+        <name>LLC_BI__Spread_Statement_Total_Group__c</name>
+        <relationshipLabel>Étaler Record Classifications</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

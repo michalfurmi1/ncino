@@ -1,0 +1,4320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AIP_Maximum_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Je peux contrôler la longueur de ce champ afin d&apos;assurer l&apos;intégrité des données si je choisis.</help>
+        <label>Numéro de compte de l&apos;ACCT Réception ODP</label>
+        <name>Account_Number_of_Acct_Receiving_ODP__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Action_for_loan__c</name>
+        <picklistValues>
+            <masterLabel>No Action</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Place on Early Warning List</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send to Recoveries</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Actions_Under_Consideration_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Montant recouvré</label>
+        <name>Amount_Collected__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Annual_Interest__c</name>
+    </fields>
+    <fields>
+        <help>Indique lorsque l&apos;application est terminée.</help>
+        <label>demande complète</label>
+        <name>Application_Complete__c</name>
+    </fields>
+    <fields>
+        <label>Date de la demande</label>
+        <name>Application_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Approval_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Autorisation à contrôler un crédit</label>
+        <name>Authorization_to_pull_credit__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Disponible pour la participation</label>
+        <name>Available_for_Participation__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Broker__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Si différent du nom légal, ce qui est le nom d&apos;entreprise pour apparaître sur la carte? Max de 21 caractères</help>
+        <label>Nom de l&apos;entreprise pour que sur la cart</label>
+        <name>Business_Name_to_Appear_on_Card__c</name>
+    </fields>
+    <fields>
+        <label>File d’attente</label>
+        <name>CSA_Queue__c</name>
+        <picklistValues>
+            <masterLabel>Default Queue</masterLabel>
+            <translation>File d&apos;attente par défaut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>prise ferme</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Peupler ce champ pour saisir des dispositions supplémentaires sur le CSi Variation accord Conditions.</help>
+        <label>dispositions supplémentaires</label>
+        <name>CSiDP__Additional_Provisions__c</name>
+    </fields>
+    <fields>
+        <help>Peupler ce champ pour indiquer si cela est un prêt SBA.</help>
+        <label></label>
+        <name>CSiDP__Is_SBA__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Calculate_Monthly_Payment__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Collateral_Analysis_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Combined_Collateral_Recovery_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Combined_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Comments_on_business_recent_performance__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Conveyancer_Address__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Conveyancer__c</name>
+    </fields>
+    <fields>
+        <label>Notes d&apos;action de crédit</label>
+        <name>Credit_Action_Notes__c</name>
+    </fields>
+    <fields>
+        <label>Action de crédit</label>
+        <name>Credit_Action__c</name>
+        <picklistValues>
+            <masterLabel>Modification</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Action</masterLabel>
+            <translation>Pas d&apos;action</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renouvellement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review</masterLabel>
+            <translation>La revue</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Credit_Check_Completed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Date_moved_into_address__c</name>
+    </fields>
+    <fields>
+        <label>Jours avant la clôture prévue</label>
+        <name>Days_Until_Anticipated_Closing__c</name>
+    </fields>
+    <fields>
+        <label>Dépôt</label>
+        <name>Deposit__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Do_you_have_Credit_Cards__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Do_you_pay_off_the_balance_every_month__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Do_you_regularly_receive_commission__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>documents en suspens</label>
+        <name>Document_Flag__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Estimated_Monthly_Expenses__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Estimated_Property_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Executive_Summary_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Exit_Management__c</name>
+        <picklistValues>
+            <masterLabel>Client in Administration</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exposure</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Risk</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to agree Forbearance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Exposure_Cap__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Financial_Analysis__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Forbearance_Agreed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Forbearance__c</name>
+    </fields>
+    <fields>
+        <label>Nom complet du produit</label>
+        <name>Full_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label>Valeur brute de la garantie</label>
+        <name>Gross_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Guarantor_Analysis_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>ICFV rapportable</label>
+        <name>HVCRE_Reportable__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>How_many_borrowers__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3+</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ignorer les documents en suspens</label>
+        <name>Ignore_Documents_Outstanding__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case si le prêt est approuvé sur la base de l&apos;autorité prêts individuels</help>
+        <label>Autorité des prêts individuels</label>
+        <name>Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <help>Indique que cela est un prêt généralement demo&apos;d qui doit être mis à jour dans les charges de données.</help>
+        <label>Demo est prêt</label>
+        <name>Is_Demo_Loan__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Is_the_property_a_flat_or_leasehold_home__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Key_Risks_Mitigants__c</name>
+    </fields>
+    <fields>
+        <label>LP définie par l&apos;utilisateur 1</label>
+        <name>LLCLP__LP_User_Defined_1__c</name>
+    </fields>
+    <fields>
+        <label>LP défini par l&apos;utilisateur 2</label>
+        <name>LLCLP__LP_User_Defined_2__c</name>
+    </fields>
+    <fields>
+        <label>LP défini par l&apos;utilisateur 3</label>
+        <name>LLCLP__LP_User_Defined_3__c</name>
+    </fields>
+    <fields>
+        <label>LP défini par l&apos;utilisateur 4</label>
+        <name>LLCLP__LP_User_Defined_4__c</name>
+    </fields>
+    <fields>
+        <label>LP défini par l&apos;utilisateur 5</label>
+        <name>LLCLP__LP_User_Defined_5__c</name>
+    </fields>
+    <fields>
+        <label>LP défini par l&apos;utilisateur 6</label>
+        <name>LLCLP__LP_User_Defined_6__c</name>
+    </fields>
+    <fields>
+        <label>LP défini par l&apos;utilisateur 7</label>
+        <name>LLCLP__LP_User_Defined_7__c</name>
+    </fields>
+    <fields>
+        <label>LP défini par l&apos;utilisateur 8</label>
+        <name>LLCLP__LP_User_Defined_8__c</name>
+    </fields>
+    <fields>
+        <label>Évaluateur</label>
+        <name>LLC_BI_Appraiser__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI_Loan_c_Todays_Date_c__c</name>
+    </fields>
+    <fields>
+        <label>TAEG</label>
+        <name>LLC_BI__APR__c</name>
+    </fields>
+    <fields>
+        <label>Responsable du compte</label>
+        <name>LLC_BI__Account_Officer__c</name>
+    </fields>
+    <fields>
+        <label>Relation</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Intérêts courus</label>
+        <name>LLC_BI__Accrued_Interest__c</name>
+    </fields>
+    <fields>
+        <help>Si AAF = 1, l&apos;étape a été modifiée diminuer de crédit. Si AAF = 0, il a été modifié par la non-crédit et l&apos;approbation requise.</help>
+        <label>Drapeau d&apos;action défavorable</label>
+        <name>LLC_BI__Adverse_Action_Flag__c</name>
+    </fields>
+    <fields>
+        <label>Montant des facilités allouées</label>
+        <name>LLC_BI__Allocated_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Durée amortie (mois)</label>
+        <name>LLC_BI__Amortized_Term_Months__c</name>
+    </fields>
+    <fields>
+        <label>Term amorti (mois) - D</label>
+        <name>LLC_BI__Amortized_Term__c</name>
+    </fields>
+    <fields>
+        <help>Le montant manquant pour une ligne d’engagement.</help>
+        <label>Montant manquant</label>
+        <name>LLC_BI__AmountOutstanding__c</name>
+    </fields>
+    <fields>
+        <label>Montant disponible</label>
+        <name>LLC_BI__Amount_Available__c</name>
+    </fields>
+    <fields>
+        <label>Argent frais</label>
+        <name>LLC_BI__Amount_New_Money__c</name>
+    </fields>
+    <fields>
+        <label>Montant inutilisé</label>
+        <name>LLC_BI__Amount_Unused__c</name>
+    </fields>
+    <fields>
+        <label>Montant demandé</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche l’augmentation annuelle du taux d’intérêt.</help>
+        <label>Augmentation annuelle du taux</label>
+        <name>LLC_BI__Annual_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label>Demande</label>
+        <name>LLC_BI__Application__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ affiche le montant maximal accordé pour un prêt.</help>
+        <label>Accordé pour le montant</label>
+        <name>LLC_BI__Approved_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Avocat</label>
+        <name>LLC_BI__Attorney__c</name>
+    </fields>
+    <fields>
+        <label>Date d’autorisation</label>
+        <name>LLC_BI__Authorization_Date__c</name>
+    </fields>
+    <fields>
+        <label>Statut de la décision automatisée</label>
+        <name>LLC_BI__Auto_Decision_Status__c</name>
+    </fields>
+    <fields>
+        <label>Compte de paiement automatisé</label>
+        <name>LLC_BI__Auto_Pay_Account__c</name>
+    </fields>
+    <fields>
+        <label>Paiement automatisé</label>
+        <name>LLC_BI__Auto_Pay__c</name>
+    </fields>
+    <fields>
+        <label>Montant résiduel de la facilité de base</label>
+        <name>LLC_BI__Availability_From_Core__c</name>
+    </fields>
+    <fields>
+        <help>Le montant total du versement final.</help>
+        <label>Versement final</label>
+        <name>LLC_BI__Balloon_Payment__c</name>
+    </fields>
+    <fields>
+        <label>Structure du produit ballon</label>
+        <name>LLC_BI__Balloon_Product_Structure__c</name>
+        <picklistValues>
+            <masterLabel>Balloon Amount</masterLabel>
+            <translation>Capital résiduel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balloon Term</masterLabel>
+            <translation>terme ballon</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indicateur de prêt ballon.</help>
+        <label>Crédit ballon</label>
+        <name>LLC_BI__Balloon__c</name>
+    </fields>
+    <fields>
+        <label>Ville de facturation</label>
+        <name>LLC_BI__Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label>État de facturation</label>
+        <name>LLC_BI__Billing_State__c</name>
+    </fields>
+    <fields>
+        <label>Rue de facturation</label>
+        <name>LLC_BI__Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label>Code postal de facturation</label>
+        <name>LLC_BI__Billing_Zipcode__c</name>
+    </fields>
+    <fields>
+        <help>La date de confirmation est la date calculée qui représente le moment auquel un prêt est considéré comme étant « confirmé », tel que défini dans la configuration de l’état du produit. Cette date ne doit pas être modifiée.</help>
+        <label>Heure et date de confirmation</label>
+        <name>LLC_BI__Booked_DateTime__c</name>
+    </fields>
+    <fields>
+        <help>La date de confirmation est la date calculée qui représente le moment auquel un prêt est considéré comme étant « confirmé », tel que défini dans la configuration de l’état du produit. Cette date ne doit pas être modifiée.</help>
+        <label>Date de confirmation</label>
+        <name>LLC_BI__Booked_Date__c</name>
+    </fields>
+    <fields>
+        <label>Ville de l’emprunteur</label>
+        <name>LLC_BI__Borrower_City__c</name>
+    </fields>
+    <fields>
+        <help>Solde du grand livre de l’emprunteur. Correspond généralement au solde en principal du prêt. Sont exclus les prêts à intérêts non comptabilisés et les montants passés par pertes et profits.</help>
+        <label>Solde grand livre emprunteur</label>
+        <name>LLC_BI__Borrower_GL_Balance__c</name>
+    </fields>
+    <fields>
+        <label>État de l’emprunteur</label>
+        <name>LLC_BI__Borrower_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation>Alabama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>AVEC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>SALUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>DANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>MARYLAND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>MOI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>MME</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>Dakota du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation>New Hampshire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>New Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>New York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>D&apos;accord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>OU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation>Wyoming</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Succursale</label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Commission de référence</label>
+        <name>LLC_BI__Broker_Fee__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Budget__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ARC action pris pour prêt</help>
+        <label>Action prise</label>
+        <name>LLC_BI__CRA_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>1 - Loan Originated</masterLabel>
+            <translation>1 - Prêt Provenu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Loan Purchased By Your Institution</masterLabel>
+            <translation>2 - Prêt achetés par votre institution</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>ARC affiliation</help>
+        <label>Code d&apos;affiliation</label>
+        <name>LLC_BI__CRA_Affiliate__c</name>
+        <picklistValues>
+            <masterLabel>1 - Action taken at this institution</masterLabel>
+            <translation>1 - Mesures prises à cette institution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Action taken at an affiliate</masterLabel>
+            <translation>2 - Mesures prises à une filiale</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Déclarez le montant en milliers, arrondi au millier le plus proche (500 $ devrait être arrondi au millier suivant).</help>
+        <label>Montant du prêt (montant en milliers)</label>
+        <name>LLC_BI__CRA_Amount__c</name>
+    </fields>
+    <fields>
+        <help>des secteurs de recensement</help>
+        <label>Des secteurs de recensement (####. ## fo</label>
+        <name>LLC_BI__CRA_Census_Tract_Text__c</name>
+    </fields>
+    <fields>
+        <help>ARC développement communautaire rapportable</help>
+        <label>Rapportable développement communautaire</label>
+        <name>LLC_BI__CRA_Community_Development_Reportable__c</name>
+    </fields>
+    <fields>
+        <help>ARC Consortium / tiers rapportable</help>
+        <label>Consortium / tiers rapportable</label>
+        <name>LLC_BI__CRA_Consortium_Third_Party_Reportable__c</name>
+    </fields>
+    <fields>
+        <help>Date de l&apos;ARC Mesures prises</help>
+        <label>Action Date de prise</label>
+        <name>LLC_BI__CRA_Date_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <help>Code FIPS County</help>
+        <label>Trois chiffres Code de comté</label>
+        <name>LLC_BI__CRA_FIPS_County_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help>Code FIPS County</help>
+        <label></label>
+        <name>LLC_BI__CRA_FIPS_County_Code__c</name>
+    </fields>
+    <fields>
+        <help>Code de l&apos;État FIPS</help>
+        <label>Deux chiffres Code de l&apos;État</label>
+        <name>LLC_BI__CRA_FIPS_State_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help>Code de l&apos;État FIPS</help>
+        <label></label>
+        <name>LLC_BI__CRA_FIPS_State_Code__c</name>
+    </fields>
+    <fields>
+        <help>ARC ID prêt</help>
+        <label>Numéro d&apos;identification du prêt</label>
+        <name>LLC_BI__CRA_Loan_ID__c</name>
+    </fields>
+    <fields>
+        <help>MSA / MD Numéro</help>
+        <label>Cinq chiffres MSA / MD Numéro</label>
+        <name>LLC_BI__CRA_MSA_MD_Number_Text__c</name>
+    </fields>
+    <fields>
+        <help>MSA / MD Numéro</help>
+        <label></label>
+        <name>LLC_BI__CRA_MSA_MD_Number__c</name>
+    </fields>
+    <fields>
+        <help>ARC rapportable</help>
+        <label>ARC rapportable</label>
+        <name>LLC_BI__CRA_Reportable__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Revenue code</label>
+        <name>LLC_BI__CRA_Revenue__c</name>
+        <picklistValues>
+            <masterLabel>1 - Less than or equal to $1 million</masterLabel>
+            <translation>1 - Moins ou égal à 1 million $</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Greater than $1 million</masterLabel>
+            <translation>2 - plus de 1 million $</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Not Known</masterLabel>
+            <translation>3 - Non connu</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de prêt</label>
+        <name>LLC_BI__CRA_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>Credit card</masterLabel>
+            <translation>Carte de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home equity</masterLabel>
+            <translation>L&apos;équité de la maison</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor vehicle</masterLabel>
+            <translation>Véhicule à moteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other loan data</masterLabel>
+            <translation>Autres données de prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other secured consumer loans</masterLabel>
+            <translation>Autres prêts à la consommation garantis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other secured lines of credit - small business</masterLabel>
+            <translation>D&apos;autres lignes de crédit garanties - petites entreprises</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other unsecured consumer loans</masterLabel>
+            <translation>Autres prêts à la consommation non garantis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small business</masterLabel>
+            <translation>Petite entreprise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small farm</masterLabel>
+            <translation>Petite ferme</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Montant forfaitaire calculé par le biais d’une structure de paiement.</help>
+        <label>Montant forfaitaire calculé</label>
+        <name>LLC_BI__Calculated_Balloon_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Code du rapport des activités</label>
+        <name>LLC_BI__Call_Report_Code__c</name>
+    </fields>
+    <fields>
+        <help>des secteurs de recensement</help>
+        <label></label>
+        <name>LLC_BI__Census_Tract__c</name>
+    </fields>
+    <fields>
+        <label>Code de classe</label>
+        <name>LLC_BI__Class_Code__c</name>
+    </fields>
+    <fields>
+        <label>Date de clôture prévue</label>
+        <name>LLC_BI__CloseDate__c</name>
+    </fields>
+    <fields>
+        <label>Date de clôture confirmée</label>
+        <name>LLC_BI__Close_Date_Hard__c</name>
+    </fields>
+    <fields>
+        <label>Mois de clôture</label>
+        <name>LLC_BI__Close_Month__c</name>
+    </fields>
+    <fields>
+        <help>La date de clôture est la date calculée qui représente le moment auquel un prêt est considéré comme étant « clôturé », tel que défini dans la configuration de l’état du produit. Cette date ne doit pas être modifiée.</help>
+        <label>Date de clôture</label>
+        <name>LLC_BI__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label>% complétés</label>
+        <name>LLC_BI__Complete__c</name>
+    </fields>
+    <fields>
+        <label>Responsable de la conformité</label>
+        <name>LLC_BI__Compliance_Officer__c</name>
+    </fields>
+    <fields>
+        <help>Consortium / tiers rapportable</help>
+        <label>Consortium / tiers rapportable</label>
+        <name>LLC_BI__Consortium_Third_Party_Reportable__c</name>
+    </fields>
+    <fields>
+        <label>Construction CO Date de</label>
+        <name>LLC_BI__Construction_CO_Date__c</name>
+    </fields>
+    <fields>
+        <label>Approbation de crédit Date</label>
+        <name>LLC_BI__Credit_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label>Note de crédit</label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valeur prêtable brute actuelle</label>
+        <name>LLC_BI__Current_Gross_Lendable_Value_Collateral1__c</name>
+    </fields>
+    <fields>
+        <label>Taux d’intérêt actuel</label>
+        <name>LLC_BI__Current_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>LTV Calcule. Taux d&apos;avance ne sont pas pris en compte dans ce calcul.</help>
+        <label>courant LTV</label>
+        <name>LLC_BI__Current_LTV_Collateral1__c</name>
+    </fields>
+    <fields>
+        <help>Solde en principal ou montant du prêt / (valeur de garantie de toutes les garanties - montant total des sûretés réelles légales précédentes de toutes les garanties)</help>
+        <label>Ratio prêt/valeur actuel</label>
+        <name>LLC_BI__Current_LTV__c</name>
+    </fields>
+    <fields>
+        <help>Somme de toutes les valeurs prêtables de garantie</help>
+        <label>Valeur prêtable brute actuelle</label>
+        <name>LLC_BI__Current_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help>Pour les transactions réservation: Combien de temps at-il fallu fermer ce prêt?</help>
+        <label>Jours jusqu’à la clôture</label>
+        <name>LLC_BI__Days_to_Close__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche le ratio dette/revenu du demandeur.</help>
+        <label>Ratio dette/revenu</label>
+        <name>LLC_BI__Debt_To_Income_Ratio__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est utilisé pour déterminer la page de destination par défaut de ce prêt dans l&apos;interface utilisateur nCino.</help>
+        <label>App par défaut</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Profondeur</label>
+        <name>LLC_BI__Depth__c</name>
+    </fields>
+    <fields>
+        <label>Objectif du prêt</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Description du décaissement</label>
+        <name>LLC_BI__Disbursement_Description__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>Compte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation>Vérifier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>Prêteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonLoan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayOff</masterLabel>
+            <translation>Payer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payable</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Cette case permet de spécifier qu’un prêt appartient à un employé de l’établissement financier. L’employé participe en tant qu’entité dans ce prêt.</help>
+        <label>Prêt d’employé</label>
+        <name>LLC_BI__Employee_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Entrez la valeur de la propriété estimée. Doit être une valeur numérique.</help>
+        <label>Valeur estimée</label>
+        <name>LLC_BI__Estimated_Property_Value_2__c</name>
+    </fields>
+    <fields>
+        <help>L’objet qui rassemble toutes les informations relatives aux commissions en rapport avec ce prêt.</help>
+        <label>Ensemble des commissions du prêt</label>
+        <name>LLC_BI__Fee_Loan_Aggregate__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Numéro de référence de l’avocat</help>
+        <label>Numéro de fichier</label>
+        <name>LLC_BI__File_Number__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Financed_Fee_Calculations__c</name>
+        <picklistValues>
+            <masterLabel>Add to Loan Amount</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Calculation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtract From Loan Amount</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La date de premier paiement est la date prévue pour le premier paiement du prêt. Ce champ permet de déterminer l’amortissement et les paiements complexes.</help>
+        <label>Date de premier paiement</label>
+        <name>LLC_BI__First_Payment_Date__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche l’ampleur de la première augmentation du taux d’intérêt.</help>
+        <label>Première augmentation du taux</label>
+        <name>LLC_BI__First_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label>Financé (%)</label>
+        <name>LLC_BI__Funded__c</name>
+    </fields>
+    <fields>
+        <label>% de financement</label>
+        <name>LLC_BI__Funding__c</name>
+    </fields>
+    <fields>
+        <label>Financement à la clôture</label>
+        <name>LLC_BI__Funding_at_Close__c</name>
+    </fields>
+    <fields>
+        <label>GTD équilibre</label>
+        <name>LLC_BI__GTD_Balance__c</name>
+    </fields>
+    <fields>
+        <label>GTD Participé Équilibre</label>
+        <name>LLC_BI__GTD_Participated_Balance__c</name>
+    </fields>
+    <fields>
+        <label>GTD% Participé</label>
+        <name>LLC_BI__GTD_Participated_Percent__c</name>
+    </fields>
+    <fields>
+        <help>La loi juridiction / Etat régissant le prêt</help>
+        <label>Droit applicable Etat</label>
+        <name>LLC_BI__Governing_Law_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation>Alabama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>AVEC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>SALUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>DANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>MARYLAND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>MOI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>MME</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>Dakota du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation>New Hampshire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>New Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>New York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>D&apos;accord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>OU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation>Wyoming</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Valeur brute de la garantie</label>
+        <name>LLC_BI__Gross_Collateral1_Value__c</name>
+    </fields>
+    <fields>
+        <help>Chaque fois que la dette, le revenu ou la dépense mensuelle change, ce champ recalcule automatiquement.</help>
+        <label>Taux brut service de la dette</label>
+        <name>LLC_BI__Gross_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Frais de garantie Paid</label>
+        <name>LLC_BI__Guarantee_Fee_Paid__c</name>
+    </fields>
+    <fields>
+        <help>Utilisez le code approprié pour classer l&apos;entrée en tant que de prêt, un prêt acheté, ou une application (y compris une demande d&apos;approbation préalable) qui n&apos;a pas donné lieu à une origine.</help>
+        <label>Action prise</label>
+        <name>LLC_BI__HMDA_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Loan originated</masterLabel>
+            <translation>Code 1-prêt origine</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Application approved but not accepted</masterLabel>
+            <translation>Code 2-application approuvé mais non acceptée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Application denied</masterLabel>
+            <translation>Code 3-Demande rejetée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Application withdrawn</masterLabel>
+            <translation>Code 4 Demande retirée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—File closed for incompleteness</masterLabel>
+            <translation>Code 5 Dossier fermé pour incomplétude</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Loan purchased by your institution</masterLabel>
+            <translation>Code 6 prêt acheté par votre établissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Preapproval request denied</masterLabel>
+            <translation>Code demande 7 Préautorisation refusée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Preapproval request approved but not accepted (optional reporting)</masterLabel>
+            <translation>Code demande 8-Préautorisation approuvé mais non accepté (facultative)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indiquez le montant accordé ou demandé en milliers.</help>
+        <label>Montant du prêt (montant en milliers)</label>
+        <name>LLC_BI__HMDA_Amount__c</name>
+    </fields>
+    <fields>
+        <help>des secteurs de recensement</help>
+        <label>Des secteurs de recensement (####. ## fo</label>
+        <name>LLC_BI__HMDA_Census_Tract_Text__c</name>
+    </fields>
+    <fields>
+        <help>des secteurs de recensement</help>
+        <label>Des secteurs de recensement (####. ## fo</label>
+        <name>LLC_BI__HMDA_Census_Tract__c</name>
+    </fields>
+    <fields>
+        <label>Co-demandeur</label>
+        <name>LLC_BI__HMDA_Co_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le règlement ou la date de clôture des montages.</help>
+        <label>Action Date de prise</label>
+        <name>LLC_BI__HMDA_Date_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <help>La date la demande de prêt a été reçu par votre institution.</help>
+        <label>Date de réception de la demande</label>
+        <name>LLC_BI__HMDA_Date_Application_Received__c</name>
+    </fields>
+    <fields>
+        <label>Date de taux d&apos;intérêt Set</label>
+        <name>LLC_BI__HMDA_Date_Rate_Set__c</name>
+    </fields>
+    <fields>
+        <label>Motifs de refus (peut sélectionner jusqu</label>
+        <name>LLC_BI__HMDA_Denial_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Debt-to-income ratio</masterLabel>
+            <translation>Code 1-dette au revenu rapport</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Employment history</masterLabel>
+            <translation>Code histoire 2-emploi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Credit history</masterLabel>
+            <translation>Code histoire 3-crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Collateral</masterLabel>
+            <translation>Code 4 Garantie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—Insufficient cash</masterLabel>
+            <translation>Code 5 insuffisante trésorerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Unverifiable information</masterLabel>
+            <translation>Information sur le 6-invérifiable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Credit application incomplete</masterLabel>
+            <translation>Code application 7-crédit incomplet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Mortgage insurance denied</masterLabel>
+            <translation>Assurance code 8 hypothèque refusée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 9—Other</masterLabel>
+            <translation>Code 9 Autres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn or closed for incompleteness</masterLabel>
+            <translation>Retirée ou fermé pour incomplétude</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Code FIPS County</help>
+        <label>Trois chiffres Code de comté</label>
+        <name>LLC_BI__HMDA_FIPS_County_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help>Code FIPS County</help>
+        <label></label>
+        <name>LLC_BI__HMDA_FIPS_County_Code__c</name>
+    </fields>
+    <fields>
+        <help>Code de l&apos;État FIPS</help>
+        <label>Deux chiffres Code de l&apos;État</label>
+        <name>LLC_BI__HMDA_FIPS_State_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help>Code de l&apos;État FIPS</help>
+        <label></label>
+        <name>LLC_BI__HMDA_FIPS_State_Code__c</name>
+    </fields>
+    <fields>
+        <label>Statut HOEPA</label>
+        <name>LLC_BI__HMDA_HOEPA_Status__c</name>
+        <picklistValues>
+            <masterLabel>Code 1 - For a loan that you originated or purchased that is subject to the Home Ownership and Equity Protection Act of 1994 (HOEPA), because the APR or the points and fees on the loan exceed the HOEPA triggers</masterLabel>
+            <translation>Code 1 - Pour un prêt que vous avez émis ou acquis qui est soumis à la protection à la propriété et Loi sur l&apos;équité de 1994 (HOEPA), parce que l&apos;APR ou les points et les frais sur le prêt dépassent les déclencheurs HOEPA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2 - all other cases</masterLabel>
+            <translation>Code 2 - tous les autres cas</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>état Lien</label>
+        <name>LLC_BI__HMDA_Lien_Status__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Secured by a first lien.</masterLabel>
+            <translation>Code 1-sécurisé par un privilège de premier rang.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Secured by a subordinate lien.</masterLabel>
+            <translation>Code 2 garanti par un privilège subordonné.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not secured by a lien.</masterLabel>
+            <translation>Code 3 Non garantie par un privilège.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Not applicable (purchased loan)</masterLabel>
+            <translation>Code 4 Sans objet (prêt acheté)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>HMD ID prêt</help>
+        <label>Numéro d&apos;identification du prêt</label>
+        <name>LLC_BI__HMDA_Loan_ID__c</name>
+    </fields>
+    <fields>
+        <help>Cinq chiffres MSA / MD Numéro</help>
+        <label>Cinq chiffres MSA / MD Numéro</label>
+        <name>LLC_BI__HMDA_MSA_MD_Number_Text__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__HMDA_MSA_MD_Number__c</name>
+    </fields>
+    <fields>
+        <label>Occupation</label>
+        <name>LLC_BI__HMDA_Occupancy__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Owner-occupied as a principal dwelling</masterLabel>
+            <translation>Code 1-occupé par le propriétaire comme habitation principale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Not owner-occupied as a principal dwelling</masterLabel>
+            <translation>Code 2 Non occupé par le propriétaire comme habitation principale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not applicable</masterLabel>
+            <translation>Code 3 Non applicable</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Demande de préqualification</label>
+        <name>LLC_BI__HMDA_Preapproval_Requested__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Preapproval requested</masterLabel>
+            <translation>Code 1-Préautorisation demandé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Preapproval not requested</masterLabel>
+            <translation>Code 2-Préautorisation pas demandé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not applicable</masterLabel>
+            <translation>Code 3 Non applicable</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indiquer si le prêt ou l&apos;application était pour Manufactured Housing, une habitation multifamiliale, ou un à quatre unifamiliale autres que les logements fabriqués.</help>
+        <label>Type de propriété</label>
+        <name>LLC_BI__HMDA_Property_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—One- to four-family dwelling (other than manufactured housing)</masterLabel>
+            <translation>Code 1-habitation à quatre One- famille (autres que les maisons préfabriquées)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Manufactured housing</masterLabel>
+            <translation>Code 2 maisons préfabriquées</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Multifamily dwelling</masterLabel>
+            <translation>Code 3 multifamilial habitation</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type d&apos;achat</label>
+        <name>LLC_BI__HMDA_Purchaser_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 0—Loan was not originated or was not sold in calendar year covered by register</masterLabel>
+            <translation>Code 0-prêt n&apos;a pas été pris naissance ou n&apos;a pas été vendu dans l&apos;année civile couverte par le registre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 1—Fannie Mae (FNMA)</masterLabel>
+            <translation>Code 1-Fannie Mae (FNMA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Ginnie Mae (GNMA)</masterLabel>
+            <translation>Code 2-Ginnie Mae (GNMA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Freddie Mac (FHLMC)</masterLabel>
+            <translation>Code 3 Freddie Mac (FHLMC)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Farmer Mac (FAMC)</masterLabel>
+            <translation>Code 4-Farmer Mac (FAMC)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—Private securitization</masterLabel>
+            <translation>Code 5-privé titrisation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Commercial bank, savings bank, or savings association</masterLabel>
+            <translation>Code banque 6-commerce, banque d&apos;épargne, ou une association d&apos;épargne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Life insurance company, credit union, mortgage bank, or finance company</masterLabel>
+            <translation>Code compagnie d&apos;assurance-vie 7, caisse, banque hypothécaire ou société de financement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Affiliate institution</masterLabel>
+            <translation>Code 8 affiliation institution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 9—Other type of purchaser</masterLabel>
+            <translation>Code 9 Autre type d&apos;acheteur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>HMD But du prêt</help>
+        <label>Objet du prêt</label>
+        <name>LLC_BI__HMDA_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Home purchase</masterLabel>
+            <translation>Code achat 1-Home</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Home improvement</masterLabel>
+            <translation>Code amélioration 2-Home</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Refinancing</masterLabel>
+            <translation>Code 3 Refinancement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Taux Spread (##. ## Format)</label>
+        <name>LLC_BI__HMDA_Rate_Spread__c</name>
+    </fields>
+    <fields>
+        <help>HMD But du prêt</help>
+        <label>HMD Type d&apos;enregistrement</label>
+        <name>LLC_BI__HMDA_Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>HMDA-Effective-2017</masterLabel>
+            <translation>HMD-efficace-2017</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMDA-Effective-2018</masterLabel>
+            <translation>HMD-efficace-2018</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>HMD rapportable</label>
+        <name>LLC_BI__HMDA_Reportable__c</name>
+    </fields>
+    <fields>
+        <help>HMD Type de prêt</help>
+        <label>Type de prêt</label>
+        <name>LLC_BI__HMDA_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Conventional (any loan other than FHA, VA, FSA, or RHS loans)</masterLabel>
+            <translation>Code 1-conventionnel (tout prêt autre que FHA, VA, FSA ou prêts RHS)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—FHA-insured (Federal Housing Administration)</masterLabel>
+            <translation>Code 2-HAF-assuré (Federal Housing Administration)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—VA-guaranteed (Veterans Administration)</masterLabel>
+            <translation>Code 3-VA garanti (Administration des anciens combattants)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—FSA/RHS-guaranteed (Farm Service Agency or Rural Housing Service)</masterLabel>
+            <translation>Code 4-FSA / RHS garanti (Farm Service Agency ou service de logement rural)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Plus haut</label>
+        <name>LLC_BI__Highest__c</name>
+        <relationshipLabel>Prêts (le plus élevé)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>L’indicateur Importé représente les prêts hérités créés, traités et confirmés avant l’adoption de la solution nCino.</help>
+        <label>Importé</label>
+        <name>LLC_BI__Imported__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche le pourcentage actuel de la valeur d’indice.</help>
+        <label>Valeur d’indice</label>
+        <name>LLC_BI__Index_Value__c</name>
+    </fields>
+    <fields>
+        <label>Indice</label>
+        <name>LLC_BI__Index__c</name>
+        <picklistValues>
+            <masterLabel>LIB</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libor</masterLabel>
+            <translation>LIBOR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prime</masterLabel>
+            <translation>Premier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Constant Maturity - 10 Year +</masterLabel>
+            <translation>Constant maturité du Trésor - 10 ans +</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Constant Maturity - 5 Year +</masterLabel>
+            <translation>Constant maturité du Trésor - 5 ans +</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Avance initiale</label>
+        <name>LLC_BI__Initial_Advance__c</name>
+    </fields>
+    <fields>
+        <help>Taux d’intérêt total appliqué à l’emprunteur, prime rate comprise</help>
+        <label>Taux d’intérêt</label>
+        <name>LLC_BI__InterestRate__c</name>
+    </fields>
+    <fields>
+        <label>Méthode des intérêts courus</label>
+        <name>LLC_BI__Interest_Accrual_Method__c</name>
+        <picklistValues>
+            <masterLabel>30_360</masterLabel>
+            <translation>30 / 360</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_360</masterLabel>
+            <translation>Exact / 360</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_365</masterLabel>
+            <translation>Exact / 365</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_Actual</masterLabel>
+            <translation>Exact / Exact</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le montant des intérêts payés à ce jour.</help>
+        <label>Intérêts (montant) payés à ce jour</label>
+        <name>LLC_BI__Interest_Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre de mois qui correspondent uniquement au paiement des intérêts. Ne pas inclure ces mois dans le champ du nombre total de mois ci-dessus.</help>
+        <label>Mois uniquement intérêts</label>
+        <name>LLC_BI__Interest_Only_Months__c</name>
+    </fields>
+    <fields>
+        <label>Intérêts payés à ce jour</label>
+        <name>LLC_BI__Interest_Paid_To_Date__c</name>
+    </fields>
+    <fields>
+        <label>Fréquence d’ajustement du taux d’intérêt</label>
+        <name>LLC_BI__Interest_Rate_Adjustment_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation>Tous les ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>Tous les jours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Five Years</masterLabel>
+            <translation>Tous les cinq ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Three Years</masterLabel>
+            <translation>Tous les trois ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Two Years</masterLabel>
+            <translation>Tous les deux ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Tous les mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation>Jamais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Tous les trimestres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation>Tous les semestres</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche le pourcentage que le système ajoute à l’indice pour déterminer le taux applicable au compte.</help>
+        <label>Pourcentage de marge du taux d’intérêt</label>
+        <name>LLC_BI__Interest_Rate_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est utilisé pour les actions de processus d&apos;approbation de déclenchement qui ajoutent les membres de l&apos;équipe de prêt \ n au prêt pour l&apos;utilisateur de visualiser. Les membres de l&apos;équipe du prêt sont peuplées de files d&apos;attente et les utili</help>
+        <label></label>
+        <name>LLC_BI__Is_Approved__c</name>
+    </fields>
+    <fields>
+        <label>Réservations est</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>Est fermé</label>
+        <name>LLC_BI__Is_Closed__c</name>
+    </fields>
+    <fields>
+        <label>Copier est</label>
+        <name>LLC_BI__Is_Copy__c</name>
+    </fields>
+    <fields>
+        <label>Est actuel Takedown</label>
+        <name>LLC_BI__Is_Current_Takedown__c</name>
+    </fields>
+    <fields>
+        <label>est-ELOC</label>
+        <name>LLC_BI__Is_ELOC__c</name>
+    </fields>
+    <fields>
+        <label>Est exclu</label>
+        <name>LLC_BI__Is_Excluded__c</name>
+    </fields>
+    <fields>
+        <help>Indiquez si le prêt ou l&apos;emballage est à l&apos;examen</help>
+        <label>En revue</label>
+        <name>LLC_BI__Is_In_Review__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_Jumbo__c</name>
+    </fields>
+    <fields>
+        <label>est-ce bail</label>
+        <name>LLC_BI__Is_Lease__c</name>
+    </fields>
+    <fields>
+        <label>Est-Lettre de crédit</label>
+        <name>LLC_BI__Is_Letter_of_Credit__c</name>
+    </fields>
+    <fields>
+        <label>LIMIT</label>
+        <name>LLC_BI__Is_Limit__c</name>
+    </fields>
+    <fields>
+        <help>Indiquez si le prêt est verrouillé pour Editting.</help>
+        <label>Est verrouillé</label>
+        <name>LLC_BI__Is_Locked__c</name>
+    </fields>
+    <fields>
+        <label>est le principal</label>
+        <name>LLC_BI__Is_Main__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Modification__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce Multi Level avenir</label>
+        <name>LLC_BI__Is_Multi_Level_Future__c</name>
+    </fields>
+    <fields>
+        <label>Aucune action est Placeholder</label>
+        <name>LLC_BI__Is_No_Action_Placeholder__c</name>
+    </fields>
+    <fields>
+        <help>La structure de l&apos;installation a été désactivée sur ce prêt.</help>
+        <label>Est prêt Refusé original</label>
+        <name>LLC_BI__Is_Original_Inactive_Loan__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Paid_Off__c</name>
+    </fields>
+    <fields>
+        <label>Est participation</label>
+        <name>LLC_BI__Is_Participation__c</name>
+    </fields>
+    <fields>
+        <label>Est prêt à transmettre</label>
+        <name>LLC_BI__Is_Ready_To_Transmit__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce normal avenir</label>
+        <name>LLC_BI__Is_Regular_Future__c</name>
+    </fields>
+    <fields>
+        <label>Est critique prêt</label>
+        <name>LLC_BI__Is_Review_Ready__c</name>
+    </fields>
+    <fields>
+        <help>Peupler ce champ pour indiquer si cela est un prêt SBA.</help>
+        <label>est-SBA</label>
+        <name>LLC_BI__Is_SBA__c</name>
+    </fields>
+    <fields>
+        <help>Est-ce prêt garanti avec des garanties</help>
+        <label>est sécurisé</label>
+        <name>LLC_BI__Is_Secured__c</name>
+    </fields>
+    <fields>
+        <label>est-limite</label>
+        <name>LLC_BI__Is_Sublimit__c</name>
+    </fields>
+    <fields>
+        <label>Est syndication</label>
+        <name>LLC_BI__Is_Syndication__c</name>
+    </fields>
+    <fields>
+        <label>Est prêt à terme / actuel</label>
+        <name>LLC_BI__Is_Term_Loan_Current__c</name>
+    </fields>
+    <fields>
+        <label>Date de dernier paiement</label>
+        <name>LLC_BI__Last_Pay_Date__c</name>
+    </fields>
+    <fields>
+        <label>Source du prospect</label>
+        <name>LLC_BI__LeadSource__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation>Courtier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Customer</masterLabel>
+            <translation>client actuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Call</masterLabel>
+            <translation>Appel direct</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Campaign</masterLabel>
+            <translation>Campagne Email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation>Recommandation d&apos;employés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry Professional</masterLabel>
+            <translation>professionnel de l&apos;industrie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazine</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior Origination</masterLabel>
+            <translation>avant Origination</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesaler</masterLabel>
+            <translation>Grossiste</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Détails du prospect</label>
+        <name>LLC_BI__Lead_Detail__c</name>
+    </fields>
+    <fields>
+        <label>Specifics plomb</label>
+        <name>LLC_BI__Lead_Specifics__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cabinet d’avocats</label>
+        <name>LLC_BI__Legal_Firm__c</name>
+        <picklistValues>
+            <masterLabel>Greg Jones Law</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raubenheimer &amp; Partners</masterLabel>
+            <translation>Fanie &amp; Partners</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhine Law Firm, P.C.</masterLabel>
+            <translation>Cabinet du Rhin droit, P. C.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rivenbark &amp; Associates</masterLabel>
+            <translation>Rivenbark &amp; ​​Associates</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Williams &amp; Hayes, PLLC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Classe de prêt</label>
+        <name>LLC_BI__Loan_Class__c</name>
+        <picklistValues>
+            <masterLabel>New Loan</masterLabel>
+            <translation>nouveau prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance Existing Loan With Lender</masterLabel>
+            <translation>Refinancement prêt existant avec le prêteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secured Renewal</masterLabel>
+            <translation>Renouvellement sécurisé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured Renewal</masterLabel>
+            <translation>Renouvellement non sécurisé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>L’objet établissant un lien entre toutes les garanties et le prêt.</help>
+        <label>Ensemble des garanties du prêt</label>
+        <name>LLC_BI__Loan_Collateral_Aggregate__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Prêt Number - D</label>
+        <name>LLC_BI__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label>Responsable du prêt</label>
+        <name>LLC_BI__Loan_Officer__c</name>
+        <relationshipLabel>Prêts (responsable de prêt)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Code de type de prêt</label>
+        <name>LLC_BI__Loan_Type_Code__c</name>
+    </fields>
+    <fields>
+        <help>Quel taux, etc. ?</help>
+        <label>Détails de la perte</label>
+        <name>LLC_BI__Lost_Detail__c</name>
+    </fields>
+    <fields>
+        <help>Si l’étape du prêt passe à « retirée », veuillez identifier pourquoi/comment l’affaire a été perdue.</help>
+        <label>Perdu au profit de</label>
+        <name>LLC_BI__Lost_To__c</name>
+        <picklistValues>
+            <masterLabel>BofA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Bank</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conventional Lender</masterLabel>
+            <translation>prêteur conventionnel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Command</masterLabel>
+            <translation>première commande</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenwood</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo / Matsco</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zions</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le système renseigne automatiquement ce champ facultatif avec un TAP militaire Sherman calcule lorsque le drapeau d&apos;état MLA est défini sur true.</help>
+        <label>Noffri</label>
+        <name>LLC_BI__MAPR__c</name>
+    </fields>
+    <fields>
+        <help>Les utilisateurs sélectionnent ou le système renseigne automatiquement ce champ booléen en option pour indiquer si un consommateur est admissible à la Loi sur les prêts militaires lors de la création d&apos;un prêt.</help>
+        <label>Statut laiteuse</label>
+        <name>LLC_BI__MLA_Status__c</name>
+    </fields>
+    <fields>
+        <label>Alertes de l&apos;équipe</label>
+        <name>LLC_BI__MailerTeamKey__c</name>
+    </fields>
+    <fields>
+        <label>Date d’échéance</label>
+        <name>LLC_BI__Maturity_Date__c</name>
+    </fields>
+    <fields>
+        <label>Disponibilité maximale</label>
+        <name>LLC_BI__Maximum_Availability__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche la valeur maximale dont le taux d’intérêt peut augmenter par rapport au taux d’appel spécifié au cours de la durée du prêt.</help>
+        <label>Augmentation maximale du taux</label>
+        <name>LLC_BI__Maximum_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de modifications de la descriptio</label>
+        <name>LLC_BI__Modification_Description_Count__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de la modification</label>
+        <name>LLC_BI__Modification_Number__c</name>
+    </fields>
+    <fields>
+        <label>Paiement mensuel</label>
+        <name>LLC_BI__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label>Valeur à court terme</label>
+        <name>LLC_BI__Near_Term_Value__c</name>
+    </fields>
+    <fields>
+        <label>Montants nets passés par pertes et profi</label>
+        <name>LLC_BI__Net_Charge_Offs__c</name>
+    </fields>
+    <fields>
+        <label>Produits de cession nets</label>
+        <name>LLC_BI__Net_Gain_on_Sale__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ consigne la différence de montant prêté entre l’ancienne version d’un prêt renouvelé ou modifié et la version actuelle.</help>
+        <label>Nouveaux fonds nets</label>
+        <name>LLC_BI__Net_New_Funds__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche la valeur nette totale du demandeur.</help>
+        <label>Valeur nette</label>
+        <name>LLC_BI__Net_Worth__c</name>
+    </fields>
+    <fields>
+        <label>Date du prochain paiement d’intérêts</label>
+        <name>LLC_BI__Next_Interest_Payment_Date__c</name>
+    </fields>
+    <fields>
+        <label>Date du prochain versement dû</label>
+        <name>LLC_BI__Next_Payment_Due__c</name>
+    </fields>
+    <fields>
+        <label>Date de la prochaine modification du tau</label>
+        <name>LLC_BI__Next_Rate_Change_Date__c</name>
+    </fields>
+    <fields>
+        <label>Prêt à intérêts non comptabilisés</label>
+        <name>LLC_BI__Non_Accrual__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de classeurs sans action</label>
+        <name>LLC_BI__Number_Of_No_Action_Placeholders__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de renouvellements</label>
+        <name>LLC_BI__Number_Of_Renewals__c</name>
+    </fields>
+    <fields>
+        <label>Commentaires du responsable</label>
+        <name>LLC_BI__Officer_Comments__c</name>
+    </fields>
+    <fields>
+        <label>Prêt parent initial</label>
+        <name>LLC_BI__OriginalParentLoan__c</name>
+        <relationshipLabel>Prêts parent initiaux</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Montant garanti initial</label>
+        <name>LLC_BI__Original_Guaranteed_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Cette valeur provient du ratio prêt/valeur actuel en vigueur au moment où le prêt passe à l’étape « confirmé ». Elle est renseignée par le système.</help>
+        <label>Ratio prêt/valeur initial</label>
+        <name>LLC_BI__Original_LTV__c</name>
+    </fields>
+    <fields>
+        <help>La somme de toutes les valeurs prêtables pour toutes les garanties associées à ce prêt. Ce champ est renseigné par le système au moment où le prêt passe à l’étape « confirmé ».</help>
+        <label>Valeur prêtable totale initiale</label>
+        <name>LLC_BI__Original_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <label>Montant initial de la note (net)</label>
+        <name>LLC_BI__Original_UNGTD_Amount__c</name>
+    </fields>
+    <fields>
+        <label>prêt parent</label>
+        <name>LLC_BI__ParentLoan__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date de participation</label>
+        <name>LLC_BI__Participation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Type de participation</label>
+        <name>LLC_BI__Participation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Participation agreement agented</masterLabel>
+            <translation>Accord de participation agented</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participation bought</masterLabel>
+            <translation>La participation a acheté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participation sold</masterLabel>
+            <translation>participation vendu</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Partenaire GTD De gauche à Financez</label>
+        <name>LLC_BI__Partner_GTD_Left_to_Fund__c</name>
+    </fields>
+    <fields>
+        <label>Spread Partner Over base</label>
+        <name>LLC_BI__Partner_Spread_Over_Base__c</name>
+    </fields>
+    <fields>
+        <label>Partenaire UNGTD De gauche à Financez</label>
+        <name>LLC_BI__Partner_UNGTD_Left_to_Fund__c</name>
+    </fields>
+    <fields>
+        <label>Échéances passées</label>
+        <name>LLC_BI__Past_Due_Days__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ de date de formule saisit la date à laquelle les paiements débutent.</help>
+        <label>Date de début de paiement</label>
+        <name>LLC_BI__Payment_Begin_Date__c</name>
+    </fields>
+    <fields>
+        <label>Calendrier des paiements</label>
+        <name>LLC_BI__Payment_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>@ Maturity</masterLabel>
+            <translation>@ Maturité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation>Tous les ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Monthly</masterLabel>
+            <translation>Deux fois par mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Weekly</masterLabel>
+            <translation>Deux fois par semaine</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Tous les mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Tous les trimestres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation>Tous les semestres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Monthly</masterLabel>
+            <translation>Deux fois par mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Toutes les semaines</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de paiement</label>
+        <name>LLC_BI__Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Balloon</masterLabel>
+            <translation>Ballon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Permanent</masterLabel>
+            <translation>construction permanente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draw Down Line Of Credit</masterLabel>
+            <translation>Drawdown ligne de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generic Non-Disclosable</masterLabel>
+            <translation>Générique non communicables</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installment</masterLabel>
+            <translation>Tranche</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Only</masterLabel>
+            <translation>Intérêt uniquement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Irregular</masterLabel>
+            <translation>Irrégulier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal and Interest</masterLabel>
+            <translation>Principal et intérêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal+Interest</masterLabel>
+            <translation>Capital + intérêts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revolving Line Of Credit</masterLabel>
+            <translation>Ligne de crédit revolving</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Pay</masterLabel>
+            <translation>Paiement unique</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La date à laquelle la note a été remboursée.</help>
+        <label>Date de remboursement</label>
+        <name>LLC_BI__Payoff_Date__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de portefeuille</label>
+        <name>LLC_BI__Portfolio_Number__c</name>
+    </fields>
+    <fields>
+        <label>Éléments postérieurs à la clôture</label>
+        <name>LLC_BI__Post_Closing_Items__c</name>
+    </fields>
+    <fields>
+        <help>Saisir le code postal de la propriété concernée.</help>
+        <label>Code postal</label>
+        <name>LLC_BI__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>Date d’appel préalable à la clôture</label>
+        <name>LLC_BI__Pre_Close_Call_Date__c</name>
+    </fields>
+    <fields>
+        <label>Description de la pénalité de paiement a</label>
+        <name>LLC_BI__Prepayment_Penalty_Description__c</name>
+    </fields>
+    <fields>
+        <label>Pénalité de paiement anticipé ?</label>
+        <name>LLC_BI__Prepayment_Penalty__c</name>
+    </fields>
+    <fields>
+        <label>Base de la tarification</label>
+        <name>LLC_BI__Pricing_Basis__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>Fixe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Option de tarification appliquée</label>
+        <name>LLC_BI__Pricing_Option__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Solde en principal</label>
+        <name>LLC_BI__Principal_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Probabilité (%)</label>
+        <name>LLC_BI__Probabilty__c</name>
+    </fields>
+    <fields>
+        <label>Responsable du traitement du prêt</label>
+        <name>LLC_BI__Processor_Name__c</name>
+        <relationshipLabel>Prêts (responsable du traitement du prêt)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ligne de produit</label>
+        <name>LLC_BI__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Business Card</masterLabel>
+            <translation>Carte d’entreprise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIB</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation>Consommateur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasing and Finance</masterLabel>
+            <translation>Leasing et finance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation>Hypothèque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Card</masterLabel>
+            <translation>Carte privée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Détail de l’offre</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Facilités du prêt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produit</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Type de produit</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>504</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7(a)</masterLabel>
+            <translation>7 (a)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation>Prêts hypothécaires-Du système source</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APAC - Purchase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business No Rewards</masterLabel>
+            <translation>Carte d’entreprise sans récompenses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Rewards</masterLabel>
+            <translation>Carte d’entreprise avec récompenses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Purchase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - HELOC</masterLabel>
+            <translation>Consommateur - Crédit hypothécaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Home Equity Term Loan</masterLabel>
+            <translation>Grand Public - Home Equity Loan terme</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Recreational Vehicle</masterLabel>
+            <translation>Consommation - Véhicule récréatif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Unsecured LOC</masterLabel>
+            <translation>Consommateurs - LOC non garantie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Unsecured Term</masterLabel>
+            <translation>Consommateurs - terme non garantie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Vehicle</masterLabel>
+            <translation>Consommation - Véhicule</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA - Purchase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA - Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA - Specialty</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Finance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasing and Finance</masterLabel>
+            <translation>Leasing et finance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Markets</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Real Estate</masterLabel>
+            <translation>Autre que bien immobilier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal No Rewards</masterLabel>
+            <translation>Carte privée sans récompenses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Rewards</masterLabel>
+            <translation>Carte privée avec récompenses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation>Bien immobilier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Finance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trading</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction Banking</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured</masterLabel>
+            <translation>Non couvert</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Produit</label>
+        <name>LLC_BI__Product__c</name>
+        <picklistValues>
+            <masterLabel>AIP</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounts Receivables</masterLabel>
+            <translation>Comptes clients</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acquisition Term Loan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advantage+</masterLabel>
+            <translation>avantage +</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balloon</masterLabel>
+            <translation>Crédit ballon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balloon Special</masterLabel>
+            <translation>Crédit ballon spécial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonds, Gurantees &amp; Standy Letters of Credit</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buy to Let</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital Finance Lease</masterLabel>
+            <translation>Leasing financier de capital</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Pooling</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commodities</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Cards</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crops</masterLabel>
+            <translation>Récoltes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Promotion</masterLabel>
+            <translation>Promotion Nouveau client</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DBO Lease</masterLabel>
+            <translation>location dbo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily Settlement Limits</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Debit Originations</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation>Équipement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equity Release</masterLabel>
+            <translation>Hypothèque rechargeable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FHA Mortgage</masterLabel>
+            <translation>hypothèques FHA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FX Hedging</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Factoring</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value Lease</masterLabel>
+            <translation>Leasing à la juste valeur du marché</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Time Buyer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>Fixe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Exchange</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Further Advance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation>Général</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Help to Buy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Rate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Rate Hedging</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-Day Limits</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation>Inventaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice Discounting</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Development</masterLabel>
+            <translation>Aménagement foncier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation>Ligne de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine Purchase</masterLabel>
+            <translation>Achat dans le secteur maritime</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine Refinance</masterLabel>
+            <translation>Refinancement dans le secteur maritime</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating Lease</masterLabel>
+            <translation>Bail d&apos;exploitation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plant &amp; Equipment Term Loans</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum Rewards</masterLabel>
+            <translation>Rewards Platinum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Plus Bonus</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promissory Note Discounting</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation>Achat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase New</masterLabel>
+            <translation>Achat bien nouveau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Used</masterLabel>
+            <translation>Achat bien utilisé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RLOC</masterLabel>
+            <translation>Ligne de crédit renouvelable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV Purchase</masterLabel>
+            <translation>Achat RV</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV Refinance</masterLabel>
+            <translation>RV refinancement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>Refinancement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remortgage</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revolving Credit Facility</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale-Leaseback</masterLabel>
+            <translation>Vente LMNP-</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings Secured</masterLabel>
+            <translation>Couvert par des épargnes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skyways</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Business Card</masterLabel>
+            <translation>Carte de visite standard</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Personal Card</masterLabel>
+            <translation>Carte personnelle standard</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Startup</masterLabel>
+            <translation>Start-up</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAC Lease</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax/True Lease</masterLabel>
+            <translation>Taxe / bail Vrai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Bills</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Loans</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unimproved - Purchase</masterLabel>
+            <translation>Produit brut - Achat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unimproved - Refinance</masterLabel>
+            <translation>Produit brut - Refinancement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured - LOC</masterLabel>
+            <translation>Non couvert - Ligne de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured - Term Loan</masterLabel>
+            <translation>Non couvert - Prêt à terme</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation>Variable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital - Term Loan</masterLabel>
+            <translation>Capital d’exploitation - Prêt à terme</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Proposition acceptée</label>
+        <name>LLC_BI__Proposal_Accepted__c</name>
+    </fields>
+    <fields>
+        <label>Plafond du taux</label>
+        <name>LLC_BI__Rate_Ceiling__c</name>
+    </fields>
+    <fields>
+        <label>Escompte de taux</label>
+        <name>LLC_BI__Rate_Discount__c</name>
+    </fields>
+    <fields>
+        <label>Plancher du taux</label>
+        <name>LLC_BI__Rate_Floor__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Real_Estate_Value__c</name>
+    </fields>
+    <fields>
+        <label>Bien immobilier</label>
+        <name>LLC_BI__Real_Estate__c</name>
+    </fields>
+    <fields>
+        <label>Renvoyé à</label>
+        <name>LLC_BI__Referred_To__c</name>
+        <picklistValues>
+            <masterLabel>BofA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Cette case à cocher permet de spécifier quand un prêt relève des institutions financières des normes Reg-O.</help>
+        <label>Reg O prêt</label>
+        <name>LLC_BI__Reg_O_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Mettre à 1 si d&apos;avoir le prêt partagé avec la FDIC.</help>
+        <label>Prêt régulateur Partager</label>
+        <name>LLC_BI__Regulator_Loan_Share__c</name>
+    </fields>
+    <fields>
+        <label>renouvellement Numéro</label>
+        <name>LLC_BI__Renewal_Number__c</name>
+    </fields>
+    <fields>
+        <label>balance des Bénéfices non</label>
+        <name>LLC_BI__Retained_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Bénéfices non Spread Entretien</label>
+        <name>LLC_BI__Retained_Servicing_Spread__c</name>
+    </fields>
+    <fields>
+        <label>% Bénéfices non</label>
+        <name>LLC_BI__Retained__c</name>
+    </fields>
+    <fields>
+        <label>Revu par la conformité</label>
+        <name>LLC_BI__Reviewed_by_Compliance__c</name>
+    </fields>
+    <fields>
+        <label>Revu par les opérations associées au prê</label>
+        <name>LLC_BI__Reviewed_by_Loan_Ops__c</name>
+    </fields>
+    <fields>
+        <label>Modèle de classe de risque</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Classe de risque</label>
+        <name>LLC_BI__Risk_Grade__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Frais de garantie SBA</label>
+        <name>LLC_BI__SBA_Guarantee_Fee__c</name>
+    </fields>
+    <fields>
+        <label>SBA Garantie (%)</label>
+        <name>LLC_BI__SBA_Guarantee__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__SBA__c</name>
+    </fields>
+    <fields>
+        <label>type de SNC</label>
+        <name>LLC_BI__SNC_Type__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>N / A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SNC agent</masterLabel>
+            <translation>Agent SNC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SNC non-agent</masterLabel>
+            <translation>SNC non agent</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Marché secondaire Date de l&apos;Offre</label>
+        <name>LLC_BI__Secondary_Market_Bid_Date__c</name>
+    </fields>
+    <fields>
+        <label>Marché secondaire Vendu date</label>
+        <name>LLC_BI__Secondary_Market_Sold_Date__c</name>
+    </fields>
+    <fields>
+        <label>Vendu à</label>
+        <name>LLC_BI__Secondary_Market_Sold_To__c</name>
+    </fields>
+    <fields>
+        <label>Markt secondaire Vendu%</label>
+        <name>LLC_BI__Secondary_Markt__c</name>
+    </fields>
+    <fields>
+        <label>Mkt secondaire Vendu</label>
+        <name>LLC_BI__Secondary_Mkt_Sold__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Mkt secondaire Vendu $</label>
+        <name>LLC_BI__Secondary_Mkt_Sold_currency__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ numéro option capture la date de paiement des paiements bimensuels.</help>
+        <label>jour bimensuel</label>
+        <name>LLC_BI__Semimonthly_Day__c</name>
+    </fields>
+    <fields>
+        <label>Site Date de la visite</label>
+        <name>LLC_BI__Site_Visit_Date__c</name>
+    </fields>
+    <fields>
+        <label>Visite du site du propriétaire</label>
+        <name>LLC_BI__Site_Visit_Owner__c</name>
+    </fields>
+    <fields>
+        <label>Montant Vendu ($ de)</label>
+        <name>LLC_BI__Sold_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Analyse financière (%)</label>
+        <name>LLC_BI__Spread__c</name>
+    </fields>
+    <fields>
+        <label>Étape et statut</label>
+        <name>LLC_BI__Stage_And_Status__c</name>
+    </fields>
+    <fields>
+        <label>Avancement de l’étape</label>
+        <name>LLC_BI__Stage_Progress__c</name>
+    </fields>
+    <fields>
+        <label>Étape</label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Aggregation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analysis</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval / Loan Committee</masterLabel>
+            <translation>Comité d’accord / des prêts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation>Confirmé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>Clôture en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Complet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conditional Approval/Pre-Approval</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation>Prép. doc.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation>Revue doc.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EW Analysis Complete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enhanced Monitoring</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation>En attente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation>Proposition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification / Application</masterLabel>
+            <translation>Qualification / demande</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unconditional Approval/Assessment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>Souscription</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verification/Valuation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workout Solutions</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système est vérifié lorsque le taux d&apos;intérêt est autorisé à diminuer en dessous du taux teaser sur la durée du prêt et est décochée lorsque le taux d&apos;intérêt ne peut pas diminuer en dessous du taux teaser.</help>
+        <label>Escalier Step Down</label>
+        <name>LLC_BI__Stair_Step_Down__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Charge-Off</masterLabel>
+            <translation>Montant passé par pertes et profits</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>Refusé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation>Perdu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Ouvert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Out</masterLabel>
+            <translation>Versé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation>Retiré</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Hiérarchie de la structure</label>
+        <name>LLC_BI__Structure_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Current Takedown</masterLabel>
+            <translation>Takedown actuelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limit</masterLabel>
+            <translation>Limite</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation>Prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Limit</masterLabel>
+            <translation>sous Limite</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Structure__c</name>
+        <picklistValues>
+            <masterLabel>ELOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Credit</masterLabel>
+            <translation>Lettre de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Level Future</masterLabel>
+            <translation>Multi-niveau futur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Future</masterLabel>
+            <translation>Future Regular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loan/Current</masterLabel>
+            <translation>Durée du prêt / actuel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Date de réservation est une date calculée qui représente lorsque le prêt est considéré comme « Nous avons réservé » tel que défini par l&apos;État produit Configuration. Cette date ne doit pas être modifié.</help>
+        <label>Superceded Date Heure</label>
+        <name>LLC_BI__Superceded_DateTime__c</name>
+    </fields>
+    <fields>
+        <label>Type de syndication</label>
+        <name>LLC_BI__Syndication_Type__c</name>
+        <picklistValues>
+            <masterLabel>Syndication agented</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndication purchased</masterLabel>
+            <translation>Syndication acheté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndication title role</masterLabel>
+            <translation>Syndication rôle titre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__TDR__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche le taux d’intérêt appliqué initialement au prêt.</help>
+        <label>Taux d’appel</label>
+        <name>LLC_BI__Teaser_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche le nombre de paiements auxquels le taux d’appel s’applique.</help>
+        <label>Durée du taux d’appel</label>
+        <name>LLC_BI__Teaser_Term__c</name>
+    </fields>
+    <fields>
+        <label>Durée (mois)</label>
+        <name>LLC_BI__Term_Months__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche montant total des actifs du demandeur.</help>
+        <label>total de l&apos;actif</label>
+        <name>LLC_BI__Total_Assets__c</name>
+    </fields>
+    <fields>
+        <label>Montants totaux passés par pertes et pro</label>
+        <name>LLC_BI__Total_Charge_Offs__c</name>
+    </fields>
+    <fields>
+        <help>Le montant total de la garantie mise en gage sur le prêt.</help>
+        <label>Garantie totale mise en gage</label>
+        <name>LLC_BI__Total_Collateral_Pledged__c</name>
+    </fields>
+    <fields>
+        <help>La valeur totale de toutes les garanties en vigueur pour le prêt.</help>
+        <label>Valeur brute de la garantie</label>
+        <name>LLC_BI__Total_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <help>La somme de toutes les sûretés réelles légales associées au prêt.</help>
+        <label>Montant actuel des sûretés réelles légal</label>
+        <name>LLC_BI__Total_Current_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Chaque fois que la dette, le revenu ou la dépense mensuelle change, ce champ recalcule automatiquement.</help>
+        <label>Total Ratio service de la dette</label>
+        <name>LLC_BI__Total_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Total des dettes</label>
+        <name>LLC_BI__Total_Debts__c</name>
+    </fields>
+    <fields>
+        <label>Total des décaissements</label>
+        <name>LLC_BI__Total_Disbursed__c</name>
+    </fields>
+    <fields>
+        <label>Total des montants de la facilité</label>
+        <name>LLC_BI__Total_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Total des revenus de commissions</label>
+        <name>LLC_BI__Total_Fee_Income__c</name>
+    </fields>
+    <fields>
+        <label>Total garanti à l&apos;avenir</label>
+        <name>LLC_BI__Total_Future_Adv__c</name>
+    </fields>
+    <fields>
+        <label>Total de la dette mensuelle</label>
+        <name>LLC_BI__Total_Monthly_Debt__c</name>
+    </fields>
+    <fields>
+        <help>Ce montant correspond aux dépenses mensuelles totales.</help>
+        <label>Total des dépenses mensuelles</label>
+        <name>LLC_BI__Total_Monthly_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Total des revenus mensuels</label>
+        <name>LLC_BI__Total_Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <help>Calculé à l’aide de la formule : 
+Somme des mois uniquement intérêts + mois principal et intérêts</help>
+        <label>Total des paiements mensuels</label>
+        <name>LLC_BI__Total_Monthly_Payments__c</name>
+    </fields>
+    <fields>
+        <label>Montant total des sûretés réelles légale</label>
+        <name>LLC_BI__Total_Prior_Lien_Amount_Collateral1__c</name>
+    </fields>
+    <fields>
+        <help>Toutes les sûretés réelles légales détenues sur le prêt, à l’exception des sûretés réelles légales associées au prêt. Renseigné au moment où le prêt passe à « confirmé ».</help>
+        <label>Montant total des sûretés réelles légale</label>
+        <name>LLC_BI__Total_Prior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Garantie totale du bien immobilier</label>
+        <name>LLC_BI__Total_Real_Estate_Collateral__c</name>
+    </fields>
+    <fields>
+        <label>Total des recouvrements</label>
+        <name>LLC_BI__Total_Recovery__c</name>
+    </fields>
+    <fields>
+        <label>Montant total de la sûreté réelle légale</label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Total des montants non décaissés</label>
+        <name>LLC_BI__Total_Undisbursed__c</name>
+    </fields>
+    <fields>
+        <label>Expiration UCC (comté)</label>
+        <name>LLC_BI__UCC_County__c</name>
+    </fields>
+    <fields>
+        <label>Expiration UCC (État)</label>
+        <name>LLC_BI__UCC_State__c</name>
+    </fields>
+    <fields>
+        <label>Solde net</label>
+        <name>LLC_BI__UNGTD_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Exposition nette</label>
+        <name>LLC_BI__UNGTD_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Solde participation non garanti</label>
+        <name>LLC_BI__UNGTD_Participated_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Participé UNGTD (%)</label>
+        <name>LLC_BI__UNGTD_Participated_Percent__c</name>
+    </fields>
+    <fields>
+        <label>Récapitulatif des souscriptions</label>
+        <name>LLC_BI__Underwriting_Summary__c</name>
+        <relationshipLabel>Prêts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>GTD non décaissés</label>
+        <name>LLC_BI__Undisbursed_GTD__c</name>
+    </fields>
+    <fields>
+        <label>UNGTD non décaissés</label>
+        <name>LLC_BI__Undisbursed_UNGTD__c</name>
+    </fields>
+    <fields>
+        <label>Date de la liste de surveillance</label>
+        <name>LLC_BI__Watchlist_Date__c</name>
+    </fields>
+    <fields>
+        <label>Date de</label>
+        <name>LLC_BI__Wire_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__hasRenewal__c</name>
+    </fields>
+    <fields>
+        <label>est fermé</label>
+        <name>LLC_BI__isClosed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__isConvert__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__isRenewal__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de prêt</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche l’identifiant unique du prêt.</help>
+        <label>Numéro de prêt nCino</label>
+        <name>LLC_BI__nCino_Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LMI_Required__c</name>
+    </fields>
+    <fields>
+        <label>Partenaire Banque 1 Montant</label>
+        <name>LOB_Partner_Bank_1_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LOB_Partner_Bank_1__c</name>
+        <picklistValues>
+            <masterLabel>Caywood Premiere</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulghum Federal Credit Union</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PZN Bank</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platterville Bank and Trust</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seventh Bank</masterLabel>
+            <translation>Banque septième</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Gestionnaire de relation</label>
+        <name>LOB_Relationship_Manager__c</name>
+        <picklistValues>
+            <masterLabel>Allan Fellers</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eve Platz</masterLabel>
+            <translation>Eve lieu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hugh Savidge</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Javier Mcmeans</masterLabel>
+            <translation>Javier MCMEANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kurt Cude</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lance Swatzell</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>exposition UNGTD</label>
+        <name>LOB_UNGTD_Exposure__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LTV_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LTV__c</name>
+    </fields>
+    <fields>
+        <label>Dernière Statut d&apos;approbation</label>
+        <name>Last_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rejeté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removed</masterLabel>
+            <translation>Suppression</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Pendant combien de mois serait le locataire que pour louer le produit?</help>
+        <label>Durée Durée du bail</label>
+        <name>Lease_Term_Length__c</name>
+    </fields>
+    <fields>
+        <help>1 $ Achat immédiat - Tarifs entre 6% -15% Paiement: Haute \ n10% Option - Taux entre 7% -16% Paiement: Moyenne \ NTRAC - Tarifs entre 6% à 12% - Paiement: Moyenne \ n10% PUT - Tarifs entre 7 % -16% - Paiement: moyen \ nFair valeur marchande - Tarifs</help>
+        <label>Type de location</label>
+        <name>Lease_Type__c</name>
+        <picklistValues>
+            <masterLabel>$1 Buyout Lease</masterLabel>
+            <translation>1 $ Achat immédiat location</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10% Option Lease</masterLabel>
+            <translation>10% Bail Option</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10% PUT Lease</masterLabel>
+            <translation>10% PUT bail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value Lease</masterLabel>
+            <translation>Juste valeur marchande de location</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAC Lease</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Legal_Process_Completed__c</name>
+    </fields>
+    <fields>
+        <label>Montant supérieur Lien</label>
+        <name>Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Lien__c</name>
+        <picklistValues>
+            <masterLabel>1st</masterLabel>
+            <translation>1er</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation>2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd</masterLabel>
+            <translation>3</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LoanDocs_BTR_Count__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loan_Pricing_Narrative__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Prêt en arriérés</label>
+        <name>Loan_in_Arrears__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Monthly_Interest__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Mortgage_LTV__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ pour capturer agent de prêt hypothécaire d&apos;un système source hypothécaire.</help>
+        <label></label>
+        <name>Mortgage_Loan_Officer__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est destiné à être utilisé dans les données de cartographie de système hypothécaire Source</help>
+        <label>Prêt hypothécaire à la valeur</label>
+        <name>Mortgage_Loan_to_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Mortgage_Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est pour capturer des termes hypothécaires à partir d&apos;un système source hypothécaire.</help>
+        <label>Conditions de prix hypothécaire</label>
+        <name>Mortgage_Pricing_Terms__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Mortgage_Term__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Move_to_Collections__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de périodes</label>
+        <name>Number_of_Periods__c</name>
+    </fields>
+    <fields>
+        <label>Tactile bas en ligne</label>
+        <name>Online_Low_Touch__c</name>
+    </fields>
+    <fields>
+        <help>Ceci est la branche d&apos;activité de l&apos;agent de crédit</help>
+        <label>Ligne cédante affaires</label>
+        <name>Originating_Line_of_Business__c</name>
+    </fields>
+    <fields>
+        <help>Remarques concernant les conditions de paiement spécifiques</help>
+        <label>Conditions de paiement Autres</label>
+        <name>Other_Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label>Conditions exceptionnelles</label>
+        <name>Outstanding_Conditions__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Overview_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Détails de paiement</label>
+        <name>Payment_Details__c</name>
+    </fields>
+    <fields>
+        <label>Fréquence de paiement</label>
+        <name>Payment_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Anually</masterLabel>
+            <translation>anually</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestrielle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Semestriellement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Place_on_to_Early_Warning_List__c</name>
+        <picklistValues>
+            <masterLabel>Early Warning 1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Warning 2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Warning 3</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Please_provide_your_recommendation__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Jugement précédent d’un tribunal de prem</label>
+        <name>Previous_CCJ__c</name>
+    </fields>
+    <fields>
+        <help>Quelle est la principale source de remboursement?</help>
+        <label>Source principale de remboursement</label>
+        <name>Primary_Source_of_Repayment__c</name>
+        <picklistValues>
+            <masterLabel>Cash flow from Operations</masterLabel>
+            <translation>Flux de trésorerie provenant des opérations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Income</masterLabel>
+            <translation>Les revenus locatifs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidation of Collateral</masterLabel>
+            <translation>Liquidation des garanties</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables</masterLabel>
+            <translation>Les créances</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliance on Guarantors</masterLabel>
+            <translation>Dépendance à l&apos;égard Garants</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital Turnover</masterLabel>
+            <translation>Fonds de roulement Chiffre d&apos;affaires</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>S&apos;il y avait un privilège avant, qui était le titulaire?</help>
+        <label>Titulaire avant Lien</label>
+        <name>Prior_Lien_Holder__c</name>
+    </fields>
+    <fields>
+        <help>Cela pourrait être le taux projeté produit à partir de l&apos;intégration de la tarification.</help>
+        <label>Taux prévu</label>
+        <name>Projected_Rate__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Property_Offer_Accepted__c</name>
+    </fields>
+    <fields>
+        <label>ajustement du taux</label>
+        <name>Rate_Adjustment__c</name>
+        <picklistValues>
+            <masterLabel>3 Years</masterLabel>
+            <translation>3 années</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Years</masterLabel>
+            <translation>5 années</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 Years</masterLabel>
+            <translation>7 ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Tous les ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>du quotidien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestrielle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Semestriellement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>Fixe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Reason_for_Enhanced_Monitoring__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Recovery_LTV_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Recovery_LTV__c</name>
+    </fields>
+    <fields>
+        <help>Indique ces opérations est conforme aux critères de Reg W Reportabilité.</help>
+        <label>Reg W rapportable</label>
+        <name>Reg_W_Reportable__c</name>
+    </fields>
+    <fields>
+        <label>Relation totale d&apos;exposition</label>
+        <name>Relationship_Total_Exposure__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Repayment_Date__c</name>
+    </fields>
+    <fields>
+        <help>Récit de cette demande.</help>
+        <label>Demander des détails</label>
+        <name>Request_Details__c</name>
+    </fields>
+    <fields>
+        <label>Modèle d’appréciation du risque</label>
+        <name>Risk_Rating_Template__c</name>
+        <picklistValues>
+            <masterLabel>CRE Template</masterLabel>
+            <translation>modèle CRE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Template</masterLabel>
+            <translation>modèle commercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complex Multi-Level Template</masterLabel>
+            <translation>Complexe Modèle multi-niveaux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Loan Template</masterLabel>
+            <translation>Modèle de prêt individuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Template</masterLabel>
+            <translation>modèle individuel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Risk_and_Mitigants_Narrative__c</name>
+    </fields>
+    <fields>
+        <help>Quel est le numéro d&apos;acheminement du compte qui recevra la protection de découvert bancaire?</help>
+        <label>Numéro de routage pour Acct Réception OD</label>
+        <name>Routing_Number_for_Acct_Receiving_ODP__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ SLA est construit hors des jours pour fermer le terrain.</help>
+        <label>Statut SLA</label>
+        <name>SLA_Status__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Secondary_Address__c</name>
+    </fields>
+    <fields>
+        <help>Quelle est la source secondaire de remboursement?</help>
+        <label>Source secondaire de remboursement</label>
+        <name>Secondary_Source_of_Repayment__c</name>
+        <picklistValues>
+            <masterLabel>Cash flow from Operations</masterLabel>
+            <translation>Flux de trésorerie provenant des opérations</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease Income</masterLabel>
+            <translation>Les revenus locatifs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidation of Collateral</masterLabel>
+            <translation>Liquidation des garanties</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables</masterLabel>
+            <translation>Les créances</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliance on Guarantors</masterLabel>
+            <translation>Dépendance à l&apos;égard Garants</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital Turnover</masterLabel>
+            <translation>Fonds de roulement Chiffre d&apos;affaires</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Je peux mettre une phrase de renonciation dans le texte d&apos;aide pour aider mes associés à fournir des dénis précises sur les services connexes ou des honoraires.</help>
+        <label>cette carte devrait fournir ODP?</label>
+        <name>Should_this_card_provide_ODP__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Student_Loan__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Subject_Request_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Soumis à la prise ferme</label>
+        <name>Submitted_to_Underwriting__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Summary_and_Recommendation_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Collateral_Recovery_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Collateral_Value_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Subscription_Amount_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Subscription_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ contient le numéro de dépôt de UCC utilisé sur l&apos;hôte pour réserver le dépôt du comté UCC.</help>
+        <label>UCC County Numéro de dépôt</label>
+        <name>UCC_County_Filing_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Unauthorised_borrowing__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Undertaken_updated_financial_analysis__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Débit Identificateur</label>
+        <name>Unique_Flow_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>Montant non garanti</label>
+        <name>Unsecured_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Unsecured_Loans__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Use_of_Proceeds_Narrative__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Valuation_Completed__c</name>
+    </fields>
+    <fields>
+        <help>Les plus récentes Date de évaluation</help>
+        <label>Date d&apos;évaluation</label>
+        <name>Valuation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Méthode d&apos;évaluation</label>
+        <name>Valuation_Method__c</name>
+        <picklistValues>
+            <masterLabel>Aging</masterLabel>
+            <translation>Vieillissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraised</masterLabel>
+            <translation>évalué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation>Bilan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estimated</masterLabel>
+            <translation>estimation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Accord Vendor Program</label>
+        <name>Vendor_Program_Agreement__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>What_is_your_outstanding_balance__c</name>
+    </fields>
+    <fields>
+        <label>Paiement mensuel</label>
+        <name>c_Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label>Produit</label>
+        <name>c_Product__c</name>
+    </fields>
+    <fields>
+        <label>Mkt secondaire Vendu</label>
+        <name>c_Secondary_Mkt_Sold__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>nCino Essai sur le terrain</label>
+        <name>nCino_Test_Field__c</name>
+    </fields>
+    <fields>
+        <label>Montant approuvé pour</label>
+        <name>nRetail__Approved_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Le ratio dette sur le revenu</label>
+        <name>nRetail__Debt_To_Income_Ratio__c</name>
+    </fields>
+    <fields>
+        <label>Valeur nette</label>
+        <name>nRetail__Net_Worth__c</name>
+    </fields>
+    <fields>
+        <label>total de l&apos;actif</label>
+        <name>nRetail__Total_Assets__c</name>
+    </fields>
+    <fields>
+        <label>total des dettes</label>
+        <name>nRetail__Total_Debts__c</name>
+    </fields>
+    <fields>
+        <label>La dette totale mensuelle</label>
+        <name>nRetail__Total_Monthly_Debt__c</name>
+    </fields>
+    <fields>
+        <label>Revenu mensuel total</label>
+        <name>nRetail__Total_Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <help>Ceci est le taux d&apos;intérêt dérivé de taux de base du code source.</help>
+        <label>Taux d&apos;intérêt de base</label>
+        <name>nSBA__Base_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Prêteur officiel qui sera attribué en tant que prêteur contact lors de la soumission E-Tran</help>
+        <label>Prêteur E-Tran Contactez</label>
+        <name>nSBA__ETran_Lender_Contact__c</name>
+        <relationshipLabel>Prêts (prêteur E-Tran Contact)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>SBA petit prêt</label>
+        <name>nSBA__SBA_Small_Loan__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description>Ceci est la mise en page qui est affiché lorsque « nouveau record » est cliqué, ne montrant que les informations de base, et les informations de sélection de produits.</description>
+        <label>Début</label>
+        <name>LLC_BI__Start</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Utilisé pour les tests unitaires</description>
+        <label>Test Type de produit 1 - Test Produit 1</label>
+        <name>LLC_BI__Test_Product_Type_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description>tester le type de produit requête large</description>
+        <label>Test Type de produit 1</label>
+        <name>LLC_BI__Test_Product_Type_1v2</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Loan_AIP</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les produits de la carte.</description>
+        <label>Prêt - Carte</label>
+        <name>Loan_Card</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Loan_Collections</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les produits commerciaux.</description>
+        <label>Prêt - Commercial</label>
+        <name>Loan_Commercial</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les produits de construction.</description>
+        <label>Prêt - Construction</label>
+        <name>Loan_Construction</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les produits de consommation.</description>
+        <label>Prêt - Consommateur</label>
+        <name>Loan_Consumer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les produits de crédit-bail et de la finance.</description>
+        <label>Prêt - Crédit-bail</label>
+        <name>Loan_Leasing</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les produits hypothécaires.</description>
+        <label>Prêt - Hypothèque</label>
+        <name>Loan_Mortgage</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Loan_Mortgage_APAC</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les nouveaux prêts.</description>
+        <label>Prêt - Nouveau</label>
+        <name>Loan_New</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les renouvellements</description>
+        <label>Prêt - Renouvellement</label>
+        <name>Loan_Renewal</name>
+    </recordTypes>
+    <recordTypes>
+        <description>type d&apos;enregistrement du prêt pour tous les produits sba.</description>
+        <label>Prêt - SBA</label>
+        <name>Loan_SBA</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ce type d&apos;enregistrement est utilisé pour limites, sous limites, démantèlements, ETC.</description>
+        <label>Prêt - Sous prêt</label>
+        <name>Loan_Sub_Loan</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ce type d&apos;enregistrement est utilisé pour différencier un prêt au détail, qui a une expérience distincte des autres types de prêts.</description>
+        <label>prêt au détail</label>
+        <name>nRetail__Retail_Loan</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Vous devez charger tous les documents pour cette étape avant de passer à l&apos;étape suivante.</errorMessage>
+        <name>Document_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Le montant manquant ne peut pas dépasser le montant maximal disponible.</errorMessage>
+        <name>LLC_BI__Amount_Outstanding_Check_Against_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La durée du prêt et la durée amortie doivent avoir la même valeur.</errorMessage>
+        <name>LLC_BI__Balloon_Amount_terms_must_be_equal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vous devez saisir des valeurs pour la durée du prêt et la durée amortie.</errorMessage>
+        <name>LLC_BI__Balloon_Loan_terms_cannot_be_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La durée du prêt et la durée amortie ne peuvent pas être identiques.</errorMessage>
+        <name>LLC_BI__Balloon_Term_loan_not_equal_to_amortized</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un prêt peut être un renouvellement OU une modification. Il ne peut pas être les deux à la fois.</errorMessage>
+        <name>LLC_BI__Cannot_Check_More_Than_One_Loan_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Veuillez vous assurer que le taux d’intérêt pour ce prêt ne dépasse pas le taux plafond.</errorMessage>
+        <name>LLC_BI__Interest_Rate_Above_Ceiling</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Veuillez vous assurer que le taux d’intérêt pour ce prêt ne dépasse pas le taux plafond.</errorMessage>
+        <name>LLC_BI__Interest_Rate_Below_Floor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Veuillez vous assurer que le taux plafond est supérieur ou égal au taux plancher.</errorMessage>
+        <name>LLC_BI__Rate_Ceiling_Higher_Or_Equal_To_Floor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Veuillez vous assurer que le taux plancher est inférieur ou égal au taux plafond.</errorMessage>
+        <name>LLC_BI__Rate_Floor_Lower_Or_Equal_To_Ceiling</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Le montant validé ne peut pas être supérieur au montant dont il est retiré.</errorMessage>
+        <name>LLC_BI__Takedown_Amount_Less_Or_Equal_Parent</name>
+    </validationRules>
+    <webLinks>
+        <label>Livre Système d&apos;entretien</label>
+        <name>Book_to_Servicing_System</name>
+    </webLinks>
+    <webLinks>
+        <label>Prétendre</label>
+        <name>CSA_Claim</name>
+    </webLinks>
+    <webLinks>
+        <label>L&apos;acceptation des clients</label>
+        <name>Client_Acceptance</name>
+    </webLinks>
+    <webLinks>
+        <label>Prêt de clôture d&apos;examen</label>
+        <name>LLCLP__Download_LaserPro_Extract</name>
+    </webLinks>
+    <webLinks>
+        <label>Exporter vers Doc Préparation</label>
+        <name>LLCLP__Export_to_LaserPro</name>
+    </webLinks>
+    <webLinks>
+        <label>Tree View Emprunteur</label>
+        <name>LLC_BI__Borrower_Tree</name>
+    </webLinks>
+    <webLinks>
+        <label>Modifier le produit</label>
+        <name>LLC_BI__Change_Product</name>
+    </webLinks>
+    <webLinks>
+        <label>Copier le prêt</label>
+        <name>LLC_BI__Copy_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label>Note de crédit</label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label>Refuser un prêt</label>
+        <name>LLC_BI__Decline_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>LLC_BI__DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label>Envoyer pour accord</label>
+        <name>LLC_BI__Loan_Submit_For_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label>Nouveau prêt</label>
+        <name>LLC_BI__NewLoan</name>
+    </webLinks>
+    <webLinks>
+        <label>Nouvelle facilité</label>
+        <name>LLC_BI__New_Facility</name>
+    </webLinks>
+    <webLinks>
+        <label>Nouvelle limite/sous-limite/retrait</label>
+        <name>LLC_BI__New_Takedown</name>
+    </webLinks>
+    <webLinks>
+        <label>Voir en nCino</label>
+        <name>LLC_BI__Switch_UI</name>
+    </webLinks>
+    <webLinks>
+        <label>Récapitulatif des souscriptions</label>
+        <name>LLC_BI__Underwriting_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label>Supprimer le prêt</label>
+        <name>LLC_BI__deleteLoan</name>
+    </webLinks>
+    <webLinks>
+        <label>Renouveler/modifier le prêt</label>
+        <name>LLC_BI__renew_loan</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>New_Facility2</name>
+    </webLinks>
+    <webLinks>
+        <label>Nouveau prêt</label>
+        <name>New_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label>Envoyer des offres</label>
+        <name>Send_Offers</name>
+    </webLinks>
+    <webLinks>
+        <label>Envoyer au document de préparation</label>
+        <name>Send_to_Document_Prep</name>
+    </webLinks>
+    <webLinks>
+        <label>Partager avec le partenaire</label>
+        <name>Share_with_Partner</name>
+    </webLinks>
+    <webLinks>
+        <label>Soumettre à la prise ferme</label>
+        <name>Submit_to_Underwriting</name>
+    </webLinks>
+    <webLinks>
+        <label>Rapport de liste de surveillance</label>
+        <name>nBRIDGER__Watchlist_Report</name>
+    </webLinks>
+    <webLinks>
+        <label>Obtenir le rapport de crédit</label>
+        <name>nCBC__get_credit_report</name>
+    </webLinks>
+    <webLinks>
+        <label>Analyses financières</label>
+        <name>nCRED__StatementLauncher</name>
+    </webLinks>
+    <webLinks>
+        <label>Génération de formulaires</label>
+        <name>nFORMS__Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label>demander des documents</label>
+        <name>nPortal__Manage_Customer_Portal</name>
+    </webLinks>
+    <webLinks>
+        <label>Nouveau</label>
+        <name>nRetail__New_Retail_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label>E-Tran examen</label>
+        <name>nSBA__ETranReview</name>
+    </webLinks>
+    <webLinks>
+        <label>Envoyer à Doc Préparation</label>
+        <name>nXFLO__Download_Flo_Export</name>
+    </webLinks>
+</CustomObjectTranslation>

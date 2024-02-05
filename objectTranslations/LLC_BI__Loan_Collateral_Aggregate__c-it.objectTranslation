@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Collateral_Recovery_Value_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Collateral_Value_Umbrella__c</name>
+    </fields>
+    <fields>
+        <help>Numero record collaterale impegnato</help>
+        <label>Conteggio collaterale impegnato</label>
+        <name>LLC_BI__Collateral_Pledged_Count__c</name>
+    </fields>
+    <fields>
+        <help>Somma del valore prestabile di tutto il collaterale</help>
+        <label>Valore prestabile totale corrente</label>
+        <name>LLC_BI__Current_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale di collaterale impegnato a fronte del prestito</help>
+        <label>Valore totale collaterale impegnato</label>
+        <name>LLC_BI__Total_Collateral_Pledged__c</name>
+    </fields>
+    <fields>
+        <help>Il valore totale di tutto il collaterale associato al prestito</help>
+        <label>Valore totale collaterale</label>
+        <name>LLC_BI__Total_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <help>La somma di tutti i pegni associati al prestito</help>
+        <label>Totale importo pegno corrente</label>
+        <name>LLC_BI__Total_Current_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Totale importo pegno superiore</label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Collateral_Recovery_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Subscription_Amount_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Subscription_Amount__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

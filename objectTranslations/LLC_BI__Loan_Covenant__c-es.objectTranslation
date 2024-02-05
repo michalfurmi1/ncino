@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Gestión de garantía</label>
+        <name>Covenant_Type__c</name>
+    </fields>
+    <fields>
+        <label>Las excepciones de política</label>
+        <name>Financial_Indicator_Value__c</name>
+    </fields>
+    <fields>
+        <label>Frecuencia</label>
+        <name>Frequency__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Las excepciones de política</label>
+        <name>LLC_BI__Covenant2__c</name>
+        <relationshipLabel>Créditos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>pactos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Las excepciones de política</label>
+        <name>Last_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loan_Covenant_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta</label>
+        <name>Next_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>Relationship__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>nueva Alianza</label>
+        <name>LLC_BI__New_Covenant</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Auto_Approved__c</name>
+    </fields>
+    <fields>
+        <help>Datum, an dem die Bedingung bewilligt wurde.</help>
+        <label>Bewilligungsungsdatum</label>
+        <name>LLC_BI__Approval_Date__c</name>
+    </fields>
+    <fields>
+        <help>Benutzer, der die Prüfung dieser Bedingung genehmigt hat.</help>
+        <label>Bewilligt durch</label>
+        <name>LLC_BI__Approved_By__c</name>
+        <relationshipLabel>Einhaltung von Bedingungen (bewilligt von)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Der Zeitraum des Finanzanalyseberichts, auf den sich der Datensatz zur Einhaltung der Bedingungen bezieht.</help>
+        <label>Verknüpfter Zeitraum des Finanzanalysebe</label>
+        <name>LLC_BI__Associated_Spread_Statement_Period__c</name>
+        <relationshipLabel>Einhaltung von Bedingungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status des zugehörigen Finanzanalyseberi</label>
+        <name>LLC_BI__Associated_Statement_Period_Status__c</name>
+        <picklistValues>
+            <masterLabel>Associated</masterLabel>
+            <translation>Verknüpft</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Keine</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unassociated</masterLabel>
+            <translation>Nicht verknüpft</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Automatisierter Teststatus</label>
+        <name>LLC_BI__Automated_Testing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation>Nicht bestanden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation>Unvollständig</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation>Bestanden</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Bündel</label>
+        <name>LLC_BI__Bundle__c</name>
+    </fields>
+    <fields>
+        <label>Anmerkungen</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Bedingung</label>
+        <name>LLC_BI__Covenant__c</name>
+        <relationshipLabel>Einhaltung von Bedingungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Datum des Inkrafttretens</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>Der Benutzer, der diese Bedingung bewertet hat</help>
+        <label>Bewertet von</label>
+        <name>LLC_BI__Evaluated_By__c</name>
+        <relationshipLabel>Einhaltung von Bedingungen (bewertet von)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Das Datum, an dem diese Bedingung bewertet wurde.</help>
+        <label>Bewertungsdatum</label>
+        <name>LLC_BI__Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <help>Wenn es eine Ausnahme gab: Das Datum, an dem die Ausnahme aufgetreten ist.</help>
+        <label>Ausnahmedatum</label>
+        <name>LLC_BI__Exception_Date__c</name>
+    </fields>
+    <fields>
+        <help>Der Finanzindikatorwert der verknüpften Bedingung zu dem Zeitpunkt, an dem der Datensatz zur Einhaltung der Bedingung auf „konform“ gesetzt wurde.</help>
+        <label>Historischer Wert finanzieller Indikator</label>
+        <name>LLC_BI__Historic_Financial_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Zeitraumschlüssel</label>
+        <name>LLC_BI__Period_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Compliant</masterLabel>
+            <translation>Konform</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation>Ausnahme</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Ausstehend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation>Aufgegeben</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Charity</masterLabel>
+        <translation>Organización benéfica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corporation</masterLabel>
+        <translation>Corporación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Estate</masterLabel>
+        <translation>Estado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Financial Institution</masterLabel>
+        <translation>Institución financiera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Household</masterLabel>
+        <translation>Unidad familiar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Individual</masterLabel>
+        <translation>Individuo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Institutional Investor</masterLabel>
+        <translation>Inversor institucional</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limited Liability Company</masterLabel>
+        <translation>Empresa de responsabilidad limitada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limited Partnership</masterLabel>
+        <translation>Sociedad comanditaria</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Municipality</masterLabel>
+        <translation>Municipio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partnership</masterLabel>
+        <translation>Asociación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sole Proprietorship</masterLabel>
+        <translation>Empresa individual</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trust</masterLabel>
+        <translation>Fideicomiso</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

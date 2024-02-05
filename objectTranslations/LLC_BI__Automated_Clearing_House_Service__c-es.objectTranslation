@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Abogado</label>
+        <name>LLC_BI__ACH_Block_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation>Borrar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revise</masterLabel>
+            <translation>Revisar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Auto E-Sign</label>
+        <name>LLC_BI__ACH_Block__c</name>
+    </fields>
+    <fields>
+        <label>Vista de cliente</label>
+        <name>LLC_BI__ACH_Filter_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation>Borrar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revise</masterLabel>
+            <translation>Revisar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>comentarios</label>
+        <name>LLC_BI__ACH_Filter__c</name>
+    </fields>
+    <fields>
+        <label>criterios</label>
+        <name>LLC_BI__Customer_Contact_for_Rejects__c</name>
+        <relationshipLabel>Servicio cámara de compensación automatizada</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Listas de control de cierre</label>
+        <name>LLC_BI__EDI_Reporting_Format__c</name>
+        <picklistValues>
+            <masterLabel>HTML</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDF</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation>Texto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>DocManager</label>
+        <name>LLC_BI__EDI_Reporting_Type__c</name>
+        <picklistValues>
+            <masterLabel>Detail</masterLabel>
+            <translation>Detalle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary</masterLabel>
+            <translation>Resumen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Listas de control de cierre</label>
+        <name>LLC_BI__EDI_Reporting__c</name>
+    </fields>
+    <fields>
+        <label>DocTab</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Listas de control de cierre</label>
+        <name>LLC_BI__Originator_Company_ID__c</name>
+    </fields>
+    <fields>
+        <label>DocType</label>
+        <name>LLC_BI__Originator_Name__c</name>
+        <relationshipLabel>Servicio de Compensación Automatizada Casa (Originador Nombre)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Debido días antes</label>
+        <name>LLC_BI__Request_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>ExpansionLh</label>
+        <name>LLC_BI__Request_Expiration__c</name>
+        <picklistValues>
+            <masterLabel>No Expiration</masterLabel>
+            <translation>Sin caducidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring</masterLabel>
+            <translation>Periódico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation>Soltero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specified Expiration</masterLabel>
+            <translation>expiración especificada</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ExpansionRe</label>
+        <name>LLC_BI__Select_Applicable_Accounts_to_Block__c</name>
+        <picklistValues>
+            <masterLabel>Populate from Deposit Object</masterLabel>
+            <translation>Poblar de depósito de objetos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation>Prueba</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Activo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Muerto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Servicio cámara de compensación automatizada</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

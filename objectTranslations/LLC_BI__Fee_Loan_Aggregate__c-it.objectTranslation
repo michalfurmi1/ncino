@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Loan_Proceeds__c</name>
+    </fields>
+    <fields>
+        <help>Il numero totale di commissioni del mutuatario associate a questo oggetto.</help>
+        <label>Numero di commissioni del mutuatario</label>
+        <name>LLC_BI__Number_of_Borrower_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Il numero totale di commissioni in contanti associate a questo oggetto.</help>
+        <label>Numero di commissioni in contanti</label>
+        <name>LLC_BI__Number_of_Cash_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Il numero totale di commissioni associate a questo oggetto.</help>
+        <label>Numero di commissioni</label>
+        <name>LLC_BI__Number_of_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Il numero totale di commissioni finanziate associate a questo oggetto.</help>
+        <label>Numero di commissioni finanziate</label>
+        <name>LLC_BI__Number_of_Financed_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Il numero totale di commissioni del prestatore associate a questo oggetto.</help>
+        <label>Numero di commissioni del prestatore</label>
+        <name>LLC_BI__Number_of_Lender_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Il numero totale di commissioni non standard associate a questo oggetto.</help>
+        <label>Numero di commissioni non standard</label>
+        <name>LLC_BI__Number_of_Nonstandard_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Il numero totale di commissioni del venditore associate a questo oggetto.</help>
+        <label>Numero di commissioni del venditore</label>
+        <name>LLC_BI__Number_of_Seller_Fees__c</name>
+    </fields>
+    <fields>
+        <help>Il numero totale di commissioni standard associate a questo oggetto.</help>
+        <label>Numero di commissioni standard</label>
+        <name>LLC_BI__Number_of_Standard_Fees__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni del mutuatario associate all’oggetto.</help>
+        <label>Totale importo commissioni del mutuatari</label>
+        <name>LLC_BI__Total_Borrower_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni in contanti associate all’oggetto.</help>
+        <label>Totale importo commissioni in contanti</label>
+        <name>LLC_BI__Total_Cash_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni meno l’importo totale delle commissioni pagate.</help>
+        <label>Totale importo commissioni in sospeso</label>
+        <name>LLC_BI__Total_Fee_Amount_Outstanding__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale pagato delle commissioni associate all’oggetto.</help>
+        <label>Totale importo commissioni pagato</label>
+        <name>LLC_BI__Total_Fee_Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni associate a questo oggetto.</help>
+        <label>Totale importo commissioni</label>
+        <name>LLC_BI__Total_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni finanziate associate all’oggetto.</help>
+        <label>Totale importo commissioni finanziate</label>
+        <name>LLC_BI__Total_Financed_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni del prestatore associate all’oggetto.</help>
+        <label>Totale importo commissioni del prestator</label>
+        <name>LLC_BI__Total_Lender_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni non standard associate all’oggetto.</help>
+        <label>Totale importo commissioni non standard</label>
+        <name>LLC_BI__Total_Nonstandard_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni del venditore associate all’oggetto.</help>
+        <label>Totale importo commissioni del venditore</label>
+        <name>LLC_BI__Total_Seller_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>L’importo totale delle commissioni standard associate all’oggetto.</help>
+        <label>Totale importo commissioni standard</label>
+        <name>LLC_BI__Total_Standard_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Origination_Charges__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Services_You_Can_Shop_For__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Services_You_Cannot_Shop_For__c</name>
+    </fields>
+    <fields>
+        <label>Totale altro</label>
+        <name>Total_Other__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_services_you_can_shop_for_amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_services_you_canno_shop_for_amount__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Nombre completo en cheques</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>La exposición excluidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Comentarios</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Alambre de ABA cuenta</label>
+        <name>LLC_BI__Debt__c</name>
+        <relationshipLabel>La exposición excluidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Razón para la exclusión</label>
+        <name>LLC_BI__Exclude_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Debt Consolidation</masterLabel>
+            <translation>Consolidación de la deuda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>Refinanciación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term-Out Refinance</masterLabel>
+            <translation>Plazo-Refinanciamiento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>La exposición excluidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Paquete de productos</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>La exposición excluidos</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

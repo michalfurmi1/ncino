@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Conto</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Lead</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Filiale</label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel>Lead</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Email_Opt_In__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Interest__c</name>
+        <picklistValues>
+            <masterLabel>Product 1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 3</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dettaglio lead</label>
+        <name>LLC_BI__Lead_Detail__c</name>
+    </fields>
+    <fields>
+        <label>Priorità lead</label>
+        <name>LLC_BI__Lead_Priority__c</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Specifiche lead</label>
+        <name>LLC_BI__Lead_Specifics__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Altro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dettaglio status lead</label>
+        <name>LLC_BI__Lead_Status_Detail__c</name>
+    </fields>
+    <fields>
+        <help>L’ammontare dell’opportunità (prestito, deposito, ecc.)</help>
+        <label>Importo opportunità</label>
+        <name>LLC_BI__Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Tipologia prestito</label>
+        <name>LLC_BI__Loan_Type__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation>Acquisizione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion</masterLabel>
+            <translation>Espansione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>Rifinanziamento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relocation</masterLabel>
+            <translation>Trasferimento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start-up</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Startup</masterLabel>
+            <translation>Start-up</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cellulare</label>
+        <name>LLC_BI__Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label>Numero di ubicazioni</label>
+        <name>LLC_BI__NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label>Primario</label>
+        <name>LLC_BI__Primary__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Interesse nel prodotto</label>
+        <name>LLC_BI__ProductInterest__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC3000 series</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Linea di prodotto</label>
+        <name>LLC_BI__Product_Line_Reference__c</name>
+        <relationshipLabel>Lead</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Linea di prodotto</label>
+        <name>LLC_BI__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Business Card</masterLabel>
+            <translation>Scheda presentazione aziendale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasing and Finance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Card</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Catalogo prodotti</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Lead</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Prodotto</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>Lead</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipologia di prodotto</label>
+        <name>LLC_BI__Product_Type_Reference__c</name>
+        <relationshipLabel>Lead</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipologia di prodotto</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business No Rewards</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Rewards</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - HELOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Mortgage</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Recreational Vehicle</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Unsecured LOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Unsecured Term</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Vehicle</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasing and Finance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Real Estate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Altro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal No Rewards</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Rewards</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation>Immobile</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Startup</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Prodotto</label>
+        <name>LLC_BI__Product__c</name>
+        <picklistValues>
+            <masterLabel>ARM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounts Receivables</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation>Agricoltura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balloon</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balloon Special</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business &amp; Real Estate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Only</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital Finance Lease</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crops</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DBO Lease</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value Lease</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>Fisso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ground-Up Real Estate</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Development</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lease-Hold</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation>Linea di credito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine Purchase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer Promotion</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating Lease</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Buyout</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum Rewards</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Plus Bonus</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase New</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Primary/Vacation Residence</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Used</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RLOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV Purchase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation>Immobile</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Only</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale-Leaseback</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skyways</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Business Card</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Personal Card</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRAC Lease</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax/True Lease</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unimproved - Purchase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unimproved - Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured - Term Loan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured LOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital - Term Loan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Segnalato a</label>
+        <name>LLC_BI__Referred_To__c</name>
+        <picklistValues>
+            <masterLabel>BofA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ricavi</label>
+        <name>LLC_BI__Revenue__c</name>
+    </fields>
+    <fields>
+        <label>Codice SIC</label>
+        <name>LLC_BI__SICCode__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Queue_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Related_Lead__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Web_Lead__c</name>
+    </fields>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Loan</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Treasury_Management</name>
+    </recordTypes>
+    <webLinks>
+        <label></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Convert_Product_Package_Thisone</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Convert_to_nCino</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Convert_to_nCino2</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Hogan_Test</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label>Converti in ciclo di vita</label>
+        <name>LLC_BI__Convert</name>
+    </webLinks>
+    <webLinks>
+        <label>Converti in catalogo prodotti</label>
+        <name>LLC_BI__Convert_to_Product_Package</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label>Servizi tesoreria</label>
+        <name>Treasury_Services</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

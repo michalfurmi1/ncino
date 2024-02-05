@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Número oficial</label>
+        <name>nSBA__Application__c</name>
+        <relationshipLabel>Uso de los Recursos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nombre de la empresa que se compra. Utilice este campo sólo para los negocios / de la utilización de compra de los tipos de los Recursos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Autoridad sin garantía de crédito indivi</label>
+        <name>nSBA__Business_Name__c</name>
+    </fields>
+    <fields>
+        <help>el uso del préstamo a cuenta de Descripción. Utilice este campo sólo para uso rinda frutos préstamo provisional del tipo de producto. Este campo se utiliza en SBA única autorización.</help>
+        <label>Gerente del gerente</label>
+        <name>nSBA__Description__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad en dólares de los fondos que se utilizarán para los activos intangibles en la compra de negocios / existencias. Utilice este campo sólo para los negocios / de la utilización de compra de los tipos de los Recursos. Este campo se utiliza en</help>
+        <label>nCino datos Usuario2</label>
+        <name>nSBA__Intangible_Asset_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Los activos intangibles Descripción. Utilice este campo sólo para los negocios / de la utilización de compra de los tipos de los Recursos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Bridger contraseña</label>
+        <name>nSBA__Intangible_Asset_Description__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del Prestamista. Utilice este campo sólo para pagar el préstamo de construcción provisional no garantizada por el uso de la SBA tipo de producto. Este campo se utiliza en SBA única autorización.</help>
+        <label>Número NMLS</label>
+        <name>nSBA__Lender_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indica cómo se utilizarán los fondos del préstamo.</help>
+        <label>Tiene limitar la propiedad Alcanzado</label>
+        <name>nSBA__Loan_Proceed_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>01</masterLabel>
+            <translation>Sólo Compra de tierras</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02</masterLabel>
+            <translation>Comprar terrenos y mejoras</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03</masterLabel>
+            <translation>Las mejoras de compra Sólo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04</masterLabel>
+            <translation>Construir un edificio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05</masterLabel>
+            <translation>Añadir una adición a un edificio existente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06</masterLabel>
+            <translation>Hacer renovaciones a un edificio existente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07</masterLabel>
+            <translation>Sus frutos Provisional préstamo de construcción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>08</masterLabel>
+            <translation>Pagar el préstamo interino del prestamista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>09</masterLabel>
+            <translation>Mejoras arrendatarias</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>compra de equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation>Compra Mobiliario y útiles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation>compra de inventario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation>Comercio pago o cuentas por pagar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation>La deuda no misma institución - pagar Documentos por Pagar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation>Notas de pago por pagar - Institución misma deuda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation>Compra de Negocios - Compra de Activos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation>Compra de negocios - de la compra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation>Refinanciar préstamos de la SBA - Deuda misma institución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation>Capital de trabajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation>Cuota de garantía de la SBA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation>Refinanciamiento de la deuda préstamo-SBA no misma institución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation>A corto plazo de capital circulante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation>Los fondos para garantizar una Carta de Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation>Financiar una carta de crédito</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ciudad física de los inmuebles. Utilice este campo sólo para uso Inmobiliaria de tipos recaudado. Este campo se utiliza en SBA única autorización.</help>
+        <label>Portal de clientes Historia Sharing</label>
+        <name>nSBA__Location_City__c</name>
+    </fields>
+    <fields>
+        <help>Estado físico de los inmuebles. Utilice este campo sólo para uso Inmobiliaria de tipos recaudado. Este campo se utiliza en SBA única autorización.</help>
+        <label>Creado por el usuario del cliente de com</label>
+        <name>nSBA__Location_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>CON</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>California</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation>Colorado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation>Connecticut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation>Florida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Georgia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>HOLA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation>Iowa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation>CARNÉ DE IDENTIDAD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation>Illinois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>EN</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation>Kansas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation>Kentucky</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation>Massachusetts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>Maryland</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>YO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation>Minnesota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>SRA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation>MONTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>CAROLINA DEL NORTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>DAKOTA DEL NORTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation>Nebraska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>Nueva Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation>Nuevo Méjico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>Nueva York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>DE ACUERDO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>O</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pensilvania</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation>Rhode Island</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>CAROLINA DEL SUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation>Tennesse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>VIRGINIA OCCIDENTAL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Dirección Calle física de los inmuebles. Utilice este campo sólo para uso Inmobiliaria de tipos recaudado. Este campo se utiliza en SBA única autorización.</help>
+        <label>lendable Región</label>
+        <name>nSBA__Location_Street__c</name>
+    </fields>
+    <fields>
+        <help>Código postal física de los inmuebles. Utilice este campo sólo para uso Inmobiliaria de tipos recaudado. Este campo se utiliza en SBA única autorización.</help>
+        <label>Identificación Tributaria prestamista</label>
+        <name>nSBA__Location_Zipcode__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad en dólares de los fondos que se utilizarán para este uso particular del producto.</help>
+        <label>Rama primaria</label>
+        <name>nSBA__Proceed_Amount__c</name>
+    </fields>
+    <fields>
+        <help>El texto que describe este uso particular de los fondos del préstamo.</help>
+        <label>Asegurado autoridad de préstamo individu</label>
+        <name>nSBA__Proceed_Other_Type_Text__c</name>
+    </fields>
+    <fields>
+        <label>Autoridad sin garantía de crédito indivi</label>
+        <name>nSBA__Proceed_Type_Code__c</name>
+    </fields>
+    <fields>
+        <label>Firma digitalizada del usuario</label>
+        <name>nSBA__Purchase_Agreement_Date__c</name>
+    </fields>
+    <fields>
+        <help>Número del préstamo de la SBA. Utilice este campo sólo para refinanciar préstamos de la SBA uso de tipos de los Recursos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Esto será utilizado para mantener Firma</label>
+        <name>nSBA__SBA_Loan_Number__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del accionista vendedor todas las acciones en circulación. Utilice este campo sólo para los negocios / de la utilización de compra de los tipos de los Recursos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Asignado a</label>
+        <name>nSBA__Stockholder_Name__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

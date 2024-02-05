@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Persona que certifica</label>
+        <name>LLC_BI__Certifying_Individual__c</name>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>LLC_BI__Connected_From__c</name>
+        <relationshipLabel>Conexiones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>LLC_BI__Connected_To__c</name>
+        <relationshipLabel>Conectado desde</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Función</label>
+        <name>LLC_BI__Connection_Role__c</name>
+        <relationshipLabel>Conexiones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Persona que controla</label>
+        <name>LLC_BI__Controlling_Individual__c</name>
+        <picklistValues>
+            <masterLabel>Executive Officer or Senior Manager</masterLabel>
+            <translation>Delegado o Directivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Person Performing Similar Function</masterLabel>
+            <translation>Otra persona que desempeñe funciones similares</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Porcentaje de propiedad indirecta</label>
+        <name>LLC_BI__Indirect_Ownership_Percent__c</name>
+    </fields>
+    <fields>
+        <label>Título oficial</label>
+        <name>LLC_BI__Official_Title__c</name>
+    </fields>
+    <fields>
+        <label>Porcentaje de propiedad</label>
+        <name>LLC_BI__Ownership_Percent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Reciprocal_Role__c</name>
+        <picklistValues>
+            <masterLabel>Affiliated Company</masterLabel>
+            <translation>Empresa afiliada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Partner</masterLabel>
+            <translation>Socio comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation>Secundario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation>Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colleague</masterLabel>
+            <translation>Compañero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company</masterLabel>
+            <translation>Empresa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation>Competidor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connection</masterLabel>
+            <translation>Conexión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>Empleado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation>Empleador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation>Primario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Socio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related</masterLabel>
+            <translation>Familiar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation>Proveedor de servicios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sibling</masterLabel>
+            <translation>Hermano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse/Life Partner</masterLabel>
+            <translation>Cónyuge/Compañero de vida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>Subsidiaria</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Affiliated Company</masterLabel>
+            <translation>Empresa afiliada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Partner</masterLabel>
+            <translation>Socio comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation>Secundario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation>Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Owner</masterLabel>
+            <translation>Copropietario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colleague</masterLabel>
+            <translation>Compañero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation>Competidor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connection</masterLabel>
+            <translation>Conexión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>Empleado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation>Empleador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>Responsable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation>Primario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Socio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related</masterLabel>
+            <translation>Familiar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation>Proveedor de servicios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sibling</masterLabel>
+            <translation>Hermano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse/Life Partner</masterLabel>
+            <translation>Cónyuge/Compañero de vida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>Subsidiaria</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <label>Porcentaje de propiedad total directa/in</label>
+        <name>LLC_BI__Total_Direct_Indirect_Ownership_Percent__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <fields>
+        <help>Auto-genera identificador único para esta conexión.</help>
+        <label>UID</label>
+        <name>LLC_BI__UID__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>nSBA__Control_Interest_Type__c</name>
+        <picklistValues>
+            <masterLabel>Chairman of the Board</masterLabel>
+            <translation>Presidente de la Junta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Executive Officer (CEO)</masterLabel>
+            <translation>Director Ejecutivo (CEO)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Directors of the Concern</masterLabel>
+            <translation>Administración de la preocupación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Officers of the Concern</masterLabel>
+            <translation>Otros Oficiales de la preocupación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Partners of the Concern</masterLabel>
+            <translation>Otros socios de la preocupación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner of the Concern</masterLabel>
+            <translation>Propietario de la preocupación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President</masterLabel>
+            <translation>presidente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Borrower</masterLabel>
+            <translation>Prestatario primaria</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Las conexiones no se pueden editar.</errorMessage>
+        <name>LLC_BI__Prevent_Edit_on_Connections</name>
+    </validationRules>
+</CustomObjectTranslation>

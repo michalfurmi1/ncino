@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>emisor de la garantía</label>
+        <name>LLC_BI__Amount_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label>colateral Localización</label>
+        <name>LLC_BI__Budget__c</name>
+        <relationshipLabel>La partida presupuestaria Línea</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contador acumulativo de garantía</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Financing cost</masterLabel>
+            <translation>coste de financiación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard cost</masterLabel>
+            <translation>costo duro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest reserve</masterLabel>
+            <translation>reserva de interés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land cost</masterLabel>
+            <translation>costo de la tierra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soft cost</masterLabel>
+            <translation>costo suave</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de garantía</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Porcentaje combinado Pledged</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label>El porcentaje de esta garantía que se ha</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <label>Uso comercial</label>
+        <name>LLC_BI__Pending_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Percent_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label>Condición</label>
+        <name>LLC_BI__Percent_Disbursed__c</name>
+    </fields>
+    <fields>
+        <label>Número de contrato</label>
+        <name>LLC_BI__Percent_Remaining_Disbursement__c</name>
+    </fields>
+    <fields>
+        <label>Fecha del contrato</label>
+        <name>LLC_BI__Percent_of_Budget__c</name>
+    </fields>
+    <fields>
+        <label>tipo de contrato</label>
+        <name>LLC_BI__Remaining_Disbursement__c</name>
+    </fields>
+    <fields>
+        <label>Condado</label>
+        <name>LLC_BI__Template_Percent_of_Budget__c</name>
+    </fields>
+    <fields>
+        <label>Condado de garantía</label>
+        <name>LLC_BI__Total_Disbursed_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Colateral</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Por favor, introduzca un importe presupuestado o un porcentaje de la plantilla de presupuesto. Ambos no se puede introducir a la vez, se debe elegir para entrar en uno u otro sentido.</errorMessage>
+        <name>LLC_BI__Tpl_LineItem_Config_Defaults_Clash</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>El valor del campo &quot;Plantilla Porcentaje del presupuesto&quot; no puede superar el 100%.</errorMessage>
+        <name>LLC_BI__Tpl_Percent_of_Budget_Cannot_Exceed_100</name>
+    </validationRules>
+</CustomObjectTranslation>

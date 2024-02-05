@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Funktion</label>
+        <name>LLC_BI__Assigned_Role__c</name>
+        <relationshipLabel>Mitglieder Kreditteam</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Beschreibung des Kreditteam-Mitglieds</help>
+        <label>Beschreibung</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>Warteschlange</help>
+        <label>Gruppe</label>
+        <name>LLC_BI__Group__c</name>
+    </fields>
+    <fields>
+        <label>Kredit</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Mitglieder Kreditteam</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Analyst</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Officer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Verarbeitung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Loan Officer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Team_Role__c</name>
+        <relationshipLabel>Mitglieder Kreditteam</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Benutzer</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel>Mitglieder Kreditteam</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Lending_ID__c</name>
+    </fields>
+    <fields>
+        <label>Telefonnummer Teammitglied</label>
+        <name>Team_Member_Phone_Number__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>LLC_BI__Assign_Team</name>
+    </webLinks>
+</CustomObjectTranslation>

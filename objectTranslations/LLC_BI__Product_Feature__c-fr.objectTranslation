@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ stocke la clé de recherche qui correspond à une définition de fonction de produit dans l&apos;outil de simplicité CSi.</help>
+        <label>CSi Clé de recherche</label>
+        <name>CSiDP__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>permettre la participation</label>
+        <name>LLC_BI__Allow_Participation__c</name>
+    </fields>
+    <fields>
+        <label>Autoriser la syndication</label>
+        <name>LLC_BI__Allow_Syndication__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche combien le taux d&apos;intérêt augmente chaque année.</help>
+        <label>Augmentation du taux annuel</label>
+        <name>LLC_BI__Annual_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label>Structure du produit Ballon</label>
+        <name>LLC_BI__Balloon_Product_Structure__c</name>
+        <picklistValues>
+            <masterLabel>Balloon Amount</masterLabel>
+            <translation>Capital résiduel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balloon Term</masterLabel>
+            <translation>terme ballon</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ballon</label>
+        <name>LLC_BI__Balloon__c</name>
+    </fields>
+    <fields>
+        <help>La longueur de temps à partir de la date d&apos;ouverture du dépôt à terme à la date d&apos;échéance (par exemple 91 jours 18 mois).</help>
+        <label>CD terme</label>
+        <name>LLC_BI__CD_Term__c</name>
+    </fields>
+    <fields>
+        <label>Vérification avis de retrait</label>
+        <name>LLC_BI__Checking_Withdrawal_Notice__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Commercial__c</name>
+    </fields>
+    <fields>
+        <help>Indique sur la façon dont sont souvent ajoutés des gains acquis la politique générale d&apos;une institution à la solde du capital d&apos;un compte aux fins du calcul de gains supplémentaires.</help>
+        <label>Fréquence compoundage</label>
+        <name>LLC_BI__Compounding_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Annuelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continuous</masterLabel>
+            <translation>Continu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>du quotidien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Other Week</masterLabel>
+            <translation>Toutes les autres semaines</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No compounding/Simple</masterLabel>
+            <translation>Pas de mélange / simple</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestrielle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiannually</masterLabel>
+            <translation>Semestriellement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semimonthly</masterLabel>
+            <translation>Semi-mensuelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Hebdomadaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique le type de note de construction.</help>
+        <label></label>
+        <name>LLC_BI__Construction_Note_Type__c</name>
+        <picklistValues>
+            <masterLabel>Construction Only</masterLabel>
+            <translation>construction seulement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction and Permanent Note</masterLabel>
+            <translation>Construction et note permanent</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Vérifiez activer la création d&apos;enregistrement de la demande de produits.</help>
+        <label>Créer des applications</label>
+        <name>LLC_BI__Create_Applications__c</name>
+    </fields>
+    <fields>
+        <label>Créditant Type de fréquence</label>
+        <name>LLC_BI__Crediting_Frequency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Annuelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At maturity</masterLabel>
+            <translation>A maturité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-monthly</masterLabel>
+            <translation>Bimensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>du quotidien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestrielle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-annually</masterLabel>
+            <translation>Semestriellement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Hebdomadaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Structures dépendantes</label>
+        <name>LLC_BI__Dependent_Structures__c</name>
+        <picklistValues>
+            <masterLabel>ELOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Credit</masterLabel>
+            <translation>Lettre de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Level Future</masterLabel>
+            <translation>Multi Level avenir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Future</masterLabel>
+            <translation>Future Regular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loan/Current</masterLabel>
+            <translation>Durée du prêt / actuel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Exclure de l&apos;exposition</label>
+        <name>LLC_BI__Exclude_From_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ exclut tous les enregistrements associés Product__c du produit Choisir sur la Picklist LoanProducts la page Visualforce.</help>
+        <label>Exclure des LoanProducts</label>
+        <name>LLC_BI__Exclude_From_LoanProducts__c</name>
+    </fields>
+    <fields>
+        <label>Filtre d&apos;exposition</label>
+        <name>LLC_BI__Exposure_Filter__c</name>
+        <picklistValues>
+            <masterLabel>Tier 1</masterLabel>
+            <translation>Niveau 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 2</masterLabel>
+            <translation>Niveau 2</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nom du produit externe</label>
+        <name>LLC_BI__External_Product_Name__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif de change détermine le paiement final dans les calculs.</help>
+        <label>Calculs Montant du paiement</label>
+        <name>LLC_BI__Final_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Financed_Fee_Calculations__c</name>
+        <picklistValues>
+            <masterLabel>Add to Loan Amount</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Calculation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtract From Loan Amount</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ affiche combien le taux d&apos;intérêt augmente pour la première hausse de taux.</help>
+        <label>Augmenter la première Taux</label>
+        <name>LLC_BI__First_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Home_Lending_Compliance_Calculations__c</name>
+        <picklistValues>
+            <masterLabel>HCM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HPML</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique le type de frais associés au plan IRA.</help>
+        <label>Plan d&apos;IRA Type de frais</label>
+        <name>LLC_BI__IRA_Plan_Fee_Type__c</name>
+        <picklistValues>
+            <masterLabel>Annual Service/Administration Fee</masterLabel>
+            <translation>Service annuel / Frais d&apos;administration</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Establishment Fee</masterLabel>
+            <translation>Frais établissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination Fee</masterLabel>
+            <translation>Frais de résiliation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer/Direct Rollover Fee</masterLabel>
+            <translation>Transfert / direct des frais de roulement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le pour cent (le cas échéant) des frais associés au plan IRA.</help>
+        <label>Frais IRA plan</label>
+        <name>LLC_BI__IRA_Plan_Fee__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est lors de la configuration du catalogue de produits. Si le produit de dépôt inclura des exigences de retrait Remarque, sélectionnez ce champ.</help>
+        <label>Comprend retrait exigences de l&apos;avis</label>
+        <name>LLC_BI__Includes_Withdrawal_Notice_Requirements__c</name>
+    </fields>
+    <fields>
+        <help>Cet article indique le nom de l&apos;index lié au compte à taux variable.</help>
+        <label>Nom de l&apos;indice</label>
+        <name>LLC_BI__Index_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indique quel type de taux est utilisé pour déterminer le taux d&apos;intérêt initial sur le compte.</help>
+        <label>Intérêt initial Type de tarif</label>
+        <name>LLC_BI__Initial_Interest_Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>Fixe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le taux d&apos;intérêt initial sur le compte.</help>
+        <label>Taux d&apos;intérêt initial</label>
+        <name>LLC_BI__Initial_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Si cela est vrai un taux initial (soit un taux teaser) a été appliqué au compte.</help>
+        <label>Indicateur initial Taux</label>
+        <name>LLC_BI__Initial_Rate_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Le pourcentage qui est ajouté à la vitesse d&apos;index pour déterminer la vitesse initiale (accroche).</help>
+        <label>Marge initiale Taux</label>
+        <name>LLC_BI__Initial_Rate_Margin__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre de périodes que le taux initial sera en vigueur.</help>
+        <label>Taux initial Nombre Période</label>
+        <name>LLC_BI__Initial_Rate_Period_Number__c</name>
+    </fields>
+    <fields>
+        <help>Indique la période pendant laquelle le taux initial appliquera.</help>
+        <label>Taux initial Type de période</label>
+        <name>LLC_BI__Initial_Rate_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day(s)</masterLabel>
+            <translation>Journées)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month(s)</masterLabel>
+            <translation>Mois)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week(s)</masterLabel>
+            <translation>Semaines)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation>Années)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Méthode d&apos;Intérêts Courus</label>
+        <name>LLC_BI__Interest_Accrual_Method__c</name>
+        <picklistValues>
+            <masterLabel>30_360</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_360</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_365</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_Actual</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si cela est vrai une marge est utilisée pour déterminer le taux d&apos;intérêt pour un compte à taux variable.</help>
+        <label>Marge de taux d&apos;intérêt Indicateur</label>
+        <name>LLC_BI__Interest_Rate_Margin_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Ce pourcentage qui est ajouté à l&apos;indice pour déterminer le taux applicable pour le compte.</help>
+        <label>Taux d&apos;intérêt Pourcentage de marge</label>
+        <name>LLC_BI__Interest_Rate_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type de taux d&apos;intérêt sur le compte.</help>
+        <label>Intérêt Type de tarif</label>
+        <name>LLC_BI__Interest_Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>Fixe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le taux d&apos;intérêt du compte de dépôt. Si un débit initial (à savoir un d&apos;accroche) applique la présente est le taux qui est en vigueur après l&apos;expiration de la période d&apos;accroche.</help>
+        <label>Taux d&apos;intérêt</label>
+        <name>LLC_BI__Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Si les vrais gains accumulés doivent être distribués sur le compte.</help>
+        <label>Intérêt de retrait obligatoire</label>
+        <name>LLC_BI__Interest_Withdrawal_Required__c</name>
+    </fields>
+    <fields>
+        <label>Centre d&apos;échange est automatisé service</label>
+        <name>LLC_BI__Is_Automated_Clearing_House_Service__c</name>
+    </fields>
+    <fields>
+        <label>est-Binding</label>
+        <name>LLC_BI__Is_Binding__c</name>
+    </fields>
+    <fields>
+        <label>est acheté</label>
+        <name>LLC_BI__Is_Bought__c</name>
+    </fields>
+    <fields>
+        <label>est-budget</label>
+        <name>LLC_BI__Is_Budget_Item__c</name>
+    </fields>
+    <fields>
+        <label>est-Bundle</label>
+        <name>LLC_BI__Is_Bundle__c</name>
+    </fields>
+    <fields>
+        <label>Est Cash Service</label>
+        <name>LLC_BI__Is_Cash_Service__c</name>
+    </fields>
+    <fields>
+        <label>est-commercial</label>
+        <name>LLC_BI__Is_Commercial__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le produit est un produit de construction.</help>
+        <label>est-Construction</label>
+        <name>LLC_BI__Is_Construction__c</name>
+    </fields>
+    <fields>
+        <label>Est actuel Takedown</label>
+        <name>LLC_BI__Is_Current_Takedown__c</name>
+    </fields>
+    <fields>
+        <label>Carte de débit est</label>
+        <name>LLC_BI__Is_Debit_Card__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le produit est une note de la demande / a une fonction de la demande.</help>
+        <label>La demande est-note</label>
+        <name>LLC_BI__Is_Demand_Note__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce service de dépôt</label>
+        <name>LLC_BI__Is_Depository_Service__c</name>
+    </fields>
+    <fields>
+        <label>Est-Service Décaissement</label>
+        <name>LLC_BI__Is_Disbursement_Service__c</name>
+    </fields>
+    <fields>
+        <label>est-ELOC</label>
+        <name>LLC_BI__Is_ELOC__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le produit est un produit de plancher marchand.</help>
+        <label>Est-ce Plan d&apos;étage</label>
+        <name>LLC_BI__Is_Floor_Plan__c</name>
+    </fields>
+    <fields>
+        <label>est-orientation</label>
+        <name>LLC_BI__Is_Guidance__c</name>
+    </fields>
+    <fields>
+        <label>est-ce bail</label>
+        <name>LLC_BI__Is_Lease__c</name>
+    </fields>
+    <fields>
+        <label>Est-Lettre de crédit</label>
+        <name>LLC_BI__Is_Letter_of_Credit__c</name>
+    </fields>
+    <fields>
+        <label>LIMIT</label>
+        <name>LLC_BI__Is_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Est-Service Lockbox</label>
+        <name>LLC_BI__Is_Lockbox_Service__c</name>
+    </fields>
+    <fields>
+        <label>est le principal</label>
+        <name>LLC_BI__Is_Main__c</name>
+    </fields>
+    <fields>
+        <label>Est-service Divers</label>
+        <name>LLC_BI__Is_Miscellaneous_Service__c</name>
+    </fields>
+    <fields>
+        <label>Non renouvelable</label>
+        <name>LLC_BI__Is_Non_Revolving__c</name>
+    </fields>
+    <fields>
+        <label>Est-service bancaire en ligne</label>
+        <name>LLC_BI__Is_Online_Banking_Service__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce service de rapprochement</label>
+        <name>LLC_BI__Is_Reconciliation_Service__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce normal avenir</label>
+        <name>LLC_BI__Is_Regular_Future__c</name>
+    </fields>
+    <fields>
+        <label>est-ce normal</label>
+        <name>LLC_BI__Is_Regular__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce dépôt à distance Capture Service</label>
+        <name>LLC_BI__Is_Remote_Deposit_Capture_Service__c</name>
+    </fields>
+    <fields>
+        <label>Service de rapport est</label>
+        <name>LLC_BI__Is_Reporting_Service__c</name>
+    </fields>
+    <fields>
+        <label>est-renouvelable</label>
+        <name>LLC_BI__Is_Revolving__c</name>
+    </fields>
+    <fields>
+        <label>est en veille</label>
+        <name>LLC_BI__Is_Standby__c</name>
+    </fields>
+    <fields>
+        <label>Est sous la limite</label>
+        <name>LLC_BI__Is_Sublimit__c</name>
+    </fields>
+    <fields>
+        <label>Est-ce service de balayage</label>
+        <name>LLC_BI__Is_Sweep_Service__c</name>
+    </fields>
+    <fields>
+        <label>Est agent de syndication</label>
+        <name>LLC_BI__Is_Syndication_Agent__c</name>
+    </fields>
+    <fields>
+        <label>Est de syndication</label>
+        <name>LLC_BI__Is_Syndication_Member__c</name>
+    </fields>
+    <fields>
+        <label>Est prêt à terme</label>
+        <name>LLC_BI__Is_Term_Loan__c</name>
+    </fields>
+    <fields>
+        <label>Est-service bancaire</label>
+        <name>LLC_BI__Is_Wire_Service__c</name>
+    </fields>
+    <fields>
+        <label>Service est zéro solde du compte</label>
+        <name>LLC_BI__Is_Zero_Balance_Account_Service__c</name>
+    </fields>
+    <fields>
+        <help>Après avoir changé ce champ, allez à l&apos;onglet Administration nCino puis exécutez Installer les mises à jour et les mises à jour d&apos;installation du lot si cette fonction est liée aux produits qui sont liés aux prêts existants.</help>
+        <label>Ligne de crédit</label>
+        <name>LLC_BI__Line_Of_Credit__c</name>
+    </fields>
+    <fields>
+        <help>Le montant du solde de niveau maximal qui peut être dans le compte afin de gagner le taux présentées pour ce niveau. Ceci est le montant en dollars haut de gamme pour un niveau donné.</help>
+        <label>Solde maximal hiérarchisé compte</label>
+        <name>LLC_BI__Maximum_Balance_Tiered_Account__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ affiche la valeur maximale du taux d&apos;intérêt peut augmenter du taux teaser spécifié pendant la durée du prêt.</help>
+        <label>Augmentation de la fréquence cardiaque m</label>
+        <name>LLC_BI__Maximum_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <help>Le montant du solde minimum de niveau qui doit être dans le compte afin de gagner le taux présentées pour ce niveau. Ce montant est le faible dollar final pour un niveau donné.</help>
+        <label>Solde minimum hiérarchisé compte</label>
+        <name>LLC_BI__Minimum_Balance_Tiered_Account__c</name>
+    </fields>
+    <fields>
+        <help>Utilisez ce champ en option monnaie fixe un montant minimum de paiement.</help>
+        <label>Paiement minimum</label>
+        <name>LLC_BI__Minimum_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Le taux d&apos;intérêt le plus bas qui peut appliquer au compte.</help>
+        <label>Tarif minimum</label>
+        <name>LLC_BI__Minimum_Rate__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Monthly_Interest_Rate_Field__c</name>
+    </fields>
+    <fields>
+        <label>Nouveau prêt Champs supplémentaires</label>
+        <name>LLC_BI__New_Loan_Additional_Fields__c</name>
+        <relationshipLabel>caractéristiques du produit</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ de case en option assure le paiement est recalculé en cas de changement d&apos;intérêt.</help>
+        <label>nouveau paiement</label>
+        <name>LLC_BI__New_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type est utilisé pour l&apos;avance une note.</help>
+        <label>Note Type Advance</label>
+        <name>LLC_BI__Note_Advance_Type__c</name>
+        <picklistValues>
+            <masterLabel>No Advances</masterLabel>
+            <translation>Aucun progrès</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Revolving Advances</masterLabel>
+            <translation>Les progrès non renouvelables</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reimbursement Advances</masterLabel>
+            <translation>Les avances de remboursement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revolving Advances</masterLabel>
+            <translation>Les progrès revolving</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique la maturité d&apos;un autre compte le cas échéant. Ceci ne concerne que les comptes remarquer.</help>
+        <label>Avis Type de compte d&apos;échéance</label>
+        <name>LLC_BI__Notice_Account_Maturity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation>Rendez-vous amoureux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Alternate Maturity</masterLabel>
+            <translation>Non Autre maturité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Period</masterLabel>
+            <translation>Période</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Autre Fréquence Période de compoundage t</label>
+        <name>LLC_BI__Other_Compounding_Frequency_Time_Period__c</name>
+    </fields>
+    <fields>
+        <label>Autre Fréquence des crédits</label>
+        <name>LLC_BI__Other_Crediting_Frequency__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ numérique en option capture le réglage de la date de paiement pour commencer.</help>
+        <label>Paiement début de l&apos;ajustement</label>
+        <name>LLC_BI__Payment_Begin_Adjustment__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Payment_Calculation_Basis__c</name>
+        <picklistValues>
+            <masterLabel>Flat Amount</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent of Outstanding</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent of Principal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Payment_Calculation_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif picklist capture la méthode de calcul des paiements.</help>
+        <label>Type de paiement</label>
+        <name>LLC_BI__Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Calculated Payment</masterLabel>
+            <translation>Paiement calculé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Payment</masterLabel>
+            <translation>Paiement fixe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Interest</masterLabel>
+            <translation>Payer des intérêts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Principle</masterLabel>
+            <translation>Principe de paiement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ détermine le numéro en option le nombre de paiements par an.</help>
+        <label>Paiements par année</label>
+        <name>LLC_BI__Payments_Per_Year__c</name>
+    </fields>
+    <fields>
+        <help>Si cela est vrai, il y a une limite au montant qu&apos;un taux variable peut changer au cours des périodes déterminées successives.</help>
+        <label>Indicateur de changement périodique Limi</label>
+        <name>LLC_BI__Periodic_Change_Limit_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre de périodes entre les changements de taux périodiques.</help>
+        <label>Périodes entre les changements taux</label>
+        <name>LLC_BI__Periods_Between_Rate_Changes__c</name>
+    </fields>
+    <fields>
+        <help>Le jour où le taux d&apos;intérêt régulier prend effet à un compte de fréquence variable ayant un taux initial ou promotionnel différent / spécial (à savoir la date correspondant au jour après l&apos;expiration de la période initiale du taux pour le compte spé</help>
+        <label>Permanent Taux Date d&apos;entrée en vigueur</label>
+        <name>LLC_BI__Permanent_Rate_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Product_Term_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day(s)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month(s)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter(s)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Code But</label>
+        <name>LLC_BI__Purpose_Code__c</name>
+    </fields>
+    <fields>
+        <help>Le montant par lequel un taux variable peut changer dans le délai spécifié.</help>
+        <label>Taux Pourcentage de changement</label>
+        <name>LLC_BI__Rate_Change_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Indique la période de temps entre les changements de taux périodiques.</help>
+        <label>Taux Changer Type Période</label>
+        <name>LLC_BI__Rate_Change_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day(s)</masterLabel>
+            <translation>Journées)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month(s)</masterLabel>
+            <translation>Mois)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week(s)</masterLabel>
+            <translation>Semaines)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation>Années)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique la fréquence à taux variable peut changer.</help>
+        <label>Modification du taux Période</label>
+        <name>LLC_BI__Rate_Change_Period__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Annuelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At any time</masterLabel>
+            <translation>À tout moment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>du quotidien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Other Week</masterLabel>
+            <translation>Toutes les autres semaines</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestrielle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiannually</masterLabel>
+            <translation>Semestriellement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Hebdomadaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si cela est vrai un plafond de taux s&apos;applique sur le compte.</help>
+        <label>Taux maximum Indicateur</label>
+        <name>LLC_BI__Rate_Maximum_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Le taux d&apos;intérêt le plus élevé qui peut demander au compte.</help>
+        <label>taux maximum</label>
+        <name>LLC_BI__Rate_Maximum__c</name>
+    </fields>
+    <fields>
+        <help>Si cela est vrai un taux plancher applique au compte.</help>
+        <label>Indicateur de débit minimum</label>
+        <name>LLC_BI__Rate_Minimum_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type de taux qui sera appliqué au compte.</help>
+        <label>Type de taux</label>
+        <name>LLC_BI__Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation>Échange</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation>Unique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stepped</masterLabel>
+            <translation>étagé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier A</masterLabel>
+            <translation>Niveau A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier B</masterLabel>
+            <translation>Niveau B</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique le taux d&apos;intérêt auquel le compte sera renouvelé.</help>
+        <label>Renouvellement d&apos;intérêt Type de Taux</label>
+        <name>LLC_BI__Renewal_Interest_Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Basis</masterLabel>
+            <translation>Selon les établissements</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le nouveau taux d&apos;intérêt ou dividende lors du renouvellement automatique.</help>
+        <label>Renouvellement Taux d&apos;intérêt</label>
+        <name>LLC_BI__Renewal_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <label>sécurisé</label>
+        <name>LLC_BI__Secured__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour indiquer au système que le pourcentage Contingent fixé à 100% propriété système devrait tirer pour la fonction de produit spécifique.</help>
+        <label>Définir le pourcentage Contingent à 100%</label>
+        <name>LLC_BI__Set_Contingent_Percent_to_100__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est vérifié lorsque le taux d&apos;intérêt est autorisé à diminuer en dessous du taux teaser sur la durée du prêt et sans contrôle lorsque le taux d&apos;intérêt ne peut pas diminuer en dessous du taux teaser.</help>
+        <label>Escalier Step Down</label>
+        <name>LLC_BI__Stair_Step_Down__c</name>
+    </fields>
+    <fields>
+        <help>Le taux d&apos;intérêt qui applique à l&apos;étape correspondante.</help>
+        <label>Étape Taux d&apos;intérêt</label>
+        <name>LLC_BI__Step_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Indique la durée de la vitesse de pas correspondant sera appliqué.</help>
+        <label>Étape Type de tarif Période</label>
+        <name>LLC_BI__Step_Rate_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day(s)</masterLabel>
+            <translation>Journées)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month(s)</masterLabel>
+            <translation>Mois)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week(s)</masterLabel>
+            <translation>Semaines)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation>Années)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Le nombre de périodes que le taux progressif correspondant appliquera.</help>
+        <label>Étape Taux Période</label>
+        <name>LLC_BI__Step_Rate_Period__c</name>
+    </fields>
+    <fields>
+        <help>Indique le type de sous-ligne d&apos;une note.</help>
+        <label>Type de Subline</label>
+        <name>LLC_BI__Subline_Type__c</name>
+        <picklistValues>
+            <masterLabel>Asset Acquisition</masterLabel>
+            <translation>Acquisition d&apos;actifs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Acquisition</masterLabel>
+            <translation>Acquisition d&apos;équipement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loans</masterLabel>
+            <translation>Prêts à terme</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Term_Step__c</name>
+    </fields>
+    <fields>
+        <help>Le taux d&apos;intérêt applicable au niveau correspondant.</help>
+        <label>Hiérarchisé Taux d&apos;intérêt</label>
+        <name>LLC_BI__Tiered_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Le pourcentage qui est ajouté à (ou soustrait) l&apos;indice pour déterminer le taux applicable pour un niveau de compte donné aux niveaux de taux variable.</help>
+        <label>Pourcentage Marge hiérarchisé</label>
+        <name>LLC_BI__Tiered_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Remplir cette liste de sélection avec la méthode de calcul d&apos;un produit spécifique.</help>
+        <label>Méthode de calcul</label>
+        <name>SCALC__Calculation_Method__c</name>
+        <picklistValues>
+            <masterLabel>General Lending</masterLabel>
+            <translation>Lending général</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Lending</masterLabel>
+            <translation>prêts de détail</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Sélectionnez le format de certificat préféré et le type. Le doc Certified Combo génère le certificat longue durée, une carte de signature, et la forme de combinaison de divulgation de compte.</help>
+        <label>Certificat de type deposit certificat</label>
+        <name>WKDDP__Certificate_Of_Deposit_Certificate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Certificated--CD Only</masterLabel>
+            <translation>Certificated - CD seulement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificated--Combo Doc</masterLabel>
+            <translation>Certificated - Combo Doc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncertificated--Combo Doc</masterLabel>
+            <translation>Dématérialisée - Combo Doc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uncertificated--Receipt Only</masterLabel>
+            <translation>Dématérialisée - Réception seulement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour ignorer docview pour les produits complètement mis en correspondance.</help>
+        <label>Passer DocPrep iFrame</label>
+        <name>WKDDP__Skip_DocPrep_iFrame__c</name>
+    </fields>
+    <fields>
+        <label>L&apos;agriculture est</label>
+        <name>WKEDP__Is_Agriculture__c</name>
+    </fields>
+    <fields>
+        <label>L&apos;emprunt est la base</label>
+        <name>WKEDP__Is_Borrowing_Base__c</name>
+    </fields>
+    <fields>
+        <label>est-consommateur</label>
+        <name>WKEDP__Is_Consumer__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Points assigné</label>
+        <name>LLC_BI__Assigned_Points__c</name>
+    </fields>
+    <fields>
+        <label>Description du résultat</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Nom externe Règle</label>
+        <name>LLC_BI__External_Rule_Name__c</name>
+    </fields>
+    <fields>
+        <label>URL de flux</label>
+        <name>LLC_BI__Flow_URL__c</name>
+    </fields>
+    <fields>
+        <label>Débit numéro de version</label>
+        <name>LLC_BI__Flow_Version_Number__c</name>
+    </fields>
+    <fields>
+        <label>Nom de la règle interne</label>
+        <name>LLC_BI__Internal_Rule_Name__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Tableaux de bord</relationshipLabel>
+    </fields>
+    <fields>
+        <label>maximum de points</label>
+        <name>LLC_BI__Maximum_Points__c</name>
+    </fields>
+    <fields>
+        <label>D - Description du résultat</label>
+        <name>LLC_BI__Result_Description__c</name>
+    </fields>
+    <fields>
+        <label>Résultat</label>
+        <name>LLC_BI__Result__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>Diminué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erreur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Required</masterLabel>
+            <translation>Information requise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Review Required</masterLabel>
+            <translation>Manuel d&apos;examen requis</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommend Approval</masterLabel>
+            <translation>Recommander l&apos;approbation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommend Decline</masterLabel>
+            <translation>Recommander déclin</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Instantané</label>
+        <name>LLC_BI__Snapshot__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

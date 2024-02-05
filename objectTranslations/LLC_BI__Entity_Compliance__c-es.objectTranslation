@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>CSiDP__Is_Credit_Score_Used__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de declaración</label>
+        <name>LLC_BI__Age__c</name>
+    </fields>
+    <fields>
+        <label>Vendedor deuda Pmt permitido?</label>
+        <name>LLC_BI__Entity__c</name>
+        <relationshipLabel>entidad Compliances</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Alquiler de Terceros</label>
+        <name>LLC_BI__HMDA_Applicant_Type__c</name>
+        <picklistValues>
+            <masterLabel>Applicant</masterLabel>
+            <translation>Solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Applicant</masterLabel>
+            <translation>Co-Solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Producido por Terceros</label>
+        <name>LLC_BI__HMDA_Credit_Score__c</name>
+    </fields>
+    <fields>
+        <help>Si se selecciona otro crédito modelo de puntuación como el modelo de puntuación de crédito, este campo le permite introducir una descripción del modelo.</help>
+        <label>Acción</label>
+        <name>LLC_BI__HMDA_Credit_Scoring_Model_Other__c</name>
+    </fields>
+    <fields>
+        <label>Proceso</label>
+        <name>LLC_BI__HMDA_Credit_Scoring_Model__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Equifax Beacon 5,0</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>No hay co-solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>FICO puntuación de riesgo clásico 04</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>FICO puntuación de riesgo clásico 98</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>modelo de calificación de más de un crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>Otro modelo de calificación de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de cuenta</label>
+        <name>LLC_BI__HMDA_Ethnicity_Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Recogido en la base de la observación visual o apellido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No cobrados sobre la base de la observación visual o apellido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>No hay co-solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si Otro Hispano o Latino se selecciona como una Raza, este campo de texto le permite especificar el Otro origen hispano o latino (es). Es posible introducir hasta 50 caracteres.</help>
+        <label>ACH número de ruta ABA</label>
+        <name>LLC_BI__HMDA_Ethnicity_Other__c</name>
+    </fields>
+    <fields>
+        <help>Etnicidad de Entidad de Participación (hasta 5 opciones pueden ser seleccionados)</help>
+        <label>Número de Cuenta de ACH</label>
+        <name>LLC_BI__HMDA_Ethnicity__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>hispano o latino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation>mexicano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation>puertorriqueño</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation>cubano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation>Otro Hispano o Latino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No Hispano o Latino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No indicado por el solicitante en el correo, internet, teléfono o aplicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>No hay co-solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introducir, en dólares, el ingreso anual bruto se basó en tomar la decisión de crédito, o si no se tomó la decisión de crédito, el ingreso anual bruto invocado en la tramitación de la solicitud.</help>
+        <label>Numero de tarjeta de débito</label>
+        <name>LLC_BI__HMDA_Income__c</name>
+    </fields>
+    <fields>
+        <label>Primer mes de facturación</label>
+        <name>LLC_BI__HMDA_Not_Provided__c</name>
+    </fields>
+    <fields>
+        <label>JE del nombre de cuenta</label>
+        <name>LLC_BI__HMDA_Race_Collected__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Recogido en la base de la observación visual o apellido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No cobrados sobre la base de la observación visual o apellido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>No hay co-solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si se selecciona indio americano o nativo de Alaska como una carrera, este campo de texto le permite especificar la tribu inscrito o el director. Es posible introducir hasta 50 caracteres.</help>
+        <label>JE del número de cuenta</label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_1__c</name>
+    </fields>
+    <fields>
+        <help>Si se selecciona otro asiático como una carrera, este campo de texto le permite especificar la otra raza (s) Asiático. Es posible introducir hasta 50 caracteres.</help>
+        <label>Financiación Finalización ID</label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_27__c</name>
+    </fields>
+    <fields>
+        <help>Si se selecciona otra de las islas del Pacífico como la raza, este campo de texto le permite especificar la carrera (s) de otra isla del Pacífico. Es posible introducir hasta 50 caracteres.</help>
+        <label>Tipo de financiación Método</label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_44__c</name>
+    </fields>
+    <fields>
+        <help>Carrera de Entidad de Participación (hasta 5 opciones pueden ser seleccionados)</help>
+        <label>Financiación ID de sesión</label>
+        <name>LLC_BI__HMDA_Race__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>India EE.UU. o Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>asiático</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation>indio asiático</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation>chino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation>filipina</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation>japonés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation>coreano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation>vietnamita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation>otra asiática</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Americano negro o africano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Nativo de Hawai u otra isla del Pacífico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41</masterLabel>
+            <translation>nativo de Hawai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42</masterLabel>
+            <translation>Guameña o Chamorro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>43</masterLabel>
+            <translation>samoano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44</masterLabel>
+            <translation>Otra isla del Pacífico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Blanco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>No indicado por el solicitante en el correo, internet, teléfono o aplicación 7. No aplicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>No hay co-solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Financiación Target ID</label>
+        <name>LLC_BI__HMDA_Sex_Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Recogido en la base de la observación visual o apellido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No cobrados sobre la base de la observación visual o apellido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>No hay co-solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Financiación ID de usuario</label>
+        <name>LLC_BI__HMDA_Sex__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Masculino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Hembra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No indicado por el solicitante en el correo, internet, teléfono o aplicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>No hay co-solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>Co-solicitante seleccionado tanto hombres como mujeres</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description>Historial de cumplimiento HMDA, utilizando reglas efectiva a partir de 2017</description>
+        <label>HMDA-efectivo-2017</label>
+        <name>LLC_BI__HMDA_Effective_2017</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Historial de cumplimiento HMDA, utilizando reglas efectiva a partir de 2018</description>
+        <label>HMDA-efectivo-2018</label>
+        <name>LLC_BI__HMDA_Effective_2018</name>
+    </recordTypes>
+</CustomObjectTranslation>

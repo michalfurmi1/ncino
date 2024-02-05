@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Especificar la ruta que esta extensión d</label>
+        <name>nFORMS__Form_Template__c</name>
+        <relationshipLabel>Las uniones plantilla de formulario</relationshipLabel>
+    </fields>
+    <fields>
+        <label>SLDS Tamaño de cuadrícula de columna</label>
+        <name>nFORMS__Origin_Object__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

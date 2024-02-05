@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Le ratio de couverture</label>
+        <name>Coverage_Ratio__c</name>
+    </fields>
+    <fields>
+        <label>Pourcentage de réduction</label>
+        <name>Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Valeur actualisée</label>
+        <name>DiscountedValue__c</name>
+    </fields>
+    <fields>
+        <label>Pourcentage réduits</label>
+        <name>Discounted_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Valeur actualisée</label>
+        <name>Discounted_Value__c</name>
+    </fields>
+    <fields>
+        <label>Lien existant Montant</label>
+        <name>Existing_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Ratio d&apos;emprunt</label>
+        <name>LLC_BI__Advance_Rate__c</name>
+    </fields>
+    <fields>
+        <label>utilisation agricole</label>
+        <name>LLC_BI__Agricultural_Use__c</name>
+    </fields>
+    <fields>
+        <label>Airframe / Moteur Description de journau</label>
+        <name>LLC_BI__Airframe_Engine_Log_Books_Description__c</name>
+    </fields>
+    <fields>
+        <label>Aéroport / Home Base</label>
+        <name>LLC_BI__Airport_Home_Base__c</name>
+    </fields>
+    <fields>
+        <help>Date de la dernière fois que la garantie a été évaluée.</help>
+        <label>date de l&apos;évaluation</label>
+        <name>LLC_BI__Appraisal_Date__c</name>
+    </fields>
+    <fields>
+        <help>Indiquez si les actifs de l&apos;entreprise comprennent des appareils</help>
+        <label>Appareils d&apos;actifs -D</label>
+        <name>LLC_BI__Asset_Fixtures__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Avionique / Moteurs Description de</label>
+        <name>LLC_BI__Avionics_Engines_Description__c</name>
+    </fields>
+    <fields>
+        <label>Bloc</label>
+        <name>LLC_BI__Block__c</name>
+    </fields>
+    <fields>
+        <label>Corps</label>
+        <name>LLC_BI__Body__c</name>
+    </fields>
+    <fields>
+        <label>Entrée du livre</label>
+        <name>LLC_BI__Book_Entry__c</name>
+    </fields>
+    <fields>
+        <label>Numéro CUSIP</label>
+        <name>LLC_BI__CUSIP_Number__c</name>
+    </fields>
+    <fields>
+        <label>Rue collatérale Adresse</label>
+        <name>LLC_BI__Collateral_Address__c</name>
+    </fields>
+    <fields>
+        <label>Collateral Apposé sur un site permanent</label>
+        <name>LLC_BI__Collateral_Affixed_to_a_Permanent_Site__c</name>
+    </fields>
+    <fields>
+        <help>Placer la ville adresse garantie, état, et ici zip, séparés par une virgule années</help>
+        <label>Ville garantie, État, Zip -D</label>
+        <name>LLC_BI__Collateral_City_State_Zip__c</name>
+    </fields>
+    <fields>
+        <label>Ville collatérale</label>
+        <name>LLC_BI__Collateral_City__c</name>
+    </fields>
+    <fields>
+        <label>code de garantie</label>
+        <name>LLC_BI__Collateral_Code__c</name>
+    </fields>
+    <fields>
+        <label>Agent d&apos;assurance garantie</label>
+        <name>LLC_BI__Collateral_Insurance_Agent__c</name>
+    </fields>
+    <fields>
+        <label>Assurance garantie Ville</label>
+        <name>LLC_BI__Collateral_Insurance_City__c</name>
+    </fields>
+    <fields>
+        <label>Compagnie d&apos;assurance garantie</label>
+        <name>LLC_BI__Collateral_Insurance_Company__c</name>
+    </fields>
+    <fields>
+        <label>Téléphone Assurance garantie</label>
+        <name>LLC_BI__Collateral_Insurance_Phone__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de la police d&apos;assurance garantie</label>
+        <name>LLC_BI__Collateral_Insurance_Policy_Number__c</name>
+    </fields>
+    <fields>
+        <label>État d&apos;assurance garantie</label>
+        <name>LLC_BI__Collateral_Insurance_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation>Alabama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>AVEC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>SALUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>DANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>MARYLAND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>MOI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>MME</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>Dakota du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation>New Hampshire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>New Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>New York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>D&apos;accord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>OU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation>Wyoming</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rue des garanties d&apos;assurance</label>
+        <name>LLC_BI__Collateral_Insurance_Street__c</name>
+    </fields>
+    <fields>
+        <label>Code postale assurance garantie</label>
+        <name>LLC_BI__Collateral_Insurance_Zipcode__c</name>
+    </fields>
+    <fields>
+        <label>Collateral Publié par</label>
+        <name>LLC_BI__Collateral_Issued_By__c</name>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>Prêteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Issuer</masterLabel>
+            <translation>autre émetteur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>émetteur garantie</label>
+        <name>LLC_BI__Collateral_Issuer__c</name>
+    </fields>
+    <fields>
+        <label>Localisation des garanties</label>
+        <name>LLC_BI__Collateral_Location__c</name>
+    </fields>
+    <fields>
+        <label>Nom de la garantie</label>
+        <name>LLC_BI__Collateral_Name__c</name>
+    </fields>
+    <fields>
+        <label>État collatéral</label>
+        <name>LLC_BI__Collateral_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation>Alabama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>AVEC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>SALUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>DANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>MARYLAND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>MOI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>MME</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>Dakota du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation>New Hampshire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>New Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>New York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>D&apos;accord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>OU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VI</masterLabel>
+            <translation>NOUS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation>Wyoming</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Évaluation de la garantie</label>
+        <name>LLC_BI__Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <label>Code postal garantie</label>
+        <name>LLC_BI__Collateral_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label>Un usage commercial</label>
+        <name>LLC_BI__Commercial_Use__c</name>
+    </fields>
+    <fields>
+        <label>Condo / PUD</label>
+        <name>LLC_BI__Condo_PUD__c</name>
+    </fields>
+    <fields>
+        <label>Date de contrat</label>
+        <name>LLC_BI__Contract_Date__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de contrat</label>
+        <name>LLC_BI__Contract_Number__c</name>
+    </fields>
+    <fields>
+        <label>TYPE DE GARANTIE</label>
+        <name>LLC_BI__Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation>Contrat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter Contract</masterLabel>
+            <translation>Contrat Lettre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dépôt Numéro de compte</label>
+        <name>LLC_BI__Deposit_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Habitation</label>
+        <name>LLC_BI__Dwelling__c</name>
+    </fields>
+    <fields>
+        <label>Moteurs / Description de l&apos;équipement</label>
+        <name>LLC_BI__Engines_Equipment_Description__c</name>
+    </fields>
+    <fields>
+        <label>Les bénéficiaires existants</label>
+        <name>LLC_BI__Existing_Beneficiaries__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__FAA_Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label>FAA numéro d&apos;enregistrement</label>
+        <name>LLC_BI__FAA_Registration__c</name>
+    </fields>
+    <fields>
+        <label>Valeur brute prêtables</label>
+        <name>LLC_BI__Gross_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <label>Jauge brute</label>
+        <name>LLC_BI__Gross_Tonnage__c</name>
+    </fields>
+    <fields>
+        <label>Tenu par</label>
+        <name>LLC_BI__Held_By__c</name>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>Prêteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Aucun</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Holder</masterLabel>
+            <translation>autre Titulaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Hull et moteur journaux de bord Descript</label>
+        <name>LLC_BI__Hull_and_Engine_Log_Books_Description__c</name>
+    </fields>
+    <fields>
+        <label>Inclure la terre comme garantie</label>
+        <name>LLC_BI__Include_Land_As_Collateral__c</name>
+    </fields>
+    <fields>
+        <label>Bail</label>
+        <name>LLC_BI__Leasehold__c</name>
+    </fields>
+    <fields>
+        <help>Par exemple: S&apos;il y a une paire de mari et la femme qui sont propriétaires des biens immobiliers, les deux entités de référence.</help>
+        <label>Collateral Propriétaire 2</label>
+        <name>LLC_BI__Legal_Entity_2__c</name>
+        <relationshipLabel>Garantie (garantie du propriétaire 2)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Quelle entité juridique est la garantie par possédiez?</help>
+        <label>Propriétaire collatéral 1</label>
+        <name>LLC_BI__Legal_Entity__c</name>
+        <relationshipLabel>Collatéral (garantie du propriétaire (entité juridique))</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Lettre de date de crédit</label>
+        <name>LLC_BI__Letter_of_Credit_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Lien__c</name>
+        <picklistValues>
+            <masterLabel>1st</masterLabel>
+            <translation>1er</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation>2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd</masterLabel>
+            <translation>3</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Compagnie d&apos;assurance vie</label>
+        <name>LLC_BI__Life_Insurance_Agency__c</name>
+    </fields>
+    <fields>
+        <label>Montant garantie d&apos;assurance vie</label>
+        <name>LLC_BI__Life_Insurance_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Compagnie d&apos;Assurance-Vie Ville</label>
+        <name>LLC_BI__Life_Insurance_Company_City__c</name>
+    </fields>
+    <fields>
+        <label>État compagnie d&apos;assurance vie</label>
+        <name>LLC_BI__Life_Insurance_Company_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation>Alabama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>AVEC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>SALUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>DANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>MARYLAND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>MOI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>MME</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>Dakota du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation>New Hampshire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>New Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>New York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>D&apos;accord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>OU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VI</masterLabel>
+            <translation>NOUS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation>Wyoming</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Assurance vie Société Adresse</label>
+        <name>LLC_BI__Life_Insurance_Company_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label>Assurance vie Société ZipCode</label>
+        <name>LLC_BI__Life_Insurance_Company_ZipCode__c</name>
+    </fields>
+    <fields>
+        <label>Politique d&apos;assurance-vie Nombre</label>
+        <name>LLC_BI__Life_Insurance_Policy_Number__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Garantie</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Lot__c</name>
+    </fields>
+    <fields>
+        <label>Marque</label>
+        <name>LLC_BI__Make__c</name>
+    </fields>
+    <fields>
+        <label>Préfabriquée</label>
+        <name>LLC_BI__Manufactured_Home__c</name>
+    </fields>
+    <fields>
+        <label>Fabricant</label>
+        <name>LLC_BI__Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label>Marina / Nom du port</label>
+        <name>LLC_BI__Marina_Port_Name__c</name>
+    </fields>
+    <fields>
+        <label>Modèle</label>
+        <name>LLC_BI__Model__c</name>
+    </fields>
+    <fields>
+        <label>Nom de l&apos;assuré</label>
+        <name>LLC_BI__Name_of_Insured__c</name>
+    </fields>
+    <fields>
+        <label>Tonnage net</label>
+        <name>LLC_BI__Net_Tonnage__c</name>
+    </fields>
+    <fields>
+        <label>Remarques</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de partages</label>
+        <name>LLC_BI__Number_of_Shares__c</name>
+    </fields>
+    <fields>
+        <label>Nombre d&apos;unités</label>
+        <name>LLC_BI__Number_of_Units__c</name>
+    </fields>
+    <fields>
+        <label>Occupés par leur propriétaire</label>
+        <name>LLC_BI__Owner_Occupied__c</name>
+    </fields>
+    <fields>
+        <label>L&apos;intérêt du propriétaire</label>
+        <name>LLC_BI__Owners_Interest__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de colis</label>
+        <name>LLC_BI__Parcel_Number__c</name>
+    </fields>
+    <fields>
+        <label>Possessoire Numéro de compte</label>
+        <name>LLC_BI__Possessory_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Possessoire Solde actuel</label>
+        <name>LLC_BI__Possessory_Current_Balance__c</name>
+    </fields>
+    <fields>
+        <label>la maison d&apos;habitation</label>
+        <name>LLC_BI__Principal_Dwelling__c</name>
+    </fields>
+    <fields>
+        <label>Monnaie Montant Avant Lien</label>
+        <name>LLC_BI__Prior_Lien_Amount_Currency__c</name>
+    </fields>
+    <fields>
+        <label>Montant Avant Lien</label>
+        <name>LLC_BI__Prior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <help>S&apos;il y avait un privilège avant, qui était le titulaire?</help>
+        <label>Titulaire Lien existant</label>
+        <name>LLC_BI__Prior_Lien_Holder__c</name>
+    </fields>
+    <fields>
+        <label>Id impôt foncier</label>
+        <name>LLC_BI__Property_Tax_Id__c</name>
+    </fields>
+    <fields>
+        <label>Type de propriété</label>
+        <name>LLC_BI__Property_Type__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment</masterLabel>
+            <translation>Investissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal Dwelling</masterLabel>
+            <translation>la maison d&apos;habitation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Residence</masterLabel>
+            <translation>Résidence secondaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>achat argent</label>
+        <name>LLC_BI__Purchase_Money__c</name>
+    </fields>
+    <fields>
+        <label>refinancement</label>
+        <name>LLC_BI__Refinance__c</name>
+    </fields>
+    <fields>
+        <label>Immobilier résidentiel</label>
+        <name>LLC_BI__Residential_Property__c</name>
+    </fields>
+    <fields>
+        <label>Les progrès futurs Sécurise</label>
+        <name>LLC_BI__Secures_Future_Advances__c</name>
+    </fields>
+    <fields>
+        <label>État enregistré</label>
+        <name>LLC_BI__State_Registered__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation>Alabama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>AVEC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>SALUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>DANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>MARYLAND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>MOI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>MME</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>Dakota du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation>New Hampshire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>New Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>New York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>D&apos;accord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>OU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation>Wyoming</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Sous-type de garantie</label>
+        <name>LLC_BI__Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>AR (90 days and under with aging)</masterLabel>
+            <translation>AR (90 jours et moins avec le vieillissement)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounts Receivable</masterLabel>
+            <translation>Comptes débiteurs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aircraft</masterLabel>
+            <translation>Aéronef</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Tout</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Terrain Vehicle (ATV)</masterLabel>
+            <translation>Tous les véhicules tout-terrain (VTT de)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto/Light Truck &lt; 2.5 tons</masterLabel>
+            <translation>Auto / camions légers &lt;2,5 tonnes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto/Truck &gt; 2.5 tons</masterLabel>
+            <translation>Auto / camions&gt; 2,5 tonnes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breeding Animals</masterLabel>
+            <translation>Animaux d&apos;élevage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD-Externally Held</masterLabel>
+            <translation>CD-Extérieurement Held</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CD-Internally Held</masterLabel>
+            <translation>CD-interne Held</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Described</masterLabel>
+            <translation>Décrit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EQ &amp; Machinery</masterLabel>
+            <translation>EQ et machines</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Land</masterLabel>
+            <translation>Terres agricoles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feeders</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Contracts</masterLabel>
+            <translation>Marchés publics</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growing Crops</masterLabel>
+            <translation>Les cultures en croissance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation>Inventaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory (Raw Mat &amp; Fin Goods)</masterLabel>
+            <translation>Inventaire (Raw Mat &amp; Fin marchandises)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory (Work in Progress)</masterLabel>
+            <translation>Inventaire (travaux en cours)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land</masterLabel>
+            <translation>Terrain</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Credit</masterLabel>
+            <translation>Lettre de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance</masterLabel>
+            <translation>Assurance-vie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Listed Stock (non-purpose)</masterLabel>
+            <translation>Stock Liste (non-usage)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Home</masterLabel>
+            <translation>Mobile home</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor Vehicle</masterLabel>
+            <translation>Véhicule à moteur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorcycle</masterLabel>
+            <translation>Moto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Family</masterLabel>
+            <translation>Multi-famille</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Aucun</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Note/Instrument</masterLabel>
+            <translation>Avis/instrument</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation>Bureau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Possessory</masterLabel>
+            <translation>Autres possessions</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other RE</masterLabel>
+            <translation>Autre bien immobilier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Titled</masterLabel>
+            <translation>Autre actif physique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pleasure Boat</masterLabel>
+            <translation>Bateau de plaisance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipts/Bills</masterLabel>
+            <translation>Reçus/factures</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreational Vehicle</masterLabel>
+            <translation>Véhicule récréatif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential 1-4 Family</masterLabel>
+            <translation>Résidentiel 1-4 famille</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>Commerce de détail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings Account-Externally Held</masterLabel>
+            <translation>Compte d&apos;épargne-Held externe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings Account-Internally Held</masterLabel>
+            <translation>Compte d&apos;épargne-interne Held</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities</masterLabel>
+            <translation>Valeurs mobilières</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship</masterLabel>
+            <translation>Bateau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stored Crops</masterLabel>
+            <translation>Les cultures stockées</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trailer</masterLabel>
+            <translation>Remorque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Bonds</masterLabel>
+            <translation>Obligations du Trésor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation>Entrepôt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Subdivision__c</name>
+    </fields>
+    <fields>
+        <label>Third Party Ville</label>
+        <name>LLC_BI__Third_Party_City__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Third_Party_Company__c</name>
+    </fields>
+    <fields>
+        <label>État tiers</label>
+        <name>LLC_BI__Third_Party_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation>Alabama</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>AVEC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>Californie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Géorgie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>SALUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>DANS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>MARYLAND</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>MOI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>MME</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>Caroline du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>Dakota du Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation>New Hampshire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation>New Jersey</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>New York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>D&apos;accord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>OU</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pennsylvanie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>Caroline du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation>Dakota du Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VI</masterLabel>
+            <translation>NOUS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>Virginie-Occidentale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation>Wyoming</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Third Party Adresse</label>
+        <name>LLC_BI__Third_Party_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label>Tiers Code postal</label>
+        <name>LLC_BI__Third_Party_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label>Type</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Agricultural-Farm</masterLabel>
+            <translation>La ferme agricole</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boat/Recreational Vehicle</masterLabel>
+            <translation>Bateau / véhicule récréatif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Assets</masterLabel>
+            <translation>Fonds de commerce</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Use Vehicle</masterLabel>
+            <translation>Affaires utilisation des véhicules</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquid Assets</masterLabel>
+            <translation>Les liquidités</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Business Use Vehicle</masterLabel>
+            <translation>Non-utilisation des véhicules d&apos;entreprise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation>Bien immobilier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities</masterLabel>
+            <translation>Titres</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>UCC County Dépôt #</label>
+        <name>LLC_BI__UCC_County_Filing__c</name>
+    </fields>
+    <fields>
+        <label>UCC expiration (comté)</label>
+        <name>LLC_BI__UCC_Expiration_County__c</name>
+    </fields>
+    <fields>
+        <label>UCC expiration (État)</label>
+        <name>LLC_BI__UCC_Expiration_State__c</name>
+    </fields>
+    <fields>
+        <label>Déclaration UCC Financement</label>
+        <name>LLC_BI__UCC_Financing_Statement__c</name>
+    </fields>
+    <fields>
+        <label>UCC État de dépôt #</label>
+        <name>LLC_BI__UCC_State_Filing__c</name>
+    </fields>
+    <fields>
+        <label>UCC type</label>
+        <name>LLC_BI__UCC_Type__c</name>
+        <picklistValues>
+            <masterLabel>Accounts</masterLabel>
+            <translation>Comptes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chattel Paper</masterLabel>
+            <translation>papier chattel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Goods</masterLabel>
+            <translation>Biens de consommation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crops</masterLabel>
+            <translation>Cultures</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation>Équipement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Equipment</masterLabel>
+            <translation>Équipement agricole</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farm Products</masterLabel>
+            <translation>Produits agricoles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixtures</masterLabel>
+            <translation>Agencements</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Intangibles</masterLabel>
+            <translation>général Intangibles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation>Inventaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Livestock</masterLabel>
+            <translation>Bétail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minerals, Oil and Gas</masterLabel>
+            <translation>Minéraux, pétrole et gaz</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standing Timber</masterLabel>
+            <translation>bois sur pied</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tort Claim</masterLabel>
+            <translation>Tort revendication</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Numéro d&apos;identification du véhicule</label>
+        <name>LLC_BI__VIN__c</name>
+    </fields>
+    <fields>
+        <label>Nom du navire</label>
+        <name>LLC_BI__Vessel_Name__c</name>
+    </fields>
+    <fields>
+        <label>Année de construction</label>
+        <name>LLC_BI__Year_Built__c</name>
+    </fields>
+    <fields>
+        <label>Année</label>
+        <name>LLC_BI__Year__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__isFutureContext__c</name>
+    </fields>
+    <fields>
+        <label>Montant supérieur Lien</label>
+        <name>Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Prêt à la valeur</label>
+        <name>Loan_To_Value__c</name>
+    </fields>
+    <fields>
+        <help>Est-ce une garantie actuellement partie du portefeuille REO / OREO?</help>
+        <label></label>
+        <name>OREO__c</name>
+    </fields>
+    <fields>
+        <help>Comment l&apos;emprunteur l&apos;intention d&apos;utiliser la propriété?</help>
+        <label>Occupation</label>
+        <name>Occupancy__c</name>
+        <picklistValues>
+            <masterLabel>Investment/Rental</masterLabel>
+            <translation>Investissement / Location</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner Occupied</masterLabel>
+            <translation>Occupés par leur propriétaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation>Secondaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Override ou Remise en pourcentage</label>
+        <name>Override_or_Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>Outrepasser ou réduction de valeur</label>
+        <name>Override_or_Discount_Value__c</name>
+    </fields>
+    <fields>
+        <label>Solde du prêt proposé</label>
+        <name>Proposed_Loan_Balance__c</name>
+    </fields>
+    <fields>
+        <label>UCC County Numéro de dépôt</label>
+        <name>UCC_County_Filing_Number__c</name>
+    </fields>
+    <fields>
+        <label>UCC État Numéro de dépôt</label>
+        <name>UCC_State_Filing_Number__c</name>
+    </fields>
+    <fields>
+        <label>Date d&apos;évaluation</label>
+        <name>Valuation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Méthode d&apos;évaluation</label>
+        <name>Valuation_Method__c</name>
+        <picklistValues>
+            <masterLabel>Appraised</masterLabel>
+            <translation>évalué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation>Bilan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estimated</masterLabel>
+            <translation>estimation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Montant dû au vendeur sous contrat. Utilisez ce champ uniquement pour les privilèges sur l&apos;acheteur ou vendeur d&apos;intérêt dans le contrat de vente des terres. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Montant dû au vendeur sous contrat</label>
+        <name>nSBA__Amount_Owed_To_Seller_Under_Contract__c</name>
+    </fields>
+    <fields>
+        <help>Si un privilège est limitée à un certain montant, s&apos;il vous plaît utiliser ce champ. Dans le cas contraire le laisser vide. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Montant du privilège est limitée à</label>
+        <name>nSBA__Amount__c</name>
+    </fields>
+    <fields>
+        <label>type de l&apos;évaluation</label>
+        <name>nSBA__Appraisal_Type__c</name>
+        <picklistValues>
+            <masterLabel>Broker Opinion Of Value</masterLabel>
+            <translation>Avis de courtier de la valeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drive By</masterLabel>
+            <translation>Conduit par</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Appraisal</masterLabel>
+            <translation>évaluation limitée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAI Standard</masterLabel>
+            <translation>Plus standard</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Aucun</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Procédé d&apos;évaluation</label>
+        <name>nSBA__Assessment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Estimate</masterLabel>
+            <translation>Estimation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Appraisal</masterLabel>
+            <translation>évaluation limitée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside Appraisal</masterLabel>
+            <translation>En dehors évaluation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Price</masterLabel>
+            <translation>Prix ​​d&apos;achat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Card</masterLabel>
+            <translation>Carte de taxe</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Vérifiez si un privilège avant (s) qui est (sont) ouvert a pris fin à des progrès futurs doivent être fermées, par écrit, conformément à la loi applicable de l&apos;État. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Fermer Avant Open Ended Liens</label>
+        <name>nSBA__Close_Prior_Open_Ended_Liens__c</name>
+    </fields>
+    <fields>
+        <help>La date de location. Utilisez ce champ uniquement pour les privilèges sur l&apos;intérêt de Preneur dans un contrat de location par cession. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Date de location</label>
+        <name>nSBA__Date_Of_Lease__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez ce champ si vous ne voulez pas envoyer ce dossier de garantie sur E-Tran.</help>
+        <label>Ne pas envoyer sur E-Tran</label>
+        <name>nSBA__Do_Not_Send_Over_ETran__c</name>
+    </fields>
+    <fields>
+        <help>Preuve de titre et de privilège prioritaire les options ouvertes. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Preuve de titre et de privilège priorita</label>
+        <name>nSBA__Evidence_Of_Title_And_Lien_Priority_OO__c</name>
+    </fields>
+    <fields>
+        <help>Preuve de titre et la priorité des options Lien. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Preuve de titre et la priorité de Lien</label>
+        <name>nSBA__Evidence_Of_Title_And_Priority_Of_Lien__c</name>
+        <picklistValues>
+            <masterLabel>ALTA Loan Policy</masterLabel>
+            <translation>ALTA Politique prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney’s certificate of title</masterLabel>
+            <translation>Le certificat de titre de procureur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLTA Loan Policy</masterLabel>
+            <translation>CLTA Politique prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Title Policy</masterLabel>
+            <translation>Politique limitée Titre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgagee’s Title Policy</masterLabel>
+            <translation>Titre de la politique de créancier hypothécaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property, Judgment and Lien Report indicating that lender has obtained the required position</masterLabel>
+            <translation>Propriété, arrêt et rapport Lien indiquant que le prêteur a obtenu la position requise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title and/or Lien Search</masterLabel>
+            <translation>Titre et / ou Recherche Lien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title insurance customarily obtained for similar transactions in this jurisdiction</masterLabel>
+            <translation>L&apos;assurance titres obtenus habituellement pour des transactions similaires dans cette juridiction</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Liste une preuve de titre Open Options ici. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Preuve de titre Option Open</label>
+        <name>nSBA__Evidence_Of_Title_Open_Option__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le dépôt de la demande de préavis est requis. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Dépôt Demande d&apos;avis requis</label>
+        <name>nSBA__Filing_Request_For_Notice_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indique que la cession des loyers sur les terres et les améliorations sont incluses dans le privilège. Utilisez ce champ uniquement si elle est sélectionnée immobilier et l&apos;option Leaseholds est Lien sur terre et améliorations. Ce champ est utilisé d</help>
+        <label>Inclure la cession des loyers</label>
+        <name>nSBA__Include_Assignment_Of_Rents__c</name>
+    </fields>
+    <fields>
+        <help>Indique que les droits de l&apos;eau sont inclus dans le lien. Utilisez ce champ uniquement si elle est sélectionnée immobilier et l&apos;option Leaseholds est Lien sur terre et améliorations. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Inclure les droits de l&apos;eau</label>
+        <name>nSBA__Include_Water_Rights__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez l&apos;instrument spécifique état. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label></label>
+        <name>nSBA__Instrument__c</name>
+        <picklistValues>
+            <masterLabel>Deed of Trust</masterLabel>
+            <translation>Acte de fiducie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deed to Secure Debt</masterLabel>
+            <translation>Acte pour sécuriser la dette</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indemnity Deed</masterLabel>
+            <translation>Acte d&apos;indemnisation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana Trust Indenture</masterLabel>
+            <translation>Montana acte de fiducie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation>Hypothèque</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>S&apos;il y a des hypothèques antérieures sur cette garantie, définissez ce champ si un privilège antérieur est à composition non limitée. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Quelqu&apos;un est-il avant Lien à compositio</label>
+        <name>nSBA__Is_Any_Prior_Lien_Open_Ended__c</name>
+    </fields>
+    <fields>
+        <help>Est-locateurs renonciation requis. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Est requis locateurs renonciation</label>
+        <name>nSBA__Is_Landlords_Waiver_Required__c</name>
+    </fields>
+    <fields>
+        <help>Est Sans MGL L&apos;article 21 (e) est une ALTA ou une option hypothécaire Politique de prêt. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Est Sans MGL Section 21E</label>
+        <name>nSBA__Is_Without_MGL_Section_21e__c</name>
+    </fields>
+    <fields>
+        <help>Sans exceptions est standard (ALTA étendu) est une option politique de prêt ALTA. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Sans exceptions standard est</label>
+        <name>nSBA__Is_Without_Standard_Exceptions__c</name>
+    </fields>
+    <fields>
+        <help>Est sans enquête standard exception est une option politique prêt ALTA. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Est sans exception Standard Survey</label>
+        <name>nSBA__Is_Without_Standard_Survey_Exception__c</name>
+    </fields>
+    <fields>
+        <help>fiducie foncière montant de cessionnaires avant. Utilisez ce champ uniquement pour les privilèges en matière de cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Land Trust Avant cessionnaires Montant</label>
+        <name>nSBA__Land_Trust_Prior_Assignees_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Liste cessionnaires avant de fiducie foncière. Utilisez ce champ uniquement pour les privilèges en matière de cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Land Trust Avant cessionnaires</label>
+        <name>nSBA__Land_Trust_Prior_Assignees__c</name>
+    </fields>
+    <fields>
+        <help>fiducie foncière montant de titulaires de privilège avant. Utilisez ce champ uniquement pour les privilèges en matière de cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust. Ce champ est utilisé dans SBA prêt d&apos;autorisation seule</help>
+        <label>Land Trust Avant Montant titulaires de p</label>
+        <name>nSBA__Land_Trust_Prior_Lienholders_Amount__c</name>
+    </fields>
+    <fields>
+        <help>fiducie foncière de titulaires de privilège avant. Utilisez ce champ uniquement pour les privilèges en matière de cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Land Trust Avant titulaires de privilège</label>
+        <name>nSBA__Land_Trust_Prior_Lienholders__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de jours pour Bailleur de fournir un avis écrit prêteur / SBA d&apos;intention de résilier le bail pour le défaut de l&apos;emprunteur et l&apos;occasion de guérir. Utilisez ce champ uniquement pour le type d&apos;intérêt Locataires des privilèges. Ce champ est u</help>
+        <label>Contrat de bail Résiliation jours de pré</label>
+        <name>nSBA__Lease_Agreement_Termination_Notice_Days__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le nombre d&apos;années si la location doit être étendue au-dessus de la durée du prêt. Utilisez ce champ uniquement pour les privilèges sur les baux liés à la construction sur des terrains loués. Ce champ est utilisé dans SBA prêt d&apos;autorisation s</help>
+        <label>Durée de location de prêt plus Annees</label>
+        <name>nSBA__Leasehold_Term_Of_Loan_Plus_Years__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le prêteur doit provoquer acte pour être en mains tierces. Utilisez ce champ uniquement pour les privilèges sur l&apos;intérêt acheteur en Terre contrat de vente. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Prêteur doit Deed amener à être entiercé</label>
+        <name>nSBA__Lender_Must_Cause_Deed_To_Be_In_Escrow__c</name>
+    </fields>
+    <fields>
+        <help>Nom Preneur. Utilisez ce champ uniquement pour le type de liens d&apos;intérêt de Preneur. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>L&apos;intérêt pour le locataires Preneur Lea</label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessee__c</name>
+    </fields>
+    <fields>
+        <help>Nom Bailleur. Utilisez ce champ uniquement pour le type de liens d&apos;intérêt de Preneur. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>L&apos;intérêt pour le locataires Bailleur Le</label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessor__c</name>
+    </fields>
+    <fields>
+        <help>Liquor Numéro de licence. Utilisez ce champ uniquement si Sous-type de garantie est Liqour Licence. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Numéro de permis d&apos;alcool</label>
+        <name>nSBA__Liquor_License_Number__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si seulement Produit de permis d&apos;alcool de vente sont donnés en garantie. Utilisez ce champ uniquement si Sous-type de garantie est Liqour Licence. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Produit de permis d&apos;alcool de Vente uniq</label>
+        <name>nSBA__Liquor_License_Proceeds_Of_Sale_Only__c</name>
+    </fields>
+    <fields>
+        <help>Décrire la nature des intérêts et des montants. Utilisez ce champ uniquement pour les privilèges sur l&apos;acheteur ou vendeur d&apos;intérêt dans le contrat de vente des terres. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Nature des intérêts et des montants</label>
+        <name>nSBA__Nature_Of_Interests_And_Amounts__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si la politique Le titre doit créancier hypothécaire contient aucune exception pour les parties en possession. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;aut</help>
+        <label>Aucune exception pour les Parties en pos</label>
+        <name>nSBA__No_Exceptions_For_Parties_In_Possession__c</name>
+    </fields>
+    <fields>
+        <help>Liste des assignations de note. Utilisez ce champ uniquement si Sous-type de garantie est note. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Remarque missions</label>
+        <name>nSBA__Note_Assignments__c</name>
+    </fields>
+    <fields>
+        <help>Date de la note. Utilisez ce champ uniquement si Sous-type de garantie est note. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Note date</label>
+        <name>nSBA__Note_Date__c</name>
+    </fields>
+    <fields>
+        <help>Remarque Exécuté par. Utilisez ce champ uniquement si Sous-type de garantie est note. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Note Exécuté par</label>
+        <name>nSBA__Note_Executed_By__c</name>
+    </fields>
+    <fields>
+        <help>Remarque Exécuté Pour. Utilisez ce champ uniquement si Sous-type de garantie est note. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Remarque Exécuté Pour</label>
+        <name>nSBA__Note_Executed_To__c</name>
+    </fields>
+    <fields>
+        <help>Prêteur doit obtenir un accord écrit de fournir avant titulaires de privilège prêteur avec ce nombre de jours de préavis écrit avant de commencer la forclusion de privilège avant. Utilisez ce champ uniquement pour les privilèges sur les types de gara</help>
+        <label>Avis Avant forclusion Accord</label>
+        <name>nSBA__Notice_Before_Foreclosure_Agreement__c</name>
+    </fields>
+    <fields>
+        <help>Numéro le brevet américain. Utilisez ce champ uniquement si Sous-type de garantie est le brevet américain. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Numéro de brevet</label>
+        <name>nSBA__Patent_Number__c</name>
+    </fields>
+    <fields>
+        <help>S&apos;il y avait une première lian avant sur cette utilisation garantie ce champ pour saisir le texte qui va dans Authorzation prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Avant Lien Information 1</label>
+        <name>nSBA__Prior_Lien_Information_1__c</name>
+    </fields>
+    <fields>
+        <help>S&apos;il y avait une première lian avant sur cette utilisation garantie ce champ pour saisir le texte qui va dans Authorzation prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Avant Lien Information 2</label>
+        <name>nSBA__Prior_Lien_Information_2__c</name>
+    </fields>
+    <fields>
+        <help>S&apos;il y avait une première lian avant sur cette utilisation garantie ce champ pour saisir le texte qui va dans Authorzation prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Avant Lien Informations 3</label>
+        <name>nSBA__Prior_Lien_Information_3__c</name>
+    </fields>
+    <fields>
+        <help>S&apos;il y avait une première lian avant sur cette utilisation garantie ce champ pour saisir le texte qui va dans Authorzation prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Avant Lien Informations 4</label>
+        <name>nSBA__Prior_Lien_Information_4__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la vérification écrite détenteurs de privilèges requis. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Une vérification écrite préalable titula</label>
+        <name>nSBA__Prior_Lienholders_Written_Verification__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est défini sur true que si l&apos;intérêt de la sécurité des biens personnels est Puerto Rico hypothèque. Ce champ est utilisé dans les soumissions d&apos;autorisation de prêt SBA et E-Tran commençant par la version 5.</help>
+        <label>Puerto Rico hypothèque</label>
+        <name>nSBA__Puerto_Rico_Chattel_Mortgage__c</name>
+    </fields>
+    <fields>
+        <help>Nom de l&apos;acheteur dans l&apos;affectation des garanties (ou privilège sur) L&apos;intérêt de l&apos;acheteur en Terre contrat de vente. Utilisez ce champ uniquement pour les privilèges sur l&apos;acheteur ou vendeur d&apos;intérêt dans le contrat de vente des terres. Ce cham</help>
+        <label>Intérêt Acheteur contrat acheteurs</label>
+        <name>nSBA__Purchasers_Interest_Contract_Purchaser__c</name>
+    </fields>
+    <fields>
+        <help>Nom du vendeur dans l&apos;affectation des garanties (ou privilège sur) L&apos;intérêt de l&apos;acheteur en Terre contrat de vente. Utilisez ce champ uniquement pour les privilèges sur l&apos;acheteur ou vendeur d&apos;intérêt dans le contrat de vente des terres. Ce champ e</help>
+        <label>Vendeur intérêt acheteurs contrat</label>
+        <name>nSBA__Purchasers_Interest_Contract_Seller__c</name>
+    </fields>
+    <fields>
+        <help>Immobilier et options Leaseholds. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Immobilier et Leaseholds Option</label>
+        <name>nSBA__Realty_And_Leaseholds_Option__c</name>
+        <picklistValues>
+            <masterLabel>Assignment of Beneficial Interest and Power of Direction in Land Trust</masterLabel>
+            <translation>Cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Purchaser’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Cession en garantie (ou privilège sur) L&apos;intérêt de l&apos;acheteur dans le contrat de vente des terres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Seller’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Cession en garantie (ou privilège sur) L&apos;intérêt du vendeur Land contrat de vente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative Apartment</masterLabel>
+            <translation>Appartement coopérative</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Instrument on Building Constructed on Leased Land</masterLabel>
+            <translation>Instrument leasehold sur le renforcement Construit sur un terrain loué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Security Interest in building on leased land</masterLabel>
+            <translation>Leasehold sécurité dans la construction d&apos;intérêt sur un terrain loué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold on Tribal Land</masterLabel>
+            <translation>Sur les terres tribales leasehold</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Assignment</masterLabel>
+            <translation>L&apos;intérêt de Preneur dans un contrat de location par cession</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Lien, Mortgage or Deed of Trust</masterLabel>
+            <translation>L&apos;intérêt de Preneur dans un contrat de location par Lien, hypothèque ou un acte de fiducie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lien On Land And Improvements</masterLabel>
+            <translation>Lien sur terre et améliorations</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Avenants requis est une option politique prêt ALTA. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>MENTION rEQUISE</label>
+        <name>nSBA__Required_Endorsements__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le privilège est partagé avec les prêteurs non SBA prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Partagée Lien avec les prêteurs non SBA</label>
+        <name>nSBA__Shared_Lien_With_Lenders_Non_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Si le privilège est partagé avec un autre prêteur, ce domaine détient le privilège partagé Montant. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Partagé Lien avec d&apos;autres prêteur Monta</label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Si le privilège est partagé avec un autre prêteur, ce champ contient le nom du prêteur que le privilège est partagé. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Partagé Lien avec d&apos;autres le nom du prê</label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la déclaration de non-ferme est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Déclaration de non requis Homestead</label>
+        <name>nSBA__Statement_Of_Non_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez le statut de garantie dans la liste.</help>
+        <label>Statut</label>
+        <name>nSBA__Status__c</name>
+        <picklistValues>
+            <masterLabel>Abandoned</masterLabel>
+            <translation>Abandonné</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraised</masterLabel>
+            <translation>évalué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral of Record</masterLabel>
+            <translation>Collatéral enregistrement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dissipated</masterLabel>
+            <translation>dissipées</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Value</masterLabel>
+            <translation>Valeur totale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Possession</masterLabel>
+            <translation>En possession</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Claim</masterLabel>
+            <translation>Réclamation d&apos;assurance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventoried</masterLabel>
+            <translation>inventoriés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Unknown</masterLabel>
+            <translation>local inconnu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overvalued</masterLabel>
+            <translation>surévaluée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale Pending</masterLabel>
+            <translation>Vente en attente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sold</masterLabel>
+            <translation>Vendu</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique si le pouvoir légal de vente Langue est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Pouvoir légal de vente Langue Req</label>
+        <name>nSBA__Statutory_Power_Of_Sale_Language_Req__c</name>
+    </fields>
+    <fields>
+        <help>Indique si prêteur enquête Certifiè est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Sondage certifié au prêteur requis</label>
+        <name>nSBA__Survey_Certified_To_Lender_Required__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si la politique Le titre doit créancier hypothécaire refléter le fait que tous les impôts et privilèges municipaux ont été mis en cours ou payé. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce cha</help>
+        <label>Taxes et municipales Curr Ou Liens payan</label>
+        <name>nSBA__Taxes_And_Municipal_Liens_Curr_Or_Paid__c</name>
+    </fields>
+    <fields>
+        <help>La somme de tous les privilèges les deux détenus par la banque et les privilèges entrés comme détenus par d&apos;autres institutions.</help>
+        <label>Montant total Lien</label>
+        <name>nSBA__Total_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si la politique Titre est créancier hypothécaire sans exception à Homestead, Enquête ou taxes. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulem</help>
+        <label>WO Exception à l&apos;impôt Homestead enquête</label>
+        <name>nSBA__WO_Exception_To_Homestead_Survey_Taxes__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la renonciation de propriété familiale d&apos;affaires est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Renonciation aux affaires Homestead requ</label>
+        <name>nSBA__Waiver_Of_Business_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la renonciation aux droits de rachat est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Renonciation aux droits de rachat requis</label>
+        <name>nSBA__Waiver_Of_Redemption_Rights_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la renonciation écrite de propriété familiale est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Renonciation écrite de Homestead requis</label>
+        <name>nSBA__Written_Waiver_Of_Homestead_Required__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour la garantie du gouvernement contrat</description>
+        <label>Marchés publics</label>
+        <name>LLC_BI__Government_Contracts</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour Lettre possessoire de garantie de crédit</description>
+        <label>Lettre de crédit possessoire</label>
+        <name>LLC_BI__Possessory_Letter_of_Credit</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour possessoire d&apos;assurance-vie garantie</description>
+        <label>Possessoire d&apos;assurance-vie</label>
+        <name>LLC_BI__Possessory_Life_Insurance</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour possessoire Notes / garantie Instrument</description>
+        <label>Remarques possessoires / Instrument</label>
+        <name>LLC_BI__Possessory_Notes_Instrument</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour possessoire Autres garanties</description>
+        <label>Autres possessoire</label>
+        <name>LLC_BI__Possessory_Other</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement forPossessory épargne / garantie CD</description>
+        <label>Possessoires épargne / CD</label>
+        <name>LLC_BI__Possessory_Savings_CD</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement des garanties possessoires Securities</description>
+        <label>Valeurs mobilières possessoires</label>
+        <name>LLC_BI__Possessory_Securities</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement des garanties immobilier</description>
+        <label>Immobilier</label>
+        <name>LLC_BI__Real_Estate</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour Intitulée collatéral Aircraft</description>
+        <label>Aéronefs intitulée</label>
+        <name>LLC_BI__Titled_Aircraft</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour Intitulée Bateau collatéral</description>
+        <label>intitulée Bateau</label>
+        <name>LLC_BI__Titled_Boat</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour Intitulée garantie Mobile Home</description>
+        <label>Intitulée Maison Mobile</label>
+        <name>LLC_BI__Titled_Mobile_Home</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour la mise en page Intitulée garantie des véhicules à moteur</description>
+        <label>Véhicule à moteur intitulé</label>
+        <name>LLC_BI__Titled_Motor_Vehicle</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour Intitulée Autres garanties</description>
+        <label>intitulée Autres</label>
+        <name>LLC_BI__Titled_Other</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour Intitulée collatéral navire</description>
+        <label>navire intitulée</label>
+        <name>LLC_BI__Titled_Vessel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Type d&apos;enregistrement pour UCC garantie Décrite</description>
+        <label>UCC Décrite</label>
+        <name>LLC_BI__UCC_Life_Described</name>
+    </recordTypes>
+    <webLinks>
+        <label>Détermination des inondations</label>
+        <name>CBCFLD__Flood_Determination</name>
+    </webLinks>
+    <webLinks>
+        <label>Formulaire de génération</label>
+        <name>Form_Generation</name>
+    </webLinks>
+</CustomObjectTranslation>

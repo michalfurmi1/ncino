@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Pièce jointe Id</label>
+        <name>LLC_BI__Attachment_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Envelope_Id__c</name>
+    </fields>
+    <fields>
+        <label>Id Object</label>
+        <name>LLC_BI__Object_Id__c</name>
+    </fields>
+    <fields>
+        <label>Id Object connexes</label>
+        <name>LLC_BI__Related_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <label>Modèle</label>
+        <name>LLC_BI__Template__c</name>
+        <relationshipLabel>Enveloppes DocuSign</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

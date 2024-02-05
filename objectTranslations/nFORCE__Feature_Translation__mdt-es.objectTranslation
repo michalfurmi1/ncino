@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__Active__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Feature__c</name>
+        <relationshipLabel>Traducciones de características</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nFORCE__Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nFORCE__SObject_API_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

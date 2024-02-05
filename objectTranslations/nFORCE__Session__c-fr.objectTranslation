@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Catégorie</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Loan</masterLabel>
+            <translation>prêt commercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Loan</masterLabel>
+            <translation>Prêt à la consommation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Maintenance</masterLabel>
+            <translation>Entretien de dépôt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Origination</masterLabel>
+            <translation>dépôt Origination</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Commercial Loan Application</masterLabel>
+            <translation>Demande de prêt commercial en ligne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Consumer Loan Application</masterLabel>
+            <translation>Demande de prêt à la consommation en ligne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Deposit Application</masterLabel>
+            <translation>Dépôt en ligne demande</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>App Résolu</label>
+        <name>nFORCE__App_Resolved__c</name>
+    </fields>
+    <fields>
+        <label>ID de contexte</label>
+        <name>nFORCE__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>contexte page</label>
+        <name>nFORCE__Context_Page__c</name>
+    </fields>
+    <fields>
+        <label>session de données</label>
+        <name>nFORCE__Data__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Route_Group__c</name>
+        <relationshipLabel>sessions</relationshipLabel>
+    </fields>
+    <fields>
+        <label>URL session</label>
+        <name>nFORCE__Session_URL__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>session ouverte</label>
+        <name>nFORCE__Open_Session</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Nombre del tasador</label>
+        <name>nFUSE__Attachment__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del Negocio Tasador (persona)</label>
+        <name>nFUSE__Content_Document__c</name>
+    </fields>
+    <fields>
+        <label>Tasador Calificación ABV</label>
+        <name>nFUSE__DocMan_Template__c</name>
+    </fields>
+    <fields>
+        <label>Indica si tasador está acreditado de neg</label>
+        <name>nFUSE__Transaction_Log__c</name>
+        <relationshipLabel>Documentos de transacción</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

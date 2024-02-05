@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Saldo actual * Porcentaje Participar</help>
+        <label>Tipo</label>
+        <name>Current_Participant_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>comentarios</label>
+        <name>Deal__c</name>
+        <relationshipLabel>participaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cantidad asignada</label>
+        <name>LLC_BI__Allocated_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Participante</label>
+        <name>LLC_BI__Bank__c</name>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation>Banco de America</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NWFCU</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RBC Centura</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cantidad del compromiso</label>
+        <name>LLC_BI__Commitment_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad garantizada</label>
+        <name>LLC_BI__GTD_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad de la invitación</label>
+        <name>LLC_BI__Invite_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Es mi institución financiera</label>
+        <name>LLC_BI__Is_My_Financial_Institution__c</name>
+    </fields>
+    <fields>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Participaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Participante</label>
+        <name>LLC_BI__Participant__c</name>
+        <relationshipLabel>Participaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>% de participación</label>
+        <name>LLC_BI__Participated__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad de participación</label>
+        <name>LLC_BI__Participation_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Participaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Función</label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Administrative Agent</masterLabel>
+            <translation>Agente administrativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent</masterLabel>
+            <translation>Agente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Book Runner</masterLabel>
+            <translation>libro Runner</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Agent</masterLabel>
+            <translation>Co-Agente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participant</masterLabel>
+            <translation>Partícipe</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cantidad no garantizada</label>
+        <name>LLC_BI__UNGTD_Amount__c</name>
+    </fields>
+    <fields>
+        <label>% derechos de voto</label>
+        <name>LLC_BI__Voting_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Participación porcentual * Monto del préstamo original</help>
+        <label>Longitud plazo</label>
+        <name>Original_Participant_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Función</label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Agent/Lead</masterLabel>
+            <translation>Agente / plomo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Book Runner</masterLabel>
+            <translation>libro Runner</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investor/Participant</masterLabel>
+            <translation>Inversor / Participante</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

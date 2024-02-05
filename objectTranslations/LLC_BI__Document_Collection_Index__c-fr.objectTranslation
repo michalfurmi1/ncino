@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Collection de documents</label>
+        <name>LLC_BI__Document_Collection_Reference__c</name>
+        <relationshipLabel>Indices Collection Document</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Document_Collection__c</name>
+        <relationshipLabel>Indices Collection Document</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ optionnel est utilisé pour le stockage des métadonnées supplémentaires pertinentes pour le document connexe.</help>
+        <label>Les métadonnées du document</label>
+        <name>LLC_BI__Document_Metadata__c</name>
+    </fields>
+    <fields>
+        <label>document Store</label>
+        <name>LLC_BI__Document_Store__c</name>
+        <relationshipLabel>Indices Collection Document Store</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Document Collection État de l&apos;indexation</help>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Échoué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation>File d&apos;attente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uploaded</masterLabel>
+            <translation>Téléchargé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Id document Vendor</label>
+        <name>LLC_BI__Vendor_Document_Id__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

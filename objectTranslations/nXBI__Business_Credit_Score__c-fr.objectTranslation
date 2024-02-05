@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Rapport de crédit aux entreprises</label>
+        <name>nXBI__Business_Credit_Report__c</name>
+        <relationshipLabel>Affaires pointages de crédit</relationshipLabel>
+    </fields>
+    <fields>
+        <label>code de Score</label>
+        <name>nXBI__Score_Code__c</name>
+    </fields>
+    <fields>
+        <label>Score description de</label>
+        <name>nXBI__Score_Description__c</name>
+    </fields>
+    <fields>
+        <label>But</label>
+        <name>nXBI__Score__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

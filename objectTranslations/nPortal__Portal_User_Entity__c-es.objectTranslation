@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Segundo nombre</label>
+        <name>nPortal__Legal_Entity__c</name>
+        <relationshipLabel>Portal de Entidades Usuarias</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nombre usado para</label>
+        <name>nPortal__User__c</name>
+        <relationshipLabel>Y - Desaprobado Portal Entidades Usuarias</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

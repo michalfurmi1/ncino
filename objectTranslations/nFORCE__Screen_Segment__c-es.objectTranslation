@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>crédito disponible</label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <label>Saldo Promedio abierto</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>Los segmentos de la pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Indicador de la quiebra</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>Los segmentos de la pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <label>La delincuencia negocio Score</label>
+        <name>nFORCE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Bulk Update</masterLabel>
+            <translation>Actualización masiva</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk Update Field Grid</masterLabel>
+            <translation>El campo de cuadrícula actualización masiva</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Aplicación Plugin</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

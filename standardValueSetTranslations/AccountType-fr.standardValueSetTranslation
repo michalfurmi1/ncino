@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Charity</masterLabel>
+        <translation>Organisation caritative</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corporation</masterLabel>
+        <translation>Société</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Estate</masterLabel>
+        <translation>Propriété foncière</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Financial Institution</masterLabel>
+        <translation>Établissement financier</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Household</masterLabel>
+        <translation>Ménage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Individual</masterLabel>
+        <translation>Personne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Institutional Investor</masterLabel>
+        <translation>Investisseur institutionnel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limited Liability Company</masterLabel>
+        <translation>Société à responsabilité limitée</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limited Partnership</masterLabel>
+        <translation>Partenariat limité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Municipality</masterLabel>
+        <translation>Municipalité</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partnership</masterLabel>
+        <translation>Partenariat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sole Proprietorship</masterLabel>
+        <translation>Société unipersonnelle</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trust</masterLabel>
+        <translation>Trust</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

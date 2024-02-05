@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Indiquez le nom unique pour votre carrousel. Vous pouvez utiliser ce nom dans le constructeur de la communauté pour le composant carrousel.</help>
+        <label>Nom personnalisé (en option)</label>
+        <name>cloudx_cms__Name__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de diapositives</label>
+        <name>cloudx_cms__No_of_Slides__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

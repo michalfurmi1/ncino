@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Nom de plug-in</label>
+        <name>nFUSE__App_Plugin__c</name>
+    </fields>
+    <fields>
+        <label>Set terrain</label>
+        <name>nFUSE__Field_Set__c</name>
+    </fields>
+    <fields>
+        <label>est désactivée</label>
+        <name>nFUSE__Is_Deactivated__c</name>
+    </fields>
+    <fields>
+        <label>Contexte SObject Type</label>
+        <name>nFUSE__SObject_Type_Context__c</name>
+    </fields>
+    <fields>
+        <label>SObject type</label>
+        <name>nFUSE__SObject_Type__c</name>
+    </fields>
+</CustomObjectTranslation>

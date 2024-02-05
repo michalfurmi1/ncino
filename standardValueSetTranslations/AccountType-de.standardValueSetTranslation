@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Charity</masterLabel>
+        <translation>Wohltätigkeitsorganisation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Corporation</masterLabel>
+        <translation>Unternehmen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Estate</masterLabel>
+        <translation>Vermögen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Financial Institution</masterLabel>
+        <translation>Finanzinstitut</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Household</masterLabel>
+        <translation>Haushalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Individual</masterLabel>
+        <translation>Einzelperson</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Institutional Investor</masterLabel>
+        <translation>Institutioneller Anleger</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limited Liability Company</masterLabel>
+        <translation>Gesellschaft mit beschränkter Haftung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Limited Partnership</masterLabel>
+        <translation>Kommanditgesellschaft</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Municipality</masterLabel>
+        <translation>Stadtgemeinde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partnership</masterLabel>
+        <translation>Beteiligungsgesellschaft</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sole Proprietorship</masterLabel>
+        <translation>Einzelunternehmen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Trust</masterLabel>
+        <translation>Vertrauen</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

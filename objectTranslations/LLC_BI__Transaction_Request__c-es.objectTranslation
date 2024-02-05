@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>El porcentaje adicional (además de la retención del impuesto federal sobre la renta del 10%) que el propietario del IRA se habrá retenido de la distribución.</help>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__Additional_Federal_Withholding_Pct__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad adicional de dólares discrecional de retenciones federales, por encima de la línea de base del 10%, al plan IRA.</help>
+        <label>Estado</label>
+        <name>LLC_BI__Additional_Federal_Withholdings__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__Amount_Funded__c</name>
+    </fields>
+    <fields>
+        <label>Oficial TM</label>
+        <name>LLC_BI__Amount_Requested__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de la solicitud de transacción</help>
+        <label>Servicio de Tesorería (Oficial TM)</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de distribución de una cuenta de ahorro para la educación Coverdell (CESA).</help>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__CESA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution after May 31 of the tax year after excess contribution</masterLabel>
+            <translation>La corrección de la aportación en exceso después del 31 de mayo del año de impuestos después de aportación en exceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in same year as excess contribution</masterLabel>
+            <translation>El exceso de corrección de Contribución del mismo curso que el exceso de aporte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in year after excess contribution but by May 31</masterLabel>
+            <translation>El exceso de corrección de la Contribución en el año después de la aportación en exceso, pero el 31 de mayo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation>Muerte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>Discapacidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions - Non Transfer</masterLabel>
+            <translation>Distribuciones - No Transferencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions - Transfer to CESA of new qualified designated beneficiary</masterLabel>
+            <translation>Distribuciones - Traslado al CESA de nuevo beneficiario designado cualificado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions - Transfer to CESA of same Designated Beneficiary</masterLabel>
+            <translation>Distribuciones - Traslado al CESA del mismo Beneficiario Designado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions - Transfer to former spouse&apos;s CESA due to divorce or legal separation</masterLabel>
+            <translation>Distribuciones - Traslado al CESA ex cónyuge debido al divorcio o separación legal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>transacción prohibida</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La parte de la transferencia (CESA) que se considera la cantidad de resultados.</help>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__CESA_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>La parte de la transferencia (CESA) que se considera la cantidad base.</help>
+        <label>Número Lockbox</label>
+        <name>LLC_BI__CESA_Transfer_Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Mantenimiento Hora de finalización</label>
+        <name>LLC_BI__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <help>El importe de la contribución de IRA / HSA.</help>
+        <label>Mantenimiento Hora de inicio</label>
+        <name>LLC_BI__Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>El importe de la contribución más las ganancias.</help>
+        <label>Estado de mantenimiento</label>
+        <name>LLC_BI__Contribution_Plus_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>El año fiscal de la contribución de IRA / HSA.</help>
+        <label>Nombre completo en cheques</label>
+        <name>LLC_BI__Contribution_Tax_Year__c</name>
+    </fields>
+    <fields>
+        <help>El tipo de contribución de IRA</help>
+        <label>Sobregiro Opt-in</label>
+        <name>LLC_BI__Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>Regular (incluyendo Catch-Up)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return of Mistaken Distribution</masterLabel>
+            <translation>Retorno de distribución errónea</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from an Archer Medical Savings Account</masterLabel>
+            <translation>Vuelco de una Cuenta de Ahorro Médico Archer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from an HSA</masterLabel>
+            <translation>Vuelco de una HSA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an Archer Medical Savings Account</masterLabel>
+            <translation>Transferencia de una Cuenta de Ahorro Médico Archer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an HSA</masterLabel>
+            <translation>Traslado de una HSA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Esta es una descripción de cómo el individuo debe estar referenciada en el registro de verificación o certificado.</help>
+        <label>Dirección de contacto primario</label>
+        <name>LLC_BI__Delivery_Payment_Description__c</name>
+    </fields>
+    <fields>
+        <help>Descripción de una posible medio (s) para la transferencia de pago / solicitado.</help>
+        <label>Contacto Estado primaria</label>
+        <name>LLC_BI__Delivery_Payment_Options__c</name>
+        <picklistValues>
+            <masterLabel>Certificate registration in the name of</masterLabel>
+            <translation>Certificado de inscripción en el nombre de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check or electronic fund transfer payable to</masterLabel>
+            <translation>Cheque o transferencia electrónica de fondos a nombre de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check payable to</masterLabel>
+            <translation>Cheque a nombre de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check payable to or certificate registration in the name of</masterLabel>
+            <translation>Cheque a nombre de o certificado de registro en el nombre de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La cantidad base de depósito de la contribución (CESA). La cantidad base es igual a la cantidad de la contribución de transferencia o transferencia.</help>
+        <label>Contacto primario</label>
+        <name>LLC_BI__Deposit_Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de ganancias de depósito de la contribución (CESA).</help>
+        <label>Tipo de Mantenimiento</label>
+        <name>LLC_BI__Deposit_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <label>verificar PIN</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>Solicitud de transacción</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La cantidad de los gastos administrativos acusados ​​en relación con la distribución.</help>
+        <label>Dirección</label>
+        <name>LLC_BI__Distribution_Administration_Fee__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de la distribución total.</help>
+        <label>Ciudad</label>
+        <name>LLC_BI__Distribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Para Coverdell Education Savings Account (CESA) distribuciones de esto es la cantidad base para la distribución.</help>
+        <label>Cierre del Servicio</label>
+        <name>LLC_BI__Distribution_Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Para Coverdell Education Savings Account (CESA) distribuciones de esto es las ganancias de la distribución.</help>
+        <label>Ajuste de las ganancias de crédito</label>
+        <name>LLC_BI__Distribution_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el método de pago aplicable a la distribución.</help>
+        <label>cuenta analizada</label>
+        <name>LLC_BI__Distribution_Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Deposit into account with this financial organization</masterLabel>
+            <translation>Depósito en cuenta con esta organización financiera</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail Check</masterLabel>
+            <translation>Comprobar correo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La cantidad en dólares subtotal calculado externamente para imprimir en la tabla de detalle de pago en la forma de distribución o elección.</help>
+        <label>Usuario autorizado</label>
+        <name>LLC_BI__Distribution_Subtotal__c</name>
+    </fields>
+    <fields>
+        <help>Si es verdad una elección de pago ya existe y se adjunta una copia de la elección anterior.</help>
+        <label>Servicio de Tesorería</label>
+        <name>LLC_BI__Election_Of_Payment_Attached_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Si es verdad la elección del tipo de pago seleccionado es la elección por defecto que se hizo después de la fecha límite elecciones ha pasado.</help>
+        <label>Límite de alambre manual de</label>
+        <name>LLC_BI__Election_Of_Payment_Default_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de pago elegido por el beneficiario o, en el caso de un beneficiario IRA el tipo de pago elegido por el propietario.</help>
+        <label>Nuevos ingresos de crédito</label>
+        <name>LLC_BI__Election_Of_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Five Year Rule</masterLabel>
+            <translation>Regla de Cinco Años</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Life Expectancy</masterLabel>
+            <translation>Esperanza de vida individual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treat As Own</masterLabel>
+            <translation>Como tratar la propia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La cantidad de las ganancias atribuibles a la aportación en exceso. Esto sólo se aplica a las distribuciones relacionadas con las contribuciones en exceso o recharacterized.</help>
+        <label>Las ganancias de crédito viejas</label>
+        <name>LLC_BI__Excess_Attributable_Earnings__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de aportación en exceso en relación con la distribución.</help>
+        <label>Solicitar alambre Manual</label>
+        <name>LLC_BI__Excess_Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>El año fiscal para el cual se hizo la aportación en exceso. Esto sólo se aplica a las distribuciones relacionadas con las contribuciones en exceso o recharacterized.</help>
+        <label>Estado</label>
+        <name>LLC_BI__Excess_Contribution_Tax_Year__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad en dólares neto de retención federal, incluyendo la norma del 10% aplicado a la distribución subtotal</help>
+        <label>Volumen</label>
+        <name>LLC_BI__Federal_Withholding_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de distribución de una cuenta de ahorros de salud (HSA).</help>
+        <label>Colateral</label>
+        <name>LLC_BI__HSA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution - after my tax-filing due date</masterLabel>
+            <translation>La corrección de la aportación en exceso - después de mi fecha de vencimiento de presentación de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution by my tax-filing due date</masterLabel>
+            <translation>La corrección de la aportación en exceso por mi fecha límite de presentación de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death - Estate Beneficiary - Distribution is After Year of Death</masterLabel>
+            <translation>Beneficiario Dominio - - Distribución de la muerte es la muerte Después de Año</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death - Estate Beneficiary - Distribution is in Year of Death</masterLabel>
+            <translation>Muerte - Beneficiario Dominio - La distribución es en el año de la muerte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death - Other Beneficiary - Distribution is After Year of Death</masterLabel>
+            <translation>Muerte - otro beneficiario - La distribución es Después de año de la muerte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death - Other Beneficiary - Distribution is in Year of Death</masterLabel>
+            <translation>Muerte - otro beneficiario - La distribución es en el año de la muerte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>Discapacidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>transacción prohibida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to former spouse&apos;s HSA due to divorce or legal separation</masterLabel>
+            <translation>Transferencia a HSA ex cónyuge debido al divorcio o separación legal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to my HSA</masterLabel>
+            <translation>Transferencia a mi HSA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to spouse&apos;s HSA due to death</masterLabel>
+            <translation>Transferencia a HSA de su cónyuge debido a la muerte</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si es verdad el propietario del IRA opta por que el 10% de impuestos federales retenidos de su distribución IRA.</help>
+        <label>El nombre API del objeto de este paquete</label>
+        <name>LLC_BI__IRA_10_Withholdings_Election__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de dólares adicionales (además de la retención del impuesto federal sobre la renta del 10%) que el propietario del IRA se habrá retenido de cada distribución.</help>
+        <label>Relación a la que pertenece este paquete</label>
+        <name>LLC_BI__IRA_Addtl_Federal_Withholdings_Amt__c</name>
+    </fields>
+    <fields>
+        <help>El porcentaje adicional (además de la retención del impuesto federal sobre la renta del 10%) que el propietario del IRA se habrá retenido de cada distribución.</help>
+        <label>Escala seleccionada</label>
+        <name>LLC_BI__IRA_Addtl_Federal_Withholdings_Pct__c</name>
+    </fields>
+    <fields>
+        <help>La fecha de la contribución de IRA.</help>
+        <label>Notas al pie indica si será visto por su</label>
+        <name>LLC_BI__IRA_Contribution_Date__c</name>
+    </fields>
+    <fields>
+        <help>La fecha de la distribución de la IRA.</help>
+        <label>clonados Paquetes</label>
+        <name>LLC_BI__IRA_Distribution_Date__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de distribución para un Beneficiario o Beneficiario tradicional IRA Roth.</help>
+        <label>Gastos personales adicionales</label>
+        <name>LLC_BI__IRA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution - After my tax-filing due date</masterLabel>
+            <translation>La corrección de la aportación en exceso - Después de mi fecha de vencimiento de presentación de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution - On or before my tax-filing due date in the same year as excess contribution</masterLabel>
+            <translation>La corrección de la aportación en exceso - En o antes de mi fecha de vencimiento de presentación de impuestos en el mismo año que el exceso de aporte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution - On or before my tax-filing due date in the year after excess contribution</masterLabel>
+            <translation>La corrección de la aportación en exceso - En o antes de mi fecha de vencimiento de presentación de impuestos en el año después de aportación en exceso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation>Muerte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRS Levy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>transacción prohibida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization (Roth Beneficiary only)</masterLabel>
+            <translation>Recalificación (sólo Roth Beneficiario)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revocation</masterLabel>
+            <translation>Revocación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>Transferir</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La cantidad de dólares los que el propietario del IRA opte porque retenido de su distribución IRA para propósitos de impuestos estatales.</help>
+        <label>CoBorrower servicio de la deuda actual</label>
+        <name>LLC_BI__IRA_State_Withholdings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>El porcentaje que el propietario del IRA opte porque retenido de su distribución IRA para propósitos de impuestos estatales.</help>
+        <label>Los compromisos no financiados CoBorrowe</label>
+        <name>LLC_BI__IRA_State_Withholdings_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Especifica la fuente de fondos para una transferencia a una cuenta IRA tradicional o simple.</help>
+        <label>CoBorrower norma propuso</label>
+        <name>LLC_BI__IRA_Transfer_Source__c</name>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation>SENCILLO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional</masterLabel>
+            <translation>Tradicional</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si es verdad la distribución está relacionado con una tasa del IRS. Esto sólo es aplicable a las cuentas IRA tradicionales IRA simple y ahorros para la salud (HSA); los otros tipos de IRA tienen un tipo de distribución independiente que se utiliza pa</help>
+        <label>La exposición total actual</label>
+        <name>LLC_BI__IRS_Levy_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de la inversión de depósito.</help>
+        <label>Descripción</label>
+        <name>LLC_BI__Investment_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el modo en que la inversión debe ser enviada.</help>
+        <label>Fuente de datos de importación</label>
+        <name>LLC_BI__Investment_Delivery_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cash Proceeds</masterLabel>
+            <translation>Las ganancias en efectivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Kind</masterLabel>
+            <translation>En especie</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Describe el tipo de inversión.</help>
+        <label>Está desactivado</label>
+        <name>LLC_BI__Investment_Description__c</name>
+    </fields>
+    <fields>
+        <help>Si es verdad que esto es una inversión que no aceptan depósitos.</help>
+        <label>es la plantilla</label>
+        <name>LLC_BI__Investment_Is_Non_Deposit__c</name>
+    </fields>
+    <fields>
+        <help>La fecha en que se solicita la inversión especificada que se enviará y / o licuado.</help>
+        <label>lookupKey</label>
+        <name>LLC_BI__Investment_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Approved__c</name>
+    </fields>
+    <fields>
+        <label>Garante servicio de la deuda actual</label>
+        <name>LLC_BI__Is_Disbursement_Request__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Submitted__c</name>
+    </fields>
+    <fields>
+        <label>Garante de la exposición actual</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Las solicitudes de transacción</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cualquier cantidad porcentual adicional de impuestos sobre la renta locales para ser retenido desde el subtotal de distribución.</help>
+        <label>Garante servicio de la deuda propuesto</label>
+        <name>LLC_BI__Local_Income_Tax_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Especifica la localidad (por ejemplo, de la ciudad) aplicable a cualquier cantidad de dinero adicional o porcentaje de impuestos sobre la renta locales para ser retenido desde el subtotal de distribución.</help>
+        <label>Los gastos de calefacción</label>
+        <name>LLC_BI__Local_Income_Taxes_Locality__c</name>
+    </fields>
+    <fields>
+        <help>Cualquier cantidad de dinero adicional (no porcentaje) de impuestos sobre la renta locales para ser retenido desde el subtotal de distribución.</help>
+        <label>gastos de vida</label>
+        <name>LLC_BI__Local_Income_Taxes_Withheld__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad en dólares calculados externamente, neto de la distribución para imprimir en la tabla de detalle de pago en la forma de distribución o elección.</help>
+        <label>Prestatario de servicio de la deuda actu</label>
+        <name>LLC_BI__Net_Distribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Si es verdad que el beneficiario está haciendo una nueva elección de pago. En el caso de un beneficiario establecido formalmente IRA es el propietario realice una nueva elección de pago.</help>
+        <label>Prestatario compromisos no financiados a</label>
+        <name>LLC_BI__New_Election_Of_Payment_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>El número de acciones de la inversión que no aceptan depósitos.</help>
+        <label>Prestatario de norma propuso</label>
+        <name>LLC_BI__Non_Deposit_Investment_Shares__c</name>
+    </fields>
+    <fields>
+        <help>Para una contribución que es una vuelta de una distribución (s) equivocada esta es una descripción de la fecha (s) de la distribución original (s).</help>
+        <label>La exposición total propuesto</label>
+        <name>LLC_BI__Original_Distrubtion_Description__c</name>
+    </fields>
+    <fields>
+        <help>Una descripción de cualquier otro instrucciones de entrega con respecto al pago.</help>
+        <label>Entidad relacionadas con la exposición a</label>
+        <name>LLC_BI__Other_Delivery_Instructions__c</name>
+    </fields>
+    <fields>
+        <help>Descripción definido por el usuario de un posible medio (s) para la transferencia de pago / solicitado. (Por ejemplo, &apos;cheque o transferencia ACH.&apos;)</help>
+        <label>Entidad relacionados con el servicio de</label>
+        <name>LLC_BI__Other_Delivery_Payment_Options__c</name>
+    </fields>
+    <fields>
+        <help>Una descripción del otro tipo de pago.</help>
+        <label>Es Prestatario Análisis</label>
+        <name>LLC_BI__Other_Distribution_Payment_Method__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de importe del pago. NOTA: Esta cantidad cuando se utiliza en el contexto de una recalificación incluye la cantidad de la contribución más las ganancias atribuibles.</help>
+        <label>Es el Análisis Global</label>
+        <name>LLC_BI__Payment_Amount_Type__c</name>
+        <picklistValues>
+            <masterLabel>Entire balance or contribution amount</masterLabel>
+            <translation>totalidad del saldo o monto de la contribución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portion of balance or contribution amount</masterLabel>
+            <translation>Parte del saldo o aportación cantidad</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Es Análisis Entidad Relacionada</label>
+        <name>LLC_BI__Percent_Budget_Requested__c</name>
+    </fields>
+    <fields>
+        <label>Relativa Orden de visualización</label>
+        <name>LLC_BI__Percent_Funded__c</name>
+    </fields>
+    <fields>
+        <help>Describe la parte de la saldo de la cuenta para ser convertido transferido o directamente rodó sobre o en el caso de una recalificación la cantidad de contribución más las ganancias atribuibles a ser recharacterized.</help>
+        <label>fecha completada</label>
+        <name>LLC_BI__Portion_Description__c</name>
+    </fields>
+    <fields>
+        <help>Si es verdad la distribución mínima requerida (RMD) ha sido satisfecho por el año de distribución.</help>
+        <label>Cuenta adicional Tipo 1 Aviso</label>
+        <name>LLC_BI__RMD_Has_Been_Satisfied__c</name>
+    </fields>
+    <fields>
+        <help>Describe el otro plan de pago de inversiones y / o tipo</help>
+        <label>Valuación</label>
+        <name>LLC_BI__Request_Payment_Type_Other__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el calendario de pagos de inversión y tipo.</help>
+        <label>Estado</label>
+        <name>LLC_BI__Request_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Immediately liquidate investments and send cash</masterLabel>
+            <translation>Inmediatamente liquidar sus inversiones y enviar dinero en efectivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidate specified investments</masterLabel>
+            <translation>Liquidar sus inversiones especificadas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send all investments in kind</masterLabel>
+            <translation>Enviar todas las inversiones en especie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send assets at maturity</masterLabel>
+            <translation>Enviar activos en la madurez</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de solicitud.</help>
+        <label>Valuación</label>
+        <name>LLC_BI__Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation>Conversión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Rollover</masterLabel>
+            <translation>transferencia directa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Distribution</masterLabel>
+            <translation>Distribución financiación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>recalificación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>Transferir</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cuenta Adicional 1 Acción</label>
+        <name>LLC_BI__Requested_Date__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de contribución para un Beneficiario Roth IRA.</help>
+        <label>Número cuenta inscrita</label>
+        <name>LLC_BI__Roth_Beneficiary_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from a Designated Roth Account</masterLabel>
+            <translation>Rollover / Transferencia Directa de una cuenta Roth Designado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>Rollover / Transferencia Directa de un plan de jubilación elegible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from a Roth IRA</masterLabel>
+            <translation>Transferir desde una cuenta IRA Roth</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El código de razón Tipo de contribución. El tipo de contribución Roth IRA es calificado reservistas / Designado reembolso Distribución de desastres o catástrofes / Zona de Combate Contribución pospuesta.</help>
+        <label>Cuenta</label>
+        <name>LLC_BI__Roth_Contribution_Reason__c</name>
+    </fields>
+    <fields>
+        <help>El tipo de contribución de IRA</help>
+        <label>Cuenta inscrito 1 Acción</label>
+        <name>LLC_BI__Roth_IRA_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation>Conversión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster/Combat Zone Postponed Contribution</masterLabel>
+            <translation>Contribución de desastres / Zona de Combate Aplazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Reservist/Designated Disaster Distribution Repayment</masterLabel>
+            <translation>Reservista cualificado / Desastres Designado de Pago Distribución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>recalificación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>Regular (incluyendo Catch-Up)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover</masterLabel>
+            <translation>Dese la vuelta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from a Designated Roth Account</masterLabel>
+            <translation>Rollover / Transferencia Directa de una cuenta Roth Designado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>Rollover / Transferencia Directa de un plan de jubilación elegible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>Transferir</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de distribución para un Roth IRA.</help>
+        <label>Inscrito Cuenta Número 1</label>
+        <name>LLC_BI__Roth_IRA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Age 59 1/2 or Older</masterLabel>
+            <translation>Edad 59 1/2 o mayor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution after my tax-filing due date</masterLabel>
+            <translation>La corrección de la aportación en exceso después de mi fecha de vencimiento de presentación de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in same year as excess contribution</masterLabel>
+            <translation>El exceso de corrección de Contribución del mismo curso que el exceso de aporte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in year after excess contribution, but by my tax-filing due date</masterLabel>
+            <translation>El exceso de corrección de la Contribución en el año después de la aportación en exceso, sino con mi fecha de vencimiento de presentación de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation>Muerte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>Discapacidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Distribution from a Roth IRA</masterLabel>
+            <translation>Distribución temprano de un Roth IRA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRS Levy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>transacción prohibida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Health Savings Account Funding Distribution (QHSAAFD)</masterLabel>
+            <translation>Cualificado cuenta de ahorros de salud Financiación Distribución (QHSAAFD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization of current tax year regular contribution/conversion in the current year</masterLabel>
+            <translation>Recalificación del año fiscal actual contribución / conversión normal en el año en curso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization of prior tax year regular contribution/conversion in the current year</masterLabel>
+            <translation>Recalificación del año fiscal anterior contribución / conversión normal en el año en curso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revocation</masterLabel>
+            <translation>Revocación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to beneficiary&apos;s Roth Beneficiary IRA</masterLabel>
+            <translation>Transferencia a Roth IRA beneficiario del beneficiario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to former spouse&apos;s Roth IRA due to divorce or legal separation</masterLabel>
+            <translation>Traslado al ex cónyuge Roth IRA debido al divorcio o separación legal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to my Roth IRA</masterLabel>
+            <translation>Transferencia a mi cuenta IRA Roth</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to spouse&apos;s Roth IRA due to death</masterLabel>
+            <translation>Traslado a su cónyuge Roth IRA debido a la muerte</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica la fuente de fondos para una transferencia o conversión a un Roth IRA.</help>
+        <label>Cuenta inscrito 1 Estado</label>
+        <name>LLC_BI__Roth_IRA_Transfer_Source__c</name>
+        <picklistValues>
+            <masterLabel>Roth</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation>SENCILLO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional</masterLabel>
+            <translation>Tradicional</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica la fuente de fondos para una transferencia directa a una cuenta Roth IRA.</help>
+        <label>Tesoro Servicio de Referencia</label>
+        <name>LLC_BI__Roth_Rollover_Source_Type__c</name>
+        <picklistValues>
+            <masterLabel>Designated Roth Account</masterLabel>
+            <translation>Cuenta Roth designada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eligible Retirement Plan (other than a Designated Roth Account)</masterLabel>
+            <translation>Plan de jubilación elegible (que no sea una cuenta Roth designada)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de contribución para un SIMPLE IRA.</help>
+        <label>ID de contexto</label>
+        <name>LLC_BI__Simple_IRA_Contibution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Employer Contribution</masterLabel>
+            <translation>Contribución del empleador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>recalificación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from a SIMPLE IRA</masterLabel>
+            <translation>Vuelco de un IRA SIMPLE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from a SIMPLE IRA</masterLabel>
+            <translation>Traslado de un IRA SIMPLE</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El titular de la cuenta elige en el momento de una cuenta IRA específica u otra distribución plan de pago diferido de impuestos para tener retenido de impuestos estatales.</help>
+        <label>Paso orquestación</label>
+        <name>LLC_BI__State_Income_Withholdings_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>El porcentaje que el propietario del IRA opte porque retenido de la distribución de la IRA para propósitos de impuestos estatales.</help>
+        <label>Cuenta principal #</label>
+        <name>LLC_BI__State_Income_Withholdings_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de dólares los que el propietario del IRA opte porque retenido de la distribución de la IRA para propósitos de impuestos estatales.</help>
+        <label>Sub Cuenta # 1</label>
+        <name>LLC_BI__State_Income_Withholdings__c</name>
+    </fields>
+    <fields>
+        <label>Tesoro Servicio de Referencia</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Amounts</masterLabel>
+            <translation>Las cantidades pendientes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>Aprobación pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Inspection</masterLabel>
+            <translation>Pendiente de inspección</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>Presentado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si es verdad el propietario del IRA elige tener impuestos federales 10% retenido de la distribución de la IRA.</help>
+        <label>Balance Cero Servicios de la cuenta</label>
+        <name>LLC_BI__Ten_Pct_Federal_Withholding_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de contribución para un Beneficiario IRA tradicional.</help>
+        <label>Dejar en blanco o introduzca cada factor</label>
+        <name>LLC_BI__Traditional_Benficiary_IRA_Contribution__c</name>
+        <picklistValues>
+            <masterLabel>Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>Transferencia directa de un plan de jubilación elegible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>recalificación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an IRA</masterLabel>
+            <translation>Transferir de una cuenta IRA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica la fuente para la reinversión en una IRA tradicional.</help>
+        <label>Nombre del objeto</label>
+        <name>LLC_BI__Traditional_IRA_Contribution_Source__c</name>
+        <picklistValues>
+            <masterLabel>457(b)</masterLabel>
+            <translation>457 (b)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Plan</masterLabel>
+            <translation>plan calificado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation>SENCILLO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax-Sheltered Annuity (TSA)</masterLabel>
+            <translation>Anualidad refugio tributario (TSA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional IRA</masterLabel>
+            <translation>IRA tradicional</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El tipo de contribución de IRA</help>
+        <label>Los campos importantes</label>
+        <name>LLC_BI__Traditional_IRA_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disaster/Combat Zone Postponed Contribution</masterLabel>
+            <translation>Contribución de desastres / Zona de Combate Aplazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Reservist/Designated Disaster Distribution Repayment</masterLabel>
+            <translation>Reservista cualificado / Desastres Designado de Pago Distribución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>recalificación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>Regular (incluyendo Catch-Up)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover</masterLabel>
+            <translation>Dese la vuelta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>Rollover / Transferencia Directa de un plan de jubilación elegible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simplified Employee Pension (SEP) Plan</masterLabel>
+            <translation>Simplificada del empleado de Previsión (SEP)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>Transferir</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Especifica el tipo de distribución para un IRA tradicional o simple.</help>
+        <label>Etapa préstamo</label>
+        <name>LLC_BI__Traditional_IRA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation>Conversión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution after my tax-filing due date</masterLabel>
+            <translation>La corrección de la aportación en exceso después de mi fecha de vencimiento de presentación de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in same year as excess contribution</masterLabel>
+            <translation>El exceso de corrección de Contribución del mismo curso que el exceso de aporte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in year after excess contribution but by my tax-filing due date</masterLabel>
+            <translation>El exceso de corrección de la Contribución en el año después de la aportación en exceso sino con mi fecha de vencimiento de presentación de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation>Muerte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Rollover to an employer-sponsored Eligible Retirement Plan</masterLabel>
+            <translation>Transferencia directa a un plan de jubilación elegible patrocinado por el empleador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>Discapacidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Distribution IRS Levy or other exception</masterLabel>
+            <translation>A principios de distribución del IRS Levy u otra excepción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Distribution no known exception</masterLabel>
+            <translation>Distribución Early no conoce excepción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>transacción prohibida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Health Savings Account Funding Distribution (QHSAAFD)</masterLabel>
+            <translation>Cualificado cuenta de ahorros de salud Financiación Distribución (QHSAAFD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization of current tax year regular contribution/conversion in the current year</masterLabel>
+            <translation>Recalificación del año fiscal actual contribución / conversión normal en el año en curso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization of prior tax year regular contribution/conversion in the current year</masterLabel>
+            <translation>Recalificación del año fiscal anterior contribución / conversión normal en el año en curso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revocation</masterLabel>
+            <translation>Revocación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE IRA Distribution During Two-Year Period</masterLabel>
+            <translation>SIMPLE IRA Distribución Durante Dos Años Periodo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to another IRA</masterLabel>
+            <translation>Transferir a otra cuenta IRA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El ID asignado a la cuenta o plan en la institución financiera la transferencia. Para recalificaciones, este es el número de identificación del plan donde se hizo la contribución original.</help>
+        <label>Orden</label>
+        <name>LLC_BI__Transfer_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Contribution</masterLabel>
+            <translation>Contribución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disbursement</masterLabel>
+            <translation>Desembolso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution</masterLabel>
+            <translation>Distribución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation>Solicitud</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

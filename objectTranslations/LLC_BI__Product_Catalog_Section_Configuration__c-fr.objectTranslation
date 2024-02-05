@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Quelle est la clé de l&apos;ordre de tri pour cette configuration de la section de l&apos;écran?</help>
+        <label>Ordre d&apos;affichage</label>
+        <name>LLC_BI__Display_Order__c</name>
+    </fields>
+    <fields>
+        <help>Quel ensemble champ est associé à cette configuration de section?</help>
+        <label>Set terrain</label>
+        <name>LLC_BI__Field_Set__c</name>
+    </fields>
+    <fields>
+        <help>Quel mise en page sera utilisé pour cette section modèle de configuration?</help>
+        <label>Disposition</label>
+        <name>LLC_BI__Layout__c</name>
+    </fields>
+    <fields>
+        <help>Quel modèle de route catalogue de produits est cette section modèle de configuration associée à?</help>
+        <label>Catalogue produits Route Modèle</label>
+        <name>LLC_BI__Product_Catalog_Route_Template__c</name>
+        <relationshipLabel>Section Catalogue produits Configurations</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Quel type sObject est lié à cette configuration de section?</help>
+        <label>SObject type</label>
+        <name>LLC_BI__SObject_Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>action</label>
+        <name>nFUSE__Action__c</name>
+    </fields>
+    <fields>
+        <label>api_version</label>
+        <name>nFUSE__Api_Version__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__App_Plugin__c</name>
+    </fields>
+    <fields>
+        <label>commentaires</label>
+        <name>nFUSE__Comments__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif affiche la date et l&apos;heure du moment de la création du dossier du fournisseur.</help>
+        <label>création DateTime</label>
+        <name>nFUSE__Creation_DateTime__c</name>
+    </fields>
+    <fields>
+        <label>Id externe</label>
+        <name>nFUSE__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>type de journal</label>
+        <name>nFUSE__Log_Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__Object_Id__c</name>
+    </fields>
+    <fields>
+        <label>Id Object primaire</label>
+        <name>nFUSE__Primary_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__Requested_By_User_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__Requesting_User_Id__c</name>
+    </fields>
+    <fields>
+        <label>Temps de réponse</label>
+        <name>nFUSE__Response_Time__c</name>
+    </fields>
+    <fields>
+        <label>Id Object secondaire</label>
+        <name>nFUSE__Secondary_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__Sent_Time__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__Transaction_Detail__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__Transaction_Status__c</name>
+    </fields>
+    <fields>
+        <label>Statut du vendeur</label>
+        <name>nFUSE__Vendor_Status__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

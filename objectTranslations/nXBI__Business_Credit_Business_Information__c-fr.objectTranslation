@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Date de dépôt</label>
+        <name>Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label>État de dépôt</label>
+        <name>Filing_State__c</name>
+    </fields>
+    <fields>
+        <label>SCIAN</label>
+        <name>NAICS__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de registre</label>
+        <name>Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label>INFORMATION</label>
+        <name>TIN__c</name>
+    </fields>
+    <fields>
+        <label>Rapport de crédit aux entreprises</label>
+        <name>nXBI__Business_Credit_Report__c</name>
+        <relationshipLabel>Business Information de crédit aux entreprises</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nom de l&apos;entreprise</label>
+        <name>nXBI__Business_Name__c</name>
+    </fields>
+    <fields>
+        <label>Ville</label>
+        <name>nXBI__City__c</name>
+    </fields>
+    <fields>
+        <label>Téléphone</label>
+        <name>nXBI__Phone__c</name>
+    </fields>
+    <fields>
+        <label>code de la CTI</label>
+        <name>nXBI__SIC_Code__c</name>
+    </fields>
+    <fields>
+        <label>description de SIC</label>
+        <name>nXBI__SIC_Description__c</name>
+    </fields>
+    <fields>
+        <label>Etat</label>
+        <name>nXBI__State__c</name>
+    </fields>
+    <fields>
+        <label>rue</label>
+        <name>nXBI__Street__c</name>
+    </fields>
+    <fields>
+        <label>Zip *: français</label>
+        <name>nXBI__Zip__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

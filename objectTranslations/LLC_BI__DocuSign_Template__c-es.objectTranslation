@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Interesar</label>
+        <name>LLC_BI__Data_Mapping__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de la deuda mensual</label>
+        <name>LLC_BI__Doc_Man_Class__c</name>
+        <relationshipLabel>Plantillas DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>El margen de explotación</label>
+        <name>LLC_BI__Doc_Man_Tab__c</name>
+        <relationshipLabel>Plantillas DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>No en efectivo Fuente</label>
+        <name>LLC_BI__Doc_Man_Type__c</name>
+        <relationshipLabel>Plantillas DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Los gastos de explotación</label>
+        <name>LLC_BI__Doc_Man__c</name>
+        <relationshipLabel>Plantillas DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Otros gastos extraordinarios</label>
+        <name>LLC_BI__Enforce_Masking__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Filter__c</name>
+    </fields>
+    <fields>
+        <label>Otros ingresos fuera</label>
+        <name>LLC_BI__Object_Filter__c</name>
+    </fields>
+    <fields>
+        <label>Otro cargo no en efectivo</label>
+        <name>LLC_BI__Object_Type__c</name>
+    </fields>
+    <fields>
+        <label>Cuenta</label>
+        <name>LLC_BI__Relationship__c</name>
+    </fields>
+    <fields>
+        <label>Reportes financieros</label>
+        <name>LLC_BI__Template_Id__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

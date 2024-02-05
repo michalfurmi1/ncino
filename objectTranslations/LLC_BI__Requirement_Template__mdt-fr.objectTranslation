@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Ce champ est obligatoire contient une référence aux critères avancés auxquels ce modèle Requirement appartient.</help>
+        <label>Critères avancés</label>
+        <name>LLC_BI__Advanced_Criteria__c</name>
+        <relationshipLabel>Modèles Exigence</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient l&apos;identifiant de l&apos;utilisateur ou la file d&apos;attente à qui des exigences basées sur ce modèle sont attribués. Il doit être copié dans le champ propriétaire sur les dossiers créés à partir de ce Requirement modèle.</help>
+        <label>Cessionnaire</label>
+        <name>LLC_BI__Assignee__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient une référence au modèle Liste de contrôle auquel ce modèle Requirement appartient.</help>
+        <label>Liste de contrôle</label>
+        <name>LLC_BI__Checklist__c</name>
+        <relationshipLabel>Exigences</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Point de contrôle Contexte</label>
+        <name>LLC_BI__Checkpoint_Context__c</name>
+        <relationshipLabel>Modèles Exigence</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Une valeur qui représente une étape dans une transaction lorsque cette exigence sera utilisée.</help>
+        <label>Point de contrôle Valeur</label>
+        <name>LLC_BI__Checkpoint_Value__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ contient l&apos;utilisateur face à la description de l&apos;exigence fondée sur ce modèle.</help>
+        <label>La description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient le nombre de jours prévus pour remplir les exigences basées sur ce modèle. Il doit être copié dans le champ Jours Durées attendu sur les dossiers créés à partir de ce Requirement modèle.</help>
+        <label>Jours Durée prévue</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour indiquer que cette exigence doit être remplie avant le contexte objet peut aller au-delà du contexte Checkpoint.</help>
+        <label>Arrêt matériel</label>
+        <name>LLC_BI__Hard_Stop__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif spécifie la séquence dans laquelle les exigences fondées sur ce modèle doivent être remplis. Il doit être copié dans le champ Ordre sur les dossiers créés à partir de ce Requirement modèle.</help>
+        <label>Ordre</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient l&apos;utilisateur face à des exigences nom basé sur ce modèle. Il doit être copié dans le champ Nom de documents créés à partir de ce Requirement modèle.</help>
+        <label>Titre</label>
+        <name>LLC_BI__Title__c</name>
+    </fields>
+</CustomObjectTranslation>

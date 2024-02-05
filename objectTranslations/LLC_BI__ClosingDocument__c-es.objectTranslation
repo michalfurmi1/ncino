@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Año</label>
+        <name>LLC_BI__Customer_Portal_Doc__c</name>
+    </fields>
+    <fields>
+        <label>Lista de anotar las asignaciones. Utilic</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Documentos de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nota ejecutado por</label>
+        <name>LLC_BI__Owner__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Abogado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation>Más cerca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Construcción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Operaciones de préstamo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>mantenimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>Activos especiales</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de patente</label>
+        <name>LLC_BI__Portal_Doc_Name__c</name>
+    </fields>
+    <fields>
+        <label>Número de patente EE.UU.. Utilice este c</label>
+        <name>LLC_BI__Portal_Doc_Type__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation>UNA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>OREO</label>
+        <name>LLC_BI__Portal_Upload_Date__c</name>
+    </fields>
+    <fields>
+        <label>frecuencia de valoración colateral</label>
+        <name>LLC_BI__approvalDate__c</name>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>LLC_BI__approvedBy__c</name>
+        <relationshipLabel>Documentos de cierre (aprobado por)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descripción de carencia</label>
+        <name>LLC_BI__attachmentId__c</name>
+    </fields>
+    <fields>
+        <label>VINO</label>
+        <name>LLC_BI__closingChecklist__c</name>
+        <relationshipLabel>Documentos de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Año de construcción</label>
+        <name>LLC_BI__comments__c</name>
+    </fields>
+    <fields>
+        <label>Fecha</label>
+        <name>LLC_BI__date__c</name>
+    </fields>
+    <fields>
+        <label>El código postal del lugar donde se encu</label>
+        <name>LLC_BI__docClass__c</name>
+        <relationshipLabel>Documentos de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>NADA Enlace</label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel>Documentos de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo de evaluación</label>
+        <name>LLC_BI__docTab__c</name>
+        <relationshipLabel>Documentos de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Con esta casilla si no desea enviar este</label>
+        <name>LLC_BI__docType__c</name>
+        <relationshipLabel>Documentos de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Evidencia de título y la prioridad del d</label>
+        <name>LLC_BI__dueDaysPrior__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de excepción</label>
+        <name>LLC_BI__exceptionDate__c</name>
+    </fields>
+    <fields>
+        <label>Licor número de licencia. Utilice este c</label>
+        <name>LLC_BI__fileSize__c</name>
+    </fields>
+    <fields>
+        <label>Las ganancias de la venta De licencia de</label>
+        <name>LLC_BI__firstReview__c</name>
+    </fields>
+    <fields>
+        <label>Compruebe si sólo licencia de licores La</label>
+        <name>LLC_BI__helpText__c</name>
+    </fields>
+    <fields>
+        <label>Asignación de Notas</label>
+        <name>LLC_BI__isDirectory__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de la nota. Utilice este campo sól</label>
+        <name>LLC_BI__mimeType__c</name>
+    </fields>
+    <fields>
+        <label>Nota ejecutado por. Utilice este campo s</label>
+        <name>LLC_BI__ownerObjectId__c</name>
+    </fields>
+    <fields>
+        <label>Nota ejecutan para</label>
+        <name>LLC_BI__parent__c</name>
+        <relationshipLabel>Documentos de cierre</relationshipLabel>
+    </fields>
+    <fields>
+        <label>relación Nombre</label>
+        <name>LLC_BI__priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Crítico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Alto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Bajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Medio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número total de posiciones lendable Valo</label>
+        <name>LLC_BI__reviewDate__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de objeto de tipo colateral</label>
+        <name>LLC_BI__reviewStatus__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation>Excepción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-File</masterLabel>
+            <translation>En archivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Abierto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation>Revisados</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Valor total Holdings</label>
+        <name>LLC_BI__reviewedBy__c</name>
+        <relationshipLabel>Cerrando Documentos (en inglés revisada por)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Z-Australia Unidos</label>
+        <name>LLC_BI__sortOrder__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de evaluación</label>
+        <name>LLC_BI__version__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

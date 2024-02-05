@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Collateral_Recovery_Value_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Collateral_Value_Umbrella__c</name>
+    </fields>
+    <fields>
+        <help>Anzahl der Datensätze für verpfändete Sicherheiten.</help>
+        <label>Menge verpfändete Sicherheiten</label>
+        <name>LLC_BI__Collateral_Pledged_Count__c</name>
+    </fields>
+    <fields>
+        <help>Summe Beleihungswert aller Sicherheiten</help>
+        <label>Aktuell beleihbarer Gesamtbetrag</label>
+        <name>LLC_BI__Current_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtsumme der für den Kredit verpfändeten Sicherheiten.</help>
+        <label>Summe verpfändete Sicherheiten</label>
+        <name>LLC_BI__Total_Collateral_Pledged__c</name>
+    </fields>
+    <fields>
+        <help>Der Gesamtwert aller Sicherheiten für den Kredit</help>
+        <label>Gesamtwert Sicherheiten</label>
+        <name>LLC_BI__Total_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <help>Summe aller mit dem Kredit verbundenen Zurückbehaltungsrechte</help>
+        <label>Gesamtbetra aktuelle Zurückbehaltungsrec</label>
+        <name>LLC_BI__Total_Current_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Gesamtbetrag vorrangige Zurückbehaltungs</label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Collateral_Recovery_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Subscription_Amount_Umbrella__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Total_Subscription_Amount__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

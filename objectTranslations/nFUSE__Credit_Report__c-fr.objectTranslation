@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compte indiciel de paiement</label>
+        <name>nFUSE__Account_Payment_Index__c</name>
+    </fields>
+    <fields>
+        <label>Relation</label>
+        <name>nFUSE__Account__c</name>
+        <relationshipLabel>Rapports de crédit</relationshipLabel>
+    </fields>
+    <fields>
+        <label>adresse divergence</label>
+        <name>nFUSE__Address_Discrepency__c</name>
+    </fields>
+    <fields>
+        <label>code d&apos;alerte</label>
+        <name>nFUSE__Alert_Code__c</name>
+    </fields>
+    <fields>
+        <label>message d&apos;alerte</label>
+        <name>nFUSE__Alert_Message__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__AlertedMessage__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__App_Plugin__c</name>
+    </fields>
+    <fields>
+        <label>crédit disponible</label>
+        <name>nFUSE__Available_Credit__c</name>
+    </fields>
+    <fields>
+        <label>Solde moyen ouvert</label>
+        <name>nFUSE__Average_Open_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Le montant en dollars de la faillite</label>
+        <name>nFUSE__Bankruptcy_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Indicateur de faillite</label>
+        <name>nFUSE__Bankruptcy_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Délinquance financière Score entreprise</label>
+        <name>nFUSE__Business_Delinquency_Financial_Score__c</name>
+    </fields>
+    <fields>
+        <label>Score entreprise Délinquance</label>
+        <name>nFUSE__Business_Delinquency_Score__c</name>
+    </fields>
+    <fields>
+        <label>Défaillance d&apos;entreprise Score</label>
+        <name>nFUSE__Business_Failure_Score__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Charge_Off__c</name>
+    </fields>
+    <fields>
+        <label>Indicateur collection</label>
+        <name>nFUSE__Collection_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Indicateur de niveau de confiance</label>
+        <name>nFUSE__Confidence_Level_Indicator__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__Contact__c</name>
+        <relationshipLabel>Rapports de crédit</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Crédit Actif depuis</label>
+        <name>nFUSE__Credit_Active_Since__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Credit_Report_Freeze__c</name>
+    </fields>
+    <fields>
+        <label>Cote de crédit</label>
+        <name>nFUSE__Credit_Score__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__EFX_ID__c</name>
+    </fields>
+    <fields>
+        <label>Score D-FICO</label>
+        <name>nFUSE__FICO_Score__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Foreclosure__c</name>
+    </fields>
+    <fields>
+        <label>ID de vérification / Alerte à la fraude</label>
+        <name>nFUSE__Fraud_Alert__c</name>
+    </fields>
+    <fields>
+        <label>Industrie Indice de paiement</label>
+        <name>nFUSE__Industry_Payment_Index__c</name>
+    </fields>
+    <fields>
+        <label>Le montant en dollars des jugements sati</label>
+        <name>nFUSE__Judgements_Amount_Satisfied__c</name>
+    </fields>
+    <fields>
+        <label>Le montant en dollars des jugements</label>
+        <name>nFUSE__Judgements_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Dernière date d&apos;exécution</label>
+        <name>nFUSE__Last_Run_Date__c</name>
+    </fields>
+    <fields>
+        <label>Actions légales</label>
+        <name>nFUSE__Legal_Actions_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Le montant en dollars de Satisfied Liens</label>
+        <name>nFUSE__Liens_Amount_Satisfied__c</name>
+    </fields>
+    <fields>
+        <label>Le montant en dollars des privilèges</label>
+        <name>nFUSE__Liens_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__MLA_Status_Covered_Borrower__c</name>
+        <picklistValues>
+            <masterLabel>Insufficient Data for Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Match</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Match Indicateur de qualité</label>
+        <name>nFUSE__Match_Quality_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Solde médian</label>
+        <name>nFUSE__Median_Balance__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFUSE__Most_Severe_Status_24Months__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__No_Hit__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de comptes</label>
+        <name>nFUSE__Number_Of_Accounts__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de Faillites</label>
+        <name>nFUSE__Number_Of_Bankruptcies__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de Offs charge</label>
+        <name>nFUSE__Number_Of_Charge_Offs__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de jugements Satisfait</label>
+        <name>nFUSE__Number_Of_Judgements_Satisfied__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de jugements</label>
+        <name>nFUSE__Number_Of_Judgements__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de Satisfied Liens</label>
+        <name>nFUSE__Number_Of_Liens_Satisfied__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de privilèges</label>
+        <name>nFUSE__Number_Of_Liens__c</name>
+    </fields>
+    <fields>
+        <label>alerte OFAC</label>
+        <name>nFUSE__OFAC_Alert_Indicator__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Open_Tradelines__c</name>
+    </fields>
+    <fields>
+        <label>Faillite Date de dépôt</label>
+        <name>nFUSE__Recent_Bankruptcy_Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label>Arrêts Date de dépôt</label>
+        <name>nFUSE__Recent_Judgements_Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label>Liens date de dépôt</label>
+        <name>nFUSE__Recent_Liens_Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label>rapport Catégorie</label>
+        <name>nFUSE__Report_Category__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation>Consommateur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de rapport</label>
+        <name>nFUSE__Report_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreditHardPull</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CreditSoftPull</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFUSE__Repossession__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>nFUSE__Status__c</name>
+    </fields>
+    <fields>
+        <label>Tax Lien Indicateur</label>
+        <name>nFUSE__Tax_Lien_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Limite totale de crédit</label>
+        <name>nFUSE__Total_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label>L&apos;exposition totale</label>
+        <name>nFUSE__Total_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Total des dettes passées</label>
+        <name>nFUSE__Total_Past_Due__c</name>
+    </fields>
+    <fields>
+        <label>Journal des transactions</label>
+        <name>nFUSE__Transaction_Log__c</name>
+        <relationshipLabel>Rapports de crédit</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

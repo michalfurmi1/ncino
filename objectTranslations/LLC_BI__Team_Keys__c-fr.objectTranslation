@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Utilisez cette clé dans le champ MailerTeamKey pour l&apos;objet respectif.</help>
+        <label>Nom de la clé</label>
+        <name>LLC_BI__KeyName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__RoleName__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Analyst</masterLabel>
+            <translation>Analyste de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>IL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Officer</masterLabel>
+            <translation>Agent de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Opérations de prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation>La gestion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>Officier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Loan Officer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>prise ferme</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ est dépréciée. Le rôle a été remplacé par l&apos;équipe des rôles clés.</help>
+        <label></label>
+        <name>LLC_BI__Role__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le nom de l&apos;API de l&apos;objet d&apos;équipe à interroger.</help>
+        <label>Équipe Nom de l&apos;objet</label>
+        <name>LLC_BI__TeamObjectName__c</name>
+    </fields>
+    <fields>
+        <label>Nom du modèle</label>
+        <name>LLC_BI__TemplateName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

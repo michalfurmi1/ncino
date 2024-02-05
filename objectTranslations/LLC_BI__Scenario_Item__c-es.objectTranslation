@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Spread tipo de sentencia</label>
+        <name>LLC_BI__Balance_Required_Difference__c</name>
+    </fields>
+    <fields>
+        <label>Período de estado propagación</label>
+        <name>LLC_BI__Balance_Required__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de declaración</label>
+        <name>LLC_BI__Bill_Point__c</name>
+        <relationshipLabel>Los productos de escenarios</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Períodos Declaración de Trailing_Interim</label>
+        <name>LLC_BI__Charge_Difference__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>LLC_BI__Competitor_Balance_Required__c</name>
+    </fields>
+    <fields>
+        <label>Valores no asignados</label>
+        <name>LLC_BI__Competitor_Difference__c</name>
+    </fields>
+    <fields>
+        <label>Año Ocultos En Global</label>
+        <name>LLC_BI__Competitor_Fee__c</name>
+    </fields>
+    <fields>
+        <label>Año de campo fuera</label>
+        <name>LLC_BI__Competitor_Price__c</name>
+    </fields>
+    <fields>
+        <label>Año</label>
+        <name>LLC_BI__Cost__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Current_Volume__c</name>
+    </fields>
+    <fields>
+        <label>cuenta de búsqueda</label>
+        <name>LLC_BI__Discount_Currency__c</name>
+    </fields>
+    <fields>
+        <label>Totales período de estado de propagación</label>
+        <name>LLC_BI__Discount_Percent__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>LLC_BI__Exception_Price__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>Período de estado propagación</label>
+        <name>LLC_BI__Fee_Including_Discounts__c</name>
+    </fields>
+    <fields>
+        <label>Totales período de estado de propagación</label>
+        <name>LLC_BI__Fixed_Cost_Total__c</name>
+    </fields>
+    <fields>
+        <label>Declaración sobre antecedentes propagaci</label>
+        <name>LLC_BI__Gross_Fee__c</name>
+    </fields>
+    <fields>
+        <label>Totales período de estado de propagación</label>
+        <name>LLC_BI__Is_Bundle_Exception__c</name>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>LLC_BI__Is_Monthly__c</name>
+    </fields>
+    <fields>
+        <label>Número_Valor</label>
+        <name>LLC_BI__Is_Perm_Waive__c</name>
+    </fields>
+    <fields>
+        <label>Débito</label>
+        <name>LLC_BI__Is_Product_Type__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de visualización</label>
+        <name>LLC_BI__Margin_After_Discount__c</name>
+    </fields>
+    <fields>
+        <label>Fórmula</label>
+        <name>LLC_BI__Margin_Before_Discount__c</name>
+    </fields>
+    <fields>
+        <label>Incluir en total</label>
+        <name>LLC_BI__Minimum_Required_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Está vinculado</label>
+        <name>LLC_BI__Product_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label>Destacados Tipo</label>
+        <name>LLC_BI__Product__c</name>
+    </fields>
+    <fields>
+        <label>Vinculado Declaración sobre antecedentes</label>
+        <name>LLC_BI__Scenario__c</name>
+        <relationshipLabel>Los productos de escenarios</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vinculado Declaración de propagación tot</label>
+        <name>LLC_BI__Semi_Variable_Cost__c</name>
+    </fields>
+    <fields>
+        <label>Declaración de propagación Records (Vinc</label>
+        <name>LLC_BI__Standard_Price__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>LLC_BI__Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <label>operación Add</label>
+        <name>LLC_BI__Volumes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Waived__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>commentaires</label>
+        <name>nFUSE__Comments__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire affiche la date et l&apos;heure de cette transaction lorsque Détail record a été créé.</help>
+        <label>création DateTime</label>
+        <name>nFUSE__Creation_DateTime__c</name>
+    </fields>
+    <fields>
+        <help>Les informations détaillées sur l&apos;état actuel d&apos;une transaction.</help>
+        <label>Détails</label>
+        <name>nFUSE__Details__c</name>
+    </fields>
+    <fields>
+        <label>type de journal</label>
+        <name>nFUSE__Log_Type__c</name>
+    </fields>
+    <fields>
+        <help>Le maître nécessaire transaction identifiant journal que ce détail est associé.</help>
+        <label>Journal des transactions</label>
+        <name>nFUSE__Transaction_Log__c</name>
+        <relationshipLabel>détails de la transaction</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le nécessaire dans l&apos;état de transit de l&apos;opération.</help>
+        <label>Statut de la transaction</label>
+        <name>nFUSE__Transaction_Status__c</name>
+    </fields>
+    <fields>
+        <help>L&apos;état de l&apos;opération du point de vue du fournisseur du fournisseur.</help>
+        <label>Statut du vendeur</label>
+        <name>nFUSE__Vendor_Status__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

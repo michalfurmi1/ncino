@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A basic example that creates a series of Pricing Options based on credit score and loan amount.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Retail, Loan, Pricing Options</keywords>
+    <name>Pricing Options</name>
+    <public>false</public>
+</Document>

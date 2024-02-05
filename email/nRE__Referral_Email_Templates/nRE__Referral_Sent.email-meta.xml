@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify users that a referral has been submitted for their review</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nRE__Referral_Letterhead</letterhead>
+    <name>Referral Sent</name>
+    <style>freeForm</style>
+    <subject>*** A New Referral has been Submitted for your Review &amp; Follow-up ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+{!nRE__Referral__c.nRE__Referred_By__c} has submitted a Referral for your review and follow-up action.  Please use this link to view the full details:  {!nRE__Referral__c.Link}
+
+Referral Amount:  {!nRE__Referral__c.nRE__Referral_Amount__c}
+
+Referral Sent Date:  {!nRE__Referral__c.nRE__Referral_Sent_Date__c}
+
+nCino</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

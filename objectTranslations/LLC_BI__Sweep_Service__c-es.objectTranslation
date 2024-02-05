@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Si es verdad que el beneficiario está ha</label>
+        <name>LLC_BI__Repurchase_Sweep__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public/ Nonprofit</masterLabel>
+            <translation>Público / sin fines de lucro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Las acciones de inversión no depositaria</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Servicios de barrido</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

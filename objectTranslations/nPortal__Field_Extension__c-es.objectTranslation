@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Los activos adquiridos - Cuentas importe</label>
+        <name>nPortal__Alternate_Label__c</name>
+    </fields>
+    <fields>
+        <label>Valor de tasación total</label>
+        <name>nPortal__Field_Name__c</name>
+    </fields>
+    <fields>
+        <help>Describir la expresión de formato utilizado para indicar qué tipos de entradas son aceptables.</help>
+        <label>Conclusión o Resumen de Valor del tasado</label>
+        <name>nPortal__Format_Description__c</name>
+    </fields>
+    <fields>
+        <help>Si no se controla, no se aplicará la regla definida para la expresión de formato.</help>
+        <label>Muebles y enseres Cantidad</label>
+        <name>nPortal__Format_Enabled__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca una expresión regular opcional para la aplicación de un determinado formato para el contenido del campo.</help>
+        <label>La cantidad en dólares de los activos in</label>
+        <name>nPortal__Format_Expression__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca un mensaje que se mostrará al usuario cuando su entrada no coincide con el formato especificado en la expresión de formato.</help>
+        <label>Los activos adquiridos - Cantidad de inv</label>
+        <name>nPortal__Format_Message__c</name>
+    </fields>
+    <fields>
+        <help>Especificar la ruta que esta extensión de terreno se aplicará a lo contrario, la extensión de campo se aplicará en todas partes.</help>
+        <label>Total de otros activos Descripción</label>
+        <name>nPortal__Route__c</name>
+        <relationshipLabel>Ruta de extensión de campo</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Especificar el tamaño de la columna de la cuadrícula SLDS este campo debe abarcar. Este número se divide en 1 para dar el porcentaje de la fila del campo tendrá una duración. Por ejemplo, un valor de 3 será igual a 33.333% de la fila.</help>
+        <label>Otros activos (cantidad)</label>
+        <name>nPortal__SLDS_Column_Size__c</name>
+    </fields>
+    <fields>
+        <label>Contacto</label>
+        <name>nPortal__Tooltip_Contents__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione este campo para permitir una información sobre herramientas para el campo dado en Portal del cliente.</help>
+        <label>Póngase en contacto con los nombres ante</label>
+        <name>nPortal__Tooltip_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Apellido</label>
+        <name>nPortal__Tooltip_Text__c</name>
+    </fields>
+    <fields>
+        <label>Maquinaria y Equipo Cantidad</label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Los activos adquiridos - Importe los inm</label>
+        <name>nPortal__sObject_Name__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>E-Signature du message e-mail</label>
+        <name>LLC_BI__ESignature_Email_Message__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le nom de l&apos;objet d&apos;équipe personnalisée à la référence.</help>
+        <label>Contexte équipe partage</label>
+        <name>LLC_BI__Team_Sharing_Context__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <fields>
+        <label>document Store</label>
+        <name>LLC_BI__docStore__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>namespace Prefix</label>
+        <name>LLC_BI__namespacePrefix__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__templateFileName__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

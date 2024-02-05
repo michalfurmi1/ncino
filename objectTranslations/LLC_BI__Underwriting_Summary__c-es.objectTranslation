@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Expenses_on_children_and_pets__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Expenses_on_clothing_and_personal_care__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_communication__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_education__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_food_and_groceries__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_housing_property__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_insurance__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_leisure_travel_entertainment__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_medical_health_and_fitness__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Expenses_on_transport_and_auto__c</name>
+    </fields>
+    <fields>
+        <help>Introducir los gastos personales adicionales del prestatario. Debe ser un valor numérico.</help>
+        <label>Zona</label>
+        <name>LLC_BI__Additional_Personal_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Departamento</label>
+        <name>LLC_BI__CoBorrower_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__CoBorrower_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>encontrar Estado</label>
+        <name>LLC_BI__CoBorrower_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de vencimiento</label>
+        <name>LLC_BI__CoBorrower_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>encontrar Fecha</label>
+        <name>LLC_BI__CoBorrower_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Número</label>
+        <name>LLC_BI__Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>LobLegacyKey</label>
+        <name>LLC_BI__Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Respuesta de la Administración</label>
+        <name>LLC_BI__Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Prioridad</label>
+        <name>LLC_BI__Guarantor_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Número de referencia</label>
+        <name>LLC_BI__Guarantor_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Fuente hallazgo</label>
+        <name>LLC_BI__Guarantor_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>LLC_BI__Guarantor_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Perfil NetConnect</label>
+        <name>LLC_BI__Guarantor_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el precio del costo de calefacción mensual promedio. Debe ser un valor numérico.</help>
+        <label>anfitrión DB</label>
+        <name>LLC_BI__Heating_Expenses__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca la cantidad de gastos mensuales promedio del prestatario. Debe ser un valor numérico.</help>
+        <label>ID de la aplicación externa</label>
+        <name>LLC_BI__Living_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>iniciales de usuarios</label>
+        <name>LLC_BI__Primary_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Contraseña</label>
+        <name>LLC_BI__Primary_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Preámbulo</label>
+        <name>LLC_BI__Primary_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>Tiempo de espera de la recuperación</label>
+        <name>LLC_BI__Primary_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>subcódigo</label>
+        <name>LLC_BI__Primary_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>ID de usuario</label>
+        <name>LLC_BI__Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Numero de vendedor</label>
+        <name>LLC_BI__Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Versión proveedor</label>
+        <name>LLC_BI__Rel_Entity_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>LLC_BI__Rel_Entity_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Sendero icono</label>
+        <name>LLC_BI__Rel_Entity_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>Ruta al icono seleccionado</label>
+        <name>LLC_BI__Rel_Entity_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Orden</label>
+        <name>LLC_BI__Rel_Entity_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Other_expenses_and_purchases__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>--DEPRECATED-- La fecha de inicio no puede ser posterior a la fecha de finalización.</errorMessage>
+        <name>LLC_BI__start_date_cannot_be_after_end_date</name>
+    </validationRules>
+</CustomObjectTranslation>

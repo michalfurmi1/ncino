@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Originaires Obj Champ</label>
+        <name>LLC_BI__Orig_Obj_Field__c</name>
+    </fields>
+    <fields>
+        <label>originaires Obj</label>
+        <name>LLC_BI__Orig_Obj__c</name>
+    </fields>
+    <fields>
+        <label>Type de la relation</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation>Société</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>Gouvernement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Personne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Company</masterLabel>
+            <translation>Société à responsabilité limitée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership</masterLabel>
+            <translation>Partenariat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation>Confiance</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cible Obj Champ</label>
+        <name>LLC_BI__Target_Obj_Field__c</name>
+    </fields>
+    <fields>
+        <label>Obj cible</label>
+        <name>LLC_BI__Target_Obj__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

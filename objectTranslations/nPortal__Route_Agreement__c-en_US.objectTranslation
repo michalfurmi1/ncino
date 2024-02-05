@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Y - Deprecated Route Agreement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Y - Deprecated Route Agreements</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nPortal__Agreed__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__Application__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__Route_Terms__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__User__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Route_App__c</name>
+    </fields>
+    <fields>
+        <help>Il se forme lite expression utilisée pour déterminer la visility d&apos;une route à l&apos;intérieur de l&apos;écran.</help>
+        <label>Critères d&apos;affichage conditionnel</label>
+        <name>nFORCE__Conditional_Display_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Choisissez un groupe.</help>
+        <label>Groupe</label>
+        <name>nFORCE__Group__c</name>
+        <relationshipLabel>Itinéraire Groupes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>A Critères de visibilité</label>
+        <name>nFORCE__Has_Visibility_Criteria__c</name>
+    </fields>
+    <fields>
+        <label>Est-contexte par défaut</label>
+        <name>nFORCE__Is_Default_Context_Child__c</name>
+    </fields>
+    <fields>
+        <help>capacité des contrôles à utiliser les fonctionnalités de routage vers l&apos;avant.</help>
+        <label>Est-Forward Navigation handicapés</label>
+        <name>nFORCE__Is_Forward_Navigation_Disabled__c</name>
+    </fields>
+    <fields>
+        <help>Contrôle la visibilité de la route.</help>
+        <label>Est caché</label>
+        <name>nFORCE__Is_Hidden__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé administrateur système ou affiche le nom de la chaîne de constructeur de processus pour appeler l&apos;étape actuelle, le système utilise pour le traitement.</help>
+        <label>orchestration Étape</label>
+        <name>nFORCE__Orchestration_Step__c</name>
+        <relationshipLabel>Itinéraire Groupes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>L&apos;ordre d&apos;affichage de l&apos;itinéraire.</help>
+        <label>Ordre</label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <help>Le record de la route mère pour cette jonction.</help>
+        <label>parent Route</label>
+        <name>nFORCE__Parent_Route__c</name>
+        <relationshipLabel>Groupes Route enfants</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Groupe de questions</label>
+        <name>nFORCE__Question_Group__c</name>
+        <relationshipLabel>Route Groupes (Groupe Question)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Choisissez un itinéraire.</help>
+        <label></label>
+        <name>nFORCE__Route__c</name>
+        <relationshipLabel>Itinéraire Groupes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Une liste séparée par un point-virgule des valeurs utilisées pour déterminer la visibilité de ce groupe de routes dans l&apos;interface utilisateur.</help>
+        <label>Critères de visibilité</label>
+        <name>nFORCE__Visibility_Criteria__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez ce que ce groupe Route et les documents connexes devraient être partagés avec les utilisateurs du portail client.</help>
+        <label>Portal est activé</label>
+        <name>nPortal__Is_Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nPortal__OA_Auto_Decision_Required__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nPortal__OA_Business_Credit_Pull_Required__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nPortal__OA_Credit_Pull_Required__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

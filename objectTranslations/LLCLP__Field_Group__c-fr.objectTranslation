@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Laissez le champ vide ou entrez chaque facteur sur une nouvelle ligne | format délimité par: \ n \ nContext API Nom de l&apos;objet | Contexte API Nom du champ | La valeur pour correspondre \ nContext API Nom de l&apos;objet | Contexte API Nom du champ | Une a</help>
+        <label>Les facteurs</label>
+        <name>LLCLP__Factors__c</name>
+    </fields>
+    <fields>
+        <label>Groupe</label>
+        <name>LLCLP__Group__c</name>
+    </fields>
+    <fields>
+        <label>Nom de l&apos;objet</label>
+        <name>LLCLP__Object_Name__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

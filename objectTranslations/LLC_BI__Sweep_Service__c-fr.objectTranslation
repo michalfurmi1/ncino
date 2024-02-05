@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>rachats de balayage</label>
+        <name>LLC_BI__Repurchase_Sweep__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public/ Nonprofit</masterLabel>
+            <translation>Public / organismes sans but lucratif</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Service de la trésorerie de référence</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Services balayage</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

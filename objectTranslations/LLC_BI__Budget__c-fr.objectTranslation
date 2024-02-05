@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Modèle de budget Id</label>
+        <name>LLC_BI__Budget_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label>modèle de budget</label>
+        <name>LLC_BI__Budget_Template__c</name>
+        <relationshipLabel>Modèles budgétaires</relationshipLabel>
+    </fields>
+    <fields>
+        <label>La description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Est initialement éditable</label>
+        <name>LLC_BI__Is_Initially_Editable__c</name>
+    </fields>
+    <fields>
+        <label>est-modèle</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Montant en attente</label>
+        <name>LLC_BI__Pending_Amount__c</name>
+    </fields>
+    <fields>
+        <label>pour cent Numéroté</label>
+        <name>LLC_BI__Percent_Allocated__c</name>
+    </fields>
+    <fields>
+        <label>pour cent décaissée</label>
+        <name>LLC_BI__Percent_Disbursed__c</name>
+    </fields>
+    <fields>
+        <label>Pourcentage de coûts essentiels</label>
+        <name>LLC_BI__Percent_Hard_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Pourcentage Autres coûts</label>
+        <name>LLC_BI__Percent_Other_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Pour cent restant Décaissement</label>
+        <name>LLC_BI__Percent_Remaining_Disbursement__c</name>
+    </fields>
+    <fields>
+        <label>pour cent restants</label>
+        <name>LLC_BI__Percent_Remaining__c</name>
+    </fields>
+    <fields>
+        <label>Pourcentage de coûts accessoires</label>
+        <name>LLC_BI__Percent_Soft_Costs__c</name>
+    </fields>
+    <fields>
+        <label>décaissement restant</label>
+        <name>LLC_BI__Remaining_Disbursement__c</name>
+    </fields>
+    <fields>
+        <label>total des Numéroté</label>
+        <name>LLC_BI__Total_Allocated__c</name>
+    </fields>
+    <fields>
+        <label>Budget total Montant</label>
+        <name>LLC_BI__Total_Budget_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Montant total décaissé</label>
+        <name>LLC_BI__Total_Disbursed_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Total des coûts durs</label>
+        <name>LLC_BI__Total_Hard_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Total des autres coûts</label>
+        <name>LLC_BI__Total_Other_Costs__c</name>
+    </fields>
+    <fields>
+        <label>total restant</label>
+        <name>LLC_BI__Total_Remaining__c</name>
+    </fields>
+    <fields>
+        <label>Coûts totaux mous</label>
+        <name>LLC_BI__Total_Soft_Costs__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

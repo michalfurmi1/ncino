@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Este campo obligatorio rellena basa en la acción que el usuario selecciona. Este campo contiene la acción de cada solicitud individual de mantenimiento.</help>
+        <label>Acción</label>
+        <name>LLC_BI__Action__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el número de días necesarios para completar este requisito.</help>
+        <label>Días de duración real</label>
+        <name>LLC_BI__Actual_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional almacena la sintaxis de las formas que determina si se creará un requisito.</help>
+        <label>Cuota incluyendo descuentos</label>
+        <name>LLC_BI__Advanced_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Este campo de sólo lectura se rellena por el sistema con el ID del propietario original de este requisito. Los valores posibles son los usuarios, las colas y LLC_BI__Role__c Ids.</help>
+        <label>Cuota bruta</label>
+        <name>LLC_BI__Assigned_Party__c</name>
+    </fields>
+    <fields>
+        <help>Este campo de fórmula muestra el nombre del usuario o de la cola que es dueño de este requisito.</help>
+        <label>Cesionario</label>
+        <name>LLC_BI__Assignee__c</name>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene una referencia a la lista de verificación al que pertenece este requisito.</help>
+        <label>Es Tipo de Producto</label>
+        <name>LLC_BI__Checklist__c</name>
+        <relationshipLabel>Requisitos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo contiene el id del registro al que se refiere este requisito.</help>
+        <label>Saldo mínimo requerido</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional y contiene la fecha en la que se debe completar este requisito.</help>
+        <label>Guión</label>
+        <name>LLC_BI__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el número de días que se espera completar este requisito.</help>
+        <label>Días de duración prevista</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Marque este campo para indicar que este requisito debe ser completado antes de que el objeto de contexto puede ir más allá del contexto de Checkpoint.</help>
+        <label>Costo unitario</label>
+        <name>LLC_BI__Hard_Stop__c</name>
+    </fields>
+    <fields>
+        <help>Marque este campo para indicar este requisito es una plantilla.</help>
+        <label>puntos asignados</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <help>Este campo indica si un registro Requisito ha renunciado de forma manual. El sistema establece este campo automáticamente si el usuario establece un Requisito de &apos;Exento&apos; en la interfaz de usuario.</help>
+        <label>URL del flujo</label>
+        <name>LLC_BI__Manually_Waived__c</name>
+    </fields>
+    <fields>
+        <help>Representa el registro contexto metadatos necesarios por este requisito.</help>
+        <label>Nombre de la regla interna</label>
+        <name>LLC_BI__Needed_By_Context__c</name>
+    </fields>
+    <fields>
+        <label>cuadros de mando</label>
+        <name>LLC_BI__Needed_By__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aggregation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analytics</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval / Loan Committee</masterLabel>
+            <translation>Comité de aprobación/de créditos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation>Registrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Cerrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Funded</masterLabel>
+            <translation>Financiado cerrada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>Cierre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Completar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation>doc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Collections </masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Collections</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Contracts</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Committee</masterLabel>
+            <translation>Comité de Préstamos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Entry</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Procesamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation>Propuesta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification / Application</masterLabel>
+            <translation>Calificación/Solicitud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>mantenimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup Complete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>Activos especiales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>suscripción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workout Solutions</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo opcional especifica la secuencia en que este requisito debe ser completada.</help>
+        <label>el máximo de puntos</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional se rellena automáticamente con un ID del objeto que está siendo actuar en consecuencia.</help>
+        <label>Resultado</label>
+        <name>LLC_BI__Proxy_Id__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional se rellena automáticamente con el nombre API objeto que se actúe en consecuencia.</help>
+        <label>puntos asignados</label>
+        <name>LLC_BI__Proxy_Type__c</name>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene el estado actual de este requisito.</help>
+        <label>Estado</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el nombre del desarrollador de la plantilla Requisito sobre la que se basa este requisito.</help>
+        <label>Detalles de puntuación</label>
+        <name>LLC_BI__Template__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de regla externa</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

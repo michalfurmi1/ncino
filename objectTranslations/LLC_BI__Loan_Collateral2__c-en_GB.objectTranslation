@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label>Security Location</label>
+        <name>Collateral_Location__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Advance_Rate_Override__c</name>
+    </fields>
+    <fields>
+        <help>The percentage of the value of security that a lender uses to determine the amount of a loan.</help>
+        <label></label>
+        <name>LLC_BI__Advance_Rate__c</name>
+    </fields>
+    <fields>
+        <help>The dollar amount of security that is being pledged against the loan.</help>
+        <label></label>
+        <name>LLC_BI__Amount_Pledged__c</name>
+    </fields>
+    <fields>
+        <help>The user must check this box if they are attempting to pledge more than the current lendable value of a piece of security to a loan</help>
+        <label></label>
+        <name>LLC_BI__Authorize__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Collateral_Full_Address_PE__c</name>
+    </fields>
+    <fields>
+        <label>Security Address</label>
+        <name>LLC_BI__Collateral_Full_Address__c</name>
+    </fields>
+    <fields>
+        <label>Security Type</label>
+        <name>LLC_BI__Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <help>This is a System Generated field from the Value field on the Security object. Do not modify</help>
+        <label>Security Value</label>
+        <name>LLC_BI__Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <label>Security</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Current Lendable Value of the security based on the Advance Rate.</help>
+        <label></label>
+        <name>LLC_BI__Current_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help>The date the loan has been paid out and the piece of security is no longer pledged</help>
+        <label></label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>The value of the first charge position. This field is populated by the system</help>
+        <label>First Charge Position Value</label>
+        <name>LLC_BI__First_Lien_Position_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_Excluded__c</name>
+    </fields>
+    <fields>
+        <help>This field is automatically populated via apex to indicate that this security is a leased asset.</help>
+        <label></label>
+        <name>LLC_BI__Is_Leased_Asset__c</name>
+    </fields>
+    <fields>
+        <help>Is this the primary security on the loan.</help>
+        <label></label>
+        <name>LLC_BI__Is_Primary__c</name>
+    </fields>
+    <fields>
+        <help>The charge position that will be taken on Security.</help>
+        <label>Charge Position</label>
+        <name>LLC_BI__Lien_Position__c</name>
+        <picklistValues>
+            <masterLabel>1st</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>The aggregate object that connects Security to a Loan</help>
+        <label>Loan Security Aggregate</label>
+        <name>LLC_BI__Loan_Collateral_Aggregate__c</name>
+        <relationshipLabel>Security Pledged</relationshipLabel>
+    </fields>
+    <fields>
+        <help>The loan that te security is related to.</help>
+        <label></label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Security Pledged</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__LookupKey__c</name>
+    </fields>
+    <fields>
+        <help>The Lendable Value present on the security at the time the loan is booked.</help>
+        <label></label>
+        <name>LLC_BI__Original_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Original_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <help>The value of the other charge positions. This value is populated by the system.</help>
+        <label>Other Charge Position Value</label>
+        <name>LLC_BI__Other_Lien_Position_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Override_Reason__c</name>
+    </fields>
+    <fields>
+        <help>This field is automatically computed. Its value represents this security&apos;s (the parent) total number of child security objects (the children) directly pledged to the same loan as this parent security.</help>
+        <label></label>
+        <name>LLC_BI__Pledged_Rollup_Count__c</name>
+    </fields>
+    <fields>
+        <help>Manually select the security pledge status as either Active (currently being used) or Inactive (no longer being used).</help>
+        <label></label>
+        <name>LLC_BI__Pledged_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>The value of the second charge position. This field is populated by the system.</help>
+        <label>Second Charge Position Value</label>
+        <name>LLC_BI__Second_Lien_Position_Value__c</name>
+    </fields>
+    <fields>
+        <help>The date the security is pledges against a loan</help>
+        <label></label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>The value of the third charge position. The field is populated by the system</help>
+        <label>Third Charge Position Value</label>
+        <name>LLC_BI__Third_Lien_Position_Value__c</name>
+    </fields>
+    <fields>
+        <help>This field is automatically computed. Its value represents the total &apos;lendable&apos; value of all security (the children of this security) directly pledged to the same loan as this (the parent) piece of security.</help>
+        <label></label>
+        <name>LLC_BI__Total_Pledged_Rollup_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help>This field is automatically computed. Its value represents the total &apos;value&apos; of all security (the children of this security) directly pledged to the same loan as this (the parent) piece of security.</help>
+        <label></label>
+        <name>LLC_BI__Total_Pledged_Rollup_Value__c</name>
+    </fields>
+    <fields>
+        <help>The sum of all prior charges.</help>
+        <label>Total Prior Charge Amount</label>
+        <name>LLC_BI__Total_Prior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Total Superior Charge Amount</label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <help>This is a System Generated field that ensures uniqueness of Loan_security2__c records.</help>
+        <label></label>
+        <name>LLC_BI__Unique_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>OREO__c</name>
+    </fields>
+    <fields>
+        <label>Real Estate Security</label>
+        <name>Real_Estate_Collateral__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Recovery_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Street_Address__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Subscription_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Postal Code</label>
+        <name>Zip_Code__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Acquired_With_Loan_Or_Project_Proceeds__c</name>
+    </fields>
+    <fields>
+        <help>Amount owed to seller under contract. Use this field only for charges on Purchaser or Seller Interest in Land Contract of Sale. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Amount_Owed_To_Seller_Under_Contract__c</name>
+    </fields>
+    <fields>
+        <help>Check if any prior charge(s) that is (are) open ended as to future advances must be closed, in writing, according to applicable state law. This field is used in SBA Loan Authorization only.</help>
+        <label>Close Prior Open Ended Charges</label>
+        <name>nSBA__Close_Prior_Open_Ended_Liens__c</name>
+    </fields>
+    <fields>
+        <help>Date Of Lease. Use this field only for charges on Lessee&apos;s Interest in a Lease by Assignment. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Date_Of_Lease__c</name>
+    </fields>
+    <fields>
+        <help>Evidence Of Title And Charge Priority Open Options. Use this field only for Charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label>Evidence Of Title And Charge Priority OO</label>
+        <name>nSBA__Evidence_Of_Title_And_Lien_Priority_OO__c</name>
+    </fields>
+    <fields>
+        <help>Evidence Of Title And Priority Of Charge options. Use this field only for Charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label>Evidence Of Title And Priority Of Charge</label>
+        <name>nSBA__Evidence_Of_Title_And_Priority_Of_Lien__c</name>
+        <picklistValues>
+            <masterLabel>ALTA Loan Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney’s certificate of title</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLTA Loan Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Title Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgagee’s Title Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property, Judgment and Lien Report indicating that lender has obtained the required position</masterLabel>
+            <translation>Property, Judgment and Charge Report indicating that lender has obtained the required position</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title and/or Lien Search</masterLabel>
+            <translation>Title and/or Charge Search</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title insurance customarily obtained for similar transactions in this jurisdiction</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>List any Evidence Of Title Open Options here. Use this field only for Charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Evidence_Of_Title_Open_Option__c</name>
+    </fields>
+    <fields>
+        <help>Indicates whether filing request for notice is required. Use this field only for Charges on real estate security types. This field is used in SBA Loan Authorization only</help>
+        <label></label>
+        <name>nSBA__Filing_Request_For_Notice_Required__c</name>
+    </fields>
+    <fields>
+        <help>Use this field if entity guaranteeing the loan is securing its guarantee with this charge. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Guaranteed_By__c</name>
+        <relationshipLabel>Security Pledged</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indicates that Assignment Of Rents on land and improvements are included in the charge. Use this field only if selected Realty And Leaseholds option is charge on Land and Improvements. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Include_Assignment_Of_Rents__c</name>
+    </fields>
+    <fields>
+        <help>Indicates that Water Rights are included in the charge. Use this field only if selected Realty And Leaseholds option is charge on Land and Improvements. This field is used in SBA Loan Authorization only</help>
+        <label></label>
+        <name>nSBA__Include_Water_Rights__c</name>
+    </fields>
+    <fields>
+        <help>Select state specific instrument. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Instrument__c</name>
+        <picklistValues>
+            <masterLabel>Deed of Trust</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deed to Secure Debt</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indemnity Deed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana Trust Indenture</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>If there are any prior charges on this security, set this field if any prior charge is Open Ended. This field is used in SBA Loan Authorization only</help>
+        <label></label>
+        <name>nSBA__Is_Any_Prior_Lien_Open_Ended__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Is_Landlords_Waiver_Required__c</name>
+    </fields>
+    <fields>
+        <help>This field is optional and manually populated. It is a checkbox that specifies if the piece of security is borrower or guarantor primary residence. Checked = True. Unchecked = False</help>
+        <label></label>
+        <name>nSBA__Is_Primary_Residence__c</name>
+    </fields>
+    <fields>
+        <help>vIs Without MGL Section 21(e) is an ALTA or Mortgage Loan Policy option. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Is_Without_MGL_Section_21e__c</name>
+    </fields>
+    <fields>
+        <help>Is Without Standard Survey Exception is an ALTA Loan Policy option. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Is_Without_Standard_Exceptions__c</name>
+    </fields>
+    <fields>
+        <help>Is Without Standard Survey Exception is an ALTA Loan Policy option. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Is_Without_Standard_Survey_Exception__c</name>
+    </fields>
+    <fields>
+        <help>Land trust prior assignees amount. Use this field only for charges on Assignment of Beneficial Interest and Power of Direction in Land Trust. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Land_Trust_Prior_Assignees_Amount__c</name>
+    </fields>
+    <fields>
+        <help>List prior assignees of Land trust. Use this field only for charges on Assignment of Beneficial Interest and Power of Direction in Land Trust. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Land_Trust_Prior_Assignees__c</name>
+    </fields>
+    <fields>
+        <help>Land trust prior chargeholders amount. Use this field only for charges on Assignment of Beneficial Interest and Power of Direction in Land Trust. This field is used in SBA Loan Authorization only.</help>
+        <label>Land Trust Prior Chargeholders Amount</label>
+        <name>nSBA__Land_Trust_Prior_Lienholders_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Land trust prior chargeholders. Use this field only for charges on Assignment of Beneficial Interest and Power of Direction in Land Trust. This field is used in SBA Loan Authorization only.</help>
+        <label>Land Trust Prior ChargeHolders</label>
+        <name>nSBA__Land_Trust_Prior_Lienholders__c</name>
+    </fields>
+    <fields>
+        <help>Number of days for Lessor to provide Lender/SBA written notice of intent to terminate the lease for Borrower’s default and an opportunity to cure. Use this field only for Lessees Interest type of charges. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Lease_Agreement_Termination_Notice_Days__c</name>
+    </fields>
+    <fields>
+        <help>Enter number of years if lease needs to be extended above the term of Loan. Use this field only for charges on leaseholds related to building on Leased Land. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Leasehold_Term_Of_Loan_Plus_Years__c</name>
+    </fields>
+    <fields>
+        <help>Indicates whether lender must cause deed to be in escrow. Use this field only for charges on Purchaser Interest in Land Contract of Sale. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Lender_Must_Cause_Deed_To_Be_In_Escrow__c</name>
+    </fields>
+    <fields>
+        <help>Lessee name. Use this field only for Lessee&apos;s Interest type of charges. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessee__c</name>
+    </fields>
+    <fields>
+        <help>Lessor name. Use this field only for Lessee&apos;s Interest type of charges. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessor__c</name>
+    </fields>
+    <fields>
+        <help>Line Of Credit Maximum Amount. Use this field only for prior charges. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Line_Of_Credit_Maximum_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Line Of Credit Present Amount. Use this field for prior charges only. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Line_Of_Credit_Present_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Describe Nature of interests and amounts. Use this field only for charges on Purchaser or Seller Interest in Land Contract of Sale. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Nature_Of_Interests_And_Amounts__c</name>
+    </fields>
+    <fields>
+        <help>Check if Mortgagee Title Policy must contain no exceptions for parties in possession. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only</help>
+        <label></label>
+        <name>nSBA__No_Exceptions_For_Parties_In_Possession__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Notice_Before_Foreclosure_Agreement__c</name>
+    </fields>
+    <fields>
+        <help>Indicates whether chargeholders written verification is required. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label>Prior Chargeholders Written Verifiction</label>
+        <name>nSBA__Prior_Lienholders_Written_Verification__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Puerto_Rico_Chattel_Mortgage__c</name>
+    </fields>
+    <fields>
+        <help>Purchaser name in security Assignment of (or charge on) Purchaser’s Interest in Land Contract of Sale. Use this field only for charges on Purchaser or Seller Interest in Land Contract of Sale. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Purchasers_Interest_Contract_Purchaser__c</name>
+    </fields>
+    <fields>
+        <help>Seller name in Security Assignment of (or charge on) Purchaser’s Interest in Land Contract of Sale. Use this field only for charges on Purchaser or Seller Interest in Land Contract of Sale. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Purchasers_Interest_Contract_Seller__c</name>
+    </fields>
+    <fields>
+        <help>Realty And Leaseholds Options. Use this field only for chages on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Realty_And_Leaseholds_Option__c</name>
+        <picklistValues>
+            <masterLabel>Assignment of Beneficial Interest and Power of Direction in Land Trust</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Purchaser’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Security Assignment of (or charge on) Purchaser’s Interest in Land Contract of Sale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Seller’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Security Assignment of (or charge on) Seller’s Interest in Land Contract of Sale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative Apartment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Instrument on Building Constructed on Leased Land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Security Interest in building on leased land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold on Tribal Land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Assignment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Lien, Mortgage or Deed of Trust</masterLabel>
+            <translation>Lessee’s Interest in a Lease by Charge, Mortgage or Deed of Trust</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lien On Land And Improvements</masterLabel>
+            <translation>Charge On Land And Improvements</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Required Endorsements is an ALTA Loan Policy option. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only</help>
+        <label></label>
+        <name>nSBA__Required_Endorsements__c</name>
+    </fields>
+    <fields>
+        <help>Indicates if the charge is shared with Lenders non-SBA Loan. This field is used in SBA Loan Authorization only.</help>
+        <label>Shared Charge With Lenders non-SBA Loan</label>
+        <name>nSBA__Shared_Lien_With_Lenders_Non_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>If the charge is shared with other lender, this field holds the shared charge Amount. This field is used in SBA Loan Authorization only.</help>
+        <label>Shared Charge With Other Lender Amount</label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Amount__c</name>
+    </fields>
+    <fields>
+        <help>If the charge is shared with other lender, this field holds the Name of Lender that the charge is shared with. This field is used in SBA Loan Authorization only.</help>
+        <label>Shared Charge With Other Lender Name</label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indicates whether statement of non-homestead is required. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Statement_Of_Non_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help>select security status from the list.</help>
+        <label></label>
+        <name>nSBA__Status__c</name>
+        <picklistValues>
+            <masterLabel>Abandoned</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraised</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral of Record</masterLabel>
+            <translation>Security of Record</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dissipated</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Value</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Possession</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Claim</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventoried</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Unknown</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overvalued</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale Pending</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sold</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indicates whether Statutory Power Of Sale Language is required. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only</help>
+        <label></label>
+        <name>nSBA__Statutory_Power_Of_Sale_Language_Req__c</name>
+    </fields>
+    <fields>
+        <help>Indicates whether Survey Certified To Lender is required. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Survey_Certified_To_Lender_Required__c</name>
+    </fields>
+    <fields>
+        <help>Check if Mortgagee Title Policy must reflect that all taxes and municipal charges have been brought current or paid. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Taxes_And_Municipal_Liens_Curr_Or_Paid__c</name>
+    </fields>
+    <fields>
+        <help>Check if Mortgagee Title Policy is without exception to Homestead, Survey or Taxes. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__WO_Exception_To_Homestead_Survey_Taxes__c</name>
+    </fields>
+    <fields>
+        <help>Indicates whether waiver of business homestead is required. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only</help>
+        <label></label>
+        <name>nSBA__Waiver_Of_Business_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indicates whether waiver of redemption rights is required. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Waiver_Of_Redemption_Rights_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indicates whether written waiver of homestead is required. Use this field only for charges on real estate security types. This field is used in SBA Loan Authorization only.</help>
+        <label></label>
+        <name>nSBA__Written_Waiver_Of_Homestead_Required__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>There are no relationships related to the security who have covering authority.</errorMessage>
+        <name>LLC_BI__Account_Must_Have_Authority</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>LLC_BI__Advance_Rate_Override</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You are trying to cover more than the current lendable value of this security. You must check the Authorize cover Amount checkbox to continue.</errorMessage>
+        <name>LLC_BI__Pledge_More_Than_Lendable_Value</name>
+    </validationRules>
+    <webLinks>
+        <label>Security Cover</label>
+        <name>LLC_BI__Add_Collateral</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Nombre Administrador de Documentos</label>
+        <name>nFORCE__Attribute_1__c</name>
+    </fields>
+    <fields>
+        <label>Ficha documento</label>
+        <name>nFORCE__Attribute_2__c</name>
+    </fields>
+    <fields>
+        <label>nombre de la categoría</label>
+        <name>nFORCE__Attribute_3__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del archivo</label>
+        <name>nFORCE__Attribute_4__c</name>
+    </fields>
+    <fields>
+        <label>Aplicación Tipo Plugin</label>
+        <name>nFORCE__Attribute_5__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de datos</label>
+        <name>nFORCE__Category__c</name>
+    </fields>
+    <fields>
+        <label>De campo</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label>Está activo</label>
+        <name>nFORCE__Reference_Id__c</name>
+    </fields>
+    <fields>
+        <label>Es requerido</label>
+        <name>nFORCE__Result_Code__c</name>
+    </fields>
+    <fields>
+        <label>Name complemento</label>
+        <name>nFORCE__Result_Message__c</name>
+    </fields>
+    <fields>
+        <label>Contexto proceso</label>
+        <name>nFORCE__Result_Type__c</name>
+    </fields>
+    <fields>
+        <label>Al campo</label>
+        <name>nFORCE__Result__c</name>
+    </fields>
+    <fields>
+        <label>Name complemento</label>
+        <name>nFORCE__Subcategory__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>nFORCE__Subtype__c</name>
+    </fields>
+    <fields>
+        <label>se desactiva</label>
+        <name>nFORCE__Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

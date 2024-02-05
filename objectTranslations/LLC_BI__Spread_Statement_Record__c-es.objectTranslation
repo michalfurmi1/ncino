@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>nombre de la categoría</label>
+        <name>LLC_BI__Debit__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Display_Type__c</name>
+        <picklistValues>
+            <masterLabel>Decimal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial</masterLabel>
+            <translation>Financiero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation>Porcentaje</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use Group Type</masterLabel>
+            <translation>Tipo de uso Grupo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descripción de la configuración personal</label>
+        <name>LLC_BI__Formula__c</name>
+    </fields>
+    <fields>
+        <label>Está activo</label>
+        <name>LLC_BI__Include_In_Total__c</name>
+    </fields>
+    <fields>
+        <label>Llave</label>
+        <name>LLC_BI__Is_Linked__c</name>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>LLC_BI__KPI_Type__c</name>
+        <picklistValues>
+            <masterLabel>Standard Highlight</masterLabel>
+            <translation>Resalte estándar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Highlight</masterLabel>
+            <translation>Resalte usuario</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Id tarea</label>
+        <name>LLC_BI__Linked_Spread_Statement_Record__c</name>
+        <relationshipLabel>Declaración de propagación Records</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Linked_Spread_Statement_Total_Group__c</name>
+        <relationshipLabel>Declaración de propagación Records</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Equipo papeles clave</label>
+        <name>LLC_BI__Operation_Add__c</name>
+    </fields>
+    <fields>
+        <label>clave de equipo</label>
+        <name>LLC_BI__Operation_Divide__c</name>
+    </fields>
+    <fields>
+        <label>Equipo papeles clave</label>
+        <name>LLC_BI__Operation_Multiply__c</name>
+    </fields>
+    <fields>
+        <label>Nombre clave</label>
+        <name>LLC_BI__Operation_Subtract__c</name>
+    </fields>
+    <fields>
+        <label>Utilice esta tecla en el campo MailerTea</label>
+        <name>LLC_BI__Operation__c</name>
+        <picklistValues>
+            <masterLabel>ADD</masterLabel>
+            <translation>AÑADIR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIVIDE</masterLabel>
+            <translation>DIVIDIR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MULTIPLY</masterLabel>
+            <translation>MULTIPLICAR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUBTRACT</masterLabel>
+            <translation>SUSTRAER</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Marque este campo para calcular período durante el periodo de cambio</help>
+        <label>lookupKey</label>
+        <name>LLC_BI__Period_Over_Period_Change__c</name>
+    </fields>
+    <fields>
+        <help>Marque este campo para calcular el periodo durante el año fiscal anterior.</help>
+        <label>Nombre de objeto de equipo</label>
+        <name>LLC_BI__Period_Over_Prior_Fiscal_Year__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de la plantilla</label>
+        <name>LLC_BI__Prior_Fiscal_Year__c</name>
+    </fields>
+    <fields>
+        <label>Papel</label>
+        <name>LLC_BI__Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Days In Period</masterLabel>
+            <translation>Días del período</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debt Service</masterLabel>
+            <translation>Servicio de deuda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rent Roll Annual Income</masterLabel>
+            <translation>Alquiler rollo de ingresos anuales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simulated</masterLabel>
+            <translation>Simulado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>Estándar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Miembros del equipo</label>
+        <name>LLC_BI__Row_Number__c</name>
+    </fields>
+    <fields>
+        <label>Este campo está en desuso. Team_Role ha</label>
+        <name>LLC_BI__Source_Row__c</name>
+        <relationshipLabel>Clonados Registros Declaración de Spread</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Equipo</label>
+        <name>LLC_BI__Spread_Statement_Record_Total__c</name>
+        <relationshipLabel>Declaración de propagación Records</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Usuario</label>
+        <name>LLC_BI__Spread_Statement_Type__c</name>
+        <relationshipLabel>Declaración de propagación Records</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Papel</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>No se puede calcular período durante valores del período de ninguno vinculado registros</errorMessage>
+        <name>LLC_BI__Cannot_calculate_period_over_period_val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Usted puede tener un enlace a un registro o un grupo total, pero no ambos.</errorMessage>
+        <name>LLC_BI__Cannot_link_to_Record_and_a_Total_Group</name>
+    </validationRules>
+</CustomObjectTranslation>

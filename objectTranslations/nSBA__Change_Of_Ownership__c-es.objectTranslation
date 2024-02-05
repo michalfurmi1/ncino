@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Uso de los Recursos</label>
+        <name>nSBA__Application__c</name>
+        <relationshipLabel>Cambio de titularidades</relationshipLabel>
+    </fields>
+    <fields>
+        <help>valor de valoración de la empresa exclusiva del valor de tasación de los inmuebles y equipo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Nombre de la empresa que se compra. Util</label>
+        <name>nSBA__Appr_Value_WO_Real_Estate_And_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Cuota tasador</help>
+        <label>el uso del préstamo a cuenta de Descripc</label>
+        <name>nSBA__Appraiser_Fee__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del Negocio Tasador (persona)</help>
+        <label>La cantidad en dólares de los fondos que</label>
+        <name>nSBA__Appraiser_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indica si tasador está acreditado de negocios de Valoración (ABV)</help>
+        <label>Los activos intangibles Descripción. Uti</label>
+        <name>nSBA__Appraiser_Qualification_ABV__c</name>
+    </fields>
+    <fields>
+        <help>Indica si Evaluador es un Acreditado mayor Evaluador (ASA)</help>
+        <label>Nombre del Prestamista. Utilice este cam</label>
+        <name>nSBA__Appraiser_Qualification_ASA__c</name>
+    </fields>
+    <fields>
+        <help>Indica si tasador es un analista de valoración Acreditado (AVA)</help>
+        <label>Indica cómo se utilizarán los fondos del</label>
+        <name>nSBA__Appraiser_Qualification_AVA__c</name>
+    </fields>
+    <fields>
+        <help>Indica si es un tasador Certified Business Tasador (CBA)</help>
+        <label>Ciudad física de los inmuebles. Utilice</label>
+        <name>nSBA__Appraiser_Qualification_CBA__c</name>
+    </fields>
+    <fields>
+        <help>Indica si tasador es un Contador Público Certificado (CPA)</help>
+        <label>Estado físico de los inmuebles. Utilice</label>
+        <name>nSBA__Appraiser_Qualification_CPA__c</name>
+    </fields>
+    <fields>
+        <help>Indica si tasador es un analista certificado de la valuación (CVA)</help>
+        <label>Dirección Calle física de los inmuebles.</label>
+        <name>nSBA__Appraiser_Qualification_CVA__c</name>
+    </fields>
+    <fields>
+        <help>Contribución de capital del comprador - Borrowed</help>
+        <label>Código postal física de los inmuebles. U</label>
+        <name>nSBA__Borrower_Equity_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Dirección del corredor.</help>
+        <label>La cantidad en dólares de los fondos que</label>
+        <name>nSBA__Broker_Address__c</name>
+    </fields>
+    <fields>
+        <help>Broker Comisión Cantidad.</help>
+        <label>El texto que describe este uso particula</label>
+        <name>nSBA__Broker_Commission__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del Agente de negocios (persona) si corredor ha recibido un encargo de la venta de la empresa.</help>
+        <label>Acuerdo Fecha de compra</label>
+        <name>nSBA__Broker_Name__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del Agente de negocios Representante si agente ha recibido un encargo de la venta de la empresa.</help>
+        <label>Número del préstamo de la SBA. Utilice e</label>
+        <name>nSBA__Broker_Representative__c</name>
+    </fields>
+    <fields>
+        <help>Descripción de la contribución de capital del comprador en efectivo.</help>
+        <label>Nombre del accionista vendedor todas las</label>
+        <name>nSBA__Buyer_Equity_Cash_Description__c</name>
+    </fields>
+    <fields>
+        <help>contribución de capital del comprador en efectivo.</help>
+        <label>Descripción de alerta</label>
+        <name>nSBA__Buyer_Equity_Cash__c</name>
+    </fields>
+    <fields>
+        <help>Activos intangibles - valor de lista de cliente / cliente.</help>
+        <label>Alerta de crédito de negocios</label>
+        <name>nSBA__Client_List_Value__c</name>
+    </fields>
+    <fields>
+        <help>Indica si la evaluación externa negocio no es necesaria para esta compra negocio financiado por préstamo de la SBA</help>
+        <label>Negocio de crédito Información de Bancar</label>
+        <name>nSBA__External_Evaluation_Not_Required__c</name>
+    </fields>
+    <fields>
+        <help>Activos intangibles - derechos de franquicia, patentes, marcas, etc. valor.</help>
+        <label>Número del Documento</label>
+        <name>nSBA__Franchise_Value__c</name>
+    </fields>
+    <fields>
+        <help>Activos intangibles - valor de la llave.</help>
+        <label>Los activos totales</label>
+        <name>nSBA__Goodwill_Value__c</name>
+    </fields>
+    <fields>
+        <help>Indica si Broker está tomando una comisión o no.</help>
+        <label>Fecha de presentación</label>
+        <name>nSBA__Is_Broker_Commission__c</name>
+    </fields>
+    <fields>
+        <help>Activos intangibles - Licencia (licor, FCC, etc.) de valor.</help>
+        <label>SCIAN</label>
+        <name>nSBA__License_Value__c</name>
+    </fields>
+    <fields>
+        <help>Identifica si los activos adquiridos - Maquinaria y Equipo se aprecia o el valor libro</help>
+        <label>Crédito del negocio Business Information</label>
+        <name>nSBA__Machinery_Equipment_Evaluation_Type__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation>Valor de tasación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation>Valor reservado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Activos intangibles - Pacto de no competencia valor.</help>
+        <label>Ciudad</label>
+        <name>nSBA__Non_Complete_Value__c</name>
+    </fields>
+    <fields>
+        <help>Cantidad de aporte de capital del otro comprador.</help>
+        <label>Código SIC</label>
+        <name>nSBA__Other_Equity_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Descripción de la contribución de capital del otro comprador.</help>
+        <label>Estado</label>
+        <name>nSBA__Other_Equity_Description__c</name>
+    </fields>
+    <fields>
+        <help>Descripción de otros activos intangibles</help>
+        <label>Cremallera</label>
+        <name>nSBA__Other_Intangibles_Description__c</name>
+    </fields>
+    <fields>
+        <help>Otros activos intangibles de valor.</help>
+        <label>Estado</label>
+        <name>nSBA__Other_Intangibles_Value__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de negocio que se está comprando con este préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Negocio Informe de Crédito</label>
+        <name>nSBA__Purchased_Business_Name__c</name>
+    </fields>
+    <fields>
+        <help>Identifica si los activos adquiridos - Monto Real Estate está tasado o el valor libro</help>
+        <label>Más allá Términos días</label>
+        <name>nSBA__Real_Estate_Evaluation_Type__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation>Valor de tasación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation>Valor reservado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indica suma de todo el financiamiento del vendedor en el pleno de espera durante al menos 2 años.</help>
+        <label>Código Rango de Ventas Anual</label>
+        <name>nSBA__Seller_Finance_Full_Standby__c</name>
+    </fields>
+    <fields>
+        <help>Indica suma de toda la financiación vendedor no en el pleno de espera.</help>
+        <label>Negocio Informe de Crédito</label>
+        <name>nSBA__Seller_Finance_Not_Full_Standby__c</name>
+    </fields>
+    <fields>
+        <help>Los activos adquiridos - Cuentas importe a cobrar</help>
+        <label>Código Tipo negocio</label>
+        <name>nSBA__Total_Accounts_Receivable__c</name>
+    </fields>
+    <fields>
+        <help>Conclusión o Resumen de Valor del tasador</help>
+        <label>Empresa Código Propiedad</label>
+        <name>nSBA__Total_Appraised_Value__c</name>
+    </fields>
+    <fields>
+        <help>Muebles y enseres Cantidad</help>
+        <label>fecha de Fundación</label>
+        <name>nSBA__Total_Furniture_Fixtures__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad en dólares de los activos intangibles.</help>
+        <label>Descripción de la ubicación</label>
+        <name>nSBA__Total_Intangible_Assets__c</name>
+    </fields>
+    <fields>
+        <help>Los activos adquiridos - Cantidad de inventario</help>
+        <label>Número de empleados</label>
+        <name>nSBA__Total_Inventory__c</name>
+    </fields>
+    <fields>
+        <help>Maquinaria y Equipo Cantidad</help>
+        <label>Cuenta</label>
+        <name>nSBA__Total_Machinery_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Descripción de otros activos adquiridos.</help>
+        <label>Buró de Crédito ID</label>
+        <name>nSBA__Total_Other_Assets_Description__c</name>
+    </fields>
+    <fields>
+        <help>Otros activos (cantidad)</help>
+        <label>Número de cliente</label>
+        <name>nSBA__Total_Other_Assets__c</name>
+    </fields>
+    <fields>
+        <help>Los activos adquiridos - Importe los inmuebles</help>
+        <label>Estado</label>
+        <name>nSBA__Total_Real_Estate__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

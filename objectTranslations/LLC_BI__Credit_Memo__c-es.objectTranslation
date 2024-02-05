@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Especifica el tipo de plan IRA está abri</label>
+        <name>LLC_BI__FScreen__c</name>
+        <relationshipLabel>Notas de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <help>plantillas de nota de crédito con discapacidad no se mostrarán en la página de selección de notas de crédito.</help>
+        <label>La cantidad inicial contribución de los</label>
+        <name>LLC_BI__Is_Disabled__c</name>
+    </fields>
+    <fields>
+        <label>La fecha de aportación inicial de los ac</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <help>La identificación del marcador de posición utilizado más recientemente en el modal Guardar versión. Cuando poblada, el modal muestra el nombre de este marcador de posición por defecto.</help>
+        <label>IRA Tipo recalificación</label>
+        <name>LLC_BI__Linked_Placeholder_Id__c</name>
+    </fields>
+    <fields>
+        <help>El nombre de la API del objeto de esta nota de crédito se utiliza en.</help>
+        <label>isConvert</label>
+        <name>LLC_BI__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <label>Describe el otro tipo de seguro de arren</label>
+        <name>LLC_BI__Screen__c</name>
+        <relationshipLabel>Notas de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Es sustituida por</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Se requiere FScreen.</errorMessage>
+        <name>LLC_BI__FScreen_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Se requiere pantalla.</errorMessage>
+        <name>LLC_BI__Screen_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

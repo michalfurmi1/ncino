@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Este campo obligatorio contiene una referencia a los Criterios avanzados a los que pertenece esta plantilla Requisito.</help>
+        <label>Salida B Fórmula</label>
+        <name>LLC_BI__Advanced_Criteria__c</name>
+        <relationshipLabel>Plantillas requisito</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el identificador del usuario o de la cola a la que se asignan los requisitos basados ​​en este modelo. Se debe copiarse en el campo Propietario de registros Requisito creados a partir de esta plantilla.</help>
+        <label>Un nombre de variable</label>
+        <name>LLC_BI__Assignee__c</name>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene una referencia a la plantilla Lista de verificación al que pertenece esta plantilla Requisito.</help>
+        <label>Incrementos B variables</label>
+        <name>LLC_BI__Checklist__c</name>
+        <relationshipLabel>Requisitos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Introduzca la búsqueda de objetos de cue</label>
+        <name>LLC_BI__Checkpoint_Context__c</name>
+        <relationshipLabel>Plantillas requisito</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Un valor que representa una etapa en una transacción cuando se utiliza este requisito.</help>
+        <label>Gestión de garantía</label>
+        <name>LLC_BI__Checkpoint_Value__c</name>
+    </fields>
+    <fields>
+        <help>Este campo contiene el usuario de revestimiento Descripción del requisito basado en este modelo.</help>
+        <label>servicio de Gestión de</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el número de días que se espera para completar los requisitos en base a este modelo. Cabe copia en el campo duraciones Días esperado de los registros Requisito creados a partir de esta plantilla.</help>
+        <label>Introduzca la búsqueda de contactos obje</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Marque este campo para indicar que este requisito debe ser completado antes de que el objeto de contexto puede ir más allá del contexto de Checkpoint.</help>
+        <label>contexto Id</label>
+        <name>LLC_BI__Hard_Stop__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional especifica la secuencia en que se deben completar los requisitos en base a este modelo. Se debe copiarse en el campo Orden de registros Requisito creados a partir de esta plantilla.</help>
+        <label>más alto</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene el usuario de cara a nombre de los requisitos basados ​​en este modelo. Se debe copiarse en el campo Nombre de registros Requisito creados a partir de esta plantilla.</help>
+        <label>Mgmts de servicios (más alta)</label>
+        <name>LLC_BI__Title__c</name>
+    </fields>
+</CustomObjectTranslation>

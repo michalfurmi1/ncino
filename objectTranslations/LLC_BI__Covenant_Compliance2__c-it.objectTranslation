@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Auto_Approved__c</name>
+    </fields>
+    <fields>
+        <help>Data di approvazione dei patti finanziari.</help>
+        <label>Data di approvazione</label>
+        <name>LLC_BI__Approval_Date__c</name>
+    </fields>
+    <fields>
+        <help>L’utente che ha approvato la revisione di questi patti finanziari.</help>
+        <label>Approvato da</label>
+        <name>LLC_BI__Approved_By__c</name>
+        <relationshipLabel>Conformità patti finanziari (approvato da)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Il periodo di spread statement cui è associato il record di conformità dei patti finanziari.</help>
+        <label>Periodo di spread statement associato</label>
+        <name>LLC_BI__Associated_Spread_Statement_Period__c</name>
+        <relationshipLabel>Conformità patti finanziari</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status del periodo di spread statement a</label>
+        <name>LLC_BI__Associated_Statement_Period_Status__c</name>
+        <picklistValues>
+            <masterLabel>Associated</masterLabel>
+            <translation>Associato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Nessuno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unassociated</masterLabel>
+            <translation>Non associato</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status test automatizzato</label>
+        <name>LLC_BI__Automated_Testing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation>Non andato a buon fine</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation>Incompleto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation>Approvato</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Gruppo</label>
+        <name>LLC_BI__Bundle__c</name>
+    </fields>
+    <fields>
+        <label>Commenti</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Patti finanziari</label>
+        <name>LLC_BI__Covenant__c</name>
+        <relationshipLabel>Conformità patti finanziari</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data di efficacia</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>L’utente che ha valutato questi patti finanziari.</help>
+        <label>Valutato da</label>
+        <name>LLC_BI__Evaluated_By__c</name>
+        <relationshipLabel>Conformità patti finanziari (valutato da)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La data in cui i patti finanziari sono stati valutati.</help>
+        <label>Data di valutazione</label>
+        <name>LLC_BI__Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <help>Se c’è stata un’eccezione, la data in cui si è verificata l’eccezione.</help>
+        <label>Data di eccezione</label>
+        <name>LLC_BI__Exception_Date__c</name>
+    </fields>
+    <fields>
+        <help>Il valore dell’indicatore finanziario dei patti finanziari associati nel momento in cui il record di conformità dei patti finanziari era impostato su conforme.</help>
+        <label>Storico valori indicatore finanziario</label>
+        <name>LLC_BI__Historic_Financial_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Chiave periodo</label>
+        <name>LLC_BI__Period_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Compliant</masterLabel>
+            <translation>Conforme</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation>Eccezione</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>In attesa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation>Oggetto di rinuncia</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

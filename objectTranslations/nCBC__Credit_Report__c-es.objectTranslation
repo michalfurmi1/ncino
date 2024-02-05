@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Contact__c</name>
+        <relationshipLabel>Los informes de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Error_Description__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__FICO_Score__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Is_Success__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__LobLegacyKey__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__OFAC__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__Underwriting_Score_Date__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Experian informe de crédito</label>
+        <name>nCBC__Experian_Credit_Report</name>
+    </webLinks>
+    <webLinks>
+        <label>Informe HTML</label>
+        <name>nCBC__HTML_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

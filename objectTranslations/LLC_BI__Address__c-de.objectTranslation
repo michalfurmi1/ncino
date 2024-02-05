@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Geben Sie den Kontodatensatz an, auf den diese Adresse sich bezieht.</help>
+        <label>Konto</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Adressen</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Geben Sie in dieses Feld den Ort ein.</help>
+        <label>Ort</label>
+        <name>LLC_BI__City__c</name>
+    </fields>
+    <fields>
+        <help>Geben Sie den Kontaktdatensatz an, auf den diese Adresse sich bezieht.</help>
+        <label>Kontakt</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>Adressen</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Geben Sie in dieses Feld das Land ein.</help>
+        <label>Land</label>
+        <name>LLC_BI__Country__c</name>
+    </fields>
+    <fields>
+        <help>Geben Sie in dieses Feld die Postleitzahl ein.</help>
+        <label>Postleitzahl (PLZ)</label>
+        <name>LLC_BI__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <help>Geben Sie in dieses Feld den Bundesstaat ein.</help>
+        <label>Bundesstaat</label>
+        <name>LLC_BI__State__c</name>
+    </fields>
+    <fields>
+        <help>Geben Sie in dieses Feld die Straße ein.</help>
+        <label>Straße</label>
+        <name>LLC_BI__Street__c</name>
+    </fields>
+    <fields>
+        <help>Wählen Sie den Adresstyp aus der Auswahlliste.</help>
+        <label>Typ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Mailing</masterLabel>
+            <translation>Briefpost</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Box</masterLabel>
+            <translation>Postfach</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical</masterLabel>
+            <translation>Physisch</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nFORCE__App__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFORCE__Body_Type__c</name>
+        <picklistValues>
+            <masterLabel>Lightning Aura Component</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Web Component</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visualforce Page</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Corps</label>
+        <name>nFORCE__Body__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Group__c</name>
+    </fields>
+    <fields>
+        <label>icône de classe</label>
+        <name>nFORCE__Icon_Class__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Is_Hidden__c</name>
+    </fields>
+    <fields>
+        <label>La navigation</label>
+        <name>nFORCE__Navigation__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <help>Un ensemble séparé des points-virgules de paires clé = valeur transmises en tant que paramètres d&apos;URL pour le contenu de ce trajet.</help>
+        <label>Paramètres</label>
+        <name>nFORCE__Parameters__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Parent_App__c</name>
+    </fields>
+    <fields>
+        <help>L&apos;écran utilisé pour rendre le contenu de cet itinéraire.</help>
+        <label>Écran</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>routes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>sous Navigation</label>
+        <name>nFORCE__Sub_Navigation__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Toolbar__c</name>
+    </fields>
+    <fields>
+        <help>La page comprend pour la région de barre supérieure du modèle de l&apos;interface utilisateur de base.</help>
+        <label>Barre du haut</label>
+        <name>nFORCE__Topbar__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Cette valeur est affichée dans le portail client pour itinéraires qui sont utilisés pour la production de l&apos;interface utilisateur dynamique, comme une page sur une application en ligne, et varie d&apos;un texte d&apos;en-tête qui pourrait apparaître en interne</help>
+        <label>Portail Texte en-tête</label>
+        <name>nPortal__Portal_Header_Text__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le chemin vers une icône SLDS (Personnalisé, Standard ou utilitaire) après démarrage « ... icônes / ». Par exemple, le chemin de l&apos;icône de compte standard serait «standard sprite / svg / symbols.svg # compte.</help>
+        <label>Portail Icône Chemin</label>
+        <name>nPortal__Portal_Icon_Path__c</name>
+    </fields>
+    <fields>
+        <help>Une description textuelle de cet itinéraire qui sera affiché sous le message d&apos;en-tête externe aux utilisateurs dans le portail client.</help>
+        <label>Portail texte Subheader</label>
+        <name>nPortal__Portal_Subheader_Text__c</name>
+    </fields>
+    <fields>
+        <help>Entrez une clause WHERE facultative pour filtrer les résultats de la recherche sur ce sObject. Un exemple sur l&apos;objet de compte serait « type! = « Individuel » ».</help>
+        <label>OA Filtre de recherche d&apos;objets</label>
+        <name>nPortal__Search_Object_Filter__c</name>
+    </fields>
+    <fields>
+        <label>OA Recherche Type d&apos;objet</label>
+        <name>nPortal__Search_Object_Type__c</name>
+    </fields>
+    <fields>
+        <help>jeu de champs qui contrôle les informations affichées dans les résultats de recherche.</help>
+        <label>OA Résultats Fieldset</label>
+        <name>nPortal__Search_Results_Fieldset__c</name>
+    </fields>
+    <fields>
+        <label>OA Recherche Bouton de sélection active</label>
+        <name>nPortal__Search_Select_Active_Text__c</name>
+    </fields>
+    <fields>
+        <label>OA Recherche Bouton de sélection de text</label>
+        <name>nPortal__Search_Select_Text__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

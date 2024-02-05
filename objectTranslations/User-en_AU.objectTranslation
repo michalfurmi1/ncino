@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>AutoRemoveManagedLicense__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>DemoUser__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Mortgage_License_State__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Mortgage_License__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__NMLS__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Officer_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Secured_Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Unsecured_Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__nCino_User__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Lending_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Finance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Business Banking</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wealth</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Locale_Criteria_for_PB__c</name>
+        <picklistValues>
+            <masterLabel>English Australian</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English Canadian</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English U.K</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English U.S</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Managers_Manager__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Primary_Branch__c</name>
+        <picklistValues>
+            <masterLabel>AACT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asheville</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benton Harbor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berrien Springs</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bible Way</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buchanan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Double R</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fletcher</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Griffith</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gwinner</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holland North</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holland South</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jenny Lind</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marion East</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marion West</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage Call Center</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niles North</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niles South</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northwest</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reed Highschool</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rogers Ave</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sparks</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Joseph</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Statesville</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stevensville</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Online</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Van Buren</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Primary_Region__c</name>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation>Victoria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N Michigan</masterLabel>
+            <translation>New South Wales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation>Western Australia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation>Northern Territory</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S Michigan/Ohio/Indiana</masterLabel>
+            <translation>Tasmania</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Online</masterLabel>
+            <translation>Southern Australia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Secured_Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Template_Identifier__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Unsecured_Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>User_Digitized_Signature__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nBIDCA__nCino_Data_User2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nBRIDGER__Bridger_Password__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nBRIDGER__Bridger_Username__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__Has_Reached_Ownership_Limit__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__Is_Customer_Portal_Account_Owner_User__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nPortal__Sharing_History__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__User_Created_Customer_Engagement_PW__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>“F”, “M”, “U”</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Lendable_Region__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Lender_Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__SBA_Lender_FIRS__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nmls_number__c</name>
+    </fields>
+</CustomObjectTranslation>

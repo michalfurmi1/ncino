@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nSBA__Contact__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vorname</label>
+        <name>nSBA__First_Name__c</name>
+    </fields>
+    <fields>
+        <label>Nachname</label>
+        <name>nSBA__Last_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Middle_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Name_Used_From__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Name_Used_To__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

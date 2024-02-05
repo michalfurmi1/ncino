@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Porcentaje complejos aplicados a Loan 2</label>
+        <name>LLC_BI__ACH_Pre_Funding_Requirement__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es una lista de selección, qu</label>
+        <name>LLC_BI__Account_Action__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>Añadir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>Cancelar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revise</masterLabel>
+            <translation>Revisar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tasa de interés Complejo 1</label>
+        <name>LLC_BI__Account_Filter_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es un porcentaje, que se util</label>
+        <name>LLC_BI__Account_Notice_Type__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation>Ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incoming</masterLabel>
+            <translation>Entrante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outgoing</masterLabel>
+            <translation>Saliente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tasa de interés complejo 2</label>
+        <name>LLC_BI__Account_Reconciliation_Plan__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es un porcentaje, que se util</label>
+        <name>LLC_BI__Account_Serial_Number_Range_End__c</name>
+    </fields>
+    <fields>
+        <label>Porcentaje complejos aplicados a préstam</label>
+        <name>LLC_BI__Account_Serial_Number_Range_Start__c</name>
+    </fields>
+    <fields>
+        <label>Este campo se utiliza para especificar e</label>
+        <name>LLC_BI__Account_Stale_Dating_Calendar_Days__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Analyzed_Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>DDA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Este campo se utiliza para especificar e</label>
+        <name>LLC_BI__Balance_Reporting__c</name>
+        <picklistValues>
+            <masterLabel>BAI Files Transfer</masterLabel>
+            <translation>BAI Transferir archivos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balance Info</masterLabel>
+            <translation>Info balanza</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Controlled Disbursement</masterLabel>
+            <translation>El desembolso controlado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Information</masterLabel>
+            <translation>Sin información</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior Day</masterLabel>
+            <translation>Día previo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Day</masterLabel>
+            <translation>Mismo día</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Complejo longitud de periodo 1</label>
+        <name>LLC_BI__Batch_Import_to_this_Name_ID_Required__c</name>
+    </fields>
+    <fields>
+        <label>Número de unidades que determina la long</label>
+        <name>LLC_BI__Book_Transfer_Daily_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Complejo Longitud Período 2</label>
+        <name>LLC_BI__Book_Transfers__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation>Ambos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>From</masterLabel>
+            <translation>Desde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>N / A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To</masterLabel>
+            <translation>A</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Deposit_Account__c</name>
+        <relationshipLabel>Cuentas analizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Unidad Período complejo 1</label>
+        <name>LLC_BI__Deposit_Reference__c</name>
+        <relationshipLabel>Cuentas analizados (Depósito de referencia)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Unidad Período complejo 2</label>
+        <name>LLC_BI__Deposit_Ticket_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Spread Complex (%) 1</label>
+        <name>LLC_BI__ERD__c</name>
+        <picklistValues>
+            <masterLabel>DDA</masterLabel>
+            <translation>BIEN</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>N / A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVA</masterLabel>
+            <translation>TODO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time</masterLabel>
+            <translation>Hora</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Mantiene las unidades relacionadas con e</label>
+        <name>LLC_BI__Electronic_Reporting__c</name>
+    </fields>
+    <fields>
+        <label>Este campo se utiliza para especificar e</label>
+        <name>LLC_BI__Exception_Account_for_Returns__c</name>
+    </fields>
+    <fields>
+        <label>Spread Complex (%) 2</label>
+        <name>LLC_BI__Frequency_of_Issue_Files__c</name>
+    </fields>
+    <fields>
+        <label>Este campo se utiliza para especificar e</label>
+        <name>LLC_BI__Funding_Account__c</name>
+    </fields>
+    <fields>
+        <label>Para la consideración de lista de la com</label>
+        <name>LLC_BI__Location_Name__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si la cuenta maestra para Zero Balance de la cuenta</help>
+        <label>Entrar en la lista de la corporación (s)</label>
+        <name>LLC_BI__Master_Account__c</name>
+    </fields>
+    <fields>
+        <label>La construcción o la refinanciación de l</label>
+        <name>LLC_BI__Maximum_Daily_Deposit_Amount__c</name>
+    </fields>
+    <fields>
+        <label>total construcción</label>
+        <name>LLC_BI__Maximum_Deposit_Amount_Per_Check__c</name>
+    </fields>
+    <fields>
+        <label>Construcción WO SBA Grnt financiado por</label>
+        <name>LLC_BI__Maximum_Dollar_Range__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de la entidad crediticia que prop</label>
+        <name>LLC_BI__Minimum_Dollar_Range__c</name>
+    </fields>
+    <fields>
+        <label>Contrato CAPLines solicitante califica 7</label>
+        <name>LLC_BI__Peg_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Contrato CAPLines solicitante califica b</label>
+        <name>LLC_BI__Percentage_of_Returned_Transactions__c</name>
+    </fields>
+    <fields>
+        <label>En otros lugares de crédito pasó la prue</label>
+        <name>LLC_BI__Positive_Pay__c</name>
+        <picklistValues>
+            <masterLabel>Full</masterLabel>
+            <translation>Completo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial</masterLabel>
+            <translation>Parcial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reverse</masterLabel>
+            <translation>Marcha atrás</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel>Cuentas analizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>La deuda es un préstamo existente SBA qu</label>
+        <name>LLC_BI__Settlement_or_Offset_account__c</name>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Activo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>Cancelar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Active</masterLabel>
+            <translation>Inactivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation>En progreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>N / A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revise</masterLabel>
+            <translation>Revisar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>La aplicación es un capital circulante C</label>
+        <name>LLC_BI__Stop_Payment__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>Añadir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>Cambio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation>Borrar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>N / A</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>La deuda Ref todos los documentos justif</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Cuentas analizados (Tesoro Servicio de Referencia)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Servicio de tesorería</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel>Cuentas analizados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Delegado Prestamista Borrado de caracter</label>
+        <name>LLC_BI__Wire_Daily_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Persona que respondió “Sí” ha completado</label>
+        <name>LLC_BI__Wire_Detail__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>N / A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Sí</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Parent_DDA__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

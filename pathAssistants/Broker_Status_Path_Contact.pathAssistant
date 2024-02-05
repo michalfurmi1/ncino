@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Contact</entityName>
+    <fieldName>Broker_Status__c</fieldName>
+    <masterLabel>Broker Status Path - Contact</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Broker_Accreditation__c</fieldNames>
+        <fieldNames>Australian_Credit_License_Number__c</fieldNames>
+        <fieldNames>ACL_Holder_Licence_you_operate_under__c</fieldNames>
+        <info>&lt;p&gt;Please ensure you validate the credit license/broker accreditation. If there is a button for broker blacklist to validate into government databases please use that to automate the process!&lt;/p&gt;</info>
+        <picklistValueName>Pending Broker Qualification</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Broker</recordTypeName>
+</PathAssistant>

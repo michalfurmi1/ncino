@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>La exposición excluidos</label>
+        <name>LLC_BI__ESignature_Email_Message__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el nombre del objeto de equipo de medida para referencia.</help>
+        <label>contexto Id</label>
+        <name>LLC_BI__Team_Sharing_Context__c</name>
+    </fields>
+    <fields>
+        <label>Tipo</label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <fields>
+        <label>Préstamo</label>
+        <name>LLC_BI__docStore__c</name>
+    </fields>
+    <fields>
+        <label>paquete de Productos</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>La exposición excluidos</label>
+        <name>LLC_BI__namespacePrefix__c</name>
+    </fields>
+    <fields>
+        <label>cantidad recolectada</label>
+        <name>LLC_BI__templateFileName__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

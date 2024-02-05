@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>nFORMS__Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORMS__Enable_FLS__c</name>
+    </fields>
+    <fields>
+        <label>Formato de validación activadas</label>
+        <name>nFORMS__Enforce_Masking__c</name>
+    </fields>
+    <fields>
+        <help>La plantilla de formulario sólo estará disponible para los objetos que cumplan con estos criterios de filtro.</help>
+        <label>Si no se controla, no se aplicará la reg</label>
+        <name>nFORMS__Filter__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORMS__Form_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Introduzca una expresión regular opciona</label>
+        <name>nFORMS__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>Introduzca un mensaje que se mostrará al</label>
+        <name>nFORMS__Output_Type__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>nFORMS__Primary_Object__c</name>
+    </fields>
+    <fields>
+        <label>Ruta</label>
+        <name>nFORMS__Save_To_Docman__c</name>
+    </fields>
+    <fields>
+        <label>formato de los mensajes</label>
+        <name>nFORMS__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

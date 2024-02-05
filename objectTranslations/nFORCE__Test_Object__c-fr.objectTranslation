@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compte</label>
+        <name>nFORCE__Account__c</name>
+        <relationshipLabel>Objets d&apos;essai</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Utilisé dans les tests unitaires.</help>
+        <label>test Checkbox</label>
+        <name>nFORCE__Test_Checkbox__c</name>
+    </fields>
+    <fields>
+        <help>Utilisé dans les tests unitaires.</help>
+        <label>Date de test</label>
+        <name>nFORCE__Test_Date__c</name>
+    </fields>
+    <fields>
+        <help>Utilisé dans les tests unitaires.</help>
+        <label>Test de charge Multiselect</label>
+        <name>nFORCE__Test_Dependent_Multiselect__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Utilisé dans les tests unitaires.</help>
+        <label>Double test</label>
+        <name>nFORCE__Test_Double__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Test_Forms_Translate_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>apple</masterLabel>
+            <translation>tomate</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>banana</masterLabel>
+            <translation>concombre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>orange</masterLabel>
+            <translation>Orange</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Test_Highest__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Test_Parent__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Utilisé dans les tests unitaires.</help>
+        <label>Pourcentage d&apos;essai</label>
+        <name>nFORCE__Test_Percent__c</name>
+    </fields>
+    <fields>
+        <label>Test Picklist par défaut</label>
+        <name>nFORCE__Test_Picklist_Default__c</name>
+        <picklistValues>
+            <masterLabel>Selection1</masterLabel>
+            <translation>selection1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selection2</masterLabel>
+            <translation>selection2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selection3</masterLabel>
+            <translation>selection3</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Utilisé dans les tests unitaires.</help>
+        <label>test Picklist</label>
+        <name>nFORCE__Test_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>One</masterLabel>
+            <translation>Un</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Three</masterLabel>
+            <translation>Trois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two</masterLabel>
+            <translation>Deux</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Utilisé dans les tests unitaires.</help>
+        <label></label>
+        <name>nFORCE__Test_Rich_Textarea__c</name>
+    </fields>
+    <fields>
+        <help>Utilisé dans les tests unitaires.</help>
+        <label>Test de texte Formule</label>
+        <name>nFORCE__Test_Text_Formula__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

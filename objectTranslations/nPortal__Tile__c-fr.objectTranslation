@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Corps</label>
+        <name>nPortal__Body__c</name>
+    </fields>
+    <fields>
+        <label>Entête</label>
+        <name>nPortal__Header__c</name>
+    </fields>
+    <fields>
+        <label>Chemin de l&apos;icône</label>
+        <name>nPortal__Icon_Path__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

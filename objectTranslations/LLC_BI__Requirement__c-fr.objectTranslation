@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Ce champ est obligatoire Remplit basé sur l&apos;action que l&apos;utilisateur sélectionne. Ce champ contient l&apos;action de chaque demande d&apos;entretien individuel.</help>
+        <label>Action</label>
+        <name>LLC_BI__Action__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient le nombre de jours nécessaires pour remplir cette exigence.</help>
+        <label>Durée effective en jours</label>
+        <name>LLC_BI__Actual_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif stocke la syntaxe des formulaires qui détermine si une exigence sera créée.</help>
+        <label>Critères avancés</label>
+        <name>LLC_BI__Advanced_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ de lecture seule se peuplé par le système avec l&apos;identifiant du propriétaire d&apos;origine de cette exigence. Les valeurs possibles sont les utilisateurs, et Queues LLC_BI__Role__c Ids.</help>
+        <label>Parti affecté</label>
+        <name>LLC_BI__Assigned_Party__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ de formule affiche le nom de l&apos;utilisateur ou la file d&apos;attente qui possède cette exigence.</help>
+        <label>Cessionnaire</label>
+        <name>LLC_BI__Assignee__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient une référence à la liste de contrôle auxquels cette exigence appartient.</help>
+        <label>Liste de contrôle</label>
+        <name>LLC_BI__Checklist__c</name>
+        <relationshipLabel>Exigences</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ contient l&apos;identifiant du dossier auquel cette exigence se rapporte.</help>
+        <label>contexte Id</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>Description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient la date à laquelle cette exigence doit être remplie.</help>
+        <label>Date d&apos;échéance</label>
+        <name>LLC_BI__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient le nombre de jours prévus pour compléter cette exigence.</help>
+        <label>Durée prévue en jours</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour indiquer que cette exigence doit être remplie avant le contexte objet peut aller au-delà du contexte Checkpoint.</help>
+        <label>Arrêt matériel</label>
+        <name>LLC_BI__Hard_Stop__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour indiquer cette exigence est un modèle.</help>
+        <label>est-modèle</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ indique si un enregistrement a été dispensé manuellement. Le système définit automatiquement ce champ si l&apos;utilisateur définit une obligation de « Dispense » dans l&apos;interface utilisateur.</help>
+        <label>manuellement Renoncia-</label>
+        <name>LLC_BI__Manually_Waived__c</name>
+    </fields>
+    <fields>
+        <help>Représente l&apos;enregistrement des métadonnées de contexte nécessaire à cette exigence.</help>
+        <label>Nécessaire par le contexte</label>
+        <name>LLC_BI__Needed_By_Context__c</name>
+    </fields>
+    <fields>
+        <label>nécessaire par</label>
+        <name>LLC_BI__Needed_By__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aggregation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analytics</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval / Loan Committee</masterLabel>
+            <translation>Comité d’accord / des prêts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation>Confirmé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Fermé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Funded</masterLabel>
+            <translation>fermé subventionnées</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>Clôture en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Terminé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation>Doc Préparation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Collections </masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Collections</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Contracts</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Committee</masterLabel>
+            <translation>Comité prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Entry</masterLabel>
+            <translation>Saisie des ordres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation>Proposition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification / Application</masterLabel>
+            <translation>Qualification / demande</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>Entretien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup Complete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>actifs spéciaux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>prise ferme</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workout Solutions</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif spécifie la séquence dans laquelle cette exigence devrait être terminée.</help>
+        <label>Ordre</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif est automatiquement rempli avec un identifiant de l&apos;objet qui est sollicité.</help>
+        <label>Id proxy</label>
+        <name>LLC_BI__Proxy_Id__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif est automatiquement renseigné avec le nom de l&apos;API de l&apos;objet qui est sollicité.</help>
+        <label>type de proxy</label>
+        <name>LLC_BI__Proxy_Type__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient l&apos;état actuel de cette exigence.</help>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient le nom du développeur du modèle d&apos;exigence sur laquelle repose cette exigence.</help>
+        <label>Modèle</label>
+        <name>LLC_BI__Template__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

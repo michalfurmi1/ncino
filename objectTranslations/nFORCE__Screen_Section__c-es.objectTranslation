@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Seleccione esta casilla para permitir a los usuarios ordenar columnas en secciones de la pantalla.</help>
+        <label>Este campo administrador del sistema o p</label>
+        <name>nFORCE__Are_Columns_Sortable__c</name>
+    </fields>
+    <fields>
+        <label>Hacer cumplir enmascaramiento</label>
+        <name>nFORCE__Auto_Save__c</name>
+    </fields>
+    <fields>
+        <help>Fuerza un salto de página después de la sección durante la impresión.</help>
+        <label>Filtrar</label>
+        <name>nFORCE__Break_Page_After__c</name>
+    </fields>
+    <fields>
+        <help>Fuerza un salto de página antes de la sección durante la impresión.</help>
+        <label>Está activo</label>
+        <name>nFORCE__Break_Page_Before__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de salida</label>
+        <name>nFORCE__Conditional_Display_Criteria__c</name>
+    </fields>
+    <fields>
+        <label>objeto primaria</label>
+        <name>nFORCE__Default_Editable__c</name>
+    </fields>
+    <fields>
+        <label>Para guardar Docman</label>
+        <name>nFORCE__Default_Rendered__c</name>
+    </fields>
+    <fields>
+        <label>Modelo de la forma</label>
+        <name>nFORCE__Disable_Print__c</name>
+    </fields>
+    <fields>
+        <label>Las uniones plantilla de formulario</label>
+        <name>nFORCE__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label>origen de objetos</label>
+        <name>nFORCE__Display_Toggle_Effect__c</name>
+        <picklistValues>
+            <masterLabel>fade</masterLabel>
+            <translation>descolorarse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>slide</masterLabel>
+            <translation>diapositiva</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Clase activador</label>
+        <name>nFORCE__Display_Toggle_Header__c</name>
+    </fields>
+    <fields>
+        <label>Única del nombre de la haba</label>
+        <name>nFORCE__Display_Toggle_Link__c</name>
+    </fields>
+    <fields>
+        <label>Filtrar</label>
+        <name>nFORCE__Headless__c</name>
+    </fields>
+    <fields>
+        <label>Versión principal</label>
+        <name>nFORCE__Inactive__c</name>
+    </fields>
+    <fields>
+        <label>Certificado de middleware</label>
+        <name>nFORCE__Instructions_Text__c</name>
+    </fields>
+    <fields>
+        <label>middleware de punto final</label>
+        <name>nFORCE__Is_Editable__c</name>
+    </fields>
+    <fields>
+        <label>middleware contraseña</label>
+        <name>nFORCE__Layout__c</name>
+        <relationshipLabel>Secciones de pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Si la sección de la pantalla está mostrando una mesa, este es el número de columnas que se mostrarán en la tabla.</help>
+        <label>Nombre del proveedor</label>
+        <name>nFORCE__Number_of_Columns__c</name>
+    </fields>
+    <fields>
+        <label>Escribe un nombre</label>
+        <name>nFORCE__Parent_Screen_Section__c</name>
+        <relationshipLabel>Secciones de pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Está activo</label>
+        <name>nFORCE__Screen_View__c</name>
+        <relationshipLabel>Secciones de pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Establecer campo</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>Secciones de pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <label>SObject Contexto Tipo</label>
+        <name>nFORCE__Section_Resource__c</name>
+        <picklistValues>
+            <masterLabel>ComparableScreenResource</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ConfiguredSObjectScreenResource</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GrandchildScreenResource</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MappedSObjectHierarchyScreenResource</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MappedSObjectListScreenResource</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MappedSObjectScreenResource</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ReferenceFilteredHierarchyScreenResource</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SObjectScreenResource</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cuenta Índice de Pago</label>
+        <name>nFORCE__Validation_Service__c</name>
+    </fields>
+    <fields>
+        <label>Relación</label>
+        <name>nFORCE__Widget__c</name>
+        <relationshipLabel>Secciones de pantalla</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Versión secundaria</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Tipo SObject</label>
+        <name>nFORCE__sObject_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>Cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation>Contacto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Analyzed_Account__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Application__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Authorized_User__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Collateral__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Connection__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Covenant2__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Deposit__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Fee__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Funding_Method__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Id_Document__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Income__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Legal_Entities__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Loan_Collateral2__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Loan__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Product_Package__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Treasury_Service_Involvement__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Treasury_Service__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_Service_Attributes__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este valor se muestra en el portal del cliente para las secciones que se utilizan para la generación de interfaz de usuario dinámico, como una página en una aplicación en línea, y varía de un texto de cabecera que puede parecer internamente.</help>
+        <label>Discrepancia dirección</label>
+        <name>nPortal__Portal_Header_Text__c</name>
+    </fields>
+    <fields>
+        <help>Este valor opcional proporciona texto suplementario para ir con el campo Texto Portal de cabecera.</help>
+        <label>Mensaje de alerta</label>
+        <name>nPortal__Portal_Subheader_Text__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Por favor, seleccione un recurso sección.</errorMessage>
+        <name>nFORCE__Mandatory</name>
+    </validationRules>
+    <webLinks>
+        <label>construir Sección</label>
+        <name>nFORCE__Build_Layout</name>
+    </webLinks>
+</CustomObjectTranslation>

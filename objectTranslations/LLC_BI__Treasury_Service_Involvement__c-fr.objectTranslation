@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>L&apos;accès aux rapports ZBA</label>
+        <name>Access_to_ZBA_Reporting__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Adresse</label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label>Peut-examen / approuver les exceptions?</label>
+        <name>Can_Review_Approve_Exceptions__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ville</label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label>Fermez Raison service</label>
+        <name>Close_Out_Service_Reason__c</name>
+    </fields>
+    <fields>
+        <label>Fermez service</label>
+        <name>Close_Out_Service__c</name>
+    </fields>
+    <fields>
+        <label>Changement de limite de crédit</label>
+        <name>Credit_Limit_Change__c</name>
+    </fields>
+    <fields>
+        <label>Ajustement des bénéfices de crédit</label>
+        <name>Earnings_Credit_Adjustment__c</name>
+    </fields>
+    <fields>
+        <label>A accès à ZBA compte principal</label>
+        <name>Has_Access_to_ZBA_Master_Account__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>analysé compte</label>
+        <name>LLC_BI__Analyzed_Account__c</name>
+        <relationshipLabel>Trésor Implications</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Utilisateur autorisé</label>
+        <name>LLC_BI__Authorized_User__c</name>
+        <relationshipLabel>Trésor Implications</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Service de trésorerie</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel>Trésor Implications</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Manuel Limite de fil</label>
+        <name>Manual_Wire_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Nouvelle limite de crédit</label>
+        <name>New_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label>New Earnings crédit</label>
+        <name>New_Earnings_Credit__c</name>
+    </fields>
+    <fields>
+        <label>Limite de crédit Vieux</label>
+        <name>Old_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Crédit vieux des gains</label>
+        <name>Old_Earnings_Credit__c</name>
+    </fields>
+    <fields>
+        <label>Nouvel Ordre Équipement</label>
+        <name>Order_New_Equipment__c</name>
+    </fields>
+    <fields>
+        <label>Demande de fil manuel</label>
+        <name>Request_Manual_Wire__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Mise à jour du scanner</label>
+        <name>Scanner_update__c</name>
+        <picklistValues>
+            <masterLabel>Downgrade</masterLabel>
+            <translation>Rétrograder</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation>Améliorer</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Etat</label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label>Adresse de mise à jour</label>
+        <name>Update_Address__c</name>
+    </fields>
+    <fields>
+        <label>Le volume</label>
+        <name>Volume__c</name>
+        <picklistValues>
+            <masterLabel>1-50</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50-500</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500+</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Code postal</label>
+        <name>Zip_Code__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

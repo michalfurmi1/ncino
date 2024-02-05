@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Proyecto</label>
+        <name>Filing_Date__c</name>
+    </fields>
+    <fields>
+        <label>Las pruebas de validación</label>
+        <name>Filing_State__c</name>
+    </fields>
+    <fields>
+        <label>validación completa</label>
+        <name>NAICS__c</name>
+    </fields>
+    <fields>
+        <label>Financiación de solicitud de certificado</label>
+        <name>Registration_Number__c</name>
+    </fields>
+    <fields>
+        <label>Solicitud de Fondos de punto final (o se</label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label>Request Timeout Financiación (segundos,</label>
+        <name>TIN__c</name>
+    </fields>
+    <fields>
+        <label>Este campo debe comprobarse con la prueb</label>
+        <name>nXBI__Business_Credit_Report__c</name>
+        <relationshipLabel>Crédito del negocio Business Information</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Validación de la Prueba Descripción</label>
+        <name>nXBI__Business_Name__c</name>
+    </fields>
+    <fields>
+        <label>Aceptación</label>
+        <name>nXBI__City__c</name>
+    </fields>
+    <fields>
+        <label>CLAVE validación de respuesta del API</label>
+        <name>nXBI__Phone__c</name>
+    </fields>
+    <fields>
+        <label>Punto de validación de respuesta</label>
+        <name>nXBI__SIC_Code__c</name>
+    </fields>
+    <fields>
+        <label>Completado {0} {1} orquestación</label>
+        <name>nXBI__SIC_Description__c</name>
+    </fields>
+    <fields>
+        <label>Completado {0}</label>
+        <name>nXBI__State__c</name>
+    </fields>
+    <fields>
+        <label>Completado orquestación {0}</label>
+        <name>nXBI__Street__c</name>
+    </fields>
+    <fields>
+        <label>ACH de financiación Método de nombres de</label>
+        <name>nXBI__Zip__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

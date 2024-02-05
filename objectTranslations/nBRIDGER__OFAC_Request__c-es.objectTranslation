@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Ocho de estilos de Recursos</label>
+        <name>nBRIDGER__Account__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cinco de estilos de Recursos</label>
+        <name>nBRIDGER__Birthdate__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nBRIDGER__City__c</name>
+    </fields>
+    <fields>
+        <label>Cuatro de estilo de Recursos</label>
+        <name>nBRIDGER__Country__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nBRIDGER__Engine__c</name>
+    </fields>
+    <fields>
+        <label>Nueve de estilos de Recursos</label>
+        <name>nBRIDGER__Entity_Type__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nBRIDGER__Is_Individual__c</name>
+    </fields>
+    <fields>
+        <label>Una hoja de estilo de Recursos</label>
+        <name>nBRIDGER__Name__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nBRIDGER__Object_Id__c</name>
+    </fields>
+    <fields>
+        <label>Siete de estilos de Recursos</label>
+        <name>nBRIDGER__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nBRIDGER__Reason2__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nBRIDGER__Reason__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nBRIDGER__SSN__c</name>
+    </fields>
+    <fields>
+        <label>Seis de estilos de Recursos</label>
+        <name>nBRIDGER__Send_Date__c</name>
+    </fields>
+    <fields>
+        <label>Diez de estilos de Recursos</label>
+        <name>nBRIDGER__State__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso de hoja de estilo en cascada</label>
+        <name>nBRIDGER__Street__c</name>
+    </fields>
+    <fields>
+        <help>TIN cuenta</help>
+        <label>Tres de estilos de Recursos</label>
+        <name>nBRIDGER__TIN__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

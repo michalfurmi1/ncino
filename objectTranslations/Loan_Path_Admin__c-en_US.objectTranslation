@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Loan Path Admin</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Closer__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Important_Fields__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loan_Process_Guide__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loan_Stage__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Objectives__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Order__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Relationship_Manager__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Underwriter__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

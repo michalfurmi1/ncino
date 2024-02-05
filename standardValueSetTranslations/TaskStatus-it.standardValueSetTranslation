@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Completed</masterLabel>
+        <translation>Completato</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Deferred</masterLabel>
+        <translation>Rinviato</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Progress</masterLabel>
+        <translation>In corso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not Started</masterLabel>
+        <translation>Non iniziato</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting on someone else</masterLabel>
+        <translation>In attesa di qualcun altro</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

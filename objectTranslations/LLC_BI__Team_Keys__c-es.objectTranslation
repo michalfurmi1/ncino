@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Utilice esta tecla en el campo MailerTeamKey para el objeto en cuestión.</help>
+        <label>Tipo de solicitud de pago distintos</label>
+        <name>LLC_BI__KeyName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__RoleName__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Analyst</masterLabel>
+            <translation>Analista de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>ESO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Officer</masterLabel>
+            <translation>Oficial de Crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Operaciones de préstamo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation>administración</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>Oficial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Loan Officer</masterLabel>
+            <translation>Préstamos bancarios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>suscripción</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo está en desuso. Papel ha sido sustituido por un papel clave del equipo.</help>
+        <label></label>
+        <name>LLC_BI__Role__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>El nombre de la API del objeto de equipo para consultar.</help>
+        <label>tipo de solicitud</label>
+        <name>LLC_BI__TeamObjectName__c</name>
+    </fields>
+    <fields>
+        <label>Fecha solicitada</label>
+        <name>LLC_BI__TemplateName__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de Solicitud de Pago</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

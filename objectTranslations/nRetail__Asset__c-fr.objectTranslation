@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compte</label>
+        <name>nRetail__Account__c</name>
+        <relationshipLabel>Les atouts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Type d&apos;actif</label>
+        <name>nRetail__Asset_Type__c</name>
+        <picklistValues>
+            <masterLabel>Automobile</masterLabel>
+            <translation>Voiture</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>En espèces</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homestead</masterLabel>
+            <translation>Propriété</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance Cash Value</masterLabel>
+            <translation>Assurance-Vie valeur de rachat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgages and Contracts Held By You</masterLabel>
+            <translation>Prêts hypothécaires et contrats vous détiendrez</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Assets</masterLabel>
+            <translation>Autres actifs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Real Estate</masterLabel>
+            <translation>Autres biens immobiliers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Property</masterLabel>
+            <translation>Biens personnels</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profit Sharing &amp; Pensions</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement Accounts - Include IRA Acct.</masterLabel>
+            <translation>Comptes de retraite - Inclure IRA Acct.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities</masterLabel>
+            <translation>Titres</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Entrez une brève description de l&apos;actif.</help>
+        <label>Atout</label>
+        <name>nRetail__Asset__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Contact__c</name>
+        <relationshipLabel>Les atouts</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valeur estimée</label>
+        <name>nRetail__Estimated_Value__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel>Les atouts</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

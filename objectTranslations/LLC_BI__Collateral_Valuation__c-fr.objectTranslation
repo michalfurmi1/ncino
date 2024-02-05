@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Indique si une évaluation est active ou inactive.</help>
+        <label>Actif</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Type et sous-type de la garantie</label>
+        <name>LLC_BI__Collateral_Type_SubType__c</name>
+    </fields>
+    <fields>
+        <label>Garantie</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Évaluations de garantie</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Commentaires</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <help>Indique qu’il s’agit de l’évaluation principale de la garantie.</help>
+        <label>Principal(e)</label>
+        <name>LLC_BI__Primary__c</name>
+    </fields>
+    <fields>
+        <help>Indique la source de l’évaluation de la garantie.</help>
+        <label>Source de l’évaluation</label>
+        <name>LLC_BI__Source__c</name>
+        <picklistValues>
+            <masterLabel>Account Balance / Statement</masterLabel>
+            <translation>Solde du compte / Déclaration</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>Évaluation agréée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Officer</masterLabel>
+            <translation>Agent de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Statement</masterLabel>
+            <translation>États Financiers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Agent</masterLabel>
+            <translation>Agent d&apos;assurance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Valuation</masterLabel>
+            <translation>évaluation interne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Report</masterLabel>
+            <translation>Rapport sur les stocks</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice / Bill of Sale</masterLabel>
+            <translation>Facture/contrat de vente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Abundance of Caution</masterLabel>
+            <translation>Abondance Immobilier Mise en garde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Evaluation</masterLabel>
+            <translation>Évaluation immobilière</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Restricted Appraisal</masterLabel>
+            <translation>Immobilier restreint évaluation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables Aging</masterLabel>
+            <translation>Liste ventilée des comptes clients</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Source</masterLabel>
+            <translation>Source tiers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valuation Service Vendor</masterLabel>
+            <translation>Services d’évaluation</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique le type de l’évaluation de la garantie.</help>
+        <label>Type d’évaluation</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Actual Cash Value</masterLabel>
+            <translation>Valeur liquide</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Complete Value</masterLabel>
+            <translation>Comme valeur complète</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Is Value</masterLabel>
+            <translation>Comme Value</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Stabilized Value</masterLabel>
+            <translation>Comme valeur Stabilisé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation>Bilan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Book Value</masterLabel>
+            <translation>Valeur comptable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Balance</masterLabel>
+            <translation>Solde de trésorerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contents Value</masterLabel>
+            <translation>Table des matières Valeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Equipment / Transportation</masterLabel>
+            <translation>Juste valeur marchande – Équipement/Transport</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Real Estate</masterLabel>
+            <translation>Juste valeur marchande - Immobilier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Orderly Liquidation Value</masterLabel>
+            <translation>Valeur nette de liquidation Ordonnée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orderly Liquidation Value</masterLabel>
+            <translation>Valeur de liquidation Ordonnée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preliminary Value</masterLabel>
+            <translation>Valeur préliminaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Price</masterLabel>
+            <translation>Prix ​​d&apos;achat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement Cost Value</masterLabel>
+            <translation>Valeur de remplacement des coûts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived Value</masterLabel>
+            <translation>Valeur Renoncia-</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique la date de l’évaluation de la garantie.</help>
+        <label>Date d’évaluation</label>
+        <name>LLC_BI__Valuation_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Valuation_Description__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ renseigné par le système affiche automatiquement les identifiants des détails du véhicule reçus de l’intégration des évaluations de véhicule correspondante.</help>
+        <label>Détails de l’évaluation</label>
+        <name>LLC_BI__Valuation_Details__c</name>
+    </fields>
+    <fields>
+        <help>Permet de saisir la valeur de la garantie.</help>
+        <label>Valeur de la garantie</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

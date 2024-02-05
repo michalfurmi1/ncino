@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Número de referencia no válido</label>
+        <name>tFlow__App_Id__c</name>
+    </fields>
+    <fields>
+        <label>El número de referencia es válido.</label>
+        <name>tFlow__App_Next__c</name>
+    </fields>
+    <fields>
+        <label>E901</label>
+        <name>tFlow__App__c</name>
+    </fields>
+    <fields>
+        <label>Solicitar Locked</label>
+        <name>tFlow__Base_Fieldset_Name__c</name>
+    </fields>
+    <fields>
+        <label>El orden está bloqueado.</label>
+        <name>tFlow__Base_Object_Name__c</name>
+    </fields>
+    <fields>
+        <label>E902</label>
+        <name>tFlow__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label>Ya se ha cancelado el fin</label>
+        <name>tFlow__Group__c</name>
+    </fields>
+    <fields>
+        <label>El pedido ya ha sido cancelada.</label>
+        <name>tFlow__Hook_Class__c</name>
+    </fields>
+    <fields>
+        <label>E903</label>
+        <name>tFlow__Is_Hidden__c</name>
+    </fields>
+    <fields>
+        <label>Orden ya terminadas</label>
+        <name>tFlow__Is_Sortable__c</name>
+    </fields>
+    <fields>
+        <label>El pedido ya ha sido completado.</label>
+        <name>tFlow__Is_System_Required__c</name>
+    </fields>
+    <fields>
+        <label>E999</label>
+        <name>tFlow__Parent_Id__c</name>
+        <relationshipLabel>rutas</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

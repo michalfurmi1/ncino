@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>montant budgété</label>
+        <name>LLC_BI__Amount_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label>montant Financée</label>
+        <name>LLC_BI__Amount_Funded__c</name>
+    </fields>
+    <fields>
+        <label>Montant demandé</label>
+        <name>LLC_BI__Amount_Requested__c</name>
+    </fields>
+    <fields>
+        <label>Ligne budgétaire Description de l&apos;objet</label>
+        <name>LLC_BI__Budget_Line_Item_Description__c</name>
+    </fields>
+    <fields>
+        <label>Ligne budgétaire article</label>
+        <name>LLC_BI__Budget_Line_Item__c</name>
+        <relationshipLabel>Demandes Budget transaction</relationshipLabel>
+    </fields>
+    <fields>
+        <label>pour cent subventionnées</label>
+        <name>LLC_BI__Percent_Funded__c</name>
+    </fields>
+    <fields>
+        <label>pour cent demandé</label>
+        <name>LLC_BI__Percent_Requested__c</name>
+    </fields>
+    <fields>
+        <label>Demande de transaction</label>
+        <name>LLC_BI__Transaction_Request__c</name>
+        <relationshipLabel>Demandes Budget transaction</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

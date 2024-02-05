@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Closing_Disclosure_Issued_Date__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le montant total demandé de l&apos;argent par l&apos;emprunteur. Doit être une valeur numérique.</help>
+        <label>Montant désiré Cash Out</label>
+        <name>LLC_BI__Desired_Cash_Out_Amount_2__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le montant du paiement total. Doit être une valeur numérique.</help>
+        <label>Acompte</label>
+        <name>LLC_BI__Down_Payment_2__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_Jumbo__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Loan_Estimate_Issued_Date__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne automatiquement ce champ avec une clé de recherche qui associe le dossier de prêt aux valeurs hypothécaires.</help>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Prêts hypothécaires</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Entrez le prix d&apos;achat de la propriété. Doit être une valeur numérique.</help>
+        <label>Prix ​​d&apos;achat</label>
+        <name>LLC_BI__Purchase_Price_2__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage total des intérêts d&apos;un emprunteur verse sur la durée du prêt.</help>
+        <label>Pourcentage total d&apos;intérêt</label>
+        <name>LLC_BI__Total_Interest_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le coût total du prêt que l&apos;emprunteur paiera plus de 5 ans.</help>
+        <label>Coût total du prêt sur 5 ans</label>
+        <name>LLC_BI__Total_Loan_Cost_Over_5_Years__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le montant total en principal de l&apos;utilisateur paiera plus de 5 ans.</help>
+        <label>Total des principales Plus de 5 ans</label>
+        <name>LLC_BI__Total_Principal_Over_5_Years__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Residential_or_Investment_Property__c</name>
+        <picklistValues>
+            <masterLabel>Investment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

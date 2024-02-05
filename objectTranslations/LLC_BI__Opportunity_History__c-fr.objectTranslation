@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Modification du montant</label>
+        <name>LLC_BI__Amount_Change__c</name>
+    </fields>
+    <fields>
+        <label>Montant</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Heure de début</label>
+        <name>LLC_BI__Change_Time__c</name>
+    </fields>
+    <fields>
+        <label>Dépôt</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>Historique des opportunités</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Heure de fin</label>
+        <name>LLC_BI__End_Time__c</name>
+    </fields>
+    <fields>
+        <help>Défini dans le code - indique l’entrée finale pour une étape unique pour un prêt spécifique.</help>
+        <label>Modification de l’étape finale</label>
+        <name>LLC_BI__Final_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label>Est confirmé</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>Est clôturé</label>
+        <name>LLC_BI__Is_Closed__c</name>
+    </fields>
+    <fields>
+        <label>Est exclu de la durée de l’étape</label>
+        <name>LLC_BI__Is_Excluded_From_Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Historique des opportunités</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Identifiant d’opportunité</label>
+        <name>LLC_BI__OpportunityId__c</name>
+    </fields>
+    <fields>
+        <label>Minutes exclues de la durée de l’étape p</label>
+        <name>LLC_BI__Previous_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Défini dans le code - contient les minutes de la durée de l’étape précédente pour l’étape d’un prêt unique.</help>
+        <label>Minutes de la durée de l’étape précédent</label>
+        <name>LLC_BI__Previous_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Défini dans le code - contient les minutes de la durée de l’étape précédente pour l’étape d’un prêt unique (uniquement les heures hors activité commerciale).</help>
+        <label>Durée de l’étape précédente, min. hors a</label>
+        <name>LLC_BI__Previous_Stage_Duration_Non_Business_Min__c</name>
+    </fields>
+    <fields>
+        <label>Détail de l’offre</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Historique des opportunités</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Enregistrement des minutes exclues de la</label>
+        <name>LLC_BI__Record_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Nom de l’étape</label>
+        <name>LLC_BI__StageName__c</name>
+    </fields>
+    <fields>
+        <label>Étape et statut</label>
+        <name>LLC_BI__Stage_And_Status__c</name>
+    </fields>
+    <fields>
+        <label>Modification de l’étape</label>
+        <name>LLC_BI__Stage_Change__c</name>
+    </fields>
+    <fields>
+        <help>Défini dans le code - contient les heures de la durée de l’étape pour chaque entrée d’étape, pour un prêt unique.</help>
+        <label>Enregistrement des heures de la durée</label>
+        <name>LLC_BI__Stage_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Défini dans le code - contient les minutes de la durée de l’étape pour chaque entrée d’étape, pour un prêt unique.</help>
+        <label>Enregistrement des minutes de la durée</label>
+        <name>LLC_BI__Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Enregistrement des minutes hors activité</label>
+        <name>LLC_BI__Stage_Duration_Non_Business_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Enregistrement des jours de la durée</label>
+        <name>LLC_BI__Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Nom du statut</label>
+        <name>LLC_BI__StatusName__c</name>
+    </fields>
+    <fields>
+        <label>Modification du statut</label>
+        <name>LLC_BI__Status_Change__c</name>
+    </fields>
+    <fields>
+        <help>Défini dans le code - contient la somme des jours de la durée de l’étape pour chaque modification d’étape finale, pour un prêt unique.</help>
+        <label>Somme des jours de la durée de l’étape</label>
+        <name>LLC_BI__Sum_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label>Somme des jours exclus de la durée de l’</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Days__c</name>
+    </fields>
+    <fields>
+        <label>Somme des heures exclues de la durée de</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Hours__c</name>
+    </fields>
+    <fields>
+        <label>Somme des minutes exclues de la durée de</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Défini dans le code - contient la somme des heures de la durée de l’étape pour chaque modification d’étape finale, pour un prêt unique.</help>
+        <label>Somme des heures de la durée de l’étape</label>
+        <name>LLC_BI__Sum_Stage_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Défini dans le code - contient la somme des minutes de la durée de l’étape pour chaque modification d’étape finale, pour un prêt unique.</help>
+        <label>Somme des minutes de la durée de l’étape</label>
+        <name>LLC_BI__Sum_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Somme des jours hors activité commercial</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Days__c</name>
+    </fields>
+    <fields>
+        <label>Somme des heures hors activité commercia</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Hours__c</name>
+    </fields>
+    <fields>
+        <label>Somme des minutes hors activité commerci</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Total des minutes exclues de la durée de</label>
+        <name>LLC_BI__Total_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Total des minutes de la durée de l’étape</label>
+        <name>LLC_BI__Total_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Total des minutes hors activité commerci</label>
+        <name>LLC_BI__Total_Stage_Duration_Non_Business_Min__c</name>
+    </fields>
+    <fields>
+        <label>Service de trésorerie</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel>Histoire opportunité</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Utilisateur</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel>Histoire opportunité</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

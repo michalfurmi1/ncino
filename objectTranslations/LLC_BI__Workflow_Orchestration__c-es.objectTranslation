@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Este campo indica el registro se hace referencia.</help>
+        <label>Salto de página anterior</label>
+        <name>LLC_BI__Context_ID__c</name>
+    </fields>
+    <fields>
+        <help>Este campo administrador del sistema o poblada muestra el nombre de la cadena para llamar al paso actual el sistema utiliza para el procesamiento.</help>
+        <label>editable por defecto</label>
+        <name>LLC_BI__Orchestration_Step__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

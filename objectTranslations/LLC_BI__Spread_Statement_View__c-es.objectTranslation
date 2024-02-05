@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>monto de aportación</label>
+        <name>LLC_BI__Filter_JSON__c</name>
+    </fields>
+    <fields>
+        <help>Declaración relacionada Tipo Spread o plantilla. por ejemplo) Estado de Resultados, Balance, Ratios</help>
+        <label>El importe de la contribución de IRA / H</label>
+        <name>LLC_BI__Spread_Statement_Type__c</name>
+        <relationshipLabel>Declaración de propagación Vistas</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

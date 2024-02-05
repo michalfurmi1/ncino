@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nCBC__ContactId__c</name>
+        <relationshipLabel>Dossiers de crédit</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Rapport de crédit</label>
+        <name>nCBC__CreditReport__c</name>
+        <relationshipLabel>Dossiers de crédit</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Crédit Type d&apos;enregistrement</label>
+        <name>nCBC__Credit_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>responsabilité Id</label>
+        <name>nCBC__LiabilityId__c</name>
+    </fields>
+    <fields>
+        <label>Type de responsabilité</label>
+        <name>nCBC__LiabilityType__c</name>
+    </fields>
+    <fields>
+        <label>Type de compte de propriété</label>
+        <name>nCBC__accountOwnershipType__c</name>
+    </fields>
+    <fields>
+        <label>Montant</label>
+        <name>nCBC__amount__c</name>
+    </fields>
+    <fields>
+        <label>Date de l&apos;équilibre</label>
+        <name>nCBC__balanceDate__c</name>
+    </fields>
+    <fields>
+        <label>Équilibre</label>
+        <name>nCBC__balance__c</name>
+    </fields>
+    <fields>
+        <label>Faillite Pourcentage d&apos;ajustement</label>
+        <name>nCBC__bankruptAdjAmt__c</name>
+    </fields>
+    <fields>
+        <label>Faillite Responsabilité Montant</label>
+        <name>nCBC__bankruptLiabAmt__c</name>
+    </fields>
+    <fields>
+        <label>Faillite Remboursement Pourcentage</label>
+        <name>nCBC__bankruptRepayAmt__c</name>
+    </fields>
+    <fields>
+        <label>Faillite d&apos;actifs Montant</label>
+        <name>nCBC__bankruptcyAssetAmount__c</name>
+    </fields>
+    <fields>
+        <label>Commentaire des consommateurs</label>
+        <name>nCBC__consumerComment__c</name>
+    </fields>
+    <fields>
+        <label>Limite de crédit</label>
+        <name>nCBC__creditLimit__c</name>
+    </fields>
+    <fields>
+        <label>Type de crédit</label>
+        <name>nCBC__creditType__c</name>
+    </fields>
+    <fields>
+        <label>Délinquance Plus de 30 jours</label>
+        <name>nCBC__delinqOver30Days__c</name>
+    </fields>
+    <fields>
+        <label>Délinquance Plus de 60 jours</label>
+        <name>nCBC__delinqOver60Days__c</name>
+    </fields>
+    <fields>
+        <label>Délinquance Plus de 90 jours</label>
+        <name>nCBC__delinqOver90Days__c</name>
+    </fields>
+    <fields>
+        <label>disposition enregistrement</label>
+        <name>nCBC__dispositionRecord__c</name>
+    </fields>
+    <fields>
+        <label>Type de Disposition</label>
+        <name>nCBC__dispositionType__c</name>
+    </fields>
+    <fields>
+        <label>Drapeau des différends</label>
+        <name>nCBC__disputeFlag__c</name>
+    </fields>
+    <fields>
+        <label>Identifiant Docket</label>
+        <name>nCBC__docketIdentifier__c</name>
+    </fields>
+    <fields>
+        <label>Date de dépôt</label>
+        <name>nCBC__filingDate__c</name>
+    </fields>
+    <fields>
+        <label>Titulaire</label>
+        <name>nCBC__holder__c</name>
+    </fields>
+    <fields>
+        <label>date de l&apos;enquête</label>
+        <name>nCBC__inquiryDate__c</name>
+    </fields>
+    <fields>
+        <label>désobligeant</label>
+        <name>nCBC__isDerogratory__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;entreprise</label>
+        <name>nCBC__kindOfBusiness__c</name>
+    </fields>
+    <fields>
+        <label>Type de prêt</label>
+        <name>nCBC__loanType__c</name>
+    </fields>
+    <fields>
+        <label>Nom du modèle</label>
+        <name>nCBC__modelName__c</name>
+    </fields>
+    <fields>
+        <label>Paiement mensuel</label>
+        <name>nCBC__monthlyPayment__c</name>
+    </fields>
+    <fields>
+        <label>Mois de l&apos;histoire</label>
+        <name>nCBC__monthsOfHistory__c</name>
+    </fields>
+    <fields>
+        <label>Les plus récentes Note indésirables</label>
+        <name>nCBC__mostRecentAdverseRating__c</name>
+    </fields>
+    <fields>
+        <label>date d&apos;ouverture</label>
+        <name>nCBC__openDate__c</name>
+    </fields>
+    <fields>
+        <label>Nom du demandeur</label>
+        <name>nCBC__plaintiffName__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;enregistrement</label>
+        <name>nCBC__recordType__c</name>
+    </fields>
+    <fields>
+        <label>Score date</label>
+        <name>nCBC__scoreDate__c</name>
+    </fields>
+    <fields>
+        <label>Facteurs Score</label>
+        <name>nCBC__scoreFactors__c</name>
+    </fields>
+    <fields>
+        <label>Score Valeur</label>
+        <name>nCBC__scoreValue__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>nCBC__status__c</name>
+    </fields>
+    <fields>
+        <label>Abonné Nom d&apos;affichage</label>
+        <name>nCBC__subDisplayName__c</name>
+    </fields>
+    <fields>
+        <label>Code abonné</label>
+        <name>nCBC__subscriberCode__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>El código postal de 5 dígitos para el ti</label>
+        <name>nRetail__Account__c</name>
+        <relationshipLabel>ingresos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Situación de la hipoteca</label>
+        <name>nRetail__Contact__c</name>
+        <relationshipLabel>ingresos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>El nombre de la ciudad para el sector in</label>
+        <name>nRetail__Income_Source__c</name>
+        <picklistValues>
+            <masterLabel>Pay Stubs</masterLabel>
+            <translation>Talones de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Return</masterLabel>
+            <translation>Declaración de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Inmobiliaria Fecha de compra</label>
+        <name>nRetail__Income_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alimony Support</masterLabel>
+            <translation>pensión alimenticia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Bonus/Commission</masterLabel>
+            <translation>Bono Anual / Comisión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gross Annual Income</masterLabel>
+            <translation>Ingreso bruto anual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment/Trust Income</masterLabel>
+            <translation>Inversión / Income Trust</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Income</masterLabel>
+            <translation>Ingreso militar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Income</masterLabel>
+            <translation>otros Ingresos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time Income</masterLabel>
+            <translation>Tiempo de Ingresos parte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Income</masterLabel>
+            <translation>Los ingresos por alquiler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Employment Income</masterLabel>
+            <translation>Ingresos Autoempleo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable Income</masterLabel>
+            <translation>Ingreso imponible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Before Tax Income</masterLabel>
+            <translation>Total antes del impuesto sobre la renta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment Benefits</masterLabel>
+            <translation>Beneficios de desempleado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Crédito</label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel>ingresos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Costo original</label>
+        <name>nRetail__Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <label>Inmobiliaria valor de mercado actual</label>
+        <name>nRetail__Yearly_Income__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>El ingreso mensual debe ser 1/12 del ingreso anual.</errorMessage>
+        <name>nRetail__Monthly_Yearly_Income</name>
+    </validationRules>
+</CustomObjectTranslation>

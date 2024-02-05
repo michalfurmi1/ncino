@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compte</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>exposition exclue</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Actif</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Commentaires</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Dette</label>
+        <name>LLC_BI__Debt__c</name>
+        <relationshipLabel>exposition exclue</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Motif d’exclusion</label>
+        <name>LLC_BI__Exclude_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Debt Consolidation</masterLabel>
+            <translation>Consolidation de la dette</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>Refinancement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term-Out Refinance</masterLabel>
+            <translation>Terme-Refinancement</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>exposition exclue</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Détail de l’offre</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>exposition exclue</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

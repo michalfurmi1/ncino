@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>LLC_BI__AP_Stress_Index_RG__c</name>
+    </fields>
+    <fields>
+        <label>AP Indice de Stress - WGHT</label>
+        <name>LLC_BI__AP_Stress_Index__c</name>
+    </fields>
+    <fields>
+        <label>AP Indice de Stress</label>
+        <name>LLC_BI__AP_Stress_Index_actual__c</name>
+    </fields>
+    <fields>
+        <label>Expérience de gestion - WGHT</label>
+        <name>LLC_BI__AR_Management_Experience__c</name>
+    </fields>
+    <fields>
+        <label>Relation associée</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Revue de l’appréciation du risque</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Bal de trésorerie Année 1</label>
+        <name>LLC_BI__Cash_Bal_Year_1__c</name>
+    </fields>
+    <fields>
+        <label>Bal de trésorerie Année 2</label>
+        <name>LLC_BI__Cash_Bal_Year_2__c</name>
+    </fields>
+    <fields>
+        <label>Bal de trésorerie Année 3</label>
+        <name>LLC_BI__Cash_Bal_Year_3__c</name>
+    </fields>
+    <fields>
+        <label>La couverture des flux de trésorerie (g)</label>
+        <name>LLC_BI__Cash_Flow_Coverage_RG__c</name>
+    </fields>
+    <fields>
+        <label>La couverture des flux de trésorerie - W</label>
+        <name>LLC_BI__Cash_Flow_Coverage__c</name>
+    </fields>
+    <fields>
+        <label>La couverture des flux de trésorerie</label>
+        <name>LLC_BI__Cash_Flow_Coverage_actual__c</name>
+    </fields>
+    <fields>
+        <label>Commentaires</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Valeur calculée de la classe de risque</label>
+        <name>LLC_BI__Computed_Risk_Grade_Value__c</name>
+    </fields>
+    <fields>
+        <label>Score de crédit (G)</label>
+        <name>LLC_BI__Credit_Score_RG__c</name>
+    </fields>
+    <fields>
+        <label>Score de crédit Année 1</label>
+        <name>LLC_BI__Credit_Score_Year_1__c</name>
+    </fields>
+    <fields>
+        <label>Score de crédit Année 2</label>
+        <name>LLC_BI__Credit_Score_Year_2__c</name>
+    </fields>
+    <fields>
+        <label>Score de crédit Année 3</label>
+        <name>LLC_BI__Credit_Score_Year_3__c</name>
+    </fields>
+    <fields>
+        <label>Score de crédit - WGHT</label>
+        <name>LLC_BI__Credit_Score__c</name>
+    </fields>
+    <fields>
+        <label>Cote de crédit</label>
+        <name>LLC_BI__Credit_Score_actual__c</name>
+    </fields>
+    <fields>
+        <label>DSC OC Poste Année 1</label>
+        <name>LLC_BI__DSC_Post_OC_Year_1__c</name>
+    </fields>
+    <fields>
+        <label>DSC OC Année après 2</label>
+        <name>LLC_BI__DSC_Post_OC_Year_2__c</name>
+    </fields>
+    <fields>
+        <label>DSC OC Année après 3</label>
+        <name>LLC_BI__DSC_Post_OC_Year_3__c</name>
+    </fields>
+    <fields>
+        <label>Date decisioned</label>
+        <name>LLC_BI__Date_Decisioned__c</name>
+    </fields>
+    <fields>
+        <label>Affichage en note de crédit</label>
+        <name>LLC_BI__Display_In_Credit_Memo__c</name>
+    </fields>
+    <fields>
+        <label>Classe de risque finale</label>
+        <name>LLC_BI__Final_Risk_Grade__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Global_Cash_Flow_G2__c</name>
+    </fields>
+    <fields>
+        <label>Flux de trésorerie mondiale - WGHT</label>
+        <name>LLC_BI__Global_Cash_Flow_Wght__c</name>
+    </fields>
+    <fields>
+        <label>Globale des flux de trésorerie</label>
+        <name>LLC_BI__Global_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Revue de l’appréciation du risque</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Expérience de gestion (G)</label>
+        <name>LLC_BI__Management_Experience_RG__c</name>
+    </fields>
+    <fields>
+        <label>Expérience en gestion</label>
+        <name>LLC_BI__Management_Experience_actual__c</name>
+    </fields>
+    <fields>
+        <label>Valeur remplacée de la classe de risque</label>
+        <name>LLC_BI__Overridden_Risk_Grade_Value__c</name>
+    </fields>
+    <fields>
+        <label>Passer outre</label>
+        <name>LLC_BI__Override__c</name>
+    </fields>
+    <fields>
+        <label>Pers. &amp; Autobus. Liquidité (G)</label>
+        <name>LLC_BI__Pers_Bus_Liquidity_RG__c</name>
+    </fields>
+    <fields>
+        <label>Pers. &amp; Autobus. Liquidité</label>
+        <name>LLC_BI__Pers_Bus_Liquidity_actual__c</name>
+    </fields>
+    <fields>
+        <label>Pers. Et liquidité Bus - WGHT</label>
+        <name>LLC_BI__Personal_Liquidity__c</name>
+    </fields>
+    <fields>
+        <label>RG version</label>
+        <name>LLC_BI__RG_Version__c</name>
+    </fields>
+    <fields>
+        <label>Rev Année 1</label>
+        <name>LLC_BI__Rev_Year_1__c</name>
+    </fields>
+    <fields>
+        <label>Rev Année 2</label>
+        <name>LLC_BI__Rev_Year_2__c</name>
+    </fields>
+    <fields>
+        <label>Rev Année 3</label>
+        <name>LLC_BI__Rev_Year_3__c</name>
+    </fields>
+    <fields>
+        <label>La croissance des revenus (G)</label>
+        <name>LLC_BI__Revenue_Growth_RG__c</name>
+    </fields>
+    <fields>
+        <label>La croissance du chiffre d&apos;affaires - WG</label>
+        <name>LLC_BI__Revenue_Growth__c</name>
+    </fields>
+    <fields>
+        <label>Hausse des revenus (%)</label>
+        <name>LLC_BI__Revenue_Growth_actual__c</name>
+    </fields>
+    <fields>
+        <label>Risque année modèle</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>Revue de notation des risques</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>Refusé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>Revue en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Approved</masterLabel>
+            <translation>Pas approuvé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>année 1</label>
+        <name>LLC_BI__Year_1st__c</name>
+    </fields>
+    <fields>
+        <label>année 2</label>
+        <name>LLC_BI__Year_2nd__c</name>
+    </fields>
+    <fields>
+        <label>année 3</label>
+        <name>LLC_BI__Year_3rd__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Review_Date__c</name>
+    </fields>
+    <fields>
+        <label>Test URL terrain</label>
+        <name>Test_URL_Field__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Veuillez ajouter un commentaire avant de remplacer la valeur calculée pour la classe de risque.</errorMessage>
+        <name>LLC_BI__Mandatory_comment</name>
+    </validationRules>
+    <webLinks>
+        <label>Créer une nouvelle Évaluation du risque</label>
+        <name>Create_New_Risk_Rating_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label>Créer une appréciation du risque</label>
+        <name>Create_Risk_Rating_Account</name>
+    </webLinks>
+</CustomObjectTranslation>

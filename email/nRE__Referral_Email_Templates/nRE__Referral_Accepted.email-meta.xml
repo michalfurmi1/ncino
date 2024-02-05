@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to notify users that a referral has been accepted for review</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>nRE__Referral_Letterhead</letterhead>
+    <name>Referral Accepted</name>
+    <style>freeForm</style>
+    <subject>*** Your Referral has been Accepted for your Review &amp; Follow-up ***</subject>
+    <textOnly>Hello {!Organization.Name} Team Member,
+
+Your Referral to {!nRE__Referral__c.nRE__Referred_To__c} has been accepted for review.  Please be on the lookout for another email in the near future with information on the outcome.
+
+Click here for full details:  {!nRE__Referral__c.Link}
+
+Referral Amount:  {!nRE__Referral__c.nRE__Referral_Amount__c}
+
+Referral Sent Date:  {!nRE__Referral__c.nRE__Referral_Sent_Date__c}
+
+nCino</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

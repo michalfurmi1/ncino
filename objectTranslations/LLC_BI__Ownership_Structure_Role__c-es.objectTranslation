@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>objetivo ROA</label>
+        <name>CSIDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <label>Impuesto sobre el estado de exención</label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_Authorized_Business__c</name>
+    </fields>
+    <fields>
+        <label>Impuestos</label>
+        <name>LLC_BI__Is_Authorized_Signer__c</name>
+    </fields>
+    <fields>
+        <label>tasa de reclamo</label>
+        <name>LLC_BI__Is_Required__c</name>
+    </fields>
+    <fields>
+        <label>Este campo poblada sistema muestra el ti</label>
+        <name>LLC_BI__Ownership_Structure_Type__c</name>
+        <relationshipLabel>Roles estructura de propiedad</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Este campo poblada sistema muestra el nú</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <label>Término</label>
+        <name>LLC_BI__Role_Description__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca una descripción de los otros derechos, a opción de la muerte.</help>
+        <label>total de capital</label>
+        <name>WKDDP__Description__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione si el poder de los abogados para el titular podrá ejercer poderes de forma independiente o conjunta.</help>
+        <label>Cantidad</label>
+        <name>WKDDP__Exercise_Type__c</name>
+        <picklistValues>
+            <masterLabel>Independently</masterLabel>
+            <translation>Independientemente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jointly</masterLabel>
+            <translation>Conjuntamente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla para indicar un cierto poder separado se desea (POA) del documento. Si no es así, deje la casilla sin seleccionar.</help>
+        <label>comentarios</label>
+        <name>WKDDP__Form_Power_Of_Attorney_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla de verificación para indicar que cualquier agente personal asignado a la cuenta es duradera.</help>
+        <label>Valor de interés</label>
+        <name>WKDDP__Personal_Agent_Durable_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca la descripción de la relación entre el fiduciario (POA) y la cuenta.</help>
+        <label>lookupKey</label>
+        <name>WKDDP__Relationship_Description__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>La frecuencia de pago de interés</label>
+        <name>WKDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>Coste total</label>
+        <name>nCino_Code__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

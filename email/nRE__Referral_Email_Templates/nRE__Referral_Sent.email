@@ -1,0 +1,11 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div><br></div><div><br></div>Hello&nbsp;<span style="background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span>Team Member, 
+<br>
+<br>{!nRE__Referral__c.nRE__Referred_By__c} has submitted a Referral 
+for your review and follow-up action. &nbsp;Please use this link to view the 
+full details: &nbsp;{!nRE__Referral__c.Link}<br><br><div>Referral Amount: &nbsp;{!nRE__Referral__c.nRE__Referral_Amount__c}<br>
+<br>Referral Sent Date: &nbsp;{!nRE__Referral__c.nRE__Referral_Sent_Date__c}<br><br>nCino</div>]]></td>
+</tr>
+</table>

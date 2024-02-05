@@ -1,0 +1,93 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false">
+    <c:csaLookupkeyGeneratorIncludes />
+
+    <apex:composition template="nFORCE__Template_Heading">
+        <apex:define name="left">
+            {!$Label.LG_Title}
+        </apex:define>
+        <apex:define name="right" />
+    </apex:composition>
+
+    <apex:composition template="nFORCE__Template_View_1_Column">
+        <apex:define name="column-content">
+            <apex:composition template="nFORCE__Template_View_Container">
+                <apex:define name="content">
+                    <div id="csaLookupkeyGenerator" ng-controller="LookupkeyGeneratorController as vm">
+                        <message></message>
+                        <div class="row">
+                            <div class="col-md-7 col-xs-12">
+                                <div class="slds-select_container">
+                                    <select class="slds-select"
+                                            id="object-list"
+                                            chosen="true"
+                                            placeholder-text-single="{!$Label.LG_Select_Placeholder}"
+                                            ng-model="vm.selectedObject"
+                                            ng-options="key as value for (key , value) in vm.objectList">
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-5 col-xs-12">
+                                <div class="form-group col-xs-12" style="text-align: center;">
+                                    <div class="slds-button-group" role="group" style="display: inline-flex;">
+                                        <button class="slds-button slds-button--neutral"
+                                            ng-click="vm.getRecords()"
+                                            ng-disabled="vm.selectedObject ? false : true">
+                                            {!$Label.LG_Load_Records_Button}
+                                        </button>
+                                        <button class="slds-button slds-button--neutral"
+                                            ng-click="vm.checkForDuplicates()"
+                                            ng-disabled="vm.selectedObject ? false : true">
+                                            {!$Label.LG_Check_Duplicates_Button}
+                                        </button>
+                                        <button class="slds-button slds-button--neutral"
+                                            ng-click="vm.buildKeys()"
+                                            ng-disabled="vm.recordList.length == 0 ? true : false">
+                                            {!$Label.LG_Build_Keys_Button}
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <table class="slds-table slds-table--bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>{!$Label.LG_Record_Id_Table_Header}</th>
+                                            <th>{!$Label.LG_Record_Name_Table_Header}</th>
+                                            <th>{!$Label.LG_Record_Lookupkey_Table_Header}</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="record in vm.recordList">
+                                            <td>{{record.Id}}</td>
+                                            <td>{{record.Name}}</td>
+                                            <td>
+                                                <span ng-if="vm.selectedObject.search('nFORCE') == 1">
+                                                    {{record.nFORCE__lookupKey__c}}
+                                                </span>
+                                                <span ng-if="vm.selectedObject.search('LLC_BI') == 1">
+                                                    {{record.LLC_BI__lookupKey__c}}
+                                                </span>
+                                                <span ng-if="vm.selectedObject.search('nFORMS') == 1">
+                                                    {{record.nFORMS__lookupKey__c}}
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr ng-if="vm.recordList.length == 0">
+                                            <th colspan="3" class="slds-text-align--center">
+                                                {!$Label.LG_No_Row_Found}
+                                            </th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </apex:define>
+            </apex:composition>
+        </apex:define>
+    </apex:composition>
+</apex:page>

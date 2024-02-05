@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>AutoRemoveManagedLicense__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>DemoUser__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione el estado que emitió la licencia de hipotecas.</help>
+        <label>Zona de inundacion</label>
+        <name>LLC_BI__Mortgage_License_State__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el número de licencia Hipoteca única del usuario.</help>
+        <label>_Identificar</label>
+        <name>LLC_BI__Mortgage_License__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca el número del usuario único sistema de licencias Hipotecario Nacional (NMLS).</help>
+        <label>Inválida clase de determinación de inund</label>
+        <name>LLC_BI__NMLS__c</name>
+    </fields>
+    <fields>
+        <label>_Apellido</label>
+        <name>LLC_BI__Officer_Number__c</name>
+    </fields>
+    <fields>
+        <label>LenderCaseIdentifier</label>
+        <name>LLC_BI__Secured_Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <label>Información prestamista</label>
+        <name>LLC_BI__Unsecured_Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <label>utilización garantía válida. Inténtelo d</label>
+        <name>LLC_BI__nCino_User__c</name>
+    </fields>
+    <fields>
+        <help>Esto puede ser usado para identificar el ID de agente de crédito u otro código de identificación único utilizado internamente.</help>
+        <label>FloodCertificationIdentifier</label>
+        <name>Lending_ID__c</name>
+    </fields>
+    <fields>
+        <label>FLOOD_REQUEST</label>
+        <name>Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Finance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Business Banking</masterLabel>
+            <translation>Banca de Pequeñas Empresas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wealth</masterLabel>
+            <translation>Riqueza</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número del préstamo:</label>
+        <name>Locale_Criteria_for_PB__c</name>
+        <picklistValues>
+            <masterLabel>English Australian</masterLabel>
+            <translation>Inglés australiano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English Canadian</masterLabel>
+            <translation>Inglés canadiense</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English U.K</masterLabel>
+            <translation>Angleščina U.K</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English U.S</masterLabel>
+            <translation>Inglés U.S</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>LoginAccountIdentifier</label>
+        <name>Managers_Manager__c</name>
+        <relationshipLabel>usuarios</relationshipLabel>
+    </fields>
+    <fields>
+        <label>tratamiento prioritario ha sido solicita</label>
+        <name>Primary_Branch__c</name>
+        <picklistValues>
+            <masterLabel>AACT</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asheville</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benton Harbor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berrien Springs</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bible Way</masterLabel>
+            <translation>Camino de la Biblia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Buchanan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Double R</masterLabel>
+            <translation>doble R</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fletcher</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Griffith</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gwinner</masterLabel>
+            <translation>gwinner</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holland North</masterLabel>
+            <translation>Holanda del Norte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holland South</masterLabel>
+            <translation>Holanda del Sur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jenny Lind</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marion East</masterLabel>
+            <translation>Marion Medio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marion West</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage Call Center</masterLabel>
+            <translation>Call Center hipoteca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niles North</masterLabel>
+            <translation>Niles Norte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niles South</masterLabel>
+            <translation>Niles Sur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northwest</masterLabel>
+            <translation>Noroeste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reed Highschool</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rogers Ave</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sparks</masterLabel>
+            <translation>Moscas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Joseph</masterLabel>
+            <translation>San José</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Statesville</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stevensville</masterLabel>
+            <translation>stevensville</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Online</masterLabel>
+            <translation>united Online</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Van Buren</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>tratamiento prioritario ha sido solicita</label>
+        <name>Primary_Region__c</name>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N Michigan</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation>Carolina del Norte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S Michigan/Ohio/Indiana</masterLabel>
+            <translation>S Michigan / Ohio / Indiana</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Online</masterLabel>
+            <translation>united Online</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>La prioridad de solicitud Falló</label>
+        <name>Secured_Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <label>Tratamiento...</label>
+        <name>Template_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>Procesamiento - prioridad solicitada</label>
+        <name>Unsecured_Individual_Lending_Authority__c</name>
+    </fields>
+    <fields>
+        <help>Esto será utilizado para mantener Firma del usuario para las formas de generación.</help>
+        <label>Tratamiento</label>
+        <name>User_Digitized_Signature__c</name>
+    </fields>
+    <fields>
+        <help>Marque la casilla para indicar esta cuenta de usuario se utiliza para importar registros a través de Informatica o API.</help>
+        <label>LOMA / LMOR</label>
+        <name>nBIDCA__nCino_Data_User2__c</name>
+    </fields>
+    <fields>
+        <label>MISMOVersionID</label>
+        <name>nBRIDGER__Bridger_Password__c</name>
+    </fields>
+    <fields>
+        <label>MORTGAGE_TERMS</label>
+        <name>nBRIDGER__Bridger_Username__c</name>
+    </fields>
+    <fields>
+        <label>Nueva solicitud</label>
+        <name>nPortal__Has_Reached_Ownership_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Nombre NFIP Comunidad</label>
+        <name>nPortal__Is_Customer_Portal_Account_Owner_User__c</name>
+    </fields>
+    <fields>
+        <help>Este campo de texto largo se rellena automáticamente en la desactivación de un usuario del portal del cliente. Se utiliza para capturar todos los registros a los que el usuario del portal había que comparten el acceso.</help>
+        <label>NFIP Número Comunidad</label>
+        <name>nPortal__Sharing_History__c</name>
+    </fields>
+    <fields>
+        <label>NFIP Mapa Panel Fecha</label>
+        <name>nPortal__User_Created_Customer_Engagement_PW__c</name>
+    </fields>
+    <fields>
+        <label>No</label>
+        <name>nSBA__Gender__c</name>
+        <picklistValues>
+            <masterLabel>“F”, “M”, “U”</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indica si se permite que el prestamista para hacer préstamos fuera del su área de operaciones.</help>
+        <label>No se encontraron certificados de inunda</label>
+        <name>nSBA__Lendable_Region__c</name>
+    </fields>
+    <fields>
+        <label>_Código postal</label>
+        <name>nSBA__Lender_Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label>Información del preparador</label>
+        <name>nSBA__SBA_Lender_FIRS__c</name>
+    </fields>
+    <fields>
+        <help>Este es el número NMLS de la entidad crediticia.</help>
+        <label>MSA / MD:</label>
+        <name>nmls_number__c</name>
+    </fields>
+</CustomObjectTranslation>

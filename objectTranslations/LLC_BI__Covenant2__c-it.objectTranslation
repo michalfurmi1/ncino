@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Covenant_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Days_Until_Evaluation__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Attivo</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Commenti</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Giorni alla scadenza conformità</label>
+        <name>LLC_BI__Compliance_Days_Prior__c</name>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Cerca tipologia di patti finanziari</help>
+        <label>Tipologia patti finanziari</label>
+        <name>LLC_BI__Covenant_Type__c</name>
+        <relationshipLabel>Gestione patti finanziari</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Numero di giorni trascorsi dalla Data di valutazione successiva.</help>
+        <label>Giorni trascorsi dalla valutazione succe</label>
+        <name>LLC_BI__Days_Past_Next_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help>Numero di giorni fino alla Data di valutazione successiva.</help>
+        <label>Giorni fino alla valutazione successiva</label>
+        <name>LLC_BI__Days_Until_Next_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help>Utilizza questo campo per aggiungere dettagli ai patti finanziari.</help>
+        <label>Dettaglio</label>
+        <name>LLC_BI__Detail__c</name>
+    </fields>
+    <fields>
+        <label>Data di efficacia</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Valore indicatore finanziario</label>
+        <name>LLC_BI__Financial_Indicator_Value__c</name>
+    </fields>
+    <fields>
+        <label>Mesi di frequenza</label>
+        <name>LLC_BI__Frequency_Months__c</name>
+    </fields>
+    <fields>
+        <label>Frequenza</label>
+        <name>LLC_BI__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Annuale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Months</masterLabel>
+            <translation>Ogni 2 mesi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensile</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestrale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Semestrale</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Ultima data di valutazione</label>
+        <name>LLC_BI__Last_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Ultimo status di valutazione</label>
+        <name>LLC_BI__Last_Evaluation_Status__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Linked_Spread_Statement_Record_Total__c</name>
+        <relationshipLabel>Gestione patti finanziari</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Record spread statement collegato</label>
+        <name>LLC_BI__Linked_Spread_Statement_Record__c</name>
+        <relationshipLabel>Gestione patti finanziari</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data di valutazione successiva</label>
+        <name>LLC_BI__Next_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Note</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <help>Questo campo è utilizzato per correlare i patti finanziari dell’indicatore finanziario ai patti finanziari dei requisiti di bilancio. Quando un patto finanziario dei requisiti di bilancio va in eccezione, anche tutti i patti finanziari dell’indicatore fi</help>
+        <label>Patti finanziari correlati</label>
+        <name>LLC_BI__Related_Covenant__c</name>
+        <relationshipLabel>Gestione patti finanziari</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Questo campo indica se un patto finanziario è richiesto o meno.</help>
+        <label>Richiesto</label>
+        <name>LLC_BI__Required__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Servizio tesoreria</label>
+        <name>Treasury_Service__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

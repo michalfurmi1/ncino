@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Paquet</label>
+        <name>LLC_BI__Bundle__c</name>
+        <relationshipLabel>Analyse de sensibilité</relationshipLabel>
+    </fields>
+    <fields>
+        <label>est Collapsed</label>
+        <name>LLC_BI__Is_Collapsed__c</name>
+    </fields>
+    <fields>
+        <label>est-modèle</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 1 Type d&apos;affichage</label>
+        <name>LLC_BI__Output_1_Display_Type__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 1 Formule</label>
+        <name>LLC_BI__Output_1_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 1 Nom</label>
+        <name>LLC_BI__Output_1_Name__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 2 Type d&apos;affichage</label>
+        <name>LLC_BI__Output_2_Display_Type__c</name>
+    </fields>
+    <fields>
+        <label>Produit 2 Formule</label>
+        <name>LLC_BI__Output_2_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 2 Nom</label>
+        <name>LLC_BI__Output_2_Name__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 3 Type d&apos;affichage</label>
+        <name>LLC_BI__Output_3_Display_Type__c</name>
+    </fields>
+    <fields>
+        <label>Produit 3 Formule</label>
+        <name>LLC_BI__Output_3_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 3 Nom</label>
+        <name>LLC_BI__Output_3_Name__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 4 Type d&apos;affichage</label>
+        <name>LLC_BI__Output_4_Display_Type__c</name>
+    </fields>
+    <fields>
+        <label>Produit 4 Formule</label>
+        <name>LLC_BI__Output_4_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 4 Nom</label>
+        <name>LLC_BI__Output_4_Name__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 5 Type d&apos;affichage</label>
+        <name>LLC_BI__Output_5_Display_Type__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 5 formule</label>
+        <name>LLC_BI__Output_5_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Sortie 5 Nom</label>
+        <name>LLC_BI__Output_5_Name__c</name>
+    </fields>
+    <fields>
+        <label>Sortie A Type d&apos;affichage</label>
+        <name>LLC_BI__Output_A_Display_Type__c</name>
+    </fields>
+    <fields>
+        <label>La sortie A de formule</label>
+        <name>LLC_BI__Output_A_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Nom de sortie A</label>
+        <name>LLC_BI__Output_A_Name__c</name>
+    </fields>
+    <fields>
+        <label>Sortie B Type d&apos;affichage</label>
+        <name>LLC_BI__Output_B_Display_Type__c</name>
+    </fields>
+    <fields>
+        <label>La sortie B de formule</label>
+        <name>LLC_BI__Output_B_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Une direction variable</label>
+        <name>LLC_BI__Variable_A_Direction__c</name>
+    </fields>
+    <fields>
+        <label>Variable A Incréments</label>
+        <name>LLC_BI__Variable_A_Increments__c</name>
+    </fields>
+    <fields>
+        <label>Un nom de variable</label>
+        <name>LLC_BI__Variable_A_Name__c</name>
+    </fields>
+    <fields>
+        <label>Direction Variable B</label>
+        <name>LLC_BI__Variable_B_Direction__c</name>
+    </fields>
+    <fields>
+        <label>Augmentations variables B</label>
+        <name>LLC_BI__Variable_B_Increments__c</name>
+    </fields>
+    <fields>
+        <label>Nom de la variable B</label>
+        <name>LLC_BI__Variable_B_Name__c</name>
+    </fields>
+    <fields>
+        <label>clé de recherche</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Gestione patti finanziari</label>
+        <name>LLC_BI__Covenant__c</name>
+        <relationshipLabel>Regole patti finanziari</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Data finale</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Valore indicatore finanziario</label>
+        <name>LLC_BI__Financial_Indicator_Value__c</name>
+    </fields>
+    <fields>
+        <label>Operatore</label>
+        <name>LLC_BI__Operator__c</name>
+        <picklistValues>
+            <masterLabel>&lt;=</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;=</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

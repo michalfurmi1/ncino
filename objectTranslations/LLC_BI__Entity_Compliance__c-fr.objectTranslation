@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>CSiDP__Is_Credit_Score_Used__c</name>
+    </fields>
+    <fields>
+        <label>Âge de l&apos;Emprunteur ou Coemprunteur</label>
+        <name>LLC_BI__Age__c</name>
+    </fields>
+    <fields>
+        <label>Entité</label>
+        <name>LLC_BI__Entity__c</name>
+        <relationshipLabel>entité Conformités</relationshipLabel>
+    </fields>
+    <fields>
+        <label>HMD demandeur</label>
+        <name>LLC_BI__HMDA_Applicant_Type__c</name>
+        <picklistValues>
+            <masterLabel>Applicant</masterLabel>
+            <translation>Demandeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Applicant</masterLabel>
+            <translation>Co-demandeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Score de crédit</label>
+        <name>LLC_BI__HMDA_Credit_Score__c</name>
+    </fields>
+    <fields>
+        <help>Si Autre modèle de notation de crédit est sélectionné comme modèle de notation de crédit, ce champ permet de saisir une description du modèle.</help>
+        <label>Autre notation de crédit Description du</label>
+        <name>LLC_BI__HMDA_Credit_Scoring_Model_Other__c</name>
+    </fields>
+    <fields>
+        <label>Le pointage de crédit Modèle</label>
+        <name>LLC_BI__HMDA_Credit_Scoring_Model__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>Aucune codemandeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>FICO Risk classique 04</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>FICO Score de risque classique 98</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>Plus d&apos;un modèle de notation de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>Autre modèle de notation de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation>N&apos;est pas applicable</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Origine ethnique Collection Méthode</label>
+        <name>LLC_BI__HMDA_Ethnicity_Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Recueillies sur la base d&apos;une observation visuelle ou nom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Non collectées sur la base de l&apos;observation visuelle ou nom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>N&apos;est pas applicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Aucune codemandeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si Hispanique ou Latino est sélectionné comme ethnique, ce champ de texte vous permet de spécifier l&apos;autre ethnie hispanique ou Latino (s). Vous pouvez entrer jusqu&apos;à 50 caractères.</help>
+        <label>Hispanique ou Latino (s) Desc</label>
+        <name>LLC_BI__HMDA_Ethnicity_Other__c</name>
+    </fields>
+    <fields>
+        <help>Origine ethnique de l&apos;entité participation (Vous pouvez sélectionner jusqu&apos;à 5 options)</help>
+        <label>Origine ethnique</label>
+        <name>LLC_BI__HMDA_Ethnicity__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Hispanique ou Latino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation>mexicain</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation>portoricain</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation>cubain</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation>Autre Hispanique ou Latino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Pas Hispanique ou Latino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Information non fournis par le demandeur dans le courrier, Internet ou une application téléphonique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>N&apos;est pas applicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Aucune codemandeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Entrez, en dollars, le revenu annuel brut invoquée dans la prise de décision de crédit, ou si une décision de crédit n&apos;a pas été fait, le revenu annuel brut invoqué au traitement de la demande.</help>
+        <label>Revenu du demandeur</label>
+        <name>LLC_BI__HMDA_Income__c</name>
+    </fields>
+    <fields>
+        <label>Je ne veux pas fournir ces informations</label>
+        <name>LLC_BI__HMDA_Not_Provided__c</name>
+    </fields>
+    <fields>
+        <label>Méthode de collecte Race</label>
+        <name>LLC_BI__HMDA_Race_Collected__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Recueillies sur la base d&apos;une observation visuelle ou nom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Non collectées sur la base de l&apos;observation visuelle ou nom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>N&apos;est pas applicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Aucune codemandeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si est sélectionné en tant que race Amérindien ou Alaska Native, ce champ de texte vous permet de spécifier la tribu inscrits ou principale. Vous pouvez entrer jusqu&apos;à 50 caractères.</help>
+        <label>tribu Amérindien ou Alaska Native</label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_1__c</name>
+    </fields>
+    <fields>
+        <help>Si Asiatique est sélectionné comme une course, ce champ de texte vous permet de spécifier l&apos;autre race asiatique (s). Vous pouvez entrer jusqu&apos;à 50 caractères.</help>
+        <label>Autre race asiatique (s)</label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_27__c</name>
+    </fields>
+    <fields>
+        <help>Si Autres îles du Pacifique est sélectionné comme une course, ce champ de texte vous permet de spécifier la course des îles du Pacifique Autre (s). Vous pouvez entrer jusqu&apos;à 50 caractères.</help>
+        <label>Autre race du Pacifique insulaire (s)</label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_44__c</name>
+    </fields>
+    <fields>
+        <help>Race de l&apos;entité participation (Vous pouvez sélectionner jusqu&apos;à 5 options)</help>
+        <label>Race - Peut sélectionner jusqu&apos;à cinq</label>
+        <name>LLC_BI__HMDA_Race__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Indien de l&apos;Amérique ou de l&apos;Alaska Native</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>asiatique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation>asiatique Indien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation>chinois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation>Philippines</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation>Japonais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation>coréen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation>vietnamien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation>asiatique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Noir ou africain</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Natif d&apos;Hawaï ou autres îles du Pacifique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41</masterLabel>
+            <translation>natif d&apos;Hawaï</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42</masterLabel>
+            <translation>Ou Guamiens Chamorro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>43</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44</masterLabel>
+            <translation>Autres îles du Pacifique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>blanc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>Information non fournie par le demandeur dans le courrier, Internet ou une application téléphonique 7. Non applicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>N&apos;est pas applicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>Aucune codemandeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Sexe Méthode de collecte</label>
+        <name>LLC_BI__HMDA_Sex_Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Recueillies sur la base d&apos;une observation visuelle ou nom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Non collectées sur la base de l&apos;observation visuelle ou nom</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>N&apos;est pas applicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Aucune codemandeur</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Le sexe de l&apos;Emprunteur ou Coemprunteur</label>
+        <name>LLC_BI__HMDA_Sex__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Mâle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Femelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Information non fournis par le demandeur dans le courrier, Internet ou une application téléphonique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>N&apos;est pas applicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Aucune codemandeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>Co-candidat sélectionné à la fois mâle et femelle</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description>HMD dossier de conformité, en utilisant des règles en vigueur à partir de 2017</description>
+        <label>HMD-efficace-2017</label>
+        <name>LLC_BI__HMDA_Effective_2017</name>
+    </recordTypes>
+    <recordTypes>
+        <description>HMD dossier de conformité, en utilisant des règles en vigueur à partir de 2018</description>
+        <label>HMD-efficace-2018</label>
+        <name>LLC_BI__HMDA_Effective_2018</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>ACH routage ABA Nombre</label>
+        <name>ACH_ABA_Routing_Number__c</name>
+    </fields>
+    <fields>
+        <label>Nom ACH compte</label>
+        <name>ACH_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>ACH Numéro de compte</label>
+        <name>ACH_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>ACH Nom de la banque</label>
+        <name>ACH_Bank_Name__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de compte</label>
+        <name>Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Carte de débit Nombre</label>
+        <name>Debit_Card_Number__c</name>
+    </fields>
+    <fields>
+        <label>Date d&apos;expiration</label>
+        <name>Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>Premier mois de facturation</label>
+        <name>First_Billing_Month__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation>avril</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation>août</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation>décembre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation>février</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation>janvier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation>juillet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation>juin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation>Mars</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation>Peut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation>novembre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation>octobre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation>septembre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Funding_Amount__c</name>
+    </fields>
+    <fields>
+        <label>JE Nom du compte</label>
+        <name>JE_from_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>JE du numéro de compte</label>
+        <name>JE_from_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Type de compte</label>
+        <name>LLC_BI__Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Checking</masterLabel>
+            <translation>Checking d&apos;affaires</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Savings</masterLabel>
+            <translation>Epargne, Retraite,</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checking</masterLabel>
+            <translation>Vérification</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA Checking</masterLabel>
+            <translation>Checking MMA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA Savings</masterLabel>
+            <translation>épargne MMA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings</masterLabel>
+            <translation>Des économies</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Financement achèvement ID</label>
+        <name>LLC_BI__Funding_Completion_ID__c</name>
+    </fields>
+    <fields>
+        <label>Financement non Détail</label>
+        <name>LLC_BI__Funding_Failure_Detail__c</name>
+    </fields>
+    <fields>
+        <label>Financement Type de méthode</label>
+        <name>LLC_BI__Funding_Method_Type__c</name>
+        <relationshipLabel>Méthodes de financement</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Financement Session ID</label>
+        <name>LLC_BI__Funding_Session_ID__c</name>
+    </fields>
+    <fields>
+        <label>Statut de financement</label>
+        <name>LLC_BI__Funding_Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Trial Deposits</masterLabel>
+            <translation>En attente Dépôts d&apos;essai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Failure</masterLabel>
+            <translation>financement non</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Success</masterLabel>
+            <translation>Le succès de financement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation>En cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Failure</masterLabel>
+            <translation>Dépôt d&apos;essai non</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Reject</masterLabel>
+            <translation>Dépôt d&apos;essai Rejeter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Success</masterLabel>
+            <translation>Le succès de dépôt de première instance</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Financement ID cible</label>
+        <name>LLC_BI__Funding_Target_ID__c</name>
+    </fields>
+    <fields>
+        <label>Financement ID utilisateur</label>
+        <name>LLC_BI__Funding_User_ID__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Nom à inscrire sur les chèques</label>
+        <name>Name_to_Appear_on_Checks__c</name>
+    </fields>
+    <fields>
+        <label>ÉPINGLE</label>
+        <name>PIN__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de routage</label>
+        <name>Routing_Number__c</name>
+    </fields>
+    <fields>
+        <label>vérifier PIN</label>
+        <name>Verify_PIN__c</name>
+    </fields>
+    <fields>
+        <label>Fil de compte ABA</label>
+        <name>Wire_from_Account_ABA__c</name>
+    </fields>
+    <fields>
+        <label>Fil de Nom du compte</label>
+        <name>Wire_from_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>Fil de numéro de compte</label>
+        <name>Wire_from_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label>Fil de l&apos;institution</label>
+        <name>Wire_from_Institution__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>El número de propietarios de este activo</label>
+        <name>LLC_BI__Budget_Template_Id__c</name>
+    </fields>
+    <fields>
+        <label>Aviónica / Motores Descripción</label>
+        <name>LLC_BI__Budget_Template__c</name>
+        <relationshipLabel>Plantillas Presupuesto</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo de cuerpo</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Entrada del libro</label>
+        <name>LLC_BI__Is_Initially_Editable__c</name>
+    </fields>
+    <fields>
+        <label>Rama</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Capacidad</label>
+        <name>LLC_BI__Pending_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Titulado</label>
+        <name>LLC_BI__Percent_Allocated__c</name>
+    </fields>
+    <fields>
+        <label>Ciudad</label>
+        <name>LLC_BI__Percent_Disbursed__c</name>
+    </fields>
+    <fields>
+        <label>La ciudad que esta pieza de colateral se</label>
+        <name>LLC_BI__Percent_Hard_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Garantía colocada en un sitio Permanente</label>
+        <name>LLC_BI__Percent_Other_Costs__c</name>
+    </fields>
+    <fields>
+        <label>imagen garantía</label>
+        <name>LLC_BI__Percent_Remaining_Disbursement__c</name>
+    </fields>
+    <fields>
+        <label>Por favor, introduzca una dirección URL</label>
+        <name>LLC_BI__Percent_Remaining__c</name>
+    </fields>
+    <fields>
+        <label>Agente de seguros garantía</label>
+        <name>LLC_BI__Percent_Soft_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Colateral Ciudad de Seguros</label>
+        <name>LLC_BI__Remaining_Disbursement__c</name>
+    </fields>
+    <fields>
+        <label>Garantía Compañía de Seguros</label>
+        <name>LLC_BI__Total_Allocated__c</name>
+    </fields>
+    <fields>
+        <label>Garantía Seguro de teléfono</label>
+        <name>LLC_BI__Total_Budget_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Seguro de garantía Número de póliza</label>
+        <name>LLC_BI__Total_Disbursed_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Garantía de Seguros del Estado</label>
+        <name>LLC_BI__Total_Hard_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Calle garantía de Seguros</label>
+        <name>LLC_BI__Total_Other_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Código postal de Seguros garantía</label>
+        <name>LLC_BI__Total_Remaining__c</name>
+    </fields>
+    <fields>
+        <label>Emitido por garantía</label>
+        <name>LLC_BI__Total_Soft_Costs__c</name>
+    </fields>
+    <fields>
+        <label>Gestión de garantía</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

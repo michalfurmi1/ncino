@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compensado por límite</label>
+        <name>nFORCE__Flag_Image__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es opcional y está poblado po</label>
+        <name>nFORCE__Is_Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Configuración de los padres</label>
+        <name>nFORCE__Language_Display_Name__c</name>
+    </fields>
+    <fields>
+        <help>Introducir una clave local opcional para mapear la selección de esta lengua a un lugar específico.</help>
+        <label>Configuraciones niño</label>
+        <name>nFORCE__Locale_Key__c</name>
+    </fields>
+    <fields>
+        <label>Sección de pantalla</label>
+        <name>nFORCE__LookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

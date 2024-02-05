@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Checkpoint Valor</label>
+        <name>LLC_BI__All_Values__c</name>
+    </fields>
+    <fields>
+        <label>Este campo contiene el usuario de revest</label>
+        <name>LLC_BI__Value_10__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Value_1__c</name>
+    </fields>
+    <fields>
+        <label>Días duración prevista</label>
+        <name>LLC_BI__Value_2__c</name>
+    </fields>
+    <fields>
+        <label>Este campo opcional contiene el número d</label>
+        <name>LLC_BI__Value_3__c</name>
+    </fields>
+    <fields>
+        <label>Parada fuerte</label>
+        <name>LLC_BI__Value_4__c</name>
+    </fields>
+    <fields>
+        <label>Marque este campo para indicar que este</label>
+        <name>LLC_BI__Value_5__c</name>
+    </fields>
+    <fields>
+        <label>Orden</label>
+        <name>LLC_BI__Value_6__c</name>
+    </fields>
+    <fields>
+        <label>Este campo opcional especifica la secuen</label>
+        <name>LLC_BI__Value_7__c</name>
+    </fields>
+    <fields>
+        <label>Título</label>
+        <name>LLC_BI__Value_8__c</name>
+    </fields>
+    <fields>
+        <label>Este campo obligatorio contiene el usuar</label>
+        <name>LLC_BI__Value_9__c</name>
+    </fields>
+    <fields>
+        <label>Un valor que representa una etapa en una</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

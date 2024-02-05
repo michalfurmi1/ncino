@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Originación de arrendamiento</label>
+        <name>LLC_BI__Formula__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de arrendamiento</label>
+        <name>LLC_BI__Is_Linked__c</name>
+    </fields>
+    <fields>
+        <label>Ingreso mensual</label>
+        <name>LLC_BI__Spread_Statement_Period__c</name>
+        <relationshipLabel>Declaración de anotar los valores de propagación</relationshipLabel>
+    </fields>
+    <fields>
+        <label># De unidades Ocupados</label>
+        <name>LLC_BI__Spread_Statement_Record__c</name>
+        <relationshipLabel>Declaración de anotar los valores de propagación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Información inquilino</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

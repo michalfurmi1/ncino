@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Ce champ est obligatoire contient le nom complet du type sObject auquel ce modèle de liste de contrôle se rapporte. Il doit être copié dans le champ Type de contexte sur les enregistrements Liste de contrôle créés à partir de ce modèle.</help>
+        <label>Type de contexte</label>
+        <name>LLC_BI__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient la relation de contexte.</help>
+        <label>Le contexte</label>
+        <name>LLC_BI__Context__c</name>
+        <relationshipLabel>Modèles Liste de contrôle</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient le nombre de jours prévus pour effectuer les vérifications en fonction de ce modèle. Il doit être copié dans le champ Jours Durées attendu sur les dossiers créés à partir de la liste de contrôle de ce modèle.</help>
+        <label>Jours Durée prévue</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient le nom de l&apos;utilisateur face à des listes de vérification basé sur ce modèle. Il doit être copié dans le champ Nom sur les enregistrements Liste de contrôle créés à partir de ce modèle.</help>
+        <label>Titre</label>
+        <name>LLC_BI__Title__c</name>
+    </fields>
+</CustomObjectTranslation>

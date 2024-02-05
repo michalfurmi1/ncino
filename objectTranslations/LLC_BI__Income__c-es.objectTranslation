@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Poder legal de venta Idioma Req</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>ingresos</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Dirección</label>
+        <name>LLC_BI__Address__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Business_Name__c</name>
+    </fields>
+    <fields>
+        <label>Encuesta Certificado Para Prestamista Re</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>ingresos</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Excluir</label>
+        <name>LLC_BI__Exclude__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Excluded_Reason__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Inactive__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Income_Feature__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Impuestos y gravámenes Municipal Curr o</label>
+        <name>LLC_BI__Income_Source__c</name>
+        <picklistValues>
+            <masterLabel>Customer Reported</masterLabel>
+            <translation>Correspondiente al cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P60</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAYG</masterLabel>
+            <translation>de reparto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Stubs</masterLabel>
+            <translation>Talones de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spreads</masterLabel>
+            <translation>Los diferenciales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T4</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Return</masterLabel>
+            <translation>Declaración de impuestos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label>Compruebe si hipotecante Título de la po</label>
+        <name>LLC_BI__Income_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alimony Support</masterLabel>
+            <translation>pensión alimenticia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Bonus/Commission</masterLabel>
+            <translation>Bono Anual / Comisión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financially Analyzed Income</masterLabel>
+            <translation>Ingresos financieramente Analizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gross Annual Income</masterLabel>
+            <translation>Ingreso bruto anual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment/Trust Income</masterLabel>
+            <translation>Inversión / Income Trust</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Income</masterLabel>
+            <translation>Ingreso militar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Income</masterLabel>
+            <translation>otros Ingresos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time Income</masterLabel>
+            <translation>Tiempo de Ingresos parte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Income</masterLabel>
+            <translation>Los ingresos por alquiler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Employment Income</masterLabel>
+            <translation>Ingresos Autoempleo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable Income</masterLabel>
+            <translation>Ingreso imponible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Before Tax Income</masterLabel>
+            <translation>Total antes del impuesto sobre la renta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment Benefits</masterLabel>
+            <translation>Beneficios de desempleado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>ingresos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Renuncia de la redención derechos necesa</label>
+        <name>LLC_BI__Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Position__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Relationship_Income__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Indica si se requiere la renuncia de los</label>
+        <name>LLC_BI__Yearly_Income__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Los ingresos mensuales deben ser 1/12 de los ingresos anuales.</errorMessage>
+        <name>LLC_BI__Monthly_Yearly_Income</name>
+    </validationRules>
+</CustomObjectTranslation>

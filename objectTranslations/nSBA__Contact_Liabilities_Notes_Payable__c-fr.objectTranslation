@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Nom du contact</help>
+        <label>Nom du contact</label>
+        <name>nSBA__Contact_Name__c</name>
+        <relationshipLabel>Passifs Contact Effets à payer</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Solde actuel des billets à payer</help>
+        <label>Solde actuel</label>
+        <name>nSBA__Current_Balance__c</name>
+    </fields>
+    <fields>
+        <help>Comment garanti ou approuvé type de garantie</help>
+        <label>Comment type sécurisé de garantie</label>
+        <name>nSBA__How_Secured_Type_Of_Collateral__c</name>
+    </fields>
+    <fields>
+        <help>Les noms et adresses des porteurs de billets (s)</help>
+        <label>Nom et adresses des Obligataires</label>
+        <name>nSBA__Name_And_Addresses_Of_Noteholders__c</name>
+    </fields>
+    <fields>
+        <help>Montant initial des billets à payer</help>
+        <label>Solde d&apos;origine</label>
+        <name>nSBA__Original_Balance__c</name>
+    </fields>
+    <fields>
+        <help>Montant du paiement des billets à payer</help>
+        <label>Montant du paiement</label>
+        <name>nSBA__Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Fréquence de paiement</help>
+        <label>Fréquence de paiement</label>
+        <name>nSBA__Payment_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Annuellement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Monthly</masterLabel>
+            <translation>Bimensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Weekly</masterLabel>
+            <translation>Aux deux semaines</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>du quotidien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestriel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Semestriellement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Hebdomadaire</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

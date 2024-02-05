@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Este campo opcional contiene el número d</label>
+        <name>LLC_BI__Action__c</name>
+    </fields>
+    <fields>
+        <label>Título</label>
+        <name>LLC_BI__EAL_Id__c</name>
+        <relationshipLabel>Automatizados de reservación Statuses</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Categoría</label>
+        <name>LLC_BI__Parent__c</name>
+        <relationshipLabel>Los estados niño</relationshipLabel>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>LLC_BI__Record_Id__c</name>
+    </fields>
+    <fields>
+        <help>Estado general de la solicitud de reserva o un libro</help>
+        <label>adquisición de LH</label>
+        <name>LLC_BI__Status_Code__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Status_Summary__c</name>
+    </fields>
+    <fields>
+        <label>Los roles de aprobación</label>
+        <name>LLC_BI__Summary__c</name>
+    </fields>
+    <fields>
+        <label>Punto y coma lista de roles que tienen p</label>
+        <name>LLC_BI__Transaction_Id__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

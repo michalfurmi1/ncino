@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nFORCE__Attributes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Content_Name__c</name>
+    </fields>
+    <fields>
+        <label>Desde crédito activas</label>
+        <name>nFORCE__Content__c</name>
+        <relationshipLabel>secciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>EFX ID</label>
+        <name>nFORCE__Has_Resource__c</name>
+    </fields>
+    <fields>
+        <label>D-FICO Score</label>
+        <name>nFORCE__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>Verificación de identidad / Alerta de Fr</label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+</CustomObjectTranslation>

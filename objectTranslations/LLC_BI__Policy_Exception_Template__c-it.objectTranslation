@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Attivo</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Codice</label>
+        <name>LLC_BI__Code__c</name>
+    </fields>
+    <fields>
+        <label>Descrizione</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Data finale</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Gravità</label>
+        <name>LLC_BI__Severities__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Critico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation>Rilevante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation>Marginale</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Data di inizio</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Tipologia</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Collateral</masterLabel>
+            <translation>Collaterale</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Covenant</masterLabel>
+            <translation>Patti finanziari</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation>Documento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Policy</masterLabel>
+            <translation>Procedure</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory</masterLabel>
+            <translation>Quadro normativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>Sottoscrizione</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

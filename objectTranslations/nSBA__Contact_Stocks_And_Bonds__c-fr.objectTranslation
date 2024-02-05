@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Nom du contact</help>
+        <label>Nom du contact</label>
+        <name>nSBA__Contact_Name__c</name>
+        <relationshipLabel>Stocks de contact et d&apos;obligations</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le coût des actions et des obligations</help>
+        <label>Coût</label>
+        <name>nSBA__Cost__c</name>
+    </fields>
+    <fields>
+        <help>Date de cotation / échange</help>
+        <label>Date de cotation Échange</label>
+        <name>nSBA__Date_of_Quotation_Exchange__c</name>
+    </fields>
+    <fields>
+        <help>Valeur de marché de cotation / échange</help>
+        <label>Valeur marchande Cotation Bourse</label>
+        <name>nSBA__Market_Value_Quotation_Exchange__c</name>
+    </fields>
+    <fields>
+        <help>Nom de titres</help>
+        <label>Nom de titres</label>
+        <name>nSBA__Name_Of_Securities__c</name>
+    </fields>
+    <fields>
+        <help>Nombre d&apos;actions détenues</help>
+        <label>Nombre de partages</label>
+        <name>nSBA__Number_Of_Shares__c</name>
+    </fields>
+    <fields>
+        <help>Valeur totale des actions / obligations</help>
+        <label>Valeur totale</label>
+        <name>nSBA__Total_Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Nom externe</label>
+        <name>LLC_BI__External_Name__c</name>
+    </fields>
+    <fields>
+        <label>Caractéristiques connexes</label>
+        <name>LLC_BI__Related_Feature__c</name>
+        <picklistValues>
+            <masterLabel>Spreads - Data Recognition</masterLabel>
+            <translation>Les écarts - Reconnaissance de données</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

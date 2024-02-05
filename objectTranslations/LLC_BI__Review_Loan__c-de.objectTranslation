@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Daten</label>
+        <name>LLC_BI__Data__c</name>
+    </fields>
+    <fields>
+        <label>Kredit</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Kredite prüfen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Prüfen</label>
+        <name>LLC_BI__Review__c</name>
+        <relationshipLabel>Kredite prüfen</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

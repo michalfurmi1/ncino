@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Activo</label>
+        <name>nSBA__Application__c</name>
+        <relationshipLabel>Las inyecciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nombre del acreedor que ofrece la deuda de espera. Este campo se utiliza en SBA única autorización.</help>
+        <label>Tecla personal Etiqueta</label>
+        <name>nSBA__Creditor_Name__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad de la inyección real</help>
+        <label>Orden de visualización</label>
+        <name>nSBA__Injection_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Describir el uso de inyección de este préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Ajuste del flujo</label>
+        <name>nSBA__Injection_Description__c</name>
+    </fields>
+    <fields>
+        <help>El texto que describe la fuente de la inyección en particular</help>
+        <label>IconImageName</label>
+        <name>nSBA__Injection_Other_Description__c</name>
+    </fields>
+    <fields>
+        <help>Es un código que identifica el tipo de esta inyección. (Por ejemplo, efectivo)</help>
+        <label>IconStyleClass</label>
+        <name>nSBA__Injection_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Activo no líquido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Efectivo de la deuda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Cash-regalo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>La deuda de espera</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Utilice esta opción si el pago de la deuda de espera no cae en cuatro opciones de pago estándar. Este campo se utiliza en SBA única autorización.</help>
+        <label>URL del enlace</label>
+        <name>nSBA__Standby_Debt_Customize_Repayment_Option__c</name>
+    </fields>
+    <fields>
+        <help>tasa de interés anual aplicado a la deuda de espera. Este campo se utiliza en SBA única autorización.</help>
+        <label>Reportar nombre</label>
+        <name>nSBA__Standby_Debt_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>cantidad pagos mensual que consta de principal e intereses de la deuda de espera. Este campo se utiliza en SBA única autorización.</help>
+        <label>Escenario</label>
+        <name>nSBA__Standby_Debt_Monthly_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Fecha de pago de la deuda de espera comienza. Completa si se posponen los pagos de deuda de espera. Este campo se utiliza en SBA única autorización.</help>
+        <label>StaticResourceName</label>
+        <name>nSBA__Standby_Debt_Payment_Begin_Date__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si espera Pagos de la deuda se posponen por lo que la deuda de espera es considerado como patrimonio de inyección basándose en la corriente SBA SOP. Este campo se utiliza en SBA única autorización.</help>
+        <label>Tareas de configuración Completado</label>
+        <name>nSBA__Standby_Debt_Payment_Date_Meets_Deadline__c</name>
+    </fields>
+    <fields>
+        <help>Indica que no hay pago de principal o intereses ha de hacerse sobre la deuda de espera durante el plazo del préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Descripción del Proyecto</label>
+        <name>nSBA__Standby_No_Principal_Interest_Payments__c</name>
+    </fields>
+    <fields>
+        <help>En espera Tipo de Pago define términos de cómo se cancelará el acuerdo de espera.</help>
+        <label>Este es un campo de fórmula que resume e</label>
+        <name>nSBA__Standby_Repayment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Interest rate only</masterLabel>
+            <translation>Sólo la tasa de interés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly payment and interest rate</masterLabel>
+            <translation>pago mensual y la tasa de interés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly payment, interest rate and begin date</masterLabel>
+            <translation>pago mensual, tasa de interés y la fecha de inicio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No payments</masterLabel>
+            <translation>No hay pagos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Este es un campo de fórmula que resume e</label>
+        <name>nSBA__Use_Of_Proceeds__c</name>
+        <relationshipLabel>Las inyecciones</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

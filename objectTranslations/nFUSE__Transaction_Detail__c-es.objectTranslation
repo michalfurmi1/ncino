@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Plazo del préstamo en meses</label>
+        <name>nFUSE__Comments__c</name>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio indica la fecha y hora de cuando se creó este registro Detalle de transacciones.</help>
+        <label>SBA Fecha de Aprobación</label>
+        <name>nFUSE__Creation_DateTime__c</name>
+    </fields>
+    <fields>
+        <help>Incluye información detallada sobre el estado actual de una transacción.</help>
+        <label>Porcentaje garantía de la SBA</label>
+        <name>nFUSE__Details__c</name>
+    </fields>
+    <fields>
+        <label>Número del préstamo de la SBA</label>
+        <name>nFUSE__Log_Type__c</name>
+    </fields>
+    <fields>
+        <help>El identificador de registro de transacciones principal requerida que este detalle se asocia.</help>
+        <label>Número del préstamo de la SBA</label>
+        <name>nFUSE__Transaction_Log__c</name>
+        <relationshipLabel>Detalles de la transacción</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La necesaria en estado de tránsito de la Transacción.</help>
+        <label>Valor aprox WO inmuebles y equipos</label>
+        <name>nFUSE__Transaction_Status__c</name>
+    </fields>
+    <fields>
+        <help>El estado de la transacción desde la perspectiva del vendedor del proveedor.</help>
+        <label>Cuota tasador</label>
+        <name>nFUSE__Vendor_Status__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Délimité liste des Semicolon rôles qui sont autorisés à approuver le document. Si laissé en blanc tous les rôles peuvent approuver le document.</help>
+        <label>Rôles d&apos;approbation</label>
+        <name>LLC_BI__Approval_Roles__c</name>
+    </fields>
+    <fields>
+        <label>Avocat</label>
+        <name>LLC_BI__Attorney__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Auto_Esign__c</name>
+    </fields>
+    <fields>
+        <label>Critères</label>
+        <name>LLC_BI__Criteria__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Document_Id_Mapping__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__E_Vault__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__ExpansionLh__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__ExpansionRe__c</name>
+    </fields>
+    <fields>
+        <label>Groupes Viewer Placeholder</label>
+        <name>LLC_BI__Placeholder_Viewer_Groups__c</name>
+    </fields>
+    <fields>
+        <label>Profils Viewer Placeholder</label>
+        <name>LLC_BI__Placeholder_Viewer_Profiles__c</name>
+    </fields>
+    <fields>
+        <label>Description du portail</label>
+        <name>LLC_BI__Portal_Doc_Description__c</name>
+    </fields>
+    <fields>
+        <label>Portail Doc Nom</label>
+        <name>LLC_BI__Portal_Doc_Name__c</name>
+    </fields>
+    <fields>
+        <label>Portail activé</label>
+        <name>LLC_BI__Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__RefinanceLh__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__RefinanceRe__c</name>
+    </fields>
+    <fields>
+        <label>Exigence</label>
+        <name>LLC_BI__Requirement__c</name>
+        <relationshipLabel>Listes de contrôle de clôture</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Start_upLh__c</name>
+    </fields>
+    <fields>
+        <label>Démarrer UPre</label>
+        <name>LLC_BI__Start_upRe__c</name>
+    </fields>
+    <fields>
+        <help>Délimité liste des Semicolon rôles qui sont autorisés à afficher le document. Si elle est vide tous les rôles peuvent afficher le document.</help>
+        <label>Rôles Viewer</label>
+        <name>LLC_BI__Viewer_Roles__c</name>
+    </fields>
+    <fields>
+        <label>acquisition LH</label>
+        <name>LLC_BI__acquisitionLh__c</name>
+    </fields>
+    <fields>
+        <label>acquisition RE</label>
+        <name>LLC_BI__acquisitionRe__c</name>
+    </fields>
+    <fields>
+        <label>Voir le client</label>
+        <name>LLC_BI__clientView__c</name>
+    </fields>
+    <fields>
+        <label>Commentaires</label>
+        <name>LLC_BI__comments__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__docClass__c</name>
+        <relationshipLabel>Listes de contrôle de clôture</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel>Listes de contrôle de clôture</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__docTab__c</name>
+        <relationshipLabel>Listes de contrôle de clôture</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Doctype</label>
+        <name>LLC_BI__docType__c</name>
+        <relationshipLabel>Listes de contrôle de clôture</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Jours dus Avant</label>
+        <name>LLC_BI__dueDaysPrior__c</name>
+    </fields>
+    <fields>
+        <label>premier commentaire</label>
+        <name>LLC_BI__firstReview__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>IN OK?</label>
+        <name>LLC_BI__naOk__c</name>
+    </fields>
+    <fields>
+        <label>À surveiller</label>
+        <name>LLC_BI__onesToWatch__c</name>
+    </fields>
+    <fields>
+        <label>Propriétaire</label>
+        <name>LLC_BI__owner__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>Avocat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation>Plus proche</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Opérations de prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>Entretien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>actifs spéciaux</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Trier</label>
+        <name>LLC_BI__sortOrder__c</name>
+    </fields>
+    <fields>
+        <help>Délimité liste des Semicolon rôles qui sont autorisés à approuver le document. Si laissé en blanc tous les rôles peuvent approuver le document.</help>
+        <label>Rôles Placeholder d&apos;approbation</label>
+        <name>NDOC__Placeholder_Approval_Roles__c</name>
+    </fields>
+    <fields>
+        <label>Viewer rôles placeholder</label>
+        <name>NDOC__Placeholder_Viewer_Roles__c</name>
+    </fields>
+    <fields>
+        <label>La description</label>
+        <name>NDOC__description__c</name>
+    </fields>
+    <fields>
+        <label>Nécessaire par étape</label>
+        <name>NDOC__neededByStage__c</name>
+        <picklistValues>
+            <masterLabel>Approval / Loan Committee</masterLabel>
+            <translation>Comité d’accord / des prêts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation>Confirmé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>Clôture en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Terminé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation>Doc Préparation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation>Proposition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification / Application</masterLabel>
+            <translation>Qualification / demande</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>Souscription</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Priorité</label>
+        <name>NDOC__priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Critique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Élevée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Faible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Moyen</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

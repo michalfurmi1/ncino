@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Surface</label>
+        <name>nCBC__Area__c</name>
+    </fields>
+    <fields>
+        <label>date de clôture</label>
+        <name>nCBC__Close_Date__c</name>
+    </fields>
+    <fields>
+        <label>département</label>
+        <name>nCBC__Department__c</name>
+        <picklistValues>
+            <masterLabel>BAG</masterLabel>
+            <translation>SAC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRA</masterLabel>
+            <translation>ARC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>La finance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>IL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation>La gestion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation>opérations</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>La description</label>
+        <name>nCBC__Description__c</name>
+    </fields>
+    <fields>
+        <label>trouver État</label>
+        <name>nCBC__Disposition__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Fermé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Ouvrir</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Date d&apos;échéance</label>
+        <name>nCBC__Due_Date__c</name>
+    </fields>
+    <fields>
+        <label>trouver date</label>
+        <name>nCBC__Finding_Date__c</name>
+    </fields>
+    <fields>
+        <label>Nombre</label>
+        <name>nCBC__Finding_Number__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nCBC__LobLegacyKey__c</name>
+    </fields>
+    <fields>
+        <label>Réponse de la direction</label>
+        <name>nCBC__Management_s_Response__c</name>
+    </fields>
+    <fields>
+        <label>Priorité</label>
+        <name>nCBC__Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Haute</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Faible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Moyen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation</masterLabel>
+            <translation>Recommandation</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Numéro de réference</label>
+        <name>nCBC__Reference_Number__c</name>
+    </fields>
+    <fields>
+        <label>Trouver Source</label>
+        <name>nCBC__Source__c</name>
+        <picklistValues>
+            <masterLabel>ATTUS</masterLabel>
+            <translation>Attus</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRM</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elliott Davis</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experis Finance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDIC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FED</masterLabel>
+            <translation>NOURRIS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live Oak</masterLabel>
+            <translation>live Oak</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State</masterLabel>
+            <translation>Etat</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>nCBC__Status__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

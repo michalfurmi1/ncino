@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Bankruptcy__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Charge_Off__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ numéro est facultatif. L&apos;utilisateur remplit manuellement ce champ avec le haut de gamme de la gamme de pointage de crédit.</help>
+        <label>Score de crédit maximum</label>
+        <name>LLC_BI__Credit_Score_Maximum__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ numéro est facultatif. L&apos;utilisateur remplit manuellement ce champ avec le bas de la gamme de pointage de crédit.</help>
+        <label>Score de crédit minimum</label>
+        <name>LLC_BI__Credit_Score_Minimum__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Employee_Discount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Foreclosure__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage actuel de la valeur de l&apos;indice.</help>
+        <label>indice de valeur</label>
+        <name>LLC_BI__Index_Value__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche l&apos;indice le taux de prêt suit.</help>
+        <label>Indice</label>
+        <name>LLC_BI__Index__c</name>
+        <picklistValues>
+            <masterLabel> </masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage que le système ajoute à l&apos;indice pour déterminer le taux applicable pour le compte.</help>
+        <label>Taux d&apos;intérêt Pourcentage de marge</label>
+        <name>LLC_BI__Interest_Rate_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est facultatif pour cent. L&apos;utilisateur remplit manuellement ce champ avec la sortie de taux d&apos;intérêt pour un prêt avec les variables d&apos;identification.</help>
+        <label>Taux d&apos;intérêt</label>
+        <name>LLC_BI__Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ monétaire est facultative. L&apos;utilisateur remplit manuellement ce champ avec le haut de gamme de la gamme de valeur du prêt.</help>
+        <label>Valeur maximum du prêt</label>
+        <name>LLC_BI__Loan_Value_Maximum__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ monétaire est facultative. L&apos;utilisateur remplit manuellement ce champ avec le bas de la fourchette de valeur du prêt.</help>
+        <label>Prêt Valeur minimale</label>
+        <name>LLC_BI__Loan_Value_Minimum__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Amount_For_Auto_Approval__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Collateral_Age__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Debt_To_Income__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Loan_To_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Mileage__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Total_Credit_Exposure__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Collateral_Age__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Credit_Score_For_Auto_Approval__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Debt_To_Income__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Loan_To_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Mileage__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ de texte est facultatif. L&apos;utilisateur remplit manuellement ce champ avec le nom de la ligne de produit étant un prix.</help>
+        <label>Nom du produit Ligne</label>
+        <name>LLC_BI__Product_Line_Name__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ de texte est facultatif. L&apos;utilisateur remplit manuellement ce champ avec le nom du produit à un prix.</help>
+        <label>Nom du produit</label>
+        <name>LLC_BI__Product_Name__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ de texte est facultatif. L&apos;utilisateur remplit manuellement ce champ avec le nom du type de produit étant un prix.</help>
+        <label>Nom Type de produit</label>
+        <name>LLC_BI__Product_Type_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Property_Type__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage maximum du taux d&apos;intérêt d&apos;un prêt pour une période de temps définie.</help>
+        <label>taux plafond</label>
+        <name>LLC_BI__Rate_Ceiling__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le pourcentage minimum possible du taux d&apos;intérêt d&apos;un prêt pour une période de temps définie.</help>
+        <label>taux étage</label>
+        <name>LLC_BI__Rate_Floor__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est facultatif picklist. L&apos;utilisateur remplit manuellement ce champ avec le nom d&apos;une région. Les valeurs de listes de sélection présentées ici doivent correspondre aux valeurs de liste de choix dans le domaine de la région sur le compte.</help>
+        <label>Région</label>
+        <name>LLC_BI__Region__c</name>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US East</masterLabel>
+            <translation>est</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US North</masterLabel>
+            <translation>Nord</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US South</masterLabel>
+            <translation>Sud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US West</masterLabel>
+            <translation>Ouest</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Repossession__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le taux d&apos;intérêt appliqué initialement au prêt.</help>
+        <label>Taux Teaser</label>
+        <name>LLC_BI__Teaser_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ peuplé système affiche le nombre de paiements, le taux teaser est en vigueur.</help>
+        <label>Terme Teaser</label>
+        <name>LLC_BI__Teaser_Term__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ numéro est facultatif. L&apos;utilisateur remplit manuellement ce champ avec la sortie à long terme pour un prêt avec les variables d&apos;identification.</help>
+        <label>Terme du prêt</label>
+        <name>LLC_BI__Term_Months__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

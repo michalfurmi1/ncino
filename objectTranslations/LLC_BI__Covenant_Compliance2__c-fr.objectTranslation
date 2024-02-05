@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Auto approuvé</label>
+        <name>Auto_Approved__c</name>
+    </fields>
+    <fields>
+        <help>Date à laquelle le covenant a été approuvé.</help>
+        <label>Date d’accord</label>
+        <name>LLC_BI__Approval_Date__c</name>
+    </fields>
+    <fields>
+        <help>Utilisateur ayant approuvé la revue de ce covenant.</help>
+        <label>Approuvé par</label>
+        <name>LLC_BI__Approved_By__c</name>
+        <relationshipLabel>Conformités avec le covenant (approuvé par)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La période de déclaration d&apos;analyse financière à laquelle le dossier de conformité du covenant est associé.</help>
+        <label>Période de déclaration d&apos;analyse financi</label>
+        <name>LLC_BI__Associated_Spread_Statement_Period__c</name>
+        <relationshipLabel>Conformités du covenant</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Statut de la période de déclaration asso</label>
+        <name>LLC_BI__Associated_Statement_Period_Status__c</name>
+        <picklistValues>
+            <masterLabel>Associated</masterLabel>
+            <translation>Associé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Aucun</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unassociated</masterLabel>
+            <translation>Non associé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Statut des tests automatisés</label>
+        <name>LLC_BI__Automated_Testing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation>Échec</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation>Incomplet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation>Réussite</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Modèle</label>
+        <name>LLC_BI__Bundle__c</name>
+    </fields>
+    <fields>
+        <label>Commentaires</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Covenant</label>
+        <name>LLC_BI__Covenant__c</name>
+        <relationshipLabel>Conformités du covenant</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date d’entrée en vigueur</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>L’utilisateur qui a évalué ce covenant.</help>
+        <label>Évalué par</label>
+        <name>LLC_BI__Evaluated_By__c</name>
+        <relationshipLabel>Conformités avec le covenant (évalué par)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La date à laquelle ce covenant a été évalué.</help>
+        <label>Date d’évaluation</label>
+        <name>LLC_BI__Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <help>En cas d’exception, la date à laquelle l’exception s’est produite.</help>
+        <label>Date d’exception</label>
+        <name>LLC_BI__Exception_Date__c</name>
+    </fields>
+    <fields>
+        <help>La valeur d’indicateur financier du covenant associé, lorsque le statut du dossier de la conformité avec le convenant a été placé sur « conforme ».</help>
+        <label>Valeur d’indicateur financier historique</label>
+        <name>LLC_BI__Historic_Financial_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Clé de la période</label>
+        <name>LLC_BI__Period_Key__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Compliant</masterLabel>
+            <translation>Conforme</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>En attente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation>Abandonné</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

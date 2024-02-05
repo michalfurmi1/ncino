@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Rapport de crédit aux entreprises</label>
+        <name>nXBI__Business_Credit_Report__c</name>
+        <relationshipLabel>Jours de crédit aux entreprises au-delà Conditions</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nXBI__DBT__c</name>
+    </fields>
+    <fields>
+        <label>Au-delà de jours Conditions</label>
+        <name>nXBI__Days_Beyond_Terms__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

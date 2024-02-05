@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Sélectionnez une institution spécifique où cette affiche de tuiles. Si elle est vide, la tuile apparaît sur tous les cas de cette route, quelle que soit l&apos;institution.</help>
+        <label></label>
+        <name>LLC_BI__Institution__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nom de tuile</label>
+        <name>Tile_Name__c</name>
+    </fields>
+    <fields>
+        <label>Ordre</label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Route__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tuile</label>
+        <name>nFORCE__Tile__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

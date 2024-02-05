@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Saldo Inicial de Documentos por Pagar</label>
+        <name>nPortal__Agreement_Text__c</name>
+    </fields>
+    <fields>
+        <help>Entre el ID de Salesforce del documento que desea mostrar a un acuerdo sobre una ruta particular en una aplicación en línea.</help>
+        <label>Monto del pago</label>
+        <name>nPortal__Document__c</name>
+    </fields>
+    <fields>
+        <help>Ruta interfaz de usuario que mostrará este documento en una aplicación en línea</help>
+        <label>Frecuencia de pago</label>
+        <name>nPortal__Route__c</name>
+        <relationshipLabel>Términos de ruta</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Frecuencia de pago</label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

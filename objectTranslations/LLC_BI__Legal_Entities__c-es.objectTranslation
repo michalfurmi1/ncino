@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Fecha de aprobación</label>
+        <name>Associated_Relationship__c</name>
+    </fields>
+    <fields>
+        <label>Autorización para obtener crédito</label>
+        <name>Authorization_To_Pull_Credit__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Borrower_Analysis__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Borrower_s_Financial_Analysis__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>LLC LoanDocuments (aprobado por)</label>
+        <name>CSIDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <label>Auto E-Sign</label>
+        <name>CSiDP__Is_Credit_Score_Used__c</name>
+    </fields>
+    <fields>
+        <label>Lista de verificación de cerrar</label>
+        <name>CSiDP__Non_Individual_Signer__c</name>
+        <relationshipLabel>Entidades legales</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Guarantor_Financial_Analysis__c</name>
+    </fields>
+    <fields>
+        <label>comentarios</label>
+        <name>Individual_Formula__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de la entidad</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Participación de la entidad</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dirección</label>
+        <name>LLC_BI__Address__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de prestatario</label>
+        <name>LLC_BI__Borrower_Type__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation>Prestatario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrower Household</masterLabel>
+            <translation>Unidad doméstica del prestatario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Borrower</masterLabel>
+            <translation>Coprestatario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grantor</masterLabel>
+            <translation>Otorgante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor</masterLabel>
+            <translation>Aval</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor Household</masterLabel>
+            <translation>Unidad doméstica del aval</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Guarantor</masterLabel>
+            <translation>Aval de responsabilidad limitada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Entity</masterLabel>
+            <translation>Entidad relacionada</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cantidad del contingente</label>
+        <name>LLC_BI__Contingent_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de contingente</label>
+        <name>LLC_BI__Contingent_Type__c</name>
+        <picklistValues>
+            <masterLabel>Assign Specific</masterLabel>
+            <translation>asignar específica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint &amp; Several</masterLabel>
+            <translation>Conjunto y solidario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Rata</masterLabel>
+            <translation>tasa Pro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Depósito</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>Participaciones de la entidad</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo de entidad</label>
+        <name>LLC_BI__Entity_Type__c</name>
+        <picklistValues>
+            <masterLabel>EPC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>Individuo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating Company</masterLabel>
+            <translation>Empresa operadora</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation>Empresa individual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Exclude_From_Account_Exposure__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Exclude_From_Product_Package_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Documento Índice de tienda</label>
+        <name>LLC_BI__Guarantee_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Documentos de préstamo</label>
+        <name>LLC_BI__Guarantee_End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Descargar como PDF</label>
+        <name>LLC_BI__Guarantee_Limit__c</name>
+    </fields>
+    <fields>
+        <label>El campo debe ser marcada como true si u</label>
+        <name>LLC_BI__Guaranty_Amount__c</name>
+        <picklistValues>
+            <masterLabel>Amount of Note</masterLabel>
+            <translation>Cantidad de Nota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited</masterLabel>
+            <translation>Limitado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unlimited</masterLabel>
+            <translation>Ilimitado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El tipo de solicitante HMDA.</help>
+        <label>Debido días antes</label>
+        <name>LLC_BI__HMDA_Applicant_Type__c</name>
+        <picklistValues>
+            <masterLabel>Applicant</masterLabel>
+            <translation>Solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Applicant</masterLabel>
+            <translation>Co-Solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tamaño del archivo</label>
+        <name>LLC_BI__HMDA_Ethnicity__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Hispanic or Latino</masterLabel>
+            <translation>Código 1 hispanos o latinos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Not Hispanic or Latino</masterLabel>
+            <translation>Código 2-No Hispano o Latino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Information not provided by applicant in mail, internet, or telephone application</masterLabel>
+            <translation>Código 3-No indicado por el solicitante en el correo, internet, teléfono o aplicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Not applicable</masterLabel>
+            <translation>Código de 4 No aplicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—No co-applicant</masterLabel>
+            <translation>Código de 5 No se co-solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>primera Revisión</label>
+        <name>LLC_BI__HMDA_Income__c</name>
+    </fields>
+    <fields>
+        <label>tiene archivo</label>
+        <name>LLC_BI__HMDA_Not_Provided__c</name>
+    </fields>
+    <fields>
+        <label>texto de ayuda</label>
+        <name>LLC_BI__HMDA_Race__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—American Indian or Alaska Native</masterLabel>
+            <translation>Código 1-Indio Americano o Nativo de Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Asian</masterLabel>
+            <translation>Código 2-asiática</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Black or African American</masterLabel>
+            <translation>Código 3-Negro o afroamericano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Native Hawaiian/Pacific Islander</masterLabel>
+            <translation>Código de 4 Nativo de Hawai / Islas del Pacífico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—White</masterLabel>
+            <translation>Código 5-White</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Info not pro­vided by applicant</masterLabel>
+            <translation>Código de 6 Información no proporcionada por el solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Not applicable</masterLabel>
+            <translation>Código 7-No se aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—No co-applicant</masterLabel>
+            <translation>Código de 8 No hay co-solicitante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Directorio</label>
+        <name>LLC_BI__HMDA_Sex__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Male</masterLabel>
+            <translation>Código 1-Macho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Female</masterLabel>
+            <translation>Código de 2 Mujer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Information not provided by applicant in mail, internet, or telephone application</masterLabel>
+            <translation>Código 3-No indicado por el solicitante en el correo, internet, teléfono o aplicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Not applicable</masterLabel>
+            <translation>Código de 4 No aplicable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—No co-applicant or co-borrower</masterLabel>
+            <translation>Código 5-No hay co-solicitante o co-prestatario</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Préstamo</label>
+        <name>LLC_BI__Is_Borrower__c</name>
+    </fields>
+    <fields>
+        <label>LoanDocuments LLC</label>
+        <name>LLC_BI__Is_CoBorrower__c</name>
+    </fields>
+    <fields>
+        <label>Tipo MIME</label>
+        <name>LLC_BI__Is_Grantor__c</name>
+    </fields>
+    <fields>
+        <label>Papel</label>
+        <name>LLC_BI__Is_Guarantor__c</name>
+    </fields>
+    <fields>
+        <help>Este campo establece si una entidad está representada en el análisis global dentro de los márgenes.</help>
+        <label>Propietario</label>
+        <name>LLC_BI__Is_Included_In_Global_Analysis__c</name>
+    </fields>
+    <fields>
+        <label>LLC_LoanDocuments</label>
+        <name>LLC_BI__Is_Related_Entity__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Limited_Guaranty_Amount__c</name>
+    </fields>
+    <fields>
+        <help>La garantía de que la persona jurídica está asociado.</help>
+        <label>Grupos de marcador de posición del Visor</label>
+        <name>LLC_BI__Loan_Collateral__c</name>
+        <relationshipLabel>Participación de la entidad</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Participación de la entidad</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Portal Rechazo Fecha</label>
+        <name>LLC_BI__Monthly_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Notas</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label>Porcentaje del contingente</label>
+        <name>LLC_BI__Ownership__c</name>
+    </fields>
+    <fields>
+        <label>Paquete de productos</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Participaciones de la entidad</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Marque la casilla si la persona jurídica tiene realestate. Marque esta casilla si el tipo entidad legal es EPC</help>
+        <label>Prioridad</label>
+        <name>LLC_BI__Realestate__c</name>
+    </fields>
+    <fields>
+        <label>LoanDocuments LLC</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Authorized Signer</masterLabel>
+            <translation>firmante autorizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household</masterLabel>
+            <translation>Casa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint Owner</masterLabel>
+            <translation>Copropietario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Owner</masterLabel>
+            <translation>propietario primaria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Owner</masterLabel>
+            <translation>propietario secundaria</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Route_Agreement__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Introduzca identificación fiscal. No tiene por qué incluir guiones.</help>
+        <label>Fecha de revisión</label>
+        <name>LLC_BI__Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de tesorería</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel>Involvements entidad</relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Roles marcador de posición Viewer</label>
+        <name>Relationship_Type_Push__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Relationship_Type_Text__c</name>
+    </fields>
+    <fields>
+        <help>Entrar en el &apos;otro&apos; tipo descripción de la relación entre el individuo responsable del beneficiario designado y del CESA.</help>
+        <label>Portal de rechazo comentario</label>
+        <name>WKDDP__Ben_Rel_Type_Other_Desc__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione la relación de la persona responsable para el beneficiario designado por el CESA.</help>
+        <label>Año</label>
+        <name>WKDDP__Beneficiary_Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Guardian</masterLabel>
+            <translation>guardián</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation>Padre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introduzca una descripción de la relación entre el titular de la cuenta y la cuenta.</help>
+        <label>La solicitud completa</label>
+        <name>WKDDP__Relationship_Description__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla de verificación cuando el titular de la cuenta no se debe imprimir en el bloque de firma de la tarjeta de firma.</help>
+        <label>Fecha de aplicacion</label>
+        <name>WKDDP__Suppress_Signature__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla de verificación para indicar que la entidad financiera quiere generar una forma de protección del usuario de telefonía Cuenta Acta de Consentimiento para el agente del poder de representación.</help>
+        <label>Disponible para la Participación</label>
+        <name>WKDDP__Telephone_Consumer_Protection_Form__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>Puedo controlar la longitud de este camp</label>
+        <name>WKDDP__nCino_Code__c</name>
+    </fields>
+    <fields>
+        <help>Rellenar este campo con el código de función correspondiente.</help>
+        <label>Ordenar</label>
+        <name>nCino_Code__c</name>
+    </fields>
+    <fields>
+        <help>Cantidad de Equilibrio Reducción de limitación. Utilice este campo sólo si el tipo es garante de garantía sin garantía limitada o Garantía limitada de motocicletas. Este campo se utiliza en SBA única autorización.</help>
+        <label>Roles Viewer</label>
+        <name>nSBA__Balance_Reduction_Limitation_Amount__c</name>
+    </fields>
+    <fields>
+        <help>La garantía se limita a la cantidad prestamista obtiene origen en las garantías señaladas aquí. Utilice este campo sólo si el tipo es garante de garantía sin garantía limitada o Garantía limitada de motocicletas. Este campo se utiliza en SBA única au</help>
+        <label>OCR es Disponible</label>
+        <name>nSBA__Collateral_Recourse_Limitation__c</name>
+    </fields>
+    <fields>
+        <help>Indica si es que existe interés cónyuge propiedad de la comunidad. Utilice este campo sólo si el tipo es garante de garantía sin garantía limitada o Garantía limitada de motocicletas. Este campo se utiliza en SBA única autorización.</help>
+        <label>Created_By_Closing_Checklist_Id</label>
+        <name>nSBA__Community_Property_Spouse_Interest_Limit__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del archivo</label>
+        <name>nSBA__Control_Interest_Type__c</name>
+        <picklistValues>
+            <masterLabel>Chairman of the Board</masterLabel>
+            <translation>Presidente de la Junta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Executive Officer (CEO)</masterLabel>
+            <translation>Director Ejecutivo (CEO)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Directors of the Concern</masterLabel>
+            <translation>Administración de la preocupación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Officers of the Concern</masterLabel>
+            <translation>Otros Oficiales de la preocupación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Partners of the Concern</masterLabel>
+            <translation>Otros socios de la preocupación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner of the Concern</masterLabel>
+            <translation>Propietario de la preocupación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President</masterLabel>
+            <translation>presidente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Borrower</masterLabel>
+            <translation>Prestatario primaria</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>HasBeenWaived</label>
+        <name>nSBA__Guarantor_Type__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Sin garantía completa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>completa con seguridad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Sin garantía limitada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>limitado Secured</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Máxima cantidad de limitación de responsabilidad. Utilice este campo sólo si el tipo es garante de garantía sin garantía limitada o Garantía limitada de motocicletas. Este campo se utiliza en SBA única autorización.</help>
+        <label>ha sido importada</label>
+        <name>nSBA__Maximum_Liability_Limitation_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Porcentaje limitación. Utilice este campo sólo si el tipo es garante de garantía sin garantía limitada o Garantía limitada de motocicletas. Este campo se utiliza en SBA única autorización.</help>
+        <label>isTrash</label>
+        <name>nSBA__Percentage_Limitation__c</name>
+    </fields>
+    <fields>
+        <help>Cantidad de reducción del capital limitación. Utilice este campo sólo si el tipo es garante de garantía sin garantía limitada o Garantía limitada de motocicletas. Este campo se utiliza en SBA única autorización.</help>
+        <label>LLC_LoanDocument</label>
+        <name>nSBA__Principal_Reduction_Limitation_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Limitación de tiempo en años. Utilice este campo sólo si el tipo es garante de garantía sin garantía limitada o Garantía limitada de motocicletas. Este campo se utiliza en SBA única autorización.</help>
+        <label>Roles marcador de posición de aprobación</label>
+        <name>nSBA__Time_Limitation_Years__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <label>depósito de Participación</label>
+        <name>Deposit_Involvement2</name>
+    </recordTypes>
+    <recordTypes>
+        <label>depósito de Participación</label>
+        <name>LLC_BI__Deposit_Involvement</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Participación de préstamo</label>
+        <name>LLC_BI__Loan_Involvement</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Participación de préstamo</label>
+        <name>Loan_Involvement2</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Participación del Tesoro</label>
+        <name>Treasury_Involvement</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Debe especificar un tipo de contingencia para este Garante.</errorMessage>
+        <name>Force_Contingent_Type_on_Guarantor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La cantidad del contingente no puede exceder la cantidad del crédito.</errorMessage>
+        <name>LLC_BI__Contingent_Amount_Exceeds_Loan_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La cantidad del contingente tiene que ser mayor que 0.</errorMessage>
+        <name>LLC_BI__Contingent_Amount_Less_Than_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Solo se puede utilizar un campo para calcular el aval del contingente. Especifique una cantidad o un porcentaje antes de guardar.</errorMessage>
+        <name>LLC_BI__Contingent_Amount_and_Contingent_Percent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>-- DESESTIMADO --</errorMessage>
+        <name>LLC_BI__HMDA_Demographic</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>El porcentaje del contingente tiene que ser mayor que 0.</errorMessage>
+        <name>LLC_BI__Ownership_Less_Than_0</name>
+    </validationRules>
+    <webLinks>
+        <label>Participación nueva entidad</label>
+        <name>LLC_BI__New_on_Account</name>
+    </webLinks>
+    <webLinks>
+        <label>Participación nueva entidad</label>
+        <name>LLC_BI__New_on_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label>Participación nueva entidad</label>
+        <name>LLC_BI__New_on_Package</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Se utiliza para asignar un tipo de indicadores financieros Pacto a un código CSi Pacto.</help>
+        <label>Una descripción de las llaves de cajas d</label>
+        <name>CSiDP__CSi_Financial_Indicator_Covenant_Code__c</name>
+        <picklistValues>
+            <masterLabel>Account Profitability</masterLabel>
+            <translation>La rentabilidad de cuenta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Affirmative Covenants</masterLabel>
+            <translation>Todas las Obligaciones de Hacer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Covenants</masterLabel>
+            <translation>todos los Pactos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Financial Covenants</masterLabel>
+            <translation>Todos los Acuerdos Financieros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Negative Covenants</masterLabel>
+            <translation>Todos los pactos negativos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Existence and Operations</masterLabel>
+            <translation>Existencia de negocios y operaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmatory Documents and Actions</masterLabel>
+            <translation>Documentos confirmatorias y las acciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Ratio</masterLabel>
+            <translation>Radio actual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debt Service Coverage Ratio</masterLabel>
+            <translation>Ratio de cobertura de servicio de la deuda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization)</masterLabel>
+            <translation>EBITDA (ganancias antes de intereses, impuestos, depreciación y amortización)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental Compliance</masterLabel>
+            <translation>Cumplimiento ambiental</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Charge Coverage Ratio</masterLabel>
+            <translation>Relación de cobertura de gastos fijos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>Seguro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leases and Rents Ratio</masterLabel>
+            <translation>Arrendamientos y alquileres Ratio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leverage Ratio</masterLabel>
+            <translation>El ratio de endeudamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Cash Flow</masterLabel>
+            <translation>Flujo de efectivo neto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Worth</masterLabel>
+            <translation>Valor neto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Borrowings, Guarantees, or Loans</masterLabel>
+            <translation>No tiene deudas, garantías o préstamos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Dividends, Distribution and Redemption</masterLabel>
+            <translation>No hay dividendos, distribución y amortización</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Encumbrances or Transfer of Assets</masterLabel>
+            <translation>No hay gravámenes o transferencia de activos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Loan or Investments</masterLabel>
+            <translation>Ningún préstamo o inversiones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notices to Claims, Litigations; Notice to Adverse Events</masterLabel>
+            <translation>Las notificaciones a las reivindicaciones, litigios; Aviso a los eventos adversos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Limitations</masterLabel>
+            <translation>Limitaciones de pago</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment of Taxes</masterLabel>
+            <translation>El pago de las tasas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tangible Net Worth</masterLabel>
+            <translation>Valor neto tangible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Debt to EBITDA Ratio</masterLabel>
+            <translation>La deuda total a EBITDA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use of Proceeds</masterLabel>
+            <translation>Uso de los Fondos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital</masterLabel>
+            <translation>Capital de trabajo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se utiliza para asignar un estado financiero Tipo Pacto a un código CSi Pacto.</help>
+        <label>Especifica la manera en que debe hacerse</label>
+        <name>CSiDP__CSi_Financial_Statement_Covenant_Type__c</name>
+        <picklistValues>
+            <masterLabel>Annual Statements</masterLabel>
+            <translation>Las declaraciones anuales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrowing Base Certificates</masterLabel>
+            <translation>El préstamo de Certificados Base</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Statements</masterLabel>
+            <translation>Estados financieros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation>Otros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Financial Statements</masterLabel>
+            <translation>Estados financieros personales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Tax Returns</masterLabel>
+            <translation>Declaraciones de impuestos personales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rent Rolls</masterLabel>
+            <translation>Rolls alquiler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Returns</masterLabel>
+            <translation>Declaraciones de impuestos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Categoría</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Default Covenant</masterLabel>
+            <translation>Cláusula predeterminada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Indicators</masterLabel>
+            <translation>Indicadores financieros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Statement Requirements</masterLabel>
+            <translation>Requisitos del informe financiero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Covenants</masterLabel>
+            <translation>Cláusulas de plazo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Agencia duradera</label>
+        <name>LLC_BI__Is_Financial_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>La autoridad otorgada a la adjunto / age</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Se utiliza para asignar un tipo de indicadores financieros Pacto a un código Expere Pacto.</help>
+        <label>E Divulgación y Consentimiento Declaraci</label>
+        <name>WKEDP__Expere_Financial_Indicator_Covenant_Code__c</name>
+        <picklistValues>
+            <masterLabel>1 (Current Ratio)</masterLabel>
+            <translation>1 (Razón Corriente)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 (Debt To Capital Base)</masterLabel>
+            <translation>10 (A base de capital de deuda)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 (EBITDA To Interest)</masterLabel>
+            <translation>11 (EBITDA e Intereses)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 (EBITDA (After Taxes and Distributions) To Interest Plus CMLTD)</masterLabel>
+            <translation>12 (EBITDA (después de impuestos) y distribuciones a los intereses Plus CMLTD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13 (EBITDA (After Taxes, Distributions and Unfinanced CAPEX) To Interest Plus CMLTD)</masterLabel>
+            <translation>13 (EBITDA (después de impuestos, Distribuciones y no financiada CAPEX) Para Interest Plus CMLTD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 (EBITDA to CMLTD Plus Interest)</masterLabel>
+            <translation>14 (EBITDA a CMLTD Más Interés)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 (EBITDA (after Distributions) To CMLTD Plus Interest)</masterLabel>
+            <translation>15 (EBITDA (después de Distribuciones) Para CMLTD Más Interés)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16 (Fixed Charge Coverage)</masterLabel>
+            <translation>16 (Fijo Cobertura Charge)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17 (Funded Debt to EBITDA)</masterLabel>
+            <translation>17 (deuda consolidada a EBITDA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 (Senior Debt to EBITDA)</masterLabel>
+            <translation>18 (Deuda Senior a EBITDA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19 (Cash Flow To CMLTD)</masterLabel>
+            <translation>19 (Flujo de Caja Para CMLTD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 (Quick Ratio)</masterLabel>
+            <translation>2 (coeficiente de liquidez inmediata)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 (Cash Flow (After Distributions) To CMLTD)</masterLabel>
+            <translation>20 (Flujo de Caja (Después de Distribuciones) Para CMLTD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21 (Cash Flow (After Distributions) To CMLTD Plus Interest)</masterLabel>
+            <translation>21 (Flujo de Caja (Después de Distribuciones) Para CMLTD Más Interés)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22 (Funds Flow To CMLTD)</masterLabel>
+            <translation>22 (Flujo de Fondos Para CMLTD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 (Funds Flow (After Distributions) To CMLTD)</masterLabel>
+            <translation>23 (Flujo de Fondos (Después de Distribuciones) Para CMLTD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24 (EBIT To Interest)</masterLabel>
+            <translation>24 (EBIT Para interés)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 (EBITA To Interest (After Distributions))</masterLabel>
+            <translation>25 (EBITA a intereses (Después de Distribuciones))</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26 (Net Income To Interest)</masterLabel>
+            <translation>26 (resultado neto con el interés)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27 (Personal Cash Flow To Personal Debt Service)</masterLabel>
+            <translation>27 (flujo de caja personal para servir la deuda personal)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28 (Net Income)</masterLabel>
+            <translation>28 (ingresos netos)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29 (Net Income To Sales Revenue)</masterLabel>
+            <translation>29 (resultado neto con ingresos por ventas)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 (Working Capital)</masterLabel>
+            <translation>3 (Capital de Trabajo)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 (EBITDA (After Operating Expenses) To Interest)</masterLabel>
+            <translation>30 (EBITDA (después de los gastos operativos) para intereses)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31 (EBITDA (plus Rental Expense) To Interest (Plus Rental Expense))</masterLabel>
+            <translation>31 (EBITDA (además de alquiler de gastos) a intereses (Plus Alquiler de Gastos))</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32 (EBITDA (Plus Real Estate NOI) To Interest Expense and CMLTD)</masterLabel>
+            <translation>32 (EBITDA (NOI Plus inmobiliarios) Gastos de intereses y CMLTD)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33 (EBITDA (Including Personal Excess Cash Flow and Gross Rents) To Interest)</masterLabel>
+            <translation>33 (EBITDA (incluyendo el flujo de personal Exceso de efectivo y las rentas brutas) para interesar)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34 (EBITDA (Including Personal Excess Cash Flow) To Interest)</masterLabel>
+            <translation>34 (EBITDA (incluyendo el flujo de personal Exceso de efectivo) al interés)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35 (Net Operating Income)</masterLabel>
+            <translation>35 (margen de explotación)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36 (Debt Service Coverage)</masterLabel>
+            <translation>36 (cobertura del servicio de la deuda)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37 (Net Operating Income To Scheduled Payments)</masterLabel>
+            <translation>37 (margen de explotación Pagos Programados)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38 (Net Operating Income To Senior Debt Service)</masterLabel>
+            <translation>38 (margen de explotación del Servicio de Deuda Senior)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>39 (Loan To Value (Real Estate))</masterLabel>
+            <translation>39 (préstamo a valor (Real Estate))</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 (Net Worth)</masterLabel>
+            <translation>4 (valor neto)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 (Owner-Occupied @ 50%)</masterLabel>
+            <translation>40 (ocupada por el propietario @ 50%)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41 (Advances to Affiliates Rep)</masterLabel>
+            <translation>41 (Adelantos a los afiliados Rep)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42 (Fund Balance Ratio)</masterLabel>
+            <translation>42 (Relación de Saldo del Fondo)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>43 (Cash And Accounts Receivable To Current Liabilities)</masterLabel>
+            <translation>43 (en efectivo y cuentas por cobrar y el pasivo corriente)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44 (Minimum 30 Days Cash On Hand)</masterLabel>
+            <translation>44 (mínimo 30 Días efectivo en la mano)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 (Unrestricted Fund Balances)</masterLabel>
+            <translation>45 (saldos de los fondos no restringidas)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>46 (Unrestricted Investments To Unrestricted Fund Balances)</masterLabel>
+            <translation>46 (inversiones sin restricciones a los saldos de los fondos sin restricciones)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>47 (Guarantor Liquidity)</masterLabel>
+            <translation>47 (liquidez garante)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48 (Guarantor Tangible Net Worth)</masterLabel>
+            <translation>48 (Garante tangible Valor Neto)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>49 (Senior Debt to Capital Base Ratios)</masterLabel>
+            <translation>49 (Deuda Senior a las relaciones de la base de capital)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 (Individual Liquidity)</masterLabel>
+            <translation>5 (liquidez Individual)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 (Net Operating Income To Scheduled Payments - Additional Parties)</masterLabel>
+            <translation>50 (margen de explotación Pagos Programados - Partes adicionales)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 (Tangible Net Worth)</masterLabel>
+            <translation>6 (valor neto tangible)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 (Tangible Capital Base)</masterLabel>
+            <translation>7 (Base capital tangible)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 (Debt to Tangible Net Worth)</masterLabel>
+            <translation>8 (deuda a valor neto Tangible)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 (Consolidated Leverage Covenants)</masterLabel>
+            <translation>9 (Convenios de apalancamiento consolidado)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>99 (Other)</masterLabel>
+            <translation>99 (Otro)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se utiliza para asignar un estado financiero Tipo Pacto a un código Expere Pacto.</help>
+        <label>Aviso electrónica Consentimiento Entrega</label>
+        <name>WKEDP__Expere_Financial_Statement_Covenant_Type__c</name>
+        <picklistValues>
+            <masterLabel>0 (Financial Statement)</masterLabel>
+            <translation>0 (estado financiero)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 (Financial Projections)</masterLabel>
+            <translation>1 (Proyecciones financieras)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 (Federal Tax Returns Alone)</masterLabel>
+            <translation>10 (declaraciones de impuestos federales Alone)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 (State Tax Returns Alone)</masterLabel>
+            <translation>11 (Impuestos del Estado devoluciones Alone)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 (Aging Reports)</masterLabel>
+            <translation>2 (envejecimiento Reports)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 (Inventory Report)</masterLabel>
+            <translation>3 (informe de inventario)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 (Contract Status - Percent of Completion Report)</masterLabel>
+            <translation>4 (Estado de licitación - Porcentaje del Informe de Terminación)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 (Federal And State Tax Returns)</masterLabel>
+            <translation>9 (federales y estatales declaraciones de impuestos)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>99 (Other)</masterLabel>
+            <translation>99 (Otro)</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

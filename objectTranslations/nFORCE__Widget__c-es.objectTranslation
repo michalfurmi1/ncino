@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>El estado de la transacción desde la per</label>
+        <name>nFORCE__Data__c</name>
+    </fields>
+    <fields>
+        <label>Adjunto archivo</label>
+        <name>nFORCE__Icon__c</name>
+    </fields>
+    <fields>
+        <label>Documento de contenido</label>
+        <name>nFORCE__Is_Angular__c</name>
+    </fields>
+    <fields>
+        <label>Plantilla DocMan</label>
+        <name>nFORCE__Is_Knockout__c</name>
+    </fields>
+    <fields>
+        <label>Registro de transacciones</label>
+        <name>nFORCE__Is_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Acción</label>
+        <name>nFORCE__Parameters__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>api_version</label>
+        <name>nFORCE__Script_Resource_Eight__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>comentarios</label>
+        <name>nFORCE__Script_Resource_Eleven__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Este campo opcional muestra la fecha y h</label>
+        <name>nFORCE__Script_Resource_Fifteen__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Tipo de registro</label>
+        <name>nFORCE__Script_Resource_Five__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>RequestingUserId</label>
+        <name>nFORCE__Script_Resource_Four__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Objeto secundario Id</label>
+        <name>nFORCE__Script_Resource_Fourteen__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>TransactionDetail</label>
+        <name>nFORCE__Script_Resource_Nine__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Estado proveedor</label>
+        <name>nFORCE__Script_Resource_One__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>horas ahorradas</label>
+        <name>nFORCE__Script_Resource_Seven__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>No es útil</label>
+        <name>nFORCE__Script_Resource_Six__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Éxito</label>
+        <name>nFORCE__Script_Resource_Ten__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>El campo país</label>
+        <name>nFORCE__Script_Resource_Thirteen__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>La latitud campo</label>
+        <name>nFORCE__Script_Resource_Three__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>Nombre sObject</label>
+        <name>nFORCE__Script_Resource_Twelve__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso estático Javascript para cargar con el widget.</help>
+        <label>El campo Estado</label>
+        <name>nFORCE__Script_Resource_Two__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Código Postal Campo</label>
+        <name>nFORCE__Stylesheet_Resource_Eight__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Está activo</label>
+        <name>nFORCE__Stylesheet_Resource_Five__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Nombre sObject</label>
+        <name>nFORCE__Stylesheet_Resource_Four__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Es posible utilizar {0} como un marcador</label>
+        <name>nFORCE__Stylesheet_Resource_Nine__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Esta es la aplicación que este contexto</label>
+        <name>nFORCE__Stylesheet_Resource_One__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>contexto completo</label>
+        <name>nFORCE__Stylesheet_Resource_Seven__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>contexto de inicio</label>
+        <name>nFORCE__Stylesheet_Resource_Six__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>El tipo de contexto indica si el usuario</label>
+        <name>nFORCE__Stylesheet_Resource_Ten__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Este campo se rellena automáticamente. I</label>
+        <name>nFORCE__Stylesheet_Resource_Three__c</name>
+    </fields>
+    <fields>
+        <help>Un recurso de hoja de estilo en cascada (CSS) para cargar con el widget.</help>
+        <label>Este campo de lista se rellena automátic</label>
+        <name>nFORCE__Stylesheet_Resource_Two__c</name>
+    </fields>
+    <fields>
+        <label>El identificador de sesión con la que se</label>
+        <name>nFORCE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Angular</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knockout</masterLabel>
+            <translation>Knockear</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narrative</masterLabel>
+            <translation>Narrativa</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>contextos</label>
+        <name>nFORCE__View__c</name>
+    </fields>
+    <fields>
+        <label>Documentos de transacción</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

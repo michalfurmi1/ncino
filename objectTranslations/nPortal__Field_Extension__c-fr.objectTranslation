@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Étiquette autre</label>
+        <name>nPortal__Alternate_Label__c</name>
+    </fields>
+    <fields>
+        <label>Nom de domaine</label>
+        <name>nPortal__Field_Name__c</name>
+    </fields>
+    <fields>
+        <help>Décrire l&apos;expression de format utilisé pour indiquer quels types d&apos;entrées sont acceptables.</help>
+        <label>Format Description de la règle</label>
+        <name>nPortal__Format_Description__c</name>
+    </fields>
+    <fields>
+        <help>Si décoché, la règle définie pour l&apos;expression Format ne sera pas appliquée.</help>
+        <label>Format de validation Activé</label>
+        <name>nPortal__Format_Enabled__c</name>
+    </fields>
+    <fields>
+        <help>Entrez une expression régulière en option pour appliquer un format particulier pour le contenu du champ.</help>
+        <label>Format expression</label>
+        <name>nPortal__Format_Expression__c</name>
+    </fields>
+    <fields>
+        <help>Entrez un message pour afficher à l&apos;utilisateur lorsque leur entrée ne correspond pas au format spécifié dans l&apos;expression Format.</help>
+        <label>Format du message</label>
+        <name>nPortal__Format_Message__c</name>
+    </fields>
+    <fields>
+        <help>Spécifiez la route que cette extension de champ s&apos;appliquera à, sinon l&apos;extension du champ sera appliqué partout.</help>
+        <label></label>
+        <name>nPortal__Route__c</name>
+        <relationshipLabel>Champ Route Extension</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indiquez la taille de la colonne de la grille SLDS ce champ doit couvrir. Ce nombre sera divisé en 1 pour obtenir le pourcentage de la ligne du champ SPAN. Par exemple, une valeur de 3 correspondra à 33,333% de la ligne.</help>
+        <label>Grille SLDS colonne Taille</label>
+        <name>nPortal__SLDS_Column_Size__c</name>
+    </fields>
+    <fields>
+        <label>infobulle Sommaire</label>
+        <name>nPortal__Tooltip_Contents__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour activer une info-bulle pour le champ donné dans le portail client.</help>
+        <label>Activé infobulle</label>
+        <name>nPortal__Tooltip_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>texte infobulle</label>
+        <name>nPortal__Tooltip_Text__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Nom sObject</label>
+        <name>nPortal__sObject_Name__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

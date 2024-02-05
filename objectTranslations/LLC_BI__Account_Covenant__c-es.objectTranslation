@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Préstamo ARC cumple todos los criterios</label>
+        <name>Covenant_Next_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>El préstamo ARC siendo presentado cumple</label>
+        <name>Covenant_Relationship__c</name>
+    </fields>
+    <fields>
+        <label>Son techo y el suelo tasas variables</label>
+        <name>Covenant_Type_Active__c</name>
+    </fields>
+    <fields>
+        <label>Indica si las tasas de techo y suelo en</label>
+        <name>Covenant_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Entidades</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contacto</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>Condiciones de la cuenta</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Cláusula</label>
+        <name>LLC_BI__Covenant2__c</name>
+        <relationshipLabel>Entidades</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

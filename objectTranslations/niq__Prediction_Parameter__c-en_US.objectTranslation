@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>niq__Api_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>niq__Context_Object_Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>niq__Data_Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>niq__Prediction__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>niq__Value_Path__c</name>
+    </fields>
+</CustomObjectTranslation>

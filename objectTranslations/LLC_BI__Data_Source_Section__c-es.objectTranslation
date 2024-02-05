@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>El número de períodos entre cambios en l</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Tasa Permanente Fecha Efectiva</label>
+        <name>LLC_BI__External_Name__c</name>
+    </fields>
+    <fields>
+        <label>Impedir la renovación automática</label>
+        <name>LLC_BI__Parent_Data_Source_Section__c</name>
+        <relationshipLabel>Padres Sección de origen de datos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Línea de producto</label>
+        <name>LLC_BI__Source__c</name>
+        <relationshipLabel>Secciones de origen de datos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>El día en que la tasa de interés regular</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ncinoocr__OCR_Form_Type__c</name>
+        <picklistValues>
+            <masterLabel>Default Form</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional Attachment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Required Attachment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ncinoocr__OCR_Optional__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

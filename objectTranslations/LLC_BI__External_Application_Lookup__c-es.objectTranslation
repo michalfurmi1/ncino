@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Seleccione este campo para mostrar este</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de caducidad</label>
+        <name>LLC_BI__External_Id__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

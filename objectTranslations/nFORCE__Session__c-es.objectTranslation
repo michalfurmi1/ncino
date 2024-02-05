@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Estado</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Loan</masterLabel>
+            <translation>Préstamo comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Loan</masterLabel>
+            <translation>Créditos de consumo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Maintenance</masterLabel>
+            <translation>depósito de Mantenimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Origination</masterLabel>
+            <translation>depósito de Originación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Commercial Loan Application</masterLabel>
+            <translation>Aplicación en línea de Préstamo Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Consumer Loan Application</masterLabel>
+            <translation>Solicitud de préstamo en línea del Consumidor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Deposit Application</masterLabel>
+            <translation>Aplicación de depósito en línea</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Indicador de retención de impuestos</label>
+        <name>nFORCE__App_Resolved__c</name>
+    </fields>
+    <fields>
+        <label>Límite de crédito total</label>
+        <name>nFORCE__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>La exposición total</label>
+        <name>nFORCE__Context_Page__c</name>
+    </fields>
+    <fields>
+        <label>Total vencida</label>
+        <name>nFORCE__Data__c</name>
+    </fields>
+    <fields>
+        <label>Registro de transacciones</label>
+        <name>nFORCE__Route_Group__c</name>
+        <relationshipLabel>sesiones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Negocio Informe de Crédito</label>
+        <name>nFORCE__Session_URL__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Sesión abierta</label>
+        <name>nFORCE__Open_Session</name>
+    </webLinks>
+</CustomObjectTranslation>

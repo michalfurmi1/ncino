@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>cuestión de etiqueta</label>
+        <name>nCBC__ContactId__c</name>
+        <relationshipLabel>Los registros de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Está activo</label>
+        <name>nCBC__CreditReport__c</name>
+        <relationshipLabel>Los registros de crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nombre de la clase</label>
+        <name>nCBC__Credit_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nCBC__LiabilityId__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__LiabilityType__c</name>
+    </fields>
+    <fields>
+        <label>respuestas</label>
+        <name>nCBC__accountOwnershipType__c</name>
+    </fields>
+    <fields>
+        <label>se archiva</label>
+        <name>nCBC__amount__c</name>
+    </fields>
+    <fields>
+        <label>Introduzca el valor numérico de este cam</label>
+        <name>nCBC__balanceDate__c</name>
+    </fields>
+    <fields>
+        <label>número respuesta</label>
+        <name>nCBC__balance__c</name>
+    </fields>
+    <fields>
+        <label>Opción</label>
+        <name>nCBC__bankruptAdjAmt__c</name>
+    </fields>
+    <fields>
+        <label>Pregunta</label>
+        <name>nCBC__bankruptLiabAmt__c</name>
+    </fields>
+    <fields>
+        <label>respuestas</label>
+        <name>nCBC__bankruptRepayAmt__c</name>
+    </fields>
+    <fields>
+        <label>respuestas</label>
+        <name>nCBC__bankruptcyAssetAmount__c</name>
+    </fields>
+    <fields>
+        <label>Etiqueta respuesta</label>
+        <name>nCBC__consumerComment__c</name>
+    </fields>
+    <fields>
+        <label>Nombre contrato</label>
+        <name>nCBC__creditLimit__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__creditType__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nCBC__delinqOver30Days__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__delinqOver60Days__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__delinqOver90Days__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__dispositionRecord__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__dispositionType__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__disputeFlag__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__docketIdentifier__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__filingDate__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__holder__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__inquiryDate__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__isDerogratory__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__kindOfBusiness__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__loanType__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__modelName__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__monthlyPayment__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__monthsOfHistory__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__mostRecentAdverseRating__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__openDate__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__plaintiffName__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__recordType__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__scoreDate__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__scoreFactors__c</name>
+    </fields>
+    <fields>
+        <label>Parámetros</label>
+        <name>nCBC__scoreValue__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__status__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__subDisplayName__c</name>
+    </fields>
+    <fields>
+        <label>Una representación serializada JSON de p</label>
+        <name>nCBC__subscriberCode__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

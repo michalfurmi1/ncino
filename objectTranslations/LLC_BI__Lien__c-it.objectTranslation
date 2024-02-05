@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Se il pegno è attivo, sarà utilizzato nei calcoli dei pegni correnti e precedenti</help>
+        <label>Attivo</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help>L’importo del pegno a fronte di un collaterale.</help>
+        <label>Importo</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Collaterale</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Pegni</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La data in cui il pegno è stato restituito.</help>
+        <label>Data scadenza</label>
+        <name>LLC_BI__Expire_Date__c</name>
+    </fields>
+    <fields>
+        <help>L’istituto che ha il pegno a fronte del collaterale.</help>
+        <label>Istituto</label>
+        <name>LLC_BI__Institution__c</name>
+    </fields>
+    <fields>
+        <help>Il pegno è creato automaticamente dal collaterale su un prestito perfezionato?</help>
+        <label>è creato dal collaterale</label>
+        <name>LLC_BI__Is_Created_From_Collateral__c</name>
+    </fields>
+    <fields>
+        <help>Questo campo è popolato tramite apex per escludere questo pegno dai calcoli.</help>
+        <label>è escluso</label>
+        <name>LLC_BI__Is_Excluded__c</name>
+    </fields>
+    <fields>
+        <label>è_Interno</label>
+        <name>LLC_BI__Is_Internal__c</name>
+    </fields>
+    <fields>
+        <label>Numero prestito</label>
+        <name>LLC_BI__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <help>Il prestito cui è associato questo pegno, se il pegno è interno a questo istituto finanziario.</help>
+        <label>Prestito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Pegni</relationshipLabel>
+    </fields>
+    <fields>
+        <help>L’ordine in cui i pegni saranno rimborsati quando la proprietà è trasferita a un nuovo proprietario.</help>
+        <label>Posizione</label>
+        <name>LLC_BI__Position__c</name>
+        <picklistValues>
+            <masterLabel>1st</masterLabel>
+            <translation>1°</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation>2°</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd</masterLabel>
+            <translation>3°</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Altro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Acquired_With_Loan_Or_Project_Proceeds__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Amount_Owed_To_Seller_Under_Contract__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Close_Prior_Open_Ended_Liens__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Date_Of_Lease__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Evidence_Of_Title_And_Lien_Priority_OO__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Evidence_Of_Title_And_Priority_Of_Lien__c</name>
+        <picklistValues>
+            <masterLabel>ALTA Loan Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney’s certificate of title</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLTA Loan Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Title Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgagee’s Title Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property, Judgment and Lien Report indicating that lender has obtained the required position</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title and/or Lien Search</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title insurance customarily obtained for similar transactions in this jurisdiction</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Evidence_Of_Title_Open_Option__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Filing_Request_For_Notice_Required__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Guaranteed_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Include_Assignment_Of_Rents__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Include_Water_Rights__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Instrument__c</name>
+        <picklistValues>
+            <masterLabel>Deed of Trust</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deed to Secure Debt</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indemnity Deed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana Trust Indenture</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Is_Any_Prior_Lien_Open_Ended__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Is_Financed_With_This_Loan__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Is_Landlords_Waiver_Required__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Is_Without_MGL_Section_21e__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Is_Without_Standard_Exceptions__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Is_Without_Standard_Survey_Exception__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Land_Trust_Prior_Assignees_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Land_Trust_Prior_Assignees__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Land_Trust_Prior_Lienholders_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Land_Trust_Prior_Lienholders__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Lease_Agreement_Termination_Notice_Days__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Leasehold_Term_Of_Loan_Plus_Years__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Lender_Must_Cause_Deed_To_Be_In_Escrow__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessee__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessor__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Line_Of_Credit_Maximum_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Line_Of_Credit_Present_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Nature_Of_Interests_And_Amounts__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__No_Exceptions_For_Parties_In_Possession__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Notice_Before_Foreclosure_Agreement__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Prior_Lienholders_Written_Verification__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Puerto_Rico_Chattel_Mortgage__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Purchasers_Interest_Contract_Purchaser__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Purchasers_Interest_Contract_Seller__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Reality_And_Leaseholds_Option__c</name>
+        <picklistValues>
+            <masterLabel>Assignment of Beneficial Interest and Power of Direction in Land Trust</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Purchaser’s Interest in Land Contract of Sale</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Seller’s Interest in Land Contract of Sale</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative Apartment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Instrument on Building Constructed on Leased Land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Security Interest in building on leased land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold on Tribal Land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Assignment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Lien, Mortgage or Deed of Trust</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lien On Land And Improvements</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Realty_And_Leaseholds_Option__c</name>
+        <picklistValues>
+            <masterLabel>Assignment of Beneficial Interest and Power of Direction in Land Trust</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Purchaser’s Interest in Land Contract of Sale</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Seller’s Interest in Land Contract of Sale</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative Apartment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Instrument on Building Constructed on Leased Land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Security Interest in building on leased land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold on Tribal Land</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Assignment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Lien, Mortgage or Deed of Trust</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lien On Land And Improvements</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Required_Endorsements__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Shared_Lien_With_Lenders_Non_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Amount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Statement_Of_Non_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Statutory_Power_Of_Sale_Language_Req__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Survey_Certified_To_Lender_Required__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Taxes_And_Municipal_Liens_Curr_Or_Paid__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__WO_Exception_To_Homestead_Survey_Taxes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Waiver_Of_Business_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Waiver_Of_Redemption_Rights_Required__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nSBA__Written_Waiver_Of_Homestead_Required__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

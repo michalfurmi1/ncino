@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>compte Recherche</label>
+        <name>Account_Lookup__c</name>
+        <relationshipLabel>Période d&apos;écart Déclaration totaux</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Déclaration de propagation Période</label>
+        <name>LLC_BI__Spread_Statement_Period__c</name>
+        <relationshipLabel>Période d&apos;écart Déclaration totaux</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Déclaration Spread Record</label>
+        <name>LLC_BI__Spread_Statement_Record_Total__c</name>
+        <relationshipLabel>Période d&apos;écart Déclaration totaux</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valeur</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ValueNumber__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

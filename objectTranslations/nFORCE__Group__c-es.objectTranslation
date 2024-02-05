@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Seleccione un registro para asociar con este cuestionario.</help>
+        <label>Pantalla</label>
+        <name>nFORCE__Answer_Context__c</name>
+        <picklistValues>
+            <masterLabel>Business Account</masterLabel>
+            <translation>Cuenta de negocios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit</masterLabel>
+            <translation>Depositar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Account</masterLabel>
+            <translation>Cuenta individual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan</masterLabel>
+            <translation>Préstamo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Introduzca la porción del grupo de la aplicación solicitada. \ N \ nE.g. Si la aplicación es solicitada &apos;loan.change subproducto&apos;, entonces la porción del grupo es &apos;préstamo&apos;.</help>
+        <label>Tipo</label>
+        <name>nFORCE__App__c</name>
+    </fields>
+    <fields>
+        <help>Indicar la categoría a la que pertenece este grupo.</help>
+        <label>Valor</label>
+        <name>nFORCE__Category__c</name>
+        <picklistValues>
+            <masterLabel>Customer Dashboard</masterLabel>
+            <translation>Tablero de instrumentos del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Application</masterLabel>
+            <translation>Aplicaciones en linea</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label>Llave secreta</label>
+        <name>nFORCE__Is_Archived__c</name>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>nFORCE__Is_Questionnaire__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione un diseño para este grupo.</help>
+        <label>Contenido</label>
+        <name>nFORCE__Layout__c</name>
+        <relationshipLabel>grupos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>El nombre del grupo que este grupo es un subgrupo de.</help>
+        <label>Orden</label>
+        <name>nFORCE__Parent_Group__c</name>
+        <relationshipLabel>Grupo de padres</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La pantalla que se utiliza para representar el contenido de este grupo. En la interfaz de usuario nCino esta pantalla hará que en el Topbar.</help>
+        <label>Criterios de filtro</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>grupos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Está activo</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca un tipo de contexto definido, que este grupo se asocia a. Para los solicitantes primarios, introduzca solicitante. Para copropietarios añaden a un depósito, introduzca propietario. Para co-prestatarios o garantes añadido a un préstamo de p</help>
+        <label>Configuraciones de sección</label>
+        <name>nPortal__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione este campo para permitir el acceso a este Grupo y registros relacionados para la interfaz de usuario en el portal del cliente.</help>
+        <label>Este campo es opcional y está poblado po</label>
+        <name>nPortal__Is_Portal_Enabled__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description>Este grupo es para la pregunta Grupos</description>
+        <label>Grupo cuestión</label>
+        <name>Question_Group</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Este tipo de registro es para la interfaz de usuario Grupos</description>
+        <label>Grupo IU</label>
+        <name>UI_Group</name>
+    </recordTypes>
+    <webLinks>
+        <label>Clon profunda</label>
+        <name>Deep_Clone</name>
+    </webLinks>
+</CustomObjectTranslation>

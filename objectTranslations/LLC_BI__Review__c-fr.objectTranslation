@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Association au compte considéré dans la revue.</help>
+        <label>Compte</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Revues</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Note de crédit</label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel>Revues</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Clé de recherche</label>
+        <name>LLC_BI__Lookup_Key__c</name>
+    </fields>
+    <fields>
+        <label>Annotation</label>
+        <name>LLC_BI__Narrative__c</name>
+    </fields>
+    <fields>
+        <label>Données du détail de l’offre</label>
+        <name>LLC_BI__Product_Package_Data__c</name>
+    </fields>
+    <fields>
+        <label>Détail de l’offre</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Revues</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Revoir le type</label>
+        <name>LLC_BI__Review_Type__c</name>
+        <picklistValues>
+            <masterLabel>AdHoc</masterLabel>
+            <translation>Ad hoc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation>Tous les ans</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Warning</masterLabel>
+            <translation>Alerte précoce</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim</masterLabel>
+            <translation>Intermédiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Tous les mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Tous les trimestres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation>Tous les semestres</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Complet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En cours</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Account_Review_Complete</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Account_Review_In_Progress</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Package_Review_Complete</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>LLC_BI__Package_Review_In_Progress</name>
+    </recordTypes>
+    <webLinks>
+        <label>Note de crédit</label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+</CustomObjectTranslation>

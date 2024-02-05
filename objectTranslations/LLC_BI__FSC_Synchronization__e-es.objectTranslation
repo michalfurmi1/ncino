@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Cerrar anteriores embargos de boca abier</label>
+        <name>LLC_BI__Action__c</name>
+    </fields>
+    <fields>
+        <label>Compruebe si hay algún gravamen previo (</label>
+        <name>LLC_BI__Parameters__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de arrendamiento</label>
+        <name>LLC_BI__Process__c</name>
+    </fields>
+</CustomObjectTranslation>

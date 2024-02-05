@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Compte</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Listes de contrôle</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient le nombre de jours nécessaires pour remplir cette liste de contrôle.</help>
+        <label>Durée effective en jours</label>
+        <name>LLC_BI__Actual_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif est automatiquement remplie avec la valeur qui est utilisée pour les listes de vérification de groupe en même temps.</help>
+        <label>Catégorie</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation>Gestion</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient l&apos;identifiant de l&apos;enregistrement sObject auquel cette liste de contrôle se rapporte.</help>
+        <label>contexte Id</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient le nom complet du type sObject auquel cette liste de contrôle se rapporte.</help>
+        <label>Type de contexte</label>
+        <name>LLC_BI__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient le nombre de jours prévus pour compléter cette liste.</help>
+        <label>Durée prévue en jours</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour indiquer cette liste est un modèle.</help>
+        <label>est-modèle</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Garantie engagée</label>
+        <name>LLC_BI__Loan_Collateral2__c</name>
+        <relationshipLabel>Listes de contrôle</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Listes de contrôle</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Détail de l’offre</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Listes de contrôle</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Ce champ est obligatoire contient l&apos;état actuel de cette liste.</help>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ facultatif contient le nom du développeur du modèle Liste de contrôle sur lequel repose cette liste de contrôle.</help>
+        <label>Modèle</label>
+        <name>LLC_BI__Template__c</name>
+    </fields>
+    <fields>
+        <label>Service de trésorerie</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel>Listes de contrôle</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

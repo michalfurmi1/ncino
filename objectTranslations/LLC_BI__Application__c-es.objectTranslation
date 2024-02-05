@@ -1,0 +1,3076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Exp exportación para la exportación Dev</label>
+        <name>Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Exportación expreso para la exportación</label>
+        <name>LLC_BI__Application_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo para guardar oferta de preferencia de orden del prestatario.</help>
+        <label>Si está autorizado para hacer negocios</label>
+        <name>LLC_BI__Offer_Sorting_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Lowest Payment</masterLabel>
+            <translation>El pago más bajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowest Rate</masterLabel>
+            <translation>La tasa más baja</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Requested_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Esto se comprueba cuando se crea la aplicación en línea.</help>
+        <label>Este campo obligatorio contiene el nombr</label>
+        <name>Online_Application__c</name>
+    </fields>
+    <fields>
+        <label>Exportación Exp Si Fin indirecta Cert Si</label>
+        <name>nPortal__Account__c</name>
+        <relationshipLabel>aplicaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Exportación Exp préstamo no será Refi SB</label>
+        <name>nPortal__Applicant__c</name>
+        <relationshipLabel>Aplicaciones (solicitante)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este ID debe coincidir con el artefacto siendo creado por la aplicación</help>
+        <label>Exportación Exp Nueva Mkt o expandir Exi</label>
+        <name>nPortal__Artifact_Id__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>nPortal__Business_Credit_Transaction_Log__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Exportación Exp Sin Fin de ultramar Oper</label>
+        <name>nPortal__OA_Auto_Decision_Complete__c</name>
+    </fields>
+    <fields>
+        <label>Exportación Express No financiación de l</label>
+        <name>nPortal__Product_Package__c</name>
+        <relationshipLabel>aplicaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>nPortal__Product__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nPortal__Session__c</name>
+        <relationshipLabel>aplicaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Indicador de certificar o no certifican</label>
+        <name>nPortal__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Completo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined / Incomplete</masterLabel>
+            <translation>Declinado / Incompleto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation>En progreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation>Retirado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El préstamo ARC siendo presentado cumple con todos los criterios del programa Américas Recuperación de Capital (ARC)? Responder sólo para préstamos ARC.</help>
+        <label>Agente de Servicios Abastecimiento de co</label>
+        <name>nSBA__ARC_Loan_Meets_All_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Otra empresa de propiedad o controladas por cualquier asociado de negocio solicitante pequeña o garante de pagar un préstamo Federal (o garantizado un préstamo que fue omitido) y causó el gobierno federal.</help>
+        <label>Mantenimiento extraordinario Cargo por c</label>
+        <name>nSBA__Affiliated_Biz_Defaulted_On_Fed_Loan__c</name>
+    </fields>
+    <fields>
+        <help>La cantidad agregada de SBA Préstamos Para EPC y Límite Bajo OC</help>
+        <label>Primera clase de ajuste Fecha - Fase 2</label>
+        <name>nSBA__Agg_Amt_SBA_Loans_To_EPC_OC_Under_Limit__c</name>
+    </fields>
+    <fields>
+        <help>Todos los Asociados son ciudadanos o verificado</help>
+        <label>Limitación de activo fijo Cantidad</label>
+        <name>nSBA__All_Associates_USVerified__c</name>
+    </fields>
+    <fields>
+        <help>Todos los Asociados de la empresa son ciudadanos de EE.UU. o no U.S. Ciudadanos cuyo estado ha sido verificada con USCIS o SBA.</help>
+        <label>Primera clase Fecha de Ajuste</label>
+        <name>nSBA__All_Associates_US_Citizens_Or_Verified__c</name>
+    </fields>
+    <fields>
+        <help>Todos los propietarios de 20 por ciento o más del solicitante (incluyendo un cónyuge titulares de un 5 por ciento o más cuando la propiedad conjunta de ambos cónyuges es de 20 por ciento o más) será garantía de préstamo (a excepción de los ESOP o ele</help>
+        <label>Formulario 1050 Prestatario Fecha de eje</label>
+        <name>nSBA__All_Owners_Of_20_Percent_Will_Guaranty__c</name>
+    </fields>
+    <fields>
+        <help>Es cualquiera de los individuos en libertad condicional</help>
+        <label>Formulario 1050 Prestamista Fecha de eje</label>
+        <name>nSBA__Any_Individual_On_Parole_Or_Probation__c</name>
+    </fields>
+    <fields>
+        <help>Cualquier sies en Q2 o Q3 de la Forma 1919</help>
+        <label>Agente de negocios de la ciudad</label>
+        <name>nSBA__Any_Yes_on_Q2_or_Q3_of_Form_1919__c</name>
+    </fields>
+    <fields>
+        <help>Aplicación Indicador elegible</help>
+        <label>Calle agente de negocios</label>
+        <name>nSBA__Application_Eligible_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>Número de solicitud asignado por el prestamista.</help>
+        <label>Agente Persona de Contacto</label>
+        <name>nSBA__Application_Number__c</name>
+    </fields>
+    <fields>
+        <help>Indica si las tasas de techo y suelo en el préstamo son variables. Este campo se utiliza en SBA única autorización.</help>
+        <label>Agente Proporcionar Servicios de fax</label>
+        <name>nSBA__Are_Ceiling_And_Floor_Rates_Variable__c</name>
+    </fields>
+    <fields>
+        <help>Un Asociado del Negocio Pequeño solicitante o fiador es actualmente atrasado en alguna deuda federal.</help>
+        <label>Agente de Servicios Abastecimiento de te</label>
+        <name>nSBA__Associate_Curr_Deliquent_On_Fed_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 5 - Negocios Adquisición - El comprador Inyección</help>
+        <label>Agente Representante Título</label>
+        <name>nSBA__Biz_Acquisition_Buyer_Injection__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 5 - Negocios Adquisición - Bienes Raíces Comerciales</help>
+        <label>Agente Firma Fecha</label>
+        <name>nSBA__Biz_Acquisition_Commercial_Real_Estate__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 5 - Negocios Adquisición - Anticipo al Vendedor</help>
+        <label>Tipo de servicios de crédito vigente age</label>
+        <name>nSBA__Biz_Acquisition_Down_Payment_To_Seller__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 5 - Adquisición de Negocios - Equipo</help>
+        <label>Título del representante solicitante que</label>
+        <name>nSBA__Biz_Acquisition_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Negocios Adquisición fuente y el tipo de inyección.</help>
+        <label>Nombre del negocio de agente</label>
+        <name>nSBA__Biz_Acquisition_Injection_Source_Type__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 5 - Negocios Adquisición - Activos intangibles</help>
+        <label>Se adjunta Cuota Desglose</label>
+        <name>nSBA__Biz_Acquisition_Intangible_Assets__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 5 - Negocios Adquisición - Cantidad total financiado</help>
+        <label>Es la cuota pagada por el solicitante</label>
+        <name>nSBA__Biz_Acquisition_Total_Amount_Financed__c</name>
+    </fields>
+    <fields>
+        <help>Una lista de todos prestatario y Operating Company Documentos Opciones de apertura aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>Prestamista Formulario Firma Representan</label>
+        <name>nSBA__Borrower_And_OC_Documents_Open_Options__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Las mejoras en propiedades arrendadas - Prestatario inyección (en miles)</help>
+        <label>Aplicaciones (Prestamista Representante</label>
+        <name>nSBA__Borrower_Inject_Leasehold_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Adquirir Negocios - Inyección Prestatario (en miles)</help>
+        <label>Nombre del servicio Proporcionar Agente</label>
+        <name>nSBA__Borrower_Injection_Acquire_Business__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Inyección Prestatario (en miles) - Construcción</help>
+        <label>Para la persona que firma solicitante</label>
+        <name>nSBA__Borrower_Injection_Construction__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Muebles y Enseres - Inyección Prestatario (en miles)</help>
+        <label>Ciudad de referencia Agente de Negocios</label>
+        <name>nSBA__Borrower_Injection_Furniture_Fixtures__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Maquinaria y Equipo - Inyección Prestatario (en miles)</help>
+        <label>Remisión Calle Agente de Negocios</label>
+        <name>nSBA__Borrower_Injection_Machinery_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Inyección Prestatario (en miles) - Otros2</help>
+        <label>Formulario 1846 Prestamista Oficial Firm</label>
+        <name>nSBA__Borrower_Injection_Other2__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Ingresos - Otros - Prestatario inyección (en miles)</help>
+        <label>Tipo de servicio</label>
+        <name>nSBA__Borrower_Injection_Other__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar las cuentas a pagar - Prestatario inyección (en miles)</help>
+        <label>(SÓLO PARA LAS COMUNICACIONES PLP) Nombr</label>
+        <name>nSBA__Borrower_Injection_Pay_Accounts_Payable__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar Documentos por Pagar - Borrower_Injection (en miles)</help>
+        <label>Formulario 1920 Aprobar Prestamista Offi</label>
+        <name>nSBA__Borrower_Injection_Pay_Notes_Payable__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pay Off SBA - Inyección Prestatario (en miles)</help>
+        <label>(SÓLO PARA LAS COMUNICACIONES PLP) Nombr</label>
+        <name>nSBA__Borrower_Injection_Pay_Off_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Compra de inventario - Inyección Prestatario (en miles)</help>
+        <label>Formulario 1920 Prestamista Oficial Firm</label>
+        <name>nSBA__Borrower_Injection_Purchase_Inventory__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - compra de tierras - Inyección Prestatario (en miles)</help>
+        <label>(SÓLO PARA LAS COMUNICACIONES PLP) Nombr</label>
+        <name>nSBA__Borrower_Injection_Purchase_Land__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos de Garantía de SBA - Tarifa - Inyección Prestatario (en miles)</help>
+        <label>Formulario 601 Fecha de ejecución</label>
+        <name>nSBA__Borrower_Injection_SBA_Guaranty_Fee__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Inyección Prestatario (en miles) - Total</help>
+        <label>Aviso franquicia Acta de Terminación</label>
+        <name>nSBA__Borrower_Injection_Total__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Capital de Trabajo - Prestatario inyección (en miles)</help>
+        <label>Franquicia elegible para la asistencia d</label>
+        <name>nSBA__Borrower_Injection_Working_Capital__c</name>
+    </fields>
+    <fields>
+        <label>Honorarios de la licencia de pago diferi</label>
+        <name>nSBA__Broker_Services_Charged_To_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>Constructores CAPLines solicitante califica bajo 7a Estándar</help>
+        <label>Introduzca la cantidad de meses sobre Pr</label>
+        <name>nSBA__Builders_CAPLines_Applicant_Qualifies_7__c</name>
+    </fields>
+    <fields>
+        <help>El edificio donde se pueden hacer mejoras es propiedad de ningún directores de la empresa operadora.</help>
+        <label>Lista de todos recipiente (s) que debe s</label>
+        <name>nSBA__Building_With_Improvements_Owned__c</name>
+    </fields>
+    <fields>
+        <help>Requisitos valoración de la empresa para los préstamos con activos intangibles más de 250000 se cumplieron</help>
+        <label>Este valor se calcula tomando el CDC Fin</label>
+        <name>nSBA__Bus_Value_Req_For_Loans_Mor_250k_Int_Met__c</name>
+    </fields>
+    <fields>
+        <help>Requisitos valoración de la empresa para los préstamos con activos intangibles 250000 o menos se cumplieron</help>
+        <label>CDC porcentaje de tasa de financiación.</label>
+        <name>nSBA__Bus_Value_Req_For_Loans_Sub_250k_Int_Met__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Negocios Adquisición - Activos Indicador de compra (en miles)</help>
+        <label>Si la construcción contendrá Alquiler es</label>
+        <name>nSBA__Business_Acquisition_Asset__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Negocios Adquisición - Indicador de compra de acciones (en miles)</help>
+        <label>Ajuste de la comunidad y préstamo del Pr</label>
+        <name>nSBA__Business_Acquisition_Stock__c</name>
+    </fields>
+    <fields>
+        <help>Ajuste de la comunidad y préstamo del Programa de Inversión (CAIP) elegibles para ser procesados ​​bajo la autoridad delegada de la entidad crediticia PLP? Responder sólo para préstamos CAIP.</help>
+        <label>Requisitos de seguro de opciones de aper</label>
+        <name>nSBA__CAIP_Loan_Is_PLP_Eligible__c</name>
+    </fields>
+    <fields>
+        <help>El préstamo está siendo procesado bajo el Programa Piloto de CA y el prestamista ha proporcionado una transcripción que muestra las fechas de vencimiento y 6 meses de pagos a tiempo para el último período de seis meses.</help>
+        <label>número máximo de meses a contar desde la</label>
+        <name>nSBA__CA_Pilot_Program_Timely_Payments__c</name>
+    </fields>
+    <fields>
+        <help>Lista de todos los condados de California, donde se encuentra garantías prometidas. Este campo se utiliza en SBA única autorización.</help>
+        <label>Indicación de inyección</label>
+        <name>nSBA__CA_Residential_Collateral_County_List__c</name>
+    </fields>
+    <fields>
+        <help>Certificaciones y acuerdos de apertura de Opciones - antes de la sección de desembolso. Este campo se utiliza en SBA única autorización.</help>
+        <label>Los activos intangibles Por encima de 50</label>
+        <name>nSBA__Certs_And_Agreements_Open_Options_1__c</name>
+    </fields>
+    <fields>
+        <help>Certificaciones y acuerdos opciones abiertas. Este campo se utiliza en SBA única autorización.</help>
+        <label>Los activos intangibles no por encima de</label>
+        <name>nSBA__Certs_And_Agreements_Open_Options_2__c</name>
+    </fields>
+    <fields>
+        <help>El cambio promoverá el desarrollo o preservar Existencia</help>
+        <label>Sostiene el número de unidades entre dos</label>
+        <name>nSBA__Change_Will_Promote_Dev_Or_Preserve_Bus__c</name>
+    </fields>
+    <fields>
+        <label>Sostiene el número de unidades cuando se</label>
+        <name>nSBA__ChangeofOwnership__c</name>
+        <relationshipLabel>Solicitud</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Persona que respondió “Sí” ha completado un formulario de SBA 912 y el prestamista delegada ha despejado el préstamo para el procesamiento basado en SOP 50 10 5 directrices. (Prestamistas Sólo delegadas tienen autoridad para borrar un préstamo de tra</help>
+        <label>Pago de intereses sólo Inicia la Unidad</label>
+        <name>nSBA__Charge_Was_Single_Misdemeanor__c</name>
+    </fields>
+    <fields>
+        <help>Colateral propiedad comercial Will no cumple los requisitos ambientales de la SBA</help>
+        <label>Sólo Interés Unidad de Pago</label>
+        <name>nSBA__Comm_Prop_Collat_Not_Meet_Env_Reqs__c</name>
+    </fields>
+    <fields>
+        <help>Si el préstamo se está procesando a través Advantage Comunidad, Formulario SBA 2449, Addendum Comunidad Advantage, debe ser completado y unidos para formar SBA 1919, Prestatario formulario de información.</help>
+        <label>Los pagos de interés Debido día del mes</label>
+        <name>nSBA__Community_Advant_Addendum_Completed__c</name>
+    </fields>
+    <fields>
+        <help>Las mejoras comunitarias no rebasen límite de SBA</help>
+        <label>Detalles adicionales de tasas de interés</label>
+        <name>nSBA__Community_Improve_Not_Exceed_SBA_Limit__c</name>
+    </fields>
+    <fields>
+        <help>Limitación de compensación Cantidad (salarios anuales totales, los retiros o cualquier retribución a directivos o propietarios de Prestatario y OC, y los miembros de su familia inmediata) Prestatario y OC para certificar que no lo harán, sin consenti</help>
+        <label>Colateral Intl Comercio Situado en Estad</label>
+        <name>nSBA__Compensation_Limitation_Amount__c</name>
+    </fields>
+    <fields>
+        <help>número máximo de meses a contar desde la fecha de aprobación de Autorización para completar los desembolsos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Prestamista Internacional de Comercio se</label>
+        <name>nSBA__Complete_Disbursement_No_Later_Than__c</name>
+    </fields>
+    <fields>
+        <help>número máximo de meses a contar desde la fecha de aprobación de Autorización para completar los desembolsos. Este campo se utiliza en SBA única autorización.</help>
+        <label></label>
+        <name>nSBA__Complete_Disbursement_No_Later_Then__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es una lista de selección, que se utiliza para especificar el índice de la tasa de interés sigue para la primera clase. Este campo se utiliza en SBA única autorización.</help>
+        <label>Comercio Internacional No hay restriccio</label>
+        <name>nSBA__Complex_Index_1__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Interest</masterLabel>
+            <translation>interés fijo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA Optional Peg Rate</masterLabel>
+            <translation>SBA Opcional vinculación del tipo de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSJP</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo es una lista de selección, que se utiliza para especificar el índice de la tasa de interés sigue para la segunda tasa. Este campo se utiliza en SBA única autorización.</help>
+        <label>Cualquiera de Comercio Internacional de</label>
+        <name>nSBA__Complex_Index_2__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Interest</masterLabel>
+            <translation>interés fijo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libor</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA Optional Peg Rate</masterLabel>
+            <translation>SBA Opcional vinculación del tipo de</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSJP</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo es un porcentaje, que se utiliza para especificar el interés a largo plazo en la primera tarifa para este préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Uso Internacional del Comercio de los Re</label>
+        <name>nSBA__Complex_Interest_Rate_1__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es un porcentaje, que se utiliza para especificar el interés a largo plazo en la segunda tarifa para este préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>La deuda es un préstamo garantizado por</label>
+        <name>nSBA__Complex_Interest_Rate_2__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para especificar el porcentaje de tipo de interés aplicado al préstamo en una estructura de doble tipo para la primera clase. Este campo se utiliza en SBA única autorización.</help>
+        <label>Compruebe si el Prestador y SBA pueden t</label>
+        <name>nSBA__Complex_Percentage_Applied_To_Loan_1__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para especificar el porcentaje de tipo de interés aplicado al préstamo en una estructura de tasas de división para la segunda tasa. Este campo se utiliza en SBA única autorización.</help>
+        <label>Adquisición de terrenos o edificios cons</label>
+        <name>nSBA__Complex_Percentage_Applied_To_Loan_2__c</name>
+    </fields>
+    <fields>
+        <help>Número de unidades que determina la longitud total de primera clase. Este campo se utiliza en SBA única autorización.</help>
+        <label>Está implicado Agente</label>
+        <name>nSBA__Complex_Period_Length_1__c</name>
+    </fields>
+    <fields>
+        <help>Número de unidades que determina la longitud total de segunda tasa. Este campo se utiliza en SBA única autorización.</help>
+        <label>Es cualquiera de los ingresos brutos der</label>
+        <name>nSBA__Complex_Period_Length_2__c</name>
+    </fields>
+    <fields>
+        <help>Mantiene las unidades relacionadas con el número de unidades de la primera clase. Este campo se utiliza en SBA única autorización.</help>
+        <label>Es elegible solicitante cualificado empl</label>
+        <name>nSBA__Complex_Period_Unit_1__c</name>
+        <picklistValues>
+            <masterLabel>calendar quarter</masterLabel>
+            <translation>trimestre natural</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>month(s)</masterLabel>
+            <translation>meses)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quarter</masterLabel>
+            <translation>trimestre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>year</masterLabel>
+            <translation>año</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Mantiene las unidades relacionadas con el número de unidades para la segunda tasa. Este campo se utiliza en SBA única autorización.</help>
+        <label>Se solicitante cualificado empleado de c</label>
+        <name>nSBA__Complex_Period_Unit_2__c</name>
+        <picklistValues>
+            <masterLabel>calendar quarter</masterLabel>
+            <translation>trimestre natural</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>month(s)</masterLabel>
+            <translation>meses)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quarter</masterLabel>
+            <translation>trimestre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>year</masterLabel>
+            <translation>año</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para especificar el porcentaje de interés añadido a Spread El precio de la primera clase. Este campo se utiliza en SBA única autorización.</help>
+        <label>Es solicitante cualificado empleado de c</label>
+        <name>nSBA__Complex_Spread_1__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para especificar el porcentaje interés añadido a Spread El precio de la segunda tasa. Este campo se utiliza en SBA única autorización.</help>
+        <label>Es solicitante cualificado empleado de c</label>
+        <name>nSBA__Complex_Spread_2__c</name>
+    </fields>
+    <fields>
+        <help>Entrar en la lista de la corporación (s) que, antes del cierre, el Prestador debe obtener la consideración para el certificado de compra de acciones de. Este campo se utiliza en SBA única autorización.</help>
+        <label>Es solicitante de negocios Tipo SBA Prob</label>
+        <name>nSBA__Consideration_For_Stock_Purchase_List__c</name>
+    </fields>
+    <fields>
+        <help>La construcción o la refinanciación de la construcción del nuevo edificio</help>
+        <label>Es propiedad de negocios solicitante o c</label>
+        <name>nSBA__Construction_For_New_Building__c</name>
+    </fields>
+    <fields>
+        <label>Solicitante está conectado con los grupo</label>
+        <name>nSBA__Construction_Total__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de la entidad crediticia que proporcionó la construcción de financiación provisional sin garantía de la SBA. Este campo se utiliza en SBA única autorización.</help>
+        <label>Es solicitante elegible CAIP reembolso</label>
+        <name>nSBA__Construction_WO_SBA_Grnt_Financed_By__c</name>
+    </fields>
+    <fields>
+        <help>Contrato CAPLines solicitante califica bajo 7a Estándar</help>
+        <label>Se Solicitante Entidad de propiedad del</label>
+        <name>nSBA__Contract_CAPLines_Applicant_Qualifies_7a__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista ha evaluado el acceso del prestatario de crédito fuera de este préstamo garantizado por la SBA y determinó que dicho crédito no está disponible en otros lugares en condiciones razonables a partir de fuentes no federales.</help>
+        <label>Los solicitantes es el puntaje de crédit</label>
+        <name>nSBA__Credit_Elsewhere_Test_Passed__c</name>
+    </fields>
+    <fields>
+        <help>La deuda es un préstamo existente SBA que no es la misma deuda institución y el prestamista o prestatario ha obtenido evidencia de que el prestamista que ocupa actualmente la deuda está dispuesto o es incapaz de modificar las condiciones de pago actu</help>
+        <label>Se Broker Empleado por solicitante</label>
+        <name>nSBA__Debt_Meets_Requirements_SBA_Debt__c</name>
+    </fields>
+    <fields>
+        <help>La aplicación es un capital circulante Capline, la deuda es una línea existente garantizado por la SBA de crédito que no es con el prestamista solicitante y todos los demás requisitos de refinanciación de la deuda en SOP se cumplen 50 10.</help>
+        <label>Es de aspecto del asunto de una Prurient</label>
+        <name>nSBA__Debt_Meets_Requirements_Working_Capital__c</name>
+    </fields>
+    <fields>
+        <help>Copia de toda la documentación de apoyo para cada deuda a refinanciar se incluye (nota, acuerdo de garantía, arrendamiento). Para copiar la deuda de tarjetas de crédito de la declaración más reciente tarjeta de crédito fue proporcionada, lo que evide</help>
+        <label>Se Solicitante de negocios se dedican pr</label>
+        <name>nSBA__Debt_Ref_All_Supporting_Docs_Included__c</name>
+    </fields>
+    <fields>
+        <help>Por favor, confirma que ha incluido el calendario completo de la deuda empresarial que coincida con el estado financiero interino negocio más actual.</help>
+        <label>Préstamo está garantizado</label>
+        <name>nSBA__Debt_Ref_Biz_Debt_Schedule_Included__c</name>
+    </fields>
+    <fields>
+        <help>Persona que respondió “Sí” ha completado un formulario de SBA 912 y el prestamista delegada ha despejado el préstamo para el procesamiento basado en SOP 50 10 5 directrices. (Prestamistas Sólo delegadas tienen autoridad para borrar un préstamo de tra</help>
+        <label>Indica si la primera tasa de división ap</label>
+        <name>nSBA__Delegated_Lender_Cleared_Character__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista ha explicado su determinación en su exposición de crédito. Para los préstamos delegados, Prestamista ha conservado toda la documentación de apoyo en su archivo. Para los préstamos no-delegado, prestamista ha presentado el acuerdo y cualqu</help>
+        <label>Indica si la segunda tasa de división ap</label>
+        <name>nSBA__Determination_Explained_In_Credit_Memo__c</name>
+    </fields>
+    <fields>
+        <help>Enumerar todos los nombres que deben ser cubiertos por el Seguro de Discapacidad en una compañía de seguros y cantidad satisfactoria a prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Indica si las tasas atadas al préstamo e</label>
+        <name>nSBA__Disability_Insurance_List_Of_Names__c</name>
+    </fields>
+    <fields>
+        <help>Una o más marcas solicitantes cumplen con la definición de la FTC de una franquicia.</help>
+        <label>Es elegible SBA</label>
+        <name>nSBA__Does_Meet_FTC_Franchise_Definition__c</name>
+    </fields>
+    <fields>
+        <help>Una o más marcas solicitante no cumple con la definición de la FTC de una franquicia.</help>
+        <label>EPC es el tipo de negocio elegible</label>
+        <name>nSBA__Does_Not_Meet_FTC_Franchise_Definition__c</name>
+    </fields>
+    <fields>
+        <help>EPC y OC 20 por ciento o más propietarios de garantizar el préstamo</help>
+        <label>Es Negligencia requiere seguro</label>
+        <name>nSBA__EPC_And_OC_20_Percent_Guarantee_Loan__c</name>
+    </fields>
+    <fields>
+        <label>Es la empresa Servicios de Hipotecas</label>
+        <name>nSBA__EPC_And_OC_Pass_SBA_Size_Standard__c</name>
+    </fields>
+    <fields>
+        <help>EPC alquilará 100 del Préstamo Propiedad Para OC</help>
+        <label>Son los préstamos de administración de h</label>
+        <name>nSBA__EPC_Will_Lease_100_Of_Loan_Proceed_To_OC__c</name>
+    </fields>
+    <fields>
+        <help>Oficial prestamista que se asignará como prestamista alternativo de contacto durante el E-Tran sumisión.</help>
+        <label>Es Motel RV Park Marina</label>
+        <name>nSBA__ETran_Lender_Alternative_Contact__c</name>
+        <relationshipLabel>Aplicaciones (E-Tran Alternativa Prestamista de contacto)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Si el solicitante es EWCP Requisitos EMC O ETC SBA se cumplen</help>
+        <label>Sólo es razón para limitar Número de la</label>
+        <name>nSBA__EWCP_If_Applicant_Is_EMC_Or_ETC__c</name>
+    </fields>
+    <fields>
+        <help>Indica dónde este préstamo está estructurado con el desembolso que ocurren después del envío.</help>
+        <label>Es otro tipo de agente Compensada</label>
+        <name>nSBA__EWCP_Post_Shipment__c</name>
+    </fields>
+    <fields>
+        <help>Indica si préstamo está estructurado con una sola o múltiples desembolsos de préstamos.</help>
+        <label>negocio principal es propiedad de las pe</label>
+        <name>nSBA__EWCP_Single_Transaction__c</name>
+    </fields>
+    <fields>
+        <label>Es inundación se requiere seguro</label>
+        <name>nSBA__Eligibility_Affiliates__c</name>
+    </fields>
+    <fields>
+        <help>Elegibilidad SBA tamaño estándar Superó Dentro de los límites se compromete a utilizar trabajo de la zona Excedente</help>
+        <label>Se difiere el pago honorarios de la lice</label>
+        <name>nSBA__Eligibility_Exceeds_Size_Within_Limits__c</name>
+    </fields>
+    <fields>
+        <help>Documentación de elegibilidad franquicia Enviado Para LPGC</help>
+        <label>Se completa con la propiedad continuar c</label>
+        <name>nSBA__Eligibility_Franchise_Docs_Submit_Lpgc__c</name>
+    </fields>
+    <fields>
+        <label>Es el juego de Ingresos menos de un terc</label>
+        <name>nSBA__Eligibility_Franchise_Listed_In_Registry__c</name>
+    </fields>
+    <fields>
+        <label>El ingreso procedente de juegos de azar</label>
+        <name>nSBA__Eligibility_Franchisor_Not_Affiliated__c</name>
+    </fields>
+    <fields>
+        <help>Franquiciador tiene derecho al beneficio y riesgo</help>
+        <label>Es garantizado por el gobierno préstamo</label>
+        <name>nSBA__Eligibility_Franchisor_Profit_Risk_Right__c</name>
+    </fields>
+    <fields>
+        <help>Bajo presentado prestamistas Delegada Indicador de Autoridad</help>
+        <label>Se incluye en la SBA Directorio de Franq</label>
+        <name>nSBA__Eligibility_Lenders_Delegated_Authority__c</name>
+    </fields>
+    <fields>
+        <help>La elegibilidad se reúne Alternativa SBA tamaño estándar</help>
+        <label>Es de arrendamiento por escrito con térm</label>
+        <name>nSBA__Eligibility_Meets_Alternative_SBA_Size__c</name>
+    </fields>
+    <fields>
+        <label>Prestamista está compensada por el solic</label>
+        <name>nSBA__Eligibility_Meets_SBA_Size_Standard__c</name>
+    </fields>
+    <fields>
+        <help>La elegibilidad de funcionamiento de EE.UU. bus Para el beneficio ninguna otra parte de crédito</help>
+        <label>Completado prestamista Elegibilidad reli</label>
+        <name>nSBA__Eligibility_Operate_US_Bus_For_Profit__c</name>
+    </fields>
+    <fields>
+        <label>Es seguro de responsabilidad requeridos</label>
+        <name>nSBA__Eligibility_Products_Available_To_Public__c</name>
+    </fields>
+    <fields>
+        <help>Comprobar si hay préstamos regulares no PLP cuando Prestamista no presentó los resultados de la investigación ambiental. Este campo se utiliza en SBA única autorización.</help>
+        <label>Compruebe si se requiere seguro de respo</label>
+        <name>nSBA__Env_Investigation_Results_Submitted__c</name>
+    </fields>
+    <fields>
+        <help>Lista de requisitos ambientales Opciones de apertura aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>Compruebe si se requiere Dram Shop / Anf</label>
+        <name>nSBA__Environmental_Requirements_Open_Options__c</name>
+    </fields>
+    <fields>
+        <help>Comprobar si los requisitos ambientales requeridos (para todos los bienes inmuebles comerciales). Este campo se utiliza en SBA única autorización.</help>
+        <label>Es la ubicación que se exigen</label>
+        <name>nSBA__Environmental_Requirements_Required__c</name>
+    </fields>
+    <fields>
+        <help>La evidencia de que el vendedor ha cumplido con ventas a granel o disposiciones de transferencia de la ley estatal, en su caso, o ha dispuesto para proteger los activos adquiridos del prestatario de las reclamaciones de los acreedores del vendedor. E</help>
+        <label>OC es garante o co Prestatario</label>
+        <name>nSBA__Evidence_Of_Bulk_Sales_Or_Transfer__c</name>
+    </fields>
+    <fields>
+        <help>La deuda existente ya no satisface las necesidades del solicitante</help>
+        <label>negocio principal es propiedad de indivi</label>
+        <name>nSBA__Existing_Debt_Not_Meet_Applicant_Needs__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Expansión Indicador de construcción (en miles)</help>
+        <label>Es la tienda de empeño Con mayor parte d</label>
+        <name>nSBA__Expansion_Construction__c</name>
+    </fields>
+    <fields>
+        <help>Exportación expresan al menos 12 meses de negocios de edad o empleados con experiencia</help>
+        <label>Se requiere el acuerdo de compra venta</label>
+        <name>nSBA__Export_Exp_12m_Old_Bus_Or_Experience__c</name>
+    </fields>
+    <fields>
+        <help>Exportación expreso para la exportación de las actividades de desarrollo</help>
+        <label>Se Refi Construct Préstamo con Diff Pres</label>
+        <name>nSBA__Export_Exp_For_Export_Dev_Activities__c</name>
+    </fields>
+    <fields>
+        <help>Si la exportación expreso Financiación transacciones específicas Prestamista Determinado solicitante está autorizada para realizar negocios</help>
+        <label>Son los ingresos derivados de juegos de</label>
+        <name>nSBA__Export_Exp_If_Authorized_to_Conduct_Bus__c</name>
+    </fields>
+    <fields>
+        <help>Si la exportación expreso Financiación Certificación indirecta al que se</help>
+        <label>Por favor seleccione este campo si se re</label>
+        <name>nSBA__Export_Exp_If_Fin_Indirect_Cert_Provided__c</name>
+    </fields>
+    <fields>
+        <help>Y Exportaciones préstamo no será refinanciar préstamos de la SBA</help>
+        <label>Por favor seleccione este campo si se re</label>
+        <name>nSBA__Export_Exp_Loan_Will_Not_Refi_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Y Exportaciones nuevo mercado o la ampliación de mercado existente</help>
+        <label>Por favor seleccione este campo si se re</label>
+        <name>nSBA__Export_Exp_New_Mkt_Or_Expand_Exist_Mkt__c</name>
+    </fields>
+    <fields>
+        <help>Exportación Express No financiación de las operaciones de ultramar Excepto comercialización y distribución</help>
+        <label>Se ha cumplido con el estándar de tamaño</label>
+        <name>nSBA__Export_Exp_No_Fin_Overseas_Ops_Except__c</name>
+    </fields>
+    <fields>
+        <help>Los usuarios pueblan este campo opcional con la cantidad estimada de la comisión de administración extraordinaria durante la duración del préstamo. Prestamista puede cobrar una comisión de administración extraordinario para el saldo pendiente en la p</help>
+        <label>Procedimiento SOP es seguida para determ</label>
+        <name>nSBA__Extraordinary_Servicing_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Indicador de certificar o no certifican que la comisión de administración extraordinaria es razonable y prudente.</help>
+        <label>número previsto de empleados cuyos puest</label>
+        <name>nSBA__Extraordinary_Servicing_Fee_Certified__c</name>
+    </fields>
+    <fields>
+        <help>Una comisión de administración extraordinaria puede cobrar por el saldo pendiente de la parte que requiere mantenimiento especial. Los usuarios pueblan este campo opcional con el porcentaje anual comisión de administración extraordinaria.</help>
+        <label>número previsto de empleados cuyos puest</label>
+        <name>nSBA__Extraordinary_Servicing_Fee_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Si usted tiene la tasa de interés para el complejo ADN préstamo la segunda tasa de interés es variable, por favor escribe la primera fecha de ajuste de la tasa para la segunda tasa de interés.</help>
+        <label>Número de días después de los cuales los</label>
+        <name>nSBA__First_Rate_Adjustment_Date_Phase_2__c</name>
+    </fields>
+    <fields>
+        <help>Si la tasa de interés es variable, por favor escribe la primera fecha de ajuste de la tasa. Si tiene tasa de interés compleja para el préstamo, por favor escribe la primera fecha de ajuste de velocidad para la primera tasa de interés.</help>
+        <label>Porcentaje máximo de la parte no pagada</label>
+        <name>nSBA__First_Rate_Adjustment_Date__c</name>
+    </fields>
+    <fields>
+        <help>Monto fijo Activos Limitación por año que requiere Prestamista Prestatario y de la compañía de funcionamiento para certificar que no lo harán, sin acuerdo de compra o arrendamiento consentimiento previo y por escrito del prestamista bienes de uso por</help>
+        <label>Compruebe si usted está tratando de mant</label>
+        <name>nSBA__Fixed_Asset_Limitation_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Fecha en el Formulario 1050 fue ejecutado por el Prestatario</help>
+        <label>Compruebe si alquiler actual (s) en todo</label>
+        <name>nSBA__Form_1050_Borrower_Signature_Date__c</name>
+    </fields>
+    <fields>
+        <help>Fecha en el Formulario 1050 fue ejecutado por el Prestador</help>
+        <label>Compruebe si usted quiere proteger a dev</label>
+        <name>nSBA__Form_1050_Lender_Signature_Date__c</name>
+    </fields>
+    <fields>
+        <label>El negocio es al menos 51 por ciento pro</label>
+        <name>nSBA__Form_159_Agent_Business_City__c</name>
+    </fields>
+    <fields>
+        <label>lendable Región</label>
+        <name>nSBA__Form_159_Agent_Business_State_2__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>CON</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>California</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation>Colorado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation>Connecticut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation>corriente continua</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation>Florida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Georgia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>HOLA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation>Iowa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation>CARNÉ DE IDENTIDAD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation>Illinois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>EN</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation>Kansas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation>Kentucky</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation>Massachusetts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>Maryland</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>YO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation>Minnesota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>SRA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation>MONTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>CAROLINA DEL NORTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>DAKOTA DEL NORTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation>Nebraska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation>Nuevo Méjico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>Nueva York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>DE ACUERDO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>O</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pensilvania</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation>Rhode Island</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>CAROLINA DEL SUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation>Tennesse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>VIRGINIA OCCIDENTAL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Form_159_Agent_Business_State__c</name>
+    </fields>
+    <fields>
+        <label>Prestamista y franquicia mismo Adv En Df</label>
+        <name>nSBA__Form_159_Agent_Business_Street__c</name>
+    </fields>
+    <fields>
+        <label>Prestamista para dar la misma oportunida</label>
+        <name>nSBA__Form_159_Agent_Business_Zipcode__c</name>
+    </fields>
+    <fields>
+        <help>Persona de contacto para la realización de servicios de agente.</help>
+        <label>Aprobación prestamista de arrendar menos</label>
+        <name>nSBA__Form_159_Agent_Contact_Person__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista Proveedor de Servicios de Información de Contacto - Email</help>
+        <label>Prestamista puede prestar a las pequeñas</label>
+        <name>nSBA__Form_159_Agent_Providing_Services_Email__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista Proveedor de Servicios de Información de Contacto - Fax</help>
+        <label>Comentarios del prestamista</label>
+        <name>nSBA__Form_159_Agent_Providing_Services_Fax__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista Proveedor de Servicios de Información de Contacto - Teléfono</help>
+        <label>No requiere prestamista Invest en el App</label>
+        <name>nSBA__Form_159_Agent_Providing_Services_Phone__c</name>
+    </fields>
+    <fields>
+        <help>Título del representante agente que firma el Formulario de SBA 159 para el solicitante.</help>
+        <label>Prestamista no tiene ningún conflicto de</label>
+        <name>nSBA__Form_159_Agent_Representative_Title__c</name>
+    </fields>
+    <fields>
+        <label>Prestamista no tiene Int financiera con</label>
+        <name>nSBA__Form_159_Agent_Signature_Date__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de servicios de crédito vigente agente que fueron documentados en el Formulario 159 de la SBA.</help>
+        <label>Prestamista no tiene interés financiero</label>
+        <name>nSBA__Form_159_Agent_Type__c</name>
+        <picklistValues>
+            <masterLabel>Accountant preparing financial statements</masterLabel>
+            <translation>Contador preparación de los estados financieros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation>Consultor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent Loan Packager</masterLabel>
+            <translation>Empaquetador de préstamo independiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Agent or Broker</masterLabel>
+            <translation>Agente de remisión o Broker</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA Lender</masterLabel>
+            <translation>Prestamista SBA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Lender</masterLabel>
+            <translation>Prestamista de Terceros</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Título del representante solicitante que está firmando el formulario de SBA 159 para el solicitante.</help>
+        <label>Hecho prestamista préstamo personal para</label>
+        <name>nSBA__Form_159_Applicant_Representative_Title__c</name>
+    </fields>
+    <fields>
+        <label>Prestamista no está encarcelado en liber</label>
+        <name>nSBA__Form_159_Applicant_Signature_Date__c</name>
+    </fields>
+    <fields>
+        <label>Servicio prestamista Proveedor Nombre</label>
+        <name>nSBA__Form_159_Business_Name_of_Agent__c</name>
+    </fields>
+    <fields>
+        <label>Prestamista proveedor de servicios de in</label>
+        <name>nSBA__Form_159_Business_Name_of_Referral_Agent__c</name>
+    </fields>
+    <fields>
+        <help>Indica si el informe cuota de desglose se envía junto con el Formulario 159 de la SBA.</help>
+        <label>Proveedor de servicios prestamista Apell</label>
+        <name>nSBA__Form_159_Is_Fee_Itemization_Attached__c</name>
+    </fields>
+    <fields>
+        <help>Indica si la cuota documentado en el formulario de SBA 159 es pagado por el solicitante. Si es falso, la tasa se paga por el Prestador.</help>
+        <label>Servicio prestamista Proveedor Nombre Me</label>
+        <name>nSBA__Form_159_Is_Fee_Paid_By_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>Agente de crédito que firma el Formulario 159 de la SBA.</help>
+        <label>Agente Proporcionar Servicios de telefon</label>
+        <name>nSBA__Form_159_Lender_Representative_Signing__c</name>
+        <relationshipLabel>Aplicaciones (Prestamista Representante Firma Formulario 159)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Prestamista proveedor de servicios de in</label>
+        <name>nSBA__Form_159_Lender_Signature_Date__c</name>
+    </fields>
+    <fields>
+        <label>Servicio prestamista Proveedor de contac</label>
+        <name>nSBA__Form_159_Name_Of_Agent_Providing_Service__c</name>
+    </fields>
+    <fields>
+        <label>Prestamista Proveedor de Servicios de In</label>
+        <name>nSBA__Form_159_Name_Of_Lender_Person_Signing__c</name>
+    </fields>
+    <fields>
+        <label>Líquido puntuación de crédito</label>
+        <name>nSBA__Form_159_Person_Signing_For_Applicant__c</name>
+    </fields>
+    <fields>
+        <label>Se usa sólo para los préstamos de la SBA</label>
+        <name>nSBA__Form_159_Person_Signing_For_Referral_Agt__c</name>
+    </fields>
+    <fields>
+        <label>Préstamo Autorización Fecha de Aprobació</label>
+        <name>nSBA__Form_159_Referral_Agent_Business_City__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de aprobación de autorización del</label>
+        <name>nSBA__Form_159_Referral_Agent_Business_State__c</name>
+    </fields>
+    <fields>
+        <label>Garantía del préstamo Autorización de Ca</label>
+        <name>nSBA__Form_159_Referral_Agent_Business_Street__c</name>
+    </fields>
+    <fields>
+        <label>Autorización de préstamo Oficial Prestam</label>
+        <name>nSBA__Form_159_Referral_Agent_Business_Zipcode__c</name>
+    </fields>
+    <fields>
+        <help>Tipo de Servicio documentado en el Formulario 159 de la SBA.</help>
+        <label>Agente de crédito que se autorize Autori</label>
+        <name>nSBA__Form_159_Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>Broker or Referral services</masterLabel>
+            <translation>Corredor o servicios de referencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant services</masterLabel>
+            <translation>servicios de consultoría</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial statement preparation</masterLabel>
+            <translation>elaboración de estados financieros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan packaging</masterLabel>
+            <translation>paquetes de préstamos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Préstamo no paga Fin De Existe Proyecto</label>
+        <name>nSBA__Form_1846_Lender_Official_Signature_Date__c</name>
+    </fields>
+    <fields>
+        <help>(SÓLO PARA LAS COMUNICACIONES PLP) Nombre y cargo del Aprobar / Certificar Prestamista Formulario Firma oficial 1846</help>
+        <label>Préstamo no será Pagar financiación por</label>
+        <name>nSBA__Form_1846_Lender_Official_Signing__c</name>
+        <relationshipLabel>Las solicitudes (formulario 1846 Prestamista firma oficial)</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Form_1846_Lender_Official__c</name>
+    </fields>
+    <fields>
+        <label>Identifica el tipo de institución / pers</label>
+        <name>nSBA__Form_1920_Approve_Lender_Offic_Sign_Date__c</name>
+    </fields>
+    <fields>
+        <help>(SÓLO PARA LAS COMUNICACIONES PLP) Nombre y cargo del Aprobar / Certificar Prestamista Formulario Firma oficial 1920</help>
+        <label>Préstamo empaquetador de la ciudad</label>
+        <name>nSBA__Form_1920_Lender_Official_Approving__c</name>
+        <relationshipLabel>Las solicitudes (formulario 1920 Prestamista funcionario autorizado)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nombre del empaquetador de Préstamo.</label>
+        <name>nSBA__Form_1920_Lender_Official_Signature_Date__c</name>
+    </fields>
+    <fields>
+        <help>(SÓLO PARA LAS COMUNICACIONES PLP) Nombre y cargo del Aprobar / Certificar Prestamista Formulario Firma oficial 1920</help>
+        <label>Préstamo empaquetador de Estado</label>
+        <name>nSBA__Form_1920_Lender_Official_Signing__c</name>
+        <relationshipLabel>Las solicitudes (formulario 1920 Prestamista firma oficial)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>El nombre de la calle para el empaquetad</label>
+        <name>nSBA__Form_601_Execution_Date__c</name>
+    </fields>
+    <fields>
+        <label>Código postal de préstamo empaquetador</label>
+        <name>nSBA__Form_652_Execution_Date__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe para dar Prestamista aviso de 30 días de la intención de rescindir el contrato de franquicia. Este campo se utiliza en SBA única autorización.</help>
+        <label>El código postal de 5 dígitos para el em</label>
+        <name>nSBA__Franchise_Agreement_Termination_Notice__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista ha determinado que todas las marcas solicitante son elegibles para la ayuda financiera de la SBA.</help>
+        <label>Los fondos del préstamo se utilizarán pa</label>
+        <name>nSBA__Franchise_Eligible_For_SBA_Assistance__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca la cantidad de meses sobre Préstamo incumplimiento de pago o aplazamiento, diferir el pago de los derechos de franquicia, regalías, publicidad y otros cargos hasta que el Deudor trae Los pagos del préstamo actual. Este campo se utiliza en</help>
+        <label>Préstamo No habrá remodelar o convertir</label>
+        <name>nSBA__Franchise_Fees_Payment_Deferred_In_Mnths__c</name>
+    </fields>
+    <fields>
+        <help>Lista de todos recipiente (s) que debe ser cubierto por completo seguro marítimo en el importe del valor total asegurable con prestamista designado como acreedor. Este campo se utiliza en SBA única autorización.</help>
+        <label>Presentación del préstamo se corresponde</label>
+        <name>nSBA__Full_Marine_Insurance_Vessel_List__c</name>
+    </fields>
+    <fields>
+        <help>Este valor se calcula tomando el CDC Financiación (precio monto del préstamo)</help>
+        <label>Préstamo no será financiar cualquier can</label>
+        <name>nSBA__Funding_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <help>CDC porcentaje de tasa de financiación.</help>
+        <label>Préstamo no pagará apagado un préstamo d</label>
+        <name>nSBA__Funding_Fee_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Si la construcción contendrá Alquiler espacio está ocupado por regulaciones de SBA</help>
+        <label>Préstamo no será refinanciar 504 préstam</label>
+        <name>nSBA__If_Building_Has_Rent_Space_SBA_Compliant__c</name>
+    </fields>
+    <fields>
+        <help>Ajuste de la comunidad y préstamo del Programa de Inversión (CAIP) elegibles para ser procesados ​​bajo la autoridad delegada de la entidad crediticia PLP? Responder sólo para préstamos CAIP.</help>
+        <label>Refinanciar préstamo no será Vendedor Ta</label>
+        <name>nSBA__Information_Is_True_And_Correct__c</name>
+    </fields>
+    <fields>
+        <help>número máximo de meses a contar desde la fecha de aprobación de la autorización para realizar el desembolso inicial. Llenar solamente para los préstamos de DFP. Este campo se utiliza en SBA única autorización.</help>
+        <label>Préstamo no capitalizará delincuente WH</label>
+        <name>nSBA__Initial_Disbursement_No_Later_Than__c</name>
+    </fields>
+    <fields>
+        <help>número máximo de meses a contar desde la fecha de aprobación de la autorización para realizar el desembolso inicial. Llenar solamente para los préstamos de DFP. Este campo se utiliza en SBA única autorización.</help>
+        <label></label>
+        <name>nSBA__Initial_Disbursement_No_Later_Then__c</name>
+    </fields>
+    <fields>
+        <help>Indica si esta solicitud de préstamo requiere una inyección de fondos</help>
+        <label>Préstamo refinanciará Vendedor Take Back</label>
+        <name>nSBA__Injection_Indication__c</name>
+    </fields>
+    <fields>
+        <help>Enumerar todos los Requisitos de seguro Opciones de apertura aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>ID de ubicación proporcionada por la SBA</label>
+        <name>nSBA__Insurance_Requirements_Open_Options__c</name>
+    </fields>
+    <fields>
+        <help>Los activos intangibles Por encima de 500.000 y el prestatario y el vendedor que contribuyen 25 por ciento</help>
+        <label>Mayoría de los ingresos proceden de los</label>
+        <name>nSBA__Intangible_Assets_Above_500000_And_Other__c</name>
+    </fields>
+    <fields>
+        <label>Identifica la madurez tiempo comienza de</label>
+        <name>nSBA__Intangible_Assets_Not_Above_500000__c</name>
+    </fields>
+    <fields>
+        <help>Sostiene el número de unidades entre dos pagos de interés solamente. Este campo se utiliza en SBA única autorización.</help>
+        <label>Mississippi Aves Porcentaje</label>
+        <name>nSBA__Interest_Only_Months_Frequency__c</name>
+    </fields>
+    <fields>
+        <help>Sostiene el número de unidades cuando se inicia interés solamente parte del pago del préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>El pago mensual por temporada</label>
+        <name>nSBA__Interest_Only_Payment_Starts_Frequency__c</name>
+    </fields>
+    <fields>
+        <label>Ni EPC OC son la confianza SBA O Req Met</label>
+        <name>nSBA__Interest_Only_Payment_Starts_Months__c</name>
+    </fields>
+    <fields>
+        <help>Mantiene las unidades relacionadas con el número de unidades cuando se inicia interés solamente parte del pago del préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Ni EPC o requisitos son la confianza OC</label>
+        <name>nSBA__Interest_Only_Payment_Starts_Unit__c</name>
+        <picklistValues>
+            <masterLabel>calendar quarter</masterLabel>
+            <translation>trimestre natural</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>month(s)</masterLabel>
+            <translation>meses)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quarter</masterLabel>
+            <translation>trimestre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Unidad de interés Sólo pago correspondiente al número de unidades entre dos pagos de interés solamente. Este campo se utiliza en SBA única autorización.</help>
+        <label>Utilice este campo si desea aplicar las</label>
+        <name>nSBA__Interest_Only_Payment_Unit__c</name>
+        <picklistValues>
+            <masterLabel>every calendar quarter</masterLabel>
+            <translation>cada trimestre calendario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>every quarter</masterLabel>
+            <translation>cada cuarto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>every year</masterLabel>
+            <translation>todos los años</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>month(s)</masterLabel>
+            <translation>meses)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Día del mes en que el pago de intereses de préstamos se deben. Seleccionar ______ días calendario para rellenarlo después de la generación de Autorización de Préstamo Proyecto. Este campo se utiliza en SBA única autorización.</help>
+        <label>Utilice este campo si desea aplicar las</label>
+        <name>nSBA__Interest_Payments_Due_Day_Of_Month__c</name>
+        <picklistValues>
+            <masterLabel>______ calendar day</masterLabel>
+            <translation>______ dia del calendario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>first calendar day</masterLabel>
+            <translation>primer día natural</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>same day as the date of initial disbursement on this Note</masterLabel>
+            <translation>mismo día de la fecha del desembolso inicial en esta Nota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>same day as the date of this Note</masterLabel>
+            <translation>mismo día de la fecha de esta Nota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>second calendar day</masterLabel>
+            <translation>segundo día del calendario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>third calendar day</masterLabel>
+            <translation>tercer día calendario</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Utilice este campo para describir cualquier información adicional relacionada con las tasas de interés que desea ofrecer, por ejemplo, sólo o saltar los períodos de interés.</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Interest_Rate_Additional_Details__c</name>
+    </fields>
+    <fields>
+        <help>Colateral Comercio Internacional de Estados Unidos se encuentra en sus territorios y posesiones</help>
+        <label>Sin GS13 Empleado del gobierno 10% Propi</label>
+        <name>nSBA__Intl_Trade_Collateral_Located_In_US__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista comerciales internacionales se colateral según la ordenanza de la SBA</help>
+        <label>Sin desplazar la pérdida potencial de la</label>
+        <name>nSBA__Intl_Trade_Lender_Will_Take_Collateral__c</name>
+    </fields>
+    <fields>
+        <help>Comercio Internacional No hay restricciones con cualquier país solicitante hace negocios con</help>
+        <label>No directores se encuentren inculpadas</label>
+        <name>nSBA__Intl_Trade_No_Restricts_With_Any_Country__c</name>
+    </fields>
+    <fields>
+        <help>Cualquiera de Comercio Internacional de Pequeñas Empresas condiciones de ampliar o confrontar aumento de la competencia</help>
+        <label>No hay espacio ganancias adquirir en Pre</label>
+        <name>nSBA__Intl_Trade_Small_Bus_Expand_Or_Compete__c</name>
+    </fields>
+    <fields>
+        <help>Uso Internacional del Comercio de los Recursos elegible</help>
+        <label>Sin SBA Empleado 10% Indicador propietar</label>
+        <name>nSBA__Intl_Trade_Use_Of_Proceeds_Eligible__c</name>
+    </fields>
+    <fields>
+        <help>La deuda es un préstamo garantizado por la SBA existente que es la misma institución de la deuda que se ha vendido en el mercado secundario y el inversor no está dispuesto a aceptar los términos modificados.</help>
+        <label>Comisión de servicios en curso</label>
+        <name>nSBA__Investor_Dont_Agree_With_New_Terms__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si el Prestador y SBA pueden tener acceso a los libros y registros relacionados con la facturación, cobros y cuentas por cobrar del prestatario del franquiciador. Este campo se utiliza en SBA única autorización.</help>
+        <label>En virtud de acuerdos múltiples</label>
+        <name>nSBA__Is_Access_To_Franchisors_Books_Provided__c</name>
+    </fields>
+    <fields>
+        <help>Adquisición de terrenos o edificios construidos o renovación del edificio existente</help>
+        <label>Cantidad original</label>
+        <name>nSBA__Is_Acq_Land_Or_Exist_Build_Or_Renovation__c</name>
+    </fields>
+    <fields>
+        <label>Adquirir otra Financiación empresarial</label>
+        <name>nSBA__Is_Agent_Independent_Loan_Packager__c</name>
+    </fields>
+    <fields>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_Agent_Involved__c</name>
+    </fields>
+    <fields>
+        <help>Es cualquiera de los ingresos brutos derivados de los juegos de azar</help>
+        <label>Otro Financiamiento de construcción</label>
+        <name>nSBA__Is_Any_Of_Gross_Revenue_From_Gambling__c</name>
+    </fields>
+    <fields>
+        <help>Es elegible solicitante cualificado empleado de confianza ESOP Préstamo</help>
+        <label>Otros muebles de Financiación y Accesori</label>
+        <name>nSBA__Is_App_Qualified_Emp_Trust_ESOP_Eligible__c</name>
+    </fields>
+    <fields>
+        <help>Se solicitante cualificado empleado de confianza ESOP Y préstamo ayudará Crecimiento financiero</help>
+        <label>Otro Financiación mejoras a propiedades</label>
+        <name>nSBA__Is_App_Qualified_Emp_Trust_ESOP_Fin_Grow__c</name>
+    </fields>
+    <fields>
+        <help>Es solicitante cualificado empleado de confianza ESOP y cumple los requisitos y condiciones</help>
+        <label>Otras máquinas y equipos Financiación</label>
+        <name>nSBA__Is_App_Qualified_Emp_Trust_ESOP_Meet_Req__c</name>
+    </fields>
+    <fields>
+        <help>Es solicitante cualificado empleado de confianza ESOP</help>
+        <label>Otro Financiación para otro tipo de ingr</label>
+        <name>nSBA__Is_App_Qualified_Emp_Trust_ESOP__c</name>
+    </fields>
+    <fields>
+        <help>Es solicitante de negocios Tipo SBA Problemática</help>
+        <label>Otro Financiación para Otros2 Las gananc</label>
+        <name>nSBA__Is_Applicant_Bus_Type_SBA_Problematic__c</name>
+    </fields>
+    <fields>
+        <help>Es propiedad de negocios solicitante o controlada por las tribu de nativos americanos</help>
+        <label>Otras cuentas de pago Financiación pagar</label>
+        <name>nSBA__Is_Applicant_Business_Owned_By__c</name>
+    </fields>
+    <fields>
+        <help>Solicitante está conectado con los grupos religiosos</help>
+        <label>Otras notas de pago Financiación pagar</label>
+        <name>nSBA__Is_Applicant_Connected_With_Religious_Gr__c</name>
+    </fields>
+    <fields>
+        <help>El solicitante es elegible para el reembolso de la tasa de garantía Bajo CAIP</help>
+        <label>Otro pago Financiación Off SBA</label>
+        <name>nSBA__Is_Applicant_Eligible_CAIP_Reimbursement__c</name>
+    </fields>
+    <fields>
+        <label>Otro de compra de financiación de invent</label>
+        <name>nSBA__Is_Applicant_Government_Owned_Entity__c</name>
+    </fields>
+    <fields>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_Applicant_Prive_Club_Or_Business__c</name>
+    </fields>
+    <fields>
+        <help>Es Puntuación solicitantes de crédito aceptable para el procesamiento a pequeña Préstamo</help>
+        <label>Otro financiación de compra de tierras</label>
+        <name>nSBA__Is_Applicants_Credit_Score_Acceptable__c</name>
+    </fields>
+    <fields>
+        <label>Otros Tarifa Financiación garantía de la</label>
+        <name>nSBA__Is_Broker_Employed_By_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>Es de aspecto del asunto de una Prurient naturaleza sexual</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_Business_Aspect_Of_Prurient_Sexual_Na__c</name>
+    </fields>
+    <fields>
+        <help>Se Solicitante de negocios se dedican principalmente a La subdivisión de bienes inmuebles</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_Business_Primary_Engagement_Subdivide__c</name>
+    </fields>
+    <fields>
+        <help>Préstamo está garantizado</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_Collateralized__c</name>
+    </fields>
+    <fields>
+        <help>Indica si la primera tasa de división aplicada porcentaje es igual al porcentaje garantizado SBA. Este campo se utiliza en SBA única autorización.</help>
+        <label>Si no hay otras fuentes de financiación</label>
+        <name>nSBA__Is_Complex_Applied_Percent_SBA_Guar_1__c</name>
+    </fields>
+    <fields>
+        <help>Indica si la segunda tasa de división aplica porcentaje es igual al porcentaje SBA garantizada. Este campo se utiliza en SBA única autorización.</help>
+        <label>Si no hay otras fuentes de financiación</label>
+        <name>nSBA__Is_Complex_Applied_Percent_SBA_Guar_2__c</name>
+    </fields>
+    <fields>
+        <help>Indica si las tasas atadas al préstamo están utilizando estructura de tasas de complejo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Si hay Otros fondos (donación o regalo),</label>
+        <name>nSBA__Is_Complex_Rate_Structure__c</name>
+    </fields>
+    <fields>
+        <label>Si hay Otros fondos (donación o regalo),</label>
+        <name>nSBA__Is_Construction_Total_Over_10000__c</name>
+    </fields>
+    <fields>
+        <label>Otros fondos línea de crédito de</label>
+        <name>nSBA__Is_EPC_Type_Of_Business_Eligible__c</name>
+    </fields>
+    <fields>
+        <help>Es este un préstamo de SBA elegible?</help>
+        <label>Otros fondos Línea de la cantidad de cré</label>
+        <name>nSBA__Is_Eligible_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <label>Si hay Otros fondos (línea de crédito),</label>
+        <name>nSBA__Is_Financial_Statements_Charged__c</name>
+    </fields>
+    <fields>
+        <label>En otro término Financiación Años</label>
+        <name>nSBA__Is_Flood_Insurance_Required__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si al Préstamo incumplimiento de pago o aplazamiento, a diferir el pago de los derechos de franquicia, regalías, publicidad y otros cargos hasta que el Deudor trae Los pagos del préstamo actual. Este campo se utiliza en SBA única autorizaci</help>
+        <label>Si no hay otras fuentes de financiación</label>
+        <name>nSBA__Is_Franchise_Fees_Payment_Deferred__c</name>
+    </fields>
+    <fields>
+        <help>Es 100 por ciento de propiedad con propietarios restante o es la compra del 100 por ciento del negocio</help>
+        <label>Otro tipo de agente Compensada la descri</label>
+        <name>nSBA__Is_Full_Ownership_With_Remain_Own_Or_Pur__c</name>
+    </fields>
+    <fields>
+        <help>El ingreso procedente de juegos de azar menor que el tres de los ingresos brutos anuales</help>
+        <label>Monto del préstamo que Paridad de catego</label>
+        <name>nSBA__Is_Gambling_Revenue_Less_Than_One_Third__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de Paridad de categoría prestamis</label>
+        <name>nSBA__Is_Government_Guaranteed_Loan_Defaulted__c</name>
+    </fields>
+    <fields>
+        <label>Notas de pago Pagar De otro prestamista</label>
+        <name>nSBA__Is_Government_Guaranteed_Loan_Delinquent__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista ha determinado que las marcas que cumplen con la definición de una franquicia de la FTC están listados en el Directorio de Franquicias de la SBA.</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_Included_On_SBA_Franchise_Directory__c</name>
+    </fields>
+    <fields>
+        <help>Es de arrendamiento entre EPC y OC por escrito con plazo Matching</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_Lease_In_Writing_With_Matching_Terms__c</name>
+    </fields>
+    <fields>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_Lender_Compensated_By_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>Se Prestamista Completado Hoja de Elegibilidad religiosa</help>
+        <label>Sus frutos SBA - SID</label>
+        <name>nSBA__Is_Lender_Completed_Religious_Eligibilit__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si se requiere seguro de responsabilidad civil en una cantidad y con una compañía de seguros satisfactoria al Prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Calendario de Pagos de frecuencia</label>
+        <name>nSBA__Is_Liability_Insurance_Required__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si se requiere Dram Shop / Anfitrión licor seguro de responsabilidad civil en una cantidad y con una compañía de seguros satisfactoria al prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Unidad Calendario de Pagos</label>
+        <name>nSBA__Is_Liquor_Liability_Insurance_Required__c</name>
+    </fields>
+    <fields>
+        <label>Inicia el pago de frecuencia</label>
+        <name>nSBA__Is_Loan_Packaging_Service_Charged__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si el Prestador requiere Prestatario y de funcionamiento de la empresa para certificar que no lo harán, sin previo consentimiento por escrito de adquirir Prestamista por compra o por arrendamiento, las ubicaciones adicionales. Este campo se</help>
+        <label>Mantiene el número de unidades para cuan</label>
+        <name>nSBA__Is_Location_Limitation_Required__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si se requiere seguro de mala praxis con una compañía de seguros y en una cantidad satisfactoria al prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Mantiene las unidades relacionadas con e</label>
+        <name>nSBA__Is_Malpractice_Insurance_Required__c</name>
+    </fields>
+    <fields>
+        <label>Día del mes en que los pagos de préstamo</label>
+        <name>nSBA__Is_Mortgage_Servicing_Company__c</name>
+    </fields>
+    <fields>
+        <help>Es el servicio de préstamos hipotecarios y se venden dentro de 14 días</help>
+        <label>Personal Property Insurance Hazard</label>
+        <name>nSBA__Is_Mortgage_Servicing_Loans_Sold_14_Days__c</name>
+    </fields>
+    <fields>
+        <help>Es solicitante Motel RV Park Marina</help>
+        <label>Antes de Préstamos SBA</label>
+        <name>nSBA__Is_Motel_RV_Park_Campground_Marina__c</name>
+    </fields>
+    <fields>
+        <label>Método de procesamiento</label>
+        <name>nSBA__Is_OC_Eligible_Small_Business__c</name>
+    </fields>
+    <fields>
+        <label>Producto Seguro de Responsabilidad Oblig</label>
+        <name>nSBA__Is_OC_Guarantor_Or_Co_Borrower__c</name>
+    </fields>
+    <fields>
+        <help>Sólo es razón para limitar Número de la Afiliación Capacidad</help>
+        <label>Compruebe si se requiere seguro de respo</label>
+        <name>nSBA__Is_Only_Reason_To_Limit_Num_Of_Members__c</name>
+    </fields>
+    <fields>
+        <label>Introduzca cuántas años después del térm</label>
+        <name>nSBA__Is_Other_Service_Charged_To_Applicant__c</name>
+    </fields>
+    <fields>
+        <label>Comprar terreno con mejoras</label>
+        <name>nSBA__Is_Other_Type_Of_Agent_Compensated__c</name>
+    </fields>
+    <fields>
+        <help>negocio principal es propiedad de las personas que tienen la condición de residente permanente legal (LPR), cuyo estado el prestamista ha verificado con el USCIS a través de la SBA.</help>
+        <label>Uso de los Fondos - comprar terreno con</label>
+        <name>nSBA__Is_Owned_By_Lawful_Permanent_Residents__c</name>
+    </fields>
+    <fields>
+        <help>negocio principal es propiedad de individuos que son ciudadanos de Estados Unidos.</help>
+        <label>Uso de los Fondos - compra de tierras si</label>
+        <name>nSBA__Is_Owned_By_US_Citizens__c</name>
+    </fields>
+    <fields>
+        <help>Es la tienda de empeño Con mayor parte de los ingresos por ventas</help>
+        <label>Compruebe si acuerdo de compra-venta deb</label>
+        <name>nSBA__Is_Pawn_Shop_Majority_Income_Sales__c</name>
+    </fields>
+    <fields>
+        <label>Compruebe si se requiere la cobertura de</label>
+        <name>nSBA__Is_Pawn_Shop__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si antes del cierre, prestamista debe obtener el acuerdo de compra-venta del Prestatario y de la compañía de funcionamiento. Este campo se utiliza en SBA única autorización.</help>
+        <label>Inmobiliaria de peligro se requiere segu</label>
+        <name>nSBA__Is_Purchase_Sale_Agreement_Required__c</name>
+    </fields>
+    <fields>
+        <help>Si refinanciar un préstamo de construcción La construcción no es préstamo con el mismo prestamista</help>
+        <label>Honorarios de referencia de pago</label>
+        <name>nSBA__Is_Refi_Construct_Loan_With_Diff_Lender__c</name>
+    </fields>
+    <fields>
+        <label>Refinanciamiento proporcionar un benefic</label>
+        <name>nSBA__Is_Revenues_Derived_From_Gambling__c</name>
+    </fields>
+    <fields>
+        <help>Por favor seleccione este campo si se requiere SBA Formulario 148L (Limited Garantía) para este préstamo Este campo se utiliza en SBA única autorización.</help>
+        <label>Comprobar si alguno de uso de los fondos</label>
+        <name>nSBA__Is_SBA_Form_148L_Required__c</name>
+    </fields>
+    <fields>
+        <help>Por favor seleccione este campo si se requiere el formulario de SBA 148 (Garantía) para este préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Refinanciamiento proporcionar un benefic</label>
+        <name>nSBA__Is_SBA_Form_148_Required__c</name>
+    </fields>
+    <fields>
+        <help>Por favor seleccione este campo si se requiere el formulario de SBA 601 (Acuerdo de Cumplimiento) para este préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Is_SBA_Form_601_Required__c</name>
+    </fields>
+    <fields>
+        <help>Se ha cumplido con el estándar de tamaño teniendo en cuenta todas las preocupaciones de afiliación?</help>
+        <label>Propiedad rentable ocupado por regulacio</label>
+        <name>nSBA__Is_SBA_Size_Standard_Met__c</name>
+    </fields>
+    <fields>
+        <help>Procedimiento SOP es seguida para determinar la elegibilidad del solicitante</help>
+        <label>Identifica cómo los pagos afectan amorti</label>
+        <name>nSBA__Is_SOP_Procedure_Followed__c</name>
+    </fields>
+    <fields>
+        <help>número previsto de empleados cuyos puestos de trabajo se crearán dentro de dos años desde la fecha del préstamo.</help>
+        <label>Puede ser utilizado para insertar los pl</label>
+        <name>nSBA__Jobs_Created__c</name>
+    </fields>
+    <fields>
+        <help>número previsto de empleados cuyos puestos de trabajo se perderán si este préstamo no se hace.</help>
+        <label>plazos de amortización completos que inc</label>
+        <name>nSBA__Jobs_Retained__c</name>
+    </fields>
+    <fields>
+        <help>Número de días después de los cuales los últimos honorarios se pagan al prestatario. Este campo se utiliza en SBA única autorización.</help>
+        <label>Indica si esta solicitud de préstamo se</label>
+        <name>nSBA__Late_Fees_Charged_After_Days__c</name>
+    </fields>
+    <fields>
+        <help>Porcentaje máximo de la parte no pagada del pago regular de ese prestamista puede cobrar honorarios prestatario como finales. Este campo se utiliza en SBA única autorización.</help>
+        <label>Institución misma refinanciación de la d</label>
+        <name>nSBA__Late_Fees_Charged_After_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si usted está tratando de mantener el Prestatario en la ubicación actual, independientemente de dónde se encuentra la garantía. Este campo se utiliza en SBA única autorización.</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lease_Cur_Loc_Regardless_Of_Collateral__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si alquiler actual (s) en todos los locales comerciales donde se encuentra la garantía con opciones plazo, incluyendo, son al menos tan largo como el término del préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Prestamista ha presentado el 912 requeri</label>
+        <name>nSBA__Lease_General_Rule_Applied__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si usted quiere proteger a devengar después del término del préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lease_Protecting_Leasehold_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>El negocio es al menos 51 por ciento propiedad de los extranjeros con un estado de extranjero aparte de LPR, que prestamista ha verificado con el USCIS o SBA;</help>
+        <label>Oficina de Distrito de la SBA área de de</label>
+        <name>nSBA__Legal_Aliens_Not_LPR_Own_51_Percent__c</name>
+    </fields>
+    <fields>
+        <label>Archivado SBA Office que el préstamo ser</label>
+        <name>nSBA__Lendable_Region__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista para dar la misma oportunidad de subsanar cualquier defecto en el marco del acuerdo de franquicia o arrendamiento que se da al franquiciado en las mismas acuerdos. Este campo se utiliza en SBA única autorización.</help>
+        <label>aplicaciones</label>
+        <name>nSBA__Lender_And_Franchisee_Same_Opp_In_Dflt__c</name>
+    </fields>
+    <fields>
+        <help>Marque sólo si el Prestador cuenta con la aprobación para permitir que un contrato de arrendamiento de menos de la duración del préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Approval_To_Lease_Less_Than_Term__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista no ha aceptado fondos de fuentes que restringe préstamos a pequeñas empresas</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Can_Lend_To_Small_Businesses__c</name>
+    </fields>
+    <fields>
+        <help>comentarios prestamista que van a presentarse a la SBA sobre E-Tran.</help>
+        <label>Número del préstamo de la SBA</label>
+        <name>nSBA__Lender_Comments__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista no requiere que Solicitante para invertir en prestamista</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Doesnt_Require_Invest_From_App__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista no tiene ningún conflicto de intereses con Solicitante</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Has_No_Conflict_of_Int_With_Appl__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista no tiene interés financiero Con Solicitante</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Has_No_Financial_Int_With_App__c</name>
+    </fields>
+    <fields>
+        <help>Hecho prestamista préstamo personal para inyección de capital</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Made_Personal_Loan_For_Equity_Inj__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista no está encarcelado en libertad condicional o libertad condicional o criminal convicto</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Not_Incarcerated_Or_Convicted__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista proveedor de servicios de información de contacto - Nombre</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Service_Provider_First_Name__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista Proveedor de Servicios de Información de Contacto - Apellido</help>
+        <label>Utilice este campo si desea anular métod</label>
+        <name>nSBA__Lender_Service_Provider_Last_Name__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista proveedor de servicios de información de contacto - Nombre Inicial</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Service_Provider_Middle_Name__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista Proveedor de Servicios de Información de Contacto - Teléfono Móvil</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Service_Provider_Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista proveedor de servicios de información de contacto - La parte del sufijo del nombre del contacto</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Service_Provider_Name_Suffix__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista Proveedor de Servicios de Información de Contacto - Título</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Lender_Service_Provider_Title__c</name>
+    </fields>
+    <fields>
+        <help>Se usa sólo para los préstamos de la SBA de menos de $ 350k. Tiendas líquido puntuación de crédito recibidas durante el envío de E-Tran.</help>
+        <label>Si el prestamista tiene autoridad direct</label>
+        <name>nSBA__Liquid_Credit_Score__c</name>
+    </fields>
+    <fields>
+        <help>Fecha de aprobación de autorización del préstamo. Dejar en blanco si se desconoce en el momento de la entrada de datos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Loan_Authorization_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label>Estacional CAPLines solicitante califica</label>
+        <name>nSBA__Loan_Authorization_California_Collateral__c</name>
+    </fields>
+    <fields>
+        <help>Agente de crédito que se autorize Autorización de préstamo desde el lado Prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Lista de temporada Pagos Meses Códigos</label>
+        <name>nSBA__Loan_Authorization_Lender_Official__c</name>
+        <relationshipLabel>Aplicaciones (Préstamo autorización oficial Prestamista)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Préstamo no será Pagar financiación por terceros de los actuales 504 Proyecto</help>
+        <label>Utilizados para los pagos de temporada,</label>
+        <name>nSBA__Loan_Not_Repay_Fin_Of_Exist_504_Project__c</name>
+    </fields>
+    <fields>
+        <label>Utilizados para los pagos de temporada,</label>
+        <name>nSBA__Loan_Package_Charged_To_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>Identifica el tipo de institución / persona que organizó y / o es la fuente del paquete de préstamo.</help>
+        <label>Pagos de temporada Meses segunda lista</label>
+        <name>nSBA__Loan_Package_Source__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Prestador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>empaquetador de préstamo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>corredor de préstamos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El Nombre de la ciudad para el empaquetador de Préstamo.</help>
+        <label>Enviar Información adicional Durante ETR</label>
+        <name>nSBA__Loan_Packager_City__c</name>
+    </fields>
+    <fields>
+        <help>Nombre del empaquetador de Préstamo.</help>
+        <label>SID fue aprobado dentro de 90 días</label>
+        <name>nSBA__Loan_Packager_Name__c</name>
+    </fields>
+    <fields>
+        <help>El Código de Estado para el empaquetador de Préstamo.</help>
+        <label>SLA o no PLP y la transcripción Disponié</label>
+        <name>nSBA__Loan_Packager_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation>Alaska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation>CON</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation>LA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation>California</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation>Colorado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation>Connecticut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation>corriente continua</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation>Florida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation>Georgia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation>HOLA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation>Iowa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation>CARNÉ DE IDENTIDAD</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation>Illinois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation>EN</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation>Kansas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation>Kentucky</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation>Massachusetts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation>Maryland</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation>YO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation>Minnesota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation>SRA</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation>MONTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation>CAROLINA DEL NORTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation>DAKOTA DEL NORTE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation>Nebraska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation>Nuevo Méjico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation>Nevada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation>Nueva York</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation>DE ACUERDO</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation>O</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation>Pensilvania</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation>Rhode Island</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation>CAROLINA DEL SUR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation>Tennesse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation>OUT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation>Virginia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation>Vermont</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation>Washington</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation>Wisconsin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation>VIRGINIA OCCIDENTAL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El nombre de la calle para el empaquetador de Préstamo.</help>
+        <label>Memo pequeño préstamo de crédito válida</label>
+        <name>nSBA__Loan_Packager_Street__c</name>
+    </fields>
+    <fields>
+        <help>El código postal de 5 dígitos para el empaquetador de Préstamo</help>
+        <label>Código de Préstamo propósito especial</label>
+        <name>nSBA__Loan_Packager_Zipcode__c</name>
+    </fields>
+    <fields>
+        <help>Los fondos del préstamo se utilizarán para mejorar el espacio ocupado por el solicitante 100 por ciento</help>
+        <label>Programa Estatal de Reducción de Tasas d</label>
+        <name>nSBA__Loan_Proceeds_Improve_Space_Occ_Only_App__c</name>
+    </fields>
+    <fields>
+        <help>Préstamo No habrá remodelar o convertir cualquier espacio de alquiler en la propiedad</help>
+        <label>Requisitos específicos de los seguros es</label>
+        <name>nSBA__Loan_Proceeds_Not_Remodel_Rental_Space__c</name>
+    </fields>
+    <fields>
+        <label>Si hay una financiación subordinada, int</label>
+        <name>nSBA__Loan_Submission_Correspond_With_Packager__c</name>
+    </fields>
+    <fields>
+        <label>Monto financiación subordinada</label>
+        <name>nSBA__Loan_Submission_Correspond_with_Lender__c</name>
+    </fields>
+    <fields>
+        <help>Préstamo no será financiar cualquier cantidad superior a la valoración de una empresa</help>
+        <label>La financiación subordinada De</label>
+        <name>nSBA__Loan_Will_Not_Fin_Excess_Of_Bus_Value__c</name>
+    </fields>
+    <fields>
+        <help>Préstamo no pagará apagado un préstamo de SBA garantizada del vendedor con el mismo prestamista</help>
+        <label>Subordinada Plazo financiación para los</label>
+        <name>nSBA__Loan_Will_Not_Pay_Off_Similar_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Préstamo no será refinanciar 504 préstamo existente a menos que cumpla con los requisitos</help>
+        <label>Para Refi del fondo o mejoras a propieda</label>
+        <name>nSBA__Loan_Will_Not_Refi_Exist_504_Unless_Req__c</name>
+    </fields>
+    <fields>
+        <help>Refinanciar préstamo no será Vendedor Take Back Financiación de menos de 24 meses</help>
+        <label>Para proveer fondos para la carta de cré</label>
+        <name>nSBA__Loan_Will_Not_Refi_Seller_Take_Back_U_24__c</name>
+    </fields>
+    <fields>
+        <label>Adquirir negocio total</label>
+        <name>nSBA__Loan_Will_Not_Refund_Debt_To_An_SBIC__c</name>
+    </fields>
+    <fields>
+        <help>Préstamo será no paga impuestos en mora witholding</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__Loan_Will_Not_Repay_delinquent_WH_Tax__c</name>
+    </fields>
+    <fields>
+        <help>Préstamo refinanciará Vendedor Take Back financiación de más de 24 meses y la deuda es actual</help>
+        <label>Suma Total edificio existente</label>
+        <name>nSBA__Loan_Will_Refi_Seller_Take_Back_G_24_Cur__c</name>
+    </fields>
+    <fields>
+        <help>ID de ubicación proporcionada por la SBA cuando un prestamista puede prestar a más de una ubicación.</help>
+        <label>Monto total pagado a vendedor</label>
+        <name>nSBA__Location_Id__c</name>
+    </fields>
+    <fields>
+        <help>Mayoría de los ingresos proceden de los transitorios que se quedan menos de 30 días</help>
+        <label>Construcción total Construct</label>
+        <name>nSBA__Majority_Revenue_From_Stay_Under_30_Days__c</name>
+    </fields>
+    <fields>
+        <help>Identifica la madurez tiempo comienza desde la fecha de la SBA nota o desde la fecha de desembolso inicial. Este campo se utiliza en SBA única autorización.</help>
+        <label>total Construcción</label>
+        <name>nSBA__Maturity_Starts_From__c</name>
+        <picklistValues>
+            <masterLabel>date of Note</masterLabel>
+            <translation>fecha de la nota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>date of initial disbursement</masterLabel>
+            <translation>fecha del desembolso inicial</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Porcentaje del saldo del capital desembolsado en el primer día de cada trimestre prestatario debe pagar principal e intereses. Se utiliza sólo para la opción de condición de pago Mississippi aves de corral. Este campo se utiliza en SBA única autoriza</help>
+        <label>Muebles total y Accesorios</label>
+        <name>nSBA__Mississippi_Poultry_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Utilizados para los pagos de temporada, mantiene la cantidad de pago en periodo de vencimiento de los pagos. En caso de dos pagos distintos especifica que ocupa el segundo importe del pago. Este campo se utiliza en SBA única autorización.</help>
+        <label>Las mejoras total traspasa</label>
+        <name>nSBA__Monthly_Payment_Seasonal__c</name>
+    </fields>
+    <fields>
+        <help>Ni EPC o requisitos son la confianza OC O SBA se cumplen</help>
+        <label>Maquinaria y equipo total</label>
+        <name>nSBA__Neither_EPC_OC_Are_Trust_Or_SBA_Req_Met__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo si desea aplicar las ganancias netas Reconquista Opción Cláusula basado en la cantidad de prestatarios de ganancias netas. Este campo se utiliza en SBA única autorización.</help>
+        <label>Notas total a pagar no Misma Inst</label>
+        <name>nSBA__Net_Earnings_Recapture_Over_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo si desea aplicar las ganancias netas Reconquista Opción Cláusula basado en el porcentaje de prestatarios de ganancias netas. Este campo se utiliza en SBA única autorización.</help>
+        <label>Notas total a pagar el mismo Inst</label>
+        <name>nSBA__Net_Earnings_Recapture_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Indicador de nuevo la construcción (en miles)</help>
+        <label>OC total de entidad legal</label>
+        <name>nSBA__New_Construction__c</name>
+    </fields>
+    <fields>
+        <label>Nombre total OC</label>
+        <name>nSBA__No_Former_SBA_Employee_Is_Owner_Partner__c</name>
+    </fields>
+    <fields>
+        <label>Nombre total OC</label>
+        <name>nSBA__No_GS13_Government_Employee_10_Pct_Owner__c</name>
+    </fields>
+    <fields>
+        <label>Total otros Texto</label>
+        <name>nSBA__No_Member_of_Congress_10_Percent_Owner__c</name>
+    </fields>
+    <fields>
+        <help>Sin desplazar la pérdida potencial de la SBA Con Refinanciamiento</help>
+        <label>Total otros Texto</label>
+        <name>nSBA__No_Potential_Loss_Shift_To_SBA_With_Refi__c</name>
+    </fields>
+    <fields>
+        <help>Es cualquiera de los directores actualmente sujetos a una acusación penal, la información, la lectura de cargos, u otros medios por los cuales los cargos criminales formales son traídos en cualquier jurisdicción?</help>
+        <label>total otros</label>
+        <name>nSBA__No_Principals_Are_Under_Indictment__c</name>
+    </fields>
+    <fields>
+        <help>No hay ganancias se utilizarán para adquirir Espacio En Prestamistas los inmuebles con compromiso a plazo</help>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__No_Proceeds_Used_To_Acquire_Space_In_Len__c</name>
+    </fields>
+    <fields>
+        <label>Formulario 1920 - Página 2 - Uso de los</label>
+        <name>nSBA__No_SBA_Employee_10_Owner_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>El total de préstamos de la SBA excepcio</label>
+        <name>nSBA__No_SCORE_Member_Or_Employee_10_Pct_Owner__c</name>
+    </fields>
+    <fields>
+        <help>Comisiones de servicios en curso que el prestamista se compromete a pagar la SBA. Este campo se utiliza en SBA única autorización.</help>
+        <label>Pago total del préstamo interino de cons</label>
+        <name>nSBA__Ongoing_Servicing_Fee__c</name>
+    </fields>
+    <fields>
+        <help>Solicitante opera en múltiples acuerdos de franquicia.</help>
+        <label>Préstamo de Pago Provisional total Prest</label>
+        <name>nSBA__Operates_Under_Multiple_Agreements__c</name>
+    </fields>
+    <fields>
+        <help>Este campo refleja la cantidad original tal como se especifica en el préstamo asociado.</help>
+        <label>Notas totales de pago Pagar</label>
+        <name>nSBA__Original_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Adquirir Negocios - Otros financiación (en miles)</help>
+        <label>Pago totales fuera SBA</label>
+        <name>nSBA__Other_Financing_Acquire_Business__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Construcción - Otros financiación (en miles)</help>
+        <label>Total de la compra del negocio</label>
+        <name>nSBA__Other_Financing_Construction__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Muebles y Enseres - otro tipo de financiación (en miles)</help>
+        <label>Total equipo de la compra de muebles</label>
+        <name>nSBA__Other_Financing_Furniture_Fixtures__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Ingresos - Se traspasa Mejoras - Otros financiación (en miles)</help>
+        <label>Sólo totales Mejoras de compra</label>
+        <name>nSBA__Other_Financing_Leasehold_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Maquinaria y Equipo - Otros financiación (en miles)</help>
+        <label>Compra de inventario total</label>
+        <name>nSBA__Other_Financing_Machinery_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Ingresos - Otros - Otros2 financiación (en miles)</help>
+        <label>Sólo total de la compra de tierras</label>
+        <name>nSBA__Other_Financing_Other2__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Ingresos - Otros - Otro Financiamiento (en miles)</help>
+        <label>Compra de suelo totales y mejoras</label>
+        <name>nSBA__Other_Financing_Other__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar las cuentas a pagar - Otros financiación (en miles)</help>
+        <label>Compra de suelo totales</label>
+        <name>nSBA__Other_Financing_Pay_Accounts_Payable__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar Documentos por Pagar - Otros financiación (en miles)</help>
+        <label>Ref total de préstamos de la SBA no es l</label>
+        <name>nSBA__Other_Financing_Pay_Notes_Payable__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pay Off SBA - Otros financiación (en miles)</help>
+        <label>Ref total de préstamos de la SBA mismo I</label>
+        <name>nSBA__Other_Financing_Pay_Off_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Compra Inventario - Otros financiación (en miles)</help>
+        <label>Las renovaciones totales a la construcci</label>
+        <name>nSBA__Other_Financing_Purchase_Inventory__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - compra de tierras - Otros financiación (en miles)</help>
+        <label>Cuota total garantía de la SBA</label>
+        <name>nSBA__Other_Financing_Purchase_Land__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos SBA - Garantía de Tarifa - Otros financiación (en miles)</help>
+        <label>Comercio total o cuentas por pagar</label>
+        <name>nSBA__Other_Financing_SBA_Guaranty_Fee__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Total - Otros financiación (en miles)</help>
+        <label>El uso total de ganancias</label>
+        <name>nSBA__Other_Financing_Total__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Capital de Trabajo - Otros financiación (en miles)</help>
+        <label>Capital circulante total</label>
+        <name>nSBA__Other_Financing_Working_Capital__c</name>
+    </fields>
+    <fields>
+        <help>Si no hay otras fuentes de financiación (préstamo), introduzca el otro importe Financiación aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>Ciudadanos estadounidenses y LPR propiet</label>
+        <name>nSBA__Other_Funding_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Si no hay otras fuentes de financiación (préstamo), introduzca el nombre de la entidad que proporciona otros fondos aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>Para proveer fondos para Short Term Capi</label>
+        <name>nSBA__Other_Funding_From__c</name>
+    </fields>
+    <fields>
+        <help>Si hay Otros fondos (donación o regalo), introduzca la cantidad de otros fondos (donación o regalo). Este campo se utiliza en SBA única autorización.</help>
+        <label>Para financiar otras Inmobiliaria del pr</label>
+        <name>nSBA__Other_Funding_Grant_Gift_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Si hay Otros fondos (donación o regalo), introduzca el nombre de la entidad que proporciona otro tipo de financiación (subvención o donación). Este campo se utiliza en SBA única autorización.</help>
+        <label>Uso de los Recursos de refinanciar prést</label>
+        <name>nSBA__Other_Funding_Grant_Gift_From__c</name>
+    </fields>
+    <fields>
+        <help>Si hay Otros fondos (línea de crédito), introduzca la cantidad de otros fondos (línea de crédito). Este campo se utiliza en SBA única autorización.</help>
+        <label>Uso de los Recursos no se beneficien Sm</label>
+        <name>nSBA__Other_Funding_Line_Of_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Si hay Otros fondos (línea de crédito), introduzca el nombre de la entidad que proporciona otro tipo de financiación (línea de crédito). Este campo se utiliza en SBA única autorización.</help>
+        <label>Trabajadores de Compensación de Seguros</label>
+        <name>nSBA__Other_Funding_Line_Of_Credit_From__c</name>
+    </fields>
+    <fields>
+        <help>Si no hay otras fuentes de financiación (préstamo), introduzca el otro término financiación para los años aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>Capital de Trabajo CAPLines App Qual 7a</label>
+        <name>nSBA__Other_Funding_Term_In_Years__c</name>
+    </fields>
+    <fields>
+        <label>Declaraciones de fin de año presentado d</label>
+        <name>nSBA__Other_Service_Charged_To_Applicant_Desc__c</name>
+    </fields>
+    <fields>
+        <label>El número máximo de días tras año fiscal</label>
+        <name>nSBA__Other_Type_Of_Agent_Compensated_Desc__c</name>
+    </fields>
+    <fields>
+        <help>Monto del préstamo que Paridad de categoría Prestamista proporcionar financiación adicional al Prestatario en o alrededor del mismo tiempo para el mismo o un propósito similar financiado por este préstamo. Este campo se utiliza en SBA única autorizac</help>
+        <label>Año Declaraciones Finales Tipo</label>
+        <name>nSBA__Pari_Passu_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de Paridad de categoría prestamista que proporcionará financiación adicional al Prestatario en o alrededor del mismo tiempo para el mismo o un propósito similar financiado por este préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Aplicaciones en linea</label>
+        <name>nSBA__Pari_Passu_Lender_Name__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar Documentos por Pagar - otro indicador Prestamista (en miles)</help>
+        <label>Dirección</label>
+        <name>nSBA__Pay_Notes_Payable_Other_Lender__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar Documentos por Pagar - Indicador de la deuda misma institución (en miles)</help>
+        <label>Condición de Usuario Autorizado</label>
+        <name>nSBA__Pay_Notes_Payable_SID__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar SBA - otro indicador Prestamista (en miles)</help>
+        <label>Administrador</label>
+        <name>nSBA__Pay_Off_SBA_Loan_Other_Lender__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar SBA - Indicador de la deuda misma institución (en miles)</help>
+        <label>Comprobar los parámetros de emisión: Tel</label>
+        <name>nSBA__Pay_Off_SBA_Loan_SID__c</name>
+    </fields>
+    <fields>
+        <help>Sostiene el número de unidades para cada parte del programa de pagos de préstamos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Contacto para precio Excepción</label>
+        <name>nSBA__Payment_Schedule_Frequency__c</name>
+    </fields>
+    <fields>
+        <help>Mantiene las unidades relacionadas con el número de unidades para cada parte del programa de pagos de préstamos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Usuario autorizado</label>
+        <name>nSBA__Payment_Schedule_Unit__c</name>
+        <picklistValues>
+            <masterLabel>calendar quarter</masterLabel>
+            <translation>trimestre natural</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>month(s)</masterLabel>
+            <translation>meses)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quarter</masterLabel>
+            <translation>trimestre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>year</masterLabel>
+            <translation>año</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Mantiene el número de unidades para cuando se inicia el pago del préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>contacto técnico</label>
+        <name>nSBA__Payment_Starts_Frequency__c</name>
+    </fields>
+    <fields>
+        <help>Mantiene las unidades relacionadas con el número de unidades para cuando se inicia el pago del préstamo. Este campo se utiliza en SBA única autorización.</help>
+        <label>Servicio de Tesorería</label>
+        <name>nSBA__Payment_Starts_Unit__c</name>
+        <picklistValues>
+            <masterLabel>calendar quarter</masterLabel>
+            <translation>trimestre natural</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>month(s)</masterLabel>
+            <translation>meses)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quarter</masterLabel>
+            <translation>trimestre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>year</masterLabel>
+            <translation>año</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Día del mes en que los pagos de préstamos se deben. Este campo se utiliza en SBA única autorización.</help>
+        <label>Estado</label>
+        <name>nSBA__Payments_Due_Day_Of_Month__c</name>
+        <picklistValues>
+            <masterLabel>______ calendar day</masterLabel>
+            <translation>______ dia del calendario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>first calendar day</masterLabel>
+            <translation>primer día natural</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>same day as the date of initial disbursement on this Note</masterLabel>
+            <translation>mismo día de la fecha del desembolso inicial en esta Nota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>same day as the date of this Note</masterLabel>
+            <translation>mismo día de la fecha de esta Nota</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>second calendar day</masterLabel>
+            <translation>segundo día del calendario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>third calendar day</masterLabel>
+            <translation>tercer día calendario</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Compruebe si se requiere cobertura de propiedad personal Seguro contra riesgos en todos los equipos, accesorios o inventario que es garantía para el préstamo, en la cantidad de los costos de reemplazo completo. Este campo se utiliza en SBA única auto</help>
+        <label>Introduzca la descripción del texto alte</label>
+        <name>nSBA__Personal_Property_Hazard_Insurance__c</name>
+    </fields>
+    <fields>
+        <label>Introduzca una descripción de la relació</label>
+        <name>nSBA__Prior_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Método de procesamiento</help>
+        <label>cremallera</label>
+        <name>nSBA__Processing_Method__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si se requiere seguro de responsabilidad del producto en una cantidad y con una compañía de seguros satisfactoria al prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Búsqueda de aplicación externa</label>
+        <name>nSBA__Product_Liability_Insurance_Required__c</name>
+    </fields>
+    <fields>
+        <help>Introduzca cuántas años después del término del préstamo que desea proteger mejoras efectuadas por terceros. Este campo se utiliza en SBA única autorización.</help>
+        <label>Estado de la reservación de los padres</label>
+        <name>nSBA__Protecting_Leasehold_Improvements_Years__c</name>
+    </fields>
+    <fields>
+        <help>Uso de los Fondos - comprar terreno con mejoras Indicador</help>
+        <label>identificación del registro</label>
+        <name>nSBA__Purchase_Land_With_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>Uso de los Fondos - compra de tierras sin indicador de Mejoras</help>
+        <label>Estado general de la solicitud de reserv</label>
+        <name>nSBA__Purchase_Land_Without_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si acuerdo de compra-venta debe incluir un acuerdo de no competencia satisfactoria. Este campo se utiliza en SBA única autorización.</help>
+        <label>ID de transacción</label>
+        <name>nSBA__Purchase_Sale_Agreement_W_Non_Compete__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si se requiere la cobertura de los inmuebles Seguro de Riesgos sólo para negocio inmobiliario. Este campo se utiliza en SBA única autorización.</help>
+        <label>ACH Bloque</label>
+        <name>nSBA__RE_Hazard_Insurance_For_Business_Only__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si se requiere la cobertura de los inmuebles Seguro de Riesgos. Este campo se utiliza en SBA única autorización.</help>
+        <label>filtro de ACH</label>
+        <name>nSBA__Real_Estate_Hazard_Insurance_Required__c</name>
+    </fields>
+    <fields>
+        <label>Servicio cámara de compensación automati</label>
+        <name>nSBA__Referral_Fee_Paid__c</name>
+    </fields>
+    <fields>
+        <label>Formato de intercambio electrónico de da</label>
+        <name>nSBA__Refinance_Of_SBA_Loan_Meets_Requirements__c</name>
+    </fields>
+    <fields>
+        <help>Refinanciamiento proporcionar un beneficio sustancial con el solicitante</help>
+        <label>EDI Tipo de Información</label>
+        <name>nSBA__Refinance_Provide_Substantial_Benefit__c</name>
+    </fields>
+    <fields>
+        <help>Comprobar si alguno de uso de los fondos se han utilizado para refinanciar la deuda de tarjeta de crédito y todas las obligaciones de tarjetas de crédito fueron las compras relacionadas con el negocio. Este campo se utiliza en SBA única autorización.</help>
+        <label>Fecha efectiva</label>
+        <name>nSBA__Refinancing_Credit_Card_Debt__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Renovaciones Indicador de construcción (en miles)</help>
+        <label>Nombre originador</label>
+        <name>nSBA__Renovations_Construction__c</name>
+    </fields>
+    <fields>
+        <help>Propiedad rentable ocupado por regulaciones de SBA</help>
+        <label>Solicitud Fecha de vencimiento</label>
+        <name>nSBA__Rentable_Property_Occupied_By_SBA_Regs__c</name>
+    </fields>
+    <fields>
+        <help>Identifica cómo los pagos afectan amortización. Este campo sólo se utiliza para la presentación de E-Tran con el conjunto de datos ampliada.</help>
+        <label>Seleccione Cuentas aplicables al Bloque</label>
+        <name>nSBA__Repayment_Installment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>Fijo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal Only</masterLabel>
+            <translation>Sólo Principal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Puede ser utilizado para insertar los plazos de amortización adicionales si fuera necesario. Este campo se utiliza en SBA única autorización.</help>
+        <label>Tesoro Servicio de Referencia</label>
+        <name>nSBA__Repayment_Terms_Open_Options__c</name>
+    </fields>
+    <fields>
+        <help>plazos de amortización completos que incluyen (pero no limitados a) Tasa de interés, préstamo de Prepago, Carga tarde, etc. Este campo se utiliza in exprés préstamo sólo Autorización.</help>
+        <label>Tipo de cuenta</label>
+        <name>nSBA__Repayment_Terms__c</name>
+    </fields>
+    <fields>
+        <help>Indica si esta solicitud de préstamo se ha vuelto a presentar para su reconsideración.</help>
+        <label>Firma Descripción alternativo</label>
+        <name>nSBA__Resubmission__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Adquirir Negocios - SBA (en miles)</help>
+        <label>La ciudad de la dirección de correo del</label>
+        <name>nSBA__SBA_Acquire_Business__c</name>
+    </fields>
+    <fields>
+        <help>Prestamista ha presentado el 912 requerido y cualquier documentación adicional requerida a la oficina del distrito o de la rama de la SBA servir al territorio donde se encuentra la empresa solicitante y posteriormente ha recibido por escrito la autor</help>
+        <label>beneficiarios</label>
+        <name>nSBA__SBA_Cleared_Character__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Construcción - SBA (en miles)</help>
+        <label>Si es verdad beneficiario individual se</label>
+        <name>nSBA__SBA_Construction__c</name>
+    </fields>
+    <fields>
+        <label>Especifica el tipo de entidad del benefi</label>
+        <name>nSBA__SBA_Date_Application_Received__c</name>
+    </fields>
+    <fields>
+        <label>Porcentaje de participación</label>
+        <name>nSBA__SBA_District_Disaster_Area_Office__c</name>
+    </fields>
+    <fields>
+        <help>Archivado SBA Office que el préstamo será asignado. Este campo se utiliza en SBA única autorización.</help>
+        <label>Tipo partido</label>
+        <name>nSBA__SBA_Field_Office__c</name>
+        <relationshipLabel>aplicaciones</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Muebles y Enseres - SBA (en miles)</help>
+        <label>El código postal de la dirección de corr</label>
+        <name>nSBA__SBA_Furniture_Fixtures__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Ingresos - Se traspasa Mejoras - SBA (en miles)</help>
+        <label>Una descripción de la relación de benefi</label>
+        <name>nSBA__SBA_Leasehold_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>Número del préstamo de la SBA</help>
+        <label>Especifica el tipo de entidad del benefi</label>
+        <name>nSBA__SBA_Loan_Number__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Maquinaria y Equipo - SBA (en miles)</help>
+        <label>Si es verdad que el beneficiario es el c</label>
+        <name>nSBA__SBA_Machinery_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Otros2 - SBA (en miles)</help>
+        <label>El estado de la dirección de correo del</label>
+        <name>nSBA__SBA_Other2__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Ingresos - Otros - SBA (en miles)</help>
+        <label>El nombre del cónyuge del beneficiario.</label>
+        <name>nSBA__SBA_Other__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar las cuentas a pagar - SBA (en miles)</help>
+        <label>La segunda línea de la dirección de la c</label>
+        <name>nSBA__SBA_Pay_Accounts_Payable__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar Documentos por Pagar - SBA (en miles)</help>
+        <label>La primera línea de la dirección de la c</label>
+        <name>nSBA__SBA_Pay_Notes_Payable__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pay Off SBA - SBA (en miles)</help>
+        <label>Número de identificación de impuestos</label>
+        <name>nSBA__SBA_Pay_Off_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Utilice este campo si desea anular método de procesamiento de SBA por defecto definido para este producto de préstamo. Por ejemplo: se puede utilizar este campo para cambiar el método de procesamiento de PLP a GP.</help>
+        <label>Especifica el tipo de beneficiario.</label>
+        <name>nSBA__SBA_Processing_Method__c</name>
+        <picklistValues>
+            <masterLabel>7a General</masterLabel>
+            <translation>7a general</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7a with EWCP</masterLabel>
+            <translation>7a con EWCP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Builders Line of Credit (CAPLine)</masterLabel>
+            <translation>Constructores Línea de Crédito (Capline)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Lenders Program</masterLabel>
+            <translation>Programa de Prestamistas Certificados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Lenders Program with EWCP</masterLabel>
+            <translation>Programa Certified prestamistas con EWCP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Advantage Initiative</masterLabel>
+            <translation>Iniciativa Advantage Comunidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Advantage International Trade</masterLabel>
+            <translation>Ventaja comunidad de Comercio Internacional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Loan Line of Credit (CAPLine)</masterLabel>
+            <translation>Línea de Préstamos contrato de crédito (Capline)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Export Express</masterLabel>
+            <translation>y Exportaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Trade Loans</masterLabel>
+            <translation>Préstamos Comercio Internacional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Lenders Program</masterLabel>
+            <translation>Programa de Prestamistas Preferidos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Lenders with EWCP</masterLabel>
+            <translation>Los prestamistas preferidos con EWCP</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA Express Program</masterLabel>
+            <translation>Programa de SBA expreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seasonal Line of Credit (CAPLine)</masterLabel>
+            <translation>Estacional Línea de Crédito (Capline)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Asset Base Working Capital Line of Credit (CAPLine)</masterLabel>
+            <translation>Estándar de Activos de trabajo baja la línea de crédito de capital (Capline)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Compra de inventario - SBA (en miles)</help>
+        <label>Seleccione esta casilla de verificación</label>
+        <name>nSBA__SBA_Purchase_Inventory__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - compra de tierras - SBA (en miles)</help>
+        <label>Seleccione si el beneficiario del plan I</label>
+        <name>nSBA__SBA_Purchase_Land__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos SBA - Garantía de Tarifa - SBA (en miles)</help>
+        <label>Este campo se utiliza para proporcionar</label>
+        <name>nSBA__SBA_SBA_Guaranty_Fee__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Total - SBA (en miles)</help>
+        <label>Este campo identifica el código de AFP d</label>
+        <name>nSBA__SBA_Total__c</name>
+    </fields>
+    <fields>
+        <help>Si el prestamista tiene autoridad directa para aprobar la solicitud de préstamo, marcando esta casilla renuncia a esa autoridad. Renunciando a la autoridad directa hace que la aplicación que se enviará al Centro de Procesamiento de Garantía de Présta</help>
+        <label>Código Descripción BSID</label>
+        <name>nSBA__SBA_Underwriting_Required__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Capital de Trabajo - SBA (en miles)</help>
+        <label>pantalla Precio</label>
+        <name>nSBA__SBA_Working_Capital__c</name>
+    </fields>
+    <fields>
+        <help>La deuda es o bien un préstamo interino que se ha hecho para fines distintos de la construcción de bienes raíces y fue aprobado por el prestamista dentro de los 90 días antes de la emisión de un número de préstamo PLP, o la deuda es un préstamo de co</help>
+        <label>Puntos de facturas</label>
+        <name>nSBA__SID_Approved_Within_90_Days__c</name>
+    </fields>
+    <fields>
+        <help>Esta solicitud está siendo procesada por debajo de 7 (a) pequeño préstamo o Standard 7 (a) y el prestamista ha proporcionado una transcripción de la cuenta en los últimos 36 meses o la vida del préstamo.</help>
+        <label>Este campo indica las clases de tipos qu</label>
+        <name>nSBA__SLA_Or_Non_PLP_And_Transcript_Provided__c</name>
+    </fields>
+    <fields>
+        <help>Institución misma refinanciación de la deuda cumple con los requisitos de la SBA</help>
+        <label>Fecha de nacimiento</label>
+        <name>nSBA__Same_Inst_Refinancing_Meets_SBA_Req__c</name>
+    </fields>
+    <fields>
+        <help>Estacional CAPLines solicitante califica bajo 7a Estándar</help>
+        <label>Este campo se utiliza para identificar e</label>
+        <name>nSBA__Seasonal_CAPLines_Applicant_Qualifies_7a__c</name>
+    </fields>
+    <fields>
+        <help>Utilizados para los pagos de temporada, mantiene la lista de meses cuando se vencen los pagos. secuencia contigua de números de 2 dígitos mes (01 = Enero, 02 = Febrero, etc.) en el que se producen los pagos en cada año del préstamo.</help>
+        <label>Renuncia es Perm</label>
+        <name>nSBA__Seasonal_Payments_Months_Codes_List__c</name>
+    </fields>
+    <fields>
+        <help>Utilizados para los pagos de temporada, mantiene el período de excepción cuando no se requieren pagos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Si se rellena, el valor debe ser único e</label>
+        <name>nSBA__Seasonal_Payments_Months_Exclusion_List__c</name>
+    </fields>
+    <fields>
+        <help>Utilizados para los pagos de temporada, mantiene la lista de meses cuando se vencen los pagos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Estructura de precios</label>
+        <name>nSBA__Seasonal_Payments_Months_List__c</name>
+    </fields>
+    <fields>
+        <help>Utilizados para los pagos de temporada, ocupa la segunda lista de meses cuando se vencen los pagos. Este campo se utiliza en SBA única autorización.</help>
+        <label>Precio estándar</label>
+        <name>nSBA__Seasonal_Payments_Months_Second_List__c</name>
+    </fields>
+    <fields>
+        <help>Si se selecciona, la información adicional, que no es necesaria para los préstamos con autoridad delegada, será enviado a la SBA sobre E-Tran.</help>
+        <label>Puntos de facturas</label>
+        <name>nSBA__Send_Additional_Information_Over_Etran__c</name>
+    </fields>
+    <fields>
+        <help>Confirmar si el Memorando de crédito incluye todas las secciones necesarias para la presentación de pequeños préstamos.</help>
+        <label>Este campo se usa para identificar el co</label>
+        <name>nSBA__Small_Loan_Credit_Memo_Valid__c</name>
+    </fields>
+    <fields>
+        <help>Es un código que identifica usos especiales de los fondos del préstamo que tienen requisitos especiales de elegibilidad.</help>
+        <label>Esto se utiliza para almacenar la inform</label>
+        <name>nSBA__Special_Purpose_Loan_Code__c</name>
+        <picklistValues>
+            <masterLabel>CAIP</masterLabel>
+            <translation>Ajuste de Comunidades e Inversión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONS</masterLabel>
+            <translation>Construcción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DELTA</masterLabel>
+            <translation>Defensa de préstamos y asistencia técnica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXPT</masterLabel>
+            <translation>Exportar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITRD</masterLabel>
+            <translation>El comercio internacional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOSP</masterLabel>
+            <translation>Sin propósito especial</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Nombre del Programa de Reducción de Estado Tipo de interés, tales como el Programa Enfocado LIFT pequeña empresa. Este campo se utiliza en SBA única autorización.</help>
+        <label>Categoría</label>
+        <name>nSBA__State_Interest_Rate_Reduction_Program__c</name>
+    </fields>
+    <fields>
+        <help>Enumerar todos los requisitos específicos de los seguros estatales aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>Prestamista NMLS ID</label>
+        <name>nSBA__State_Specific_Insurance_Requirements__c</name>
+    </fields>
+    <fields>
+        <help>Si hay una financiación subordinada, introduzca la cantidad de financiación subordinada aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>Ciudad</label>
+        <name>nSBA__Subordinate_Funding_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Si hay una financiación subordinada, introduzca el nombre de la entidad que proporciona la financiación subordinada aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>Institución</label>
+        <name>nSBA__Subordinate_Funding_From__c</name>
+    </fields>
+    <fields>
+        <help>Si hay una financiación subordinada, introduzca el término en años aquí. Este campo se utiliza en SBA única autorización.</help>
+        <label>ramas</label>
+        <name>nSBA__Subordinate_Funding_Term_In_Years__c</name>
+    </fields>
+    <fields>
+        <help>Para proveer fondos para mejoras a propiedades arrendadas o refinanciar</help>
+        <label>lookupKey</label>
+        <name>nSBA__To_Fund_Or_Refi_Leasehold_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>Para proporcionar fondos para garantizar o Fondo de una carta de crédito</help>
+        <label>Seleccione el estado que emitió la licen</label>
+        <name>nSBA__To_Provide_Funds_For_Letter_Of_Credit__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Adquirir Negocios - Total (en miles)</help>
+        <label>Introduzca el número de licencia Hipotec</label>
+        <name>nSBA__Total_Acquire_Business__c</name>
+    </fields>
+    <fields>
+        <help>Suma Total edificio existente</help>
+        <label>Introduzca el número único sistema de li</label>
+        <name>nSBA__Total_Addition_To_Existing_Building__c</name>
+    </fields>
+    <fields>
+        <help>Monto total pagado a vendedor</help>
+        <label>Calle</label>
+        <name>nSBA__Total_Amount_Paid_To_Seller__c</name>
+    </fields>
+    <fields>
+        <label>Plantilla ID del presupuesto</label>
+        <name>nSBA__Total_Compensation_Charged_To_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>Construcción total Construct</help>
+        <label>Plantilla de presupuesto</label>
+        <name>nSBA__Total_Construct_Building__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Construcción - Total (en miles)</help>
+        <label>Descripción</label>
+        <name>nSBA__Total_Construction__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Muebles y accesorios - Total (en miles)</help>
+        <label>es la plantilla</label>
+        <name>nSBA__Total_Furniture_Fixtures__c</name>
+    </fields>
+    <fields>
+        <help>Las mejoras total traspasa</help>
+        <label>Monto pendiente</label>
+        <name>nSBA__Total_Leasehold_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Maquinaria y Equipo - Total (en miles)</help>
+        <label>Desembolso por ciento</label>
+        <name>nSBA__Total_Machinery_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Notas total a pagar no Misma Inst</help>
+        <label>Otros costos por ciento</label>
+        <name>nSBA__Total_Notes_Payable_Not_Same_Inst__c</name>
+    </fields>
+    <fields>
+        <help>Notas total a pagar el mismo Inst</help>
+        <label>restante ciento</label>
+        <name>nSBA__Total_Notes_Payable_Same_Inst__c</name>
+    </fields>
+    <fields>
+        <help>OC total de entidad legal</help>
+        <label>El desembolso restante</label>
+        <name>nSBA__Total_OC_Legal_Entity__c</name>
+    </fields>
+    <fields>
+        <help>Nombre total OC</help>
+        <label>Monto total del presupuesto</label>
+        <name>nSBA__Total_OC_Name__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Otro Explicación</help>
+        <label>monto presupuestado</label>
+        <name>nSBA__Total_Other2_Text__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Otros2 - Total (en miles)</help>
+        <label>La partida presupuestaria Línea</label>
+        <name>nSBA__Total_Other2__c</name>
+    </fields>
+    <fields>
+        <help>Total otros Texto</help>
+        <label>Total de costos duros</label>
+        <name>nSBA__Total_Other_Text__c</name>
+    </fields>
+    <fields>
+        <help>total otros</help>
+        <label>total restante</label>
+        <name>nSBA__Total_Other__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>nSBA__Total_Outstanding_SBA_Loans__c</name>
+    </fields>
+    <fields>
+        <help>Pago total del préstamo interino de construcción</help>
+        <label>lookupKey</label>
+        <name>nSBA__Total_Pay_Interim_Construction_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Préstamo de Pago Provisional total Prestamistas</help>
+        <label>Orden</label>
+        <name>nSBA__Total_Pay_Lenders_Interim_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pagar Documentos por Pagar - Total (en miles)</help>
+        <label>Desembolso por ciento</label>
+        <name>nSBA__Total_Pay_Notes_Payable__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - Pay Off SBA - Total (en miles)</help>
+        <label>El desembolso por ciento restante</label>
+        <name>nSBA__Total_Pay_Off_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Total de la compra del negocio</help>
+        <label>Porcentaje del presupuesto correspondien</label>
+        <name>nSBA__Total_Purchase_Business__c</name>
+    </fields>
+    <fields>
+        <help>Total equipo de la compra de muebles</help>
+        <label>monto presupuestado</label>
+        <name>nSBA__Total_Purchase_Furniture_Equipment__c</name>
+    </fields>
+    <fields>
+        <help>Sólo totales Mejoras de compra</help>
+        <label>monto solicitado</label>
+        <name>nSBA__Total_Purchase_Improvements_Only__c</name>
+    </fields>
+    <fields>
+        <help>Compra de inventario total</help>
+        <label>La partida presupuestaria Línea</label>
+        <name>nSBA__Total_Purchase_Inventory__c</name>
+    </fields>
+    <fields>
+        <help>Compra de suelo totales y mejoras</help>
+        <label>Financiado por ciento</label>
+        <name>nSBA__Total_Purchase_Land_And_Improvements__c</name>
+    </fields>
+    <fields>
+        <help>Sólo total de la compra de tierras</help>
+        <label>Solicitud de transacción</label>
+        <name>nSBA__Total_Purchase_Land_Only__c</name>
+    </fields>
+    <fields>
+        <help>Formulario 1920 - Página 2 - Uso de los Fondos - compra de tierras - Total (en miles)</help>
+        <label>El desembolso controlado</label>
+        <name>nSBA__Total_Purchase_Land__c</name>
+    </fields>
+    <fields>
+        <help>Ref total de préstamos de la SBA no es la misma Inst</help>
+        <label>Pago parcial positiva</label>
+        <name>nSBA__Total_Ref_SBA_Loan_Not_Same_Inst__c</name>
+    </fields>
+    <fields>
+        <help>Ref total de préstamos de la SBA mismo Inst</help>
+        <label>Tesoro Servicio de Referencia</label>
+        <name>nSBA__Total_Ref_SBA_Loan_Same_Inst__c</name>
+    </fields>
+    <fields>
+        <help>Las renovaciones totales a la construcción</help>
+        <label>CFG_ConfigKeys</label>
+        <name>nSBA__Total_Renovations_To_Building__c</name>
+    </fields>
+    <fields>
+        <help>Cuota total garantía de la SBA</help>
+        <label>CFG_ConfigValue</label>
+        <name>nSBA__Total_SBA_Guaranty_Fee__c</name>
+    </fields>
+    <fields>
+        <help>Comercio total o cuentas por pagar</help>
+        <label>lookupKey</label>
+        <name>nSBA__Total_Trade_or_Accounts_Payable__c</name>
+    </fields>
+    <fields>
+        <help>El uso total de ganancias</help>
+        <label>ValorDelCampo</label>
+        <name>nSBA__Total_Use_of_Proceeds__c</name>
+    </fields>
+    <fields>
+        <help>Capital circulante total</help>
+        <label>Espacios en la clave de deben ser reempl</label>
+        <name>nSBA__Total_Working_Capital__c</name>
+    </fields>
+    <fields>
+        <help>El negocio es al menos el 51 por ciento propiedad de las personas que son ciudadanos de Estados Unidos y / o que tienen condición de residente permanente legal (LPR).</help>
+        <label>Valor</label>
+        <name>nSBA__Us_Citizens_And_LPR_Own_51_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Uso de los Recursos para proveer fondos para Short Term Capital de Trabajo</help>
+        <label>DocMan ID</label>
+        <name>nSBA__Use_Of_Proceeds_Fund_Short_Term_Capital__c</name>
+    </fields>
+    <fields>
+        <help>Uso de los Recursos financiaría prestamistas Otras Inmobiliarias Propiedad</help>
+        <label>DocType ID</label>
+        <name>nSBA__Use_Of_Proceeds_To_Finance_Lenders_Other__c</name>
+    </fields>
+    <fields>
+        <help>Uso de los Recursos utilizados para refinanciar préstamos con el solicitante Associates</help>
+        <label>Sí | No</label>
+        <name>nSBA__Use_Of_Proceeds_To_Refinance_Assoc_Loans__c</name>
+    </fields>
+    <fields>
+        <help>Uso de los Recursos no se beneficien de Pequeñas Empresas</help>
+        <label>El valor del nombre que da nombre al cam</label>
+        <name>nSBA__Use_Of_Proceeds_Will_Not_Benefit_Sm_Bus__c</name>
+    </fields>
+    <fields>
+        <help>Compruebe si se requiere Trabajadores de Compensación de Seguros en una reunión requisitos de la ley estatal cantidad y con una compañía de seguros satisfactoria al prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Las listas de verificación</label>
+        <name>nSBA__Workers_Compensation_Insurance_Required__c</name>
+    </fields>
+    <fields>
+        <help>Capital de Trabajo CAPLines solicitante califica bajo 7a Estándar</help>
+        <label>Este campo opcional contiene el número d</label>
+        <name>nSBA__Working_Capita_CAPLines_App_Qualifies_7a__c</name>
+    </fields>
+    <fields>
+        <help>El número máximo de días tras año fiscal termina dentro del cual el Deudor necesita enviar declaraciones de fin de año a prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Este campo opcional se rellena automátic</label>
+        <name>nSBA__Year_End_Statements_Submitted_Within__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione el tipo de estados de Fin de Año (compilada, revisada o auditada) prestatario tiene que presentar y enviar al prestamista. Este campo se utiliza en SBA única autorización.</help>
+        <label>Este campo obligatorio contiene el ID de</label>
+        <name>nSBA__Year_End_Statements_Type__c</name>
+        <picklistValues>
+            <masterLabel>audited</masterLabel>
+            <translation>auditado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>compiled</masterLabel>
+            <translation>compilado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>reviewed</masterLabel>
+            <translation>revisados</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <label>Aplicaciones en linea</label>
+        <name>Online_Application</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Para solicitudes de SBA</description>
+        <label>Las solicitudes de SBA</label>
+        <name>SBA_Applications</name>
+    </recordTypes>
+</CustomObjectTranslation>

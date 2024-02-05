@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>nSBA__Application__c</name>
+        <relationshipLabel>injections</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Nom du créancier qui fournit la dette en attente. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Nom du créancier</label>
+        <name>nSBA__Creditor_Name__c</name>
+    </fields>
+    <fields>
+        <help>La quantité de l&apos;injection réelle</help>
+        <label>Montant d&apos;injection</label>
+        <name>nSBA__Injection_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Décrire l&apos;utilisation de l&apos;injection sur ce prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Description Injection</label>
+        <name>nSBA__Injection_Description__c</name>
+    </fields>
+    <fields>
+        <help>Texte qui décrit la source de l&apos;injection particulière</help>
+        <label>Injection Autre description</label>
+        <name>nSBA__Injection_Other_Description__c</name>
+    </fields>
+    <fields>
+        <help>Un code qui identifie le type de cette injection. (Par exemple, liquide)</help>
+        <label>Code de type d&apos;injection</label>
+        <name>nSBA__Injection_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Les actifs non monétaires</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Cash-personnelles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Cash-dette</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Cash-cadeau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>veille de la dette</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Utilisez cette option si le paiement de la dette d&apos;attente ne tombe pas dans quatre options de remboursement standard. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Veille de la dette Personnaliser rembour</label>
+        <name>nSBA__Standby_Debt_Customize_Repayment_Option__c</name>
+    </fields>
+    <fields>
+        <help>Taux d&apos;intérêt annuel appliqué à la dette de veille. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Intérêt sur la dette Taux d&apos;attente</label>
+        <name>nSBA__Standby_Debt_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>le montant des paiements mensuels qui se compose du capital et des intérêts sur la dette de veille. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Veille de la dette Montant mensuel de pa</label>
+        <name>nSBA__Standby_Debt_Monthly_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Date d&apos;attente de la dette de paiement commence. Complète si les paiements de la dette en attente sont reportées. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Le paiement de la dette d&apos;attente Date d</label>
+        <name>nSBA__Standby_Debt_Payment_Begin_Date__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si les paiements de la dette en veille sont reportées de sorte que la dette d&apos;attente est considérée comme injection d&apos;actions basée sur SOP actuelle SBA. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Veille Date de paiement de la dette Meet</label>
+        <name>nSBA__Standby_Debt_Payment_Date_Meets_Deadline__c</name>
+    </fields>
+    <fields>
+        <help>Indique qu&apos;aucun paiement du principal ou d&apos;intérêt doit être effectué sur la dette en attente pendant la durée du prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Veille Aucun paiement d&apos;intérêts princip</label>
+        <name>nSBA__Standby_No_Principal_Interest_Payments__c</name>
+    </fields>
+    <fields>
+        <help>Veille Type de remboursement définit les termes de la façon dont l&apos;accord d&apos;attente sera remboursé.</help>
+        <label>Veille Type de remboursement</label>
+        <name>nSBA__Standby_Repayment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Interest rate only</masterLabel>
+            <translation>Taux d&apos;intérêt seulement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly payment and interest rate</masterLabel>
+            <translation>Paiement mensuel et taux d&apos;intérêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly payment, interest rate and begin date</masterLabel>
+            <translation>Paiement mensuel, taux d&apos;intérêt et la date de début</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No payments</masterLabel>
+            <translation>Aucun paiement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Utilisation du produit</label>
+        <name>nSBA__Use_Of_Proceeds__c</name>
+        <relationshipLabel>injections</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

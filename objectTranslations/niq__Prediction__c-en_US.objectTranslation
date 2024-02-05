@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>niq__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>niq__Prediction_Endpoint__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>niq__Short_Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>niq__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

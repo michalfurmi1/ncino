@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ indique si le produit Etat Config est utilisé pour déterminer si un enregistrement est activée (cochée) ou inactive (non cochée). Utilisé en liaison avec un réglage spécifique de caractéristique (par exemple Alliance) est actif. Par défaut e</help>
+        <label>Activer</label>
+        <name>LLC_BI__Activate__c</name>
+    </fields>
+    <fields>
+        <label>Ordre extérieur Etape</label>
+        <name>LLC_BI__External_Stage_Order__c</name>
+    </fields>
+    <fields>
+        <label>Etape externe</label>
+        <name>LLC_BI__External_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Application</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>Clôture en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conditional Approval</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funded</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing/Verification</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Réservations est</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>Est fermé</label>
+        <name>LLC_BI__Is_Closed__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ indique si un Etat Pacte produit lié Config (vérifié). Par défaut est désactivée.</help>
+        <label>Est Pacte</label>
+        <name>LLC_BI__Is_Covenant__c</name>
+    </fields>
+    <fields>
+        <label>Est exclu de l&apos;étape Durée</label>
+        <name>LLC_BI__Is_Excluded_From_Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Est prêt à transmettre</label>
+        <name>LLC_BI__Is_Ready_To_Transmit__c</name>
+    </fields>
+    <fields>
+        <label>Type de produit</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <relationshipLabel>État produit Config</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Étape</label>
+        <name>LLC_BI__Stage__c</name>
+    </fields>
+    <fields>
+        <label>Stade et le statut</label>
+        <name>LLC_BI__Stage_and_Status__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Nom du produit Ligne</label>
+        <name>Product_Line_Name__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

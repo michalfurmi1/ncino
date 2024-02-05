@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>La solicitud de préstamo para el cual no estaba disponible de crédito.</help>
+        <label>Estado de licencia hipoteca</label>
+        <name>nSBA__Associated_Loan_Application__c</name>
+        <relationshipLabel>No Disponible Información de Crédito</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Identifica la razón por la que el crédito estaba disponible.</help>
+        <label>Introduzca el número de licencia Hipotec</label>
+        <name>nSBA__Reason_Code__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Colateral inadecuada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Baja puntuación de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Empezar un negocio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>la insuficiencia de conocimientos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Comentario explicando por qué el crédito no está disponible.</help>
+        <label>NMLS</label>
+        <name>nSBA__Reason_Comment__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Razón comentario debe llenarse si el código de razón es 5</errorMessage>
+        <name>nSBA__Require_Reason_If_Reason_Code_is_Five</name>
+    </validationRules>
+</CustomObjectTranslation>

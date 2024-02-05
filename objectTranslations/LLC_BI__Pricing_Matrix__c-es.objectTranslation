@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Bankruptcy__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Charge_Off__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional número. El usuario rellena manualmente este campo con el extremo superior del rango de puntuación de crédito.</help>
+        <label>La aplicación en línea Activado</label>
+        <name>LLC_BI__Credit_Score_Maximum__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional número. El usuario rellena este campo manualmente con el extremo inferior del rango de puntuación de crédito.</help>
+        <label>Grupo de aplicaciones en línea</label>
+        <name>LLC_BI__Credit_Score_Minimum__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Employee_Discount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Foreclosure__c</name>
+    </fields>
+    <fields>
+        <help>Este campo poblada sistema muestra el porcentaje valor de índice actual.</help>
+        <label>Texto de cabecera de aplicaciones en lín</label>
+        <name>LLC_BI__Index_Value__c</name>
+    </fields>
+    <fields>
+        <help>Este campo poblada sistema muestra el índice de la tasa activa sigue.</help>
+        <label>Texto en línea de aplicaciones Subheader</label>
+        <name>LLC_BI__Index__c</name>
+        <picklistValues>
+            <masterLabel> </masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo poblada sistema muestra el porcentaje que el sistema añade al índice para determinar la tarifa aplicable para la cuenta.</help>
+        <label>Aplicación en línea Topbar Fieldset</label>
+        <name>LLC_BI__Interest_Rate_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional ciento. El usuario rellena este campo manualmente con la salida de tasa de interés para un préstamo con las variables de identificación.</help>
+        <label>Texto en línea de aplicaciones Topbar</label>
+        <name>LLC_BI__Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional moneda. El usuario rellena manualmente este campo con el extremo superior del rango de valores de préstamo.</help>
+        <label>Tipo de aplicación en línea</label>
+        <name>LLC_BI__Loan_Value_Maximum__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional moneda. El usuario rellena este campo manualmente con el extremo inferior del rango de valor del préstamo.</help>
+        <label>Introduzca el nombre del conjunto de cam</label>
+        <name>LLC_BI__Loan_Value_Minimum__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Amount_For_Auto_Approval__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Collateral_Age__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Debt_To_Income__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Loan_To_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Mileage__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Maximum_Total_Credit_Exposure__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Collateral_Age__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Credit_Score_For_Auto_Approval__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Debt_To_Income__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Loan_To_Value__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Minimum_Mileage__c</name>
+    </fields>
+    <fields>
+        <help>Este campo de texto es opcional. El usuario rellena manualmente este campo con el nombre de la línea de productos cuyo precio.</help>
+        <label>Colateral sugerido Habilitado</label>
+        <name>LLC_BI__Product_Line_Name__c</name>
+    </fields>
+    <fields>
+        <help>Este campo de texto es opcional. El usuario rellena manualmente este campo con el nombre del producto cuyo precio.</help>
+        <label>Sus productos de componentes Establecer</label>
+        <name>LLC_BI__Product_Name__c</name>
+    </fields>
+    <fields>
+        <help>Este campo de texto es opcional. El usuario rellena manualmente este campo con el nombre del tipo de producto que se está caro.</help>
+        <label>Código Valor ETRAN</label>
+        <name>LLC_BI__Product_Type_Name__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Property_Type__c</name>
+    </fields>
+    <fields>
+        <help>Este campo poblada sistema muestra el posible porcentaje máximo de la tasa de interés de un préstamo por un período determinado de tiempo.</help>
+        <label>sin garantía del producto</label>
+        <name>LLC_BI__Rate_Ceiling__c</name>
+    </fields>
+    <fields>
+        <help>Este campo poblada sistema muestra el porcentaje mínimo posible de la tasa de interés de un préstamo por un período determinado de tiempo.</help>
+        <label>Introduzca una descripción del producto</label>
+        <name>LLC_BI__Rate_Floor__c</name>
+    </fields>
+    <fields>
+        <help>Este campo de lista es opcional. El usuario rellena manualmente este campo con el nombre de una región. Los valores de lista de selección se muestran aquí deben coincidir con los valores de lista de selección en el campo Región de la cuenta.</help>
+        <label>¿Qué del producto Catálogo de interfaz d</label>
+        <name>LLC_BI__Region__c</name>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US East</masterLabel>
+            <translation>Este</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US North</masterLabel>
+            <translation>norte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US South</masterLabel>
+            <translation>Sur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US West</masterLabel>
+            <translation>Oeste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Repossession__c</name>
+    </fields>
+    <fields>
+        <help>Este campo poblada sistema muestra el tipo de interés aplicado inicialmente para el préstamo.</help>
+        <label>ruta cuerpo</label>
+        <name>LLC_BI__Teaser_Rate__c</name>
+    </fields>
+    <fields>
+        <help>Este campo poblada sistema muestra el número de pagos la tasa de reclamo está en vigor.</help>
+        <label>Ruta del icono Clase</label>
+        <name>LLC_BI__Teaser_Term__c</name>
+    </fields>
+    <fields>
+        <help>Este campo es opcional número. El usuario rellena este campo manualmente con la salida plazo para un préstamo con las variables de identificación.</help>
+        <label>La navegación en rutas</label>
+        <name>LLC_BI__Term_Months__c</name>
+    </fields>
+    <fields>
+        <label>Introduzca el contenido que desea mostra</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

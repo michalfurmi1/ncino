@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Ubicación</label>
+        <name>nSBA__Account__c</name>
+        <relationshipLabel>cuenta deuda</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Monto del préstamo</help>
+        <label>Calle</label>
+        <name>nSBA__Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Plazo del préstamo en meses</help>
+        <label>Solicitud de Préstamo Asociado</label>
+        <name>nSBA__Loan_Term_Months__c</name>
+    </fields>
+    <fields>
+        <help>SBA Fecha de Aprobación</help>
+        <label>No Disponible Información de Crédito</label>
+        <name>nSBA__SBA_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <help>Porcentaje garantía de la SBA</help>
+        <label>Identifica la razón por la que el crédit</label>
+        <name>nSBA__SBA_Guaranty_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>Número del préstamo de la SBA</help>
+        <label>Comentario explicando por qué el crédito</label>
+        <name>nSBA__SBA_Loan_Number__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

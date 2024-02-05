@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Servicio de la deuda anual</label>
+        <name>LLC_BI__Content_Version_Id__c</name>
+    </fields>
+    <fields>
+        <label>Saldo en efectivo Fecha</label>
+        <name>LLC_BI__Document_Store__c</name>
+        <relationshipLabel>Versiones del documento</relationshipLabel>
+    </fields>
+    <fields>
+        <label>DIENTES% Rev</label>
+        <name>LLC_BI__Enlarged_Preview_URL__c</name>
+    </fields>
+    <fields>
+        <label>DIENTES</label>
+        <name>LLC_BI__External_Download_URL__c</name>
+    </fields>
+    <fields>
+        <label>comentarios</label>
+        <name>LLC_BI__External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Comentarios incluidos en el correo elect</label>
+        <name>LLC_BI__External_Preview_URL__c</name>
+    </fields>
+    <fields>
+        <label>Comp. Adj. Fuente</label>
+        <name>LLC_BI__External_Thumbnail_URL__c</name>
+    </fields>
+    <fields>
+        <label>AP actual</label>
+        <name>LLC_BI__File_Extension__c</name>
+    </fields>
+    <fields>
+        <label>Anulación de servicio de la deuda</label>
+        <name>LLC_BI__File_Type__c</name>
+    </fields>
+    <fields>
+        <label>valores predeterminados del sistema para</label>
+        <name>LLC_BI__Offloaded_Date__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de deuda</label>
+        <name>LLC_BI__Offloaded__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de deuda</label>
+        <name>LLC_BI__Placeholder_Id__c</name>
+    </fields>
+    <fields>
+        <label>Depr. Fuente</label>
+        <name>LLC_BI__Preview_URL__c</name>
+    </fields>
+    <fields>
+        <label>Depreciación</label>
+        <name>LLC_BI__Published_Date__c</name>
+    </fields>
+    <fields>
+        <label>Relación de DSC (Agrega OC)</label>
+        <name>LLC_BI__Published__c</name>
+    </fields>
+    <fields>
+        <label>Relación de DSC (OC Pre)</label>
+        <name>LLC_BI__Ready_For_Offload__c</name>
+    </fields>
+    <fields>
+        <label>EPC Fuente</label>
+        <name>LLC_BI__Title__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>NDOC__Preview_Format__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de la deuda anual Personal</label>
+        <name>NDOC__Preview_Url_Count__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ncinoocr__OCR_Corrections__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ncinoocr__OCR_Request_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ncinoocr__OCR_Results__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>ncinoocr__OCR_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verified</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

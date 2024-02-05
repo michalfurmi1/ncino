@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Servicio de informe se</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de entrada en vigor</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>es de espera</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Es Límite Sub</label>
+        <name>LLC_BI__Is_Payment_Stream__c</name>
+    </fields>
+    <fields>
+        <label>Es Servicio de barrido</label>
+        <name>LLC_BI__Is_Rate_Stream__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Secuencia</label>
+        <name>LLC_BI__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>Duración del plazo</label>
+        <name>LLC_BI__Term_Length__c</name>
+    </fields>
+    <fields>
+        <label>Unidad del plazo</label>
+        <name>LLC_BI__Term_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Unit_Months</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Years</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Es la sindicación Agente</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>ACH bloc Type de demande</label>
+        <name>LLC_BI__ACH_Block_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation>Effacer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nouveau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revise</masterLabel>
+            <translation>Réviser</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ACH Bloc</label>
+        <name>LLC_BI__ACH_Block__c</name>
+    </fields>
+    <fields>
+        <label>ACH filtre Type de demande</label>
+        <name>LLC_BI__ACH_Filter_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation>Effacer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nouveau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revise</masterLabel>
+            <translation>Réviser</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>filtre ACH</label>
+        <name>LLC_BI__ACH_Filter__c</name>
+    </fields>
+    <fields>
+        <label>Contact Client pour Rejects</label>
+        <name>LLC_BI__Customer_Contact_for_Rejects__c</name>
+        <relationshipLabel>Service de chambre de compensation automatisée</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Format EDI déclaration</label>
+        <name>LLC_BI__EDI_Reporting_Format__c</name>
+        <picklistValues>
+            <masterLabel>HTML</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDF</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation>Texte</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>EDI type de déclaration</label>
+        <name>LLC_BI__EDI_Reporting_Type__c</name>
+        <picklistValues>
+            <masterLabel>Detail</masterLabel>
+            <translation>Détail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary</masterLabel>
+            <translation>Résumé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>EDI rapports</label>
+        <name>LLC_BI__EDI_Reporting__c</name>
+    </fields>
+    <fields>
+        <label>Date effective</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Originator Société ID</label>
+        <name>LLC_BI__Originator_Company_ID__c</name>
+    </fields>
+    <fields>
+        <label>Nom Originator</label>
+        <name>LLC_BI__Originator_Name__c</name>
+        <relationshipLabel>Automated Clearing House service (Originator Name)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Demande Date d&apos;expiration</label>
+        <name>LLC_BI__Request_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>demande d&apos;expiration</label>
+        <name>LLC_BI__Request_Expiration__c</name>
+        <picklistValues>
+            <masterLabel>No Expiration</masterLabel>
+            <translation>Pas d&apos;expiration</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recurring</masterLabel>
+            <translation>Récurrent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation>Unique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specified Expiration</masterLabel>
+            <translation>expiration spécifiée</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Sélectionnez Comptes applicables au bloc</label>
+        <name>LLC_BI__Select_Applicable_Accounts_to_Block__c</name>
+        <picklistValues>
+            <masterLabel>Populate from Deposit Object</masterLabel>
+            <translation>Peupler de dépôt Objet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation>Tester</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Actif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Annulé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expiré</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>En attente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Service de la trésorerie de référence</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Service de chambre de compensation automatisée</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

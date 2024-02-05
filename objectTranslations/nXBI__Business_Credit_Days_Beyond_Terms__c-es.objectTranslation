@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Solicitud de Fondos verbo</label>
+        <name>nXBI__Business_Credit_Report__c</name>
+        <relationshipLabel>Términos Business Credit días más allá</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Request Timeout Verificación (segundos,</label>
+        <name>nXBI__DBT__c</name>
+    </fields>
+    <fields>
+        <label>Solicitar la verificación de punto final</label>
+        <name>nXBI__Days_Beyond_Terms__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

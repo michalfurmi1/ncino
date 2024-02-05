@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Classification__c</name>
+        <relationshipLabel>pilotes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Propagation modèle de projections</label>
+        <name>LLC_BI__Spread_Projections_Template__c</name>
+        <relationshipLabel>pilotes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Étaler Déclaration Enregistrement Valeur</label>
+        <name>LLC_BI__Spread_Statement_Record_Value__c</name>
+        <relationshipLabel>Chauffeur</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Étaler Record Déclaration</label>
+        <name>LLC_BI__Spread_Statement_Record__c</name>
+        <relationshipLabel>pilotes</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Dollar Amount Change</masterLabel>
+            <translation>Montant en dollars Changement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Change</masterLabel>
+            <translation>Pas de changement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Amount Change</masterLabel>
+            <translation>Montant Variation pour cent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent of Revenue</masterLabel>
+            <translation>Pour cent des recettes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Valeur</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Clasificación</label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label>Clasificación de la Declaración de Regis</label>
+        <name>Competitor_Bank__c</name>
+        <picklistValues>
+            <masterLabel>Bank A</masterLabel>
+            <translation>Un banco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank B</masterLabel>
+            <translation>el banco B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank C</masterLabel>
+            <translation>Banco C</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank D</masterLabel>
+            <translation>El banco D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank E</masterLabel>
+            <translation>Banco E</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Clasificaciones propagación de registro</label>
+        <name>Free_Rent_Date__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>Free_Rent_Period_In_Days__c</name>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Spread Declaración sobre antecedentes</label>
+        <name>LLC_BI__Annualized_Difference__c</name>
+    </fields>
+    <fields>
+        <label>La Declaración sobre antecedentes propag</label>
+        <name>LLC_BI__Average_Collected_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Clasificaciones propagación de registro</label>
+        <name>LLC_BI__Average_Ledger_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Clasificación</label>
+        <name>LLC_BI__Average_Unavailable__c</name>
+    </fields>
+    <fields>
+        <label>Clasificación de la Declaración de propa</label>
+        <name>LLC_BI__Balance_Required_To_Offset_Service__c</name>
+    </fields>
+    <fields>
+        <label>Difundir registro total Clasificaciones</label>
+        <name>LLC_BI__Balance_Required__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>LLC_BI__Competitor_Earnings_Credit_Allowance__c</name>
+    </fields>
+    <fields>
+        <label>Declaración de propagación total Grupo</label>
+        <name>LLC_BI__Competitor_Net_Charge__c</name>
+    </fields>
+    <fields>
+        <label>La Declaración de propagación total Grup</label>
+        <name>LLC_BI__Competitor_Total_Charge__c</name>
+    </fields>
+    <fields>
+        <label>Difundir registro total Clasificaciones</label>
+        <name>LLC_BI__Conversion_Object__c</name>
+    </fields>
+    <fields>
+        <label>Periodo fuera de rango</label>
+        <name>LLC_BI__Difference_Total__c</name>
+    </fields>
+    <fields>
+        <label>Trimestre</label>
+        <name>LLC_BI__Discount_Currency_Total__c</name>
+    </fields>
+    <fields>
+        <label>Declaración sobre antecedentes propagaci</label>
+        <name>LLC_BI__Discount_Percent_Total__c</name>
+    </fields>
+    <fields>
+        <label>Y - Spread desuso Totales declaración de</label>
+        <name>LLC_BI__Earnings_Credit_Allowance_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>LLC_BI__Earnings_Credit_Allowance__c</name>
+    </fields>
+    <fields>
+        <label>Año de campo fuera</label>
+        <name>LLC_BI__Investable_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Año</label>
+        <name>LLC_BI__Is_Converted__c</name>
+    </fields>
+    <fields>
+        <label>Analista</label>
+        <name>LLC_BI__Is_Final__c</name>
+    </fields>
+    <fields>
+        <label>Período de estado propagación</label>
+        <name>LLC_BI__Net_Amount_Due__c</name>
+    </fields>
+    <fields>
+        <label>Colateral Título de la columna</label>
+        <name>LLC_BI__Net_Deficit__c</name>
+    </fields>
+    <fields>
+        <label>externalLookupKey</label>
+        <name>LLC_BI__Net_Investable_Excess_Deficit__c</name>
+    </fields>
+    <fields>
+        <label>Período fiscal TTM Año</label>
+        <name>LLC_BI__Opportunity__c</name>
+        <relationshipLabel>escenarios</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Período TTM provisional inicial</label>
+        <name>LLC_BI__Product_Quantities__c</name>
+    </fields>
+    <fields>
+        <label>Los períodos iniciales Declaración Provi</label>
+        <name>LLC_BI__Reserve_Requirement_Rate_Perc__c</name>
+    </fields>
+    <fields>
+        <label>Es el año fiscal</label>
+        <name>LLC_BI__Reserve_Requirement_Rate__c</name>
+    </fields>
+    <fields>
+        <label>Es el Análisis Global Año</label>
+        <name>LLC_BI__Reserve_Requirement__c</name>
+    </fields>
+    <fields>
+        <label>Esto especifica qué períodos están dispo</label>
+        <name>LLC_BI__Scenario_Url__c</name>
+    </fields>
+    <fields>
+        <label>Mes</label>
+        <name>LLC_BI__Setup_Fee__c</name>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__Show_Competitor_Pricing__c</name>
+    </fields>
+    <fields>
+        <label>El nombre de anulación de la columna. Si</label>
+        <name>LLC_BI__Show_Exception_Pricing__c</name>
+    </fields>
+    <fields>
+        <label>Número de periodos</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Borrador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Inactivo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>clave periodo</label>
+        <name>LLC_BI__Svc_Total__c</name>
+    </fields>
+    <fields>
+        <label>Periodo fuera de rango</label>
+        <name>LLC_BI__Total_Balance_Required_Difference__c</name>
+    </fields>
+    <fields>
+        <label>Proyecto del Período</label>
+        <name>LLC_BI__Total_Balance_Required__c</name>
+    </fields>
+    <fields>
+        <label>Período de estado propagación (Proyecto</label>
+        <name>LLC_BI__Total_Charge_Difference__c</name>
+    </fields>
+    <fields>
+        <label>En seleccionada Global</label>
+        <name>LLC_BI__Total_Competitor_Balance_Required__c</name>
+    </fields>
+    <fields>
+        <label>Seleccionado</label>
+        <name>LLC_BI__Total_Competitor_Difference__c</name>
+    </fields>
+    <fields>
+        <label>Fuente</label>
+        <name>LLC_BI__Total_Discount__c</name>
+    </fields>
+    <fields>
+        <label>Plantilla de proyecciones separadas</label>
+        <name>LLC_BI__Total_Gross_Fee__c</name>
+    </fields>
+    <fields>
+        <label>Períodos Declaración de propagación</label>
+        <name>LLC_BI__Total_Net_Charge_Difference__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Generación del formulario</label>
+        <name>Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label>Resumen proforma</label>
+        <name>Proforma_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label>Resumen proforma</label>
+        <name>Proforma_Summary_List_Button</name>
+    </webLinks>
+</CustomObjectTranslation>

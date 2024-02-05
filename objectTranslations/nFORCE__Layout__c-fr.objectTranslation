@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Indiquer les catégories du groupe peuvent être attribués cette mise en page.</help>
+        <label>Catégorie</label>
+        <name>nFORCE__Category__c</name>
+        <picklistValues>
+            <masterLabel>Customer Dashboard</masterLabel>
+            <translation>Tableau de bord client</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Application</masterLabel>
+            <translation>Candidature en ligne</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Générateur de classe</label>
+        <name>nFORCE__Generator_Class__c</name>
+    </fields>
+    <fields>
+        <help>Entrez une description de la mise en page, en notant des détails supplémentaires (tels que le nombre de colonnes, tuiles [oui / non / lieu / numéro], le progrès, navigation, contenu, en-tête, pied de page, visible / cachée).</help>
+        <label>description de la mise en page</label>
+        <name>nFORCE__Layout_Description__c</name>
+    </fields>
+    <fields>
+        <help>Entrez l&apos;URL de l&apos;image d&apos;aperçu pour la mise en page.</help>
+        <label>Mise en page Prévisualisation de l&apos;image</label>
+        <name>nFORCE__Layout_Preview_Image__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le nom de la page Visualforce (y compris l&apos;espace de noms le cas échéant) qui met en œuvre la mise en page.</help>
+        <label>Visualforce page</label>
+        <name>nFORCE__Visualforce_Page__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

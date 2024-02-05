@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Garantie</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Gabarit de souscription</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Date de fin</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Financial_Consolidation__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Source Importation de données</label>
+        <name>LLC_BI__Import_Data_Source__c</name>
+        <relationshipLabel>Ensemble de prise ferme</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Is_Consolidation__c</name>
+    </fields>
+    <fields>
+        <help>modèles handicapés ne sont pas visibles dans l&apos;application de début de souscription.</help>
+        <label>est désactivé</label>
+        <name>LLC_BI__Is_Disabled__c</name>
+    </fields>
+    <fields>
+        <help>Détermine si oui ou non ce faisceau peut être utilisé comme modèle pour les faisceaux de relations spécifiques.</help>
+        <label>est-modèle</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <help>Le nom de l&apos;API de l&apos;objet ce faisceau est utilisé sur.</help>
+        <label>API Nom de l&apos;objet</label>
+        <name>LLC_BI__Object_API_Name__c</name>
+    </fields>
+    <fields>
+        <help>Relation à laquelle appartient cet ensemble.</help>
+        <label>Relation</label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel>Gabarit de souscription</relationshipLabel>
+    </fields>
+    <fields>
+        <label>échelle sélectionnée</label>
+        <name>LLC_BI__Selected_Scale__c</name>
+        <picklistValues>
+            <masterLabel>$</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>m</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique si les notes sera affiché pour ses déclarations.</help>
+        <label>Voir les notes</label>
+        <name>LLC_BI__Show_Footnotes__c</name>
+    </fields>
+    <fields>
+        <label>Modèle Source</label>
+        <name>LLC_BI__Source_Template__c</name>
+        <relationshipLabel>clonées Bundles</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date de début</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Version__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>--DEPRECATED-- Si ce paquet est nouveau ou un modèle, les dates de début et de fin doivent être en blanc. Si le paquet n&apos;est pas nouveau et non un modèle, les dates de début et de fin doivent être fixés et ne doivent pas réduire la portée de la période des déclarations.</errorMessage>
+        <name>LLC_BI__Date_Range_Must_Be_Valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un modèle ne peut pas être lié à une relation.</errorMessage>
+        <name>LLC_BI__Template_Cannot_Have_Relationship</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>nCRED__ConvertBundleToTemplate</name>
+    </webLinks>
+</CustomObjectTranslation>

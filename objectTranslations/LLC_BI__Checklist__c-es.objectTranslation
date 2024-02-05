@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Arrendamiento</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Listas de comprobación</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el número de días necesarios para completar esta lista de comprobación.</help>
+        <label>Días de duración real</label>
+        <name>LLC_BI__Actual_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional se rellena automáticamente con el valor que se utiliza para listas de control de grupo juntos.</help>
+        <label>El valor de la garantía multiplicada por</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation>Mantenimiento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene el ID del registro sObject a la que pertenece esta lista.</help>
+        <label>Life Insurance Cantidad de beneficio</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene el nombre completo del tipo sObject a la que pertenece esta lista.</help>
+        <label>Estado Life Insurance Company</label>
+        <name>LLC_BI__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el número de días que se espera para completar esta lista de comprobación.</help>
+        <label>Días de duración prevista</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>Marque este campo para indicar esta lista de verificación es una plantilla.</help>
+        <label>Vida número de póliza</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>LLC_BI__Loan_Collateral2__c</name>
+        <relationshipLabel>Listas de comprobación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Listas de comprobación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Paquete de productos</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Listas de comprobación</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene el estado actual de esta lista de verificación.</help>
+        <label>Estado</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <help>Este campo opcional contiene el nombre del desarrollador de la plantilla Lista de verificación sobre la que se basa esta lista.</help>
+        <label>Siguiente revalorización Fecha de vencim</label>
+        <name>LLC_BI__Template__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de tesorería</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel>Listas de comprobación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Marina Nombre / Puerto</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

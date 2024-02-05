@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Indica si una valoración está activa o inactiva.</help>
+        <label>Activo</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Subtipo del tipo de colateral</label>
+        <name>LLC_BI__Collateral_Type_SubType__c</name>
+    </fields>
+    <fields>
+        <label>Colateral</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Valoraciones de colaterales</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Comentarios</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <help>Indica la principal valoración del colateral</help>
+        <label>Principal</label>
+        <name>LLC_BI__Primary__c</name>
+    </fields>
+    <fields>
+        <help>La fuente de valoración del colateral</help>
+        <label>Fuente de valoración</label>
+        <name>LLC_BI__Source__c</name>
+        <picklistValues>
+            <masterLabel>Account Balance / Statement</masterLabel>
+            <translation>Saldo de la cuenta / Declaración</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>Evaluación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Officer</masterLabel>
+            <translation>Oficial de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Statement</masterLabel>
+            <translation>Estado financiero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Agent</masterLabel>
+            <translation>Agente de seguros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Valuation</masterLabel>
+            <translation>internos de valoración</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Report</masterLabel>
+            <translation>Reporte de inventario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice / Bill of Sale</masterLabel>
+            <translation>Factura / factura de venta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Abundance of Caution</masterLabel>
+            <translation>Abundancia de Bienes Raíces de precaución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Evaluation</masterLabel>
+            <translation>Evaluación Inmobiliaria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Restricted Appraisal</masterLabel>
+            <translation>Inmobiliaria restringido similares:</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables Aging</masterLabel>
+            <translation>Antigüedad de créditos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Source</masterLabel>
+            <translation>Fuente de Terceros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valuation Service Vendor</masterLabel>
+            <translation>Proveedor de servicio de valoración</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El tipo de valoración del colateral</help>
+        <label>Tipo de valoración</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Actual Cash Value</masterLabel>
+            <translation>Valor Actual Efectivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Complete Value</masterLabel>
+            <translation>Como Valor completa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Is Value</masterLabel>
+            <translation>Como valor se</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Stabilized Value</masterLabel>
+            <translation>Como valor estabilizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation>Hoja de balance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Book Value</masterLabel>
+            <translation>Valor en libros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Balance</masterLabel>
+            <translation>Saldo en efectivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contents Value</masterLabel>
+            <translation>contenido Valor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Equipment / Transportation</masterLabel>
+            <translation>Valor justo de mercado - Equipos / Transporte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Real Estate</masterLabel>
+            <translation>Valor justo de mercado - Inmobiliaria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Orderly Liquidation Value</masterLabel>
+            <translation>Valor neto de liquidación ordenada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orderly Liquidation Value</masterLabel>
+            <translation>Valor de liquidación ordenada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preliminary Value</masterLabel>
+            <translation>Valor preliminar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Price</masterLabel>
+            <translation>Precio de compra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement Cost Value</masterLabel>
+            <translation>Valor Costo de reemplazo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived Value</masterLabel>
+            <translation>no se cobra el Valor</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>La fecha de valoración del colateral</help>
+        <label>Fecha de valoración</label>
+        <name>LLC_BI__Valuation_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Valuation_Description__c</name>
+    </fields>
+    <fields>
+        <help>Este campo, completado de forma automática por el sistema, se completa automáticamente con las identificaciones de los detalles del vehículo que se han recibido de la integración de las valoraciones del vehículo pertinentes.</help>
+        <label>Detalles de valoración</label>
+        <name>LLC_BI__Valuation_Details__c</name>
+    </fields>
+    <fields>
+        <help>Utilizado para capturar el valor del colateral</help>
+        <label>Valor del colateral</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

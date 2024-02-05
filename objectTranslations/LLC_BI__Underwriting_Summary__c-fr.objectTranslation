@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Expenses_on_children_and_pets__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Expenses_on_clothing_and_personal_care__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_communication__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_education__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_food_and_groceries__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_housing_property__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_insurance__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_leisure_travel_entertainment__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Expenses_on_medical_health_and_fitness__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Expenses_on_transport_and_auto__c</name>
+    </fields>
+    <fields>
+        <help>Entrez les dépenses personnelles supplémentaires de l&apos;emprunteur. Doit être une valeur numérique.</help>
+        <label>Dépenses personnelles supplémentaires</label>
+        <name>LLC_BI__Additional_Personal_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>CoBorrower actuel service de la dette</label>
+        <name>LLC_BI__CoBorrower_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>L&apos;exposition actuelle CoBorrower</label>
+        <name>LLC_BI__CoBorrower_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Engagements CoBorrower actuels non finan</label>
+        <name>LLC_BI__CoBorrower_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>CoBorrower Service de la dette proposée</label>
+        <name>LLC_BI__CoBorrower_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>CoBorrower exposition proposée</label>
+        <name>LLC_BI__CoBorrower_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Total des services de la dette actuelle</label>
+        <name>LLC_BI__Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>L&apos;exposition totale actuelle</label>
+        <name>LLC_BI__Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Total des engagements actuels non financ</label>
+        <name>LLC_BI__Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Garant service de la dette actuelle</label>
+        <name>LLC_BI__Guarantor_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Garant Exposition actuelle</label>
+        <name>LLC_BI__Guarantor_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Garant actuels engagements non financés</label>
+        <name>LLC_BI__Guarantor_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>Garant Service de la dette proposée</label>
+        <name>LLC_BI__Guarantor_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Garant exposition proposée</label>
+        <name>LLC_BI__Guarantor_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le prix du coût de chauffage mensuel moyen. Doit être une valeur numérique.</help>
+        <label>Frais de chauffage</label>
+        <name>LLC_BI__Heating_Expenses__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le montant des frais de subsistance mensuels moyens de l&apos;emprunteur. Doit être une valeur numérique.</help>
+        <label>Frais de subsistance</label>
+        <name>LLC_BI__Living_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Emprunteur service de la dette actuelle</label>
+        <name>LLC_BI__Primary_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Emprunteur Exposition actuelle</label>
+        <name>LLC_BI__Primary_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Emprunteur actuels engagements non finan</label>
+        <name>LLC_BI__Primary_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>Emprunteur Service de la dette proposée</label>
+        <name>LLC_BI__Primary_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Emprunteur exposition proposée</label>
+        <name>LLC_BI__Primary_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Service de la dette totale proposée</label>
+        <name>LLC_BI__Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>L&apos;exposition totale proposée</label>
+        <name>LLC_BI__Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Entité apparentée actuelle service de la</label>
+        <name>LLC_BI__Rel_Entity_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Exposition actuelle entité apparentée</label>
+        <name>LLC_BI__Rel_Entity_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>Engagements liés Entité non financées</label>
+        <name>LLC_BI__Rel_Entity_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>Service de la dette proposée entité asso</label>
+        <name>LLC_BI__Rel_Entity_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>L&apos;exposition proposée entité associée</label>
+        <name>LLC_BI__Rel_Entity_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Other_expenses_and_purchases__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>--DEPRECATED-- La date de début ne peut pas être postérieure à la date de fin.</errorMessage>
+        <name>LLC_BI__start_date_cannot_be_after_end_date</name>
+    </validationRules>
+</CustomObjectTranslation>

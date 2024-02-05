@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>État Produit Config Nous avons réservé</label>
+        <name>LLC_BI__Booked__c</name>
+        <relationshipLabel>Types de produit Nous avons réservé</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Catégorie</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>CESA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate of Deposit</masterLabel>
+            <translation>Certificat de dépôt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checking</masterLabel>
+            <translation>Vérification</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HELOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HSA</masterLabel>
+            <translation>SAH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Money Market</masterLabel>
+            <translation>Marché monétaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Term Loans</masterLabel>
+            <translation>Prêts à terme Autres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings</masterLabel>
+            <translation>Des économies</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured Line of Credit</masterLabel>
+            <translation>Ligne de crédit non garantie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured Term</masterLabel>
+            <translation>terme non sécurisé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle</masterLabel>
+            <translation>Véhicule</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>État Produit Config Fermé</label>
+        <name>LLC_BI__Closed__c</name>
+        <relationshipLabel>Types de produits fermés</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Entrez le nom du champ établi avec tous les champs nécessaires qui apparaissent dans la carte offre pour ce type affaissée de produit.</help>
+        <label>Effondré Carte d&apos;offre Set terrain</label>
+        <name>LLC_BI__Collapsed_Offer_Card_Field_Set__c</name>
+    </fields>
+    <fields>
+        <label>App par défaut</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <help>Choisir la valeur du type de garantie par défaut souhaitée.</help>
+        <label>Type de garantie par défaut</label>
+        <name>LLC_BI__Default_Collateral_Type__c</name>
+    </fields>
+    <fields>
+        <label>État produit Config Exclu</label>
+        <name>LLC_BI__Excluded__c</name>
+        <relationshipLabel>État produit Config Exclu</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Entrez le nom du champ établi avec tous les champs nécessaires qui apparaissent dans la carte offre élargie pour ce type de produit.</help>
+        <label>Carte élargie Offre Set terrain</label>
+        <name>LLC_BI__Expanded_Offer_Card_Field_Set__c</name>
+    </fields>
+    <fields>
+        <label>Méthode d&apos;Intérêts Courus</label>
+        <name>LLC_BI__Interest_Accrual_Method__c</name>
+        <picklistValues>
+            <masterLabel>30_360</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_360</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_365</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_Actual</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>est-ce dépôt</label>
+        <name>LLC_BI__Is_Deposit__c</name>
+    </fields>
+    <fields>
+        <label>est prêt</label>
+        <name>LLC_BI__Is_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le nom d&apos;un ensemble de champs qui correspond à ce type de produit.</help>
+        <label>Renseignements sur le prêt Set terrain</label>
+        <name>LLC_BI__Loan_Information_Field_Set__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Maintenance_App__c</name>
+    </fields>
+    <fields>
+        <help>remplir manuellement ce champ de texte avec le nom d&apos;un jeu de champ qui contient les champs qui doivent figurer sur une offre. Lorsque les conditions du produit sont mis à jour, les champs peuplés permettent l&apos;affichage dynamique des offres.</help>
+        <label>Offre Set terrain</label>
+        <name>LLC_BI__Offer_Fieldset__c</name>
+    </fields>
+    <fields>
+        <help>Le nombre de produits liés au type de produit.</help>
+        <label>Nombre de produits</label>
+        <name>LLC_BI__Product_Count__c</name>
+    </fields>
+    <fields>
+        <label>Gamme de produits</label>
+        <name>LLC_BI__Product_Line__c</name>
+        <relationshipLabel>Types de produits</relationshipLabel>
+    </fields>
+    <fields>
+        <label>État produit réservé Config Count</label>
+        <name>LLC_BI__Product_State_Booked_Config_Count__c</name>
+    </fields>
+    <fields>
+        <label>État Produit fermé Config Nombre</label>
+        <name>LLC_BI__Product_State_Closed_Config_Count__c</name>
+    </fields>
+    <fields>
+        <label>État produit Exclus Config Count</label>
+        <name>LLC_BI__Product_State_Excluded_Config_Count__c</name>
+    </fields>
+    <fields>
+        <label>État Produit Rdy à Transmettre Config Cn</label>
+        <name>LLC_BI__Product_State_Rdy_To_Trans_Confg_Cnt__c</name>
+    </fields>
+    <fields>
+        <label>État produit Config prêt à transmettre</label>
+        <name>LLC_BI__Ready_To_Transmit__c</name>
+        <relationshipLabel>Types de produit prêt à transmettre</relationshipLabel>
+    </fields>
+    <fields>
+        <help>remplir manuellement ce champ de texte avec le nom d&apos;un jeu de champ qui contient les champs qui doivent apparaître dans le recalcul offre composants pour ce type de produit.</help>
+        <label>Offres recalcul Set terrain</label>
+        <name>LLC_BI__Recalculate_Offers_Field_Set__c</name>
+    </fields>
+    <fields>
+        <help>Cliquez sur une image pour commencer le processus associé au type de produit.</help>
+        <label>Image de référence</label>
+        <name>LLC_BI__Reference_Image__c</name>
+    </fields>
+    <fields>
+        <help>Lorsque l&apos;utilisateur sélectionne un type de produit, le système les redirige vers le nom de l&apos;application ou de l&apos;itinéraire entré ici.</help>
+        <label>Démarrer l&apos;application du produit</label>
+        <name>LLC_BI__Start_Production_Application__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;utilisation</label>
+        <name>LLC_BI__Usage_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation>Affaires</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan</masterLabel>
+            <translation>Prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Management</masterLabel>
+            <translation>Gestion de la trésorerie</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>config clé</label>
+        <name>LLC_BI__configKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour activer ce type de produit pour le portail clientèle des applications en ligne.</help>
+        <label>Application en ligne activée</label>
+        <name>nPortal__Online_Application_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>Groupe de demande en ligne</label>
+        <name>nPortal__Online_Application_Group__c</name>
+        <relationshipLabel>Types de produits</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Saisir du texte en-tête à afficher sur la page d&apos;auto-inscription pour ce type de produit.</help>
+        <label>Texte d&apos;application en ligne en-tête</label>
+        <name>nPortal__Online_Application_Header_Text__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le texte à afficher Subheader sous le texte d&apos;en-tête sur la page d&apos;auto-inscription pour ce type de produit.</help>
+        <label>Demande en ligne texte Subheader</label>
+        <name>nPortal__Online_Application_Subheader_Text__c</name>
+    </fields>
+    <fields>
+        <help>Indique si les dépenses mensuelles de l&apos;emprunteur seront affichés sur la route Aperçu financier.</help>
+        <label>Afficher les dépenses mensuelles</label>
+        <name>nRetail__Display_Monthly_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Etran Valeur</label>
+        <name>nSBA__eTran_Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Un maximum de 10 enregistrements de configuration réservé par type de produit est actuellement pris en charge.</errorMessage>
+        <name>LLC_BI__Product_State_Booked_Config_Count</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un maximum de 10 registres de configuration fermée par type de produit est actuellement pris en charge.</errorMessage>
+        <name>LLC_BI__Product_State_Closed_Config_Count</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un maximum de 10 enregistrements de configuration exclus par type de produit est actuellement pris en charge.</errorMessage>
+        <name>LLC_BI__Product_State_Excluded_Config_Count</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un maximum de 10 prêt à transmettre les enregistrements de configuration par type de produit est actuellement pris en charge.</errorMessage>
+        <name>LLC_BI__Product_State_Rdy_To_Trans_Confg_Cnt</name>
+    </validationRules>
+    <webLinks>
+        <label>Mises à jour batch prêts</label>
+        <name>LLC_BI__Batch_Update_Loans</name>
+    </webLinks>
+    <webLinks>
+        <label>Mises à jour batch étape Durée</label>
+        <name>LLC_BI__Batch_Update_Stage_Duration</name>
+    </webLinks>
+</CustomObjectTranslation>

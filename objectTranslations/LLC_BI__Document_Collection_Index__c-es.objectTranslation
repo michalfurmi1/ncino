@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Comisión en favor de Estado</label>
+        <name>LLC_BI__Document_Collection_Reference__c</name>
+        <relationshipLabel>Colección de documentos Índices</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Document_Collection__c</name>
+        <relationshipLabel>Colección de documentos Índices</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo opcional se utiliza para almacenar metadatos adicionales relevantes para el documento relacionado.</help>
+        <label>Comisión en favor de</label>
+        <name>LLC_BI__Document_Metadata__c</name>
+    </fields>
+    <fields>
+        <label>Tarifa Tipo Descripción</label>
+        <name>LLC_BI__Document_Store__c</name>
+        <relationshipLabel>Almacén de documentos Índices Collection</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Estado del documento Índice de Colección</help>
+        <label>Tarifa Tipo</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>Ha fallado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En progreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation>En cola</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uploaded</masterLabel>
+            <translation>subido</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Es pagado por Prestatario</label>
+        <name>LLC_BI__Vendor_Document_Id__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

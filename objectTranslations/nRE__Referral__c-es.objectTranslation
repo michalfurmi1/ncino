@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>En espera de la deuda Tasa de interés</label>
+        <name>Product_Type__c</name>
+        <relationshipLabel>referidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>En espera de la deuda mensual Cantidad d</label>
+        <name>Referred_To_Product__c</name>
+        <relationshipLabel>referidos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Es un código que identifica el tipo de e</label>
+        <name>nRE_Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Card</masterLabel>
+            <translation>Tarjeta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation>Consumidor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de producto</label>
+        <name>nRE_Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>504</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7(a)</masterLabel>
+            <translation>7 (a)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Card</masterLabel>
+            <translation>Tarjeta de negocio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Non-Real Estate</masterLabel>
+            <translation>Consumidor - No los inmuebles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Real Estate</masterLabel>
+            <translation>Consumidor - Inmobiliaria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer - Unsecured</masterLabel>
+            <translation>Consumidor - sin garantía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage System</masterLabel>
+            <translation>Sistema hipoteca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Real Estate</masterLabel>
+            <translation>No inmobiliario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Card</masterLabel>
+            <translation>Tarjeta personal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation>Bienes inmuebles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured</masterLabel>
+            <translation>sin garantía</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>nRE_Product__c</name>
+        <picklistValues>
+            <masterLabel>Accounts Receivables</masterLabel>
+            <translation>Cuentas por cobrar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation>Adquisición</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advantage+</masterLabel>
+            <translation>ventaja +</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation>Agricultura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Secured</masterLabel>
+            <translation>activos cubiertos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boat/Motor/Trailer</masterLabel>
+            <translation>Barco / motor / remolque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>Construcción</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation>Tarjeta de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crops</masterLabel>
+            <translation>cultivos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation>Equipo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HELOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Improvements</masterLabel>
+            <translation>Mejoras del hogar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation>Inventario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Development</masterLabel>
+            <translation>Desarrollo de la tierra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation>Línea de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation>Compra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Investment Property</masterLabel>
+            <translation>Comprar bienes de inversión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Lot</masterLabel>
+            <translation>compra de lote</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Primary/Vacation Residence</masterLabel>
+            <translation>Compra Residencia Principal / vacaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RLOC</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>Refinanciar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance Investment Property</masterLabel>
+            <translation>Refinanciamiento Propiedad de inversión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance Lot</masterLabel>
+            <translation>refinanciamiento Lote</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance Primary/Vacation Residence</masterLabel>
+            <translation>Refinanciar Residencia Principal / vacaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rewards Card</masterLabel>
+            <translation>Tarjeta de recompensas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings Secured</masterLabel>
+            <translation>Asegurado ahorro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skypoints</masterLabel>
+            <translation>SkyPoints</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Startup</masterLabel>
+            <translation>Puesta en marcha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unimproved - Purchase</masterLabel>
+            <translation>Sin mejoras - Compra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unimproved - Refinance</masterLabel>
+            <translation>Sin mejoras - Refinanciamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured - Term Loan</masterLabel>
+            <translation>Sin garantía - Préstamo a Plazo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured LOC</masterLabel>
+            <translation>LOC sin garantía</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Loan</masterLabel>
+            <translation>Préstamo vehículo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Capital - Term Loan</masterLabel>
+            <translation>El capital de trabajo - Préstamo a Plazo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Número de acciones</label>
+        <name>nRE__Branch__c</name>
+        <relationshipLabel>ramas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valor total de las acciones / bonos</label>
+        <name>nRE__Closed_Lost__c</name>
+    </fields>
+    <fields>
+        <label>Error de autenticación</label>
+        <name>nRE__Closed_Won__c</name>
+    </fields>
+    <fields>
+        <label>Texto de error de autenticación</label>
+        <name>nRE__Company__c</name>
+    </fields>
+    <fields>
+        <label>errores</label>
+        <name>nRE__Email_Address__c</name>
+    </fields>
+    <fields>
+        <label>Líquido puntuación de crédito</label>
+        <name>nRE__Existing_Relationship__c</name>
+        <relationshipLabel>Remisiones</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nombre de pila</label>
+        <name>nRE__First_Name__c</name>
+    </fields>
+    <fields>
+        <label>financiado Fecha</label>
+        <name>nRE__Home_Phone__c</name>
+    </fields>
+    <fields>
+        <label>Apellidos</label>
+        <name>nRE__Last_Name__c</name>
+    </fields>
+    <fields>
+        <label>Préstamo Número App</label>
+        <name>nRE__Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <help>Este es un campo de fórmula que extrae el número de teléfono desde el diseño de la página relación existente</help>
+        <label>Aplicación de préstamo Fecha de recepció</label>
+        <name>nRE__Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label>Monto aprobado</label>
+        <name>nRE__Preferred_Contact_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Correo electrónico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Phone</masterLabel>
+            <translation>Teléfono de casa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Phone</masterLabel>
+            <translation>Teléfono móvil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Phone</masterLabel>
+            <translation>Teléfono del trabajo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Aplicación de préstamo Código de estado</label>
+        <name>nRE__Preferred_Contact_Time__c</name>
+        <picklistValues>
+            <masterLabel>Afternoon</masterLabel>
+            <translation>Tarde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anytime</masterLabel>
+            <translation>En cualquier momento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evening</masterLabel>
+            <translation>Noche</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morning</masterLabel>
+            <translation>Mañana</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Importe cuota de garantía</label>
+        <name>nRE__Receiving_Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>Seguro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation>Hipoteca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Banking</masterLabel>
+            <translation>Banca minorista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Management</masterLabel>
+            <translation>Administración de la tesorería</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust / Wealth Management</masterLabel>
+            <translation>Confianza / Wealth Management</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cuota de garantía Explicación</label>
+        <name>nRE__Referral_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Número del préstamo</label>
+        <name>nRE__Referral_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label>Préstamo</label>
+        <name>nRE__Referral_Details__c</name>
+    </fields>
+    <fields>
+        <label>Respuestas E-tran</label>
+        <name>nRE__Referral_Quality_Notes__c</name>
+    </fields>
+    <fields>
+        <label>Primaria de negocios Número DUNS</label>
+        <name>nRE__Referral_Quality__c</name>
+        <picklistValues>
+            <masterLabel>Qualified</masterLabel>
+            <translation>Calificado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unqualified</masterLabel>
+            <translation>Incondicional</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Mensaje de solicitud</label>
+        <name>nRE__Referral_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label>Mensaje de respuesta</label>
+        <name>nRE__Referral_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label>Sinopsis</label>
+        <name>nRE__Referral_Source_Contact__c</name>
+        <relationshipLabel>Fuente de referencia Contactos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Las inyecciones</label>
+        <name>nRE__Referral_Source__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation>Asociación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation>Corredor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Customer</masterLabel>
+            <translation>Cliente actual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Call</masterLabel>
+            <translation>Llamada directa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Campaign</masterLabel>
+            <translation>Campaña de correo electrónico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation>Recomendación de empleados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry Professional</masterLabel>
+            <translation>Profesional de la industria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazine</masterLabel>
+            <translation>Revista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior Origination</masterLabel>
+            <translation>Originación antes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation>Feria</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Estado de la remisión</label>
+        <name>nRE__Referral_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Activo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation>cerrado perdido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation>cerrado Won</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation>Expedido</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Remitido por</label>
+        <name>nRE__Referred_By__c</name>
+        <relationshipLabel>Referencias (Referido por)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>La cantidad de la inyección real</label>
+        <name>nRE__Referred_To_Product_Line__c</name>
+        <relationshipLabel>Líneas de productos recomendados</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Describir el uso de inyección de este pr</label>
+        <name>nRE__Referred_To__c</name>
+        <relationshipLabel>Referidos (mencionado)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Línea de negocio que hace la remisión</label>
+        <name>nRE__Referring_Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>Comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>Seguro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation>Hipoteca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Banking</masterLabel>
+            <translation>Banca minorista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury Management</masterLabel>
+            <translation>Administración de la tesorería</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust / Wealth Management</masterLabel>
+            <translation>Confianza / Wealth Management</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Código Tipo de inyección</label>
+        <name>nRE__Work_Phone__c</name>
+    </fields>
+    <fields>
+        <label>Número de solicitud del prestamista</label>
+        <name>nRE__isReceived__c</name>
+    </fields>
+    <fields>
+        <label>Número del préstamo del prestamista</label>
+        <name>nRE__isSent__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description>Este tipo de registro se utiliza para Referencias de las relaciones existentes</description>
+        <label>Referencia - Relación existente</label>
+        <name>nRE__Referral_Existing_Relationship</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Este tipo de registro no mostrará el &apos;Enviar Referencia&apos; o &apos;Aceptar Referencia&apos; botones</description>
+        <label>Referencia - Relación existente Aceptado</label>
+        <name>nRE__Referral_Existing_Relationship_Accepted</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Este tipo de registro se mostrará el botón &apos;Aceptar Referencia&apos;</description>
+        <label>Referencia - El actual Relación Sent</label>
+        <name>nRE__Referral_Existing_Relationship_Sent</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Este tipo de registro se utiliza para Referencias de nuevas relaciones</description>
+        <label>Referencia - Nueva Relación</label>
+        <name>nRE__Referral_New_Relationship</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Este tipo de registro no mostrará el &apos;Enviar Referencia&apos; o &apos;Aceptar Referencia&apos; botones</description>
+        <label>Referencia - Nueva relación Aceptado</label>
+        <name>nRE__Referral_New_Relationship_Accepted</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Este tipo de registro se mostrará el botón &apos;Aceptar Referencia&apos;</description>
+        <label>Referencia - Nueva relación Enviado</label>
+        <name>nRE__Referral_New_Relationship_Sent</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>No se puede editar una remisión una vez que ha sido cerrada o cerrada Won Perdido</errorMessage>
+        <name>nRE__Lock_Closed_Referrals</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Una referencia debe ser cerrado o cerrado Won Lost. Las casillas de verificación tanto no pueden = True. Por favor marque sólo un resultado apropiado.</errorMessage>
+        <name>nRE__Referral_Must_Be_Won_or_Lost</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Una referencia debe ser marcado como calificado o no calificado antes de que pueda ser cerrado.</errorMessage>
+        <name>nRE__Referral_Quality_is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>El estado de referencia no puede estar en blanco.</errorMessage>
+        <name>nRE__Referral_Status_Cannot_Be_Blank</name>
+    </validationRules>
+    <webLinks>
+        <label>Remisión a préstamo</label>
+        <name>Referral_to_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label>aceptar Remisión</label>
+        <name>nRE__Accept_Referral</name>
+    </webLinks>
+    <webLinks>
+        <label>Enviar Remisión</label>
+        <name>nRE__Send_Referral</name>
+    </webLinks>
+</CustomObjectTranslation>

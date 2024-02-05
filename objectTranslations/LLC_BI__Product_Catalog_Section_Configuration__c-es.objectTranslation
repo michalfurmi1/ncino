@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>¿Cuál es la clave de orden de clasificación de esta configuración sección de la pantalla?</help>
+        <label>objeto del producto</label>
+        <name>LLC_BI__Display_Order__c</name>
+    </fields>
+    <fields>
+        <help>¿Qué conjunto de campo se asocia con esta configuración sección?</help>
+        <label>Cola</label>
+        <name>LLC_BI__Field_Set__c</name>
+    </fields>
+    <fields>
+        <help>¿Qué diseño se utilizará para esta plantilla de configuración sección?</help>
+        <label>ofertas</label>
+        <name>LLC_BI__Layout__c</name>
+    </fields>
+    <fields>
+        <help>Qué plantilla catálogo de productos ruta se esta plantilla de configuración asociado con la sección?</help>
+        <label>La exposición Afiliado reservado</label>
+        <name>LLC_BI__Product_Catalog_Route_Template__c</name>
+        <relationshipLabel>Configuraciones Sección Catálogo de Productos</relationshipLabel>
+    </fields>
+    <fields>
+        <help>¿Qué tipo sObject está ligado a esta configuración sección?</help>
+        <label>Reservado exposición indirecta</label>
+        <name>LLC_BI__SObject_Type__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

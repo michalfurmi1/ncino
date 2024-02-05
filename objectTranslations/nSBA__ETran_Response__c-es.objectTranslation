@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>oportunidades</label>
+        <name>nSBA__Auth_Error_Number__c</name>
+    </fields>
+    <fields>
+        <label>tipo de producto</label>
+        <name>nSBA__Auth_Error_Text__c</name>
+    </fields>
+    <fields>
+        <label>oportunidades</label>
+        <name>nSBA__Errors__c</name>
+    </fields>
+    <fields>
+        <label>tipo de producto</label>
+        <name>nSBA__Liquid_Credit_Score__c</name>
+    </fields>
+    <fields>
+        <label>Producto</label>
+        <name>nSBA__Loan_App_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label>Productos interesado en</label>
+        <name>nSBA__Loan_App_Etran_Email_Address__c</name>
+    </fields>
+    <fields>
+        <label>Prospecto de ingresos anuales</label>
+        <name>nSBA__Loan_App_Fund_Date__c</name>
+    </fields>
+    <fields>
+        <label>Ubicación perspectiva Alcance</label>
+        <name>nSBA__Loan_App_Lenders_Application_Number__c</name>
+    </fields>
+    <fields>
+        <label>RFP?</label>
+        <name>nSBA__Loan_App_Lenders_Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de inicio en la etapa actual</label>
+        <name>nSBA__Loan_App_Name__c</name>
+    </fields>
+    <fields>
+        <label>Los depósitos totales</label>
+        <name>nSBA__Loan_App_Number__c</name>
+    </fields>
+    <fields>
+        <label>El número de rastreo</label>
+        <name>nSBA__Loan_App_Received_Date__c</name>
+    </fields>
+    <fields>
+        <label>El número de rastreo</label>
+        <name>nSBA__Loan_App_Request_Amount__c</name>
+    </fields>
+    <fields>
+        <label>nombre de la categoría</label>
+        <name>nSBA__Loan_App_SBA_Approved_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Está activo</label>
+        <name>nSBA__Loan_App_Status_code__c</name>
+    </fields>
+    <fields>
+        <label>Orden</label>
+        <name>nSBA__Loan_Guaranty_Fee_Amount__c</name>
+    </fields>
+    <fields>
+        <label>informe Id</label>
+        <name>nSBA__Loan_Guaranty_Fee_Explanation__c</name>
+    </fields>
+    <fields>
+        <label>Reportar nombre</label>
+        <name>nSBA__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label>Etapa / Estado / Nombre de la línea de p</label>
+        <name>nSBA__Loan__c</name>
+        <relationshipLabel>Respuestas E-tran</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Los propietarios / directores</label>
+        <name>nSBA__Primary_Business_DUNS_Number__c</name>
+    </fields>
+    <fields>
+        <label>Propietario / Nombre principal</label>
+        <name>nSBA__Request_Message__c</name>
+    </fields>
+    <fields>
+        <label>Teléfono</label>
+        <name>nSBA__Response_Message__c</name>
+    </fields>
+    <fields>
+        <label>SSN / TIN</label>
+        <name>nSBA__Synopsis__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

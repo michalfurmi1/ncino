@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Este campo obligatorio contiene una refe</label>
+        <name>LLC_BI__Feature_Template__c</name>
+        <relationshipLabel>Programas de productos (plantilla de función)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tipo de dependencia</label>
+        <name>LLC_BI__Parent_Program__c</name>
+        <relationshipLabel>Programas de productos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Requisito dependientes</label>
+        <name>LLC_BI__Product__c</name>
+        <relationshipLabel>Programas de productos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>El control de Requisitos</label>
+        <name>LLC_BI__Qualification_Template__c</name>
+        <relationshipLabel>Programas de productos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Modelo</label>
+        <name>LLC_BI__Rank__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

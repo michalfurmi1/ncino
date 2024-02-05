@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Référence produit enfant</label>
+        <name>LLC_BI__Child_Product_Reference__c</name>
+        <relationshipLabel>Connexions du produit (Référence produit Enfant)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Est requis</label>
+        <name>LLC_BI__Is_Required__c</name>
+    </fields>
+    <fields>
+        <label>Parent Référence produit</label>
+        <name>LLC_BI__Parent_Product_Reference__c</name>
+        <relationshipLabel>Connexions produit</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Bundle</masterLabel>
+            <translation>Paquet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dependency</masterLabel>
+            <translation>Dépendance</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Cochez cette case pour afficher les produits recommandés dans le flux de travail en succursale.</help>
+        <label>Utilisation en Direction</label>
+        <name>LLC_BI__Use_In_Branch__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Portail est sélectionné par défaut</label>
+        <name>nPortal__Is_Portal_Default_Selected__c</name>
+    </fields>
+    <fields>
+        <label>Portal est activé</label>
+        <name>nPortal__Is_Portal_Enabled__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

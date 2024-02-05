@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Las ganancias de crédito de derechos (%)</label>
+        <name>LLC_BI__Account_Recon_Plan_Type__c</name>
+        <picklistValues>
+            <masterLabel>Deposit</masterLabel>
+            <translation>Depositar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full</masterLabel>
+            <translation>Completo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial</masterLabel>
+            <translation>Parcial</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Por favor, explique por qué elige el otro para la Reconciliación Tipo.</help>
+        <label>Equilibrio Investable / (ECA)</label>
+        <name>LLC_BI__Other_Reconciliation_Cycle_Explanation__c</name>
+    </fields>
+    <fields>
+        <label>es definitiva</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>Servicio de reconciliación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Déficit neto</label>
+        <name>LLC_BI__Reconciliation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>Diario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Semanal</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Entidad</label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel>Servicio de reconciliación</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Estado</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Activo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Muerto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Las cantidades de productos</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Servicio de reconciliación</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

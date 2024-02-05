@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Este campo contiene una referencia a un objeto de contexto.</help>
+        <label>CRA ingresos</label>
+        <name>LLC_BI__Context_Node__c</name>
+        <relationshipLabel>Contextos Vinculados (nodo de contexto)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>campo de relación de unirse a objeto de contexto que hace referencia a la próxima contexto</help>
+        <label>Nota de crédito</label>
+        <name>LLC_BI__Context_Relationship__c</name>
+    </fields>
+    <fields>
+        <help>Este campo contiene un objeto de contexto a unir al objeto en Context_Node</help>
+        <label>Corriente Valor Bruto lendable</label>
+        <name>LLC_BI__Joining_Context__c</name>
+        <relationshipLabel>Los contextos vinculados (unión Contexto)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>campo de relación de objeto de contexto que hace referencia a unirse contexto</help>
+        <label>Calcula LTV. Tasa de avance no se consid</label>
+        <name>LLC_BI__Joining_Relationship__c</name>
+    </fields>
+    <fields>
+        <help>Este campo contiene un objeto Context__mdt que vendrá después de la próxima Context_Node actual es procesada.</help>
+        <label>Saldo de Principal o Monto del préstamo</label>
+        <name>LLC_BI__Next_Context__c</name>
+        <relationshipLabel>Los contextos vinculados (Siguiente contexto)</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compte</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Notes des visites sur site</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Quels sont les éléments d&apos;action pour le suivi?</help>
+        <label>Éléments d&apos;action</label>
+        <name>LLC_BI__Action_Items__c</name>
+    </fields>
+    <fields>
+        <help>Avez-vous vu les clients au bureau? ce qui est la sensation de flux de clientèle?</help>
+        <label>Activité à la clientèle</label>
+        <name>LLC_BI__Customer_Flow__c</name>
+    </fields>
+    <fields>
+        <help>Cochez cette case lorsque vous êtes prêt à avoir la visite du site Mémo envoyé par courriel à tout le monde une fois que vous enregistrez.</help>
+        <label>Envoyer Lorsque Enregistré</label>
+        <name>LLC_BI__Send_When_Saved__c</name>
+    </fields>
+    <fields>
+        <help>Le nom de la personne qui a fait la visite</help>
+        <label>Responsable du service de la dette</label>
+        <name>LLC_BI__Servicing_Officer__c</name>
+    </fields>
+    <fields>
+        <help>Était le bureau en bon état?</help>
+        <label>bureau Condition</label>
+        <name>LLC_BI__Site_Status__c</name>
+    </fields>
+    <fields>
+        <help>La date à laquelle vous avez visité le site.</help>
+        <label>date de la visite</label>
+        <name>LLC_BI__Visit_Date__c</name>
+    </fields>
+    <fields>
+        <help>Qu&apos;est-ce qui est arrivé lors de la visite du site?</help>
+        <label>Description de la visite</label>
+        <name>LLC_BI__Visit_Description__c</name>
+    </fields>
+    <fields>
+        <label>Objectif de la visite</label>
+        <name>LLC_BI__Visit_Objective__c</name>
+    </fields>
+    <fields>
+        <help>Comment on est venu ici? Quelle est l&apos;histoire de ce prêt?</help>
+        <label>Histoire liste</label>
+        <name>LLC_BI__Watchlist_History__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Loan__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Formulaire de génération</label>
+        <name>Form_Generation</name>
+    </webLinks>
+</CustomObjectTranslation>

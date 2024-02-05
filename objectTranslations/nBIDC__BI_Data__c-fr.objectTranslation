@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Moyenne</label>
+        <name>nBIDC__Average__c</name>
+    </fields>
+    <fields>
+        <label>Compter</label>
+        <name>nBIDC__Count__c</name>
+    </fields>
+    <fields>
+        <label>Date de fin</label>
+        <name>nBIDC__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>Groupe 1</label>
+        <name>nBIDC__Grouping_1__c</name>
+    </fields>
+    <fields>
+        <label>Regroupement 2</label>
+        <name>nBIDC__Grouping_2__c</name>
+    </fields>
+    <fields>
+        <label>Regroupement 3</label>
+        <name>nBIDC__Grouping_3__c</name>
+    </fields>
+    <fields>
+        <label>Regroupement 4</label>
+        <name>nBIDC__Grouping_4__c</name>
+    </fields>
+    <fields>
+        <label>Regroupement 5</label>
+        <name>nBIDC__Grouping_5__c</name>
+    </fields>
+    <fields>
+        <label>Est sale</label>
+        <name>nBIDC__Is_Dirty__c</name>
+    </fields>
+    <fields>
+        <label>max</label>
+        <name>nBIDC__Max__c</name>
+    </fields>
+    <fields>
+        <label>moi</label>
+        <name>nBIDC__Min__c</name>
+    </fields>
+    <fields>
+        <label>Envoyer Date Heure</label>
+        <name>nBIDC__Send_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label>Date de début</label>
+        <name>nBIDC__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Somme</label>
+        <name>nBIDC__Sum__c</name>
+    </fields>
+    <fields>
+        <label>timestamp</label>
+        <name>nBIDC__Timestamp__c</name>
+    </fields>
+    <fields>
+        <label>Nom unique</label>
+        <name>nBIDC__Unique_Name__c</name>
+    </fields>
+    <fields>
+        <label>Valeur</label>
+        <name>nBIDC__Value__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>Appuyez données</label>
+        <name>nBIDC__Push_Data</name>
+    </webLinks>
+</CustomObjectTranslation>

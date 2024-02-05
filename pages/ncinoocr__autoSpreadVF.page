@@ -1,0 +1,16 @@
+<apex:page >
+    <apex:slds />
+    <apex:includeLightning />
+    <div id="container"></div>
+    <script>
+        $Lightning.use("c:autoSpreadApplication", function () {    // name of the lightning app and callback once app loaded
+            $Lightning.createComponent("c:niqMappingContainer", {  // top level component
+                
+            },
+                "container",                                // DOM location where to insert the component
+                function (cmp) {
+                    // console.log('>>>component created');
+                });
+        });
+    </script>
+</apex:page>

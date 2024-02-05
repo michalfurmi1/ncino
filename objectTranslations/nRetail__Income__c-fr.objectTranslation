@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compte</label>
+        <name>nRetail__Account__c</name>
+        <relationshipLabel>Les revenus</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Contact__c</name>
+        <relationshipLabel>Les revenus</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Source de revenu</label>
+        <name>nRetail__Income_Source__c</name>
+        <picklistValues>
+            <masterLabel>Pay Stubs</masterLabel>
+            <translation>Des fiches de paie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Return</masterLabel>
+            <translation>Rapport d&apos;impôts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de revenu</label>
+        <name>nRetail__Income_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alimony Support</masterLabel>
+            <translation>Soutien Pensions alimentaires</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Bonus/Commission</masterLabel>
+            <translation>Bonus annuel / Commission</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gross Annual Income</masterLabel>
+            <translation>Revenu annuel brut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment/Trust Income</masterLabel>
+            <translation>Investissement / fiducies de revenu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Income</masterLabel>
+            <translation>revenu militaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Income</masterLabel>
+            <translation>Autre revenu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time Income</masterLabel>
+            <translation>Revenu à temps partiel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Income</masterLabel>
+            <translation>Revenus locatifs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Employment Income</masterLabel>
+            <translation>Revenu d&apos;emploi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable Income</masterLabel>
+            <translation>Revenu imposable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Before Tax Income</masterLabel>
+            <translation>Total avant impôt sur le revenu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment Benefits</masterLabel>
+            <translation>Prestations de chômage</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel>Les revenus</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Revenu mensuel</label>
+        <name>nRetail__Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <label>Revenu annuel</label>
+        <name>nRetail__Yearly_Income__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Le revenu mensuel doit être 1/12 du revenu annuel.</errorMessage>
+        <name>nRetail__Monthly_Yearly_Income</name>
+    </validationRules>
+</CustomObjectTranslation>

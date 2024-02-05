@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Rôle</label>
+        <name>LLC_BI__Assigned_Role__c</name>
+        <relationshipLabel>Membres de l’équipe de prêt</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Description d’un membre de l’équipe de prêt.</help>
+        <label>Description</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>File d’attente</help>
+        <label>Groupe</label>
+        <name>LLC_BI__Group__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Membres de l’équipe de prêt</relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Conformité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Analyst</masterLabel>
+            <translation>Analyste de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation>Doc Préparation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>IL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Officer</masterLabel>
+            <translation>Agent de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>Opérations de prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation>La gestion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>Officier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>Traitement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processor</masterLabel>
+            <translation>Processeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Loan Officer</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>Souscription</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Ce champ est dépréciée. Il a été remplacé par Assigned_Role.</help>
+        <label></label>
+        <name>LLC_BI__Team_Role__c</name>
+        <relationshipLabel>Membres de l’équipe de prêt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Utilisateur</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel>Membres de l’équipe de prêt</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID de prêt</label>
+        <name>Lending_ID__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de téléphone du membre d’équipe</label>
+        <name>Team_Member_Phone_Number__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <webLinks>
+        <label>assigner équipe</label>
+        <name>LLC_BI__Assign_Team</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Aktiv</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Anmerkungen</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Debt__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Grund ausschließen</label>
+        <name>LLC_BI__Exclude_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Debt Consolidation</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>Refinanzierung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term-Out Refinance</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Kredit</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produktbündel</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

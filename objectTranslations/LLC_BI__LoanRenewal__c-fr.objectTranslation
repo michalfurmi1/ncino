@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Clonée De Nom prêt</label>
+        <name>LLC_BI__ClonedFromLoanName__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__DeletedLoanName__c</name>
+    </fields>
+    <fields>
+        <label>A obtenu un prêt de renouvellement actif</label>
+        <name>LLC_BI__HasActiveRenewalLoan__c</name>
+    </fields>
+    <fields>
+        <label>Aucune action est Placeholder</label>
+        <name>LLC_BI__Is_No_Action_Placeholder__c</name>
+    </fields>
+    <fields>
+        <label>Prochain numéro de révision</label>
+        <name>LLC_BI__NextRevisionNumber__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Original_Parent__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Original_Product_Package__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Parent prêt Id</label>
+        <name>LLC_BI__ParentLoanId__c</name>
+        <relationshipLabel>LoanRenewals (Parent prêt Id)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Précédent numéro de la révision</label>
+        <name>LLC_BI__PreviousRevisionNumber__c</name>
+    </fields>
+    <fields>
+        <label>Version précédente étape</label>
+        <name>LLC_BI__PreviousVersionStage__c</name>
+    </fields>
+    <fields>
+        <label>Statut version précédente</label>
+        <name>LLC_BI__PreviousVersionStatus__c</name>
+    </fields>
+    <fields>
+        <label>Renouvellement du prêt Id</label>
+        <name>LLC_BI__RenewalLoanId__c</name>
+        <relationshipLabel>LoanRenewals (renouvellement du prêt Id)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Numéro de révision</label>
+        <name>LLC_BI__RevisionNumber__c</name>
+    </fields>
+    <fields>
+        <label>Etat de la révision</label>
+        <name>LLC_BI__RevisionStatus__c</name>
+    </fields>
+    <fields>
+        <label>Racine ID prêt</label>
+        <name>LLC_BI__RootLoanId__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

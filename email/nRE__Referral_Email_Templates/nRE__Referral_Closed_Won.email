@@ -1,0 +1,7 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div><span style="font-size: 12pt;">Hello&nbsp;</span><span style="font-size: 12pt; background-color: rgb(255, 255, 255);">{!Organization.Name}&nbsp;</span><span style="font-size: 12pt;">Team Member,&nbsp;</span></div>
+<br>Your Referral has successfully closed! &nbsp;Please follow this link for full details: &nbsp;{!nRE__Referral__c.Link}<br><br><div><u>New Relationship Info:</u></div><div>Company: &nbsp;{!nRE__Referral__c.nRE__Company__c}</div><div>Name: &nbsp;{!nRE__Referral__c.nRE__First_Name__c}&nbsp;{!nRE__Referral__c.nRE__Last_Name__c}</div><div><br></div><div><div><u>Existing Relationship Info:</u></div><div>Name: &nbsp;{!nRE__Referral__c.nRE__Existing_Relationship__c}</div></div><div><br></div><div><span style="font-size: 12pt;">Referral Amount: &nbsp;{!nRE__Referral__c.nRE__Referral_Amount__c}</span></div><div>Referred To: &nbsp;{!nRE__Referral__c.nRE__Referred_To__c}</div><div>Date: &nbsp;{!nRE__Referral__c.nRE__Referral_Sent_Date__c}</div><div>Status: &nbsp;{!nRE__Referral__c.nRE__Referral_Status__c}<br><br><br></div><div>nCino</div>]]></td>
+</tr>
+</table>

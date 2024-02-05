@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Commentaires rajout</label>
+        <name>LLC_BI__Addback_Comments__c</name>
+    </fields>
+    <fields>
+        <label>Source Amort</label>
+        <name>LLC_BI__Amort_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>financière intermédiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Amortissement</label>
+        <name>LLC_BI__Amortization__c</name>
+    </fields>
+    <fields>
+        <label>Coût annuel de la vie</label>
+        <name>LLC_BI__Annual_Cost_of_Living__c</name>
+    </fields>
+    <fields>
+        <label>Service de la dette annuelle</label>
+        <name>LLC_BI__Annual_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>COGS% Rev</label>
+        <name>LLC_BI__COGS_Rev__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__COGS__c</name>
+    </fields>
+    <fields>
+        <label>Date de trésorerie Solde</label>
+        <name>LLC_BI__Cash_Balance_Date__c</name>
+    </fields>
+    <fields>
+        <label>Solde de trésorerie</label>
+        <name>LLC_BI__Cash_Balance__c</name>
+    </fields>
+    <fields>
+        <help>Commentaires inclus dans le courrier électronique envoyé automatiquement</help>
+        <label>Commentaires</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Comp. Adj. La source</label>
+        <name>LLC_BI__Comp__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>financière intermédiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>courant AP</label>
+        <name>LLC_BI__Current_AP__c</name>
+    </fields>
+    <fields>
+        <label>Ratio de DSC (Ajouter OC)</label>
+        <name>LLC_BI__DSC_Ratio_Post_OC__c</name>
+    </fields>
+    <fields>
+        <label>Ratio de DSC (Pre OC)</label>
+        <name>LLC_BI__DSC_Ratio_Pre_OC__c</name>
+    </fields>
+    <fields>
+        <help>par défaut du système de paiement mensuel actuel. Utilisez uniquement si vous souhaitez remplacer dans le cas d&apos;une modification de prêt, etc.</help>
+        <label>Service de la dette Override</label>
+        <name>LLC_BI__Debt_Service_Override__c</name>
+    </fields>
+    <fields>
+        <label>Service de la dette</label>
+        <name>LLC_BI__Debt_Service_Value__c</name>
+    </fields>
+    <fields>
+        <label>Service de la dette</label>
+        <name>LLC_BI__Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Amort. La source</label>
+        <name>LLC_BI__Depr_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>financière intermédiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dépréciation</label>
+        <name>LLC_BI__Depreciation__c</name>
+    </fields>
+    <fields>
+        <label>Source EPC</label>
+        <name>LLC_BI__EPC_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>financière intermédiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dépenses totales</label>
+        <name>LLC_BI__Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Rapport financier Version</label>
+        <name>LLC_BI__Financial_Report_Version__c</name>
+    </fields>
+    <fields>
+        <label>Période Financials</label>
+        <name>LLC_BI__Financials_Period__c</name>
+    </fields>
+    <fields>
+        <label>Un service personnalisé de la dette annu</label>
+        <name>LLC_BI__Global_Annual_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Globale des flux de trésorerie</label>
+        <name>LLC_BI__Global_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <label>Cashflow mondiale Commenté</label>
+        <name>LLC_BI__Global_Cashflow_Reviewed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rapport mondial DSC</label>
+        <name>LLC_BI__Global_DSCR__c</name>
+    </fields>
+    <fields>
+        <label>Service de la dette mondiale</label>
+        <name>LLC_BI__Global_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Annuels Autres paiements de la dette</label>
+        <name>LLC_BI__Global_Other_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Inclure dans DSCR Calc</label>
+        <name>LLC_BI__Include_in_DSCR_Calc__c</name>
+    </fields>
+    <fields>
+        <label>Source d&apos;intérêt</label>
+        <name>LLC_BI__Interest_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>financière intermédiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Intérêt</label>
+        <name>LLC_BI__Interest__c</name>
+    </fields>
+    <fields>
+        <label>Service de la dette mensuelle</label>
+        <name>LLC_BI__Monthly_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Revenu net</label>
+        <name>LLC_BI__Net_Income__c</name>
+    </fields>
+    <fields>
+        <label>Bénéfice net d&apos;exploitation</label>
+        <name>LLC_BI__Net_Operating_Income__c</name>
+    </fields>
+    <fields>
+        <label>Marge nette d&apos;exploitation</label>
+        <name>LLC_BI__Net_Operating_Margin__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Non_Cash_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>financière intermédiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Officier Comp Réglage</label>
+        <name>LLC_BI__Officer_Comp__c</name>
+    </fields>
+    <fields>
+        <label>Frais d&apos;exploitation</label>
+        <name>LLC_BI__Operating_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Autre service de la dette</label>
+        <name>LLC_BI__Other_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Autres charges exceptionnelles</label>
+        <name>LLC_BI__Other_Extraordinary_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>Autre revenu extérieur</label>
+        <name>LLC_BI__Other_Income__c</name>
+    </fields>
+    <fields>
+        <label>Autres éléments hors caisse Charge</label>
+        <name>LLC_BI__Other_Non_Cash_Charge__c</name>
+    </fields>
+    <fields>
+        <label>Compte</label>
+        <name>LLC_BI__Practice__c</name>
+        <relationshipLabel>Rapports financiers</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Louer EPC</label>
+        <name>LLC_BI__Rent__c</name>
+    </fields>
+    <fields>
+        <label>Req. Comp. La source</label>
+        <name>LLC_BI__Req_Comp_Source__c</name>
+        <picklistValues>
+            <masterLabel>Credit Report Debt Service * 2</masterLabel>
+            <translation>Rapport de crédit service de la dette * 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Loan Approval Summary</masterLabel>
+            <translation>Approbation initiale du prêt Sommaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Agent requis Comp</label>
+        <name>LLC_BI__Required_Officer_Comp__c</name>
+    </fields>
+    <fields>
+        <label>Revenu</label>
+        <name>LLC_BI__Revenue__c</name>
+    </fields>
+    <fields>
+        <label>Commenté</label>
+        <name>LLC_BI__Reviewed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Critique</label>
+        <name>LLC_BI__Reviewer__c</name>
+        <picklistValues>
+            <masterLabel>NCINO</masterLabel>
+            <translation>nino</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Vendeur service de la dette</label>
+        <name>LLC_BI__Seller_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>Salaire du conjoint</label>
+        <name>LLC_BI__Spouses_Salary__c</name>
+    </fields>
+    <fields>
+        <label>Le personnel du travail et de la paie</label>
+        <name>LLC_BI__Staff_Labor_Payroll__c</name>
+    </fields>
+    <fields>
+        <label>Personnel% Rev</label>
+        <name>LLC_BI__Staff_Rev__c</name>
+    </fields>
+    <fields>
+        <label>date du relevé</label>
+        <name>LLC_BI__Statement_Date__c</name>
+    </fields>
+    <fields>
+        <label>Vendeur dette Pmt AUTORISEE?</label>
+        <name>LLC_BI__Subdebt_Paid__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation>N / A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Aucune</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Oui</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Third Party Rent% Rev</label>
+        <name>LLC_BI__Third_Party_Rent_Rev__c</name>
+    </fields>
+    <fields>
+        <label>Location tiers</label>
+        <name>LLC_BI__Third_Party_Rent__c</name>
+    </fields>
+    <fields>
+        <label>Produit par tiers</label>
+        <name>LLC_BI__Third_Party__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

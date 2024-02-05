@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Type de compte Plan Recon</label>
+        <name>LLC_BI__Account_Recon_Plan_Type__c</name>
+        <picklistValues>
+            <masterLabel>Deposit</masterLabel>
+            <translation>Dépôt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full</masterLabel>
+            <translation>Plein</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial</masterLabel>
+            <translation>Partiel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>S&apos;il vous plaît expliquer pourquoi vous choisissez un autre pour le type de réconciliation.</help>
+        <label>Autre réconciliation Cycle Explication</label>
+        <name>LLC_BI__Other_Reconciliation_Cycle_Explanation__c</name>
+    </fields>
+    <fields>
+        <label>Référence de produit</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>Service de réconciliation</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Type de réconciliation</label>
+        <name>LLC_BI__Reconciliation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>du quotidien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensuel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>Hebdomadaire</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Relation</label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel>Service de réconciliation</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Actif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Annulé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expiré</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>En attente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Service de la trésorerie de référence</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Service de réconciliation</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

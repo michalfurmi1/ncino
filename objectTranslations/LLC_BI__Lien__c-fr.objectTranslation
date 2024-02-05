@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Si la sûreté réelle légale est active, elle sera utilisée pour le calcul des sûretés réelles légales actuelles et précédentes.</help>
+        <label>Actif</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help>Le montant des sûretés réelles légales sur une garantie.</help>
+        <label>Montant</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Garantie</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>Sûretés réelles légales</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La date à laquelle la sûreté réelle légale a été remboursée.</help>
+        <label>Date d’expiration</label>
+        <name>LLC_BI__Expire_Date__c</name>
+    </fields>
+    <fields>
+        <help>L’établissement qui détient la sûreté réelle légale sur la garantie.</help>
+        <label>Établissement</label>
+        <name>LLC_BI__Institution__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la sûreté réelle légale est automatiquement créée à partir de la garantie sur un prêt confirmé.</help>
+        <label>Est créé à partir de la garantie</label>
+        <name>LLC_BI__Is_Created_From_Collateral__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est renseigné par le biais d’apex pour exclure cette sûreté réelle légale des calculs.</help>
+        <label>Est exclu</label>
+        <name>LLC_BI__Is_Excluded__c</name>
+    </fields>
+    <fields>
+        <label>Is_Internal</label>
+        <name>LLC_BI__Is_Internal__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de prêt</label>
+        <name>LLC_BI__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <help>Le prêt auquel cette sûreté réelle légale est liée, si la sûreté réelle légale est détenue par cet établissement financier.</help>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Sûretés réelles légales</relationshipLabel>
+    </fields>
+    <fields>
+        <help>L’ordre dans lequel les sûretés réelles légales seront remboursées lorsque la propriété est transférée à un nouveau propriétaire.</help>
+        <label></label>
+        <name>LLC_BI__Position__c</name>
+        <picklistValues>
+            <masterLabel>1st</masterLabel>
+            <translation>1er</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation>2e</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd</masterLabel>
+            <translation>3e</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;actif a été acquis avec un prêt ou produit du projet. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Acquis avec un prêt ou un projet produit</label>
+        <name>nSBA__Acquired_With_Loan_Or_Project_Proceeds__c</name>
+    </fields>
+    <fields>
+        <help>Montant dû au vendeur sous contrat. Utilisez ce champ uniquement pour les privilèges sur l&apos;acheteur ou vendeur d&apos;intérêt dans le contrat de vente des terres. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Montant dû au vendeur sous contrat</label>
+        <name>nSBA__Amount_Owed_To_Seller_Under_Contract__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si un privilège avant (s) qui est (sont) ouvert a pris fin à des progrès futurs doivent être fermées, par écrit, conformément à la loi applicable de l&apos;État. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Fermer Avant Open Ended Liens</label>
+        <name>nSBA__Close_Prior_Open_Ended_Liens__c</name>
+    </fields>
+    <fields>
+        <help>La date de location. Utilisez ce champ uniquement pour les privilèges sur l&apos;intérêt de Preneur dans un contrat de location par cession. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Date de location</label>
+        <name>nSBA__Date_Of_Lease__c</name>
+    </fields>
+    <fields>
+        <help>Preuve de titre et de privilège prioritaire les options ouvertes. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Preuve de titre et de privilège priorita</label>
+        <name>nSBA__Evidence_Of_Title_And_Lien_Priority_OO__c</name>
+    </fields>
+    <fields>
+        <help>Preuve de titre et la priorité des options Lien. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Preuve de titre et la priorité de Lien</label>
+        <name>nSBA__Evidence_Of_Title_And_Priority_Of_Lien__c</name>
+        <picklistValues>
+            <masterLabel>ALTA Loan Policy</masterLabel>
+            <translation>ALTA Politique prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney’s certificate of title</masterLabel>
+            <translation>Le certificat de titre de procureur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLTA Loan Policy</masterLabel>
+            <translation>CLTA Politique prêt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Title Policy</masterLabel>
+            <translation>Politique limitée Titre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgagee’s Title Policy</masterLabel>
+            <translation>Titre de la politique de créancier hypothécaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property, Judgment and Lien Report indicating that lender has obtained the required position</masterLabel>
+            <translation>Propriété, arrêt et rapport Lien indiquant que le prêteur a obtenu la position requise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title and/or Lien Search</masterLabel>
+            <translation>Titre et / ou Recherche Lien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title insurance customarily obtained for similar transactions in this jurisdiction</masterLabel>
+            <translation>L&apos;assurance titres obtenus habituellement pour des transactions similaires dans cette juridiction</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Liste une preuve de titre Open Options ici. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Preuve de titre Option Open</label>
+        <name>nSBA__Evidence_Of_Title_Open_Option__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le dépôt de la demande de préavis est requis. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Dépôt Demande d&apos;avis requis</label>
+        <name>nSBA__Filing_Request_For_Notice_Required__c</name>
+    </fields>
+    <fields>
+        <help>Utilisez ce champ si l&apos;entité garantissant le prêt est sa garantie avec la sécurisation ce privilège. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>garanti par</label>
+        <name>nSBA__Guaranteed_By__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indique que la cession des loyers sur les terres et les améliorations sont incluses dans le privilège. Utilisez ce champ uniquement si elle est sélectionnée immobilier et l&apos;option Leaseholds est Lien sur terre et améliorations. Ce champ est utilisé d</help>
+        <label>Inclure la cession des loyers</label>
+        <name>nSBA__Include_Assignment_Of_Rents__c</name>
+    </fields>
+    <fields>
+        <help>Indique que les droits de l&apos;eau sont inclus dans le lien. Utilisez ce champ uniquement si elle est sélectionnée immobilier et l&apos;option Leaseholds est Lien sur terre et améliorations. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Inclure les droits de l&apos;eau</label>
+        <name>nSBA__Include_Water_Rights__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez l&apos;instrument spécifique état. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label></label>
+        <name>nSBA__Instrument__c</name>
+        <picklistValues>
+            <masterLabel>Deed of Trust</masterLabel>
+            <translation>Acte de fiducie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deed to Secure Debt</masterLabel>
+            <translation>Acte pour sécuriser la dette</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indemnity Deed</masterLabel>
+            <translation>Acte d&apos;indemnisation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana Trust Indenture</masterLabel>
+            <translation>Montana acte de fiducie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation>Hypothèque</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>S&apos;il y a des hypothèques antérieures sur cette garantie, définissez ce champ si un privilège antérieur est à composition non limitée. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Quelqu&apos;un est-il avant Lien à compositio</label>
+        <name>nSBA__Is_Any_Prior_Lien_Open_Ended__c</name>
+    </fields>
+    <fields>
+        <help>Indique si un privilège est financé par ce prêt?</help>
+        <label>-D est financé par ce prêt</label>
+        <name>nSBA__Is_Financed_With_This_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Est-locateurs renonciation requis. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Est requis locateurs renonciation</label>
+        <name>nSBA__Is_Landlords_Waiver_Required__c</name>
+    </fields>
+    <fields>
+        <help>Est Sans MGL L&apos;article 21 (e) est une ALTA ou une option hypothécaire Politique de prêt. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Est Sans MGL Section 21E</label>
+        <name>nSBA__Is_Without_MGL_Section_21e__c</name>
+    </fields>
+    <fields>
+        <help>Sans exceptions est standard (ALTA étendu) est une option politique de prêt ALTA. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Sans exceptions standard est</label>
+        <name>nSBA__Is_Without_Standard_Exceptions__c</name>
+    </fields>
+    <fields>
+        <help>Est sans enquête standard exception est une option politique prêt ALTA. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Est sans exception Standard Survey</label>
+        <name>nSBA__Is_Without_Standard_Survey_Exception__c</name>
+    </fields>
+    <fields>
+        <help>fiducie foncière montant de cessionnaires avant. Utilisez ce champ uniquement pour les privilèges en matière de cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Land Trust Avant cessionnaires Montant</label>
+        <name>nSBA__Land_Trust_Prior_Assignees_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Liste cessionnaires avant de fiducie foncière. Utilisez ce champ uniquement pour les privilèges en matière de cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Land Trust Avant cessionnaires</label>
+        <name>nSBA__Land_Trust_Prior_Assignees__c</name>
+    </fields>
+    <fields>
+        <help>fiducie foncière montant de titulaires de privilège avant. Utilisez ce champ uniquement pour les privilèges en matière de cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust. Ce champ est utilisé dans SBA prêt d&apos;autorisation seule</help>
+        <label>Land Trust Avant Montant titulaires de p</label>
+        <name>nSBA__Land_Trust_Prior_Lienholders_Amount__c</name>
+    </fields>
+    <fields>
+        <help>fiducie foncière de titulaires de privilège avant. Utilisez ce champ uniquement pour les privilèges en matière de cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Land Trust Avant titulaires de privilège</label>
+        <name>nSBA__Land_Trust_Prior_Lienholders__c</name>
+    </fields>
+    <fields>
+        <help>Nombre de jours pour Bailleur de fournir un avis écrit prêteur / SBA d&apos;intention de résilier le bail pour le défaut de l&apos;emprunteur et l&apos;occasion de guérir. Utilisez ce champ uniquement pour le type d&apos;intérêt Locataires des privilèges. Ce champ est u</help>
+        <label>Contrat de bail Résiliation jours de pré</label>
+        <name>nSBA__Lease_Agreement_Termination_Notice_Days__c</name>
+    </fields>
+    <fields>
+        <help>Entrez le nombre d&apos;années si la location doit être étendue au-dessus de la durée du prêt. Utilisez ce champ uniquement pour les privilèges sur les baux liés à la construction sur des terrains loués. Ce champ est utilisé dans SBA prêt d&apos;autorisation s</help>
+        <label>Durée de location de prêt plus Annees</label>
+        <name>nSBA__Leasehold_Term_Of_Loan_Plus_Years__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le prêteur doit provoquer acte pour être en mains tierces. Utilisez ce champ uniquement pour les privilèges sur l&apos;intérêt acheteur en Terre contrat de vente. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Prêteur doit Deed amener à être entiercé</label>
+        <name>nSBA__Lender_Must_Cause_Deed_To_Be_In_Escrow__c</name>
+    </fields>
+    <fields>
+        <help>Nom Preneur. Utilisez ce champ uniquement pour le type de liens d&apos;intérêt de Preneur. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>L&apos;intérêt pour le locataires Preneur Lea</label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessee__c</name>
+    </fields>
+    <fields>
+        <help>Nom Bailleur. Utilisez ce champ uniquement pour le type de liens d&apos;intérêt de Preneur. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>L&apos;intérêt pour le locataires Bailleur Le</label>
+        <name>nSBA__Lessees_Interest_In_The_Lease_Lessor__c</name>
+    </fields>
+    <fields>
+        <help>Ligne de crédit Montant maximum. Utilisez ce champ uniquement pour les hypothèques antérieures. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Ligne de crédit Montant maximum</label>
+        <name>nSBA__Line_Of_Credit_Maximum_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Ligne de crédit Montant actuel. Utilisez ce champ pour les privilèges antérieurs seulement. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Ligne de crédit Montant actuel</label>
+        <name>nSBA__Line_Of_Credit_Present_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Décrire la nature des intérêts et des montants. Utilisez ce champ uniquement pour les privilèges sur l&apos;acheteur ou vendeur d&apos;intérêt dans le contrat de vente des terres. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Nature des intérêts et des montants</label>
+        <name>nSBA__Nature_Of_Interests_And_Amounts__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si la politique Le titre doit créancier hypothécaire contient aucune exception pour les parties en possession. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;aut</help>
+        <label>Aucune exception pour les Parties en pos</label>
+        <name>nSBA__No_Exceptions_For_Parties_In_Possession__c</name>
+    </fields>
+    <fields>
+        <help>Prêteur doit obtenir un accord écrit de fournir avant titulaires de privilège prêteur avec ce nombre de jours de préavis écrit avant de commencer la forclusion de privilège avant. Utilisez ce champ uniquement pour les privilèges sur les types de gara</help>
+        <label>Avis Avant forclusion Accord</label>
+        <name>nSBA__Notice_Before_Foreclosure_Agreement__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la vérification écrite détenteurs de privilèges requis. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Une vérification écrite préalable titula</label>
+        <name>nSBA__Prior_Lienholders_Written_Verification__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ est défini sur true que si l&apos;intérêt de la sécurité des biens personnels est Puerto Rico hypothèque. Ce champ est utilisé dans les soumissions d&apos;autorisation de prêt SBA et E-Tran commençant par la version 5.</help>
+        <label>Puerto Rico hypothèque</label>
+        <name>nSBA__Puerto_Rico_Chattel_Mortgage__c</name>
+    </fields>
+    <fields>
+        <help>Nom de l&apos;acheteur dans l&apos;affectation des garanties (ou privilège sur) L&apos;intérêt de l&apos;acheteur en Terre contrat de vente. Utilisez ce champ uniquement pour les privilèges sur l&apos;acheteur ou vendeur d&apos;intérêt dans le contrat de vente des terres. Ce cham</help>
+        <label>Intérêt Acheteur contrat acheteurs</label>
+        <name>nSBA__Purchasers_Interest_Contract_Purchaser__c</name>
+    </fields>
+    <fields>
+        <help>Nom du vendeur dans l&apos;affectation des garanties (ou privilège sur) L&apos;intérêt de l&apos;acheteur en Terre contrat de vente. Utilisez ce champ uniquement pour les privilèges sur l&apos;acheteur ou vendeur d&apos;intérêt dans le contrat de vente des terres. Ce champ e</help>
+        <label>Vendeur intérêt acheteurs contrat</label>
+        <name>nSBA__Purchasers_Interest_Contract_Seller__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nSBA__Reality_And_Leaseholds_Option__c</name>
+        <picklistValues>
+            <masterLabel>Assignment of Beneficial Interest and Power of Direction in Land Trust</masterLabel>
+            <translation>Cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Purchaser’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Cession en garantie (ou privilège sur) L&apos;intérêt de l&apos;acheteur dans le contrat de vente des terres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Seller’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Cession en garantie (ou privilège sur) L&apos;intérêt du vendeur Land contrat de vente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative Apartment</masterLabel>
+            <translation>Appartement coopérative</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Instrument on Building Constructed on Leased Land</masterLabel>
+            <translation>Instrument leasehold sur le renforcement Construit sur un terrain loué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Security Interest in building on leased land</masterLabel>
+            <translation>Leasehold sécurité dans la construction d&apos;intérêt sur un terrain loué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold on Tribal Land</masterLabel>
+            <translation>Sur les terres tribales leasehold</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Assignment</masterLabel>
+            <translation>L&apos;intérêt de Preneur dans un contrat de location par cession</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Lien, Mortgage or Deed of Trust</masterLabel>
+            <translation>L&apos;intérêt de Preneur dans un contrat de location par Lien, hypothèque ou un acte de fiducie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lien On Land And Improvements</masterLabel>
+            <translation>Lien sur terre et améliorations</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Immobilier et options Leaseholds. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Immobilier et Leaseholds Option</label>
+        <name>nSBA__Realty_And_Leaseholds_Option__c</name>
+        <picklistValues>
+            <masterLabel>Assignment of Beneficial Interest and Power of Direction in Land Trust</masterLabel>
+            <translation>Cession d&apos;intérêt bénéficiaire et le pouvoir de direction en Land Trust</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Purchaser’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Cession en garantie (ou privilège sur) L&apos;intérêt de l&apos;acheteur dans le contrat de vente des terres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collateral Assignment of (or lien on) Seller’s Interest in Land Contract of Sale</masterLabel>
+            <translation>Cession en garantie (ou privilège sur) L&apos;intérêt du vendeur Land contrat de vente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cooperative Apartment</masterLabel>
+            <translation>Appartement coopérative</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Instrument on Building Constructed on Leased Land</masterLabel>
+            <translation>Instrument leasehold sur le renforcement Construit sur un terrain loué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold Security Interest in building on leased land</masterLabel>
+            <translation>Leasehold sécurité dans la construction d&apos;intérêt sur un terrain loué</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasehold on Tribal Land</masterLabel>
+            <translation>Sur les terres tribales leasehold</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Assignment</masterLabel>
+            <translation>L&apos;intérêt de Preneur dans un contrat de location par cession</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lessee’s Interest in a Lease by Lien, Mortgage or Deed of Trust</masterLabel>
+            <translation>L&apos;intérêt de Preneur dans un contrat de location par Lien, hypothèque ou un acte de fiducie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lien On Land And Improvements</masterLabel>
+            <translation>Lien sur terre et améliorations</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Avenants requis est une option politique prêt ALTA. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>MENTION rEQUISE</label>
+        <name>nSBA__Required_Endorsements__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le privilège est partagé avec les prêteurs non SBA prêt. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Partagée Lien avec les prêteurs non SBA</label>
+        <name>nSBA__Shared_Lien_With_Lenders_Non_SBA_Loan__c</name>
+    </fields>
+    <fields>
+        <help>Si le privilège est partagé avec un autre prêteur, ce domaine détient le privilège partagé Montant. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Partagé Lien avec d&apos;autres prêteur Monta</label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Si le privilège est partagé avec un autre prêteur, ce champ contient le nom du prêteur que le privilège est partagé. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Partagé Lien avec d&apos;autres le nom du prê</label>
+        <name>nSBA__Shared_Lien_With_Other_Lender_Name__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la déclaration de non-ferme est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Déclaration de non requis Homestead</label>
+        <name>nSBA__Statement_Of_Non_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indique si le pouvoir légal de vente Langue est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Pouvoir légal de vente Langue Req</label>
+        <name>nSBA__Statutory_Power_Of_Sale_Language_Req__c</name>
+    </fields>
+    <fields>
+        <help>Indique si prêteur enquête Certifiè est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Sondage certifié au prêteur requis</label>
+        <name>nSBA__Survey_Certified_To_Lender_Required__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si la politique Le titre doit créancier hypothécaire refléter le fait que tous les impôts et privilèges municipaux ont été mis en cours ou payé. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce cha</help>
+        <label>Taxes et municipales Curr Ou Liens payan</label>
+        <name>nSBA__Taxes_And_Municipal_Liens_Curr_Or_Paid__c</name>
+    </fields>
+    <fields>
+        <help>Vérifiez si la politique Titre est créancier hypothécaire sans exception à Homestead, Enquête ou taxes. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulem</help>
+        <label>WO Exception à l&apos;impôt Homestead enquête</label>
+        <name>nSBA__WO_Exception_To_Homestead_Survey_Taxes__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la renonciation de propriété familiale d&apos;affaires est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Renonciation aux affaires Homestead requ</label>
+        <name>nSBA__Waiver_Of_Business_Homestead_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la renonciation aux droits de rachat est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Renonciation aux droits de rachat requis</label>
+        <name>nSBA__Waiver_Of_Redemption_Rights_Required__c</name>
+    </fields>
+    <fields>
+        <help>Indique si la renonciation écrite de propriété familiale est nécessaire. Utilisez ce champ uniquement pour les privilèges sur les types de garanties immobilières. Ce champ est utilisé dans SBA prêt d&apos;autorisation seulement.</help>
+        <label>Renonciation écrite de Homestead requis</label>
+        <name>nSBA__Written_Waiver_Of_Homestead_Required__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

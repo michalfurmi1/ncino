@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Nom d&apos;attribut</label>
+        <name>LLC_BI__Attribute_Name__c</name>
+    </fields>
+    <fields>
+        <label>Attribut Valeur</label>
+        <name>LLC_BI__Attribute_Value__c</name>
+    </fields>
+    <fields>
+        <label>Historique du programme de produit</label>
+        <name>LLC_BI__Product_Program_History__c</name>
+        <relationshipLabel>Programme produit Histoire Détails</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Programme de produits</label>
+        <name>LLC_BI__Product_Program__c</name>
+        <relationshipLabel>Programme produit Histoire Détails</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

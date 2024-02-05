@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>Este campo almacena la clave de búsqueda que corresponde a una definición de la línea de productos dentro de la herramienta simplicidad de CSi.</help>
+        <label>Índice</label>
+        <name>CSiDP__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>lookupKey</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation>Negocio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation>Consumidor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Mortgage</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Horario modificación</label>
+        <name>LLC_BI__Interest_Accrual_Method__c</name>
+        <picklistValues>
+            <masterLabel>30_360</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>310</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>320</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_360</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_365</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_Actual</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>El número de tipos de productos no global con al menos 1 producto que se relacionan con la línea de productos.</help>
+        <label>Tipo de Cuenta Plan de Recon</label>
+        <name>LLC_BI__Non_Global_Product_Type_Count__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione el objeto de que este producto se relaciona con.</help>
+        <label>Por favor, explique por qué elige el otr</label>
+        <name>LLC_BI__Product_Object__c</name>
+        <picklistValues>
+            <masterLabel>Deposit__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Deposit__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Loan__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_Service__c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Por favor, introduzca un régimen de modi</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

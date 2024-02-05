@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Estadística</label>
+        <name>LLC_BI__Classification__c</name>
+        <relationshipLabel>drivers</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valor de divisas para el campo de las es</label>
+        <name>LLC_BI__Spread_Projections_Template__c</name>
+        <relationshipLabel>drivers</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha valor para el campo de las estadís</label>
+        <name>LLC_BI__Spread_Statement_Record_Value__c</name>
+        <relationshipLabel>Conductor</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valor para el campo Número estadísticas</label>
+        <name>LLC_BI__Spread_Statement_Record__c</name>
+        <relationshipLabel>drivers</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Valor porcentual para el campo de las es</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Dollar Amount Change</masterLabel>
+            <translation>Cantidad en dólares Cambio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Change</masterLabel>
+            <translation>Ningún cambio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Amount Change</masterLabel>
+            <translation>Porcentaje Monto Cambio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent of Revenue</masterLabel>
+            <translation>Porcentaje de Ingresos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>valor de texto</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label>valor de la moneda</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

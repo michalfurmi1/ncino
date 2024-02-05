@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Amount_Financed__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione la fecha en que se tomó la acción. Por ejemplo, la fecha en que el préstamo se originó, solicitud denegada, Préstamo comprados, etc.</help>
+        <label>Escenario suma Duración Excluidos Horas</label>
+        <name>LLC_BI__Date_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <help>Si la fecha de recepción de la solicitud no se aplica al préstamo, por favor, no seleccione una fecha.</help>
+        <label>Escenario suma Duración Horas</label>
+        <name>LLC_BI__Date_Application_Received__c</name>
+    </fields>
+    <fields>
+        <label>Minutos Duración suma Escenario</label>
+        <name>LLC_BI__Date_Rate_Set__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Finance_Charge__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_APOR_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_APOR_Test__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_APOR__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_Calculation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HCM_Points_And_Fees_Test__c</name>
+    </fields>
+    <fields>
+        <help>Si &quot;Otro&quot; es seleccionado como uno de los sistemas de aseguramiento Resultados automatizados, este campo le permite especificar los resultados del sistema.</help>
+        <label>Suma Etapa Duración horario no comercial</label>
+        <name>LLC_BI__HMDA_AUS_Other_Result_Text__c</name>
+    </fields>
+    <fields>
+        <help>Si &quot;Otro&quot; es seleccionado como uno de los sistemas automatizado de suscripción, este campo permite especificar el sistema.</help>
+        <label>Total de Minutos Etapa Duración excluido</label>
+        <name>LLC_BI__HMDA_AUS_Other_System_Text__c</name>
+    </fields>
+    <fields>
+        <help>Este campo indica el resultado (s) generada por el sistema automatizado de suscripción (AUS). (Hasta 5 opciones pueden ser seleccionados)</help>
+        <label>Etapa Duración total Inhábil minutos</label>
+        <name>LLC_BI__HMDA_AUS_Result__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Aprobar / Elegible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>Inelegible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation>Incompleto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation>Inválido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation>Referir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation>Elegible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation>Incapaz de determinar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Aprobar / no elegibles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Consulte / Elegible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Consulte / no elegibles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Consulte con precaución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>Fuera del ámbito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>Aceptar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation>Precaución</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Historia de Oportunidades</label>
+        <name>LLC_BI__HMDA_AUS__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Underwriter escritorio (DU)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Préstamo Prospector (LP)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Tecnología abierta al cuadro de mando prestamistas aprobados (TOTAL)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Sistema de Aseguramiento garantizado (GUS)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Situado en Código - Mantiene la suma de</label>
+        <name>LLC_BI__HMDA_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>préstamo originado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Solicitud aprobada, pero no aceptó</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>solicitud denegada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Solicitud retirada por el solicitante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>Archivo cerrado por incompleto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>préstamo comprado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>La aprobación previa petición negada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>La aprobación previa petición aprobada pero no aceptados</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Suma Etapa Duración días no laborables</label>
+        <name>LLC_BI__HMDA_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Usuario</label>
+        <name>LLC_BI__HMDA_Balloon_Payment__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Pago global</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Sin pago global</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Historia de Oportunidades</label>
+        <name>LLC_BI__HMDA_Business_Or_Commercial_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Sobre todo para un negocio o propósito comercial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No es principalmente para un negocio o propósito comercial</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Is_Product_For_Pricing</label>
+        <name>LLC_BI__HMDA_Co_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>Utilice cifras decimales sólo si la relación se basó en los usos cifras decimales.</help>
+        <label>Oportunidad</label>
+        <name>LLC_BI__HMDA_Combined_LTV__c</name>
+    </fields>
+    <fields>
+        <help>Ingrese NA de los préstamos adquiridos, cuando se tomó ninguna decisión de crédito (cerrado de lo incompleto), n DTI invocada, Solicitante y co-solicitante son ambas personas no naturales.</help>
+        <label>Línea de producto</label>
+        <name>LLC_BI__HMDA_Debt_To_Income_Ratio__c</name>
+    </fields>
+    <fields>
+        <help>Es posible introducir hasta 50 caracteres para enumerar la otra razón por la negación.</help>
+        <label>Producto</label>
+        <name>LLC_BI__HMDA_Denial_Reason_Text__c</name>
+    </fields>
+    <fields>
+        <label>Código nCino</label>
+        <name>LLC_BI__HMDA_Denial_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Deuda-ingreso relación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>historial de empleo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Historial de crédito</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Colateral</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>insuficiente efectivo (pago inicial, costos de cierre)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>la información no verificable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>solicitud de crédito incompleta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>El seguro de hipoteca negó</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si no se pagaron puntos, deje este campo en blanco.</help>
+        <label>Rellenar este campo con el código de fun</label>
+        <name>LLC_BI__HMDA_Discount_Points__c</name>
+    </fields>
+    <fields>
+        <label>Es la persona autorizada</label>
+        <name>LLC_BI__HMDA_HOEPA_Status__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>hipoteca de alto costo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No es una hipoteca de alto costo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Es requerido</label>
+        <name>LLC_BI__HMDA_Initially_Payable_To__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Inicialmente a nombre de su institución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No inicialmente a nombre de su institución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de estructura de propiedad</label>
+        <name>LLC_BI__HMDA_Interest_Only_Payments__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>pagos de interés solamente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No hay pagos de interés solamente</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Roles estructura de propiedad</label>
+        <name>LLC_BI__HMDA_Legal_Entity_Identifier__c</name>
+    </fields>
+    <fields>
+        <help>Si no se proporcionaron créditos prestamista, deje este campo en blanco.</help>
+        <label>Tipo de relación</label>
+        <name>LLC_BI__HMDA_Lender_Credits__c</name>
+    </fields>
+    <fields>
+        <help>Por cada préstamo originado o aplicación, informar si el préstamo está garantizado por una primera o subordinado derecho de retención sobre una vivienda o no está asegurada por una vivienda.</help>
+        <label>Código nCino</label>
+        <name>LLC_BI__HMDA_Lien_Status__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Asegurado por un primer gravamen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Avalado por un derecho subordinado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No asegurado por un gravamen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>No aplicable (préstamos comprados)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Descripción</label>
+        <name>LLC_BI__HMDA_Loan_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>compra de vivienda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Mejoras para el hogar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Mejoras para el hogar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31</masterLabel>
+            <translation>Refinanciación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32</masterLabel>
+            <translation>Salida de efectivo de refinanciación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>otro objetivo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Introduzca una descripción de los otros</label>
+        <name>LLC_BI__HMDA_Loan_Type__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Convencional (no asegurado o garantizado por la FHA, VA, RHS, o FSA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Administración de Vivienda Federal asegurado (FHA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Administración de Veteranos garantizado (VA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Servicio de Vivienda Rural del USDA o agencia de servicio agrícola garantizado (RHS o FSA)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de ejercicio</label>
+        <name>LLC_BI__HMDA_Negative_Amortization__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>La amortización negativa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Sin amortización negativa</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Seleccione si el poder de los abogados p</label>
+        <name>LLC_BI__HMDA_Open_End_Line_Of_Credit__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>de fin de línea de crédito abierta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No es una línea de extremo abierto del crédito</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si la cantidad es cero, introduzca 0.</help>
+        <label>Formulario de Poder de Abogado Indicador</label>
+        <name>LLC_BI__HMDA_Origination_Charges__c</name>
+    </fields>
+    <fields>
+        <label>Código nCino</label>
+        <name>LLC_BI__HMDA_Other_Non_Amortizing_Features__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Otras características que no esté totalmente amortizados</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No hay otras características que no esté totalmente amortizados</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rellenar este campo con el código de fun</label>
+        <name>LLC_BI__HMDA_Preapproval_Requested__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Se solicitó preapproval</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>no se ha solicitado la pre-aprobación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si la dirección de la propiedad es desconocida, por favor escribe &apos;NA&apos;.</help>
+        <label>Indicador personal duradero Agente</label>
+        <name>LLC_BI__HMDA_Property_Securing_Address__c</name>
+    </fields>
+    <fields>
+        <label>relación Descripción</label>
+        <name>LLC_BI__HMDA_Property_Securing_Affordable_Units__c</name>
+    </fields>
+    <fields>
+        <help>No utilice decimales. Si la dirección de la propiedad es desconocida, por favor escribe &apos;NA&apos;.</help>
+        <label>Introduzca la descripción de la relación</label>
+        <name>LLC_BI__HMDA_Property_Securing_Census_Tract__c</name>
+    </fields>
+    <fields>
+        <help>Si la dirección de la propiedad es desconocida, por favor escribe &apos;NA&apos;.</help>
+        <label>Este campo es necesario con el fin de ut</label>
+        <name>LLC_BI__HMDA_Property_Securing_City__c</name>
+    </fields>
+    <fields>
+        <label>Este campo es necesario con el fin de ut</label>
+        <name>LLC_BI__HMDA_Property_Securing_Construct_Method__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Construida en el sitio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>fabricado Inicio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>No utilice comas. Si la dirección de la propiedad es desconocida, por favor escribe &apos;NA&apos;.</help>
+        <label>Categoría</label>
+        <name>LLC_BI__HMDA_Property_Securing_FIPS_County_Code__c</name>
+    </fields>
+    <fields>
+        <help>Si el número de cinco dígitos área estadística metropolitana (MSA) o el número de la división metropolitana de cinco dígitos (MD), no es aplicable, introduzca NA.</help>
+        <label>Descripción</label>
+        <name>LLC_BI__HMDA_Property_Securing_MSA_MD_Number__c</name>
+    </fields>
+    <fields>
+        <label>Código Mapeo CSi</label>
+        <name>LLC_BI__HMDA_Property_Securing_Manufactured_Type__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>casa prefabricada y la tierra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Fabricado en casa y no la tierra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Este campo es necesario con el fin de ut</label>
+        <name>LLC_BI__HMDA_Property_Securing_Mfd_Home_Int__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>La propiedad directa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>La propiedad indirecta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Se traspasa pagado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>Se traspasa sin pagar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>La exposición actual de participantes</label>
+        <name>LLC_BI__HMDA_Property_Securing_Occupancy_Type__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Residencia principal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>segunda residencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Propiedad de inversión</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Saldo actual * Porcentaje Participar</label>
+        <name>LLC_BI__HMDA_Property_Securing_Occupancy__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Ocupadas por sus propietarios como vivienda principal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No ocupada por el propietario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Acuerdo</label>
+        <name>LLC_BI__HMDA_Property_Securing_Property_Type__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Uno a cuatro familias (que no sean viviendas prefabricadas)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>Las viviendas prefabricadas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>Multifamiliar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>participaciones</label>
+        <name>LLC_BI__HMDA_Property_Securing_Property_Value__c</name>
+    </fields>
+    <fields>
+        <help>Si la dirección de la propiedad es desconocida, por favor escribe &apos;NA&apos;.</help>
+        <label>Monto asignado</label>
+        <name>LLC_BI__HMDA_Property_Securing_State__c</name>
+    </fields>
+    <fields>
+        <label>Monto del compromiso</label>
+        <name>LLC_BI__HMDA_Property_Securing_Total_Units__c</name>
+    </fields>
+    <fields>
+        <help>Si la dirección de la propiedad es desconocida, por favor escribe &apos;NA&apos;.</help>
+        <label>Monto GTD</label>
+        <name>LLC_BI__HMDA_Property_Securing_Zip__c</name>
+    </fields>
+    <fields>
+        <help>Si usted vende un préstamo en el mismo año natural en el que fue originado o comprado, debe identificar el tipo de comprador. Si usted no vende el préstamo durante el mismo año calendario o si no se tradujo en una originación de préstamos, introduzca</help>
+        <label>Es Mi institución financiera</label>
+        <name>LLC_BI__HMDA_Purchaser_Type__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>titularizador privada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>bancos comerciales, cajas de ahorros, o asociación de ahorros</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>compañía de seguros de vida, unión de crédito, el banco de hipoteca, o compañía financiera</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>71</masterLabel>
+            <translation>cooperativa de crédito, compañía de hipoteca, o compañía financiera</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>72</masterLabel>
+            <translation>compañía de seguros de vida</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>institución de afiliación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation>Otro tipo de comprador</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>participaciones</label>
+        <name>LLC_BI__HMDA_Reverse_Mortgage__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Hipoteca opuesta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No es una hipoteca inversa</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Partícipe</label>
+        <name>LLC_BI__HMDA_Submission_Of_Application__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>Enviado directamente a su institución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>No se ha enviado directamente a su institución</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>No aplica</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>participaciones</label>
+        <name>LLC_BI__HMDA_Total_Loan_Costs__c</name>
+    </fields>
+    <fields>
+        <help>Si la cantidad es cero, introduzca 0.</help>
+        <label>Participó%</label>
+        <name>LLC_BI__HMDA_Total_Points_Fees__c</name>
+    </fields>
+    <fields>
+        <help>El ULI comienza con la institución financiera de Entidad Legal Identificador. Sigue a la Persona Jurídica identificador de hasta 23 caracteres adicionales para identificar el préstamo o aplicacion. Termina con un dígito de control de dos caracteres q</help>
+        <label>participaciones</label>
+        <name>LLC_BI__HMDA_Universal_Loan_Identifier__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HPML_APOR_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HPML_APOR__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__HPML_Calculation_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Interest_Charge__c</name>
+    </fields>
+    <fields>
+        <help>Números calculados hasta más allá de tres lugares (3) decimales pueden o bien ser reportados más allá de tres (3) decimales o redondeado o truncado a tres (3) decimales. Decimales lugar ceros pueden ser incluidos u omitidos.</help>
+        <label>Monto UNGTD</label>
+        <name>LLC_BI__Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <label>La exposición original del participante</label>
+        <name>LLC_BI__Introductory_Rate_Period__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_HCM__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_HPML__c</name>
+    </fields>
+    <fields>
+        <label>Participación porcentual * Monto del pré</label>
+        <name>LLC_BI__Loan_Id__c</name>
+    </fields>
+    <fields>
+        <label>Papel</label>
+        <name>LLC_BI__Loan_Term__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Cumplimientos de préstamos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Frecuencia</label>
+        <name>LLC_BI__Mortgage_LO_NMLSR_Id__c</name>
+    </fields>
+    <fields>
+        <help>Enter &quot;NA&quot; si el requisito de informar término de penalización de prepago no se aplica al préstamo cubierto o aplicación que su institución está informando.</help>
+        <label>Número de ocurrencias por año.</label>
+        <name>LLC_BI__Prepayment_Penalty_Term__c</name>
+    </fields>
+    <fields>
+        <help>Introducir, en porcentaje, de al menos tres (3) decimales. Números calculados hasta más allá de tres lugares (3) decimales pueden o bien ser reportados más allá de tres (3) decimales o redondeado o truncado a tres (3) decimales.</help>
+        <label>Generado</label>
+        <name>LLC_BI__Rate_Spread__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Total_Points_And_Fees__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+    <recordTypes>
+        <description>Historial de cumplimiento HMDA, utilizando reglas efectiva a partir de 2017</description>
+        <label>HMDA-efectivo-2017</label>
+        <name>LLC_BI__HMDA_Effective_2017</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Historial de cumplimiento HMDA, utilizando reglas efectiva a partir de 2018</description>
+        <label>HMDA-efectivo-2018</label>
+        <name>LLC_BI__HMDA_Effective_2018</name>
+    </recordTypes>
+</CustomObjectTranslation>

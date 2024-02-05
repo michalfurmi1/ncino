@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Dejar en blanco o introduzca cada factor en una nueva línea en | formato delimitado: \ n \ nContext API Objeto Nombre | Contexto Campo API Nombre | El valor para que coincida con \ nContext API Objeto Nombre | Contexto Campo API Nombre | Otro valor p</help>
+        <label>Inactivo</label>
+        <name>LLCLP__Factors__c</name>
+    </fields>
+    <fields>
+        <label>Obsoleta a Instructions_Text__c</label>
+        <name>LLCLP__Group__c</name>
+    </fields>
+    <fields>
+        <label>es editable</label>
+        <name>LLCLP__Object_Name__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

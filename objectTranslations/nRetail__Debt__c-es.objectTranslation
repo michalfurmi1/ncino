@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Nombre de contacto</label>
+        <name>nRetail__Account__c</name>
+        <relationshipLabel>Deudas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Estates inmuebles de propiedad</label>
+        <name>nRetail__Available_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Hipoteca monto del pago por mes Yr</label>
+        <name>nRetail__Contact__c</name>
+        <relationshipLabel>Deudas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>saldo de la hipoteca</label>
+        <name>nRetail__Debt_Type__c</name>
+        <picklistValues>
+            <masterLabel>Monthly Auto/Lease Payments</masterLabel>
+            <translation>Los pagos mensuales / Auto Lease</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Child Support Payments</masterLabel>
+            <translation>Los pagos mensuales de manutención infantil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Credit Card Payments</masterLabel>
+            <translation>Los pagos con tarjeta de crédito mensuales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Student Loan Payments</masterLabel>
+            <translation>Los pagos mensuales del préstamo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Monthly Installment</masterLabel>
+            <translation>Otros Cuota Mensual</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Excluir</label>
+        <name>nRetail__Exclude__c</name>
+    </fields>
+    <fields>
+        <help>Introducir una breve descripción de la razón por la deuda fue excluido de los cálculos totales.</help>
+        <label>Número de cuenta Titular de la hipoteca</label>
+        <name>nRetail__Excluded_Reason__c</name>
+    </fields>
+    <fields>
+        <label>Titular de la hipoteca City</label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel>Deudas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nombre del titular de la hipoteca</label>
+        <name>nRetail__Maturity_Date__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del titular de la hipoteca</label>
+        <name>nRetail__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label>Estado titular de la hipoteca</label>
+        <name>nRetail__New_Debt__c</name>
+    </fields>
+    <fields>
+        <label>código de estado para el titular de la h</label>
+        <name>nRetail__New_Loan__c</name>
+    </fields>
+    <fields>
+        <label>Calle titular de la hipoteca</label>
+        <name>nRetail__Original_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nRetail__Pricing_Option__c</name>
+        <relationshipLabel>Deudas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>CP titular de la hipoteca</label>
+        <name>nRetail__Principal_Balance__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

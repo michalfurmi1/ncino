@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Numéro de compte</label>
+        <name>LLC_BI__Account_Number__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le code de type de compte, ce qui indique le type de prêt consenti par le créancier à l&apos;emprunteur.</help>
+        <label>Code de compte de type</label>
+        <name>LLC_BI__Account_Type_Code__c</name>
+    </fields>
+    <fields>
+        <label>Compte</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>Dettes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Montant disponible</label>
+        <name>LLC_BI__Available_Amount__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>Dettes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le nombre de fois le paiement de l&apos;emprunteur était 30-59 jours après l&apos;échéance.</help>
+        <label>Comptez 30 jours Echues</label>
+        <name>LLC_BI__Count_30_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le nombre de fois le paiement de l&apos;emprunteur était 60-89 jours après l&apos;échéance.</help>
+        <label>Compter 60 jours Echues</label>
+        <name>LLC_BI__Count_60_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le nombre de fois le paiement de l&apos;emprunteur est de 90 jours ou plus en souffrance.</help>
+        <label>Comptez 90 jours</label>
+        <name>LLC_BI__Count_90_Days_Past_Due__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le code de l&apos;industrie du créancier.</help>
+        <label>Code de l&apos;industrie des pays créanciers</label>
+        <name>LLC_BI__Creditor_Industry_Code__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le code membre de l&apos;abonné de crédit.</help>
+        <label>Nombre créanciers</label>
+        <name>LLC_BI__Creditor_Number__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le code d&apos;état actuel, ce qui indique l&apos;état actuel du compte.</help>
+        <label>Code d&apos;état actuel</label>
+        <name>LLC_BI__Current_Status_Code__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de date facultative à la date à laquelle l&apos;emprunteur fait leur dernier paiement mensuel.</help>
+        <label>Date du dernier paiement</label>
+        <name>LLC_BI__Date_Of_Last_Payment__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de date en option avec la date d&apos;ouverture du compte.</help>
+        <label>Date d&apos;ouverture</label>
+        <name>LLC_BI__Date_Opened__c</name>
+    </fields>
+    <fields>
+        <label>Type de dette</label>
+        <name>LLC_BI__Debt_Type__c</name>
+        <picklistValues>
+            <masterLabel>Monthly Auto/Lease Payments</masterLabel>
+            <translation>Auto / paiements de location mensuels</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Child Support Payments</masterLabel>
+            <translation>Les paiements de pensions alimentaires pour enfants du mois</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Credit Card Payments</masterLabel>
+            <translation>Les paiements mensuels de carte de crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Student Loan Payments</masterLabel>
+            <translation>Les paiements mensuels de prêts aux étudiants</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Monthly Installment</masterLabel>
+            <translation>Autres Mensualité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposed Loan</masterLabel>
+            <translation>prêt proposé</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Exclure</label>
+        <name>LLC_BI__Exclude__c</name>
+    </fields>
+    <fields>
+        <help>Entrez une brève description de la raison pour laquelle a été exclu de la dette des calculs totaux.</help>
+        <label>Raison exclus</label>
+        <name>LLC_BI__Excluded_Reason__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;exposition</label>
+        <name>LLC_BI__Exposure_Type__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ facultatif de devises avec le montant le plus élevé jamais dû sur le compte ou le solde initial.</help>
+        <label>Montant de crédit élevé</label>
+        <name>LLC_BI__High_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <label>Prêt</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Dettes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Date d&apos;échéance</label>
+        <name>LLC_BI__Maturity_Date__c</name>
+    </fields>
+    <fields>
+        <label>Paiement mensuel</label>
+        <name>LLC_BI__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Months_Left_To_Pay__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ facultatif avec le nombre de mois l&apos;historique de paiement de l&apos;emprunteur a été examiné.</help>
+        <label>mois Avis</label>
+        <name>LLC_BI__Months_Reviewed__c</name>
+    </fields>
+    <fields>
+        <label>nouvelle dette</label>
+        <name>LLC_BI__New_Debt__c</name>
+    </fields>
+    <fields>
+        <label>nouveau prêt</label>
+        <name>LLC_BI__New_Loan__c</name>
+    </fields>
+    <fields>
+        <label>Montant demandé</label>
+        <name>LLC_BI__Original_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ facultatif de devises avec le montant que l&apos;emprunteur a passé en raison du compte.</help>
+        <label>Montant dû passé</label>
+        <name>LLC_BI__Past_Due_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le modèle de paiement de l&apos;emprunteur.</help>
+        <label>Motif de paiement</label>
+        <name>LLC_BI__Payment_Pattern__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Payoff_With_Proceeds__c</name>
+    </fields>
+    <fields>
+        <label>Solde en capital</label>
+        <name>LLC_BI__Principal_Balance__c</name>
+    </fields>
+    <fields>
+        <label>Détail de l’offre</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Dettes</relationshipLabel>
+    </fields>
+    <fields>
+        <label>date de rapporté</label>
+        <name>LLC_BI__Reported_Date__c</name>
+    </fields>
+    <fields>
+        <help>Le système renseigne ce champ de texte en option avec le terme durée de l&apos;obligation financière.</help>
+        <label>Conditions Durée</label>
+        <name>LLC_BI__Terms_Duration__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

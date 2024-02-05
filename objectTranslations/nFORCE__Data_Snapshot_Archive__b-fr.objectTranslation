@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>contexte Id</label>
+        <name>nFORCE__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>Instantané</label>
+        <name>nFORCE__Data_Snapshot__c</name>
+        <relationshipLabel>Archive Snapshot</relationshipLabel>
+    </fields>
+    <fields>
+        <label>API champ Nom Hash</label>
+        <name>nFORCE__Field_API_Name_Hash__c</name>
+    </fields>
+    <fields>
+        <label>Nom de l&apos;API champ</label>
+        <name>nFORCE__Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label>Détails terrain</label>
+        <name>nFORCE__Field_Details__c</name>
+    </fields>
+    <fields>
+        <label>Ordre des champs</label>
+        <name>nFORCE__Field_Order__c</name>
+    </fields>
+    <fields>
+        <label>Type de champ</label>
+        <name>nFORCE__Field_Type__c</name>
+    </fields>
+    <fields>
+        <label>champ Valeur</label>
+        <name>nFORCE__Field_Value__c</name>
+    </fields>
+    <fields>
+        <label>est-ce Encrypted</label>
+        <name>nFORCE__Is_Encrypted__c</name>
+    </fields>
+    <fields>
+        <label>Est lié</label>
+        <name>nFORCE__Is_Related__c</name>
+    </fields>
+    <fields>
+        <label>Index numérique</label>
+        <name>nFORCE__Numeric_Index__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;objet</label>
+        <name>nFORCE__Object_Type__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Cambio en la cantidad</label>
+        <name>LLC_BI__Amount_Change__c</name>
+    </fields>
+    <fields>
+        <label>Cantidad</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Hora de comienzo</label>
+        <name>LLC_BI__Change_Time__c</name>
+    </fields>
+    <fields>
+        <label>Depósito</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>Historial de oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Hora de finalización</label>
+        <name>LLC_BI__End_Time__c</name>
+    </fields>
+    <fields>
+        <help>Establecer en código - Indica la entrada final para una única etapa para un crédito en particular.</help>
+        <label>Cambio en la etapa final</label>
+        <name>LLC_BI__Final_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label>Está registrado</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>Está cerrado</label>
+        <name>LLC_BI__Is_Closed__c</name>
+    </fields>
+    <fields>
+        <label>Está excluido de la duración de la etapa</label>
+        <name>LLC_BI__Is_Excluded_From_Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Crédito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Historial de oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID de oportunidad</label>
+        <name>LLC_BI__OpportunityId__c</name>
+    </fields>
+    <fields>
+        <label>Duración de la etapa anterior, excluyend</label>
+        <name>LLC_BI__Previous_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Establecer en código - Mantiene la duración en minutos de la etapa anterior para su etapa de un único crédito.</help>
+        <label>Duración de la etapa anterior, minutos</label>
+        <name>LLC_BI__Previous_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Establecer en código - Mantiene duración en minutos de la etapa anterior para su etapa de un único crédito (solo en horas no laborables).</help>
+        <label>Duración de la etapa anterior, minutos n</label>
+        <name>LLC_BI__Previous_Stage_Duration_Non_Business_Min__c</name>
+    </fields>
+    <fields>
+        <label>Paquete de productos</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Historial de oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Duración del registro, excluyendo minuto</label>
+        <name>LLC_BI__Record_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Nombre de la etapa</label>
+        <name>LLC_BI__StageName__c</name>
+    </fields>
+    <fields>
+        <label>Etapa y estado</label>
+        <name>LLC_BI__Stage_And_Status__c</name>
+    </fields>
+    <fields>
+        <label>Cambio de etapa</label>
+        <name>LLC_BI__Stage_Change__c</name>
+    </fields>
+    <fields>
+        <help>Establecer en código - Mantiene las horas de la duración de la etapa para cada entrada de la etapa para un único crédito.</help>
+        <label>Horas de duración del registro</label>
+        <name>LLC_BI__Stage_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Establecer en código - Mantiene los minutos de la duración de la etapa para cada entrada de la etapa para un único crédito.</help>
+        <label>Minutos de duración del registro</label>
+        <name>LLC_BI__Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Duración del registro, minutos no labora</label>
+        <name>LLC_BI__Stage_Duration_Non_Business_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Días de duración del registro</label>
+        <name>LLC_BI__Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del estado</label>
+        <name>LLC_BI__StatusName__c</name>
+    </fields>
+    <fields>
+        <label>Cambio de estado</label>
+        <name>LLC_BI__Status_Change__c</name>
+    </fields>
+    <fields>
+        <help>Establecer en código - Mantiene la suma de los días de duración de la etapa para cada cambio en la etapa final para un único crédito.</help>
+        <label>Suma de la duración de la etapa en días</label>
+        <name>LLC_BI__Sum_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label>Suma de la duración de la etapa, excluye</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Days__c</name>
+    </fields>
+    <fields>
+        <label>Suma de la duración de la etapa, excluye</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Hours__c</name>
+    </fields>
+    <fields>
+        <label>Suma de la duración de la etapa, excluye</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Establecer en código - Mantiene la suma de las horas de duración de la etapa para cada cambio en la etapa final para un único crédito.</help>
+        <label>Suma de la duración de la etapa en horas</label>
+        <name>LLC_BI__Sum_Stage_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Establecer en código - Mantiene la suma de los minutos de duración de la etapa para cada cambio en la etapa final para un único crédito.</help>
+        <label>Suma de la duración de la etapa en minut</label>
+        <name>LLC_BI__Sum_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Suma de la duración de la etapa, días no</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Days__c</name>
+    </fields>
+    <fields>
+        <label>Suma de la duración de la etapa, horas n</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Hours__c</name>
+    </fields>
+    <fields>
+        <label>Suma de la duración de la etapa, minutos</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Duración total de la etapa, excluyendo m</label>
+        <name>LLC_BI__Total_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Duración total de la etapa en minutos</label>
+        <name>LLC_BI__Total_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Duración total de la etapa, minutos no l</label>
+        <name>LLC_BI__Total_Stage_Duration_Non_Business_Min__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de tesorería</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel>Historia de Oportunidades</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Usuario</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel>Historia de Oportunidades</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

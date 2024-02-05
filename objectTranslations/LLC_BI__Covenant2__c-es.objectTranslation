@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Habilitar Documentos Portal</label>
+        <name>Covenant_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label>El sistema rellena automáticamente esta</label>
+        <name>Days_Until_Evaluation__c</name>
+    </fields>
+    <fields>
+        <label>Excluir Divulgación de cuenta de transac</label>
+        <name>Default_App__c</name>
+    </fields>
+    <fields>
+        <label>Activo</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>Comentarios</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>Días hasta el limite de cumplimiento</label>
+        <name>LLC_BI__Compliance_Days_Prior__c</name>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Consulta del tipo de cláusula</help>
+        <label>Tipo de cláusula</label>
+        <name>LLC_BI__Covenant_Type__c</name>
+        <relationshipLabel>Gestión de cláusulas</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Número de días que han pasado desde la fecha de la próxima evaluación.</help>
+        <label>Días pasados desde la siguiente evaluaci</label>
+        <name>LLC_BI__Days_Past_Next_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help>Número de días hasta la fecha de la próxima evaluación.</help>
+        <label>Días hasta la próxima evaluación</label>
+        <name>LLC_BI__Days_Until_Next_Evaluation__c</name>
+    </fields>
+    <fields>
+        <help>Use este campo para añadir información sobre la cláusula.</help>
+        <label>Información</label>
+        <name>LLC_BI__Detail__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de entrada en vigor</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>Valor del indicador financiero</label>
+        <name>LLC_BI__Financial_Indicator_Value__c</name>
+    </fields>
+    <fields>
+        <label>Frecuencia meses</label>
+        <name>LLC_BI__Frequency_Months__c</name>
+    </fields>
+    <fields>
+        <label>Frecuencia</label>
+        <name>LLC_BI__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>Anual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Months</masterLabel>
+            <translation>Cada 2 meses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>Mensual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>Trimestral</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>Semestral</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Si es verdad se aplicó una tasa inicial</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>Fecha de la última evaluación</label>
+        <name>LLC_BI__Last_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Estado de la última evaluación</label>
+        <name>LLC_BI__Last_Evaluation_Status__c</name>
+    </fields>
+    <fields>
+        <help>La Declaración de propagación de grabación total (grupo) este indicador Ratio Financiero hace referencia para el cumplimiento.</help>
+        <label>Número Período tasa inicial</label>
+        <name>LLC_BI__Linked_Spread_Statement_Record_Total__c</name>
+        <relationshipLabel>Gestión de cláusulas</relationshipLabel>
+    </fields>
+    <fields>
+        <help>La Declaración de propagación registro (fila) este indicador Ratio Financiero hace referencia para el cumplimiento.</help>
+        <label>Registro del informe del análisis financ</label>
+        <name>LLC_BI__Linked_Spread_Statement_Record__c</name>
+        <relationshipLabel>Gestión de cláusulas</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Fecha de la próxima evaluación</label>
+        <name>LLC_BI__Next_Evaluation_Date__c</name>
+    </fields>
+    <fields>
+        <label>Notas</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <help>Este campo se utiliza para relacionar las cláusulas de los indicadores financieros con las cláusulas de requisitos de los informes financieros. Cuando una cláusula de los requisitos del informe financiero pasa a ser una excepción, todas las cláusulas del</help>
+        <label>Cláusula relacionada</label>
+        <name>LLC_BI__Related_Covenant__c</name>
+        <relationshipLabel>Gestión de cláusulas</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo indica si una cláusula es o no necesaria.</help>
+        <label>Necesario</label>
+        <name>LLC_BI__Required__c</name>
+    </fields>
+    <fields>
+        <label>Si esto es cierto se utiliza un margen e</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>Servicio de tesorería</label>
+        <name>Treasury_Service__c</name>
+        <relationshipLabel>pactos</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

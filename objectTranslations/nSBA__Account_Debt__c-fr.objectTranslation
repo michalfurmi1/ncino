@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Compte</label>
+        <name>nSBA__Account__c</name>
+        <relationshipLabel>SAAD</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Montant du prêt</help>
+        <label>Montant du prêt</label>
+        <name>nSBA__Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Durée du prêt en mois</help>
+        <label>Mois prêt à terme</label>
+        <name>nSBA__Loan_Term_Months__c</name>
+    </fields>
+    <fields>
+        <help>SBA Date d&apos;approbation</help>
+        <label>SBA Date d&apos;approbation</label>
+        <name>nSBA__SBA_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <help>SBA Garantie Pourcentage</help>
+        <label>SBA Garantie Pourcentage</label>
+        <name>nSBA__SBA_Guaranty_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>SBA prêt Numéro</help>
+        <label>SBA prêt Numéro</label>
+        <name>nSBA__SBA_Loan_Number__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

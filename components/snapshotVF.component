@@ -1,0 +1,11 @@
+<apex:component layout="none" allowDML="true" controller="snapshotController">
+    <apex:form id="theform"> 
+        <apex:commandButton action="{!createSnapShot}" value="Click here to grab your Snapshot link." reRender="theform"/>
+        <br/>
+        <br/>
+     	<apex:outputText value="{!finalURL}"/>
+        <br/>
+        <br/>
+        <apex:commandButton value="Click here to navigate to Forms Manager" onclick="window.open('/lightning/n/nFORMS__FormManager')" reRender="theForm"/>
+ 	</apex:form>
+</apex:component>

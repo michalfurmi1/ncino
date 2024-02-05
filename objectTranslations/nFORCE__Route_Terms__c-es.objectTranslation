@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Seis guión de recursos</label>
+        <name>nFORCE__Agreement_Text__c</name>
+    </fields>
+    <fields>
+        <label>Un recurso estático Javascript para carg</label>
+        <name>nFORCE__Conditional_Display_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>Entre el ID de Salesforce del documento que desea mostrar a un acuerdo sobre una ruta en particular en el flujo de trabajo de los créditos minoristas.</help>
+        <label>Diez guión de recursos</label>
+        <name>nFORCE__Document__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla de verificación para forzar al usuario a revisar y aceptar el documento dentro del plazo ruta antes de poder continuar.</help>
+        <label>Un recurso estático Javascript para carg</label>
+        <name>nFORCE__Review_And_Accept_Document__c</name>
+    </fields>
+    <fields>
+        <help>Esta es la ruta de interfaz de usuario que muestra el documento de divulgación Salesforce.</help>
+        <label>Un recurso estático Javascript para carg</label>
+        <name>nFORCE__Route__c</name>
+        <relationshipLabel>Términos de ruta</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Trece guión de recursos</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

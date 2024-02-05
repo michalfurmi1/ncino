@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Este campo obligatorio contiene una referencia a la plantilla Requisito que controla esta dependencia.</help>
+        <label>Tipo de salida 1 Display</label>
+        <name>LLC_BI__Controlling_Requirement__c</name>
+        <relationshipLabel>Requisitos dependientes</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio define el comportamiento de la dependencia entre los requisitos asociados. Se debe copiarse en el campo Tipo de Dependencia en los registros requisito de dependencia creados a partir de esta plantilla.</help>
+        <label>Tipo de salida 2 Display</label>
+        <name>LLC_BI__Dependency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Finish to Finish</masterLabel>
+            <translation>Fin a Fin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finish to Start</masterLabel>
+            <translation>Finalizar para iniciar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start to Finish</masterLabel>
+            <translation>Empezar a acabar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start to Start</masterLabel>
+            <translation>Comience a empezar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Este campo obligatorio contiene una referencia a la plantilla de Requisito que es controlado por esta dependencia.</help>
+        <label>Salida 2 Nombre</label>
+        <name>LLC_BI__Dependent_Requirement__c</name>
+        <relationshipLabel>El control de Requisitos</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

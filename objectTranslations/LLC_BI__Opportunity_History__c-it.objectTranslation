@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Modifica importo</label>
+        <name>LLC_BI__Amount_Change__c</name>
+    </fields>
+    <fields>
+        <label>Importo</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <label>Orario di inizio</label>
+        <name>LLC_BI__Change_Time__c</name>
+    </fields>
+    <fields>
+        <label>Deposito</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>Storico opportunità</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Orario fine</label>
+        <name>LLC_BI__End_Time__c</name>
+    </fields>
+    <fields>
+        <help>Codice assegnato - indica l’ultimo inserimento per una singola fase di un determinato prestito.</help>
+        <label>Modifica fase finale</label>
+        <name>LLC_BI__Final_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label>è perfezionato</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>è chiuso</label>
+        <name>LLC_BI__Is_Closed__c</name>
+    </fields>
+    <fields>
+        <label>è escluso dalla durata della fase</label>
+        <name>LLC_BI__Is_Excluded_From_Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Prestito</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>Storico opportunità</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ID opportunità</label>
+        <name>LLC_BI__OpportunityId__c</name>
+    </fields>
+    <fields>
+        <label>Minuti esclusi durata fase precedente</label>
+        <name>LLC_BI__Previous_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Codice assegnato - conserva i minuti di durata della fase precedente per la propria fase di un singolo prestito.</help>
+        <label>Minuti durata fase precedente</label>
+        <name>LLC_BI__Previous_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Codice assegnato - conserva i minuti di durata della fase precedente per la propria fase di un singolo prestito (solo ore non lavorative).</help>
+        <label>Minuti non lavorativi durata fase preced</label>
+        <name>LLC_BI__Previous_Stage_Duration_Non_Business_Min__c</name>
+    </fields>
+    <fields>
+        <label>Catalogo prodotti</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>Storico opportunità</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Record minuti esclusi durata</label>
+        <name>LLC_BI__Record_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Nome fase</label>
+        <name>LLC_BI__StageName__c</name>
+    </fields>
+    <fields>
+        <label>Fase e status</label>
+        <name>LLC_BI__Stage_And_Status__c</name>
+    </fields>
+    <fields>
+        <label>Modifica fase</label>
+        <name>LLC_BI__Stage_Change__c</name>
+    </fields>
+    <fields>
+        <help>Codice assegnato - conserva le ore di durata della fase per ogni inserimento della fase, per un singolo prestito.</help>
+        <label>Record ore di durata</label>
+        <name>LLC_BI__Stage_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Codice assegnato - conserva i minuti di durata della fase per ogni inserimento della fase, per un singolo prestito.</help>
+        <label>Record minuti di durata</label>
+        <name>LLC_BI__Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Record minuti non lavorativi della durat</label>
+        <name>LLC_BI__Stage_Duration_Non_Business_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Record giorni di durata</label>
+        <name>LLC_BI__Stage_Duration__c</name>
+    </fields>
+    <fields>
+        <label>Nome status</label>
+        <name>LLC_BI__StatusName__c</name>
+    </fields>
+    <fields>
+        <label>Modifica status</label>
+        <name>LLC_BI__Status_Change__c</name>
+    </fields>
+    <fields>
+        <help>Codice assegnato - conserva la somma dei giorni di durata della fase per ogni modifica di fase finale, per un singolo prestito.</help>
+        <label>Somma giorni di durata della fase</label>
+        <name>LLC_BI__Sum_Stage_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <label>Somma giorni esclusi durata della fase</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Days__c</name>
+    </fields>
+    <fields>
+        <label>Somma ore escluse durata della fase</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Hours__c</name>
+    </fields>
+    <fields>
+        <label>Somma minuti esclusi durata della fase</label>
+        <name>LLC_BI__Sum_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <help>Codice assegnato - conserva la somma delle ore di durata della fase per ogni modifica di fase finale, per un singolo prestito.</help>
+        <label>Somma ore durata della fase</label>
+        <name>LLC_BI__Sum_Stage_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help>Codice assegnato - conserva la somma dei minuti di durata della fase per ogni modifica di fase finale, per un singolo prestito.</help>
+        <label>Somma minuti durata della fase</label>
+        <name>LLC_BI__Sum_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Somma giorni non lavorativi durata della</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Days__c</name>
+    </fields>
+    <fields>
+        <label>Somma ore non lavorative durata della fa</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Hours__c</name>
+    </fields>
+    <fields>
+        <label>Somma minuti non lavorativi durata della</label>
+        <name>LLC_BI__Sum_Stage_Duration_Non_Business_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Totale minuti esclusi durata della fase</label>
+        <name>LLC_BI__Total_Stage_Duration_Excluded_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Totale minuti durata della fase</label>
+        <name>LLC_BI__Total_Stage_Duration_Minutes__c</name>
+    </fields>
+    <fields>
+        <label>Totale minuti non lavorativi durata dell</label>
+        <name>LLC_BI__Total_Stage_Duration_Non_Business_Min__c</name>
+    </fields>
+    <fields>
+        <label>Servizio tesoreria</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Utente</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

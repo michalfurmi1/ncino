@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>LLC_BI__Is_Single_Value__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Matrix_Type__c</name>
+        <picklistValues>
+            <masterLabel>Base Rate Matrix</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income Policy</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Adjustment</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>LLC_BI__Strategy__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

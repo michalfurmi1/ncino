@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>EFPIO__CorrelationId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>EFPIO__EventId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>EFPIO__EventLogId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>EFPIO__PerformAsync__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>EFPIO__Status__c</name>
+    </fields>
+</CustomObjectTranslation>

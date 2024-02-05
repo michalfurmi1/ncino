@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label>Región</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>Servicio de caja de seguridad</relationshipLabel>
+    </fields>
+    <fields>
+        <label>tasa de reclamo</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>Al por menor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale</masterLabel>
+            <translation>Venta al por mayor</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Este campo poblada sistema muestra el ti</label>
+        <name>LLC_BI__Vendor_Selection__c</name>
+        <picklistValues>
+            <masterLabel>FIS</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulus</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <help>Ce champ doit contenir le nom de la fonction de traduction type de métadonnées personnalisées qu&apos;il est lié à.</help>
+        <label>traduisible Champ</label>
+        <name>nFORCE__Feature_Translation__c</name>
+    </fields>
+    <fields>
+        <help>Réglez ce paramètre sur la langue que la valeur est traduite. Le format doit être ISO 639-1 pour la langue suivie d&apos;un tiret suivi du code du pays ISO alpha-2. Exemple: (en-US).</help>
+        <label>La langue</label>
+        <name>nFORCE__Language__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ de texte facultatif contient la valeur du champ dans la langue d&apos;origine.</help>
+        <label>Texte original</label>
+        <name>nFORCE__Original_Text__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ de texte facultatif contient la valeur du champ dans la langue traduite.</help>
+        <label>texte traduit</label>
+        <name>nFORCE__Translated_Text__c</name>
+    </fields>
+    <fields>
+        <label>traduction clé</label>
+        <name>nFORCE__Translation_Key__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

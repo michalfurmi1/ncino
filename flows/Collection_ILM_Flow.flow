@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <description>Go through the loan object and update the following information</description>
+        <name>Loop_Loan_Record</name>
+        <label>Loop Loan Record</label>
+        <locationX>461</locationX>
+        <locationY>289</locationY>
+        <assignmentItems>
+            <assignToReference>LoopyLoanRecord.Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Loop_Entity_Involvment.00Nd0000006OByy__NotFound</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>LoopyLoanRecord.Move_to_Collections__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>LoopyLoanRecord.LLC_BI__Stage__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Internal Collections</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>LoopyLoanRecord.Action_for_loan__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Place on Early Warning List</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>LoopyLoanRecord.Place_on_to_Early_Warning_List__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Early Warning 1</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Sum_loan_record</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Collate all the information in the loan record</description>
+        <name>Sum_loan_record</name>
+        <label>Sum loan record</label>
+        <locationX>631</locationX>
+        <locationY>589</locationY>
+        <assignmentItems>
+            <assignToReference>LoanRecord</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>LoopyLoanRecord</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Entity_Involvment</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Covenant_Status_is_Exception</name>
+        <label>Covenant Status is Exception</label>
+        <locationX>479</locationX>
+        <locationY>34</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Covenant_Status_is_Exception_Decision</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>CovenantCompliance2.LLC_BI__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Exception</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Covenant</targetReference>
+            </connector>
+            <label>Covenant Status is Exception</label>
+        </rules>
+    </decisions>
+    <description>This is used in the collection/ilm loan journey</description>
+    <interviewLabel>Collection/ILM Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Collection/ILM Flow</label>
+    <loops>
+        <name>Loop_Entity_Involvment</name>
+        <label>Loop Entity Involvment</label>
+        <locationX>766</locationX>
+        <locationY>282</locationY>
+        <collectionReference>Get_Legal_Entity</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Loop_Loan_Record</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_loan_record</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Get covenant id from covenant management object</description>
+        <name>Get_Covenant</name>
+        <label>Get Covenant</label>
+        <locationX>762</locationX>
+        <locationY>108</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Relationship_Covenant</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.LLC_BI__Covenant__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>LLC_BI__Covenant2__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Legal_Entity</name>
+        <label>Get Legal Entity</label>
+        <locationX>1287</locationX>
+        <locationY>129</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Entity_Involvment</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LLC_BI__Account__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Relationship_Covenant.LLC_BI__Account__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>LLC_BI__Loan__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>LLC_BI__Legal_Entities__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Get relationship covenant</description>
+        <name>Get_Relationship_Covenant</name>
+        <label>Get Relationship Covenant</label>
+        <locationX>1067</locationX>
+        <locationY>28</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Legal_Entity</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LLC_BI__Covenant2__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Covenant.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>LLC_BI__Account_Covenant__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_loan_record</name>
+        <label>Update loan record</label>
+        <locationX>1266</locationX>
+        <locationY>289</locationY>
+        <connector>
+            <targetReference>Update_Relationship</targetReference>
+        </connector>
+        <inputReference>LoanRecord</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Relationship</name>
+        <label>Update Relationship</label>
+        <locationX>1024</locationX>
+        <locationY>490</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Relationship_Covenant.LLC_BI__Account__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>LLC_BI__Review_Status__c</field>
+            <value>
+                <stringValue>In Review</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Covenant_Status_is_Exception</targetReference>
+        </connector>
+        <object>LLC_BI__Covenant_Compliance2__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>Covenant Compliance2</description>
+        <name>CovenantCompliance2</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>LLC_BI__Covenant_Compliance2__c</objectType>
+    </variables>
+    <variables>
+        <name>LoanRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>LLC_BI__Loan__c</objectType>
+    </variables>
+    <variables>
+        <name>LoopyLoanRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>LLC_BI__Loan__c</objectType>
+    </variables>
+</Flow>

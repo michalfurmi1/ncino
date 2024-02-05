@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>Uso actual</label>
+        <name>LLC_BI__Amount_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label>Número CUSIP</label>
+        <name>LLC_BI__Amount_Funded__c</name>
+    </fields>
+    <fields>
+        <label>Número de cuenta de depósito</label>
+        <name>LLC_BI__Amount_Requested__c</name>
+    </fields>
+    <fields>
+        <label>Plazo de depreciación</label>
+        <name>LLC_BI__Budget_Line_Item_Description__c</name>
+    </fields>
+    <fields>
+        <label>Profundidad</label>
+        <name>LLC_BI__Budget_Line_Item__c</name>
+        <relationshipLabel>Las solicitudes de presupuesto de transacción</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vivienda</label>
+        <name>LLC_BI__Percent_Funded__c</name>
+    </fields>
+    <fields>
+        <label>Importe de la Opción A principios Buyout</label>
+        <name>LLC_BI__Percent_Requested__c</name>
+    </fields>
+    <fields>
+        <label>Principios de opción de compra porcentaj</label>
+        <name>LLC_BI__Transaction_Request__c</name>
+        <relationshipLabel>Las solicitudes de presupuesto de transacción</relationshipLabel>
+    </fields>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>
