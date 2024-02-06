@@ -1,0 +1,12 @@
+!!com.rabit.featuremigration.beans.vcstructure.ConfigManifest
+packageDirectories:
+  packagePaths:
+    dataset:
+      features:
+        10u7fV1V-Document Manager:
+          path: dataset/10u7fV1V-Document Manager
+          prefix: ncino
+          standardFeature: false
+          versions:
+            Spring 2023 Rel - v1:
+              modifiedDate: '2024-02-06 16:25:49'

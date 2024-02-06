@@ -1,0 +1,59 @@
+{
+  "name": "1_LLC_BI__DocTab__c",
+  "attributes": [
+    "Id",
+    "OwnerId",
+    "IsDeleted",
+    "Name",
+    "CreatedDate",
+    "CreatedById",
+    "LastModifiedDate",
+    "LastModifiedById",
+    "SystemModstamp",
+    "LLC_BI__columns__c",
+    "LLC_BI__defaultOwner__c",
+    "LLC_BI__docManager__c",
+    "LLC_BI__lookupId__c",
+    "LLC_BI__lookupKey__c",
+    "LLC_BI__sortOrder__c",
+    "LLC_BI__status__c"
+  ],
+  "records": {
+    "1": {
+      "CreatedById": "0053g000000ln7zAAA",
+      "CreatedDate": "2020-10-12T19:27:33.000Z",
+      "Id": "a0J3g000000cflTEAQ",
+      "IsDeleted": "",
+      "LLC_BI__columns__c": "existing",
+      "LLC_BI__defaultOwner__c": "",
+      "LLC_BI__docManager__c": "",
+      "LLC_BI__lookupId__c": "",
+      "LLC_BI__lookupKey__c": "3mo0zavk5u37dasr8c",
+      "LLC_BI__sortOrder__c": "001",
+      "LLC_BI__status__c": "Open;Approved;Exception;In File;Waived",
+      "LastModifiedById": "0053g000000ln7zAAA",
+      "LastModifiedDate": "2022-11-01T07:41:50.000Z",
+      "Name": "Servicing",
+      "OwnerId": "0053g000000ln7zAAA",
+      "SystemModstamp": ""
+    },
+    "2": {
+      "CreatedById": "0053g000000ln7zAAA",
+      "CreatedDate": "2020-10-12T19:27:33.000Z",
+      "Id": "a0J3g000000cflVEAQ",
+      "IsDeleted": "",
+      "LLC_BI__columns__c": "",
+      "LLC_BI__defaultOwner__c": "",
+      "LLC_BI__docManager__c": "a0I3g000000ThxjEAC",
+      "LLC_BI__lookupId__c": "",
+      "LLC_BI__lookupKey__c": "q67wzbt0udk9ywc2gv",
+      "LLC_BI__sortOrder__c": "",
+      "LLC_BI__status__c": "",
+      "LastModifiedById": "0053g000000ln7zAAA",
+      "LastModifiedDate": "2022-11-01T07:41:50.000Z",
+      "Name": "Construction",
+      "OwnerId": "0053g000000ln7zAAA",
+      "SystemModstamp": ""
+    }
+  }
+}
